@@ -1,278 +1,160 @@
 #!/usr/bin/env python3
-"""
-MBset Deep Noise Removal Utility
-Performs automated inspection, cleaning, and normalization of question Markdown files
-according to the MBset Medical Module Curation Standard.
+"""Deep noise removal for canonical question markdown (`### Qn:` blocks).
+
+Uses the same cleaning rules as the parser (`mbset/noise.py`): Moodle / scanner /
+phone chrome, leading numbering, bubble artifacts, answer-key dumps, invisible
+unicode, Arabic, and medical-notation repair (Ca²⁺, β1, µm, →).
+
+Safety rules (the old version broke both):
+  * `Correct Answer` is never invented — an unknown answer stays `?`.
+  * When empty options are removed and the rest are repacked to A.., the correct
+    letter moves with its option; if the correct option itself is removed the
+    answer becomes `?` and the question is reported.
+
+Default is a dry run that prints what would change; pass --write to apply.
+Legacy `### Question N` files are converted to the canonical layout.
+
+    python clean_markdown_noise.py --dir "<Module>/Markdown_Questions"            # report
+    python clean_markdown_noise.py --dir "<Module>/Markdown_Questions" --write    # apply
 """
 
-import os
-import sys
-import re
-import glob
+from __future__ import annotations
+
 import argparse
+import difflib
+import re
+import sys
+from pathlib import Path
 
-ARABIC_REGEX = re.compile(r'[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]')
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-def clean_text_common(text: str) -> str:
-    if not text:
-        return ""
-    # Strip invisible unicode
-    text = text.replace('\u200b', '').replace('\ufeff', '').replace('\xa0', ' ')
-    # Normalize quotes
-    text = text.replace('“', '"').replace('”', '"').replace('‘', "'").replace('’', "'")
-    return text
+from mbset.common import ARABIC  # noqa: E402
+from mbset.noise import clean_text, is_noise_line  # noqa: E402
 
-def remove_arabic(text: str) -> str:
-    if not text:
-        return ""
-    return ARABIC_REGEX.sub('', text)
+HEAD = re.compile(r"^###\s*Q(?:uestion)?\s*(\d+)\s*[:.]?\s*(.*)$", re.M)
+OPT = re.compile(r"^\s*-\s*\*\*([A-Fa-f])\)\*\*\s*(.*)$")
+FIELD = re.compile(r"^\*\*([A-Za-z /]+?)(?::\*\*|\*\*:)\s*(.*)$")
+FIELD_NAMES = {"correct answer": "Correct Answer", "answer source": "Answer Source", "image": "Image",
+               "source pages": "Source Pages", "exp": "EXP", "explanation": "EXP", "model answer": "EXP",
+               "year": "Year", "tag": "Tag", "tagsuggere": "tagSuggere", "note": "Note"}
 
-def parse_inline_options(rest: str) -> dict:
-    """
-    Parses inline options following 'Select one:' (e.g. 'a. Option A b. Option B ...')
-    """
-    rest = re.sub(r'[@©®O\–\—\•\·\>]+', ' ', rest)
-    rest = re.sub(r'c¢\.', 'c.', rest)
-    rest = re.sub(r'dq\.', 'd.', rest)
-    
-    opt_matches = list(re.finditer(r'(?:^|\s+)([a-fA-F])[\.\)]\s*(.*?)(?=(?:\s+[a-fA-F][\.\)]|\Z))', rest, re.S))
-    options = {}
-    for om in opt_matches:
-        let = om.group(1).upper()
-        otext = re.sub(r'\s+', ' ', om.group(2)).strip()
-        otext = re.sub(r'\b(?:Your answer is|The correct answer is).*', '', otext, flags=re.I).strip()
-        otext = re.sub(r'[@©®\–\—\•\·\>]+', '', otext).strip()
-        otext = re.sub(r'\b(?:Select\s+one|Quiz\s+\d+).*', '', otext, flags=re.I).strip()
-        otext = remove_arabic(otext).strip()
-        if len(otext) > 0:
-            options[let] = otext
-    return options
 
-def clean_option_text(otext: str) -> str:
-    if not otext:
-        return ""
-    # 1. Strip matching table headers
-    otext = re.sub(r'(?i)\s*TABLE\s+\d+\s+A\s+B.*', '', otext).strip()
-    # 2. Strip trailing answer key tables
-    otext = re.sub(
-        r'(?i)\s*(?:Answers?\s+of\s+|Answer\s+of\s+|Skeletal\s+system|MUSCULAR\s+SYSTEM|CARDIOVASCULAR\s+SYSTEM|'
-        r'Respiratory\s+system|Digestive\s+system|Urinary\s+system|Reproductive\s+system|Lymphatic\s+system|'
-        r'Nervous\s+system|Introduction\s*&\s*skin|MICROSCOPIC\s+ANSWER|Cytology|Nucleus|Cell\s+cycle|Stem\s+cells|'
-        r'BLOOD|CONNECTIVE\s+TISSUE|BONE)\s+(?:[0-9]\s+[0-9]|[A-E]\s+[A-E]).*',
-        '', otext
-    ).strip()
-    # 3. Strip bubble OCR artifacts
-    otext = re.sub(r'[@©®]{2,}|\b[A-E]\s*[\)\]\.]\s*[@©®]', '', otext).strip()
-    otext = re.sub(r'^[@©®\s\.\,\-\)]+', '', otext).strip()
-    # 4. Strip LMS UI markers
-    otext = re.sub(r'\b(?:Select\s+one|Quiz\s+\d+).*', '', otext, flags=re.I).strip()
-    # 5. Remove Arabic
-    otext = remove_arabic(otext).strip()
-    return otext
+def _clean(text: str, stem: bool = False) -> str:
+    return ARABIC.sub("", clean_text(text, stem=stem)).strip()
 
-def clean_markdown_content(content: str) -> str:
-    """
-    Cleans raw or semi-processed markdown content according to MBset noise removal standards.
-    """
-    content = clean_text_common(content)
-    
-    parts = content.split('### Question ')
-    if len(parts) <= 1:
-        # Fallback if questions are not formatted as '### Question '
-        return content
-        
-    header = parts[0]
-    cleaned_questions = []
-    prev_exp = ''
-    
-    for i in range(1, len(parts)):
-        body = parts[i]
-        
-        # 1. Filter out pure garbage/corrupted blocks
-        if re.search(r'TABLE\s+\d+\s+A\s+B\s+\d+\-\s+Flexion|The correct answer is:\s*mrNA Actin is thin filaments|qhe ovulated mammatia', body, re.I):
+
+def clean_block(num: int, first: str, body: str, problems: list[str]) -> str | None:
+    stem_lines = [first] if first.strip() else []
+    options: list[tuple[str, str]] = []
+    fields: dict[str, str] = {}
+    current = "stem"
+    for raw in body.splitlines():
+        line = raw.rstrip()
+        if not line.strip() or line.strip() == "---":
             continue
-            
-        # Filter orphan matching table fragment with only E/F options
-        if re.search(r'-\s*\*\*([EF])\)\*\*.*TABLE\s+\d+\s+A\s+B', body, re.I) and len(re.findall(r'-\s*\*\*[A-F]\)\*\*', body)) <= 2:
-            continue
-            
-        # 2. Extract explanation and correct answer
-        exp_m = re.search(r'\*\*(?:Explanation|Model Answer|Content / Short Answer)\*\*:\s*(.*?)(?=\n\*\*|\Z)', body, re.S)
-        curr_exp = exp_m.group(1).strip() if exp_m else ''
-        curr_exp = remove_arabic(curr_exp).strip()
-        
-        cor_m = re.search(r'\*\*Correct Answer\*\*:\s*([A-Fa-f]|-|Unspecified)?', body)
-        curr_cor = cor_m.group(1).upper() if cor_m and cor_m.group(1) else 'Unspecified'
-        
-        # 3. Clean Moodle chrome & status bar artifacts from body
-        body_clean = re.sub(r'Lorem Ipsum.*?passages\.?', '', body, flags=re.S|re.I)
-        body_clean = re.sub(r'Lorem Ipsum is simply dummy text.*?industry\.', '', body_clean, flags=re.S|re.I)
-        body_clean = re.sub(r'Home\s*[»]\s*My courses\s*[»].*?Quiz\s*\d+', '', body_clean, flags=re.S|re.I)
-        body_clean = re.sub(r'Quick Links\s+About Us.*?Contact[^\n]*', '', body_clean, flags=re.S|re.I)
-        body_clean = re.sub(r'\b(?:Friday|Saturday|Sunday|Monday|Tuesday|Wednesday|Thursday),\s+\d+\s+[A-Za-z]+\s+\d{4},\s+\d{1,2}:\d{2}\s*(?:AM|PM)', '', body_clean, flags=re.I)
-        body_clean = re.sub(r'\b\d+\s+mins?\s+\d+\s+secs?\b', '', body_clean, flags=re.I)
-        body_clean = re.sub(r'\bMarks?\s*=\s*\d+[\.\d]*/\d+[\.\d]*', '', body_clean, flags=re.I)
-        body_clean = re.sub(r'\bGrade\s+\d+[\.\d]*\s+out\s+of\s+\d+[\.\d]*[^\n]*', '', body_clean, flags=re.I)
-        body_clean = re.sub(r'\bState\s+Finished\b', '', body_clean, flags=re.I)
-        body_clean = re.sub(r'\b(?:Mark|Flag question)\b[^\n]*', '', body_clean, flags=re.I)
-        body_clean = re.sub(r'\b\d{1,2}:\d{2}\s*(?:AM|PM)?\s*(?:[®©@\-\*\–\—\•\·\>\<\»\«\:]|g\s+tl|tl|\«at\!|\bCD\:|\b4G\b|\bLTE\b|\bwifi\b)*', '', body_clean, flags=re.I)
-        body_clean = re.sub(r'^\s*(?:K|BREAK|REAK)\s*---\s*', '', body_clean, flags=re.M)
-        body_clean = re.sub(r'(?i)\b(?:scanned\s+with|scanned\s+by|cs)?\s*(?:camscanner|anyscanner)\b[^\n]*', '', body_clean)
-        
-        # 4. Extract existing options
-        existing_opts = {}
-        for l in body_clean.splitlines():
-            m_opt = re.match(r'^- \*\*([A-Fa-f])\)\*\s*(.*)', l.strip())
-            if m_opt:
-                let = m_opt.group(1).upper()
-                otext = clean_option_text(m_opt.group(2).strip())
-                if otext:
-                    existing_opts[let] = otext
-                    
-        # 5. Extract and clean question stem
-        lines = [l.strip() for l in body_clean.splitlines() if l.strip()]
-        if lines and re.match(r'^\d+$', lines[0]):
-            lines = lines[1:]
-            
-        stem_lines = []
-        for l in lines:
-            if l.startswith('- **') or l.startswith('**Correct') or l.startswith('**Explanation') or l.startswith('**Model') or l.startswith('---'):
-                break
-            stem_lines.append(l)
-            
-        raw_stem = ' '.join(stem_lines).strip()
-        # Strip leading numbering (e.g. "1.", "25-", "Q10:")
-        raw_stem = re.sub(r'^\d+[\.\-\)]\s*', '', raw_stem).strip()
-        raw_stem = re.sub(r'^(?:Question|Q\d+)[\s\:\-\.]*', '', raw_stem, flags=re.I).strip()
-        
-        # Strip decoupled preceding explanations
-        if prev_exp and len(prev_exp) > 3:
-            while raw_stem.lower().startswith(prev_exp.lower()):
-                raw_stem = raw_stem[len(prev_exp):].strip()
-            if raw_stem.lower().startswith(prev_exp.lower()[:15]) and len(prev_exp) >= 15:
-                raw_stem = raw_stem[len(prev_exp):].strip()
-                
-        # Clean Moodle filler words
-        raw_stem = re.sub(r'^(?:NA|sssssseeeee)\s*', '', raw_stem, flags=re.I).strip()
-        raw_stem = re.sub(r'\bC@ll\b', 'Cell', raw_stem)
-        
-        # Clean table and answer key dumps from stem
-        raw_stem = re.sub(r'(?i)\s*TABLE\s+\d+\s+A\s+B.*', '', raw_stem).strip()
-        raw_stem = re.sub(
-            r'(?i)\s*(?:Answers?\s+of\s+|Answer\s+of\s+|Skeletal\s+system|MUSCULAR\s+SYSTEM|CARDIOVASCULAR\s+SYSTEM|'
-            r'Respiratory\s+system|Digestive\s+system|Urinary\s+system|Reproductive\s+system|Lymphatic\s+system|'
-            r'Nervous\s+system|Introduction\s*&\s*skin|MICROSCOPIC\s+ANSWER|Cytology|Nucleus|Cell\s+cycle|Stem\s+cells|'
-            r'BLOOD|CONNECTIVE\s+TISSUE|BONE)\s+(?:[0-9]\s+[0-9]|[A-E]\s+[A-E]).*',
-            '', raw_stem
-        ).strip()
-        
-        # 6. Parse inline options if "Select one:" present
-        if 'Select one:' in raw_stem and len(existing_opts) < 2:
-            m_sel = re.search(r'(.*?)\s*Select one:\s*(.*)', raw_stem, re.S|re.I)
-            if m_sel:
-                raw_stem = m_sel.group(1).strip()
-                rest = m_sel.group(2).strip()
-                inline_opts = parse_inline_options(rest)
-                if len(inline_opts) >= 2:
-                    existing_opts = inline_opts
-                    
-        # Final stem normalization
-        clean_stem_str = re.sub(r'\bSelect\s+one:?.*', '', raw_stem, flags=re.I).strip()
-        clean_stem_str = re.sub(r'[@©®]{2,}|\b[A-E]\s*[\)\]\.]\s*[@©®]', '', clean_stem_str).strip()
-        clean_stem_str = remove_arabic(clean_stem_str).strip()
-        clean_stem_str = re.sub(r'^[^a-zA-Z0-9\(\[\?]+', '', clean_stem_str).strip()
-        clean_stem_str = re.sub(r'\s+', ' ', clean_stem_str).strip()
-        
-        # Drop trivial unrecoverable fragments
-        if len(clean_stem_str) < 5 or clean_stem_str.lower() in ['complete:', 't:', 'f:']:
-            continue
-            
-        # 7. Format options sequentially and adjust correct answer
-        opts = {}
-        if len(existing_opts) >= 2:
-            old_keys = sorted(existing_opts.keys())
-            for idx, ok in enumerate(old_keys):
-                nk = chr(ord('A') + idx)
-                opts[nk] = existing_opts[ok]
-                if curr_cor == ok:
-                    curr_cor = nk
-                    
-            if curr_cor not in opts:
-                matched = None
-                if curr_exp:
-                    for let, otext in opts.items():
-                        if curr_exp.lower() == otext.lower() or curr_exp.lower() in otext.lower() or otext.lower() in curr_exp.lower():
-                            matched = let
-                            break
-                curr_cor = matched if matched else 'A'
+        m = OPT.match(line)
+        f = FIELD.match(line.strip())
+        if m:
+            options.append((m.group(1).upper(), m.group(2)))
+            current = "opt"
+        elif f and f.group(1).strip().lower() in FIELD_NAMES:
+            current = FIELD_NAMES[f.group(1).strip().lower()]
+            fields[current] = f.group(2)
+        elif current == "stem":
+            if not is_noise_line(line):
+                stem_lines.append(line.strip())
+        elif current == "opt":
+            options[-1] = (options[-1][0], options[-1][1] + " " + line.strip())
+        else:                                   # continuation of a field (multi-line EXP)
+            fields[current] = fields.get(current, "") + "\n" + line
+    stem = _clean(" ".join(stem_lines), stem=True)
+    if len(stem) < 3:
+        problems.append(f"Q{num}: stem empty after cleaning — block dropped, check the source")
+        return None
+    correct = (fields.get("Correct Answer") or "").strip().upper()
+    kept: list[tuple[str, str]] = []
+    for letter, text in options:
+        t = _clean(text)
+        if t:
+            kept.append((letter, t))
+        elif letter == correct:
+            problems.append(f"Q{num}: the correct option {letter} was empty — answer reset to ?")
+            correct = "?"
+    new_correct = correct
+    if correct and correct not in ("?", "-"):
+        old = [x for x, _ in kept]
+        if correct in old:
+            new_correct = "ABCDEF"[old.index(correct)]
         else:
-            opts = {}
-            curr_cor = '-'
-            
-        cleaned_questions.append({
-            'stem': clean_stem_str,
-            'opts': opts,
-            'cor': curr_cor,
-            'exp': curr_exp
-        })
-        prev_exp = curr_exp
-        
-    out = []
-    # Update question count in header
-    updated_header = re.sub(r'- \*\*Total Questions\*\*:\s*\d+', f'- **Total Questions**: {len(cleaned_questions)}', header)
-    out.append(updated_header.strip())
-    out.append('')
-    out.append('---')
-    out.append('')
-    
-    for idx, q in enumerate(cleaned_questions, 1):
-        out.append(f'### Question {idx}')
-        out.append('')
-        out.append(q['stem'])
-        out.append('')
-        if q['opts']:
-            for let in sorted(q['opts'].keys()):
-                out.append(f'- **{let})** {q["opts"][let]}')
-            out.append('')
-        out.append(f'**Correct Answer**: {q["cor"]}')
-        if q['exp']:
-            out.append(f'**Explanation**: {q["exp"]}')
-        out.append('')
-        out.append('---')
-        out.append('')
-        
-    return '\n'.join(out).strip() + '\n'
-
-def process_file(filepath: str, in_place: bool = True, output_path: str = None):
-    with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
-        content = f.read()
-    cleaned = clean_markdown_content(content)
-    target = filepath if in_place else (output_path or filepath + '.cleaned')
-    with open(target, 'w', encoding='utf-8') as f:
-        f.write(cleaned)
-    print(f"Cleaned: {filepath} -> {target}")
-
-def main():
-    parser = argparse.ArgumentParser(description="MBset Deep Noise Removal Utility for Markdown Questions")
-    parser.add_argument("--file", help="Path to a single markdown file")
-    parser.add_argument("--dir", help="Path to directory containing markdown files")
-    parser.add_argument("--pattern", default="*.md", help="Glob pattern when using --dir (default: *.md)")
-    parser.add_argument("--in-place", action="store_true", default=True, help="Overwrite files in place")
-    
-    args = parser.parse_args()
-    
-    if args.file:
-        process_file(args.file, in_place=args.in_place)
-    elif args.dir:
-        files = sorted(glob.glob(os.path.join(args.dir, args.pattern)))
-        # Filter out 00_ catalog files
-        files = [f for f in files if not os.path.basename(f).startswith('00_')]
-        print(f"Found {len(files)} files to process in {args.dir}")
-        for fp in files:
-            process_file(fp, in_place=args.in_place)
+            problems.append(f"Q{num}: Correct {correct} is not among its options — reset to ?")
+            new_correct = "?"
+    out = [f"### Q{num}: {stem}", ""]
+    for i, (_, text) in enumerate(kept):
+        out.append(f"- **{'ABCDEF'[i]})** {text}")
+    if kept:
+        out.append("")
+        out.append(f"**Correct Answer:** {new_correct or '?'}")
+        out.append(f"**Answer Source:** {fields.get('Answer Source', '').strip() or 'none'}")
     else:
-        parser.print_help()
-        sys.exit(1)
+        out.append("**Correct Answer:** -")
+        if fields.get("Answer Source"):
+            out.append(f"**Answer Source:** {fields['Answer Source'].strip()}")
+    for name in ("Image", "Source Pages", "Year", "Tag", "tagSuggere", "Note"):
+        if fields.get(name, "").strip():
+            out.append(f"**{name}:** {fields[name].strip()}")
+    if fields.get("EXP", "").strip():
+        # keep numbered lists in model answers: clean line by line
+        exp_lines = [ARABIC.sub("", ln).rstrip() for ln in fields["EXP"].strip().splitlines()]
+        out.append("**EXP:** " + "\n".join(ln for ln in exp_lines if ln.strip()))
+    return "\n".join(out + ["", "---", ""])
 
-if __name__ == '__main__':
-    main()
+
+def clean_markdown(text: str) -> tuple[str, list[str]]:
+    heads = list(HEAD.finditer(text))
+    if not heads:
+        return text, ([] if re.search(r"EXCLUDED|DUPLICATE", text[:400]) else ["no question headings found"])
+    head = ARABIC.sub("", text[:heads[0].start()])
+    problems: list[str] = []
+    blocks = []
+    for j, m in enumerate(heads):
+        body = text[m.end():heads[j + 1].start() if j + 1 < len(heads) else len(text)]
+        b = clean_block(len(blocks) + 1, m.group(2), body, problems)
+        if b:
+            blocks.append(b)
+    return head.rstrip() + "\n\n" + "\n".join(blocks).rstrip() + "\n", problems
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--file")
+    ap.add_argument("--dir")
+    ap.add_argument("--pattern", default="*.md")
+    ap.add_argument("--write", action="store_true", help="apply the changes (default: dry run)")
+    ap.add_argument("--diff", action="store_true", help="print a unified diff per file")
+    args = ap.parse_args()
+    files = [Path(args.file)] if args.file else sorted(p for p in Path(args.dir).glob(args.pattern)
+                                                       if not p.name.startswith("00_")) if args.dir else []
+    if not files:
+        ap.print_help()
+        return 1
+    changed = 0
+    for p in files:
+        old = p.read_text(encoding="utf-8", errors="replace")
+        new, problems = clean_markdown(old)
+        if new != old:
+            changed += 1
+            n = sum(1 for _ in difflib.unified_diff(old.splitlines(), new.splitlines(), n=0)) // 2
+            print(f"[{'+' if args.write else '~'}] {p.name}: ~{n} changed line(s)")
+            if args.diff:
+                sys.stdout.writelines(difflib.unified_diff(old.splitlines(True), new.splitlines(True), p.name, p.name))
+            if args.write:
+                p.write_text(new, encoding="utf-8")
+        for pr in problems:
+            print(f"    ! {p.name}: {pr}")
+    print(f"[=] {changed}/{len(files)} file(s) {'cleaned' if args.write else 'would change (dry run; --write to apply)'}")
+    print("    note: a markdown written by mbset.py records its hash — run `mbset.py parse` again or accept it with --force")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

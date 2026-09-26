@@ -1,0 +1,4 @@
+# Slide deck: one question per slide; an "Answer: C" line is a printed key.
+text: pptx
+answers:
+  marked_by: [bold, color]

@@ -1,0 +1,5 @@
+# Word file: paragraphs in order, Word auto-numbering restored ("1.", "a)").
+# Correct options are usually bold / highlighted / coloured runs.
+text: docx
+answers:
+  marked_by: [highlight, bold, color, underline]

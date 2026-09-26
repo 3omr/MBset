@@ -11,7 +11,7 @@ Raw OCR or direct PDF-to-Excel extraction inevitably injects corrupted fragments
 **The Rule**:
 1. Every source file must first be extracted to an independent `.md` file in `<Module>/Markdown_Questions/<Index>_<Name>.md`.
 2. Strictly no merging or grouping in Stage 1.
-3. The agent owns noise removal on every Markdown file: clean while structuring the OCR/text, run `clean_markdown_noise.py`, inspect the full cleaned output against the source, and repair residual noise. The script supplements manual review; never leave routine cleanup for the user.
+3. The agent owns noise removal on every Markdown file. With `mbset.py` the parser already applies these rules (`scripts/mbset/noise.py`) and `mbset.py check` fails on any surviving noise signature; add recurring junk to the source profile's `skip_patterns` and re-parse. For markdown produced another way, `clean_markdown_noise.py --dir …` reports changes (dry run) and `--write` applies them — it never changes an answer. Never leave routine cleanup for the user.
 4. Completeness and accuracy must be verified against source page counts.
 5. Only then may questions be aggregated into `<Module>_Questions.xlsx`.
 
