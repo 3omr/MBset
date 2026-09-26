@@ -59,7 +59,7 @@ file whose header says `EXCLUDED — <reason>`.
 2. **Never trust `pdftotext -layout` on a multi-column PDF.** Probe the layout first
    (`pdfinfo`, render a page with `pdftoppm -png -r 150` and actually look at it). Use
    PyMuPDF `page.get_text("blocks")` with coordinates, or
-   `/home/omar/MBset/.agents/skills/mbset-module-curator/scripts/extract_pdf_columns.py`.
+   `/home/omar/MBset/.agents/skills/mbset-module-curator/legacy/extract_pdf_columns.py`.
 3. **Never skip a source.** Three counters must agree: highest question number in the
    source, option-`A` blocks in the extracted text, `### Q` headings in the markdown.
    Print all three. If they disagree, fix the extractor — do not explain it away.

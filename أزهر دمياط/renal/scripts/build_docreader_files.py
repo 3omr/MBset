@@ -79,6 +79,22 @@ def clean_text(s):
     s = re.sub(r'\s+', ' ', s).strip()
     return s
 
+def answer_letter(raw_options, correct_idx):
+    """Letter of the site's correct option, or '?' when the site gives no usable answer.
+
+    `correctOptionIndex` points into the RAW option list (before empty options are dropped). A
+    missing, non-integer or out-of-range index, or one pointing at an empty option, means the site
+    has no answer: return '?' — never default to 0 (= A), never invent an answer.
+    """
+    if isinstance(correct_idx, str) and correct_idx.strip().isdigit():
+        correct_idx = int(correct_idx.strip())
+    if not isinstance(correct_idx, int) or isinstance(correct_idx, bool):
+        return '?'
+    if not 0 <= correct_idx < len(raw_options) or not raw_options[correct_idx]:
+        return '?'
+    kept = sum(1 for opt in raw_options[:correct_idx] if opt)   # position after empties are dropped
+    return chr(65 + kept)
+
 def fetch_and_build():
     os.makedirs('renal/Markdown_Questions', exist_ok=True)
     
@@ -127,11 +143,11 @@ def fetch_and_build():
         
         for idx, q in enumerate(qs, 1):
             stem = clean_text(q.get('text', ''))
-            options = [clean_text(opt) for opt in q.get('options', []) if clean_text(opt)]
-            correct_idx = q.get('correctOptionIndex', 0)
-            if correct_idx is None or correct_idx >= len(options):
-                correct_idx = 0
-            correct_letter = chr(65 + correct_idx)
+            raw_options = [clean_text(opt) for opt in q.get('options', [])]
+            options = [opt for opt in raw_options if opt]
+            correct_letter = answer_letter(raw_options, q.get('correctOptionIndex'))
+            if correct_letter == '?':
+                print(f"  [!] Q{idx}: no usable correctOptionIndex ({q.get('correctOptionIndex')!r}) — answer left '?'")
             exp = clean_text(q.get('explanation', ''))
             
             md_lines.append(f"### Question {idx}")

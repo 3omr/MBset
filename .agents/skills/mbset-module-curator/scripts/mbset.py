@@ -14,6 +14,11 @@
     python mbset.py packets    <Module> --n 4
     python mbset.py build      <Module>
     python mbset.py status     <Module>
+    python mbset.py report     <Module>        # final per-file report (answer sources, derived)
+    python mbset.py tidy       <Module> [--apply] [--lectures-from DIR]   # dry run unless --apply
+    python mbset.py lectures   <Module> plan|match|apply|check
+    python mbset.py doctor     [<Module>]
+    python mbset.py crossdup   <UniversityRoot>...
 
 See ../SKILL.md and ../references/pipeline-v2.md.
 """

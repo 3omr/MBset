@@ -20,7 +20,7 @@ import zipfile
 from pathlib import Path
 from typing import Any
 
-from .common import (ARCHIVE_SUFFIXES, IMAGE_SUFFIXES, SOURCE_SUFFIXES, SUBJECTS, Module, now,
+from .common import (ARABIC, ARCHIVE_SUFFIXES, IMAGE_SUFFIXES, SOURCE_SUFFIXES, SUBJECTS, Module, now,
                      safe_name, sha256)
 
 SKIP_DIRS = {".mbset", "Markdown_Questions", "Images", "OCR_PDF", "OCR_Text", "Lectures", "__pycache__"}
@@ -204,59 +204,77 @@ def _classify(path: Path, t: dict[str, Any]) -> str:
 
 
 # --------------------------------------------------------------------------- tags
-_PROF = re.compile(r"(?:\bdr\.?\s*|د\.?\s*)([A-Za-z؀-ۿ]+)", re.I)
+# "Dr X" / "د. خالد" / "د/خالد" — the Arabic "د" only as its own token followed by "." or "/",
+# never the letter inside a word ("الاندوكرين" is not "Dr وكرين").
+_PROF = re.compile(r"(?:\bdr\.?\s*|(?<![؀-ۿ])د\s*[./]\s*)([A-Za-z؀-ۿ]+)", re.I)
 
 
 def suggest_tags(module: Module, rel: str) -> dict[str, Any]:
-    """Filename/folder heuristics. The agent confirms with `mbset.py set`."""
+    """Filename/folder heuristics. The agent confirms with `mbset.py set`.
+
+    A year that is not in the filename is never guessed and never written as a placeholder: the
+    tag is suggested without it (`Professor, Dr X`), with `year: None`, `confidence: low` and
+    `needs_year: True`, and `check` reports it until the agent sets the year. Assiut Quizzes and
+    Formatives legitimately carry no year (AGENTS.md), so they never need one.
+    """
     name = Path(rel).stem
     low = f"{Path(rel).parent} {name}".lower()
     years = re.findall(r"(?<!\d)(20\d{2})(?!\d)", name)
     short = re.search(r"(?<!\d)(\d{2})\s*[-_/ ]\s*(\d{2})(?!\d)", name)
-    year = int(years[-1]) if years else (2000 + int(short.group(2)) if short else None)
+    exam_yy = re.search(r"\b(?:final|end|formative|summ?a?tive|midterm)\s*(\d{2})(?!\d)", name, re.I)
+    year = int(years[-1]) if years else (2000 + int(short.group(2)) if short
+                                         else 2000 + int(exam_yy.group(1)) if exam_yy else None)
     subject = next((s for s in SUBJECTS if s.lower()[:5] in low), None)
     confidence = "medium"
+    year_free = False                     # families that carry no year unless the filename has one
     if module.university == "Assiut":
-        if "quiz" in low:
+        if "quiz" in low or "formative" in low:
+            family = "Quizzes" if "quiz" in low else "Formative"
             m = re.search(r"week\s*(\d+)", low)
-            tag = f"Department, Quizzes, Week {m.group(1)}" if m else "Department, Quizzes"
+            tag = f"Department, {family}, Week {m.group(1)}" if m else f"Department, {family}"
             year = int(years[-1]) if years else None
-        elif "formative" in low:
-            m = re.search(r"week\s*(\d+)", low)
-            tag = f"Department, Formative, Week {m.group(1)}" if m else "Department, Formative"
-            year = int(years[-1]) if years else None
+            year_free = True
+            if year:
+                tag = f"{tag} {year}"
         elif "midterm" in low or "mid term" in low:
-            tag = f"Exams, Midterm {year}"
+            tag = "Exams, Midterm"
         elif "final" in low:
-            tag = f"Exams, Final {year}"
+            tag = "Exams, Final"
         elif re.search(r"\bgd\b", low):
-            tag = f"Department, GDs, {subject or '<Subject>'} GD <N> {year}"
+            m = re.search(r"\bgd\s*[-_ ]?\s*(\d+)", low)
+            tag = f"Department, GDs, {subject or '<Subject>'} GD {m.group(1) if m else '<N>'}"
             confidence = "low"
         else:
-            tag = f"Department, QBank, {subject or '<Subject>'} {year}"
+            tag = f"Department, QBank, {subject or '<Subject>'}"
             confidence = "low"
     else:
         prof = _PROF.search(name)
         if "formative" in low:
-            tag = f"Exams, Formative {year}"
+            tag = "Exams, Formative"
         elif "final" in low:
-            tag = f"Exams, Final {year}"
-        elif re.search(r"\bend\b|summ?ative", low):
-            tag = f"Exams, End {year}"
+            tag = "Exams, Final"
+        elif re.search(r"\bend\b|summ?a?tive", low):
+            tag = "Exams, End"
         elif prof:
-            tag = f"Professor, Dr {prof.group(1).title()} {year}"
+            who = prof.group(1)
+            # tags are English only: an Arabic name is left for the agent to transliterate
+            tag = f"Professor, Dr {who.title()}" if not ARABIC.search(who) else "Professor, Dr <Name>"
             confidence = "low"
         elif subject:
-            tag = f"Department, {subject} {year}"
+            tag = f"Department, {subject}"
         else:
-            tag = f"External, {safe_name(name, 30).replace('_', ' ')} {year}"
+            label = re.sub(r"(?<!\d)(?:20)?\d{2}(?!\d)", "", safe_name(name, 40)).replace("_", " ")
+            tag = f"External, {' '.join(label.split())[:30].strip() or 'source'}"
             confidence = "low"
-    if year is None:
-        confidence = "low"
-        tag = tag.replace(" None", " <Year>")
+    needs_year = False
+    if not year_free:
+        if year is None:
+            confidence, needs_year = "low", True
+        else:
+            tag = f"{tag} {year}"
     exam = tag.startswith("Exams")
     return {"tag": tag, "tagSuggere": None if exam else subject, "year": year, "confidence": confidence,
-            "confirmed": False}
+            "needs_year": needs_year, "confirmed": False}
 
 
 # --------------------------------------------------------------------------- catalog import
@@ -283,7 +301,10 @@ def existing_tags(module: Module) -> dict[str, dict[str, Any]]:
     import json
 
     found: dict[str, dict[str, Any]] = {}
-    for tm in module.root.glob("*tag_map*.json"):
+    for tm in [*module.root.glob("*tag_map*.json"), *(module.meta / "archive").glob("*tag_map*.json"),
+               module.meta / "tag_map.json"]:
+        if not tm.exists():
+            continue
         try:
             for md, meta in json.loads(tm.read_text(encoding="utf-8")).items():
                 found[md] = {"tag": meta.get("Tag"), "tagSuggere": meta.get("tagSuggere"), "year": meta.get("Year"),
@@ -428,4 +449,8 @@ def summary(state: dict[str, Any]) -> str:
     low = [s for s in rows if s.get("tags", {}).get("confidence") == "low"]
     if low:
         lines.append(f"tags needing a decision (confidence low): {', '.join(s['nn'] for s in low)}")
+    no_year = [s for s in rows if s.get("tags", {}).get("needs_year") and not s.get("tags", {}).get("confirmed")]
+    if no_year:
+        lines.append(f"tags without a year (read it from the source, then `set NN --tag … --year …`): "
+                     f"{', '.join(s['nn'] for s in no_year)}")
     return "\n".join(lines)

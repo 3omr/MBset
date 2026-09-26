@@ -1,5 +1,7 @@
 # Smart OCR Workflow for MBset
 
+> **Legacy.** `mbset.py ocr` (Tesseract, cached per page) is the default OCR route. PaddleOCR is a fallback only for pages that `mbset.py ocr` lists with low Tesseract confidence; its output is working evidence for fixing the profile or single questions, never text to paste.
+
 Use this as a second OCR route for scanned PDFs, screenshots, and pages where the existing OCRmyPDF/Tesseract text is incomplete or garbled. It adapts the [Smart OCR skill](https://www.skills.sh/claude-office-skills/skills/smart-ocr) to MBset's source-by-source extraction and verification gates.
 
 ## Run PaddleOCR
@@ -19,7 +21,7 @@ The helper uses PaddleOCR's English mobile detector and recognizer to fit this m
 Run the bundled extractor on one source at a time:
 
 ```bash
-.venv-smart-ocr/bin/python .agents/skills/mbset-module-curator/scripts/ocr_paddle_pages.py "<source.pdf>" --output-dir /tmp/mbset-smart-ocr
+.venv-smart-ocr/bin/python .agents/skills/mbset-module-curator/legacy/ocr_paddle_pages.py "<source.pdf>" --output-dir /tmp/mbset-smart-ocr
 ```
 
 It accepts PDF and common image files and uses English mobile detection/recognition models for MBset exam sources. For a screenshot set, pass each image path as an input. For very small print, render the affected page at 300 DPI with `pdftoppm` and pass the resulting image instead of the PDF. The script uses the PaddleOCR 3.x `PaddleOCR.predict()` interface and writes, for every page/image:

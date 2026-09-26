@@ -52,13 +52,8 @@ pdftotext -layout -f $p -l $p -x 0   -y 0 -W 300 -H 854 src.pdf -
 pdftotext -layout -f $p -l $p -x 300 -y 0 -W 295 -H 854 src.pdf -
 ```
 
-Use the helper, which detects the split automatically from the word-position histogram and writes reading-order text:
-
-```bash
-python scripts/extract_pdf_columns.py src.pdf -o out.txt            # auto-detect
-python scripts/extract_pdf_columns.py src.pdf -o out.txt --columns 2
-python scripts/extract_pdf_columns.py src.pdf --probe               # show the detected split only
-```
+`mbset.py parse` detects the split per page and reads each column in order (profile `columns: auto|1|2`).
+For one-off inspection only, the old helper is in `legacy/extract_pdf_columns.py` (`--probe` shows the detected split).
 
 **Verification after column extraction** — all three must hold:
 1. no line contains two different question numbers;
@@ -72,11 +67,9 @@ Watch for **section restarts**: department books restart at `1.` for each chapte
 ## 3. Scanned / OCR pages
 
 1. Render at high DPI before OCR: `pdftoppm -png -r 300 src.pdf pg`.
-2. For image-only scans or pages where the existing OCR is weak, run the optional confidence-aware PaddleOCR pass described in [`smart-ocr-workflow.md`](./smart-ocr-workflow.md):
-   ```bash
-   .venv-smart-ocr/bin/python .agents/skills/mbset-module-curator/scripts/ocr_paddle_pages.py src.pdf --output-dir /tmp/mbset-smart-ocr
-   ```
-   It writes page text plus line-level confidence and coordinates. The text is a draft: inspect the rendered page and every low-confidence line, then reconcile it against the source. Confidence is a review signal, not proof of correctness or answer provenance. For two-column pages, separate the columns using their coordinates before rebuilding question order; do not trust a globally sorted OCR transcript.
+2. `mbset.py ocr` runs Tesseract per page (cached) and lists pages with low confidence. PaddleOCR is a fallback
+   for those pages only — see [`legacy/smart-ocr-workflow.md`](../legacy/smart-ocr-workflow.md). Its output is a
+   draft to check against the rendered page, never text to paste into the markdown.
 3. OCR page by page, never the whole file blind; inspect the first two outputs before continuing.
 4. Typical damage to repair:
    - superscripts/subscripts flattened: `Ca**` → `Ca²⁺`, `Na*` → `Na⁺`, `B1` → `β1`, `um` → `µm`;

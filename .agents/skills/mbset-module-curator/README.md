@@ -2,7 +2,7 @@
 
 Standard Operating Procedure (SOP) and automated toolkit for curating, extracting, verifying and building **MBset** medical question banks and lecture curricula.
 
-**Version 2** — adds source-inventory reconciliation, format-aware extraction (column detection, OCR repair, figure cropping), answer-key provenance with a statistical bias gate, and a forensic bank auditor. Scanned sources can also use the optional confidence-aware PaddleOCR pass. See `SKILL.md` §5 and `references/smart-ocr-workflow.md`.
+**Version 2** — adds source-inventory reconciliation, format-aware extraction (column detection, OCR repair, figure cropping), answer-key provenance with a statistical bias gate, and a forensic bank auditor. PaddleOCR is a fallback for pages with low Tesseract confidence (see `legacy/`). See `SKILL.md` and `references/pipeline-v2.md`.
 
 ---
 
@@ -14,16 +14,18 @@ mbset-module-curator/
 ├── README.md                             # installation and usage
 ├── references/
 │   ├── extraction-playbook.md            # format triage, columns, OCR, Moodle, figures
-│   ├── smart-ocr-workflow.md             # PaddleOCR confidence, positions, review
 │   ├── answer-key-verification.md        # provenance labels + statistical bias gate
 │   ├── schema-31-columns.md              # canonical schema + legacy migration map
 │   ├── noise-removal-and-curation.md     # noise regex catalog + notation repair
 │   ├── tagging-and-naming.md             # Damietta & Assiut tagging taxonomies
 │   └── subcategories-and-lectures.md     # lecture PDF merging & renaming guide
+├── legacy/                               # one-off tools, not part of the pipeline
+│   ├── extract_pdf_columns.py            # column-aware PDF text extraction (inspection)
+│   ├── ocr_paddle_pages.py               # PaddleOCR fallback for low-confidence pages
+│   └── smart-ocr-workflow.md             # how to run and reconcile the PaddleOCR fallback
 └── scripts/
-    ├── extract_pdf_columns.py            # column-aware PDF text extraction
+    ├── mbset.py + mbset/                 # the pipeline CLI (inventory → ocr → parse → check → build)
     ├── clean_markdown_noise.py           # deep noise removal
-    ├── ocr_paddle_pages.py               # optional confidence-aware OCR drafts
     ├── build_module_template.py          # markdown -> canonical 31-column Excel
     ├── validate_questions_excel.py       # schema gate
     └── audit_question_bank.py            # forensic gate (keys, dups, noise, images)
@@ -44,22 +46,18 @@ sudo apt-get install poppler-utils      # pdftotext, pdfinfo, pdftoppm, pdfimage
 pip install pymupdf                     # optional: lecture PDF merging
 ```
 
-For the optional PaddleOCR pass, use the isolated `.venv-smart-ocr/` environment documented in `references/smart-ocr-workflow.md`. The base MBset requirements do not include PaddleOCR.
+For the PaddleOCR fallback, use the isolated `.venv-smart-ocr/` environment documented in `legacy/smart-ocr-workflow.md`. The base MBset requirements do not include PaddleOCR.
 
 ---
 
 ## 🛠️ Pipeline in commands
 
 ```bash
-# Stage 1 — extract one markdown per source
-# Optional Smart OCR pass for image-only or weakly recognized scans
-.venv-smart-ocr/bin/python .agents/skills/mbset-module-curator/scripts/ocr_paddle_pages.py "Raw_PDF_Questions/Scan.pdf" --output-dir /tmp/mbset-smart-ocr
-# Inspect the page images and confidence flags before turning OCR text into questions.
-
-python scripts/extract_pdf_columns.py "Raw_PDF_Questions/End 2023.PDF" --probe
-python scripts/extract_pdf_columns.py "Raw_PDF_Questions/End 2023.PDF" -o /tmp/end2023.txt
-#   ... inspect, parse into Markdown_Questions/06_End_2023.md, then:
-python scripts/clean_markdown_noise.py --file Markdown_Questions/06_End_2023.md
+# Stages 0-1 — inventory, OCR and parse every source (the parser writes the markdown)
+S=.agents/skills/mbset-module-curator/scripts/mbset.py
+python $S inventory "$M" && python $S ocr "$M" && python $S parse "$M"
+python $S check "$M"          # the gate; see SKILL.md for the review loop
+# PaddleOCR fallback for low-confidence pages only: legacy/smart-ocr-workflow.md
 
 # Stage 2+3 — provenance, bias and completeness gates (before any Excel)
 python scripts/audit_question_bank.py --markdown Markdown_Questions
