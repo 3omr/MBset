@@ -1,0 +1,49 @@
+# Whitelist: only curation logic and text deliverables are versioned.
+/*
+!/.gitignore
+!/AGENTS.md
+!/SKILL_UPGRADE_PLAN.md
+!/requirements*.txt
+!/skills-lock.json
+!/scripts/
+!/.agents/
+!/skills/
+!/tests/
+!/أزهر دمياط/
+!/اسيوط/
+
+# binaries and raw sources are never versioned
+*.pdf
+*.PDF
+*.png
+*.PNG
+*.jpg
+*.jpeg
+*.webp
+*.pptx
+*.ppt
+*.docx
+*.doc
+*.zip
+*.rar
+*.7z
+*.txt
+!/requirements*.txt
+__pycache__/
+*.pyc
+.venv*/
+
+# heavy working folders inside modules
+Raw_PDF_Questions/
+OCR_PDF/
+OCR_Text/
+Telegram_Staging/
+Lectures*/
+Lecture_PowerPoint_PDF_Staging/
+.mbset/work/
+.mbset/ocr/
+.mbset/cache/
+.mbset/locks/
+*.ppsx
+*.ndjson
+*.mp4

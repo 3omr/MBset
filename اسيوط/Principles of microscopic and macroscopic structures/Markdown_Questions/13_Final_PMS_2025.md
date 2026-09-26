@@ -1,0 +1,570 @@
+# Final PMS 2025.pdf
+
+- **Source File**: `Final PMS 2025.pdf`
+- **File Type**: Scanned Image PDF
+- **Total Pages / Slides**: 9
+- **Assiut Tag**: Exams, Final 2025
+- **Discipline**: General
+- **Total Questions**: 60
+- **Year**: 2025
+
+---
+
+### Question 1
+
+What are the 2 types of corpus luteum and mention their duration of existence?
+
+**Correct Answer**: -
+**Explanation**: 1. Corpus luteum of menstruation: degenerates 10-14 days after ovulation. 2. Corpus luteum of pregnancy: persists for 4-5 months.
+
+---
+
+### Question 2
+
+Name results of fertilization and where does it take place?
+
+**Correct Answer**: -
+**Explanation**: Results: 1. Restoration of diploid number of chromosomes. 2. Determination of the sex of the embryo. 3. Initiation of cleavage. Site: Lateral third (ampulla) of the uterine (fallopian) tube.
+
+---
+
+### Question 3
+
+How many days does the secretory phase of the uterine cycle take place? Name the hormone responsible for this phase secreted from the ovary, and mention two characteristics occurring in the endometrium.
+
+**Correct Answer**: -
+**Explanation**: Duration: 14 days. Hormone: Progesterone. Characteristics: 1. Endometrial glands become elongated, wide, tortuous, and distended with glycogen-rich secretion. 2. Spiral arteries become elongated, coiled, and reach surface mucosa. 3. Endometrium becomes thickened (more than 5 mm), edematous, and congested.
+
+---
+
+### Question 4
+
+List the 2 layers of the embryonic disc at the second week of development.
+
+**Correct Answer**: -
+**Explanation**: 1. Epiblast. 2. Hypoblast.
+
+---
+
+### Question 5
+
+Define neurulation, and name two derivatives of the ectodermal germ layer.
+
+**Correct Answer**: -
+**Explanation**: Definition: Process of formation of the neural tube. Derivatives: Central nervous system (brain and spinal cord), peripheral nervous system, sensory epithelium of ear/nose/eye, epidermis and its appendages (hair, nails, glands), pituitary and parotid glands, enamel of teeth.
+
+---
+
+### Question 6
+
+A 25-year-old female delivered a male infant with fusion of lower limbs (sirenomelia/caudal dysgenesis), imperforate anus, and bilateral undescended testes. What is the mechanism of this anomaly, what process forms the trilaminar disc, and what is the evidence for it?
+
+**Correct Answer**: -
+**Explanation**: Mechanism: Insufficient mesoderm formed in the caudalmost region of the embryo. Process: Gastrulation. Evidence: Appearance of the primitive streak.
+
+---
+
+### Question 7
+
+Name the parts (layers) of the lateral plate mesoderm.
+
+**Correct Answer**: -
+**Explanation**: 1. Somatopleuric (parietal) layer. 2. Splanchnopleuric (visceral) layer.
+
+---
+
+### Question 8
+
+List two endodermal derivatives.
+
+**Correct Answer**: -
+**Explanation**: Epithelial lining of the GI tract, epithelial lining of the respiratory tract, parenchyma of thyroid, parathyroid, liver, and pancreas, reticular stroma of tonsils and thymus, epithelial lining of urinary bladder and urethra.
+
+---
+
+### Question 9
+
+Illustrate two external features of a full term fetus.
+
+**Correct Answer**: -
+**Explanation**: 1. Skin covered by vernix caseosa. 2. Skull has largest circumference of all body parts. 3. Weight is 3,000 to 3,400 g. 4. CRL is ~36 cm and CHL is ~50 cm. 5. Well-developed sexual characteristics and testes in scrotum.
+
+---
+
+### Question 10
+
+Enumerate two congenital anomalies of the umbilical cord.
+
+**Correct Answer**: -
+**Explanation**: Abnormally long cord (up to 1.5 m), abnormally short cord (10 cm or less), battledore placenta (marginal attachment), placenta velamentosa (membranous attachment), umbilical hernia, true knots.
+
+---
+
+### Question 11
+
+List two congenital anomalies of the amnion.
+
+**Correct Answer**: -
+**Explanation**: Hydramnios (excess amniotic fluid, >2 L), Oligohydramnios (insufficient fluid, <400 ml), Amniotic adhesions (amniotic bands).
+
+---
+
+### Question 12
+
+Enumerate two causes of birth defects (teratogenesis).
+
+**Correct Answer**: -
+**Explanation**: 1. Hereditary / genetic causes (chromosomal abnormalities, mutant genes). 2. Environmental factors: harmful maternal drugs (thalidomide), ionizing radiation, maternal infections (TORCH: toxoplasmosis, rubella, CMV, herpes).
+
+---
+
+### Question 13
+
+Name two methods for prenatal diagnosis of birth defects.
+
+**Correct Answer**: -
+**Explanation**: 1. Ultrasonography. 2. Amniocentesis. 3. Chorionic villus sampling (CVS). 4. Maternal serum screening.
+
+---
+
+### Question 14
+
+Enumerate two functions of the smooth endoplasmic reticulum (SER).
+
+**Correct Answer**: -
+**Explanation**: 1. Lipid and steroid synthesis (in adrenal cortex, Leydig cells). 2. Detoxification of drugs and metabolic wastes (in liver hepatocytes). 3. Sequestration and release of calcium ions for muscular contraction (sarcoplasmic reticulum). 4. Glycogenolysis.
+
+---
+
+### Question 15
+
+Enumerate contents of the mitochondrial matrix.
+
+**Correct Answer**: -
+**Explanation**: Mitochondrial DNA (circular dsDNA), mitochondrial ribosomes (mitoribosomes), enzymes of the Krebs (TCA) cycle, enzymes for beta-oxidation of fatty acids, mitochondrial tRNA.
+
+---
+
+### Question 16
+
+Enumerate two functions of simple squamous epithelium.
+
+**Correct Answer**: -
+**Explanation**: 1. Provides a smooth, low-friction surface (endothelium, mesothelium). 2. Facilitates passive diffusion and active transport by pinocytosis (alveoli, capillaries).
+
+---
+
+### Question 17
+
+Enumerate the contents of the extracellular matrix of connective tissue.
+
+**Correct Answer**: -
+**Explanation**: Ground substance (glycosaminoglycans, proteoglycans, multi-adhesive glycoproteins like fibronectin and laminin) and connective tissue fibers (collagen, elastic, and reticular fibers).
+
+---
+
+### Question 18
+
+Mention the histological types and anatomical sites of lamellar bone.
+
+**Correct Answer**: -
+**Explanation**: 1. Compact (cortical) bone (~80%): forms thick outer shell beneath periosteum and diaphysis of long bones. 2. Cancellous (spongy/trabecular) bone (~20%): found in inner regions of bones adjacent to marrow cavities and epiphyses.
+
+---
+
+### Question 19
+
+Give the scientific term: It is part of the male urethra and surrounded by the prostate.
+
+**Correct Answer**: -
+**Explanation**: Prostatic urethra.
+
+---
+
+### Question 20
+
+Give the scientific term: The interchange of chromatid segments between paired homologous chromosomes during pachytene of meiosis I.
+
+**Correct Answer**: -
+**Explanation**: Crossing over (chromosomal crossover).
+
+---
+
+### Question 21
+
+Give the scientific term: It refers to a reduced number of spermatozoa in semen (< 20 million/ml).
+
+**Correct Answer**: -
+**Explanation**: Oligozoospermia.
+
+---
+
+### Question 22
+
+Give the scientific term: A primary oocyte surrounded by a single layer of flat (squamous) follicular cells.
+
+**Correct Answer**: -
+**Explanation**: Primordial follicle.
+
+---
+
+### Question 23
+
+Give the scientific term: It is a process in which rupture of mature Graafian follicle occurs with liberation of the ovum into the peritoneal cavity.
+
+**Correct Answer**: -
+**Explanation**: Ovulation.
+
+---
+
+### Question 24
+
+Give the scientific term: The measurement from the vertex of the skull to the midpoint between the apices of the buttocks in the human embryo.
+
+**Correct Answer**: -
+**Explanation**: Crown-rump length (CRL).
+
+---
+
+### Question 25
+
+Give the scientific term: An anomaly in which the allantois / urachus remains patent and urine flows from the umbilicus.
+
+**Correct Answer**: -
+**Explanation**: Urachal fistula.
+
+---
+
+### Question 26
+
+Give the scientific term: The two fertilized ova implant separately and each will have its own placenta and fetal membranes.
+
+**Correct Answer**: -
+**Explanation**: Dizygotic (fraternal) twins.
+
+---
+
+### Question 27
+
+The duodenum is the ... part of the small intestine.
+
+**Correct Answer**: -
+**Explanation**: Shortest, widest, and most fixed.
+
+---
+
+### Question 28
+
+The larynx is formed of a cartilaginous framework consisting of how many cartilages?
+
+**Correct Answer**: -
+**Explanation**: Nine cartilages (3 single: thyroid, cricoid, epiglottis; 3 paired: arytenoid, corniculate, cuneiform).
+
+---
+
+### Question 29
+
+The apex of the heart is formed entirely by the ...
+
+**Correct Answer**: -
+**Explanation**: Left ventricle.
+
+---
+
+### Question 30
+
+The primary motor area of the cerebral cortex is located in which lobe of the brain?
+
+**Correct Answer**: -
+**Explanation**: Frontal lobe (precentral gyrus).
+
+---
+
+### Question 31
+
+In spermiogenesis, the Golgi apparatus gives rise to which organelle?
+
+**Correct Answer**: -
+**Explanation**: Acrosomal cap (acrosome).
+
+---
+
+### Question 32
+
+At what stage of life does spermatogenesis begin in males?
+
+**Correct Answer**: -
+**Explanation**: Puberty.
+
+---
+
+### Question 33
+
+Just before or at the time of ovulation, the primary oocyte completes the first meiotic division giving rise to which two cells?
+
+**Correct Answer**: -
+**Explanation**: Secondary oocyte and first polar body.
+
+---
+
+### Question 34
+
+The ovulated mammalian oocyte is arrested at which stage of meiosis II until fertilization?
+
+**Correct Answer**: -
+**Explanation**: Metaphase II.
+
+---
+
+### Question 35
+
+If the oocyte is fertilized, degeneration of the corpus luteum is prevented by which hormone secreted by syncytiotrophoblast?
+
+**Correct Answer**: -
+**Explanation**: Human chorionic gonadotropin (hCG).
+
+---
+
+### Question 36
+
+On which day after fertilization does the morula enter the uterine cavity?
+
+**Correct Answer**: -
+**Explanation**: 4th day.
+
+---
+
+### Question 37
+
+At the 8th day of development, the trophoblast differentiates into which two layers?
+
+**Correct Answer**: -
+**Explanation**: Cytotrophoblast and syncytiotrophoblast.
+
+---
+
+### Question 38
+
+The allantois appears as a diverticulum from which structure into the connecting stalk?
+
+**Correct Answer**: -
+**Explanation**: Posterior wall of the yolk sac (hindgut/cloaca).
+
+---
+
+### Question 39
+
+What is the embryological source of multipolar autonomic ganglion cells?
+
+**Correct Answer**: -
+**Explanation**: Neural crest cells.
+
+---
+
+### Question 40
+
+At the end of the fifth week of development, how many pairs of somites are present?
+
+**Correct Answer**: -
+**Explanation**: 42 to 44 pairs.
+
+---
+
+### Question 41
+
+In which week of embryonic development does the oropharyngeal (buccopharyngeal) membrane rupture?
+
+**Correct Answer**: -
+**Explanation**: Fourth week.
+
+---
+
+### Question 42
+
+At the end of the fourth week of human embryonic development, what are the main external features?
+
+**Correct Answer**: -
+**Explanation**: Somites and pharyngeal arches.
+
+---
+
+### Question 43
+
+The placenta consists of two parts: a fetal part derived from ... and a maternal part derived from ...
+
+**Correct Answer**: -
+**Explanation**: Chorion frondosum; decidua basalis.
+
+---
+
+### Question 44
+
+By which month of pregnancy does the secondary yolk sac completely regress and disappear?
+
+**Correct Answer**: -
+**Explanation**: 5th month.
+
+---
+
+### Question 45
+
+What is the most common general routine histological stain used in light microscopy?
+
+**Correct Answer**: -
+**Explanation**: Hematoxylin and Eosin (H&E).
+
+---
+
+### Question 46
+
+The oligosaccharide chains of membrane glycoproteins and glycolipids projecting from the cell surface form the:
+
+**Correct Answer**: -
+**Explanation**: Cell coat (glycocalyx).
+
+---
+
+### Question 47
+
+Lipofuscin wear-and-tear pigment granules represent residual bodies derived from which organelle?
+
+**Correct Answer**: -
+**Explanation**: Lysosomes.
+
+---
+
+### Question 48
+
+Epithelial cells exhibit structural and functional ... with distinct apical, lateral, and basal domains.
+
+**Correct Answer**: -
+**Explanation**: Polarity.
+
+---
+
+### Question 49
+
+Stereocilia resemble microvilli in containing core arrays of which cytoskeletal filament?
+
+**Correct Answer**: -
+**Explanation**: Microfilaments (actin filaments).
+
+---
+
+### Question 50
+
+Taste buds and olfactory neuroepithelium are examples of which type of specialized epithelium?
+
+**Correct Answer**: -
+**Explanation**: Neuroepithelium (sensory epithelium).
+
+---
+
+### Question 51
+
+Specific granules of basophils contain which vasoactive mediators?
+
+**Correct Answer**: -
+**Explanation**: Histamine and heparin.
+
+---
+
+### Question 52
+
+In connective tissue, circulating blood monocytes differentiate into which tissue phagocytes?
+
+**Correct Answer**: -
+**Explanation**: Macrophages (histiocytes).
+
+---
+
+### Question 53
+
+Compare between euchromatin and heterochromatin.
+
+**Correct Answer**: -
+**Explanation**: Euchromatin: dispersed, lightly stained, uncoiled, transcriptionally active DNA directing RNA/protein synthesis. Heterochromatin: condensed, darkly stained coarse granules, tightly coiled, transcriptionally inactive DNA.
+
+---
+
+### Question 54
+
+Compare between necrosis and apoptosis.
+
+**Correct Answer**: -
+**Explanation**: Necrosis: accidental cell death due to severe external injury/toxins, cell swelling, membrane disruption, organelle breakdown, induces marked inflammation. Apoptosis: programmed physiological cell death, cell shrinkage, chromatin condensation, membrane blebbing, apoptotic bodies, no inflammatory response.
+
+---
+
+### Question 55
+
+A 43-year-old male suffered a 7th costal cartilage fracture. What is the tissue layer surrounding costal cartilage and what are its histological components?
+
+**Correct Answer**: -
+**Explanation**: Perichondrium. Components: 1. Outer fibrous layer (type I collagen fibers, fibroblasts, and blood vessels). 2. Inner chondrogenic layer (mesenchymal cells and chondroblasts).
+
+---
+
+### Question 56
+
+A 56-year-old woman presents with knee pain and stiffness diagnosed as osteoarthritis due to degeneration of hyaline articular cartilage. How does hyaline cartilage normally grow?
+
+**Correct Answer**: -
+**Explanation**: 1. Interstitial growth: by mitotic division of chondrocytes within existing lacunae, forming isogenous cell nests. 2. Appositional growth: by differentiation of chondrogenic stem cells in the inner perichondrium into chondroblasts that secrete new matrix on the surface.
+
+---
+
+### Question 57
+
+Ahmed and his wife Mona complain of primary infertility for 5 years. Semen analysis was abnormal. Stem cells in the human testes are:
+
+- **A)** Type A spermatogonia
+- **B)** Type B spermatogonia
+- **C)** Primary spermatocytes
+- **D)** Secondary spermatocytes
+- **E)** Spermatids
+
+**Correct Answer**: A
+
+---
+
+### Question 58
+
+The evolutionary and anatomical reason why the testes are suspended in the scrotum is:
+
+- **A)** To reduce the chance of infection from enteric bacteria
+- **B)** To provide a cooler temperature essential for spermatogenesis
+- **C)** To place sperm storage sites nearer the penis
+- **D)** To create extra space for the pelvic organs
+- **E)** To protect sperm from the systemic immune system
+
+**Correct Answer**: B
+
+---
+
+### Question 59
+
+A 33-year-old woman with bilateral tubal obstruction undergoes in vitro fertilization. In the normal process of human fertilization, which of the following is TRUE?
+
+- **A)** Cells of corona radiata destroy all sperms except one
+- **B)** The zona pellucida degenerates before sperm contact
+- **C)** Only one sperm penetrates the oocyte cytoplasm to fertilize it
+- **D)** Only the acrosome of the sperm enters the egg
+- **E)** Two haploid nuclei fuse and immediately undergo meiosis
+
+**Correct Answer**: C
+
+---
+
+### Question 60
+
+Concerning blastocyst formation and hatching, which of the following is NOT true?
+
+- **A)** It develops a central cavity called the blastocele before implantation
+- **B)** It remains surrounded by the protective zona pellucida until after implantation
+- **C)** Its inner cell mass will form the embryo proper
+- **D)** Its outer layer is the trophoblast which gives rise to embryonic placenta
+
+**Correct Answer**: B
+
+---

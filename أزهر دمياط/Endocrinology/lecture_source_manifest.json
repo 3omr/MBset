@@ -1,0 +1,670 @@
+{
+  "generatedAt": "2026-09-18T01:22:32.936868+00:00",
+  "export": "/home/omar/MBset/أزهر دمياط/Endocrinology/subcategories_Endocrinology_2026-09-17.xlsx",
+  "book": "/home/omar/MBset/أزهر دمياط/Endocrinology/Book/Endocrine د.خالد ملونة.pdf",
+  "priority": [
+    "book",
+    "local_download",
+    "docreader_download",
+    "missing"
+  ],
+  "lectures": [
+    {
+      "order_index": 1,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_INTRODUCTION_TO_ENDOCRINOLOGY",
+      "name": "Introduction to Endocrinology",
+      "status": "ready",
+      "source": "local_download",
+      "source_files": [
+        "/home/omar/Downloads/Telegram Desktop/0000000297__intro to endocrinology .pdf"
+      ],
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/1767"
+      ],
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_INTRODUCTION_TO_ENDOCRINOLOGY.pdf",
+      "note": null
+    },
+    {
+      "order_index": 2,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_HASHIMOTO_S_THYROIDITIS",
+      "name": "Hashimoto's Thyroiditis",
+      "status": "ready",
+      "source": "book",
+      "source_files": null,
+      "page_range": [
+        31,
+        32
+      ],
+      "telegram_urls": null,
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_HASHIMOTO_S_THYROIDITIS.pdf",
+      "note": null
+    },
+    {
+      "order_index": 3,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_HYPERTHYROIDISM",
+      "name": "Hyperthyroidism",
+      "status": "ready",
+      "source": "book",
+      "source_files": null,
+      "page_range": [
+        19,
+        26
+      ],
+      "telegram_urls": null,
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_HYPERTHYROIDISM.pdf",
+      "note": null
+    },
+    {
+      "order_index": 4,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_HYPOTHYROIDISM",
+      "name": "Hypothyroidism",
+      "status": "ready",
+      "source": "book",
+      "source_files": null,
+      "page_range": [
+        27,
+        30
+      ],
+      "telegram_urls": null,
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_HYPOTHYROIDISM.pdf",
+      "note": null
+    },
+    {
+      "order_index": 5,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_HYPERPARATHYROIDISM",
+      "name": "Hyperparathyroidism",
+      "status": "ready",
+      "source": "book",
+      "source_files": null,
+      "page_range": [
+        37,
+        40
+      ],
+      "telegram_urls": null,
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_HYPERPARATHYROIDISM.pdf",
+      "note": null
+    },
+    {
+      "order_index": 6,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_HYPOPARATHYROIDISM",
+      "name": "Hypoparathyroidism",
+      "status": "ready",
+      "source": "book",
+      "source_files": null,
+      "page_range": [
+        41,
+        42
+      ],
+      "telegram_urls": null,
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_HYPOPARATHYROIDISM.pdf",
+      "note": null
+    },
+    {
+      "order_index": 7,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_BONE_MINERAL_DISORDERS",
+      "name": "Bone mineral disorders",
+      "status": "ready",
+      "source": "local_download",
+      "source_files": [
+        "/home/omar/Downloads/Telegram Desktop/0000000326__bonevdiseseses_013727.pptx"
+      ],
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/1796"
+      ],
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_BONE_MINERAL_DISORDERS.pdf",
+      "note": null
+    },
+    {
+      "order_index": 8,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_ADRENAL_HYPERSECRETION",
+      "name": "Adrenal Hypersecretion",
+      "status": "ready",
+      "source": "local_download",
+      "source_files": [
+        "/home/omar/Downloads/Telegram Desktop/0000000330__adrenal hypersecretion.pptx"
+      ],
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/1800"
+      ],
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_ADRENAL_HYPERSECRETION.pdf",
+      "note": null
+    },
+    {
+      "order_index": 9,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_ENDOCRINE_HYPERTENSION",
+      "name": "Endocrine hypertension",
+      "status": "ready",
+      "source": "local_download",
+      "source_files": [
+        "/home/omar/Downloads/Telegram Desktop/0000000332__endocrine htn.pptx"
+      ],
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/1802"
+      ],
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_ENDOCRINE_HYPERTENSION.pdf",
+      "note": null
+    },
+    {
+      "order_index": 10,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_CUSHING_S_SYNDROME",
+      "name": "Cushing's Syndrome",
+      "status": "ready",
+      "source": "local_download",
+      "source_files": [
+        "/home/omar/Downloads/Telegram Desktop/0000000345__cushing-syndrome1.pptx"
+      ],
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/1813"
+      ],
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_CUSHING_S_SYNDROME.pdf",
+      "note": null
+    },
+    {
+      "order_index": 11,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_ADRENAL_HYPOFUNCTION",
+      "name": "Adrenal Hypofunction",
+      "status": "ready",
+      "source": "local_download",
+      "source_files": [
+        "/home/omar/Downloads/Telegram Desktop/0000000373__Adrenal hypofunction.pptx"
+      ],
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/1840"
+      ],
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_ADRENAL_HYPOFUNCTION.pdf",
+      "note": null
+    },
+    {
+      "order_index": 12,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_POLYGLANDULAR_AUTOIMMUNE_ENDOCRINOPATHIES",
+      "name": "Polyglandular Autoimmune Endocrinopathies",
+      "status": "missing",
+      "source": null,
+      "source_files": null,
+      "page_range": null,
+      "telegram_urls": null,
+      "output": null,
+      "note": "no audited book range and no local/downloaded qualifying source"
+    },
+    {
+      "order_index": 13,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_PROLACTINOMA_GALACTORRHEA_NON_FUNCTIONING_ADENOMAS",
+      "name": "Prolactinoma & Galactorrhea, Non-Functioning Adenomas",
+      "status": "ready",
+      "source": "docreader_download",
+      "source_files": [
+        "/home/omar/Downloads/Telegram Desktop/0000000434__images.pdf",
+        "/home/omar/Downloads/Telegram Desktop/telegram_DocReader_Guide_4_Data_1894.jpg"
+      ],
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/1893",
+        "https://t.me/DocReader_Guide_4_Data/1894"
+      ],
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_PROLACTINOMA_GALACTORRHEA_NON_FUNCTIONING_ADENOMAS.pdf",
+      "note": null
+    },
+    {
+      "order_index": 14,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_ACROMEGALY",
+      "name": "Acromegaly",
+      "status": "ready",
+      "source": "docreader_download",
+      "source_files": [
+        "/home/omar/Downloads/Telegram Desktop/0000000374__Acromegaly.pptx"
+      ],
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/1841"
+      ],
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_ACROMEGALY.pdf",
+      "note": null
+    },
+    {
+      "order_index": 15,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_PANHYPOPITUITARISM",
+      "name": "Panhypopituitarism",
+      "status": "ready",
+      "source": "docreader_download",
+      "source_files": [
+        "/home/omar/Downloads/Telegram Desktop/0000000375__Panhypopituitarism.pptx"
+      ],
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/1842"
+      ],
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_PANHYPOPITUITARISM.pdf",
+      "note": null
+    },
+    {
+      "order_index": 16,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_APPROACH_TO_A_CASE_OF_SHORT_STATURE",
+      "name": "Approach to a case of short stature",
+      "status": "ready",
+      "source": "docreader_download",
+      "source_files": [
+        "/home/omar/Downloads/Telegram Desktop/0000000366__short stature.pdf"
+      ],
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/1834"
+      ],
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_APPROACH_TO_A_CASE_OF_SHORT_STATURE.pdf",
+      "note": null
+    },
+    {
+      "order_index": 17,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_OBESITY_METABOLIC_SYNDROME_NUTRITIONAL_ASSESSMENT",
+      "name": "Obesity, Metabolic Syndrome & Nutritional Assessment",
+      "status": "ready",
+      "source": "docreader_download",
+      "source_files": [
+        "/home/omar/Downloads/Telegram Desktop/0000000365__obecity,metabolic.pdf"
+      ],
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/1833"
+      ],
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_OBESITY_METABOLIC_SYNDROME_NUTRITIONAL_ASSESSMENT.pdf",
+      "note": null
+    },
+    {
+      "order_index": 18,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_DISORDERS_OF_PUBERTY_DELAYED_AND_PRECOCIOUS",
+      "name": "Disorders of Puberty (delayed and precocious)",
+      "status": "ready",
+      "source": "book",
+      "source_files": null,
+      "page_range": [
+        7,
+        15
+      ],
+      "telegram_urls": null,
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_DISORDERS_OF_PUBERTY_DELAYED_AND_PRECOCIOUS.pdf",
+      "note": null
+    },
+    {
+      "order_index": 19,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_POSTERIOR_PITUITARY_DIABETES_INSIPIDUS_SIADH",
+      "name": "Posterior pituitary (Diabetes Insipidus, SIADH)",
+      "status": "ready",
+      "source": "docreader_download",
+      "source_files": [
+        "/home/omar/Downloads/Telegram Desktop/0000000376__Diabetes insipidus.pptx",
+        "/home/omar/Downloads/Telegram Desktop/0000000377__SIADH.pptx"
+      ],
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/1843",
+        "https://t.me/DocReader_Guide_4_Data/1844"
+      ],
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_POSTERIOR_PITUITARY_DIABETES_INSIPIDUS_SIADH.pdf",
+      "note": null
+    },
+    {
+      "order_index": 20,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_HIRSUTISM_CAH_PCOS",
+      "name": "Hirsutism (CAH, PCOS)",
+      "status": "ready",
+      "source": "book",
+      "source_files": null,
+      "page_range": [
+        3,
+        6
+      ],
+      "telegram_urls": null,
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_HIRSUTISM_CAH_PCOS.pdf",
+      "note": null
+    },
+    {
+      "order_index": 21,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_MALE_HYPOGONADISM_GYNECOMASTIA",
+      "name": "Male hypogonadism & Gynecomastia",
+      "status": "missing",
+      "source": null,
+      "source_files": null,
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/419?single"
+      ],
+      "output": null,
+      "note": "no audited book range and no local/downloaded qualifying source"
+    },
+    {
+      "order_index": 22,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_CARCINOID_MEN_SYNDROMES_INSULINOMA",
+      "name": "Carcinoid, MEN syndromes, Insulinoma",
+      "status": "ready",
+      "source": "docreader_download",
+      "source_files": [
+        "/home/omar/Downloads/Telegram Desktop/0000000412__carcinoid tumor .pdf"
+      ],
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/1871"
+      ],
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_CARCINOID_MEN_SYNDROMES_INSULINOMA.pdf",
+      "note": null
+    },
+    {
+      "order_index": 23,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_INTRODUCTION_TO_DIABETES_GLUCOSE_HOMEOSTASIS",
+      "name": "Introduction to Diabetes, Glucose homeostasis",
+      "status": "ready",
+      "source": "book",
+      "source_files": null,
+      "page_range": [
+        43,
+        44
+      ],
+      "telegram_urls": null,
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_INTRODUCTION_TO_DIABETES_GLUCOSE_HOMEOSTASIS.pdf",
+      "note": null
+    },
+    {
+      "order_index": 24,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_DIFFERENT_TYPES_OF_DM",
+      "name": "Different Types of DM",
+      "status": "ready",
+      "source": "book",
+      "source_files": null,
+      "page_range": [
+        45,
+        54
+      ],
+      "telegram_urls": null,
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_DIFFERENT_TYPES_OF_DM.pdf",
+      "note": null
+    },
+    {
+      "order_index": 25,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_TYPE_1_DIABETES_MELLITUS",
+      "name": "Type 1 Diabetes Mellitus",
+      "status": "missing",
+      "source": null,
+      "source_files": null,
+      "page_range": null,
+      "telegram_urls": null,
+      "output": null,
+      "note": "no audited book range and no local/downloaded qualifying source"
+    },
+    {
+      "order_index": 26,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_MACROVASCULAR_DIABETIC_COMPLICATIONS",
+      "name": "Macrovascular diabetic Complications",
+      "status": "ready",
+      "source": "docreader_download",
+      "source_files": [
+        "/home/omar/Downloads/Telegram Desktop/telegram_DocReader_Guide_4_Data_1862.jpg"
+      ],
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/1862"
+      ],
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_MACROVASCULAR_DIABETIC_COMPLICATIONS.pdf",
+      "note": null
+    },
+    {
+      "order_index": 27,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_TYPE_2_DIABETES_MELLITUS",
+      "name": "Type 2 Diabetes Mellitus",
+      "status": "missing",
+      "source": null,
+      "source_files": null,
+      "page_range": null,
+      "telegram_urls": null,
+      "output": null,
+      "note": "no audited book range and no local/downloaded qualifying source"
+    },
+    {
+      "order_index": 28,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_MICROVASCULAR_DIABETIC_COMPLICATIONS",
+      "name": "Microvascular diabetic Complications",
+      "status": "ready",
+      "source": "docreader_download",
+      "source_files": [
+        "/home/omar/Downloads/Telegram Desktop/0000000406__Microvascular DM ds..pptx"
+      ],
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/1867"
+      ],
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_MICROVASCULAR_DIABETIC_COMPLICATIONS.pdf",
+      "note": null
+    },
+    {
+      "order_index": 29,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_DYSLIPIDEMIA",
+      "name": "Dyslipidemia",
+      "status": "ready",
+      "source": "docreader_download",
+      "source_files": [
+        "/home/omar/Downloads/Telegram Desktop/0000000467__المستند.pdf"
+      ],
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/1925"
+      ],
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_DYSLIPIDEMIA.pdf",
+      "note": null
+    },
+    {
+      "order_index": 30,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_BUNNIES_OF_DIABETES_EDUCATION",
+      "name": "Bunnies of Diabetes Education",
+      "status": "missing",
+      "source": null,
+      "source_files": null,
+      "page_range": null,
+      "telegram_urls": null,
+      "output": null,
+      "note": "no audited book range and no local/downloaded qualifying source"
+    },
+    {
+      "order_index": 31,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_DYSGLYCEMIC_EMERGENCIES",
+      "name": "Dysglycemic Emergencies",
+      "status": "missing",
+      "source": null,
+      "source_files": null,
+      "page_range": null,
+      "telegram_urls": null,
+      "output": null,
+      "note": "no audited book range and no local/downloaded qualifying source"
+    },
+    {
+      "order_index": 32,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_APPROACH_TO_A_CASE_OF_GOITER",
+      "name": "Approach to a case of goiter",
+      "status": "missing",
+      "source": null,
+      "source_files": null,
+      "page_range": null,
+      "telegram_urls": null,
+      "output": null,
+      "note": "no audited book range and no local/downloaded qualifying source"
+    },
+    {
+      "order_index": 33,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_NON_NEOPLASTIC_THYROID_DISEASE",
+      "name": "Non-neoplastic thyroid disease",
+      "status": "missing",
+      "source": null,
+      "source_files": null,
+      "page_range": null,
+      "telegram_urls": null,
+      "output": null,
+      "note": "no audited book range and no local/downloaded qualifying source"
+    },
+    {
+      "order_index": 34,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_APPLIED_ANATOMY_OF_THYROID_PARATHYROID_GLANDS",
+      "name": "Applied anatomy of Thyroid & Parathyroid Glands",
+      "status": "missing",
+      "source": null,
+      "source_files": null,
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/323?single"
+      ],
+      "output": null,
+      "note": "no audited book range and no local/downloaded qualifying source"
+    },
+    {
+      "order_index": 35,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_ADRENAL_TUMORS_SURGICAL_APPROACH",
+      "name": "Adrenal Tumors: Surgical Approach",
+      "status": "missing",
+      "source": null,
+      "source_files": null,
+      "page_range": null,
+      "telegram_urls": null,
+      "output": null,
+      "note": "no audited book range and no local/downloaded qualifying source"
+    },
+    {
+      "order_index": 36,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_APPLIED_ANATOMY_OF_PITUITARY_HYPOTHALAMUS_TUMORS_NEUROSURGERY",
+      "name": "Applied Anatomy of Pituitary & Hypothalamus Tumors (Neurosurgery)",
+      "status": "missing",
+      "source": null,
+      "source_files": null,
+      "page_range": null,
+      "telegram_urls": null,
+      "output": null,
+      "note": "no audited book range and no local/downloaded qualifying source"
+    },
+    {
+      "order_index": 37,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_FUNCTIONS_OF_THYROID_HORMONE",
+      "name": "Functions of thyroid hormone",
+      "status": "missing",
+      "source": null,
+      "source_files": null,
+      "page_range": null,
+      "telegram_urls": null,
+      "output": null,
+      "note": "no audited book range and no local/downloaded qualifying source"
+    },
+    {
+      "order_index": 38,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_ADRENAL_HORMONES",
+      "name": "Adrenal Hormones",
+      "status": "missing",
+      "source": null,
+      "source_files": null,
+      "page_range": null,
+      "telegram_urls": null,
+      "output": null,
+      "note": "no audited book range and no local/downloaded qualifying source"
+    },
+    {
+      "order_index": 39,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_CALCIUM_HOMEOSTASIS",
+      "name": "Calcium homeostasis",
+      "status": "ready",
+      "source": "book",
+      "source_files": null,
+      "page_range": [
+        35,
+        36
+      ],
+      "telegram_urls": null,
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_CALCIUM_HOMEOSTASIS.pdf",
+      "note": null
+    },
+    {
+      "order_index": 40,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_NEOPLASTIC_THYROID_DISEASE",
+      "name": "Neoplastic Thyroid disease",
+      "status": "missing",
+      "source": null,
+      "source_files": null,
+      "page_range": null,
+      "telegram_urls": null,
+      "output": null,
+      "note": "no audited book range and no local/downloaded qualifying source"
+    },
+    {
+      "order_index": 41,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_CONGENITAL_HYPOTHYROIDISM_CRETINISM",
+      "name": "Congenital hypothyroidism (cretinism)",
+      "status": "ready",
+      "source": "docreader_download",
+      "source_files": [
+        "/home/omar/Downloads/Telegram Desktop/0000000294__Congenital Hypothyroidism.pptx"
+      ],
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/1764"
+      ],
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_CONGENITAL_HYPOTHYROIDISM_CRETINISM.pdf",
+      "note": null
+    },
+    {
+      "order_index": 42,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_DISORDERS_OF_SEX_DIFFERENTIATION",
+      "name": "Disorders of sex differentiation",
+      "status": "missing",
+      "source": null,
+      "source_files": null,
+      "page_range": null,
+      "telegram_urls": null,
+      "output": null,
+      "note": "no audited book range and no local/downloaded qualifying source"
+    },
+    {
+      "order_index": 44,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_DIABETES_PHARMACOTHERAPY",
+      "name": "Diabetes Pharmacotherapy",
+      "status": "ready",
+      "source": "book",
+      "source_files": null,
+      "page_range": [
+        56,
+        64
+      ],
+      "telegram_urls": null,
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_DIABETES_PHARMACOTHERAPY.pdf",
+      "note": null
+    },
+    {
+      "order_index": 45,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_LABORATORY_DIAGNOSIS_OF_DIABETES",
+      "name": "Laboratory Diagnosis of Diabetes",
+      "status": "ready",
+      "source": "docreader_download",
+      "source_files": [
+        "/home/omar/Downloads/Telegram Desktop/0000000442__Laboratory Diagnosis of Endocrine Diseases.pptx"
+      ],
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/1901"
+      ],
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_LABORATORY_DIAGNOSIS_OF_DIABETES.pdf",
+      "note": null
+    },
+    {
+      "order_index": 46,
+      "subcategory_id": "DamiettaFa_ENDOCRINOLOGY_STRUCTURAL_FUNCTIONAL_IMAGING_OF_ENDOCRINE_GLAND",
+      "name": "Structural & Functional Imaging of Endocrine Gland",
+      "status": "ready",
+      "source": "docreader_download",
+      "source_files": [
+        "/home/omar/Downloads/Telegram Desktop/0000000444__slidesaver.app_oabovdمعدل.pptx"
+      ],
+      "page_range": null,
+      "telegram_urls": [
+        "https://t.me/DocReader_Guide_4_Data/1903"
+      ],
+      "output": "/home/omar/MBset/أزهر دمياط/Endocrinology/Lectures/DamiettaFa_ENDOCRINOLOGY_STRUCTURAL_FUNCTIONAL_IMAGING_OF_ENDOCRINE_GLAND.pdf",
+      "note": null
+    }
+  ]
+}
