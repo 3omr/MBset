@@ -17,6 +17,9 @@ M="أزهر دمياط/Endocrinology"
 | `answersheet "$M" [--only] [--q 1,4] [--per 6]` | crops of unanswered MCQs (or `--q`) labelled with markdown Q numbers | `.mbset/reports/answers_NN_k.png` |
 | `fix "$M" NN --answers "1=A 2=C" --source marked` | set answers in batch (`--answer 3=B:key` per item also works) | markdown edited, decision stored |
 | `fix "$M" NN --exp-file f.json [--exp-source derived]` | model answers `{"N": "text"}` for written questions | EXP set, `Answer Source: derived` |
+| `fix "$M" NN --text-file t.json` | stem / options re-read from the page image: `{"7": {"stem": "…", "options": {"C": "…"}, "note": "…"}}` (exact wording; `null` removes an option) | text fixed, original logged, survives re-parse |
+| `fix "$M" NN --add-file a.json` | a question the parser lost, re-read exactly from the page: `[{"after": 24, "stem": "…", "options": {…}, "page": 5}]` | inserted, logged, survives re-parse |
+| `fix "$M" NN --clear-drops ocr` | after a better OCR/profile: remove drops that were made only because the text was garbled | questions return on the next parse |
 | `fix "$M" NN --image 5=Images/NN_Q5.png` / `--drop 7,8 --reason "…"` | link an image / remove non-questions with a logged reason | counters account for drops |
 | `figures "$M" [--only] [--q]` | crop figures for figure-dependent stems (embedded image or drawing nearest to the stem, else the question region) | `Images/NN_Qi.png`, linked; contact sheet |
 | `spotcheck "$M" [--only] [--flagged] [--n]` | max(5, 10%) samples spread over the file: source crop beside markdown | `.mbset/reports/spotcheck_NN_k.png` |

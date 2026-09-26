@@ -209,5 +209,102 @@ class CleanerTests(unittest.TestCase):
         self.assertNotRegex(clean_text("Thyroid الغدة gland"), r"[؀-ۿ]")
 
 
+class PenMarkedOptionTests(unittest.TestCase):
+    """OCR of pen-marked exams: the tick eats the option's '.', or the whole letter."""
+
+    def ocr_parse(self, text):
+        recs, p, ls, prof = parse(text, lenient=True)
+        return recs
+
+    def setUp(self):
+        global lines
+        self._lines = lines
+
+        def ocr_lines(text, page=0):
+            out = self._lines(text, page)
+            for ln in out:
+                ln.conf = 0.95
+            return out
+        globals()["lines"] = ocr_lines
+
+    def tearDown(self):
+        globals()["lines"] = self._lines
+
+    def letters(self, rec):
+        return [o["letter"] for o in rec["options"]], [o["text"] for o in rec["options"]]
+
+    def test_bare_glued_and_y_tick_markers(self):
+        recs = self.ocr_parse("""
+5. A patient with a localized wound infection should be treated with:
+A. Antibiotics and warm soaks
+By Antibiotics alone
+C7 days of antibiotics
+DIncision and drainage alone
+""")
+        L, T = self.letters(recs[0])
+        self.assertEqual(L, list("ABCD"))
+        self.assertEqual(T[1:], ["Antibiotics alone", "7 days of antibiotics", "Incision and drainage alone"])
+        self.assertTrue(any("possible_mark" in f for f in recs[0]["flags"]))
+
+    def test_orphan_row_between_options_is_kept(self):
+        recs = self.ocr_parse("""
+10. The major cause of impaired wound healing is:
+A. Anemia
+B. Diabetes mellitus
+Local tissue infection
+D. Malnutrition
+""")
+        L, T = self.letters(recs[0])
+        self.assertEqual(L, list("ABCD"))
+        self.assertEqual(T[2], "Local tissue infection")
+
+    def test_first_and_last_marker_lost(self):
+        recs = self.ocr_parse("""
+18. The most common presenting symptom of acute arterial occlusion is:
+Pain
+B. Pallor
+C. Paresthesia
+D. Pulselessness
+""")
+        self.assertEqual(self.letters(recs[0]), (list("ABCD"), ["Pain", "Pallor", "Paresthesia", "Pulselessness"]))
+        self.assertNotIn("Pain", recs[0]["stem"])
+
+
+class FormsAndCompoundTests(unittest.TestCase):
+    def test_c_reactive_is_not_an_option(self):
+        from mbset.parser import INLINE_OPT
+        self.assertEqual([m.group(1) for m in INLINE_OPT.finditer("Raised C-reactive protein is seen")], [])
+        self.assertEqual([m.group(1) for m in INLINE_OPT.finditer("a-Insulin b-Glucagon")], ["a", "b"])
+
+    def test_forms_unlabeled_choices_get_letters(self):
+        from mbset.document import letter_unlabeled_options
+        rows = [("In a bleeding patient, the most important parameter to assess fluid", 13.6, 0),
+                (":replacement is", 13.6, 17), ("(\u0646\u0642\u0637\u0629 1) *", 13.6, 35),
+                (".Pulse rate", 12.8, 74), (".Blood pressure", 12.8, 114), ("Urine output", 12.8, 154),
+                (":Neurogenic shock is characterized by", 13.6, 220), ("Cool, moist skin", 12.8, 260),
+                ("Increased cardiac output", 12.8, 300)] * 3
+        ls = [Line(text=t, page=0, bbox=(72, y, 500, y + 14), size=z) for t, z, y in rows]
+        out = [ln.text for ln in letter_unlabeled_options(ls, {"options_unlabeled": True})]
+        self.assertEqual(out[:8], ["In a bleeding patient, the most important parameter to assess fluid",
+                                   "replacement is:", "a. Pulse rate", "b. Blood pressure", "c. Urine output",
+                                   "Neurogenic shock is characterized by:", "a. Cool, moist skin",
+                                   "b. Increased cardiac output"])       # the points badge row is gone
+
+
+class TextFixTests(unittest.TestCase):
+    def test_visual_text_fix_survives_reparse_and_keeps_answer(self):
+        recs, *_ = parse("1. Stem text here with noise \u00a2\na. one\nb. two\n")
+        src = {"nn": "01"}
+        overrides.record(src, recs[0]["stem"], stem_fix="Stem text here", options_fix={"C": "three"},
+                         text_before={"stem": recs[0]["stem"]})
+        overrides.record(src, "Stem text here", answer="three", source="marked")   # keyed via the fix
+        fresh, *_ = parse("1. Stem text here with noise \u00a2\na. one\nb. two\n")
+        overrides.apply(src, fresh)
+        self.assertEqual(fresh[0]["stem"], "Stem text here")
+        self.assertEqual([o["text"] for o in fresh[0]["options"]], ["one", "two", "three"])
+        self.assertEqual((fresh[0]["correct"], fresh[0]["answer_source"]), ("C", "marked"))
+        self.assertEqual(len(src["overrides"]), 1)
+
+
 if __name__ == "__main__":
     unittest.main()

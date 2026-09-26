@@ -23,6 +23,12 @@ from typing import Any
 from .common import IMAGE_SUFFIXES, Module, dump_json, load_json, now
 
 DEFAULTS = {"dpi": 300, "psm": 3, "lang": "eng", "rotate": 0}
+# optional profile keys (only stored in the cache key when set, so old caches stay valid):
+#   ocr.split: 2        two book pages per scan: cut at the gutter (found automatically) and OCR each half
+#   ocr.threshold: 190  binarize before OCR (0-255): highlighter / shaded backgrounds hide text from Tesseract
+#   ocr.normalize: true divide by the blurred background: phone photos / uneven lighting (Tesseract only)
+#   ocr.tool: paddle    PaddleOCR instead of Tesseract (photos, curved pages, bold headings); needs the
+#                       PaddleOCR venv (`.venv-smart-ocr` next to the repo root, or $MBSET_PADDLE_PYTHON)
 
 
 def _settings(profile: dict[str, Any] | None) -> dict[str, Any]:
@@ -32,7 +38,51 @@ def _settings(profile: dict[str, Any] | None) -> dict[str, Any]:
     return cfg
 
 
+def _prepare(png: bytes, cfg: dict[str, Any]) -> list[tuple[bytes, int]]:
+    """Page image → [(image, x offset in pixels)], one per strip, after optional binarization."""
+    split, thr = int(cfg.get("split") or 1), cfg.get("threshold")
+    if split <= 1 and not thr and not cfg.get("normalize"):
+        return [(png, 0)]
+    from PIL import Image, ImageChops, ImageFilter
+
+    img = Image.open(io.BytesIO(png)).convert("L")
+    if cfg.get("normalize"):
+        bg = img.filter(ImageFilter.GaussianBlur(40))
+        img = ImageChops.divide(img, bg)
+    if thr:
+        img = img.point(lambda v, t=int(thr): 255 if v >= t else 0)
+    cuts = [0]
+    if split > 1:
+        w, h = img.size
+        cols = img.resize((w, max(1, h // 8))).load()
+        ink = [sum(255 - cols[x, y] for y in range(max(1, h // 8))) for x in range(w)]
+        for k in range(1, split):
+            lo, hi = int(w * (k / split - 0.12)), int(w * (k / split + 0.12))
+            band = 15                       # the gutter is the whitest ~band-px-wide column near the middle
+            best = min(range(lo, hi - band), key=lambda x: sum(ink[x:x + band]))
+            cuts.append(best + band // 2)
+        cuts.append(w)
+    else:
+        cuts.append(img.size[0])
+    out = []
+    for a, b in zip(cuts, cuts[1:]):
+        buf = io.BytesIO()
+        img.crop((a, 0, b, img.size[1])).save(buf, format="PNG")
+        out.append((buf.getvalue(), a))
+    return out
+
+
 def _tesseract_page(png: bytes, cfg: dict[str, Any]) -> list[dict[str, Any]]:
+    result = []
+    for strip, (img, dx) in enumerate(_prepare(png, cfg)):
+        # strips are read left to right; block numbers stay distinct so columns never interleave
+        for ln in _tesseract_image(img, cfg, dx):
+            ln["block"] += 1000 * strip
+            result.append(ln)
+    return result
+
+
+def _tesseract_image(png: bytes, cfg: dict[str, Any], dx: int = 0) -> list[dict[str, Any]]:
     with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as fh:
         fh.write(png)
         img = fh.name
@@ -50,6 +100,7 @@ def _tesseract_page(png: bytes, cfg: dict[str, Any]) -> list[dict[str, Any]]:
             continue
         key = (int(row["block_num"]), int(row["par_num"]), int(row["line_num"]))
         x, y, w, h = (int(row[k]) for k in ("left", "top", "width", "height"))
+        x += dx
         conf = float(row["conf"])
         line = lines.setdefault(key, {"words": [], "bbox": [x, y, x + w, y + h], "confs": [], "boxes": []})
         line["words"].append(row["text"])
@@ -72,6 +123,54 @@ def _tesseract_page(png: bytes, cfg: dict[str, Any]) -> list[dict[str, Any]]:
                       for t, b in zip(line["words"], line["boxes"])],
         })
     return result
+
+
+def paddle_python() -> str | None:
+    """The Python interpreter that has PaddleOCR installed, if any."""
+    env = os.getenv("MBSET_PADDLE_PYTHON")
+    if env and Path(env).exists():
+        return env
+    for parent in Path(__file__).resolve().parents:
+        cand = parent / ".venv-smart-ocr" / "bin" / "python"
+        if cand.exists():
+            return str(cand)
+    return None
+
+
+def _paddle_pages(rendered: list[tuple[bytes, float, float]], cfg: dict[str, Any]) -> list[list[dict[str, Any]]]:
+    import json
+
+    py = paddle_python()
+    if not py:
+        raise RuntimeError("ocr.tool: paddle needs the PaddleOCR venv (.venv-smart-ocr) or $MBSET_PADDLE_PYTHON")
+    scale = 72.0 / cfg["dpi"]
+    with tempfile.TemporaryDirectory() as tmp:
+        jobs = []                                           # (page index, strip, x offset, png path)
+        for i, (png, _, _) in enumerate(rendered):
+            for strip, (img, dx) in enumerate(_prepare(png, cfg)):
+                path = Path(tmp) / f"p{i:04d}_{strip}.png"
+                path.write_bytes(img)
+                jobs.append((i, strip, dx, str(path)))
+        worker = Path(__file__).with_name("paddle_worker.py")
+        run = subprocess.run([py, str(worker), *[j[3] for j in jobs]], capture_output=True, text=True, check=False)
+        if "@@MBSET_JSON@@" not in run.stdout:
+            raise RuntimeError(f"paddle worker failed: {(run.stderr or run.stdout)[-400:]}")
+        results = json.loads(run.stdout.split("@@MBSET_JSON@@", 1)[1])
+    pages: list[list[dict[str, Any]]] = [[] for _ in rendered]
+    for (i, strip, dx, _), lines in zip(jobs, results):
+        for n, ln in enumerate(lines):
+            x0, y0, x1, y1 = ln["box"]
+            x0, x1 = x0 + dx, x1 + dx
+            words, step = ln["text"].split(), (x1 - x0) / max(len(ln["text"]), 1)
+            pos, boxes = 0, []
+            for w in words:                                  # no word boxes: spread words over the line
+                at = ln["text"].find(w, pos)
+                boxes.append([w, round((x0 + at * step) * scale, 1), round((x0 + (at + len(w)) * step) * scale, 1),
+                              round(ln["score"], 2)])
+                pos = at + len(w)
+            pages[i].append({"text": ln["text"], "bbox": [round(v * scale, 1) for v in (x0, y0, x1, y1)],
+                             "conf": round(ln["score"], 3), "block": 1000 * strip + n, "words": boxes})
+    return pages
 
 
 def _render_pages(path: Path, cfg: dict[str, Any]) -> list[tuple[bytes, float, float]]:
@@ -102,8 +201,11 @@ def ocr_source(module: Module, src: dict[str, Any], profile: dict[str, Any] | No
     if cached and not force and cached.get("sha256") == src["sha256"] and cached.get("settings") == cfg:
         return cached
     rendered = _render_pages(module.source_path(src), cfg)
-    with ThreadPoolExecutor(max_workers=workers) as pool:
-        texts = list(pool.map(lambda item: _tesseract_page(item[0], cfg), rendered))
+    if cfg.get("tool") == "paddle":
+        texts = _paddle_pages(rendered, cfg)
+    else:
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            texts = list(pool.map(lambda item: _tesseract_page(item[0], cfg), rendered))
     pages = []
     for (_, width, height), lines in zip(rendered, texts):
         confs = [ln["conf"] for ln in lines if ln["text"].strip()]
@@ -127,7 +229,7 @@ def run(module: Module, state: dict[str, Any], selector: str | None, jobs: int, 
 
     todo = [s for s in module.sources(state, selector)
             if s.get("status") != "excluded" and (include_text or needs_ocr(s)
-                                                   or (load_profile(module, s) or {}).get("text") == "ocr")]
+                                                   or (load_profile(module, s) or {}).get("text") in ("ocr", "best"))]
     if not todo:
         print("[=] nothing needs OCR")
         return 0
