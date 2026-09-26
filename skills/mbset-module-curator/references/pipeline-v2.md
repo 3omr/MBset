@@ -22,14 +22,19 @@ M="أزهر دمياط/Endocrinology"
 | `spotcheck "$M" [--only] [--flagged] [--n]` | max(5, 10%) samples spread over the file: source crop beside markdown | `.mbset/reports/spotcheck_NN_k.png` |
 | `review "$M" NN --spot "6/6 OK" [--note]` | record the spot-check verdict | state |
 | `set "$M" NN --tag … --subject … --year … --confirm` | confirm / correct tags (`--exclude REASON`, `--include`, `--count-note`) | state |
-| `renumber "$M"` | resolve duplicate NN prefixes (renames the markdown and moves its parsed evidence; re-run `figures` for a renumbered source) | files renamed |
+| `renumber "$M"` | resolve duplicate NN prefixes: renames the markdown, moves its sha-matched parsed/OCR evidence, renames its `Images/<old>_*` crops to `<new>_*` and rewrites those paths in the markdown, parsed JSON and stored `fix --image` decisions (an image linked by both sources is left in place and reported) | files renamed |
 | `check "$M" [--only] [--all] [--quiet] [--json f]` | the Stage 2+3 gate; exit 1 on hard failures | `.mbset/reports/check_DATE.md` |
 | `catalog "$M"` | `00_CATALOG_OF_ALL_FILES.md` + `tag_map.json` generated from state (old catalog backed up) | markdown |
-| `packets "$M" --n 4` | balanced work packets for parallel agents | `.mbset/packets/packet_k.md` |
+| `packets "$M" --n 4` | balanced work packets for parallel agents, each with a self-contained Codex brief (see `parallel-workflow.md`) | `.mbset/packets/packet_k.md`, `packet_k_brief.txt` |
 | `lock "$M" 3,7 --owner A [--release]` | claim sources for one agent | `.mbset/locks/NN.lock` |
 | `build "$M" [--category-id --category-name] [--out]` | check → build_module_template → validate → audit | `<Module>_Questions.xlsx` |
 | `status "$M"` | one line per source: stage, class, pages, questions, answered | terminal |
 | `run "$M"` | inventory → ocr → parse → check in one go | terminal |
+| `report "$M"` | final user report: per-file counts, answer-source breakdown, every derived answer, exclusions, bias flags | terminal + report file |
+| `doctor ["$M"]` | environment (tools, Python packages) and optional module health; OK / WARN / FAIL | exit 1 on FAIL |
+| `tidy "$M" [--apply] [--restore DATE]` | standardize the folder to the deliverables layout; dry run by default, `--apply` moves to `_trash/<date>/` with a manifest | `.mbset/reports/tidy_DATE.md` |
+| `crossdup ROOT…` | sources byte-identical across modules (report only, hashes cached) | terminal |
+| `lectures "$M" plan/match/apply/check` | two-phase lecture workflow: subcategories file with empty ids → match official rows to lecture sources → `Lectures/<subcategoryId>.pdf` → verify | `.mbset/lectures_manifest.json` |
 
 ## The review loop for one source
 1. `parse --only NN` → read the summary line: counters equal? answered = MCQ? distribution sane?
@@ -42,7 +47,9 @@ M="أزهر دمياط/Endocrinology"
    truly has no answer: answer from knowledge with `--source derived` and report the count.
 5. `figures --only NN` when figure-dependent stems exist; view the contact sheet.
 6. `spotcheck --only NN`, view the sheets, `review NN --spot "k/k OK"` (or fix and re-check).
-7. `set NN --confirm` (or `--tag …`), then `check --only NN` → 0 hard failures.
+7. `set NN --confirm` (or `--tag …`), then `check --only NN` → 0 hard failures. A suggested tag
+   never carries a guessed year: when the filename has none, the tag comes without it, `check` warns,
+   and the year is read from the source header (`set NN --tag "… 2024" --year 2024`).
 
 ## Speed reference (Endocrinology, 41 sources, 1 244 golden questions)
 Inventory 7 s · OCR 283 scanned pages 8 min (2×4 workers, cached afterwards) · parse all 54 s ·

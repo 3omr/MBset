@@ -288,26 +288,93 @@ def cmd_set(args) -> int:
 
 
 def cmd_renumber(args) -> int:
+    """Give a duplicate NN a fresh index and carry everything that is clearly that source's with it:
+    markdown, parsed/OCR evidence (sha-matched), and its figure crops `Images/<old>_*` together
+    with every path that points at them (markdown, parsed JSON, stored `fix --image` decisions)."""
+    from .common import text_hash
+
     module, state = _mod(args)
     seen: set[str] = set()
     top = max(int(s["nn"]) for s in state["sources"])
+    img_ref = lambda nn: re.compile(rf"(?<![\w/])Images/{re.escape(nn)}_[^\s)\]\"'`|]+")  # noqa: E731
     for src in state["sources"]:
         if src["nn"] not in seen:
             seen.add(src["nn"])
             continue
+        old = src["nn"]
         top += 1
         new = f"{top:02d}"
         old_md = module.md_path(src)
         new_md = re.sub(r"^\d+_", f"{new}_", src["md"])
-        for folder in ("profiles", "parsed", "ocr"):
-            for ext in ("yaml", "json"):
-                p = module.meta / folder / f"{src['nn']}.{ext}"
-                # shared files belong to the first owner of the NN; only move what is clearly this source's
-                if p.exists() and ext == "json" and (load_json(p) or {}).get("sha256") == src.get("sha256"):
-                    p.rename(module.meta / folder / f"{new}.{ext}")
-        if old_md.exists():
-            old_md.rename(module.markdown / new_md)
-        print(f"[+] {src['nn']} → {new}: {src['md']} → {new_md}")
+        others = [s for s in state["sources"] if s is not src and s["nn"] == old]
+        md_shared = any(s.get("md") == src["md"] for s in others)
+        # ---- which images are this source's: linked from its own markdown / its overrides /
+        # its sha-matched parsed evidence, and not linked from another source that shares the NN
+        mine: set[str] = set()
+        if old_md.exists() and not md_shared:
+            mine |= set(img_ref(old).findall(old_md.read_text(encoding="utf-8")))
+        for o in (src.get("overrides") or {}).values():
+            if (o.get("image") or "").startswith(f"Images/{old}_"):
+                mine.add(o["image"])
+        parsed_old = module.meta / "parsed" / f"{old}.json"
+        parsed = load_json(parsed_old) if parsed_old.exists() else None
+        parsed_mine = bool(parsed) and parsed.get("sha256") == src.get("sha256")
+        if parsed_mine:
+            mine |= {r["image"] for r in parsed.get("questions", [])
+                     if (r.get("image") or "").startswith(f"Images/{old}_")}
+        theirs: set[str] = set()
+        for s in others:
+            p = module.md_path(s)
+            if p.exists():
+                theirs |= set(img_ref(old).findall(p.read_text(encoding="utf-8")))
+            theirs |= {o["image"] for o in (s.get("overrides") or {}).values() if o.get("image")}
+        clash = sorted(mine & theirs)
+        if clash:
+            print(f"[!] {old}: image(s) linked by both sources, left in place — relink by hand: {clash}")
+        moves: dict[str, str] = {}
+        for rel in sorted(mine - theirs):
+            target = f"Images/{new}_" + rel[len(f"Images/{old}_"):]
+            a, b = module.root / rel, module.root / target
+            if b.exists():
+                print(f"[!] {old}: {target} already exists — {rel} not moved")
+                continue
+            if a.exists():
+                a.rename(b)
+            moves[rel] = target
+
+        def swap(path: str | None) -> str | None:
+            return moves.get(path, path) if path else path
+
+        # ---- evidence files (shared files belong to the first owner of the NN)
+        for folder in ("parsed", "ocr"):
+            p = module.meta / folder / f"{old}.json"
+            data = parsed if folder == "parsed" else (load_json(p) if p.exists() else None)
+            if not data or data.get("sha256") != src.get("sha256"):
+                continue
+            if folder == "parsed":
+                for r in data.get("questions", []):
+                    if r.get("image"):
+                        r["image"] = swap(r["image"])
+            dump_json(module.meta / folder / f"{new}.json", data)
+            p.unlink()
+        for o in (src.get("overrides") or {}).values():
+            if o.get("image"):
+                o["image"] = swap(o["image"])
+        # ---- markdown
+        if old_md.exists() and not md_shared:
+            text = old_md.read_text(encoding="utf-8")
+            if moves:
+                text = img_ref(old).sub(lambda m: moves.get(m.group(0), m.group(0)), text)
+            (module.markdown / new_md).write_text(text, encoding="utf-8")
+            if old_md != module.markdown / new_md:
+                old_md.unlink()
+            parse_stage = src.get("stages", {}).get("parse")
+            if parse_stage and parse_stage.get("md_hash"):
+                parse_stage["md_hash"] = text_hash(text)
+        elif md_shared:
+            print(f"[!] {old}: markdown {src['md']} is shared with another source — not moved; re-parse {new}")
+        print(f"[+] {old} → {new}: {src['md']} → {new_md}"
+              + (f" · {len(moves)} image(s) renamed" if moves else ""))
         src["nn"], src["md"] = new, new_md
     state["duplicate_nn"] = []
     state["sources"].sort(key=lambda s: s["nn"])
@@ -377,11 +444,23 @@ def cmd_catalog(args) -> int:
 
 
 def cmd_packets(args) -> int:
+    """Work packets for parallel workers, plus one self-contained Codex brief per packet
+    (`.mbset/packets/packet_k_brief.txt`; dispatch: references/parallel-workflow.md)."""
     from . import catalog
 
     module, state = _mod(args)
-    for p in catalog.packets(module, state, args.n, str(SKILL_SCRIPTS / "mbset.py")):
+    script = str(SKILL_SCRIPTS / "mbset.py")
+    for p in catalog.packets(module, state, args.n, script):
         print(f"[+] {p}")
+    bins, load = catalog.packet_groups(state, args.n)
+    repo = catalog.repo_root(module.root)
+    for k, (group, pages) in enumerate(zip(bins, load), 1):   # same k as packet_k.md
+        if not group:
+            continue
+        brief = module.meta / "packets" / f"packet_{k}_brief.txt"
+        brief.write_text(catalog.packet_brief(module, k, len(bins), group, pages, script, repo), encoding="utf-8")
+        print(f"[+] {brief}\n    node ~/.agents/skills/codex-delegate/scripts/relay.mjs --brief \"{brief}\" "
+              f"--cd \"{repo}\" --model gpt-6-luna --effort max")
     return 0
 
 
@@ -527,7 +606,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--drop", help="comma-separated question numbers to remove")
     p.add_argument("--reason")
     p.set_defaults(fn=cmd_fix)
-    p = add("spotcheck", cmd_spotcheck, "source-vs-markdown sheets for max(5,10%) sampled questions")
+    p = add("spotcheck", cmd_spotcheck, "source-vs-markdown sheets for max(5,10%%) sampled questions")
     p.add_argument("--flagged", action="store_true", help="include flagged questions in the sample")
     p.add_argument("--n", type=int)
     p = add("answersheet", cmd_answersheet, "crops of unanswered MCQs (6 per sheet) for a batch visual answer pass")
@@ -558,6 +637,9 @@ def build_parser() -> argparse.ArgumentParser:
     add("status", cmd_status, "one line per source", only=False)
     p = add("run", cmd_run, "inventory → OCR → parse → check in one go", only=False)
     p.add_argument("--jobs", type=int, default=2); p.add_argument("--workers", type=int, default=4)
+    from . import crossdup, doctor, lectures, report, tidy
+    for extra in (tidy, report, doctor, crossdup, lectures):
+        extra.register(sub)
     return ap
 
 

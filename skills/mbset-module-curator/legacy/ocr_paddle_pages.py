@@ -114,7 +114,7 @@ def create_ocr_engine() -> Any:
     try:
         from paddleocr import PaddleOCR
     except ImportError as exc:
-        raise SystemExit("Install PaddlePaddle and PaddleOCR 3.x; see references/smart-ocr-workflow.md") from exc
+        raise SystemExit("Install PaddlePaddle and PaddleOCR 3.x; see legacy/smart-ocr-workflow.md") from exc
     return PaddleOCR(text_detection_model_name="PP-OCRv5_mobile_det",
                      text_recognition_model_name="en_PP-OCRv5_mobile_rec",
                      use_doc_orientation_classify=True,

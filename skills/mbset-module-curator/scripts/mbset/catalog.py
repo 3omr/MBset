@@ -79,7 +79,9 @@ def tag_map(module: Module, state: dict[str, Any]) -> Path:
 
 
 # --------------------------------------------------------------------------- packets
-def packets(module: Module, state: dict[str, Any], n: int, script: str) -> list[Path]:
+def packet_groups(state: dict[str, Any], n: int) -> tuple[list[list[dict[str, Any]]], list[int]]:
+    """Pending sources in n bins balanced by page count (greedy, largest first). Deterministic, so
+    `packets` and the brief writer always agree on which NN is in which packet."""
     todo = [s for s in state["sources"] if s.get("status") not in ("excluded", "reviewed", "missing")]
     todo.sort(key=lambda s: -(s.get("pages") or 1))
     bins: list[list[dict[str, Any]]] = [[] for _ in range(max(n, 1))]
@@ -88,6 +90,11 @@ def packets(module: Module, state: dict[str, Any], n: int, script: str) -> list[
         k = load.index(min(load))
         bins[k].append(s)
         load[k] += s.get("pages") or 1
+    return bins, load
+
+
+def packets(module: Module, state: dict[str, Any], n: int, script: str) -> list[Path]:
+    bins, load = packet_groups(state, n)
     out = []
     root = module.root
     for k, group in enumerate(bins, 1):
@@ -160,3 +167,87 @@ def category(module: Module, state: dict[str, Any]) -> tuple[str | None, str | N
                     return str(cid), str(name) if name else None
     return None, None
 
+
+# --------------------------------------------------------------------------- Codex briefs
+def repo_root(path: Path) -> Path:
+    """The git work tree that holds the module (Codex's --cd); the module itself if there is none."""
+    for p in [path, *path.parents]:
+        if (p / ".git").exists():
+            return p
+    return path
+
+
+def packet_brief(module: Module, k: int, total: int, group: list[dict[str, Any]], pages: int,
+                 script: str, repo: Path | None = None) -> str:
+    """A self-contained brief for one Codex worker: it sees nothing but this text."""
+    repo = repo or repo_root(module.root)
+    nns = ",".join(s["nn"] for s in sorted(group, key=lambda s: s["nn"]))
+    M, S, owner = str(module.root), script, f"packet_{k}"
+    rows = [f"| {s['nn']} | {Path(s['rel']).name} | {s.get('triage', {}).get('class', '?')} | "
+            f"{s.get('pages') or ''} | Markdown_Questions/{s['md']} |" for s in sorted(group, key=lambda s: s["nn"])]
+    return "\n".join([
+        f"# MBset review packet {k}/{total} — {module.name}",
+        "",
+        "You are a worker on the MBset medical question-bank pipeline. This brief is everything you get:",
+        "there is no chat history, no other instructions and no skill file. Follow it exactly. Do NOT commit.",
+        "",
+        "## Context",
+        f"- Repository (your working root): {repo}",
+        f"- Module folder: {M}",
+        f"- Pipeline CLI: {S}   (run it as `python3 {S} <command> \"{M}\" …`)",
+        f"- Your sources (NN list): {nns}   — {len(group)} file(s), {pages} page(s)",
+        "- Every source was already inventoried, OCRed and parsed by a deterministic parser. The parser, not",
+        "  you, writes each question's text into `Markdown_Questions/NN_*.md`. Your job is judgement on",
+        "  what it flags: flag triage, reading pen marks on answer sheets, spot checks, QROC model answers.",
+        "- The PNG sheets the commands print (answer sheets, spot-check sheets, contact sheets) are images:",
+        "  open each one with your image-viewing tool and read it; never guess what is on it.",
+        "",
+        "| NN | source file | class | pages | markdown |",
+        "|---|---|---|---:|---|",
+        *rows,
+        "",
+        "## Loop (run for each NN of yours, in order)",
+        "```bash",
+        f'S={S}',
+        f'M="{M}"',
+        f'python3 $S lock "$M" {nns} --owner {owner}        # refuses sources held by someone else',
+        'python3 $S parse "$M" --only NN                    # profile → markdown + flags',
+        'python3 $S show "$M" NN --flags                    # read only the flagged questions',
+        'python3 $S show "$M" NN --dropped                  # the noise filter must not have eaten a question',
+        '#   profile problem → edit $M/.mbset/profiles/NN.yaml, then parse --only NN again',
+        'python3 $S fix "$M" NN --drop 7 --reason "…"       # single questions (also --image N=Images/NN_QN.png)',
+        'python3 $S answersheet "$M" --only NN              # unanswered MCQs: view the PNGs, read the marks',
+        'python3 $S fix "$M" NN --answers "3=B 4=D" --source marked       # only marks you can see; else leave ?',
+        'python3 $S fix "$M" NN --answers "9=C" --source derived          # only when the source has no answer',
+        'python3 $S fix "$M" NN --exp-file answers.json     # QROC model answers {"N": "…"} (derived)',
+        'python3 $S figures "$M" --only NN                  # if figure-dependent questions exist',
+        'python3 $S spotcheck "$M" --only NN                # view the PNG sheets it prints',
+        'python3 $S review "$M" NN --spot "6/6 OK"          # your verdict on the spot-check sheets',
+        f'python3 $S check "$M" --only {nns}                 # must print 0 hard failures',
+        f'python3 $S lock "$M" {nns} --release',
+        "```",
+        "",
+        "## Rules (hard)",
+        f"1. Only touch files of your NNs ({nns}): `.mbset/profiles/NN.yaml`, `Markdown_Questions/NN_*.md`,",
+        "   `Images/NN_*`, and their state through `fix` / `review` / `set`. Never edit another NN, the catalog",
+        "   (`00_CATALOG_OF_ALL_FILES.md`), the tag map, any Excel file, or the pipeline code.",
+        "2. Never type, retype, paraphrase or \"correct\" question or option text. If the parser misread a",
+        "   question, fix the profile and re-parse, or use `fix` (--drop / --image / answers). Nothing else.",
+        "3. `fix --answers … --source marked` ONLY when the mark is visible on the sheet. If you are not sure,",
+        "   leave that answer `?` and list it as unresolved. Never guess, never copy an answer from a similar",
+        "   question in another file, never default to A.",
+        "4. Answers from your own medical knowledge ONLY via `--source derived` (MCQ, and only when the source",
+        "   gives no answer) or `--exp-file` (QROC model answers, recorded as derived). List every one.",
+        "5. Keep Arabic characters out of everything you write (model answers included).",
+        "6. Do not run `catalog`, `build`, `packets` or `renumber`, and do not commit or push.",
+        f"7. Finish with `python3 $S check \"$M\" --only {nns}`; report its summary line as printed.",
+        "",
+        "## Report contract (your final message, nothing else)",
+        "- Per file: `NN | questions | MCQ | QROC | answered | check: OK/FAIL`.",
+        "- Per file answer-source counts: key / marked / online / derived / ? (unanswered).",
+        "- Derived list: every derived answer and model answer as `NN Qn` (letter or \"model answer\").",
+        "- Unresolved: every flag you could not resolve and every `?` answer, with the reason.",
+        "- Profile changes: which NN.yaml fields you changed and why; drops with their reasons.",
+        f"- The final `check --only {nns}` summary lines (hard failures / review items).",
+        "",
+    ])

@@ -50,3 +50,7 @@ Lecture_PowerPoint_PDF_Staging/
 *.ppsx
 *.ndjson
 *.mp4
+
+# tidy moves removed items here (restorable, never versioned)
+_trash/
+.mbset/archive/
