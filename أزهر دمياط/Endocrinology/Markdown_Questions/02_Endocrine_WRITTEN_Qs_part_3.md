@@ -1,4 +1,7 @@
-# Endocrine written questions part 3 — extracted questions
+# Excluded source record
 
-> Status: incomplete. The 15-page source is a mixed handwritten and lecture-note scan. The recovered text contains definitions, clinical features, investigations, and treatment notes but no explicit question blocks or answer key; no QROC stem was fabricated.
+**Source:** `Endocrine WRITTEN Qs part.3.pdf`
 
+**Status:** EXCLUDED — EXCLUDED — pages 1–15 are lecture notes and diagrams (hypothyroidism, short stature, pheochromocytoma, metformin); no exam question block. The parsed fragments are note headings and facts, not questions.
+
+No question rows were created from this source. The parser output is kept in `.mbset/excluded_md/` for audit.

@@ -1,8 +1,7 @@
-# Endocrine formative 2020–2021 — extracted questions
+# Endo  formative 20_21 — extracted questions
 
-Total recoverable MCQs: 24
-
-> Status: 24 MCQs recovered; the source contains no answer key, so all answers are derived and require spot-checking.
+> Source: `Endo  formative 20_21.pdf` · index 18 · parsed 2026-09-26 by mbset.py
+> Questions: 25 (25 MCQ / 0 written) · answers: marked 25
 
 ### Q1: Glucocorticoids is produced by which area
 
@@ -12,19 +11,21 @@ Total recoverable MCQs: 24
 - **D)** Thyroid gland
 
 **Correct Answer:** B
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
 ### Q2: Hyper pigmentation is a sign of:
 
 - **A)** Addison disease
-- **B)** Conn’s syndrome
+- **B)** Conn's syndrome
 - **C)** Hypothyroidism
 - **D)** A&C
 
 **Correct Answer:** A
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
@@ -36,7 +37,8 @@ Total recoverable MCQs: 24
 - **D)** Final height is short
 
 **Correct Answer:** D
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 1, 2
 
 ---
 
@@ -48,7 +50,8 @@ Total recoverable MCQs: 24
 - **D)** Infantile body proportions
 
 **Correct Answer:** D
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
@@ -60,7 +63,8 @@ Total recoverable MCQs: 24
 - **D)** Tall but of proportionate weight
 
 **Correct Answer:** A
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
@@ -72,7 +76,8 @@ Total recoverable MCQs: 24
 - **D)** It is stimulated by epinephrine
 
 **Correct Answer:** A
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 2, 3
 
 ---
 
@@ -84,7 +89,8 @@ Total recoverable MCQs: 24
 - **D)** cavernous sinus
 
 **Correct Answer:** A
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
@@ -96,7 +102,8 @@ Total recoverable MCQs: 24
 - **D)** sella turcica
 
 **Correct Answer:** D
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 3, 4
 
 ---
 
@@ -107,8 +114,9 @@ Total recoverable MCQs: 24
 - **C)** 16 weeks
 - **D)** 20 weeks
 
-**Correct Answer:** B
-**Answer Source:** derived
+**Correct Answer:** A
+**Answer Source:** marked
+**Source Pages:** 4
 
 ---
 
@@ -120,7 +128,8 @@ Total recoverable MCQs: 24
 - **D)** 24 months
 
 **Correct Answer:** D
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 4
 
 ---
 
@@ -133,7 +142,8 @@ Total recoverable MCQs: 24
 - **E)** Pituitary apoplexy
 
 **Correct Answer:** C
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 4, 5
 
 ---
 
@@ -146,7 +156,8 @@ Total recoverable MCQs: 24
 - **E)** Anti depressants
 
 **Correct Answer:** D
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 5
 
 ---
 
@@ -159,7 +170,8 @@ Total recoverable MCQs: 24
 - **E)** When associated with anosmia is called Kalman syndrome
 
 **Correct Answer:** D
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 5, 6
 
 ---
 
@@ -172,11 +184,12 @@ Total recoverable MCQs: 24
 - **E)** Insulins
 
 **Correct Answer:** C
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 6
 
 ---
 
-### Q15: Criteria of metabolic syndrome include blood pressure ≥
+### Q15: Criteria of metabolic syndrome include blood pressure
 
 - **A)** 110/70
 - **B)** 120/80
@@ -185,7 +198,8 @@ Total recoverable MCQs: 24
 - **E)** 150/100
 
 **Correct Answer:** C
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 6, 7
 
 ---
 
@@ -195,14 +209,29 @@ Total recoverable MCQs: 24
 - **B)** Pallor is characteristic
 - **C)** Replacement by thyroxine must precede cortisol
 - **D)** Body hair is deficient
-- **E)** Look may be apathetic Delayed puberty in boys is the lack of starting testicular enlargement by the age of
+- **E)** Look may be apathetic
 
 **Correct Answer:** C
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 7
 
 ---
 
-### Q17: Presentation of pituitary disorders are by either
+### Q17: Delayed puberty in boys is the lack of starting testicular enlargement by the age of
+
+- **A)** 13y
+- **B)** 14
+- **C)** 15
+- **D)** 16
+- **E)** 17
+
+**Correct Answer:** B
+**Answer Source:** marked
+**Source Pages:** 7
+
+---
+
+### Q18: Presentation of pituitary disorders are by either
 
 - **A)** Hormonal excess
 - **B)** Hormone deficiency
@@ -211,24 +240,26 @@ Total recoverable MCQs: 24
 - **E)** Any of the above
 
 **Correct Answer:** E
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 8
 
 ---
 
-### Q18: Acromegaly is characterized by
+### Q19: Acromegaly is characterized by
 
 - **A)** Visual field defects are common
 - **B)** Usually caused by microadenoma
 - **C)** Best treated medically
 - **D)** DM and HTN are uncommon
-- **E)** Hypogonadism doesn’t occur
+- **E)** Hypogonadism doesn't occur
 
 **Correct Answer:** A
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 8
 
 ---
 
-### Q19: Endocrinal causes of short stature doesn't include
+### Q20: Endocrinal causes of short stature doesn't include
 
 - **A)** Cushing's syndrome
 - **B)** GH deficiency
@@ -237,11 +268,12 @@ Total recoverable MCQs: 24
 - **E)** Precocious puberty
 
 **Correct Answer:** C
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 8, 9
 
 ---
 
-### Q20: Pancreatic tumors are found in
+### Q21: Pancreatic tumors are found in
 
 - **A)** MEN type 1
 - **B)** MEN type 2
@@ -250,11 +282,12 @@ Total recoverable MCQs: 24
 - **E)** Polycystic ovary syndrome
 
 **Correct Answer:** A
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 9
 
 ---
 
-### Q21: The following is not an adrenal cause of HTN
+### Q22: The following is not an adrenal cause of HTN
 
 - **A)** CONN'S
 - **B)** Pheochromocytoma
@@ -263,11 +296,12 @@ Total recoverable MCQs: 24
 - **E)** Addison's disease
 
 **Correct Answer:** E
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 9
 
 ---
 
-### Q22: Which is the most appropriate initial oral agent for management of type 2 diabetes?
+### Q23: Which is the most appropriate initial oral agent for management of type 2 diabetes?
 
 - **A)** Glipizide
 - **B)** Empagliflozin
@@ -275,11 +309,12 @@ Total recoverable MCQs: 24
 - **D)** Pioglitazone
 
 **Correct Answer:** C
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 10
 
 ---
 
-### Q23: Which of the following statements is characteristic of metformin?
+### Q24: Which of the following statements is characteristic of metformin?
 
 - **A)** There is increased risk of myocardial infarction.
 - **B)** Metformin decreases hepatic glucose production.
@@ -287,11 +322,12 @@ Total recoverable MCQs: 24
 - **D)** Weight gain is a common adverse effect.
 
 **Correct Answer:** B
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 10
 
 ---
 
-### Q24: A 64-year-old woman with a history of type 2 diabetes is diagnosed with heart failure. Which of the following medications would be a poor choice for controlling her diabetes?
+### Q25: A 64-year-old woman with a history of type 2 diabetes is diagnosed with heart failure. Which of the following medications would be a poor choice for controlling her diabetes?
 
 - **A)** Exenatide
 - **B)** Glybenclamide
@@ -299,6 +335,7 @@ Total recoverable MCQs: 24
 - **D)** Insulin
 
 **Correct Answer:** C
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 10, 11
 
 ---

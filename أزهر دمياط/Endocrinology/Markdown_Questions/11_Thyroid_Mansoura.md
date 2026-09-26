@@ -1,10 +1,9 @@
-# Mansoura thyroid questions — extracted questions
+# Thyroid Mansoura — extracted questions
 
-Total recoverable MCQs: 70
+> Source: `Thyroid Mansoura.pdf` · index 11 · parsed 2026-09-26 by mbset.py
+> Questions: 72 (72 MCQ / 0 written) · answers: key 70, marked 1, none 1
 
-> Status: 3 numbered blocks were omitted because options/key were incomplete.
-
-### Q1: As regard embryology of thyroid:
+### Q1: l. As regard embryology of thyroid:
 
 - **A)** Develops from 1st branchial Arch.
 - **B)** Develops from 4th branchial Arch.
@@ -14,10 +13,24 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q2: As regard to T3:
+### Q2: C-cells of thyroid gland:
+
+- **A)** Develop from ultimobranchial body.
+- **B)** Produce calcitonin.
+- **C)** Are the origin of medullary carcinoma.
+- **D)** All of the above.
+
+**Correct Answer:** D
+**Answer Source:** key
+**Source Pages:** 1
+
+---
+
+### Q3: As regard to T3:
 
 - **A)** Less concentration thon circulating T4.
 - **B)** More potent thon T4.
@@ -26,10 +39,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q3: The correct sequence of events for the metabolism of iodine and synthesis thyroid hormone is:
+### Q4: The correct sequence of events for the metabolism of iodine and synthesis thyroid hormone is:
 
 - **A)** Trapping, organification, coupling, release, oxidation.
 - **B)** Oxidation, trapping, coupling, organification, release.
@@ -39,23 +53,25 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q4: The daily requirement of iodine is:
+### Q5: The daily requirement of iodine is:
 
 - **A)** 50-20 pg.
-- **B)** 80-90 ug.
+- **B)** 80-90 µg.
 - **C)** 100-125 prg.
-- **D)** 15O-l65 ug.
+- **D)** 15O-l65 µg.
 - **E)** None of the above
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q5: Most diagnostic single investigation for toxic adenoma is:
+### Q6: Most diagnostic single investigation for toxic adenoma is:
 
 - **A)** T3-T4.
 - **B)** US.
@@ -64,10 +80,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q6: The following statements regarding TSH measuring are true except:
+### Q7: The following statements regarding TSH measuring are true except:
 
 - **A)** lt is increased after total thyroidectomy.
 - **B)** Normal TSH is about 5 micro units/liter.
@@ -76,10 +93,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q7: Worm nodule means:
+### Q8: Worm nodule means:
 
 - **A)** Inactive nodule.
 - **B)** Usually cancerous.
@@ -88,10 +106,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q8: As regards FNAB all cancel except:
+### Q9: As regards FNAB all cancel except:
 
 - **A)** Outpatient procedure.
 - **B)** Cheap and safe.
@@ -100,10 +119,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q9: Presentations of ectopic thyroid include:
+### Q10: Presentations of ectopic thyroid include:
 
 - **A)** Dysarthria.
 - **B)** Midline neck swelling.
@@ -112,10 +132,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q10: The most common site of thyroglossal cyst is:
+### Q11: The most common site of thyroglossal cyst is:
 
 - **A)** Subhyoid.
 - **B)** Suprahyoid.
@@ -124,10 +145,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q11: The following ore true regarding thyroglossal cyst except:
+### Q12: The following ore true regarding thyroglossal cyst except:
 
 - **A)** Usually presents as midline neck swelling.
 - **B)** Moy be confused with ectopic thyroid.
@@ -136,22 +158,24 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q12: Preparation of retrosternal goiter for surgery includes:
+### Q13: Preparation of retrosternal goiter for surgery includes:
 
 - **A)** Neomercazole.
-- **B)** Lugol’s iodine.
+- **B)** Lugol's iodine.
 - **C)** Propranolol.
 - **D)** A and C.
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
-### Q13: Sporadic goiter may occur due to the following except:
+### Q14: Sporadic goiter may occur due to the following except:
 
 - **A)** Cabbage.
 - **B)** Water pollution by excreta.
@@ -160,10 +184,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
-### Q14: Autoimmune manifestations of Grave’s disease include the following except:
+### Q15: Autoimmune manifestations of Grave's disease include the following except:
 
 - **A)** Palmar erythema.
 - **B)** Clubbing.
@@ -172,10 +197,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
-### Q15: All of the following ore recognized complications of neomercazole except:
+### Q16: All of the following ore recognized complications of neomercazole except:
 
 - **A)** Goiter.
 - **B)** Agranulocytosis.
@@ -184,10 +210,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
-### Q16: Thyrotoxicosis in children all correct except:
+### Q17: Thyrotoxicosis in children all correct except:
 
 - **A)** Usually goes into spontaneous remission.
 - **B)** Medical treatment alone can control the disease.
@@ -196,10 +223,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
-### Q17: Which of the following treatment schedule for diffuse toxic goiter is true:
+### Q18: Which of the following treatment schedule for diffuse toxic goiter is true:
 
 - **A)** Over 45yeors: radioactive iodine.
 - **B)** Under 45 years: with large goiter: surgery.
@@ -209,10 +237,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
-### Q18: Toxic goiter hos the following signs except:
+### Q19: Toxic goiter hos the following signs except:
 
 - **A)** Flapping tremors of the hand
 - **B)** Exophthalmos
@@ -221,10 +250,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
-### Q19: 3 hours post-thyroidectomy, 30 years old woman developed agitation and difficulty breathing, tachycardia and dry dressing but inferior cervical swelling. The most appropriate immediate step is:
+### Q20: 3 hours post-thyroidectomy, 30 years old woman developed agitation and difficulty breathing, tachycardia and dry dressing but inferior cervical swelling. The most appropriate immediate step is:
 
 - **A)** insertion of an oro-tracheal tube
 - **B)** Reopening of the cervical wound
@@ -233,22 +263,24 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
-### Q20: 5 mg/dL. The next step should be:
+### Q21: On the 1 St postoperative day after total thyroidectomy, patient complains of tingling of the finger, lips and the serum calcium level of 5.5 mg/dL. The next step should be:
 
 - **A)** Observation only
 - **B)** Administration of vitamin D2 or D3 50000-100000 units/ day
 - **C)** Administration of vitamin D3 1-2pgldoy
 - **D)** Administration of calcium gluconate 3-5g /day, by slow IV drip
 
-**Correct Answer:** C
+**Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q21: Hashimoto disease may present by:
+### Q22: Hashimoto disease may present by:
 
 - **A)** Thyrotoxicosis.
 - **B)** Myxedemo.
@@ -257,10 +289,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q22: The following type of thyroiditis mimics malignancy:
+### Q23: The following type of thyroiditis mimics malignancy:
 
 - **A)** Hashimoto thyroiditis.
 - **B)** Riedle thyroiditis.
@@ -269,22 +302,24 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q23: the most common cause of goitrous hypothyroidism in adults is:
+### Q24: the most common cause of goitrous hypothyroidism in adults is:
 
 - **A)** Graves' disease.
-- **B)** Riedel’s thyroiditis.
-- **C)** Hashimoto’s disease.
+- **B)** Riedel's thyroiditis.
+- **C)** Hashimoto's disease.
 - **D)** De Quervain's thyroiditis.
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q24: Clinical picture of thyroid carcinoma include:
+### Q25: Clinical picture of thyroid carcinoma include:
 
 - **A)** Dyspnea and dysphagia.
 - **B)** Referred otology.
@@ -294,10 +329,12 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** E
 **Answer Source:** key
+**Image:** Images/11_Q25.png
+**Source Pages:** 7
 
 ---
 
-### Q25: A familial form of medullary thyroid carcinoma (MTC) should be suspected whenever:
+### Q26: A familial form of medullary thyroid carcinoma (MTC) should be suspected whenever:
 
 - **A)** The tumor is multifocal.
 - **B)** The tumor is bilateral foci of tumor are present in both thyroid lobes.
@@ -306,10 +343,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
-### Q26: A thyroid nodule could be malignant if it shows:
+### Q27: A thyroid nodule could be malignant if it shows:
 
 - **A)** rapid growth
 - **B)** Pain referred to the ear
@@ -319,10 +357,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
-### Q27: Which of the following statements regarding follicular adenoma is true:
+### Q28: Which of the following statements regarding follicular adenoma is true:
 
 - **A)** It presents clinically as solitary nodule.
 - **B)** Distinction between follicular adenoma and carcinoma can only be made by histological examination.
@@ -332,10 +371,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
-### Q28: In thyroid carcinoma, mediastinal node involvement is a feature of which type:
+### Q29: In thyroid carcinoma, mediastinal node involvement is a feature of which type:
 
 - **A)** Follicular.
 - **B)** Anaplastic.
@@ -344,10 +384,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q29: The term lateral aberrant thyroid implies
+### Q30: The term lateral aberrant thyroid implies
 
 - **A)** congenital aberrant thyroid tissue lateral to the thyroid
 - **B)** metastasis in cervical lymph node from on occult thyroid carcinoma
@@ -357,10 +398,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q30: Hoarseness of voice denotes:
+### Q31: Hoarseness of voice denotes:
 
 - **A)** Compression of the superior laryngeal nerve
 - **B)** infiltration of the recurrent laryngeal nerve
@@ -369,10 +411,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q31: All are causes of hypercalcemia, except:
+### Q32: All are causes of hypercalcemia, except:
 
 - **A)** Metastatic cancer
 - **B)** Sarcoidosis
@@ -382,10 +425,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q32: A 17 year old girl presented with o 2.5 cm nodule in the right lobe of the thyroid gland and enlarged three cervical LNs confirmed by US. FNA cytology revealed malignant cells with vesicular nuclei, the most probable diagnosis is:
+### Q33: A 17 year old girl presented with o 2.5 cm nodule in the right lobe of the thyroid gland and enlarged three cervical LNs confirmed by US. FNA cytology revealed malignant cells with vesicular nuclei, the most probable diagnosis is:
 
 - **A)** Lymphoma
 - **B)** Anaplastic carcinoma
@@ -395,10 +439,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
-### Q33: A 30-yeor old female presents for evolution of a palpable thyroid nodule Tc99 scan demonstrated a single cold nodule it may be the following EXCEPT:
+### Q34: A 30-yeor old female presents for evolution of a palpable thyroid nodule Tc99 scan demonstrated a single cold nodule it may be the following EXCEPT:
 
 - **A)** Carcinoma
 - **B)** Non-functioning adenoma
@@ -408,10 +453,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
-### Q34: The most frequent variety of thyroid cancer is:
+### Q35: The most frequent variety of thyroid cancer is:
 
 - **A)** Follicular carcinoma
 - **B)** Papillary carcinoma
@@ -420,10 +466,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
-### Q35: Thyroid disease treatment:
+### Q36: Thyroid disease treatment:
 
 - **A)** Lymphoma >( irradiation and chemotherapy)
 - **B)** Follicular adenoma> ( lobectomy)
@@ -433,10 +480,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
-### Q36: Thyroid carcinoma during pregnancy, appropriate treatment is:
+### Q37: Thyroid carcinoma during pregnancy, appropriate treatment is:
 
 - **A)** rodioiodine l3l
 - **B)** Chemotherapy
@@ -445,10 +493,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q37: Recurrent goiter may be due to:
+### Q38: Recurrent goiter may be due to:
 
 - **A)** Inadequate initial removal.
 - **B)** Persistence of etiology.
@@ -457,10 +506,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q38: Excision of o thyroglosssal cyst should include removal of
+### Q39: Excision of o thyroglosssal cyst should include removal of
 
 - **A)** Thyroid isthmus.
 - **B)** Pyramidal lobe.
@@ -470,10 +520,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q39: ln physiological goiter the following statements are true except that it:
+### Q40: ln physiological goiter the following statements are true except that it:
 
 - **A)** Affects males more often thon females.
 - **B)** Presents as fullness of the neck (Venus neck).
@@ -483,10 +534,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q40: The best routine managment for multinodular goitre is by:
+### Q41: The best routine managment for multinodular goitre is by:
 
 - **A)** Hemithyroidectomy.
 - **B)** Partial thyroidectomy.
@@ -496,10 +548,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
-### Q41: Among the following statements about retrosternal goiter, the false one is that it:
+### Q42: Among the following statements about retrosternal goiter, the false one is that it:
 
 - **A)** Usually arises in aberrant intra-thoracic thyroid tissue.
 - **B)** Is particularly common in males.
@@ -509,10 +562,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
-### Q42: A middle-aged female presented with an asymptomatic nodule in the right lobe of the thyroid. She gave a history of irradiation in childhood. The nodule was cold on radioactive iodine scanning and the sonogram reveled that it was a solid mass. The appropriate management of this case is:
+### Q43: A middle-aged female presented with an asymptomatic nodule in the right lobe of the thyroid. She gave a history of irradiation in childhood. The nodule was cold on radioactive iodine scanning and the sonogram reveled that it was a solid mass. The appropriate management of this case is:
 
 - **A)** Aspiration biopsy.
 - **B)** Treatment with thyroxin.
@@ -522,10 +576,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
-### Q43: Voice fatigue after thyroidectomy is due to injury to which of the following nerves?
+### Q44: Voice fatigue after thyroidectomy is due to injury to which of the following nerves?
 
 - **A)** Superior laryngeal.
 - **B)** External laryngeal.
@@ -535,10 +590,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
-### Q44: Medical treatment of thyrotoxicosis is least useful in:
+### Q45: Medical treatment of thyrotoxicosis is least useful in:
 
 - **A)** Cases with true exophthalmos.
 - **B)** Pregnant females.
@@ -548,23 +604,25 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
-### Q45: Thyrotoxicosis during pregnancy is best treated by:
+### Q46: Thyrotoxicosis during pregnancy is best treated by:
 
 - **A)** Subtotal thyroidectomy.
 - **B)** Corbimazole.
 - **C)** Beta blockers.
-- **D)** Lugol’s iodine.
+- **D)** Lugol's iodine.
 - **E)** Rodioiodine.
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
-### Q46: The following statements about treatment of thyrotoxicosis by radioactive iodine are fine except that:
+### Q47: The following statements about treatment of thyrotoxicosis by radioactive iodine are fine except that:
 
 - **A)** Is contraindicated in patients below the age of 40.
 - **B)** Is particularly useful in elderly and thyrocardiac patients.
@@ -574,10 +632,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
-### Q47: Hypothyroidism is most often due to:
+### Q48: Hypothyroidism is most often due to:
 
 - **A)** Multinodulor goitre.
 - **B)** Solitary adenoma,
@@ -587,10 +646,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
-### Q48: True statements about papillary carcinoma of the thyroid do not include that it:
+### Q49: True statements about papillary carcinoma of the thyroid do not include that it:
 
 - **A)** Often affects adolescents.
 - **B)** ls a slow-growing tumor.
@@ -600,10 +660,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
-### Q49: ln subacute thyroiditis (de Quervain's disease), it is untrue that it:
+### Q50: ln subacute thyroiditis (de Quervain's disease), it is untrue that it:
 
 - **A)** Is a virus infection related to influenza or mumps
 - **B)** Has a sudden onset with fever and painful swelling of the gland.
@@ -613,10 +674,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
-### Q50: In hashimoto’s disease (lymphadenoid goitre), the false statement that it :
+### Q51: In hashimoto's disease (lymphadenoid goitre), the false statement that it:
 
 - **A)** Usually affects menopausal women.
 - **B)** Is characterized by uniform smooth enlargement of the gland with hard consistency.
@@ -626,10 +688,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
-### Q51: The most frequent cause of primary hyperparathyroidism is:
+### Q52: The most frequent cause of primary hyperparathyroidism is:
 
 - **A)** Parathyroid adenoma.
 - **B)** Idiopathic parathyroid hyperplasia.
@@ -639,10 +702,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
-### Q52: All the following are True about the thyroglossal cyst except:
+### Q53: All the following are True about the thyroglossal cyst except:
 
 - **A)** Painless swelling.
 - **B)** Cystic in consistency.
@@ -650,11 +714,12 @@ Total recoverable MCQs: 70
 - **D)** If infected, can form a thyroglossal fistula.
 
 **Correct Answer:** C
-**Answer Source:** key
+**Answer Source:** marked
+**Source Pages:** 14
 
 ---
 
-### Q53: Regarding thyroiditis, all are true except:
+### Q54: Regarding thyroiditis, all are true except:
 
 - **A)** Inflammatory conditions of the thyroid gland.
 - **B)** It's rare.
@@ -663,10 +728,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
-### Q54: The simple Goiter has the following featuring except:
+### Q55: The simple Goiter has the following featuring except:
 
 - **A)** More common on females.
 - **B)** Presented by diffuse, soft enlargement of the gland in cases if diffuse simple goiter.
@@ -675,10 +741,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
-### Q55: The simple nodular goiter can be complicated by one of the following EXCEPT:
+### Q56: The simple nodular goiter can be complicated by one of the following EXCEPT:
 
 - **A)** 2ry thyrotoxicosis.
 - **B)** Haemorrhage.
@@ -687,10 +754,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q56: Retrosternal goiter has the following features EXCEPT:
+### Q57: Retrosternal goiter has the following features EXCEPT:
 
 - **A)** Dullness on direct sterna percussion.
 - **B)** Not an indication for surgery.
@@ -699,10 +767,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q57: All are features of Grave's disease EXCEPT:
+### Q58: All are features of Grave's disease EXCEPT:
 
 - **A)** Affects mainly elderly males more than females.
 - **B)** Shows clinical picture of hyperthyroidism.
@@ -711,10 +780,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q58: Exophthalmos can be detected by all of the following EXCEPT:
+### Q59: Exophthalmos can be detected by all of the following EXCEPT:
 
 - **A)** Elevated free T3 and T4.
 - **B)** Clinically by starring look and loss of forehead wrinkling on looking upwards.
@@ -723,10 +793,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q59: As differentiation between primary and 2ry toxic goiter all are true EXCEPT:
+### Q60: As differentiation between primary and 2ry toxic goiter all are true EXCEPT:
 
 - **A)** The 2ry is more common in elderly.
 - **B)** The 2ry appears with gradual onset.
@@ -735,10 +806,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q60: All are indications of surgery in Goiter EXCEPT:
+### Q61: All are indications of surgery in Goiter EXCEPT:
 
 - **A)** Retrosternal goiter.
 - **B)** 2ry toxic goiter.
@@ -747,10 +819,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q61: Pre-operative preparation for the patient include all of the following EXCEPT:
+### Q62: Pre-operative preparation for the patient include all of the following EXCEPT:
 
 - **A)** CBC, coagulation profile, liver and kidney profile.
 - **B)** CXR and indirect laryngoscopy.
@@ -759,10 +832,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q62: Regarding the recurrent laryngeal nerve, all are true EXCEPT:
+### Q63: Regarding the recurrent laryngeal nerve, all are true EXCEPT:
 
 - **A)** If injured bilaterally, completely, the patient will be aphonic.
 - **B)** Stridor will occur in unilateral complete injury.
@@ -771,10 +845,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q63: Most common type of the thyroid malignancy is:
+### Q64: Most common type of the thyroid malignancy is:
 
 - **A)** Papillary carcinoma.
 - **B)** Anaplastic carcinoma.
@@ -783,10 +858,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 17
 
 ---
 
-### Q64: Anaplastic carcinoma has the following characters:
+### Q65: 66-Anaplastic carcinoma has the following characters:
 
 - **A)** More common in elderly, bad prognosis, early spread and aggressive.
 - **B)** Main way of spread is blood.
@@ -795,10 +871,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 17
 
 ---
 
-### Q65: The following is not one of the characters of the malignant thyroid cyst:
+### Q66: The following is not one of the characters of the malignant thyroid cyst:
 
 - **A)** Its aspirate is haemorrhagic.
 - **B)** Cytology shows malignant cells.
@@ -807,10 +884,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 17
 
 ---
 
-### Q66: Malignant goiter, if painful the pain will be referred to the ear through:
+### Q67: Malignant goiter, if painful the pain will be referred to the ear through:
 
 - **A)** Phrenic nerve.
 - **B)** Sympathetic plexus.
@@ -819,10 +897,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 17
 
 ---
 
-### Q67: The following is a cause of painful goiter:
+### Q68: The following is a cause of painful goiter:
 
 - **A)** Acute thyroiditis.
 - **B)** Simple nodular goiter.
@@ -831,10 +910,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 18
 
 ---
 
-### Q68: In a case of goiter, the following may be cause of un-equal pulse during examination:
+### Q69: In a case of goiter, the following may be cause of un-equal pulse during examination:
 
 - **A)** Diffuse goiter.
 - **B)** Cancer thyroid.
@@ -843,10 +923,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 18
 
 ---
 
-### Q69: Hard goiter can be felt during examination of the gland in the following cases:
+### Q70: Hard goiter can be felt during examination of the gland in the following cases:
 
 - **A)** Malignancy.
 - **B)** Calcified simple nodular goiter.
@@ -855,10 +936,11 @@ Total recoverable MCQs: 70
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 18
 
 ---
 
-### Q70: All of the following are causes of dullness over the manubrium stain EXCEPT:
+### Q71: 72-All of the following are causes of dullness over the manubrium stain EXCEPT:
 
 - **A)** Ectopic thyroid.
 - **B)** Pneumothorax.
@@ -866,6 +948,7 @@ Total recoverable MCQs: 70
 - **D)** Retrosternal goiter.
 
 **Correct Answer:** B
-**Answer Source:** key
+**Answer Source:** marked
+**Source Pages:** 18
 
 ---

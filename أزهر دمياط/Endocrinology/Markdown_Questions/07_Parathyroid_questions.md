@@ -1,8 +1,7 @@
-# Parathyroid questions — extracted questions
+# parathyroid questions منير — extracted questions
 
-Total recoverable MCQs: 33
-
-> Status: 0 numbered blocks were omitted because options/key were incomplete.
+> Source: `parathyroid questions منير.pdf` · index 07 · parsed 2026-09-26 by mbset.py
+> Questions: 33 (33 MCQ / 0 written) · answers: key 33
 
 ### Q1: The main reservoir of calcium in our body is
 
@@ -13,6 +12,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -25,6 +25,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -37,6 +38,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -49,6 +51,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -61,6 +64,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -73,6 +77,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -86,6 +91,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -95,10 +101,11 @@ Total recoverable MCQs: 33
 - **B)** Radiation treatment to the neck
 - **C)** Neck exploration and resection of all 4 parathyroid glands
 - **D)** Neck exploration and resection of a parathyroid adenoma
-- **E)** Avoidance of sunlight, vitamin D, and calcium containing dairy products
+- **E)** Avoidance of sunlight, vitamin D, and calcium- containing dairy products
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -112,6 +119,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -125,6 +133,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -138,6 +147,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -150,6 +160,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -162,6 +173,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -174,6 +186,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -186,6 +199,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -197,6 +211,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -209,6 +224,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -221,6 +237,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -233,6 +250,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -244,6 +262,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -256,6 +275,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -268,6 +288,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -280,6 +301,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -292,6 +314,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -304,6 +327,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -316,6 +340,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -327,6 +352,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -339,6 +365,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -351,6 +378,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -363,6 +391,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -375,6 +404,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -386,6 +416,7 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -397,5 +428,6 @@ Total recoverable MCQs: 33
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 3
 
 ---

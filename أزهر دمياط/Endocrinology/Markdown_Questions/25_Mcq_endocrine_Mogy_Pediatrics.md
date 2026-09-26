@@ -1,36 +1,37 @@
-# Endocrine and metabolic disorders — Mogy Pediatrics — extracted questions
+# Mcq, endocrine الموجي أطفال — extracted questions
 
-Total recoverable questions: 20 (19 QCS, 1 matching QROC)
+> Source: `Mcq, endocrine الموجي أطفال.pdf` · index 25 · parsed 2026-09-26 by mbset.py
+> Questions: 20 (19 MCQ / 1 written) · answers: key 10, marked 9
 
-> Status: Answer strip and marked answers were read from the source. Q15 is a figure-dependent matching item and is represented as QROC with its source mapping.
-
-### Q1: Type 1 diabetes mellitus is characterized by all the following except
+### Q1: Type I Diabetes mellitus is characterised by all the following except
 
 - **A)** Majority of cases present acutely
 - **B)** Obesity is an important predisposing factor
 - **C)** Insulin therapy is always needed
-- **D)** Positive family history is less common than in type 2 diabetes
-- **E)** Islet-cell antibodies are present in the majority of cases
+- **D)** Positive family history is less common than in type II
+- **E)** Islet cells antibodies are present in majority of cases
 
 **Correct Answer:** B
-**Answer Source:** key
+**Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
-### Q2: All the following are correct about insulin therapy in uncomplicated type 1 diabetes mellitus except
+### Q2: All the following are correct about insulin therapy in uncomplicated type I diabetes mellitus except
 
-- **A)** Dose is 0.3–1 U/kg/day
-- **B)** Intermediate-acting insulin comprises two-thirds of the dose
-- **C)** Majority of patients are managed by twice-daily injections
-- **D)** Confinement in bed due to a fractured hip needs a decrease of the dose
-- **E)** Infection needs an increase of the dose by 10–15%
+- **A)** Dose is 0.3-1 U/kg/ day
+- **B)** The intermediate acting comprises 2/3 of the dose
+- **C)** Majority of patients are managed by twice daily injections.
+- **D)** Confinement in bed due to fracture hip needs decrease of the dose
+- **E)** Infection needs increase of the dose by 10-15%
 
-**Correct Answer:** D
-**Answer Source:** key
+**Correct Answer:** C
+**Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
-### Q3: Hypoglycemic symptoms include all the following except
+### Q3: Hypoglycaemic symptoms include all the following except
 
 - **A)** Pallor
 - **B)** Irritability and bad behavior
@@ -39,33 +40,38 @@ Total recoverable questions: 20 (19 QCS, 1 matching QROC)
 - **E)** Dry skin
 
 **Correct Answer:** E
-**Answer Source:** key
+**Answer Source:** marked
+**Source Pages:** 1
+**EXP:** SXR c- Dizziness e- Dry skin
 
 ---
 
-### Q4: All the following are correct about diet in type 1 diabetes mellitus except
+### Q4: All the following are correct about diet in type I diabetes mellitus except
 
-- **A)** Daily caloric intake of a 6-year-old child should be around 1000 kcal
+- **A)** Daily caloric intake of a 6 year old child should be around 1000 Kcal
 - **B)** Timing and caloric content of meals and snacks should be fixed
-- **C)** Caloric intake should be 50–55% from carbohydrates
-- **D)** High-fiber food is encouraged
-- **E)** Complex carbohydrates are preferable to simple sugars
+- **C)** The caloric intake should be 50-55% from carbohydrates
+- **D)** High fibre food is encouraged
+- **E)** Complex carbohydrates are preferable than simple sugars
 
 **Correct Answer:** A
-**Answer Source:** key
+**Answer Source:** marked
+**Source Pages:** 1
+**EXP:** S d- High fibre food is encouraged c- The caloric intake should be 50-55% from carbohydrates e- Complex carbohydrates are preferable than simple sugars
 
 ---
 
-### Q5: In the management of diabetic ketoacidosis, all the following are correct except
+### Q5: In the management of DKA all the following are correct except
 
-- **A)** The starting intravenous fluid is saline
-- **B)** Regular insulin is given at 0.1 U/kg/hour
-- **C)** Potassium chloride is added after 12–24 hours
-- **D)** The drop in blood glucose should not exceed 100 mg/dL/hour
-- **E)** A nasogastric tube is introduced to empty the stomach if the patient is comatose
+- **A)** The starting IV fluid is saline
+- **B)** Regular insulin is given in a dose of 0.1 U/kg/hour
+- **C)** Potassium chloride is added after 12-24 hours
+- **D)** Drop of blood glucose level should not exceed 100mg/dl/hour
+- **E)** NGT is introduced to empty the stomach if the patient is in coma
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -74,24 +80,26 @@ Total recoverable questions: 20 (19 QCS, 1 matching QROC)
 - **A)** Feeding difficulties
 - **B)** Large protruding tongue
 - **C)** Large anterior fontanelle
-- **D)** Excessive sleepiness
+- **D)** Excessively sleepy
 - **E)** Prolonged neonatal jaundice
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
 ### Q7: All the following are correct about congenital hypothyroidism except
 
 - **A)** Most cases are due to aplasia
-- **B)** Treatment starting at 6 months is unlikely to result in normal mental development
-- **C)** A delay in the screening test for a few weeks makes it insensitive
-- **D)** The thyroxine dose per kilogram decreases with age
-- **E)** Fever and diarrhea are common manifestations of overdosage
+- **B)** A case starting treatment at 6 months of age is not likely to be mentally normal in the future
+- **C)** Delay in the screening test for few weeks makes it insensitive
+- **D)** The dose of thyroxin per kg decreases with age
+- **E)** Fever and diarrhoea are common manifestations of overdosage
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -100,15 +108,16 @@ Total recoverable questions: 20 (19 QCS, 1 matching QROC)
 - **A)** Normal birth size
 - **B)** Short stature becomes evident at adolescence
 - **C)** Bone age is delayed
-- **D)** Parental height is average
+- **D)** Height of parents is average
 - **E)** Final height is short
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 1, 2
 
 ---
 
-### Q9: Which of the following is correct about growth-hormone deficiency?
+### Q9: Which of the following is correct about growth hormone deficiency
 
 - **A)** It is the commonest cause of short stature
 - **B)** BMI is below average
@@ -118,10 +127,11 @@ Total recoverable questions: 20 (19 QCS, 1 matching QROC)
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q10: Children with constitutional delay in growth and puberty can expect ultimately to be
+### Q10: Children with constitutional delay in growth and puberty can expect to be ultimately
 
 - **A)** Of normal height and weight
 - **B)** Short and obese
@@ -131,23 +141,25 @@ Total recoverable questions: 20 (19 QCS, 1 matching QROC)
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q11: According to current theory, the most likely cause of insulin-dependent type 1 diabetes mellitus is
+### Q11: According to current theory, the most likely cause of insulin dependent (type I) diabetes mellitus is
 
-- **A)** Chromosomal imbalance
-- **B)** An enzyme defect preventing proper insulin action
-- **C)** Autoimmune destruction of pancreatic beta cells
-- **D)** A high-carbohydrate diet over a long period
+- **A)** Chromosomal Imbalance
+- **B)** An enzyme defect preventing proper action of insulin
+- **C)** Autoimmune destruction of beta cells in the pancreas
+- **D)** High carbohydrate diet over a long period
 - **E)** Chronic emotional stress
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q12: A full-term normal-weight newborn has decreased T4 and increased TSH shortly after birth. The most likely diagnosis is
+### Q12: In a full term normal weight newborn, thyroid screening tests carried shortly after birth revealed decreased T4 and increased TSH. The most likely diagnosis is
 
 - **A)** Congenital hyperthyroidism
 - **B)** Congenital hypothyroidism
@@ -157,71 +169,81 @@ Total recoverable questions: 20 (19 QCS, 1 matching QROC)
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q13: Manifestations of thyroxine overdosage in management of hypothyroidism in a young child may include any of the following except
+### Q13: Manifetations of overdosage of thyroxin in management of hypothyroidism in a young child may include any of the following except
 
 - **A)** Tachycardia
 - **B)** Fever
 - **C)** Sleeplessness
-- **D)** Diarrhea
+- **D)** Diarrhoea
 - **E)** Vomiting
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q14: All the following are correct about the national screening programme for congenital hypothyroidism except
+### Q14: All the following are correct about national screening programme for congenital hypothyroidism except
 
-- **A)** A dry blood spot is taken from a prick heel capillary blood sample
-- **B)** The sample is collected from the third to the seventh day of life
+- **A)** A dry blood spot on filter paper is taken from a prick heel capillary blood
+- **B)** The sample is collected from the 3rd to 7th day of life
 - **C)** TSH is measured
-- **D)** Positive cases should immediately start lifelong treatment
-- **E)** Blood sampling of premature infants should not be delayed
+- **D)** Positive cases should start immediately life long treatment
+- **E)** Blood sampling of premature should not be delayed
 
 **Correct Answer:** D
-**Answer Source:** key
+**Answer Source:** marked
+**Source Pages:** 2, 3
 
 ---
 
-### Q15: Match the numbered height curves in the figure with the appropriate diagnosis
+### Q15: Match the height curves in the figure shown with the most appropriate diagnosis among the following conditions: a- Acquired hypothyroidism; b- Growth hormone deficiency; c- Precocious puberty; d- Familial short stature; e- Constitutional delay in growth and puberty
 
 **Correct Answer:** -
-**Answer Source:** marked
+**Answer Source:** key
 **Image:** Images/25_Q15.png
-**EXP:** Source mapping: A (acquired hypothyroidism) → curve 2; B (growth-hormone deficiency) → curve 5; C (precocious puberty) → curve 1; D (familial short stature) → curve 3; E (constitutional delay in growth and puberty) → curve 4.
+**Source Pages:** 3
+**EXP:** a- Acquired hypothyroidism: curve 2
+b- Growth hormone deficiency: curve 5
+c- Precocious puberty: curve 1
+d- Familial short stature: curve 3
+e- Constitutional delay in growth and puberty: curve 4
 
 ---
 
-### Q16: All the following statements about familial short stature are true except
+### Q16: All the following statement about familial short stature are true except
 
 - **A)** Growth retardation is present from early childhood
 - **B)** Ultimate height is below average
-- **C)** Bone age is usually retarded
+- **C)** The bone age is usually retarded
 - **D)** Onset of puberty usually occurs at the normal time
-- **E)** The shape of the growth curve is normal
+- **E)** The shape of growth curve is normal
 
 **Correct Answer:** C
-**Answer Source:** key
+**Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
-### Q17: All the following may be manifestations of an insulin reaction (hypoglycemia) in an insulin-dependent diabetic patient except
+### Q17: All of the following may be manifestations of an insulin reaction (hypoglycaemia) in an insulin dependent diabetic patient except
 
 - **A)** Loss of appetite
 - **B)** Sweating
 - **C)** Lethargy
-- **D)** Bizarre behavior
+- **D)** Bizarre behaviour
 - **E)** Slurred speech
 
 **Correct Answer:** A
-**Answer Source:** key
+**Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
-### Q18: Factors most likely to contribute to development of diabetic ketoacidosis include all the following except
+### Q18: Factors most likely to contribute to the development of diabetic ketoacidosis include all of the following except
 
 - **A)** Overeating
 - **B)** Vomiting
@@ -230,24 +252,26 @@ Total recoverable questions: 20 (19 QCS, 1 matching QROC)
 - **E)** Lack of patient education
 
 **Correct Answer:** B
-**Answer Source:** key
+**Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
 ### Q19: Nutritional obesity may be complicated by all the following except
 
-- **A)** Hypertension and cardiovascular disease
-- **B)** Gallbladder disease
-- **C)** Type 2 diabetes mellitus
-- **D)** Type 1 diabetes mellitus
-- **E)** Hypercholesterolemia
+- **A)** Hypertension and cardiovascular disease.
+- **B)** Gall bladder disease.
+- **C)** Type II diabetes mellitus.
+- **D)** Type I diabetes mellitus
+- **E)** Hypercholesterolaemia
 
 **Correct Answer:** D
-**Answer Source:** key
+**Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
-### Q20: A 7-year-old child has weight-for-length at the 85th percentile and length-for-age at the 10th percentile. The most likely diagnosis is
+### Q20: A 7 year old child has weight for length on the 85th percentile and length for age on the 10th percentile, which of the following is the most likely diagnosis
 
 - **A)** He is normal
 - **B)** Nutritional obesity
@@ -257,5 +281,6 @@ Total recoverable questions: 20 (19 QCS, 1 matching QROC)
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 3, 4
 
 ---

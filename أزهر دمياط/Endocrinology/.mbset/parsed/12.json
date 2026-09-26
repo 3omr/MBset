@@ -1,0 +1,11552 @@
+{
+ "nn": "12",
+ "source": "Raw_PDF_Questions/mcq kumar endocrine pdf.pdf",
+ "sha256": "a954d1a5b6de14ac16b5d48ff4402ea128c80d5ffa2adea1b8b5cd9eb502e231",
+ "at": "2026-09-26T13:57:35Z",
+ "layout": {
+  "method": "ocr",
+  "splits": {
+   "2": null,
+   "3": null,
+   "4": null,
+   "5": null,
+   "6": null,
+   "7": null,
+   "8": null,
+   "9": null,
+   "10": null,
+   "11": null,
+   "12": null,
+   "13": null,
+   "14": null,
+   "15": null,
+   "16": null
+  }
+ },
+ "counters": {
+  "source_numbering": 127,
+  "sections": [
+   "1-127"
+  ],
+  "option_a_lines": 127,
+  "parsed_questions": 127,
+  "parsed_numbered": 127,
+  "declared_total": 127
+ },
+ "gaps": [],
+ "answers": {
+  "mode": "grid",
+  "grid_sections": [
+   127
+  ],
+  "grid_hits": 127,
+  "answered": 127,
+  "mcq": 127,
+  "at": "2026-09-26T13:57:35Z"
+ },
+ "distribution": {
+  "A": 0.205,
+  "B": 0.197,
+  "C": 0.331,
+  "D": 0.268
+ },
+ "dropped_lines": [
+  "Chapter",
+  "13",
+  "Endocrinology",
+  "Ans: 1-C 2-B 3-C 4-C 5-A 6-A 7-D",
+  "2950",
+  "Endocrinology 251",
+  "Ans: 8-C 9-C 10-D 11-C 12-B 13-B 14-D 15-D",
+  "252 MCQs in Internal Medicine",
+  "Ans: 16-D 17-B 18-C 19-A 20-C 21-B 22-D 23-A 24-B",
+  "Endocrinology 253",
+  "Ans: 25-B 26-A 27-C 28-D 29-A 30-C 31-D 32-C 33-B",
+  "254 MCQs in Internal Medicine",
+  "Ans: 34-C 35-A 36-D 37-A 38-D 39-D 40-D 41-C 42-B 43-B",
+  "Endocrinology 255",
+  "Ans: 44-A 45-C 46-A 47-D 48-C 49-D 50-C 51-D 52-A",
+  "256 MCQs in Internal Medicine",
+  "Ans: 53-B 54-C 55-C 56-C 57-B 58-C 59-C 60-C",
+  "Endocrinology 257",
+  "Ans: 61-B 62-D 63-C 64-A 65-C 66-A 67-B 68-D",
+  "258 MCQs in Internal Medicine",
+  "Ans: 69-C 70-A 71-A 72-C 73-D 74-D 75-C 76-A",
+  "Endocrinology 259",
+  "13",
+  "Ans: 77-D 78-A 79-B 80-B 81-D 82-C 83-A 84-D",
+  "260 MCQs in Internal Medicine",
+  "Ans: 85-C 86-B 87-D 88-C 89-C 90-C 91-D 92-D 93-C",
+  "Endocrinology 261",
+  "Ans: 94-A 95-A 96-B 97-D 98-D 99-C 100-A 101-D",
+  "262 MCQs in Internal Medicine",
+  "Ans: 102-A 103-B 104-C 105-D 106-B 107-C 108-B 109-A 110-C",
+  "Endocrinology 263",
+  "Ans: 111-D 112-B 113-D 114-A 115-D 116-C 117-B 118-C",
+  "264",
+  "MCQs in Internal Medicine",
+  "Ans: 119-A 120-A 121-C 122-D 123-C 124-D 125-B 126-A 127-C"
+ ],
+ "dropped_count": 35,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 2,
+  "dropped": [],
+  "stale": [
+   "angioedemamaydevelopasanadversereactionintherapywith",
+   "apositivefamilyhistorymaybeobtainedinallexcept",
+   "dennieslineextrafoldofskinbeneathlowereyelidisseenin",
+   "erythemachronicummigransischaracteristicallyseenin",
+   "erythemamultiformemayresultfrominfectionby",
+   "lichenoideruptionsarenotcharacteristicof",
+   "lichenoideruptionsmaybeseeninallexcept",
+   "precipitatingfactorsforpsoriasisareallexcept",
+   "whichofthefollowingresultsinscarringalopecia"
+  ]
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": 1,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Features of hypoglycaemia do not include:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Drenching sweat",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.0,
+      725.2,
+      812.0,
+      753.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Tachycardia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.0,
+      725.2,
+      812.0,
+      753.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Tachypnoea",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.9,
+      756.4,
+      779.0,
+      784.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Brisk jerk",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.9,
+      756.4,
+      779.0,
+      784.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    196.9,
+    690.3,
+    812.0,
+    784.3
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 2,
+   "number": 2,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Earliest changes observed by ophthalmoscope in background retinopathy of diabetes is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Venous dilatation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.0,
+      875.3,
+      486.0,
+      896.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Microaneurysms",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      236.0,
+      906.3,
+      475.0,
+      933.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Increased capillary permeability",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.9,
+      936.4,
+      659.0,
+      964.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Arteriovenous shunts",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.0,
+      967.3,
+      533.0,
+      988.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    196.0,
+    808.4,
+    980.1,
+    988.4
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 3,
+   "number": 3,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is not a part of metabolic 'syndrome X'?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hyperlipidaemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.0,
+      1055.3,
+      758.0,
+      1083.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Obesity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.0,
+      1055.3,
+      758.0,
+      1083.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Ischaemic heart disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.9,
+      1085.4,
+      830.0,
+      1113.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.9,
+      1085.4,
+      830.0,
+      1113.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    196.0,
+    1019.3,
+    981.0,
+    1113.5
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 4,
+   "number": 4,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Thiazolidinedione group of antidiabetic is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Voglibose",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.0,
+      1173.4,
+      807.1,
+      1201.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Nateglinide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.0,
+      1173.4,
+      807.1,
+      1201.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Rosiglitazone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.9,
+      1204.4,
+      810.0,
+      1232.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Glimepiride",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.9,
+      1204.4,
+      810.0,
+      1232.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    196.0,
+    1137.4,
+    810.0,
+    1232.5
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 5,
+   "number": 5,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Effect of diabetes on foetus includes all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Microsomia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.0,
+      1292.6,
+      918.0,
+      1320.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hyperbilirubinaemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.0,
+      1292.6,
+      918.0,
+      1320.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Stillbirth",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.9,
+      1325.5,
+      954.0,
+      1353.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Open neural tube defect",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.9,
+      1325.5,
+      954.0,
+      1353.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    196.9,
+    1256.4,
+    954.0,
+    1353.6
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 6,
+   "number": 6,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All are features of diabetic ketoacidosis except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hyperthermia Bb. Drowsiness",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.0,
+      1413.5,
+      805.0,
+      1440.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Dehydration",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.9,
+      1446.5,
+      798.1,
+      1474.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Air hunger",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.9,
+      1446.5,
+      798.1,
+      1474.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "letters_not_sequential"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    196.0,
+    1377.5,
+    805.0,
+    1474.6
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 7,
+   "number": 7,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Commonest cause of coma in a diabetic is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Diabetic ketoacidosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.0,
+      1534.5,
+      526.0,
+      1555.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Lactic acidosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      236.0,
+      1565.6,
+      446.9,
+      1586.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hyperosmolar non-ketotic coma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.9,
+      1596.6,
+      659.0,
+      1623.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypoglycaemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      232.0,
+      1626.7,
+      463.0,
+      1654.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    196.9,
+    1499.6,
+    749.0,
+    1654.6
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 8,
+   "number": 8,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is not a feature of diabetes mellitus?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Rubeosis iridis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.0,
+      412.2,
+      450.0,
+      433.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Pseudo Argyll Robertson pupil",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      236.0,
+      443.2,
+      646.0,
+      471.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hippus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      234.0,
+      474.1,
+      363.1,
+      501.1
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Isolated IIIrd cranial nerve palsy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.0,
+      504.2,
+      653.9,
+      532.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_inferred"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    211.0,
+    376.2,
+    969.1,
+    532.3
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 9,
+   "number": 9,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A patient of impaired fasting glucose ranges blood glucose value in between:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "96-106 mg/dl",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.0,
+      620.3,
+      846.0,
+      648.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "106-116 mg/dl",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.0,
+      620.3,
+      846.0,
+      648.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "100-125 mg/dl",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.9,
+      650.2,
+      846.0,
+      679.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "116-130 mg/dl",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.9,
+      650.2,
+      846.0,
+      679.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_inferred"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    210.1,
+    553.1,
+    980.1,
+    679.3
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 10,
+   "number": 10,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Glycated fructosamine gives an indication of glycaemia control for last:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "3 days",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.0,
+      767.3,
+      743.0,
+      795.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "7 days",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.0,
+      767.3,
+      743.0,
+      795.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "10 days",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.9,
+      797.2,
+      756.0,
+      825.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "14 days",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.9,
+      797.2,
+      756.0,
+      825.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    183.1,
+    700.2,
+    981.0,
+    825.3
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 11,
+   "number": 11,
+   "section": 1,
+   "type": "QCS",
+   "stem": "ier Neurological features of myxoedema include all of the following except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Delayed relaxation of ankle jerk",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.0,
+      913.3,
+      653.0,
+      941.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Cerebellar ataxia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      236.0,
+      943.4,
+      475.0,
+      965.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hypertonia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.9,
+      975.4,
+      410.9,
+      1002.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Bradylalia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.0,
+      1005.3,
+      396.0,
+      1033.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "stem_recovered_from_option_wrap",
+    "number_inferred",
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    183.1,
+    847.3,
+    980.1,
+    1033.4
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 12,
+   "number": 12,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hypoglycaemia may result from all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Glycogen storage disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.0,
+      1090.4,
+      574.0,
+      1118.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Chronic pancreatitis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      236.0,
+      1121.4,
+      515.0,
+      1149.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Galactosaemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.9,
+      1151.5,
+      446.9,
+      1173.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Post-gastrectomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.0,
+      1183.5,
+      481.0,
+      1210.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    183.1,
+    1054.4,
+    754.0,
+    1210.5
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 13,
+   "number": 13,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is not a neuromuscular feature of thyrotoxicosis?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Myasthenic syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.0,
+      1298.5,
+      539.1,
+      1326.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Brisk knee jerk",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      236.0,
+      1329.5,
+      451.1,
+      1356.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hypokalaemic periodic paralysis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.9,
+      1359.5,
+      668.0,
+      1387.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hyperkinesia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.0,
+      1390.5,
+      435.1,
+      1418.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    183.1,
+    1232.5,
+    981.0,
+    1418.6
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 14,
+   "number": 14,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Myxoedema coma is characterised by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.0,
+      1478.5,
+      812.0,
+      1506.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Tachycardia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.0,
+      1478.5,
+      812.0,
+      1506.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Euthermia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.9,
+      1509.7,
+      863.1,
+      1536.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypoventilation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.9,
+      1509.7,
+      863.1,
+      1536.7
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    183.1,
+    1442.5,
+    863.1,
+    1536.7
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 15,
+   "number": 15,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Commonest cause of unilateral exophthalmos is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cavernous sinus thrombosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.0,
+      1597.7,
+      906.1,
+      1617.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Retrobulbar tumour",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.0,
+      1597.7,
+      906.1,
+      1617.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Chloroma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.9,
+      1627.6,
+      841.0,
+      1655.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Thyrotoxicosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      232.9,
+      1627.6,
+      841.0,
+      1655.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    183.1,
+    1561.7,
+    906.1,
+    1655.6
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 16,
+   "number": 16,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Thyroid eye disease is treated by all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "1% methyl cellulose",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      230.9,
+      412.2,
+      823.0,
+      440.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Prednisolone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      230.9,
+      412.2,
+      823.0,
+      440.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "5% guanidine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.9,
+      443.2,
+      840.1,
+      471.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Levothyroxine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.9,
+      443.2,
+      840.1,
+      471.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    183.1,
+    376.2,
+    840.1,
+    471.2
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 17,
+   "number": 17,
+   "section": 1,
+   "type": "QCS",
+   "stem": "'Microalbuminuria' is urinary albumin excretion ratio:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "10-100 pg/min",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      230.9,
+      528.1,
+      848.0,
+      556.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "20-200 pg/min",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      230.9,
+      528.1,
+      848.0,
+      556.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "30-300 pg/min",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.9,
+      558.2,
+      848.0,
+      587.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "40-400 pg/min",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.9,
+      558.2,
+      848.0,
+      587.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    183.1,
+    492.1,
+    899.1,
+    587.2
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 18,
+   "number": 18,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hypothyroidism in neonatal period is manifested by all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Prolonged physiological jaundice",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      230.9,
+      674.3,
+      671.9,
+      702.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hoarse cry",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      236.0,
+      706.3,
+      404.1,
+      733.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Diarrhoea",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.9,
+      736.2,
+      394.0,
+      757.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Somnolence",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.0,
+      766.3,
+      418.0,
+      788.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    183.1,
+    608.2,
+    980.1,
+    788.2
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 19,
+   "number": 19,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Sleeping pulse rate is not increased in:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Anxiety neurosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      230.9,
+      853.4,
+      476.1,
+      880.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Rheumatic carditis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      236.0,
+      882.4,
+      498.1,
+      904.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pulmonary tuberculosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.9,
+      913.3,
+      560.0,
+      941.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Atropinised patient",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.0,
+      944.3,
+      508.0,
+      971.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    183.1,
+    816.3,
+    704.0,
+    971.3
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 20,
+   "number": 20,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is not a feature of autonomic neuro- pathy in diabetes?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Retrograde ejaculation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      230.9,
+      1060.4,
+      544.0,
+      1088.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Gustatory sweating",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      236.0,
+      1090.4,
+      508.0,
+      1118.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Mononeuritis multiplex",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.9,
+      1121.4,
+      558.0,
+      1149.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypoglycaemic unresponsiveness",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.0,
+      1151.5,
+      680.9,
+      1180.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    183.1,
+    993.4,
+    981.0,
+    1180.4
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 21,
+   "number": 21,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Beta-blockers can be used in all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Glaucoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      230.9,
+      1237.5,
+      873.0,
+      1258.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Bronchial asthma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      230.9,
+      1237.5,
+      873.0,
+      1258.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Anxiety states",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.9,
+      1268.5,
+      856.1,
+      1296.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Angina pectoris",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.9,
+      1268.5,
+      856.1,
+      1296.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    183.1,
+    1201.5,
+    873.0,
+    1296.5
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 22,
+   "number": 22,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Cardiovascular findings of thyrotoxicosis do not include:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Loud 5,",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      230.9,
+      1353.6,
+      938.0,
+      1380.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Means-Lerman scartch",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      230.9,
+      1353.6,
+      938.0,
+      1380.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Water-hammer pulse",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.9,
+      1386.5,
+      823.0,
+      1413.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Ejection click",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.9,
+      1386.5,
+      823.0,
+      1413.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    183.1,
+    1317.4,
+    938.0,
+    1413.5
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 23,
+   "number": 23,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Myxoedema is characterised by all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Butterfly rash in face",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.0,
+      1471.5,
+      882.0,
+      1499.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Sinus bradycardia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.0,
+      1471.5,
+      882.0,
+      1499.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Solid oedema",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.9,
+      1502.6,
+      791.1,
+      1523.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Madarosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.9,
+      1502.6,
+      791.1,
+      1523.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    183.1,
+    1436.6,
+    882.0,
+    1523.5
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 24,
+   "number": 24,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Secondary hypothyroidism is not featured by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Normal cholesterol",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.0,
+      1587.6,
+      821.0,
+      1615.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Menorrhagia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.0,
+      1587.6,
+      821.0,
+      1615.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Low TSH",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.9,
+      1618.6,
+      783.0,
+      1639.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Fine hairs",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      232.9,
+      1618.6,
+      783.0,
+      1639.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    183.1,
+    1552.5,
+    821.0,
+    1639.6
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 25,
+   "number": 25,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Thyroid acropachy is found in:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Subclinical hypothyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      230.9,
+      412.2,
+      604.1,
+      440.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Graves' disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      236.0,
+      443.2,
+      459.0,
+      464.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Myxoedema",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      232.9,
+      474.1,
+      422.1,
+      502.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Medullary carcinoma of thyroid",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      232.0,
+      504.2,
+      656.1,
+      532.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    183.1,
+    376.2,
+    656.1,
+    532.3
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 26,
+   "number": 26,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Upper segment > lower segment of body is found in all (in dwarfism) except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pituitary dwarf",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      230.9,
+      620.3,
+      784.1,
+      648.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Cretinism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      230.9,
+      620.3,
+      784.1,
+      648.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Achondroplasia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      232.9,
+      651.2,
+      917.1,
+      679.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Juvenile myxoedema",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      232.9,
+      651.2,
+      917.1,
+      679.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    183.1,
+    553.1,
+    981.0,
+    679.3
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 27,
+   "number": 27,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Acromegaly is associated with all of the following except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Acanthosis nigricans",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      230.9,
+      736.2,
+      522.0,
+      764.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Fibromata mollusca",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      236.0,
+      766.3,
+      509.9,
+      788.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Micrognathia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      232.9,
+      797.2,
+      434.0,
+      825.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Cardiomegaly",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      232.0,
+      828.4,
+      444.1,
+      856.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "stem_recovered_from_option_wrap",
+    "number_inferred",
+    "low_ocr_confidence",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    183.1,
+    700.2,
+    935.1,
+    856.3
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 28,
+   "number": 28,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Klinefelter's syndrome is characterised by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Small, soft testes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      230.9,
+      913.3,
+      472.0,
+      938.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Chromosomal pattern 46, XO",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      236.0,
+      944.3,
+      623.0,
+      972.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Upper segment > lower segment of body",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      232.9,
+      974.3,
+      762.1,
+      1002.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Gynaecomastia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      232.0,
+      1005.3,
+      455.9,
+      1033.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_D"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    183.1,
+    877.3,
+    762.1,
+    1033.4
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 29,
+   "number": 29,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is not an intermediate-acting gluco- corticoid?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cortisone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      232.0,
+      1121.4,
+      839.0,
+      1142.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Triamcinolone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      232.0,
+      1121.4,
+      839.0,
+      1142.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Prednisolone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      232.9,
+      1151.5,
+      800.1,
+      1173.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Prednisone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      232.9,
+      1151.5,
+      800.1,
+      1173.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    183.1,
+    1054.4,
+    981.0,
+    1173.4
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 30,
+   "number": 30,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hirsutism may develop from all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Psoralens",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      230.9,
+      1237.5,
+      787.0,
+      1258.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Diazoxide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      230.9,
+      1237.5,
+      787.0,
+      1258.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Carbamazepine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      232.9,
+      1267.6,
+      783.0,
+      1295.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Minoxidil",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      232.9,
+      1267.6,
+      783.0,
+      1295.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    183.1,
+    1201.5,
+    787.0,
+    1295.5
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 31,
+   "number": 31,
+   "section": 1,
+   "type": "QCS",
+   "stem": "31, Tall stature is not characteristic of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Klinefelter's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      230.9,
+      1352.5,
+      860.0,
+      1381.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Homocystinuria",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      230.9,
+      1352.5,
+      860.0,
+      1381.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Marfan's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      232.9,
+      1386.5,
+      895.0,
+      1414.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Turner's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      232.9,
+      1386.5,
+      895.0,
+      1414.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "stem_recovered_from_option_wrap",
+    "number_inferred"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    183.1,
+    1317.4,
+    895.0,
+    1414.6
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 32,
+   "number": 32,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which cranial nerve is not involved in acromegaly?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "VIO",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      230.9,
+      1472.6,
+      778.0,
+      1495.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "IIL, IV, VI",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      230.9,
+      1472.6,
+      778.0,
+      1495.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "V D. I",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      232.9,
+      1505.5,
+      684.0,
+      1525.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_C"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    183.1,
+    1436.6,
+    860.0,
+    1525.5
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 33,
+   "number": 33,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Cushing's syndrome does not give rise to:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hirsutism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      230.9,
+      1587.6,
+      937.1,
+      1615.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Peripheral neuropathy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      230.9,
+      1587.6,
+      937.1,
+      1615.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Purple striae",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      232.9,
+      1621.6,
+      727.0,
+      1648.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Acne",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      232.9,
+      1621.6,
+      727.0,
+      1648.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    183.1,
+    1552.5,
+    937.1,
+    1648.6
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 34,
+   "number": 34,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Medical adrenalectomy is done by all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Aminoglutethimide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      230.9,
+      412.2,
+      773.1,
+      440.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Mitotane",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      230.9,
+      412.2,
+      773.1,
+      440.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Mexiletine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.9,
+      446.2,
+      811.1,
+      473.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Metyrapone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.9,
+      446.2,
+      811.1,
+      473.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    183.1,
+    376.2,
+    811.1,
+    473.2
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 35,
+   "number": 35,
+   "section": 1,
+   "type": "QCS",
+   "stem": "'Pseudo-Cushing's syndrome' may be found in all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Myxoedema",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      230.9,
+      531.2,
+      897.1,
+      558.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Chronic alcoholism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      230.9,
+      531.2,
+      897.1,
+      558.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Obesity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.9,
+      564.3,
+      801.0,
+      592.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Depression",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.9,
+      564.3,
+      801.0,
+      592.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    183.1,
+    495.2,
+    935.1,
+    592.2
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 36,
+   "number": 36,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Sheehan's syndrome presents with:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cardiac failure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.0,
+      649.3,
+      892.1,
+      670.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Persistent lactation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.0,
+      649.3,
+      892.1,
+      670.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Fever",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.9,
+      683.3,
+      869.0,
+      711.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Striking cachexia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.9,
+      683.3,
+      869.0,
+      711.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    183.1,
+    613.3,
+    892.1,
+    711.4
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 37,
+   "number": 37,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hypocalcaemia is produced by all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hysterical hypoventilation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      230.9,
+      768.2,
+      594.0,
+      796.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Acute pancreatitis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      236.0,
+      802.3,
+      491.0,
+      829.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Chronic renal failure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.9,
+      834.3,
+      522.0,
+      856.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Osteomalacia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.0,
+      865.3,
+      434.0,
+      886.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    183.1,
+    732.2,
+    736.0,
+    886.3
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 38,
+   "number": 38,
+   "section": 1,
+   "type": "QCS",
+   "stem": "38 'Menopause' may be manifested by all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hirsutism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      230.9,
+      950.4,
+      880.0,
+      978.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Emotional lability",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      230.9,
+      950.4,
+      880.0,
+      978.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Osteoporosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.9,
+      984.4,
+      860.0,
+      1011.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Phobic neuroses",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.9,
+      984.4,
+      860.0,
+      1011.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_inferred"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    190.1,
+    914.4,
+    880.0,
+    1011.4
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 39,
+   "number": 39,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Gynaecomastia may be produced after treatment with all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Spironolactone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      230.9,
+      1102.5,
+      767.0,
+      1130.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Digitalis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      230.9,
+      1102.5,
+      767.0,
+      1130.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Cimetidine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.9,
+      1135.4,
+      798.1,
+      1163.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Rifampicin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.9,
+      1135.4,
+      798.1,
+      1163.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    183.1,
+    1036.4,
+    980.1,
+    1163.5
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 40,
+   "number": 40,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Primary hyperaldosteronism is not featured by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Diastolic hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      230.9,
+      1223.5,
+      814.0,
+      1251.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Paraesthesia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      230.9,
+      1223.5,
+      814.0,
+      1251.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Alkalosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.9,
+      1257.5,
+      766.1,
+      1278.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Oedema",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.9,
+      1257.5,
+      766.1,
+      1278.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    183.1,
+    1188.5,
+    814.0,
+    1278.5
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 41,
+   "number": 41,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Thyrotoxicosis may be featured by all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Myopathy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      230.9,
+      1345.5,
+      919.1,
+      1373.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Pretibial myxoedema",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      230.9,
+      1345.5,
+      919.1,
+      1373.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hypernatraemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.9,
+      1378.4,
+      869.0,
+      1406.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Atrial fibrillation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.9,
+      1378.4,
+      869.0,
+      1406.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    183.1,
+    1309.5,
+    919.1,
+    1406.5
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 42,
+   "number": 42,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is not associated with hypothyroidism?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Loss of libido",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      230.9,
+      1466.6,
+      805.0,
+      1494.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Weight loss",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      230.9,
+      1466.6,
+      805.0,
+      1494.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Cardiac failure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.9,
+      1499.6,
+      884.0,
+      1527.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Organic pyschosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.9,
+      1499.6,
+      884.0,
+      1527.7
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    183.1,
+    1430.5,
+    980.1,
+    1527.7
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 43,
+   "number": 43,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Tetany is characterised by all of the following signs except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Trousseau's sign",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      230.9,
+      1587.6,
+      803.0,
+      1615.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Tinel's sign",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      230.9,
+      1587.6,
+      803.0,
+      1615.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Erb's sign",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.9,
+      1621.6,
+      827.1,
+      1648.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Peroneal sign",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      232.9,
+      1621.6,
+      827.1,
+      1648.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    183.1,
+    1552.5,
+    954.0,
+    1648.6
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 44,
+   "number": 44,
+   "section": 1,
+   "type": "QCS",
+   "stem": "44, All of the following are featured by dermal hyperpigmentation except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Conn's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      230.9,
+      443.2,
+      959.0,
+      471.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Bronchogenic carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      230.9,
+      443.2,
+      959.0,
+      471.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Addison's disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      232.9,
+      474.1,
+      897.1,
+      495.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Haemochromatosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      232.9,
+      474.1,
+      897.1,
+      495.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "stem_recovered_from_option_wrap",
+    "number_inferred"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    183.1,
+    376.2,
+    981.0,
+    495.2
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 45,
+   "number": 45,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hyperparathyroidism is not featured by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Acute pancreatitis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      230.9,
+      559.3,
+      872.1,
+      586.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Nephrocalcinosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      230.9,
+      559.3,
+      872.1,
+      586.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Palpable neck swelling",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      232.9,
+      589.1,
+      809.1,
+      617.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Pseudogout",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      232.9,
+      589.1,
+      809.1,
+      617.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    183.1,
+    522.2,
+    872.1,
+    617.2
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 46,
+   "number": 46,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Phaeochromocytoma is not associated with:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Weight gain",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      230.9,
+      674.3,
+      980.1,
+      703.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Fear of death (angor animi)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      230.9,
+      674.3,
+      980.1,
+      703.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Paroxysmal hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      232.9,
+      705.2,
+      820.1,
+      733.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Constipation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      232.9,
+      705.2,
+      820.1,
+      733.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    183.1,
+    639.2,
+    980.1,
+    733.3
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 47,
+   "number": 47,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is false regarding medullary carcinoma of thyroid?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cervical lymphadenopathy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      230.9,
+      824.4,
+      599.9,
+      852.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "High serum calcitonin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      236.0,
+      854.3,
+      540.0,
+      883.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Carcinoid syndrome may be associated with",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      232.9,
+      885.4,
+      803.0,
+      913.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Psychosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      232.0,
+      916.4,
+      390.1,
+      944.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    183.1,
+    757.3,
+    981.0,
+    944.3
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 48,
+   "number": 48,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Malignant hypercalcaemia is treated by all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pamidronate",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      230.9,
+      1001.3,
+      789.1,
+      1022.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Calcitonin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      230.9,
+      1001.3,
+      789.1,
+      1022.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Calcitriol",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      232.9,
+      1031.4,
+      854.1,
+      1053.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Glucocorticoids",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      232.9,
+      1031.4,
+      854.1,
+      1053.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    183.1,
+    965.3,
+    854.1,
+    1053.4
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 49,
+   "number": 49,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Most common type of carcinoma of the thyroid gland is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Follicular",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      230.9,
+      1117.4,
+      793.1,
+      1145.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Anaplastic",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      230.9,
+      1117.4,
+      793.1,
+      1145.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Papillary",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      232.9,
+      1147.5,
+      828.0,
+      1176.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Mixed (A+C)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      232.9,
+      1147.5,
+      828.0,
+      1176.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    183.1,
+    1081.4,
+    918.0,
+    1176.5
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 50,
+   "number": 50,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Features of Addison's disease do not include:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Diarrhoea",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      230.9,
+      1233.5,
+      781.0,
+      1254.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Dizziness",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      230.9,
+      1233.5,
+      781.0,
+      1254.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Dermatitis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      232.9,
+      1264.5,
+      818.1,
+      1291.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Dehydration",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      232.9,
+      1264.5,
+      818.1,
+      1291.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_corrected_from_90"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    183.1,
+    1197.5,
+    818.1,
+    1291.5
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 51,
+   "number": 51,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Pseudohypoparathyroidism is not associated with:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cataract",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      232.0,
+      1349.5,
+      374.0,
+      1370.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Raised level of plasma PTH",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      236.0,
+      1379.5,
+      603.0,
+      1407.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Mental retardation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      232.9,
+      1410.5,
+      499.0,
+      1431.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Reduced level of plasma phosphate",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      232.0,
+      1441.6,
+      697.0,
+      1468.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    183.1,
+    1313.5,
+    850.0,
+    1468.6
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 52,
+   "number": 52,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Commonest cause of phaeochromocytoma is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Tumour of adrenal medulla",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      230.9,
+      1526.6,
+      605.0,
+      1547.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Necrosis of adrenal gland",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      236.0,
+      1557.5,
+      579.1,
+      1584.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Small cell carcinoma of bronchus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      232.9,
+      1587.6,
+      667.1,
+      1608.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Adrenal cortical hyperplasia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      232.0,
+      1618.6,
+      613.1,
+      1645.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_corrected_from_92"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    183.1,
+    1490.6,
+    782.1,
+    1645.6
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 53,
+   "number": 53,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Commonest cause of Addison's disease is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Granuloma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      230.9,
+      412.2,
+      889.0,
+      440.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Idiopathic atrophy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      230.9,
+      412.2,
+      889.0,
+      440.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Inflammatory necrosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      232.9,
+      443.2,
+      807.1,
+      471.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Malignancy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      232.9,
+      443.2,
+      807.1,
+      471.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": [
+    183.1,
+    376.2,
+    889.0,
+    471.2
+   ],
+   "pages": [
+    7
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 54,
+   "number": 54,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All of the following are noted in Cushing's syndrome except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Psychosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      230.9,
+      528.1,
+      390.1,
+      556.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Systemic hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      236.0,
+      561.2,
+      544.0,
+      589.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Sexual precocity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      232.9,
+      595.3,
+      470.0,
+      623.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Osteoporosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      232.0,
+      628.2,
+      430.0,
+      656.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": [
+    183.1,
+    492.1,
+    978.1,
+    656.3
+   ],
+   "pages": [
+    7
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 55,
+   "number": 55,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Secondary hyperaldosteronism is associated with all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Congestive cardiac failure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      232.0,
+      713.3,
+      914.0,
+      741.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Nephrotic syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      232.0,
+      713.3,
+      914.0,
+      741.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "SIADH",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      232.9,
+      747.4,
+      867.1,
+      768.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Cirrhosis of liver",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      232.9,
+      747.4,
+      867.1,
+      768.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": [
+    183.1,
+    677.3,
+    964.1,
+    768.2
+   ],
+   "pages": [
+    7
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 56,
+   "number": 56,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Empty sella syndrome may be due to all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sheehan's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      230.9,
+      832.3,
+      520.0,
+      860.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Spontaneous development",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      236.0,
+      865.3,
+      592.0,
+      893.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pituitary tumour",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      232.9,
+      899.3,
+      476.1,
+      927.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Post-irradiation necrosis of pituitary gland",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      232.0,
+      932.4,
+      782.1,
+      960.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": [
+    183.1,
+    796.3,
+    811.1,
+    960.3
+   ],
+   "pages": [
+    7
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 57,
+   "number": 57,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Increased muscle mass with slowness of activity (Hoffman syndrome) is seen in:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Acromegaly",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      230.9,
+      1048.3,
+      419.9,
+      1076.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Myxoedema",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      236.0,
+      1078.4,
+      422.1,
+      1106.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pseudohypoparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      232.9,
+      1109.3,
+      608.9,
+      1137.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Myotonia dystrophica",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      232.0,
+      1140.5,
+      538.0,
+      1168.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": [
+    183.1,
+    981.4,
+    980.1,
+    1168.4
+   ],
+   "pages": [
+    7
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 58,
+   "number": 58,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All of the following develop into dwarfism except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Congenital adrenal hyperplasia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      230.9,
+      1225.4,
+      649.1,
+      1253.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hypopituitarism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      236.0,
+      1259.5,
+      475.0,
+      1286.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Homocystinuria",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      232.9,
+      1292.6,
+      468.0,
+      1320.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Pseudohypoparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      232.0,
+      1325.5,
+      608.9,
+      1353.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": [
+    183.1,
+    1189.4,
+    851.0,
+    1353.6
+   ],
+   "pages": [
+    7
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 59,
+   "number": 59,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Plummer's nails are a feature of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Atopic eczema",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      230.9,
+      1411.6,
+      450.0,
+      1438.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hypoparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      236.0,
+      1444.5,
+      527.9,
+      1471.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Thyrotoxicosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      232.9,
+      1477.6,
+      449.1,
+      1504.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Multiple endocrine neoplasia type I",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      232.0,
+      1510.6,
+      698.9,
+      1538.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": [
+    183.1,
+    1374.5,
+    698.9,
+    1538.6
+   ],
+   "pages": [
+    7
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 60,
+   "number": 60,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Froehlich's syndrome is characterised by all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Infantilism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      230.9,
+      1595.5,
+      851.0,
+      1623.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Truncal obesity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      230.9,
+      1595.5,
+      851.0,
+      1623.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Diabetes mellitus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      232.9,
+      1626.7,
+      891.0,
+      1646.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Mental retardation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      232.9,
+      1626.7,
+      891.0,
+      1646.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": [
+    183.1,
+    1560.6,
+    891.0,
+    1646.6
+   ],
+   "pages": [
+    7
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 61,
+   "number": 61,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The triad of hyponatraemia, haemodilution and urine hypertonic to plasma suggest diagnosis of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Nephrotic syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      230.9,
+      443.2,
+      522.0,
+      471.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "SIADH",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      236.0,
+      474.1,
+      361.1,
+      495.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Nephrogenic diabetes insipidus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      232.9,
+      504.2,
+      661.0,
+      532.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Addison's disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      232.0,
+      535.1,
+      490.0,
+      556.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    183.1,
+    376.2,
+    980.1,
+    556.2
+   ],
+   "pages": [
+    8
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 62,
+   "number": 62,
+   "section": 1,
+   "type": "QCS",
+   "stem": "'Heel-pad thickness' for a male acromegaly should be:",
+   "options": [
+    {
+     "letter": "A",
+     "text": ">14mm By & 413 Hm",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      230.9,
+      620.5,
+      770.0,
+      644.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": ">19mm",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      232.9,
+      651.2,
+      769.3,
+      672.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": ">21 mm",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      232.9,
+      651.2,
+      769.3,
+      672.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "letters_not_sequential"
+   ],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    183.1,
+    584.3,
+    895.0,
+    672.3
+   ],
+   "pages": [
+    8
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 63,
+   "number": 63,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Nephrogenic diabetes insipidus may develop due to all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cystinosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      230.9,
+      736.2,
+      868.0,
+      764.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Lithium-induced",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      230.9,
+      736.2,
+      868.0,
+      764.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Chronic hepatitis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      232.9,
+      766.3,
+      944.1,
+      795.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Heavy metal poisoning",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      232.9,
+      766.3,
+      944.1,
+      795.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    183.1,
+    700.2,
+    981.0,
+    795.2
+   ],
+   "pages": [
+    8
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 64,
+   "number": 64,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All of the following drugs may produce galactorrhoea except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Salicylates",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      230.9,
+      854.3,
+      784.1,
+      883.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Reserpine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      230.9,
+      854.3,
+      784.1,
+      883.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Cimetidine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      232.9,
+      885.4,
+      812.0,
+      913.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Methyldopa",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      232.9,
+      885.4,
+      812.0,
+      913.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "stem_recovered_from_option_wrap",
+    "number_inferred"
+   ],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    232.0,
+    818.3,
+    980.1,
+    913.3
+   ],
+   "pages": [
+    8
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 65,
+   "number": 65,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All of the following produce hypergonadotropic hypogonadism except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sertoli cell only tumour",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      230.9,
+      1001.3,
+      938.0,
+      1029.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Klinefelter's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      230.9,
+      1001.3,
+      938.0,
+      1029.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Kallman's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      232.9,
+      1031.4,
+      945.0,
+      1060.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Reifenstein's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      232.9,
+      1031.4,
+      945.0,
+      1060.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    183.1,
+    934.4,
+    981.0,
+    1060.4
+   ],
+   "pages": [
+    8
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 66,
+   "number": 66,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which is not a part of multiple endocrine neoplasia type I (Wermer's syndrome)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Phaeochromocytoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      232.0,
+      1148.4,
+      525.1,
+      1176.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Tumour of pituitary",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      236.0,
+      1178.5,
+      514.1,
+      1206.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Tumour of pancreas",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      232.9,
+      1209.4,
+      515.0,
+      1237.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      232.0,
+      1240.6,
+      536.9,
+      1267.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    183.1,
+    1081.4,
+    980.1,
+    1267.6
+   ],
+   "pages": [
+    8
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 67,
+   "number": 67,
+   "section": 1,
+   "type": "QCS",
+   "stem": "67, Calcification of basal ganglia is seen in:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Primary hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      232.0,
+      1325.5,
+      634.0,
+      1353.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hypoparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      236.0,
+      1356.5,
+      527.9,
+      1383.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Secondary hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      232.9,
+      1386.5,
+      661.0,
+      1414.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Milk-alkali syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      232.0,
+      1417.5,
+      531.0,
+      1445.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "stem_recovered_from_option_wrap",
+    "number_inferred"
+   ],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    183.1,
+    1289.5,
+    718.0,
+    1445.6
+   ],
+   "pages": [
+    8
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 68,
+   "number": 68,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Phaeochromocytoma may be associated with following anomalies except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Neurofibromatosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      232.0,
+      1533.6,
+      499.0,
+      1553.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Medullary carcinoma of thyroid",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      236.0,
+      1563.7,
+      656.1,
+      1591.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      232.9,
+      1594.6,
+      536.9,
+      1622.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Addison's disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      232.0,
+      1625.6,
+      490.0,
+      1646.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    183.1,
+    1466.6,
+    981.0,
+    1646.6
+   ],
+   "pages": [
+    8
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 69,
+   "number": 69,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Tertiary hyperparathyroidism is commonly found in:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Rickets",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      230.9,
+      412.2,
+      360.0,
+      433.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Pseudohypoparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      236.0,
+      443.2,
+      608.9,
+      471.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Chronic renal failure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      232.9,
+      474.1,
+      522.0,
+      495.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Malabsorption syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      232.0,
+      504.2,
+      576.0,
+      532.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    183.1,
+    376.2,
+    882.0,
+    532.3
+   ],
+   "pages": [
+    9
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 70,
+   "number": 70,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Commonest enzymatic defect for development of congenital adrenal hyperplasia is: A.",
+   "options": [
+    {
+     "letter": "B",
+     "text": "3b dehydrogenase deficiency",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      236.0,
+      650.2,
+      621.0,
+      679.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "21 hydroxylase deficiency",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      230.9,
+      620.3,
+      611.1,
+      648.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "C-11 hydroxylase deficiency",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      232.9,
+      681.3,
+      611.1,
+      709.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "C-17 hydroxylase deficiency",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      232.0,
+      712.3,
+      611.1,
+      740.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "options_start_at_C",
+    "letters_not_sequential",
+    "key_letter_not_among_options"
+   ],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    183.1,
+    553.1,
+    981.0,
+    740.3
+   ],
+   "pages": [
+    9
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key"
+  },
+  {
+   "i": 71,
+   "number": 71,
+   "section": 1,
+   "type": "QCS",
+   "stem": "'Brown tumour' of bone is found in:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Primary hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      230.9,
+      797.2,
+      634.0,
+      825.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Pseudohypoparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      236.0,
+      828.4,
+      608.9,
+      856.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Secondary hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      232.9,
+      858.2,
+      661.0,
+      886.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypoparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      232.0,
+      889.4,
+      527.9,
+      917.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    183.1,
+    761.2,
+    674.1,
+    917.3
+   ],
+   "pages": [
+    9
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 72,
+   "number": 72,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Primary aldosteronism is not featured by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Low plasma renin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      230.9,
+      974.3,
+      841.0,
+      1002.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hypokalaemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      230.9,
+      974.3,
+      841.0,
+      1002.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Oedema",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      232.9,
+      1005.3,
+      936.0,
+      1033.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Systemic hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      232.9,
+      1005.3,
+      936.0,
+      1033.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    183.1,
+    939.4,
+    936.0,
+    1033.4
+   ],
+   "pages": [
+    9
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 73,
+   "number": 73,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which is not a feature of mucosal neuroma syndrome (multiple endocrine neoplasia type III)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Café au lait spots",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      232.0,
+      1121.4,
+      825.1,
+      1149.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Blubbery lips",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      232.0,
+      1121.4,
+      825.1,
+      1149.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Kyphoscoliosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      232.9,
+      1151.5,
+      935.1,
+      1180.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Thickened ulnar nerve",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      232.9,
+      1151.5,
+      935.1,
+      1180.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    183.1,
+    1054.4,
+    980.1,
+    1180.4
+   ],
+   "pages": [
+    9
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 74,
+   "number": 74,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Necrolytic migratory erythema is characteristic of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Insulinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      230.9,
+      1231.4,
+      409.0,
+      1252.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Zollinger-Ellison syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      236.0,
+      1262.5,
+      602.1,
+      1290.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pancreatic cholera",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      232.9,
+      1293.5,
+      491.0,
+      1314.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Glucagonoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      232.0,
+      1323.5,
+      441.0,
+      1351.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    183.1,
+    1196.5,
+    843.1,
+    1351.4
+   ],
+   "pages": [
+    9
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 75,
+   "number": 75,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Prader-Willi syndrome is featured by all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Mental retardation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      230.9,
+      1404.5,
+      759.1,
+      1431.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Obesity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      230.9,
+      1404.5,
+      759.1,
+      1431.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hypertonia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      232.9,
+      1434.6,
+      852.1,
+      1462.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypogonadism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      232.9,
+      1434.6,
+      852.1,
+      1462.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    183.1,
+    1367.5,
+    852.1,
+    1462.5
+   ],
+   "pages": [
+    9
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 76,
+   "number": 76,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following does not produce fasting hypo- glycaemia?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Galactosaemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      230.9,
+      1545.7,
+      446.9,
+      1565.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Insulinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      236.0,
+      1575.5,
+      410.0,
+      1596.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Glucose-6-phosphatase deficiency",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      232.9,
+      1606.7,
+      680.0,
+      1634.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Systemic carnitine deficiency",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      232.0,
+      1637.6,
+      620.1,
+      1664.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    183.1,
+    1478.5,
+    980.1,
+    1664.6
+   ],
+   "pages": [
+    9
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 77,
+   "number": 77,
+   "section": 1,
+   "type": "QCS",
+   "stem": "ZF Schmidt syndrome (polyglandular deficiency syndrome) is not associated with:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Adrenal insufficiency",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      230.9,
+      442.1,
+      920.0,
+      471.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hypoparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      230.9,
+      442.1,
+      920.0,
+      471.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Diabetes mellitus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      232.9,
+      474.1,
+      918.0,
+      502.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Phaeochromocytoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      232.9,
+      474.1,
+      918.0,
+      502.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_inferred",
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    183.1,
+    376.2,
+    981.0,
+    502.2
+   ],
+   "pages": [
+    10
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 78,
+   "number": 78,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All of the following produce hirsutism with virilisation except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cushing's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      230.9,
+      561.2,
+      521.1,
+      590.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Arrhenoblastoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      236.0,
+      592.2,
+      482.9,
+      613.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Malignant adrenal hyperplasia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      232.9,
+      622.3,
+      641.0,
+      651.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Congenital adrenal hyperplasia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      232.0,
+      653.2,
+      649.1,
+      681.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    183.1,
+    525.2,
+    981.0,
+    681.3
+   ],
+   "pages": [
+    10
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 79,
+   "number": 79,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Erythropoietin is secreted from:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Mesenchymal tumours",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      230.9,
+      741.2,
+      548.1,
+      769.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Cerebellar haemangioblastoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      236.0,
+      774.4,
+      644.0,
+      803.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Juxtaglomerular tumour",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      232.9,
+      808.4,
+      565.0,
+      836.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Lymphoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      232.0,
+      838.3,
+      412.0,
+      866.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    183.1,
+    705.2,
+    644.0,
+    866.3
+   ],
+   "pages": [
+    10
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 80,
+   "number": 80,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Turner's syndrome is not associated with:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Shield-like chest",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      230.9,
+      926.3,
+      913.0,
+      954.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Aortic incompetence",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      230.9,
+      926.3,
+      913.0,
+      954.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Bilateral cubitus valgus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      232.9,
+      960.3,
+      867.1,
+      988.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Webbing of neck",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      232.9,
+      960.3,
+      867.1,
+      988.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    183.1,
+    891.4,
+    913.0,
+    988.4
+   ],
+   "pages": [
+    10
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 81,
+   "number": 81,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Melatonin is clinically used in:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pituitary tumour",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      230.9,
+      1048.3,
+      476.1,
+      1076.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Decompression sickness",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      236.0,
+      1081.4,
+      563.0,
+      1109.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "High-altitude pulmonary oedema",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      232.9,
+      1114.4,
+      676.1,
+      1143.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Jet lag",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      232.0,
+      1148.4,
+      347.9,
+      1176.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    183.1,
+    1012.3,
+    676.1,
+    1176.5
+   ],
+   "pages": [
+    10
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 82,
+   "number": 82,
+   "section": 1,
+   "type": "QCS",
+   "stem": "POEMS syndrome aggregates polyneuropathy, organomegaly, M-proteins, skin changes and",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Enlarged pituitary gland",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      230.9,
+      1266.5,
+      889.0,
+      1294.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Empyema thoracis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      230.9,
+      1266.5,
+      889.0,
+      1294.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Endocrinopathy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      232.9,
+      1300.5,
+      818.1,
+      1327.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Endocarditis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      232.9,
+      1300.5,
+      818.1,
+      1327.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    183.1,
+    1200.4,
+    981.0,
+    1327.5
+   ],
+   "pages": [
+    10
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 83,
+   "number": 83,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Sildenafil (Viagra) should be used with caution in:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Retinitis pigmentosa",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      230.9,
+      1388.5,
+      873.0,
+      1415.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Diabetes mellitus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      230.9,
+      1388.5,
+      873.0,
+      1415.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Endogenous depression",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      232.9,
+      1421.5,
+      830.0,
+      1449.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      232.9,
+      1421.5,
+      830.0,
+      1449.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    183.1,
+    1352.5,
+    873.0,
+    1449.5
+   ],
+   "pages": [
+    10
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 84,
+   "number": 84,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Vanillylmandelic acid (VMA) excretion is increased in urine in:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Conn's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      230.9,
+      1540.6,
+      485.1,
+      1567.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Congenital adrenal hyperplasia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      236.0,
+      1571.6,
+      649.1,
+      1599.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Testicular feminisation syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      232.9,
+      1603.6,
+      674.1,
+      1631.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Phaeochromocytoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      232.0,
+      1635.7,
+      525.1,
+      1663.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    183.1,
+    1473.5,
+    980.1,
+    1663.6
+   ],
+   "pages": [
+    10
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 85,
+   "number": 85,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Commonest cause of thyrotoxicosis is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Multinodular goitre",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      230.9,
+      412.2,
+      512.1,
+      440.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hashimoto's thyroiditis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      236.0,
+      443.2,
+      557.1,
+      471.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Graves' disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      232.9,
+      474.1,
+      459.0,
+      495.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Well-differentiated carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      232.0,
+      504.2,
+      631.1,
+      525.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    183.1,
+    376.2,
+    705.1,
+    525.2
+   ],
+   "pages": [
+    11
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 86,
+   "number": 86,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In pregnancy, antithyroid treatment of choice is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Radio-active iodine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      230.9,
+      589.1,
+      506.0,
+      610.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Carbimazole",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      236.0,
+      620.3,
+      426.1,
+      641.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Subtotal thyroidectomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      232.9,
+      651.2,
+      556.0,
+      679.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Corticosteroid",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      232.0,
+      681.3,
+      444.1,
+      702.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    183.1,
+    553.1,
+    822.1,
+    702.2
+   ],
+   "pages": [
+    11
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 87,
+   "number": 87,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Charcot joint in diabetes mellitus commonly affects:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hip",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      230.9,
+      766.3,
+      775.1,
+      794.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Shoulder",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      230.9,
+      766.3,
+      775.1,
+      794.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Knee",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      232.9,
+      798.3,
+      719.1,
+      818.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Foot",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      232.9,
+      798.3,
+      719.1,
+      818.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    183.1,
+    731.3,
+    873.0,
+    818.3
+   ],
+   "pages": [
+    11
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 88,
+   "number": 88,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Osmoreceptors are present in:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Atria",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      230.9,
+      883.3,
+      754.0,
+      911.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Kidney",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      230.9,
+      883.3,
+      754.0,
+      911.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Anterior hypothalamus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      232.9,
+      913.3,
+      844.0,
+      941.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Adrenal cortex",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      232.9,
+      913.3,
+      844.0,
+      941.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    183.1,
+    847.3,
+    844.0,
+    941.4
+   ],
+   "pages": [
+    11
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 89,
+   "number": 89,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The prostaglandins were first demonstrated in:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "CSF",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      230.9,
+      999.4,
+      734.0,
+      1019.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Urine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      230.9,
+      999.4,
+      734.0,
+      1019.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Semen",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      232.9,
+      1029.4,
+      734.9,
+      1050.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Blood",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      232.9,
+      1029.4,
+      734.9,
+      1050.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    183.1,
+    962.3,
+    808.0,
+    1050.5
+   ],
+   "pages": [
+    11
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 90,
+   "number": 90,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which is considered to be an endocrine organ?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Skin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      230.9,
+      1114.4,
+      815.0,
+      1143.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Ciliary body",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      230.9,
+      1114.4,
+      815.0,
+      1143.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Small intestine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      232.9,
+      1145.5,
+      740.0,
+      1166.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Breast",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      232.9,
+      1145.5,
+      740.0,
+      1166.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    183.1,
+    1078.4,
+    815.0,
+    1166.4
+   ],
+   "pages": [
+    11
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 91,
+   "number": 91,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Epiphyseal dysgenesis is seen in:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hypoparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      230.9,
+      1230.5,
+      527.9,
+      1258.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Secondary hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      236.0,
+      1261.4,
+      661.0,
+      1289.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Cushing's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      232.9,
+      1292.6,
+      521.1,
+      1320.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypothyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      232.0,
+      1322.5,
+      473.9,
+      1350.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    183.1,
+    1194.5,
+    661.0,
+    1350.5
+   ],
+   "pages": [
+    11
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 92,
+   "number": 92,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Commonest site of insulinoma is in the pancreatic:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Tail",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      230.9,
+      1402.6,
+      320.0,
+      1423.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Head",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      236.0,
+      1433.5,
+      338.9,
+      1454.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Body",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      232.9,
+      1464.5,
+      337.0,
+      1491.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Same incidence everywhere",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      232.0,
+      1494.5,
+      606.1,
+      1522.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    183.1,
+    1366.6,
+    853.0,
+    1522.6
+   ],
+   "pages": [
+    11
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 93,
+   "number": 93,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In Somogyi phenomenon commonly associated with type 2 diabetes mellitus, the dose of insulin should be:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Increased",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      230.9,
+      1610.6,
+      765.0,
+      1638.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Stopped",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      230.9,
+      1610.6,
+      765.0,
+      1638.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Decreased",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      232.9,
+      1641.6,
+      870.1,
+      1668.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Needs no change",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      232.9,
+      1641.6,
+      870.1,
+      1668.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    183.1,
+    1544.6,
+    981.0,
+    1668.6
+   ],
+   "pages": [
+    11
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 94,
+   "number": 94,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Miglitol used in diabetes mellitus falls under category of drugs like:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Alpha-glucosidase inhibitor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      230.9,
+      443.2,
+      607.0,
+      471.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Thiazolidinediones",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      236.0,
+      476.1,
+      503.1,
+      497.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Sulphonylureas",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      232.9,
+      509.2,
+      462.1,
+      537.1
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Biguanides",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      232.0,
+      543.2,
+      407.0,
+      571.1
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 12,
+   "bbox": [
+    183.1,
+    376.2,
+    980.1,
+    571.1
+   ],
+   "pages": [
+    12
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 95,
+   "number": 95,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Thyromegaly may develop from all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Chlorpromazine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      230.9,
+      630.2,
+      762.1,
+      658.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Lithium",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      230.9,
+      630.2,
+      762.1,
+      658.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Phenylbutazone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      232.9,
+      664.2,
+      716.9,
+      692.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "PAS",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      232.9,
+      664.2,
+      716.9,
+      692.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 12,
+   "bbox": [
+    183.1,
+    595.3,
+    762.1,
+    692.3
+   ],
+   "pages": [
+    12
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 96,
+   "number": 96,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In the Klinefelter's syndrome:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "All the patients are infertile",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      230.9,
+      749.3,
+      601.0,
+      777.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Plasma FSH is elevated",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      236.0,
+      782.3,
+      552.1,
+      804.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "There may be shield-like chest",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      232.9,
+      816.3,
+      635.9,
+      844.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Testes and breast atrophy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      232.0,
+      849.2,
+      581.0,
+      877.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 12,
+   "bbox": [
+    183.1,
+    714.2,
+    635.9,
+    877.3
+   ],
+   "pages": [
+    12
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 97,
+   "number": 97,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is not a recognised feature of myxoe- dema?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ascites",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      230.9,
+      966.4,
+      359.1,
+      986.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Cerebellar ataxia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      236.0,
+      996.3,
+      473.9,
+      1017.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Increased incidence of pernicious anaemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      232.9,
+      1026.4,
+      778.0,
+      1054.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Thyroid acropachy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      232.0,
+      1057.3,
+      500.9,
+      1085.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 12,
+   "bbox": [
+    183.1,
+    899.3,
+    981.0,
+    1085.4
+   ],
+   "pages": [
+    12
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 98,
+   "number": 98,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Percussion myoedema is characteristic of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Acromegaly",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      230.9,
+      1142.5,
+      919.1,
+      1170.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hypoparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      230.9,
+      1142.5,
+      919.1,
+      1170.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Sheehan's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      232.9,
+      1173.4,
+      866.0,
+      1201.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypothyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      232.9,
+      1173.4,
+      866.0,
+      1201.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 12,
+   "bbox": [
+    183.1,
+    1106.5,
+    919.1,
+    1201.5
+   ],
+   "pages": [
+    12
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 99,
+   "number": 99,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Anorexia nervosa is not associated with:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hypokalaemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      230.9,
+      1258.6,
+      450.0,
+      1286.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Primary amenorrhoea",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      236.0,
+      1289.5,
+      536.0,
+      1317.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Exclusively in females",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      232.9,
+      1319.6,
+      539.1,
+      1348.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Low FSH and LH",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      232.0,
+      1350.5,
+      484.0,
+      1371.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 12,
+   "bbox": [
+    183.1,
+    1223.5,
+    723.1,
+    1371.6
+   ],
+   "pages": [
+    12
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 100,
+   "number": 100,
+   "section": 1,
+   "type": "QCS",
+   "stem": "\"'Blubbery' lips are characteristic of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Mucosal neuroma syndrome (MEN type III)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      230.9,
+      1435.5,
+      798.1,
+      1463.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "McCune-Albright syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      236.0,
+      1466.6,
+      612.0,
+      1494.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Osteogenesis imperfecta",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      232.9,
+      1497.6,
+      563.9,
+      1524.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Schmidt syndrome (polyglandular deficiency syndrome)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      232.0,
+      1527.7,
+      949.0,
+      1555.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 12,
+   "bbox": [
+    172.1,
+    1400.6,
+    949.0,
+    1555.6
+   ],
+   "pages": [
+    12
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 101,
+   "number": 101,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Priapism may be a side effect of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Reserpine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      232.0,
+      1613.7,
+      792.0,
+      1640.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Octreotide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      232.0,
+      1613.7,
+      792.0,
+      1640.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Methaqualone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      232.9,
+      1643.6,
+      794.0,
+      1671.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Trazodone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      232.9,
+      1643.6,
+      794.0,
+      1671.7
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 12,
+   "bbox": [
+    172.1,
+    1576.8,
+    794.0,
+    1671.7
+   ],
+   "pages": [
+    12
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 102,
+   "number": 102,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is false regarding prerequisites of oral glucose tolerance test?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Restricted carbohydrate diet, 72 hours before test",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.0,
+      443.2,
+      859.0,
+      471.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Patient will take 75 g of glucose orally during the test",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      236.0,
+      473.2,
+      909.0,
+      502.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Fasting overnight",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.9,
+      504.2,
+      485.1,
+      532.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Should not smoke during the test",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.0,
+      534.2,
+      671.0,
+      563.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 13,
+   "bbox": [
+    172.1,
+    376.2,
+    981.0,
+    563.2
+   ],
+   "pages": [
+    13
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 103,
+   "number": 103,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Orlistat is used to treat:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Diabetic neuropathy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.0,
+      620.3,
+      758.0,
+      648.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Obesity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.0,
+      620.3,
+      758.0,
+      648.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pseudohypoparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.9,
+      651.2,
+      876.1,
+      679.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Anorexia nervosa",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.9,
+      651.2,
+      876.1,
+      679.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 13,
+   "bbox": [
+    172.1,
+    584.3,
+    876.1,
+    679.3
+   ],
+   "pages": [
+    13
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 104,
+   "number": 104,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Prolonged ingestion of iodine can produce goitre, and is known as:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Jod-Basedow effect",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.0,
+      766.3,
+      967.0,
+      795.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Sick euthyroid syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.0,
+      766.3,
+      967.0,
+      795.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Wolf-Chaikoff effect",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.9,
+      797.2,
+      929.0,
+      825.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Thyrotoxicosis factitia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.9,
+      797.2,
+      929.0,
+      825.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 13,
+   "bbox": [
+    172.1,
+    700.2,
+    981.0,
+    825.3
+   ],
+   "pages": [
+    13
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 105,
+   "number": 105,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Priapism may be encountered in all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Spinal cord injury",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.0,
+      882.4,
+      902.0,
+      911.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Alprostadil therapy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.0,
+      882.4,
+      902.0,
+      911.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Sickle cell anaemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.9,
+      913.3,
+      946.1,
+      941.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Autonomic neuropathy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.9,
+      913.3,
+      946.1,
+      941.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 13,
+   "bbox": [
+    172.1,
+    847.3,
+    946.1,
+    941.4
+   ],
+   "pages": [
+    13
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 106,
+   "number": 106,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Seminal emission may be absent in all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Phentolamine therapy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.0,
+      998.5,
+      539.1,
+      1026.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Parasympathetic denervation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      236.0,
+      1029.4,
+      625.0,
+      1057.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Retrograde ejaculation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.9,
+      1060.4,
+      544.0,
+      1088.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Androgen deficiency",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.0,
+      1090.4,
+      525.1,
+      1118.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 13,
+   "bbox": [
+    172.1,
+    962.3,
+    792.0,
+    1118.3
+   ],
+   "pages": [
+    13
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 107,
+   "number": 107,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Advanced maternal age is a predisposing factor in:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Turner's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.0,
+      1176.5,
+      914.0,
+      1204.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Ataxia-telangiectasia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.0,
+      1176.5,
+      914.0,
+      1204.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Klinefelter's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.9,
+      1206.5,
+      939.1,
+      1234.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "True hermaphroditism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.9,
+      1206.5,
+      939.1,
+      1234.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 13,
+   "bbox": [
+    172.1,
+    1140.5,
+    939.1,
+    1234.4
+   ],
+   "pages": [
+    13
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 108,
+   "number": 108,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Karyotype 47, XYY is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "True hermaphroditism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.0,
+      1291.5,
+      794.0,
+      1319.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Supermale",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.0,
+      1291.5,
+      794.0,
+      1319.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Klinefelter's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.9,
+      1322.5,
+      905.0,
+      1350.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Gonadal dysgenesis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.9,
+      1322.5,
+      905.0,
+      1350.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 13,
+   "bbox": [
+    172.1,
+    1256.4,
+    905.0,
+    1350.5
+   ],
+   "pages": [
+    13
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 109,
+   "number": 109,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Commonest cause of 'ambiguous genitalia' in newborn is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Congenital adrenal hyperplasia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.0,
+      1407.6,
+      649.1,
+      1435.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "True hermaphroditism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      236.0,
+      1438.6,
+      547.0,
+      1465.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Testicular ferminisation syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.9,
+      1469.5,
+      685.1,
+      1496.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Pseudohermaphroditism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.0,
+      1499.6,
+      572.0,
+      1527.7
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 13,
+   "bbox": [
+    172.1,
+    1371.6,
+    943.0,
+    1527.7
+   ],
+   "pages": [
+    13
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 110,
+   "number": 110,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hurthle cells are pathognomonic of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pemphigus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.0,
+      1585.6,
+      791.1,
+      1612.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Pinealoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.0,
+      1585.6,
+      791.1,
+      1612.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hashimoto's thyroiditis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.9,
+      1615.7,
+      802.1,
+      1643.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Insulinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      232.9,
+      1615.7,
+      802.1,
+      1643.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 13,
+   "bbox": [
+    172.1,
+    1549.6,
+    802.1,
+    1643.6
+   ],
+   "pages": [
+    13
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 111,
+   "number": 111,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Psammoma bodies are seen in all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Papillary carcinoma of thyroid",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.0,
+      412.2,
+      650.0,
+      440.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Meningioma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      236.0,
+      446.2,
+      426.1,
+      473.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Papillary serous cystadenoma of ovary",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.9,
+      478.3,
+      737.1,
+      507.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Carcinoma of body of pancreas",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.0,
+      512.3,
+      646.0,
+      540.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 14,
+   "bbox": [
+    172.1,
+    376.2,
+    737.1,
+    540.2
+   ],
+   "pages": [
+    14
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 112,
+   "number": 112,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In a male subject, if ovulation causes testicular pain, the diagnosis is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Gonadal dysgenesis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.0,
+      630.2,
+      513.0,
+      659.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "True hermaphroditism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      236.0,
+      661.3,
+      545.9,
+      689.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Testicular feminisation syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.9,
+      692.3,
+      674.1,
+      720.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Pseudohermaphroditism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.0,
+      722.3,
+      571.0,
+      750.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 14,
+   "bbox": [
+    172.1,
+    564.3,
+    980.1,
+    750.2
+   ],
+   "pages": [
+    14
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 113,
+   "number": 113,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A female with negative Barr body and having lymphoedema of hand and foot is diagnostic of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "21-hydroxylase deficiency",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.0,
+      841.3,
+      878.0,
+      869.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Karotype 47, XXY",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.0,
+      841.3,
+      878.0,
+      869.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Noonan syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.9,
+      872.3,
+      879.1,
+      900.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Karyotype 45, XO",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.9,
+      872.3,
+      879.1,
+      900.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 14,
+   "bbox": [
+    172.1,
+    775.3,
+    981.0,
+    900.4
+   ],
+   "pages": [
+    14
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 114,
+   "number": 114,
+   "section": 1,
+   "type": "QCS",
+   "stem": "114, Persistent muscular weakness is characteristic of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Conn's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.0,
+      960.3,
+      812.0,
+      988.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Acromegaly",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.0,
+      960.3,
+      812.0,
+      988.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.9,
+      990.4,
+      814.0,
+      1018.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Myxoedema",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.9,
+      990.4,
+      814.0,
+      1018.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "stem_recovered_from_option_wrap",
+    "number_inferred"
+   ],
+   "cut_prefix": "",
+   "page": 14,
+   "bbox": [
+    172.1,
+    924.3,
+    834.1,
+    1018.4
+   ],
+   "pages": [
+    14
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 115,
+   "number": 115,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Galactorrhoea may be produced by all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Reserpine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.0,
+      1078.4,
+      863.1,
+      1106.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Butyrophenones",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.0,
+      1078.4,
+      863.1,
+      1106.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Verapamil",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.9,
+      1109.3,
+      809.1,
+      1137.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Gemfibrozil",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.9,
+      1109.3,
+      809.1,
+      1137.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 14,
+   "bbox": [
+    172.1,
+    1042.4,
+    863.1,
+    1137.4
+   ],
+   "pages": [
+    14
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 116,
+   "number": 116,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following augments growth hormone release?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Glucocorticoids",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.0,
+      1194.5,
+      822.1,
+      1215.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Somatostatin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.0,
+      1194.5,
+      822.1,
+      1215.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Stress",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.9,
+      1225.4,
+      758.0,
+      1253.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Obesity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.9,
+      1225.4,
+      758.0,
+      1253.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 14,
+   "bbox": [
+    172.1,
+    1158.5,
+    960.1,
+    1253.5
+   ],
+   "pages": [
+    14
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 117,
+   "number": 117,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Syndrome of inappropriate antidiuretic hormone (SIADH) may be seen in all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Guillain-Barré syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.0,
+      1343.5,
+      572.0,
+      1371.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Subacute bacterial endocarditis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      236.0,
+      1374.5,
+      647.1,
+      1395.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Myxoedema",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.9,
+      1405.6,
+      422.1,
+      1433.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Bronchogenic carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.0,
+      1436.6,
+      567.0,
+      1463.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 14,
+   "bbox": [
+    172.1,
+    1277.5,
+    981.0,
+    1463.6
+   ],
+   "pages": [
+    14
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 118,
+   "number": 118,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Type 3 diabetes mellitus is related to:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Leprechaunism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.0,
+      1524.6,
+      459.0,
+      1551.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Coeliac disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      236.0,
+      1554.7,
+      455.0,
+      1575.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Alzheimer's disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.9,
+      1584.5,
+      512.1,
+      1605.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Lean body mass obesity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      232.0,
+      1615.7,
+      560.0,
+      1643.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 14,
+   "bbox": [
+    172.1,
+    1488.6,
+    689.0,
+    1643.6
+   ],
+   "pages": [
+    14
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 119,
+   "number": 119,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Regarding syndrome of inappropriate antidiuretic hormone (SIADH), which is true?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hyponatremia is dilutional",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.0,
+      443.2,
+      598.0,
+      471.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Urine is relatively hypertonic to plasma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      236.0,
+      474.1,
+      746.1,
+      501.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "ADH-mediated water reabsorption does not occur",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.9,
+      504.2,
+      874.1,
+      531.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Renal function is jeopardized",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.0,
+      535.1,
+      622.1,
+      562.1
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 15,
+   "bbox": [
+    172.1,
+    377.1,
+    980.1,
+    562.1
+   ],
+   "pages": [
+    15
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 120,
+   "number": 120,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In injury to adrenal cortex, secretion of which is least affected?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Adrenaline",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.0,
+      620.3,
+      761.0,
+      641.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Cortisol",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.0,
+      620.3,
+      761.0,
+      641.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Aldosterone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.9,
+      651.2,
+      873.0,
+      672.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Androstenedione",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.9,
+      651.2,
+      873.0,
+      672.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 15,
+   "bbox": [
+    172.1,
+    584.3,
+    981.0,
+    672.3
+   ],
+   "pages": [
+    15
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 121,
+   "number": 121,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which is the specific region of hypothalamus responsible for sweat secretion?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Supra-optic",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.0,
+      767.3,
+      878.0,
+      794.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Median eminence",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.0,
+      767.3,
+      878.0,
+      794.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Para-ventricular",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.9,
+      797.2,
+      810.0,
+      818.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Pars distalis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.9,
+      797.2,
+      810.0,
+      818.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 15,
+   "bbox": [
+    172.1,
+    700.2,
+    981.0,
+    818.3
+   ],
+   "pages": [
+    15
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 122,
+   "number": 122,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Increased serum aldosterone level is not associated with:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.0,
+      883.3,
+      862.0,
+      910.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hypernatraemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.0,
+      883.3,
+      862.0,
+      910.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hypokalaemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.9,
+      913.3,
+      886.0,
+      941.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Metabolic acidosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.9,
+      913.3,
+      886.0,
+      941.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 15,
+   "bbox": [
+    172.1,
+    847.3,
+    926.1,
+    941.4
+   ],
+   "pages": [
+    15
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 123,
+   "number": 123,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In parathyroid pathology, investigation of choice is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Gallium scan",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.0,
+      998.5,
+      834.1,
+      1019.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Thallium scan",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.0,
+      998.5,
+      834.1,
+      1019.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Technetium-99 sestamibi scan",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.9,
+      1029.4,
+      761.0,
+      1050.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "CT scan",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.9,
+      1029.4,
+      761.0,
+      1050.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 15,
+   "bbox": [
+    172.1,
+    963.4,
+    866.0,
+    1050.5
+   ],
+   "pages": [
+    15
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 124,
+   "number": 124,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Increased gonadal production of oestrogen is seen in:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Third trimester of pregnancy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.0,
+      1114.4,
+      617.9,
+      1142.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Congenital adrenal hyperplasia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      236.0,
+      1145.5,
+      649.1,
+      1173.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Polycystic ovarian disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.9,
+      1176.5,
+      586.1,
+      1203.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Testicular feminization syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.0,
+      1206.5,
+      676.1,
+      1234.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 15,
+   "bbox": [
+    172.1,
+    1079.5,
+    884.0,
+    1234.4
+   ],
+   "pages": [
+    15
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 125,
+   "number": 125,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Excess prolactin gives rise to:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Acromegaly",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.0,
+      1292.6,
+      848.0,
+      1319.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Gynaecomastia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.0,
+      1292.6,
+      848.0,
+      1319.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Early menopause",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.9,
+      1322.5,
+      773.1,
+      1350.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Anaemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.9,
+      1322.5,
+      773.1,
+      1350.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 15,
+   "bbox": [
+    172.1,
+    1256.4,
+    848.0,
+    1350.5
+   ],
+   "pages": [
+    15
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 126,
+   "number": 126,
+   "section": 1,
+   "type": "QCS",
+   "stem": "13 126. Which hormone stimulates egg production in ovaries?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "FSH",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.0,
+      1408.5,
+      719.1,
+      1428.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "TSH",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.0,
+      1408.5,
+      719.1,
+      1428.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Prolactin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.9,
+      1438.6,
+      775.1,
+      1466.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Oxytocin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.9,
+      1438.6,
+      775.1,
+      1466.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "stem_recovered_from_option_wrap",
+    "number_inferred"
+   ],
+   "cut_prefix": "",
+   "page": 15,
+   "bbox": [
+    115.9,
+    1372.5,
+    895.0,
+    1466.6
+   ],
+   "pages": [
+    15
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 127,
+   "number": 127,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following country has highest number of type 1 diabetes patients?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Japan",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.0,
+      1554.7,
+      728.1,
+      1581.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "India",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.0,
+      1554.7,
+      728.1,
+      1581.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Scandinavia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.9,
+      1585.6,
+      737.1,
+      1605.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "China",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      232.9,
+      1585.6,
+      737.1,
+      1605.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 15,
+   "bbox": [
+    172.1,
+    1488.6,
+    980.1,
+    1605.6
+   ],
+   "pages": [
+    15
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  }
+ ]
+}

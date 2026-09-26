@@ -1,0 +1,1245 @@
+{
+ "nn": "30",
+ "source": "Raw_PDF_Questions/End 2026.pdf",
+ "sha256": "91462f13237eb3cccad9a5dbd88575b57ba8686a8a23df3f82f755febc3e472b",
+ "at": "2026-09-26T15:20:29Z",
+ "layout": {
+  "method": "ocr",
+  "splits": {
+   "1": null,
+   "2": null,
+   "3": null,
+   "4": null
+  }
+ },
+ "counters": {
+  "source_numbering": 6,
+  "sections": [
+   "1-6"
+  ],
+  "option_a_lines": 15,
+  "parsed_questions": 13,
+  "parsed_numbered": 0,
+  "declared_total": 30
+ },
+ "gaps": [],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [],
+  "grid_hits": 0,
+  "style_stats": {
+   "bold": 0.0,
+   "color": 0.0,
+   "tick": 0.0,
+   "highlight": 0.0,
+   "fill": 0.0,
+   "tint": 0.0,
+   "ink": 0.0,
+   "circle": 0.0,
+   "box": 0.0,
+   "underline": 0.0
+  },
+  "marked_hits": 0,
+  "answered": 13,
+  "mcq": 13,
+  "at": "2026-09-26T15:20:29Z"
+ },
+ "distribution": {
+  "B": 0.154,
+  "C": 0.385,
+  "D": 0.385,
+  "E": 0.077
+ },
+ "dropped_lines": [
+  "-",
+  "CS CamScanner",
+  "↑",
+  "CS CamScanner",
+  "CS CamScanner",
+  "CS CamScanner",
+  "B) Ectople ACTH syndrome 1AT"
+ ],
+ "dropped_count": 7,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 13,
+  "dropped": [],
+  "stale": [
+   "feltshdpsseudohypoparathyroidismishoplassociatedwith",
+   "potsd",
+   "whicvdteavoidhypoglycemiaisoneofthegoalsofdiabetesmanagementhstatementscorrectingestationaldiabetes"
+  ],
+  "added": 0
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "latrogenie Cushing's (steroids) or adrenal tumor",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dianhea",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      118.8,
+      119.5,
+      178.8,
+      134.9
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Dizziness Overweigh at bas5 Dy Dehydration 1. The following is incorrect regarding/insulinoma AThe triad for insulinoma includes: Hypoglycemia, neuroglycopenic symptoms, relief wi Duing the hypoglycemic attack, ow blood glucose, low insuln, and low proinsulin are",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      121.4,
+      134.6,
+      185.5,
+      149.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "C-peptide and proinsulin levels help differentiate an insulinoma from insulin_iniection DySurgical resection is the definite treatment in most cases. 19. The following abnormality is notseen in 1ry Addison's disease:",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      119.5,
+      253.0,
+      546.5,
+      270.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "orphan_rows_joined_to_option",
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    81.4,
+    59.5,
+    561.1,
+    317.0
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 2,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following abnormality is not seen in 1ry Addison's disease:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Increased K",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      119.0,
+      325.4,
+      205.7,
+      341.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Increased ACTH",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      396.0,
+      334.3,
+      414.2,
+      345.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Decreased Ca",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      115.7,
+      354.0,
+      208.8,
+      379.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Decreased Na",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "option_marker_repaired_B_from_orphan_possible_mark",
+    "low_ocr_confidence",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    384.2,
+    313.9,
+    438.0,
+    379.4
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 3,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "NACTH 20 Which of the following is not a feature of autonomic neuropathy in diabetes?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Postural,hypotension .Loss of heart,rate variability with respiration (sinus arrhythmia) Bradycardia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      92.6,
+      404.2,
+      216.0,
+      417.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Insulin therapy is always needed",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      95.0,
+      509.5,
+      252.2,
+      523.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypoglycenc unawareness 21.Type I diabetes mellitus is characterized by all the following except a- Majority of cases present acutely Obesity is an important predisposing factor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      91.0,
+      441.4,
+      249.1,
+      457.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "d-Positive family history is less common than in type 11",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      90.0,
+      524.9,
+      348.0,
+      541.9
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "islet cells antibodies are present in majority of cases",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      90.0,
+      538.8,
+      338.4,
+      555.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "orphan_rows_joined_to_option",
+    "option_marker_repaired_D_from_wrap_possible_mark",
+    "letters_not_sequential"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    356.2,
+    352.1,
+    472.1,
+    555.8
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  },
+  {
+   "i": 4,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All the following are correct about insulin therapy in uncomplicated type I diabetes mellitus except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dose is 0.3-1 U/kg/ day",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      90.0,
+      571.4,
+      212.9,
+      586.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "The intermediate acting comprises 2/3 of the dose",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      91.2,
+      584.4,
+      326.2,
+      603.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Majority of patients are managed by twice daily injections",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      86.4,
+      617.0,
+      396.5,
+      644.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Confinement in bed due to fracture hip needs decrease of the dose",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      314.2,
+      674.6,
+      446.6,
+      701.3
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Infection needs increase of the dose by 10-15%",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      314.2,
+      674.6,
+      446.6,
+      701.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "option_out_of_order_B",
+    "option_marker_repaired_C_from_orphan_possible_mark",
+    "empty_stem",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": null,
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  },
+  {
+   "i": 5,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In secondary hyperaldosteronism, which is false?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "May or may not be associated with hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      106.1,
+      223.7,
+      362.6,
+      240.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Treated with salt restriction and treatment of the cause",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      106.8,
+      241.2,
+      390.7,
+      278.9
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Elevated aldosterone without renin elevation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      516.0,
+      248.6,
+      567.8,
+      273.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypokalemia is manifest",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.7,
+      274.8,
+      250.6,
+      291.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "orphan_rows_joined_to_option",
+    "option_marker_repaired_C_from_orphan_possible_mark",
+    "low_ocr_confidence",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    308.2,
+    744.5,
+    567.8,
+    0
+   ],
+   "pages": [
+    0,
+    1
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 6,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Classical congenital adrenal hyperplasia is not characterized by",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Increased Androgens",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      142.3,
+      305.8,
+      284.2,
+      323.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Increased steroid precursors e.g. 17-hydroxyprogesterone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      141.4,
+      323.5,
+      435.4,
+      339.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Low cortisol",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      142.8,
+      334.6,
+      239.3,
+      362.9
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "High ACTH",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      137.3,
+      421.4,
+      283.9,
+      438.7
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "option_out_of_order_C",
+    "orphan_rows_joined_to_option",
+    "low_ocr_confidence",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    524.2,
+    291.4,
+    565.0,
+    438.7
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  },
+  {
+   "i": 7,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In pseudohyperaldosteronism, which is CORRECT?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Presented with hypotension and hyhokalemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      141.6,
+      457.9,
+      377.8,
+      475.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Not caused by Cushing syndrome or congenital adrenal hyperplasia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      138.2,
+      475.7,
+      487.7,
+      492.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Both Renin and aldosterone are high.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      139.0,
+      487.2,
+      338.9,
+      501.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Excessive licorice ingestion may cause it.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    88.1,
+    441.1,
+    487.7,
+    501.8
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  },
+  {
+   "i": 8,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Excessive licorice ingestion may causait. Regarding hypoglycemia in diabetes, which is false? a_ Occurs as a side,effect of sulphonylurea b Can not precipitate cardiovascular complications 6. Which statement is correct in gestational diabetes? d.To avoid hypoglycemia is one of the goals of diabetes management",
+   "options": [
+    {
+     "letter": "A",
+     "text": "May start in the irsttrimester",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      125.3,
+      609.6,
+      299.5,
+      626.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Does not requisetreatment",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      123.6,
+      625.7,
+      283.0,
+      642.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Anduces fetal macrosomia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      136.1,
+      643.2,
+      308.2,
+      659.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Never recur in subsequent pregnancies",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      121.0,
+      660.0,
+      344.6,
+      678.7
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "The patieing tya",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      123.1,
+      674.6,
+      474.0,
+      708.7
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "option_out_of_order_B",
+    "option_out_of_order_D",
+    "option_marker_repaired_C_from_wrap_possible_mark"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    139.9,
+    501.6,
+    493.4,
+    708.7
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 9,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which suggests secondary adrenal insufficiency rather than Addison's Pigmentations b. Fatigue Normal electrolytes d. Hypotension .Regarding hypogonadism, which is false?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The clinical picture differs according to the time of occurrence",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      121.7,
+      60.0,
+      458.2,
+      77.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Primary hypogonadism is less hopeful than secondary eCan be caused by most pituitary disorders Is not caused by liver cell failure When associated with anosmia is called Kallmann syndrome The following is a very rare cause of thyrotoxicosis. a. Graves .Toxic STN",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      121.7,
+      75.1,
+      415.0,
+      93.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Toxic MNG",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      133.7,
+      197.5,
+      216.2,
+      213.1
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "option_out_of_order_A",
+    "option_marker_repaired_B_from_orphan_possible_mark"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    85.4,
+    722.6,
+    491.5,
+    0
+   ],
+   "pages": [
+    1,
+    2
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 10,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following is not a cause of gynecomastia:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Spironolactone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      131.3,
+      260.9,
+      229.7,
+      276.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Liver cirrhosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      131.5,
+      276.0,
+      229.9,
+      290.9
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Klinefelter syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      133.4,
+      292.6,
+      256.3,
+      307.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypogonadism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      131.8,
+      307.7,
+      228.2,
+      323.3
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Cushing syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "option_marker_repaired_B",
+    "orphan_rows_joined_to_option",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    133.9,
+    213.4,
+    453.1,
+    337.9
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": "E",
+   "answer_source": "marked"
+  },
+  {
+   "i": 11,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Edema in hypothyroidism is: Hatckpitting Hard non-pitting Softpitting Soft non-pitting 12. Steroids are usually considered the 1st choice management of hypercalcemia in:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Parathyroid adenoma chrreno",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      102.2,
+      427.7,
+      345.1,
+      449.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hehshrl 6. Tertiary hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      438.5,
+      429.6,
+      516.5,
+      449.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Malighancy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      102.0,
+      458.2,
+      182.9,
+      474.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Vit. D inthxication",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      100.1,
+      471.8,
+      214.8,
+      488.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "option_marker_repaired_B_from_orphan_possible_mark",
+    "option_out_of_order_C",
+    "option_out_of_order_B",
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    93.8,
+    335.5,
+    516.5,
+    488.4
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 12,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "To follow up treatment of 2ry hypothyroidism, you have to check: FT4 FT3 C) FT4 and FT3 TSH Pseudohypoparathyroidism is notlassociated with: a. Cataraet $ oru↑ b. Raised level of,plasma PIH c. Mental retardation 15. The following is incorrect in the carcinoid syndrome Hypercalcemia GIT",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is a type of neuroendocrine tumors",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      84.5,
+      674.2,
+      289.2,
+      688.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "The paycreas is the most common primary site",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      101.3,
+      688.6,
+      339.1,
+      704.9
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Bxcessively sleepy Large protruding tongue d- prolonged neonatal jaundice eLarge anterior fontanel 3.An the following are cortect aboutcongenital hypothyroldism ge a Most cases ary due to aplasta \" A vave starting treatment at 6 months of age is not likely to bs mentally somal is the fiser Delay in the sereening test for few weeks makes it insensitive dThe dose of thyrostn per kg decreases with age",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      297.4,
+      99.4,
+      395.5,
+      117.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Presentd with the classic complex of flushing, diarrhea, and bronchospasm",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      85.4,
+      702.7,
+      495.4,
+      722.9
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "The tricuspid valve is the most affected heart valve 5-Hydroxyindoleacetic acid (5-HIAA) in urine is a key diagnostic marker 1A patient preents with a picture Cushing' and owCH leveWhich di A) Cushing's Disease (nituitafv) a Feeding difficulties",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      82.3,
+      719.3,
+      364.1,
+      736.6
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Fever and diarhea are common manifestations of over dosage 20. Al the follow ing are correct about constitutional delay in growth and puberty gosg a Normal birth size Shont stature becomes evident at adolescence e Hone ape parents is average",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      141.6,
+      233.5,
+      408.0,
+      247.9
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "orphan_rows_joined_to_option",
+    "option_out_of_order_E",
+    "option_out_of_order_D",
+    "option_marker_repaired_B_from_wrap_possible_mark",
+    "letters_not_sequential",
+    "very_long_option",
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    84.0,
+    486.0,
+    562.3,
+    798.5
+   ],
+   "pages": [
+    2,
+    3
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 13,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is correct about growth hormone deficiency",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is the commonest cause of short stature",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      142.1,
+      523.0,
+      254.9,
+      534.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "BMI is below average",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "C",
+     "text": "Birth weight and length are lower than average",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "D",
+     "text": "Infantile body proportions",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "E",
+     "text": "Mentality is below average",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "e- Chronic emotional stress decreased T4 and increased TSH, the most likely diagnoses is: a- Congenital hyperthyroidism Congenital hypothyroidism E c Transient hypothyroidism d-Secondary hypothyroidism due to hypopituitarism None of the above 4",
+   "exp": "e- Chronic emotional stress decreased T4 and increased TSH, the most likely diagnoses is: a- Congenital hyperthyroidism Congenital hypothyroidism E c Transient hypothyroidism d-Secondary hypothyroidism due to hypopituitarism None of the above 4",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "option_out_of_order_E",
+    "option_out_of_order_A",
+    "single_option",
+    "low_ocr_confidence",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    145.0,
+    309.4,
+    425.5,
+    576.7
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  }
+ ]
+}

@@ -1,0 +1,228 @@
+{
+ "nn": "22",
+ "source": "Raw_PDF_Questions/Final 26.pdf",
+ "sha256": "d87f2bed4d2a4e48e42e5b5d50840c87bb0050df5fe51c41e010b34589dae80f",
+ "at": "2026-09-26T18:56:43Z",
+ "layout": {
+  "method": "ocr",
+  "splits": {
+   "1": null
+  }
+ },
+ "counters": {
+  "source_numbering": 6,
+  "sections": [
+   "1-6"
+  ],
+  "option_a_lines": 3,
+  "parsed_questions": 6,
+  "parsed_numbered": 6,
+  "declared_total": null
+ },
+ "gaps": [],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [],
+  "grid_hits": 0,
+  "style_stats": {},
+  "marked_hits": 0,
+  "answered": 0,
+  "mcq": 0,
+  "at": "2026-09-26T18:56:43Z"
+ },
+ "distribution": {},
+ "dropped_lines": [
+  "—— a",
+  "Al Azhar University . Final Exam",
+  "Damietta Faculty of Medicine Endocrine Module (semester)",
+  "(girls)",
+  "IMP-07-40747",
+  "Integrated medical program",
+  "for 4th year students",
+  "Accredited college",
+  "24/2/2026 (1.5hours allowed )",
+  "Answer all the following questions: ees"
+ ],
+ "dropped_count": 10,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 6,
+  "dropped": [],
+  "stale": [],
+  "added": 0
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": 1,
+   "section": 1,
+   "type": "QROC",
+   "stem": "a. Compare between type 1 and type 2 diabetes mellitus regarding epidemiology, main pathophysiology, clinical and laboratory characteristics b. Explain the measures for prevention the macrovascular complications of DM",
+   "options": [],
+   "after": "",
+   "exp": "Type 1 diabetes usually begins in childhood or young adulthood and is caused by autoimmune beta-cell destruction, producing absolute insulin deficiency. It often presents abruptly with weight loss or ketoacidosis; islet autoantibodies are often present and C-peptide is low. Type 2 diabetes usually develops gradually, often with central obesity and other insulin-resistance features; insulin resistance is followed by beta-cell dysfunction, C-peptide is initially preserved or high, and islet autoantibodies are absent. For macrovascular prevention: stop smoking, promote regular physical activity and weight control, individualize glycemic targets, control blood pressure, and use statin therapy according to cardiovascular risk. Use antiplatelet therapy for established atherosclerotic disease and, in type 2 diabetes with ASCVD, heart failure, or kidney disease, include a cardioprotective SGLT2 inhibitor and/or GLP-1 receptor agonist when appropriate.",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    67.0,
+    244.1,
+    931.2,
+    455.0
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null,
+   "exp_source": "derived"
+  },
+  {
+   "i": 2,
+   "number": 2,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Explain the clinical picture and treatment of adrenal crisis",
+   "options": [],
+   "after": "",
+   "exp": "Adrenal crisis presents with severe weakness, nausea or vomiting, abdominal pain, fever, dehydration, hypotension or shock, and sometimes confusion. Primary adrenal failure may cause hyponatremia and hyperkalemia; hypoglycemia can occur. Treat immediately: hydrocortisone 100 mg IV or IM, then 200 mg over 24 hours by infusion or 50 mg every 6 hours; rapidly give isotonic saline, add dextrose for hypoglycemia, monitor glucose and electrolytes, and treat the precipitating illness. Do not delay treatment for test results. Once stable, transition to oral glucocorticoid replacement; add fludrocortisone for primary adrenal insufficiency when stress-dose hydrocortisone has been reduced.",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    67.0,
+    449.3,
+    820.8,
+    496.1
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null,
+   "exp_source": "derived",
+   "image": null,
+   "image_removed": true
+  },
+  {
+   "i": 3,
+   "number": 3,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Summarize the a. Clinical manifestations of Carcinoid syndrome b. Clinical presentations of osteoporosis c. Clinical presentations of primary hyperparathyroidism d. Side effects of SGLT 2 inhibitors",
+   "options": [],
+   "after": "",
+   "exp": "Carcinoid syndrome: episodic flushing, secretory watery diarrhea, abdominal cramps, bronchospasm, and right-sided valvular disease (especially tricuspid and pulmonary valves); prolonged serotonin excess may cause niacin deficiency and pellagra. Osteoporosis: often silent until a fragility fracture; vertebral compression fractures cause acute or chronic back pain, height loss, and kyphosis, while hip and distal-radius fractures are other common presentations. Primary hyperparathyroidism: may be asymptomatic or present with renal stones/nephrocalcinosis, bone pain or fragility fractures, muscle weakness, constipation, abdominal discomfort, polyuria/polydipsia, and neurocognitive or mood symptoms. SGLT2-inhibitor adverse effects include genital mycotic infections, volume depletion and hypotension, and rare euglycemic diabetic ketoacidosis; counsel about sick-day interruption and perioperative withholding. Rare serious events include Fournier gangrene; fracture or amputation signals have been agent-specific.",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    66.0,
+    512.2,
+    762.2,
+    710.2
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null,
+   "exp_source": "derived"
+  },
+  {
+   "i": 4,
+   "number": 4,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Enumerate a, Indications of insulin therapy b. Causes of thyrotoxicosis c, Causes of pituitary hypogonadism",
+   "options": [],
+   "after": "",
+   "exp": "Insulin is indicated for all type 1 diabetes; diabetic ketoacidosis or hyperosmolar crisis; severe symptomatic hyperglycemia, catabolism, or marked weight loss; type 2 diabetes inadequately controlled with non-insulin therapy or when those drugs are unsuitable; pregnancy or gestational diabetes when targets are not met with lifestyle measures; and temporary control during severe illness, surgery, or glucocorticoid-related hyperglycemia. Causes of thyrotoxicosis include Graves disease, toxic multinodular goiter, toxic adenoma, thyroiditis (subacute, painless, or postpartum), excess iodine or amiodarone, exogenous thyroid hormone, hCG-mediated disease, a TSH-secreting pituitary adenoma, struma ovarii, and functioning metastatic thyroid carcinoma. Causes of pituitary (secondary) hypogonadism include pituitary tumors or surgery/radiation, Sheehan syndrome or apoplexy, head trauma, infiltrative disease (e.g., hemochromatosis or sarcoidosis), hyperprolactinemia, congenital GnRH deficiency (including Kallmann syndrome), and functional suppression from chronic illness, malnutrition, or excessive exercise.",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    61.9,
+    713.3,
+    550.1,
+    842.2
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null,
+   "exp_source": "derived"
+  },
+  {
+   "i": 5,
+   "number": 5,
+   "section": 1,
+   "type": "QROC",
+   "stem": "A.Causes Of Short child ' B.Diagnosis Of Diabetic Keto Acidosis",
+   "options": [],
+   "after": "",
+   "exp": "Causes of short stature include normal variants (familial short stature and constitutional delay); prenatal growth restriction/small-for-gestational-age birth; malnutrition; chronic renal, gastrointestinal, cardiac, pulmonary, hepatic, or inflammatory disease; endocrine disorders (growth-hormone deficiency, hypothyroidism, glucocorticoid excess, and poorly controlled diabetes); genetic or chromosomal conditions (e.g., Turner, Noonan, or Down syndrome); skeletal dysplasia; and psychosocial or idiopathic short stature. Diagnose diabetic ketoacidosis when diabetes/hyperglycemia (glucose at least 200 mg/dL or a prior diabetes diagnosis) is accompanied by ketosis (beta-hydroxybutyrate at least 3 mmol/L or urine ketones at least 2+) and metabolic acidosis (venous pH below 7.3 and/or bicarbonate below 18 mmol/L).",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    61.0,
+    851.3,
+    692.2,
+    936.2
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null,
+   "exp_source": "derived"
+  },
+  {
+   "i": 6,
+   "number": 6,
+   "section": 1,
+   "type": "QROC",
+   "stem": "a. Classifications of adrenal tumors, Management of adrenocortical carcinoma b. surgical anatomy of thyroid gland and its relationship",
+   "options": [],
+   "after": "",
+   "exp": "Adrenal tumors may be classified by origin as cortical (adenoma or carcinoma) or medullary (pheochromocytoma; extra-adrenal chromaffin tumors are paragangliomas), and by function as hormone-secreting or nonfunctioning. Adrenocortical carcinoma requires hormonal and staging assessment and multidisciplinary care. For localized resectable disease, perform complete en-bloc adrenalectomy with periadrenal tissue, avoiding tumor rupture; use an open oncologic approach when malignancy or invasion is strongly suspected. Consider adjuvant mitotane for high-risk disease; advanced disease may require mitotane-based systemic therapy and selected local treatment. Thyroid: two lateral lobes joined by an isthmus, lying anterior to the trachea and enclosed by pretracheal fascia; Berry ligament anchors it to the larynx/trachea. Important relations are the strap muscles anteriorly, trachea and esophagus medially/posteriorly, recurrent laryngeal nerves in the tracheoesophageal grooves, external branches of the superior laryngeal nerves near the superior thyroid pedicles, and parathyroid glands on the posterior surface. The superior thyroid arteries arise from the external carotids and the inferior thyroid arteries from the thyrocervical trunks; preserve the laryngeal nerves and parathyroids during surgery.",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    60.0,
+    944.2,
+    949.2,
+    1121.3
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null,
+   "exp_source": "derived"
+  }
+ ]
+}

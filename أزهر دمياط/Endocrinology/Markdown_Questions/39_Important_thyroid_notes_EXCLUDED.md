@@ -1,5 +1,7 @@
 # Excluded source record
 
-**Status:** EXCLUDED — The scan is a topic-summary sheet with fragmented prompts and no recoverable answer-key structure.
+**Source:** `اهم اسئلة فالثايرويد.pdf`
 
-No question rows were created from this source.
+**Status:** EXCLUDED — EXCLUDED — pages 1–3 are thyroid topic notes and management outlines; no question/answer blocks. Parsed fragment is a diagnostic-note heading, not a question.
+
+No question rows were created from this source. The parser output is kept in `.mbset/excluded_md/` for audit.

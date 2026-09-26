@@ -1,10 +1,9 @@
-# Formative 1 and 2 Endocrine 2024 — extracted questions
+# 2024 formative Endo 1,2 محلول — extracted questions
 
-Total recoverable MCQs: 58
+> Source: `2024 formative Endo 1,2 محلول.pdf` · index 17 · parsed 2026-09-26 by mbset.py
+> Questions: 60 (60 MCQ / 0 written) · answers: marked 60
 
-> Status: Two forms were reconciled into one source file; incomplete blocks: 2.
-
-### Q1: The secretion of ACTH is correctly described in which of the following statements ?
+### Q1: The secretion of ACTH is correctly described in which of the following statements?
 
 - **A)** It shows circadian rhythm in humans
 - **B)** It is decreased during periods of stress
@@ -13,10 +12,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
-### Q2: Glucocorticoids is produced by which area ?
+### Q2: Glucocorticoids is produced by which area?
 
 - **A)** Zona Glomerulosa
 - **B)** Zona Fasciculata
@@ -25,22 +25,24 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** B
 **Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
-### Q3: Hyper pigmentation is a sign of ?
+### Q3: Hyper pigmentation is a sign of?
 
 - **A)** Addison disease
-- **B)** Conn’s syndrome
+- **B)** Conn's syndrome
 - **C)** Hypothyroidism
 - **D)** A & C
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
-### Q4: The following is a very rare cause of thyrotoxicosis ?
+### Q4: The following is a very rare cause of thyrotoxicosis?
 
 - **A)** Graves
 - **B)** Toxic STN
@@ -50,10 +52,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** E
 **Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
-### Q5: The following is not routinely used in the management of thyrotoxic crisis ?
+### Q5: The following is not routinely used in the management of thyrotoxic crisis?
 
 - **A)** Carbimazole
 - **B)** Propranolol
@@ -63,23 +66,25 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
-### Q6: Which is false regarding diffuse goiter ?
+### Q6: Which is false regarding diffuse goiter?
 
 - **A)** Means enlargement of the whole thyroid with smooth surface
 - **B)** May be hyper, hypo, or euthyroid
 - **C)** Thyroiditis is not an underlying etiology
-- **D)** Don’t indicate malignancy
+- **D)** Don't indicate malignancy
 - **E)** Euthyroid diffuse goiter needs just follow up
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
-### Q7: The following is not characteristic of thyroid hormones ?
+### Q7: The following is not characteristic of thyroid hormones?
 
 - **A)** T3 is the active hormone
 - **B)** The thyroid secrets mainly T3
@@ -89,12 +94,13 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** B
 **Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
-### Q8: Choose the true statement in thyrotoxicosis ?
+### Q8: Choose the true statement in thyrotoxicosis?
 
-- **A)** Spastic eye signs are present in Graves’ only
+- **A)** Spastic eye signs are present in Graves' only
 - **B)** Dyspnea is unusual symptom
 - **C)** Severe malaise and anorexia occurs in viral (subacute) thyroiditis
 - **D)** Tachycardia is manifested only during effort
@@ -102,10 +108,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 2, 3
 
 ---
 
-### Q9: Which is false regarding Grave's disease ?
+### Q9: Which is false regarding Grave's disease?
 
 - **A)** Characterized by goiter, dermopathy and ophthalmopathy
 - **B)** Usually manifested by neuropsychiatric manifestations
@@ -115,10 +122,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** E
 **Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
-### Q10: Which is false in subclinical ( viral, De Quervan ) thyroiditis ?
+### Q10: Which is false in subclinical ( viral, De Quervan ) thyroiditis?
 
 - **A)** Present with pain in the neck
 - **B)** Has transient hyperthyroid phase
@@ -128,10 +136,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** E
 **Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
-### Q11: In congenital adrenal hyperplasia, which is false ?
+### Q11: In congenital adrenal hyperplasia, which is false?
 
 - **A)** 21 hydroxylase is the most common type
 - **B)** May be presented with precocious puberty
@@ -141,10 +150,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
-### Q12: The following is not characteristic of primary hyperaldosteronism ?
+### Q12: The following is not characteristic of primary hyperaldosteronism?
 
 - **A)** One of the important causes of secondary hypertension
 - **B)** Headache and fatigue is manifest clinicaly
@@ -154,10 +164,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
-### Q13: About stridor in post-operative period after thyroidectomy, all the following statements are true, except ?
+### Q13: About stridor in post-operative period after thyroidectomy, all the following statements are true, except?
 
 - **A)** Unilateral recurrent laryngeal nerve injury causes stridor.
 - **B)** Dyspnea due to deep neck haematon1a should be immediately evacuated.
@@ -167,6 +178,7 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
@@ -180,10 +192,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** B
 **Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
-### Q15: The main reservoir of calcium in our body is ?
+### Q15: The main reservoir of calcium in our body is?
 
 - **A)** Bones
 - **B)** Parathyroid gland
@@ -192,34 +205,37 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 4
 
 ---
 
-### Q16: Bone tissues hardened through mineralization by ?
+### Q16: Bone tissues hardened through mineralization by?
 
 - **A)** Magnesium mainly
 - **B)** Chloride
 - **C)** Calcium mainly
 - **D)** Aluminum
 
-**Correct Answer:** D
+**Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 4
 
 ---
 
-### Q17: In resorptive bone diseases, serum calcium is ?
+### Q17: In resorptive bone diseases, serum calcium is?
 
 - **A)** Increased
 - **B)** Decreased
 - **C)** Normal
 - **D)** All of above
 
-**Correct Answer:** B
+**Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 4
 
 ---
 
-### Q18: In hyperparathyroidism, serum calcium is ?
+### Q18: In hyperparathyroidism, serum calcium is?
 
 - **A)** Increased
 - **B)** Decreased
@@ -228,10 +244,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 4
 
 ---
 
-### Q19: Which one of the following in chronic liver cell failure is true ?
+### Q19: Which one of the following in chronic liver cell failure is true?
 
 - **A)** Serum albumin is normal
 - **B)** Serum calcitriol is normal
@@ -240,22 +257,24 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 4
 
 ---
 
-### Q20: In chronic renal failure the level of serum calcitriol is ?
+### Q20: In chronic renal failure the level of serum calcitriol is?
 
 - **A)** Increased
 - **B)** Decreased
 - **C)** Normal
 - **D)** All of above
 
-**Correct Answer:** C
+**Correct Answer:** B
 **Answer Source:** marked
+**Source Pages:** 4
 
 ---
 
-### Q21: Which of the following is an Effects of glucocorticoids on the carbohydrate metabolism ?
+### Q21: Which of the following is an Effects of glucocorticoids on the carbohydrate metabolism?
 
 - **A)** It inhibits gluconeogenesis
 - **B)** It decrease glucose uptake and utilization by cells
@@ -263,12 +282,13 @@ Total recoverable MCQs: 58
 - **D)** It stimulates glycogenolysis
 - **E)** Inhibit intestinal absorption of glucose
 
-**Correct Answer:** E
+**Correct Answer:** B
 **Answer Source:** marked
+**Source Pages:** 4
 
 ---
 
-### Q22: Which of the following increases aldosterone secretion ?
+### Q22: Which of the following increases aldosterone secretion?
 
 - **A)** Increased Na concentration in extracellular fluid (ECF)
 - **B)** Decreased K concentration in ECF
@@ -278,10 +298,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 4
 
 ---
 
-### Q23: The secretion of ACTH is correctly described in which of the following statements ?
+### Q23: The secretion of ACTH is correctly described in which of the following statements?
 
 - **A)** It shows circadian rhythm in humans
 - **B)** It is decreased during periods of stress
@@ -291,10 +312,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 5
 
 ---
 
-### Q24: Which of the following is associated with adrenalectomy ?
+### Q24: Which of the following is associated with adrenalectomy?
 
 - **A)** Hyperglycemia with decreased insulin sensitivity
 - **B)** Increased mobilization and utilization of fatty tissues
@@ -302,12 +324,13 @@ Total recoverable MCQs: 58
 - **D)** Improved resistance to infection or shock
 - **E)** Euphoria
 
-**Correct Answer:** B
+**Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 5
 
 ---
 
-### Q25: The anti-inflammatory effect of cortisol treatment is thought to be due to ?
+### Q25: The anti-inflammatory effect of cortisol treatment is thought to be due to?
 
 - **A)** Increased capillary membrane permeability
 - **B)** Increased formation of leukotrienes
@@ -315,24 +338,26 @@ Total recoverable MCQs: 58
 - **D)** Activation of phospholipase A2
 - **E)** Stabilization of cellular lysosomal membranes
 
-**Correct Answer:** A
+**Correct Answer:** E
 **Answer Source:** marked
+**Source Pages:** 5
 
 ---
 
-### Q26: In thyrotoxicosis , smoking exacerbates the following ?
+### Q26: In thyrotoxicosis, smoking exacerbates the following?
 
 - **A)** Tremors
 - **B)** Sweating
 - **C)** Insomnia
 - **D)** Exophthalmos
 
-**Correct Answer:** C
+**Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 5
 
 ---
 
-### Q27: Grave's disease may manifested by ?
+### Q27: Grave's disease may manifested by?
 
 - **A)** pretibial myxedema
 - **B)** dry skin
@@ -341,22 +366,24 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 5
 
 ---
 
-### Q28: Grave's disease is an example of ?
+### Q28: Grave's disease is an example of?
 
 - **A)** type 1 hypersensitivity
 - **B)** type 2 (cytotoxic)
 - **C)** type 4
 - **D)** type 5 (stimulatory)
 
-**Correct Answer:** A
+**Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 5
 
 ---
 
-### Q29: In hyperthyroidism, Moebiu's sign refers to ?
+### Q29: In hyperthyroidism, Moebiu's sign refers to?
 
 - **A)** Lagging of upper eye lid on looking downward
 - **B)** Retracted lids causing wide palpebral opening
@@ -365,82 +392,102 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 5
 
 ---
 
-### Q30: Neurological features of thyrotoxicosis don’t include ?
+### Q30: Neurological features of thyrotoxicosis don't include?
 
 - **A)** Distal myopathy
 - **B)** Fine tremors
 - **C)** Exaggerated knee jerk
 - **D)** Periodic paresis
 
-**Correct Answer:** B
+**Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 5
 
 ---
 
-### Q31: The commonest cause for short stature is ?
+### Q31: The commonest cause for short stature is?
 
 - **A)** Constitutional
 - **B)** Endocrinal
 - **C)** Familial
 - **D)** Skeletal
 
-**Correct Answer:** B
+**Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 5
 
 ---
 
-### Q32: What is the most common cause of Cushing syndrome ?
+### Q32: What is the most common cause of Cushing syndrome?
 
 - **A)** Overuse of corticosteroid medications
 - **B)** Pituitary adenoma
 - **C)** Adrenal tumor
 - **D)** Ectopic ACTH production
 
-**Correct Answer:** D
+**Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 6
 
 ---
 
-### Q33: What is the gold standard for diagnosing Cushing syndrome ?
+### Q33: What is the gold standard for diagnosing Cushing syndrome?
 
 - **A)** 24-hour urine free cortisol test
 - **B)** Dexamethasone suppression test
 - **C)** Midnight salivary cortisol test
 - **D)** ACTH level measurement
 
-**Correct Answer:** A
+**Correct Answer:** B
 **Answer Source:** marked
+**Source Pages:** 6
 
 ---
 
-### Q34: Which of the following disorders is associated with adrenal hypofunction ?
+### Q34: Which of the following disorders is associated with adrenal hypofunction?
 
 - **A)** Addison's disease
 - **B)** Cushing's syndrome
 - **C)** Graves' disease
 - **D)** Hypoparathyroidism
 
-**Correct Answer:** C
+**Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 6
 
 ---
 
-### Q35: What is the main treatment for adrenal hypofunction ?
+### Q35: What is a common symptom of adrenal hypofunction?
+
+- **A)** Hyperpigmentation
+- **B)** Hypotension
+- **C)** Weight gain
+- **D)** Hypoglycemia
+
+**Correct Answer:** B
+**Answer Source:** marked
+**Source Pages:** 6
+
+---
+
+### Q36: What is the main treatment for adrenal hypofunction?
 
 - **A)** Hormone replacement therapy
 - **B)** Adrenalectomy
 - **C)** Immunomodulators
 - **D)** Chemotherapy
 
-**Correct Answer:** D
+**Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 6
 
 ---
 
-### Q36: What is the primary cause of Addison's disease ?
+### Q37: What is the primary cause of Addison's disease?
 
 - **A)** Autoimmune destruction of the adrenal glands
 - **B)** Excessive production of cortisol
@@ -449,46 +496,50 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 6
 
 ---
 
-### Q37: What is a common trigger for an Addisonian crisis ?
+### Q38: What is a common trigger for an Addisonian crisis?
 
 - **A)** Stress
 - **B)** Excessive medication
 - **C)** Lack of exercise
 - **D)** High blood pressure
 
-**Correct Answer:** D
+**Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 6
 
 ---
 
-### Q38: How is an Addisonian crisis typically treated ?
+### Q39: How is an Addisonian crisis typically treated?
 
 - **A)** Intravenous administration of fluids and corticosteroids
 - **B)** Bed rest and relaxation
 - **C)** Dietary changes
 - **D)** Administration of insulin
 
-**Correct Answer:** D
+**Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 6
 
 ---
 
-### Q39: What is a characteristic symptom of an Addisonian crisis ?
+### Q40: What is a characteristic symptom of an Addisonian crisis?
 
 - **A)** Hypertension
 - **B)** Hyperglycemia
 - **C)** Severe fatigue
 - **D)** Weight loss
 
-**Correct Answer:** D
+**Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 6
 
 ---
 
-### Q40: Regarding hypogonadism, which is false ?
+### Q41: Regarding hypogonadism, which is false?
 
 - **A)** The clinical picture differs according to the time of occurrence
 - **B)** Primary hypogonadism is less hopeful than secondary
@@ -498,10 +549,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 7
 
 ---
 
-### Q41: The following class of anti diabetic drugs has cardioprotective benefits ?
+### Q42: The following class of anti diabetic drugs has cardioprotective benefits?
 
 - **A)** Sodium glucose co-transporter 2 inhibitors (SGLT-2 Inhibitors)
 - **B)** Sulphonylureas
@@ -510,10 +562,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 7
 
 ---
 
-### Q42: Which is false regarding prolactinoma ?
+### Q43: Which is false regarding prolactinoma?
 
 - **A)** Presented with galactorrhea-amenorrhea syndrome
 - **B)** May be micro or macro adenoma
@@ -523,10 +576,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** E
 **Answer Source:** marked
+**Source Pages:** 7
 
 ---
 
-### Q43: In addition to water reabsorption, what other substance does ADH enhance reabsorption of it ?
+### Q44: In addition to water reabsorption, what other substance does ADH enhance reabsorption of it?
 
 - **A)** Urea
 - **B)** Glucose
@@ -535,10 +589,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 7
 
 ---
 
-### Q44: One of the following suppress the release of ADH ?
+### Q45: One of the following suppress the release of ADH?
 
 - **A)** Low plasma osmolality
 - **B)** Rise in plasma volume
@@ -547,10 +602,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 7
 
 ---
 
-### Q45: Which is a cause of hypertension ?
+### Q46: Which is a cause of hypertension?
 
 - **A)** 21-hydroxylase deficiency
 - **B)** 17-hydroxylase deficiency
@@ -560,10 +616,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** B
 **Answer Source:** marked
+**Source Pages:** 7
 
 ---
 
-### Q46: The most common central cause of a 16 y girl with delayed puberty is ?
+### Q47: The most common central cause of a 16 y girl with delayed puberty is?
 
 - **A)** Hydrocephalus
 - **B)** Brain tumor
@@ -573,10 +630,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 7, 8
 
 ---
 
-### Q47: The following is hopeful in the investigations of delayed puberty of a 15 y boy ?
+### Q48: The following is hopeful in the investigations of delayed puberty of a 15 y boy?
 
 - **A)** Klinefelter karyotype
 - **B)** High LH and FSH
@@ -585,10 +643,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 8
 
 ---
 
-### Q48: Complications of acromegaly does not include ?
+### Q49: Complications of acromegaly does not include?
 
 - **A)** Visual problems
 - **B)** Diabetes mellitus
@@ -598,10 +657,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 8
 
 ---
 
-### Q49: Which is wrong regarding the physiologic basal insulin ?
+### Q50: Which is wrong regarding the physiologic basal insulin?
 
 - **A)** It has anabolic actions
 - **B)** It continues during 24 hours
@@ -610,10 +670,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 8
 
 ---
 
-### Q50: Which is wrong in the complications of metabolic syndrome ?
+### Q51: Which is wrong in the complications of metabolic syndrome?
 
 - **A)** May or may not have diabetes
 - **B)** Atherosclerosis
@@ -623,10 +684,11 @@ Total recoverable MCQs: 58
 
 **Correct Answer:** E
 **Answer Source:** marked
+**Source Pages:** 8
 
 ---
 
-### Q51: In T2DM, which is false ?
+### Q52: In T2DM, which is false?
 
 - **A)** Insulin resistance is the main pathophysiology
 - **B)** It is potentially preventable disease
@@ -634,12 +696,13 @@ Total recoverable MCQs: 58
 - **D)** Metformin is usually the first drug of choice
 - **E)** Insulin is not indicated in treatment
 
-**Correct Answer:** A
+**Correct Answer:** E
 **Answer Source:** marked
+**Source Pages:** 8
 
 ---
 
-### Q52: The most important risk factor for diabetic macrovascular complications is ?
+### Q53: The most important risk factor for diabetic macrovascular complications is?
 
 - **A)** Insulin resistance
 - **B)** Insulin deficiency
@@ -647,12 +710,13 @@ Total recoverable MCQs: 58
 - **D)** High HbA1C
 - **E)** Age of the patient
 
-**Correct Answer:** D
+**Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 8
 
 ---
 
-### Q53: A 35-year-old woman with a history of previous right thyroidectomy for a benign thyroid nodule, now undergoes completion thyroidectomy for a suspicious thyroid mass. Several hours postoperatively, she develops progressive swelling under the incision, stridor, and difficulty breathing. Orotracheal intubation is successful. Which of the following is the most appropriate next step ?
+### Q54: A 35-year-old woman with a history of previous right thyroidectomy for a benign thyroid nodule, now undergoes completion thyroidectomy for a suspicious thyroid mass. Several hours postoperatively, she develops progressive swelling under the incision, stridor, and difficulty breathing. Orotracheal intubation is successful. Which of the following is the most appropriate next step?
 
 - **A)** Fiberoptic laryngoscopy to rule out bilateral vocal cord paralysis
 - **B)** Administration of intravenous calcium
@@ -660,12 +724,13 @@ Total recoverable MCQs: 58
 - **D)** Wound exploration
 - **E)** Administration of high-dose steroids and antihistamines
 
-**Correct Answer:** C
+**Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 9
 
 ---
 
-### Q54: A 36-year-old woman presents with palpitations, anxiety, and hypertension. Workup reveals a pheochromocytoma. Which of the following is the best approach to optimizing the patient preoperatively ?
+### Q55: A 36-year-old woman presents with palpitations, anxiety, and hypertension. Workup reveals a pheochromocytoma. Which of the following is the best approach to optimizing the patient preoperatively?
 
 - **A)** Fluid restriction 24 hours preoperatively to prevent intraoperative congestive heart failure
 - **B)** Initiation of an α-blocker 24 hours prior to surgery
@@ -673,12 +738,13 @@ Total recoverable MCQs: 58
 - **D)** Initiation of a β-blocker 1 to 3 weeks prior to surgery
 - **E)** Antihypertensive drug therapy with β-blockade followed by α-blockade starting at least 1 week prior to surgery
 
-**Correct Answer:** E
+**Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 9
 
 ---
 
-### Q55: A 30-year-old woman presents with hypertension, weakness, bone pain, and a serum calcium level of 15.2 mg/dL. Hand films show osteitis fibrosa cystica. Which of the following is the most likely cause of these findings ?
+### Q56: A 30-year-old woman presents with hypertension, weakness, bone pain, and a serum calcium level of 15.2 mg/dL. Hand films show osteitis fibrosa cystica. Which of the following is the most likely cause of these findings?
 
 - **A)** Sarcoidosis
 - **B)** Vitamin D intoxication
@@ -686,12 +752,13 @@ Total recoverable MCQs: 58
 - **D)** Metastatic carcinoma
 - **E)** Primary hyperparathyroidism
 
-**Correct Answer:** D
+**Correct Answer:** E
 **Answer Source:** marked
+**Source Pages:** 9
 
 ---
 
-### Q56: A 35-year-old woman presents with a serum calcium level of 15.2 mg/dL and an elevated parathyroid hormone level. Following correction of the patient’s hypercalcemia with hydration and furosemide, which of the following is the best therapeutic approach ?
+### Q57: A 35-year-old woman presents with a serum calcium level of 15.2 mg/dL and an elevated parathyroid hormone level. Following correction of the patient's hypercalcemia with hydration and furosemide, which of the following is the best therapeutic approach?
 
 - **A)** Administration of steroids
 - **B)** Radiation treatment to the neck
@@ -699,31 +766,48 @@ Total recoverable MCQs: 58
 - **D)** Neck exploration and resection of a parathyroid adenoma
 - **E)** Avoidance of sunlight, vitamin D, and calcium-containing dairy products
 
-**Correct Answer:** C
+**Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 9
 
 ---
 
-### Q57: Patient presents with sudden onset of headache, visual disturbance, ophthalmoplegia, and reduced mental status diagnosis is ?
+### Q58: Patient presents with sudden onset of headache, visual disturbance, ophthalmoplegia, and reduced mental status diagnosis is?
 
 - **A)** pituitary adenoma
 - **B)** Rathke's pouch
 - **C)** pituitary apoplexy
 - **D)** Hypothalamic glioma
 
-**Correct Answer:** B
+**Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 10
 
 ---
 
-### Q58: Which injectable and oral glucose-lowering drugs has efficacy as adjuncts to insulin treatment of type 1 diabetes ?
+### Q59: Which injectable and oral glucose-lowering drugs has efficacy as adjuncts to insulin treatment of type 1 diabetes?
 
 - **A)** Pioglitazone
 - **B)** Pramlintide which is an amylin analogue
 - **C)** Glimepiride
 - **D)** Sitagliptin
 
+**Correct Answer:** B
+**Answer Source:** marked
+**Source Pages:** 10
+
+---
+
+### Q60: A 43-year-old woman with Type-2 diabetes has been taking insulin with meals as well as metformin. Her blood glucose remains poorly controlled. Her doctor prescribes an additional drug, which is an analog of an endogenous peptide that enhances insulin secretion. What drug is this?
+
+- **A)** Exenatide
+- **B)** Glipizide
+- **C)** Miglitol
+- **D)** Pramlintide
+- **E)** Rosiglitazone
+
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 10
 
 ---

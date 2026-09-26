@@ -1,0 +1,19 @@
+# Parser profile for 43 — end 2024.pdf
+# class=scanned pages=5 has_text=False columns=None bold_ratio=0.0 mark_rects=30
+# signals={'moodle': 0, 'docreader_quiz': None, 'phone': 0, 'question_numbers': 0, 'option_lines': 0, 'grid_pairs_tail': 0, 'declared_total': None, 'figure_words': 0}
+# Only fields that differ from the template/DEFAULT are needed. Field reference:
+#   .agents/skills/mbset-module-curator/references/profiles.md
+source: Raw_PDF_Questions/end 2024.pdf
+template: scanned
+columns: 1
+question_start: ^\s*(\d+)[.,]\s*
+sections_restart: false
+options_inline: true
+type: mcq
+declared_total: 30
+ocr:
+  tool: paddle
+  dpi: 200
+notes:
+- '2026-09-26 coordinator: OCR switched to PaddleOCR (was {''dpi'': 110, ''psm'':
+  6}); measured better question/option recovery'

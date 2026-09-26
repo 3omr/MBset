@@ -1,5 +1,7 @@
 # Excluded source record
 
-**Status:** EXCLUDED — The scan contains lecture notes/diagrams but no recoverable self-contained question block or answer pair.
+**Source:** `Endocrine WRITTEN Qs part.1.pdf`
 
-No question rows were created from this source.
+**Status:** EXCLUDED — EXCLUDED — pages 1–18 are handwritten lecture/revision notes, comparison tables, and diagrams; no self-contained exam question block. Parsed fragments are note headings/facts.
+
+No question rows were created from this source. The parser output is kept in `.mbset/excluded_md/` for audit.

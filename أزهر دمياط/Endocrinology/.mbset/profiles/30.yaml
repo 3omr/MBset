@@ -1,0 +1,18 @@
+# Parser profile for 30 — End 2026.pdf
+# class=scanned pages=4 has_text=False columns=None bold_ratio=0.0 mark_rects=0
+# signals={'moodle': 0, 'docreader_quiz': None, 'phone': 0, 'question_numbers': 0, 'option_lines': 0, 'grid_pairs_tail': 0, 'declared_total': None, 'figure_words': 0}
+# Only fields that differ from the template/DEFAULT are needed. Field reference:
+#   .agents/skills/mbset-module-curator/references/profiles.md
+source: Raw_PDF_Questions/End 2026.pdf
+template: scanned
+pages: "2-3,1,4"
+declared_total: 30
+numbering: none
+options_inline: true
+ocr:
+  tool: paddle
+  dpi: 300
+notes:
+- '2026-09-26 coordinator: OCR switched to PaddleOCR (was {''dpi'': 600, ''psm'':
+  3}); measured better question/option recovery'
+- '2026-09-26 r2_packet_3: PDF page order is 17-24, 1-7, 8-16, 24-30; parse in printed order and require 30 questions'

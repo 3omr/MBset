@@ -1,19 +1,13 @@
-# Endocrine written questions part 2 — extracted questions
+# Endocrine WRITTEN Qs part.2 — extracted questions
 
-> Status: partial extraction. Pages 1–10 are image-only handwritten or diagram notes; only two explicit English question prompts were recoverable without inventing stems.
+> Source: `Endocrine WRITTEN Qs part.2.pdf` · index 01 · parsed 2026-09-26 by mbset.py
+> Questions: 14 (0 MCQ / 14 written) · answers: 
 
-### Q1: Which patients should be investigated for primary hyperaldosteronism?
-
-**Correct Answer:** -
-**Answer Source:** key
-**EXP:** The source lists patients with hypertension and hypokalemia, moderate or severe hypertension (systolic pressure above 160 mmHg or diastolic pressure above 100 mmHg), drug-resistant hypertension, hypertension with an adrenal incidentaloma, and a family history of Conn syndrome, early hypertension, or cerebrovascular disease at a young age.
-
----
-
-### Q2: What are the radiological findings in thyrotoxicosis?
+### Q1: Qs: Radiological finding in thyrotoxicosis?
 
 **Correct Answer:** -
 **Answer Source:** key
-**EXP:** Measure radioactive iodine uptake: increased uptake supports thyrotoxicosis with hyperthyroidism, whereas decreased uptake supports thyroiditis. Thyroid scanning identifies the uptake pattern: diffuse uptake suggests Graves disease, a solitary hot nodule suggests toxic solitary adenoma, and multiple hot areas suggest toxic multinodular goiter.
+**Source Pages:** 7
+**EXP:** Radioiodine uptake is increased in thyrotoxicosis caused by increased hormone synthesis and decreased in thyroiditis. Thyroid scintigraphy distinguishes the pattern: diffuse uptake suggests Graves disease, a solitary hot nodule suggests a toxic adenoma, and multiple areas of uptake suggest toxic multinodular goiter.
 
 ---

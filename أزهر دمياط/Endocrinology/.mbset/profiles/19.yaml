@@ -1,0 +1,12 @@
+# Parser profile for 19 — Endocrine formative 2025.pdf
+# class=digital_single pages=6 has_text=True columns=1 bold_ratio=0.0 mark_rects=21
+# signals={'moodle': 0, 'docreader_quiz': None, 'phone': 0, 'question_numbers': 0, 'option_lines': 25, 'grid_pairs_tail': 0, 'declared_total': None, 'figure_words': 0}
+# Only fields that differ from the template/DEFAULT are needed. Field reference:
+#   .agents/skills/mbset-module-curator/references/profiles.md
+source: Raw_PDF_Questions/Endocrine formative 2025.pdf
+template: digital_single
+numbering: none
+option_pattern: '^\s*(?:\.\s*)*[(\[]?([a-eA-E])(?:\s*(?:[.)\]:,]|-)\s*|\s+(?=[A-Z])|(?=[A-Z]))(?=\S)'
+skip_patterns:
+  - 'Submit Clear form Never submit passwords through Google Forms'
+  - '^\s*1 point\s*$'

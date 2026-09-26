@@ -1,0 +1,8 @@
+# Parser profile for 15 — mcq on diabetic drugs.docx
+# class=docx pages=1 has_text=True columns=None bold_ratio=0.0 mark_rects=None
+# signals={'moodle': 0, 'docreader_quiz': None, 'phone': 0, 'question_numbers': 0, 'option_lines': 40, 'grid_pairs_tail': 0, 'declared_total': None, 'figure_words': 0}
+# Only fields that differ from the template/DEFAULT are needed. Field reference:
+#   .agents/skills/mbset-module-curator/references/profiles.md
+source: Raw_PDF_Questions/mcq on diabetic drugs.docx
+template: docx
+options_inline: true

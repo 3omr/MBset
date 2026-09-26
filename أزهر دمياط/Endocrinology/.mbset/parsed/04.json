@@ -1,0 +1,854 @@
+{
+ "nn": "04",
+ "source": "Raw_PDF_Questions/Metabolic syndrome questions.pdf",
+ "sha256": "bb4e30d7a8b4af831e26a5e20e1279d2461c833128f3207e336fcccb16e53963",
+ "at": "2026-09-26T05:17:39Z",
+ "layout": {
+  "method": "native",
+  "splits": {
+   "1": null,
+   "2": null
+  }
+ },
+ "counters": {
+  "source_numbering": 10,
+  "sections": [
+   "1-10"
+  ],
+  "option_a_lines": 8,
+  "parsed_questions": 10,
+  "parsed_numbered": 10,
+  "declared_total": null
+ },
+ "gaps": [],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [],
+  "grid_hits": 0,
+  "style_stats": {
+   "bold": 0.0,
+   "color": 0.0,
+   "tick": 0.0,
+   "highlight": 0.0,
+   "fill": 0.25,
+   "tint": 0.0,
+   "ink": 0.0,
+   "circle": 0.0,
+   "box": 0.0,
+   "underline": 0.0
+  },
+  "marked_hits": 8,
+  "answered": 8,
+  "mcq": 8,
+  "at": "2026-09-26T05:17:39Z"
+ },
+ "distribution": {
+  "B": 0.25,
+  "C": 0.75
+ },
+ "dropped_lines": [
+  "Metabolic syndrome questions"
+ ],
+ "dropped_count": 1,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 0,
+  "dropped": [],
+  "stale": []
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": 1,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Metabolic syndrome comprises of all except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      90.02400207519531,
+      152.06002807617188,
+      166.9150390625,
+      163.1000213623047
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Dyslipidemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      90.02400207519531,
+      174.62002563476562,
+      161.0350341796875,
+      185.66001892089844
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Type1 diabetes mellitus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 0,
+     "bbox": [
+      90.02400207519531,
+      197.06002807617188,
+      212.18504333496094,
+      208.1000213623047
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Central/upper body obesity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      90.02400207519531,
+      219.52999877929688,
+      230.30503845214844,
+      230.5699920654297
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    90.02400207519531,
+    105.97998046875,
+    295.4850158691406,
+    230.5699920654297
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 2,
+   "number": 2,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All of the following parameters are included in the diagnostic criteria of metabolic syndrome except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Serum HDL levels",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      301.0987854003906,
+      205.94503784179688,
+      313.8500061035156
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Serum triglyceride levels",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      315.6187744140625,
+      240.6250457763672,
+      328.3699951171875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Serum LDL levels",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      330.1387939453125,
+      206.18504333496094,
+      342.8900146484375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Fasting plasma glucose",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      344.6587829589844,
+      230.90504455566406,
+      357.4100036621094
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    90.02400207519531,
+    242.33001708984375,
+    505.1500244140625,
+    357.4100036621094
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 3,
+   "number": 3,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Various risk factors for metabolic syndrome includes all except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Increasing Age",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      415.1499938964844,
+      189.7450408935547,
+      426.19000244140625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Obesity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      437.5899963378906,
+      158.27503967285156,
+      448.6300048828125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Congenital heart disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      460.1499938964844,
+      234.26504516601562,
+      471.19000244140625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Sedentary life style",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      482.5899963378906,
+      207.7450408935547,
+      493.6300048828125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    108.0199966430664,
+    369.07000732421875,
+    393.2850341796875,
+    493.6300048828125
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 4,
+   "number": 4,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Metabolic syndrome is associated with increased risk of all except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cardiovascular disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      551.3800048828125,
+      225.98504638671875,
+      562.4200439453125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Type2 diabetes mellitus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      573.93994140625,
+      230.30503845214844,
+      584.97998046875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hypothyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      596.3800048828125,
+      193.10504150390625,
+      607.4200439453125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Non-alcoholic fatty liver disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      618.93994140625,
+      270.0250244140625,
+      629.97998046875
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    108.0199966430664,
+    505.3900146484375,
+    410.4450378417969,
+    629.97998046875
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 5,
+   "number": 5,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Most effective strategy in management of metabolic syndrome is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Use of insulin sensitizing agents",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      687.719970703125,
+      265.9450378417969,
+      698.760009765625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Lifestyle changes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      74.06002807617188,
+      198.02503967285156,
+      85.10002899169922
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Treatment of Hyperlipidemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      96.50003051757812,
+      251.30503845214844,
+      107.54003143310547
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Treatment of hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      119.06002807617188,
+      243.26504516601562,
+      130.1000213623047
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    108.0199966430664,
+    641.6199951171875,
+    407.9250183105469,
+    698.760009765625
+   ],
+   "pages": [
+    0,
+    1
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 6,
+   "number": 6,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Metabolic syndrome is also known as all except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Insulin resistance syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      187.81997680664062,
+      249.14503479003906,
+      198.85997009277344
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Syndrome X",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      210.41000366210938,
+      175.43504333496094,
+      221.4499969482422
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Polycystic ovarian syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      232.85000610351562,
+      251.06504821777344,
+      243.88999938964844
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Reaven syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      255.29000854492188,
+      202.70504760742188,
+      266.33001708984375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    108.0199966430664,
+    141.739990234375,
+    328.3650207519531,
+    266.33001708984375
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 7,
+   "number": 7,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Basic pathophysiology associated with the pathogenesis of metabolic syndrome is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      324.1700134277344,
+      184.94503784179688,
+      335.21002197265625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hyperlipidemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      346.6100158691406,
+      192.38504028320312,
+      357.6500244140625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Insulin Resistance",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      369.07000732421875,
+      203.5450439453125,
+      380.1100158691406
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hyperglycemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      391.6300048828125,
+      191.42503356933594,
+      402.6700134277344
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    108.0199966430664,
+    278.0899963378906,
+    479.47503662109375,
+    402.6700134277344
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 8,
+   "number": 8,
+   "section": 1,
+   "type": "QROC",
+   "stem": "According to IDF criteria for diagnosis of metabolic syndrome strike the odd one out- Triglycerymia < 150 mg/dl",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    108.0199966430664,
+    414.30999755859375,
+    492.4350280761719,
+    471.4300231933594
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 9,
+   "number": 9,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Acanthosis nigricans is a feature of",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Obesity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      529.1799926757812,
+      156.1150360107422,
+      540.2200317382812
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Insulin resistance",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      551.739990234375,
+      201.50503540039062,
+      562.780029296875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Polycystic ovarian syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      574.1799926757812,
+      251.06504821777344,
+      585.2200317382812
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Dyslipidemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      596.739990234375,
+      182.30503845214844,
+      607.780029296875
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    108.0199966430664,
+    483.19000244140625,
+    271.22503662109375,
+    607.780029296875
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 10,
+   "number": 10,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Which of the following conditions not associated with metabolic syndrome Polycystic kidney disease",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    108.0199966430664,
+    619.4199829101562,
+    450.7950134277344,
+    676.5599975585938
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  }
+ ]
+}

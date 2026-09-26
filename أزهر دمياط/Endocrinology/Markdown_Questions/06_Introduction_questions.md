@@ -1,8 +1,7 @@
-# Introduction to endocrinology questions — extracted questions
+# introduction questions منير — extracted questions
 
-Total recoverable MCQs: 29
-
-> Status: 1 numbered blocks were omitted because options/key were incomplete.
+> Source: `introduction questions منير.pdf` · index 06 · parsed 2026-09-26 by mbset.py
+> Questions: 30 (30 MCQ / 0 written) · answers: key 30
 
 ### Q1: Which of the following hormones is a protein hormone?
 
@@ -13,6 +12,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -25,6 +25,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -37,6 +38,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -49,6 +51,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -61,6 +64,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -73,6 +77,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -85,6 +90,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -97,6 +103,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -109,6 +116,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -121,6 +129,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -133,6 +142,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -145,6 +155,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -157,6 +168,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -169,6 +181,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -181,6 +194,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -193,6 +207,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -205,6 +220,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -217,6 +233,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -229,6 +246,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -241,6 +259,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -253,6 +272,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -265,6 +285,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -277,6 +298,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -289,6 +311,7 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -301,10 +324,24 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q26: Which type of test is used to assess the response of hormones to stimulatory or suppressive stimuli?
+### Q26: Which of the following is a common cause of hypofunction of the pituitary gland?
+
+- **A)** Tumor
+- **B)** Hyperplasia
+- **C)** Primary neoplasia
+- **D)** Hypoglycemia
+
+**Correct Answer:** A
+**Answer Source:** key
+**Source Pages:** 2, 3
+
+---
+
+### Q27: Which type of test is used to assess the response of hormones to stimulatory or suppressive stimuli?
 
 - **A)** Static test
 - **B)** Dynamic test
@@ -313,10 +350,11 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q27: Which of the following conditions is typically associated with increased secretion of cortisol?
+### Q28: Which of the following conditions is typically associated with increased secretion of cortisol?
 
 - **A)** Cushing's syndrome
 - **B)** Addison's disease
@@ -325,10 +363,11 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q28: Which of the following is true for hormone replacement therapy in hypofunction of the thyroid gland?
+### Q29: Which of the following is true for hormone replacement therapy in hypofunction of the thyroid gland?
 
 - **A)** It aims to increase thyroid-stimulating hormone (TSH)
 - **B)** It compensates for the lack of thyroid hormones
@@ -337,10 +376,11 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q29: Which hormone is responsible for stimulating milk production after childbirth?
+### Q30: Which hormone is responsible for stimulating milk production after childbirth?
 
 - **A)** Oxytocin
 - **B)** Prolactin
@@ -349,5 +389,6 @@ Total recoverable MCQs: 29
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 3
 
 ---

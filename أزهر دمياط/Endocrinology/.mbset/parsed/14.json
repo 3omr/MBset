@@ -1,0 +1,965 @@
+{
+ "nn": "14",
+ "source": "Raw_PDF_Questions/Lippincott_Illustrated Reviews_Pharmacology_7th(2019) export.pdf",
+ "sha256": "fa4463babba60b725ac91162760a75182b2e3ffab31413a2d2f9297ed2d54100",
+ "at": "2026-09-26T05:04:32Z",
+ "layout": {
+  "method": "native",
+  "splits": {
+   "1": null,
+   "2": null
+  }
+ },
+ "counters": {
+  "source_numbering": 10,
+  "sections": [
+   "1-10"
+  ],
+  "option_a_lines": 10,
+  "parsed_questions": 10,
+  "parsed_numbered": 10,
+  "declared_total": null
+ },
+ "gaps": [],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [],
+  "grid_hits": 0,
+  "style_stats": {
+   "bold": 0.0,
+   "color": 0.0,
+   "tick": 0.0,
+   "highlight": 0.0,
+   "fill": 0.0,
+   "tint": 0.0,
+   "ink": 0.0,
+   "circle": 0.0,
+   "box": 0.0,
+   "underline": 0.0
+  },
+  "marked_hits": 0,
+  "answered": 10,
+  "mcq": 10,
+  "at": "2026-09-26T05:04:32Z"
+ },
+ "distribution": {
+  "A": 0.3,
+  "B": 0.3,
+  "C": 0.3,
+  "D": 0.1
+ },
+ "dropped_lines": [
+  "Study Questions",
+  "Choose the ONE best answer."
+ ],
+ "dropped_count": 2,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 0,
+  "dropped": [],
+  "stale": []
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": 1,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following statements is correct regarding insulin glargine?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is primarily used to control postprandial hyperglycemia.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      142.87623596191406,
+      319.8984375,
+      152.87623596191406
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "It is a \"peakless\" insulin.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      154.37623596191406,
+      185.8203125,
+      164.37623596191406
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "The prolonged duration of activity is due to slow dissociation from albumin.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      165.87623596191406,
+      391.546875,
+      175.87623596191406
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "It should not be used in a regimen with insulin lispro or glulisine.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      177.37362670898438,
+      348.5390625,
+      187.37623596191406
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "Insulin glargine has a relatively flat, prolonged hypoglycemic effect. Because of this, it is used for basal glucose control, not postprandial. The prolonged duration is due to its low pH, which leads to precipitation at the injection site and resultant extended action. Insulin glargine is often used for basal control in a regimen where insulin lispro, glulisine, or aspart are used for mealtime glucose control. [Note: Glargine should not be combined with other insulins in the same syringe, as it may alter the pharmacodynamic properties of the medication.]",
+   "inline_answer": "B",
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    77.0,
+    126.37623596191406,
+    391.546875,
+    187.37623596191406
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 2,
+   "number": 2,
+   "section": 1,
+   "type": "QCS",
+   "stem": "MC is a patient with type 2 diabetes currently being treated with insulin detemir. The physician determines that MC needs additional insulin therapy for control of postprandial glucose. Which agent is most appropriate to add at this time?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Insulin degludec",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      329.3736267089844,
+      153.07281494140625,
+      339.3762512207031
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "NPH insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      340.8736267089844,
+      135.859375,
+      350.8762512207031
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Insulin lispro",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      352.3736267089844,
+      139.7578125,
+      362.3762512207031
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "NPH/regular 70/30 insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      363.8762512207031,
+      192.7734375,
+      373.8762512207031
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "Insulin lispro is a rapid-acting insulin that has an onset of action within 15 to 30 minutes Rapid-acting insulins are administered to mimic the prandial (mealtime) release of insulin and control postprandial glucose levels. Insulin degludec is a long-acting insulin used to control fasting glucose levels. NPH insulin is an intermediate-acting insulin also used for basal (fasting) control. NPH/regular 70/30 insulin is a mixture of NPH (intermediate-acting) and regular (short-acting) insulin. The patient is already on a long-acting insulin (detemir) for basal control, and another insulin for basal control is not warranted.",
+   "inline_answer": "C",
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    77.0,
+    289.8762512207031,
+    539.7572021484375,
+    373.8762512207031
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 3,
+   "number": 3,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which class of oral diabetes drugs is paired most appropriately with its primary mechanism of action?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "DPP-4 inhibitor-inhibits breakdown of complex carbohydrates",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      492.8762512207031,
+      343.5228271484375,
+      502.8762512207031
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "SGLT2 inhibitor-increases urinary excretion of glucose",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      504.3762512207031,
+      314.61968994140625,
+      514.376220703125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Sulfonylurea-increases insulin sensitivity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      515.876220703125,
+      257.7265625,
+      525.876220703125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Thiazolidinedione-decreases hepatic gluconeogenesis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      527.376220703125,
+      307.6712646484375,
+      537.376220703125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "SGLT2 inhibitors work by inhibiting the sodium-glucose cotransporter 2 (SGLT2), resulting in decreased reabsorption of glucose in the kidney and increased urinary excretion. Sulfonylureas work primarily by increasing insulin secretion through stimulation of the β cells in the pancreas. DPP-4 inhibitors work by inhibiting breakdown of incretins, thereby increasing postprandial insulin secretion, decreasing postprandial glucagon, etc. TZDs work primarily by increasing insulin sensitivity.",
+   "inline_answer": "B",
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    77.0,
+    476.3762512207031,
+    510.33843994140625,
+    537.376220703125
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 4,
+   "number": 4,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following statements is characteristic of metformin?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Metformin contains a boxed warning due to the potential for increased risk of myocardial infarction.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      644.8736572265625,
+      487.28125,
+      654.876220703125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Metformin decreases hepatic glucose production.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      656.3736572265625,
+      281.8672180175781,
+      666.376220703125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Metformin can be used safely in patients with renal dysfunction.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      667.8736572265625,
+      342.6719055175781,
+      677.876220703125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Weight gain is a common adverse effect.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      679.376220703125,
+      250.2109375,
+      689.376220703125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "Metformin works by inhibiting hepatic gluconeogenesis. The primary adverse effects associated with metformin are gastrointestinal and in rare cases, lactic acidosis. Metformin does not carry a warning for increased risk of myocardial infarction (this is the case for rosiglitazone). Metformin is contraindicated in renal dysfunction due to the risk of lactic acidosis. Unlike the sulfonylureas and insulin, weight gain is not an adverse effect, and some patients actually lose weight due to GI side effects.",
+   "inline_answer": "B",
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    77.0,
+    628.376220703125,
+    487.28125,
+    689.376220703125
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 5,
+   "number": 5,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which is the most appropriate initial oral agent for management of type 2 diabetes in patients with no other comorbid conditions?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Glipizide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      808.3736572265625,
+      123.36187744140625,
+      818.376220703125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Empagliflozin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      819.8736572265625,
+      142.2421875,
+      829.876220703125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Metformin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      831.3736572265625,
+      128.359375,
+      841.376220703125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Pioglitazone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      842.8736572265625,
+      137.24468994140625,
+      852.876220703125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "Metformin is the preferred initial agent for management of type 2 diabetes. See Figure 24.15",
+   "inline_answer": "C",
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    77.0,
+    780.376220703125,
+    539.6503295898438,
+    852.876220703125
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 6,
+   "number": 6,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 64-year-old woman with a history of type 2 diabetes is diagnosed with heart failure. Which of the following medications would be a poor choice for controlling her diabetes?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Exenatide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      72.0,
+      925.8736572265625,
+      126.68218994140625,
+      935.876220703125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Glyburide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      72.0,
+      73.37362670898438,
+      126.69781494140625,
+      83.37623596191406
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pioglitazone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      72.0,
+      84.87362670898438,
+      136.69000244140625,
+      94.87623596191406
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      72.0,
+      96.37362670898438,
+      114.484375,
+      106.37623596191406
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "The TZDs (pioglitazone and rosiglitazone) can cause fluid retention and lead to a worsening of heart failure. They should be used with caution and dose reduction, if at all, in patients with heart failure. Exenatide, glyburide, and insulin do not have precautions for use in heart failure patients.",
+   "inline_answer": "C",
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    77.0,
+    897.876220703125,
+    539.7446899414062,
+    935.876220703125
+   ],
+   "pages": [
+    0,
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 7,
+   "number": 7,
+   "section": 1,
+   "type": "QCS",
+   "stem": "KD is a 69-year-old male with type 2 diabetes and chronic pancreatitis. Which of the following diabetes medications is contraindicated in this patient?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Glipizide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      72.0,
+      202.37362670898438,
+      123.36187744140625,
+      212.37623596191406
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Insulin lispro",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      72.0,
+      213.87362670898438,
+      139.7578125,
+      223.87623596191406
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Metformin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      72.0,
+      225.37362670898438,
+      128.359375,
+      235.37623596191406
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Dulaglutide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      72.0,
+      236.87362670898438,
+      134.47125244140625,
+      246.87623596191406
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "Dulaglutide is a GLP-1 receptor agonist. Although infrequent, GLP-1 receptor agonists have been associated with pancreatitis and should be avoided in patients with chronic pancreatitis. Glipizide, insulin lispro, and metformin have not been associated with an increased risk of pancreatitis.",
+   "inline_answer": "D",
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    77.0,
+    174.37623596191406,
+    539.6009521484375,
+    246.87623596191406
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 8,
+   "number": 8,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following drugs for diabetes is LEAST likely to cause weight gain?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Liraglutide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      72.0,
+      331.3736267089844,
+      131.69781494140625,
+      341.3762512207031
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Pioglitazone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      72.0,
+      342.8736267089844,
+      136.69000244140625,
+      352.8762512207031
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Repaglinide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      72.0,
+      354.3736267089844,
+      134.46343994140625,
+      364.3762512207031
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Insulin glulisine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      72.0,
+      365.8736267089844,
+      151.40875244140625,
+      375.8762512207031
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "GLP-1 receptor agonists are usually associated with weight loss due to their ability to enhance satiety. All of the other agents are associated with weight gain.",
+   "inline_answer": "A",
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    77.0,
+    314.8762512207031,
+    426.51031494140625,
+    375.8762512207031
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 9,
+   "number": 9,
+   "section": 1,
+   "type": "QCS",
+   "stem": "HB is a 55-year-old obese female who has had type 2 diabetes for 10 years. She is currently being treated with metformin, but her HbA1c is above goal. She has a history of heart failure and chronic obstructive pulmonary disorder. Her physician would like to add a medication that will not cause any weight gain. Which of the following would be most appropriate to control HB's diabetes?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Linagliptin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      72.0,
+      485.3736267089844,
+      131.140625,
+      495.3762512207031
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Glimepiride",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      72.0,
+      496.8736267089844,
+      134.46343994140625,
+      506.8762512207031
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pioglitazone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      72.0,
+      508.3736267089844,
+      136.69000244140625,
+      518.376220703125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Inhaled insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      72.0,
+      519.876220703125,
+      146.40625,
+      529.876220703125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "Linagliptin is a DPP-4 inhibitor, and this class of medications is effective in lowering HbA1c levels without causing weight gain (they are usually weight neutral). Sulfonylureas (glimepiride) are associated with weight gain and should be avoided in this obese patient. TZDs (pioglitazone) should be avoided in patients with heart failure. Because of the potential for bronchospasm associated with inhaled insulin, it should be avoided in patients with a history of chronic obstructive pulmonary disorder and asthma.",
+   "inline_answer": "A",
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    77.0,
+    432.3762512207031,
+    539.994873046875,
+    529.876220703125
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 10,
+   "number": 10,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following diabetes medications is most appropriately paired with an adverse effect associated with its use?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Canagliflozin-urinary tract infections",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      72.0,
+      648.876220703125,
+      242.14781188964844,
+      658.876220703125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Nateglinide-heart failure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      72.0,
+      660.376220703125,
+      191.34625244140625,
+      670.376220703125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Glipizide-weight loss",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      72.0,
+      671.876220703125,
+      178.60874938964844,
+      681.876220703125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Liraglutide-lactic acidosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      72.0,
+      683.376220703125,
+      197.45249938964844,
+      693.376220703125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "Adverse effects of canagliflozin are genital mycotic infections, urinary tract infections, and urinary frequency. Nateglinide may cause hypoglycemia but has not been associated with heart failure. Sulfonylureas are associated with weight gain. Lactic acidosis is a rare but serious side effect of metformin (not liraglutide).",
+   "inline_answer": "A",
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    77.0,
+    620.876220703125,
+    539.515625,
+    693.376220703125
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  }
+ ]
+}

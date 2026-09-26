@@ -1,0 +1,4690 @@
+{
+ "nn": "33",
+ "source": "Raw_PDF_Questions/Schwartz MCQ Principles of Surgery  @AUDatabot (1).pdf",
+ "sha256": "bb00c66f4ee45b08f20b90b7f983e2d2a31b71305f80c97a1e53f1c3dec76118",
+ "at": "2026-09-26T15:15:13Z",
+ "layout": {
+  "method": "ocr",
+  "splits": {
+   "1": 297,
+   "2": 297,
+   "3": 297,
+   "4": 297,
+   "5": 297,
+   "6": 297,
+   "7": 297,
+   "8": 297,
+   "9": 297,
+   "10": 297,
+   "11": 297,
+   "12": 297,
+   "13": 297,
+   "14": 297,
+   "15": 297,
+   "16": 297,
+   "17": 297,
+   "18": 297,
+   "19": 297,
+   "20": 297,
+   "21": 297,
+   "22": 297
+  }
+ },
+ "counters": {
+  "source_numbering": 21,
+  "sections": [
+   "1-7",
+   "1-4",
+   "1-9",
+   "1-1"
+  ],
+  "option_a_lines": 52,
+  "parsed_questions": 55,
+  "parsed_numbered": 21,
+  "declared_total": null
+ },
+ "gaps": [
+  "section 1: missing [2, 3]",
+  "section 1: missing [6]"
+ ],
+ "answers": {
+  "mode": "inline",
+  "answered": 24,
+  "mcq": 51,
+  "at": "2026-09-26T15:15:13Z"
+ },
+ "distribution": {
+  "A": 0.208,
+  "B": 0.292,
+  "C": 0.25,
+  "D": 0.25
+ },
+ "dropped_lines": [
+  "β_{$",
+  "↓ ↓",
+  "↓",
+  "Thyroid, Parathyroid, and Adrenal",
+  "BASIC SCIENCE QUESTIONS",
+  "The most common position of the RIGHT recurrent laryn- Answer: B The left RLN arises from the vagus nerve where it crosses",
+  "geal nerve is"
+ ],
+ "dropped_count": 7,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 40,
+  "dropped": [
+   {
+    "stem": "Nerve in tracheoesophageal groove R: 64% L: 77% Nerve lateral to trachea R:28% L: 17% FIG. 38-1. Relationship of recurre",
+    "reason": "Not a question: Fig. 38-1/38-2/38-5 labels and captions (p1, p4, p10) parsed as items; no question text exists on the page"
+   },
+   {
+    "stem": "Nerve between branches of inferior thyroid artery R: 7% L: 67%",
+    "reason": "Not a question: Fig. 38-1/38-2/38-5 labels and captions (p1, p4, p10) parsed as items; no question text exists on the page"
+   },
+   {
+    "stem": "Nerve posterior to artery R: 53% L: 69% 6Nerve anterior to artery R: 37% L: 24%",
+    "reason": "Not a question: Fig. 38-1/38-2/38-5 labels and captions (p1, p4, p10) parsed as items; no question text exists on the page"
+   },
+   {
+    "stem": "and surrounding structures, viewed anteriorly",
+    "reason": "Not a question: Fig. 38-1/38-2/38-5 labels and captions (p1, p4, p10) parsed as items; no question text exists on the page"
+   },
+   {
+    "stem": "5 + 4 Corticosterone Cortisol V 5 18-hydroxy- Thyroid, Parathyroid, and Adrenal corticosterone + 5 Aldosterone FIG. 38-5",
+    "reason": "Not a question: Fig. 38-1/38-2/38-5 labels and captions (p1, p4, p10) parsed as items; no question text exists on the page"
+   }
+  ],
+  "stale": [],
+  "added": 0
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The most common position of the RIGHT recurrent laryngeal nerve is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Anterior to the inferior thyroid artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      27.0,
+      288.4,
+      194.8,
+      301.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Posterior to the inferior thyroid artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "C",
+     "text": "Between the branches of the inferior thyroid artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "D",
+     "text": "Absent (nonrecurrent laryngeal nerve)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      27.0,
+      300.6,
+      248.0,
+      337.7
+     ]
+    }
+   ],
+   "after": "posterior to the artery before ascending in the neck, its course geal ing g with the right subclavian artery. The nerve usually passes being more oblique than the left RLN. Along their course in the neck, the RLNs may branch, and pass anterior, posterior, or interdigitate with branches of the inferior thyroid artery (Fig. 38-1). The right RLNmay be nonrecurrent in 0.5 to 1% of individuals and often is associated with a vascular anomaly. (See Schwartz 9th ed., p 1346.)",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "orphan_rows_joined_to_option",
+    "text_after_options",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    281.9,
+    279.0,
+    532.4,
+    337.7
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 2,
+   "number": 1,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Nerve in tracheoesophageal groove R: 64% L: 77% Nerve lateral to trachea R:28% L: 17% FIG. 38-1. Relationship of recurrent laryngeal nerve to the inferior thyroid 3Nerve far anterior artery-the superior parathyroid is char- R:8% L: 6% acteristically dorsal to the plane of the nerve, whereas the inferior gland is ventral to the nerve. CHAPTER 38 groove. The right RLN arises from the vagus at its cross",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    220.0,
+    516.2,
+    532.8,
+    767.9
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 3,
+   "number": 4,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Nerve between branches of inferior thyroid artery R: 7% L: 67%",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "numbering_gap_before",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    394.9,
+    510.5,
+    535.7,
+    527.8
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 4,
+   "number": 5,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Nerve posterior to artery R: 53% L: 69% 6Nerve anterior to artery R: 37% L: 24%",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    397.1,
+    609.1,
+    494.6,
+    729.7
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 5,
+   "number": 7,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Thyroid hormone receptors",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Bind T4",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      61.9,
+      45.0,
+      109.1,
+      55.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Bind T3",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      60.5,
+      55.8,
+      110.9,
+      69.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Are present in the mitochondria",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      61.9,
+      69.1,
+      208.1,
+      80.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Are present on the cell membrane",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      62.3,
+      81.7,
+      213.8,
+      92.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "numbering_gap_before",
+    "option_out_of_order_B",
+    "option_out_of_order_C",
+    "option_out_of_order_D",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    400.7,
+    745.2,
+    511.6,
+    0
+   ],
+   "pages": [
+    0,
+    1
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 6,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The inferior parathyroid glands are derived from the",
+   "options": [
+    {
+     "letter": "A",
+     "text": "1st branchial pouch",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      62.6,
+      265.3,
+      156.6,
+      277.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "2nd branchial pouch",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      61.9,
+      277.2,
+      158.0,
+      289.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "3rd branchial pouch",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "D",
+     "text": "4th branchial pouch",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    19.8,
+    136.8,
+    273.2,
+    289.4
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 7,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following receptors has the greatest affinity for epinephrine?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "α adrenergic receptor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      63.0,
+      375.8,
+      164.9,
+      386.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "β1 adrenergic receptor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      62.3,
+      387.7,
+      168.1,
+      400.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "β2 adrenergic receptor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      62.6,
+      400.3,
+      168.1,
+      412.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "γ adrenergic receptor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      63.4,
+      413.3,
+      164.9,
+      424.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "Free thyroid hormone enters the cell membrane by diffusion or by specific carriers and is carried to the nuclear membrane by binding to specific proteins. T4 is deiodinated to T, and enters the nucleus via active transport, where it binds to the thyroid hormone receptor. The T3 receptor is similar to the nuclear receptors for glucocorticoids, mineralocorticoids, es- trogens, vitamin D, and retinoic acid. In humans, two types of T3 receptor genes (α and β) are located on chromosomes 3 and 17. (See Schwartz 9thed., p 1348.) In humans, the superior parathyroid glands are derived from the fourth branchial pouch, which also gives rise to the thy- roid gland. The third branchial pouches give rise to the infe- rior parathyroid glands and the thymus. (See Schwartz 9th ed., p1374.) The parathyroid cells rely on a Gprotein coupled membrane receptor, designated the calcium-sensing receptor (CASR), to regulate PTH secretion by sensing extracellular calci- um levels. PTH secretion also is stimulated by low levels of 1,25-dihydroxy vitamin D, catecholamines, and hypomag- nesemia. (See Schwartz 9thed., p1376.) Adrenergic receptorsare transmembrane-spanningmol- ecules, which are coupled to G proteins. They may be subdivided into α and β subtypes, which are localized in different tissues, have varying affinity to various cate- cholamines, and mediate distinct biologic effects (Table 38",
+   "inline_answer": "A",
+   "flags": [
+    "unnumbered",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    20.5,
+    223.2,
+    298.4,
+    424.4
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 8,
+   "number": 1,
+   "section": 2,
+   "type": "QCS",
+   "stem": "The left adrenal vein drains into the",
+   "options": [
+    {
+     "letter": "A",
+     "text": "IVC",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      48.6,
+      18.7,
+      83.9,
+      30.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Left renal vein",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      49.3,
+      31.3,
+      124.6,
+      43.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Left gonadal vein",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      50.0,
+      44.3,
+      136.4,
+      56.9
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Splenic vein",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      50.0,
+      58.0,
+      115.9,
+      69.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "very_long_stem",
+    "low_ocr_confidence",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    315.7,
+    423.4,
+    564.1,
+    0
+   ],
+   "pages": [
+    1,
+    2
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 9,
+   "number": null,
+   "section": 2,
+   "type": "QCS",
+   "stem": "Which of the following is an effect of thyroid hormones?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Positive inotropic effect on the heart",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      49.7,
+      119.9,
+      217.4,
+      131.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Maintenance of the normal hypoxic drive to breathe",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      51.1,
+      132.5,
+      281.2,
+      144.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Increased protein turnover",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      51.8,
+      146.2,
+      178.6,
+      157.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "All of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      49.3,
+      158.4,
+      131.4,
+      169.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    48.6,
+    106.9,
+    283.3,
+    169.6
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 10,
+   "number": null,
+   "section": 2,
+   "type": "QCS",
+   "stem": "The origin of the superior thyroid artery is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Internal carotid artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      52.9,
+      386.3,
+      160.9,
+      397.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "External carotid artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      52.9,
+      398.5,
+      162.7,
+      410.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Thyrocervical trunk",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      53.6,
+      410.8,
+      153.4,
+      423.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Innominate artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      54.0,
+      425.5,
+      145.4,
+      435.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "In contrast to the arterial supply, each adrenal usually is drained by a single, major adrenal vein. The right adrenal vein is usually short and drains into the IVC, whereas the left adrenal vein is longer and empties into the left renal vein after joining the inferior phrenic vein. (See Schwartz 9th ed., p 1389.) Thyroid hormones affect almost every system in the body. They are important for fetal brain development and skel- etal maturation. T increases oxygen consumption, basal CHAPTER 38 metabolic rate, and heat production by stimulation of Na⁺/ K⁺ ATPase in various tissues. It also has positive inotropic and chronotropic effects on the heart by increasing tran- scription of the Ca2² ATPase in the sarcoplasmic reticu- lum and increasing levels of beta-adrenergic receptors and concentration of G proteins. Myocardial alpha receptors are decreased and actions of catecholamines are amplified. Thyroid hormones are responsible for maintaining the nor- mal hypoxic and hypercapnic drive in the respiratory cen- ter of the brain. They also increase GI motility, leading to diarrhea in hyperthyroidism and constipation in hypothy- Thyroid, Parathyroid, and Adrenal roidism. Thyroid hormones also increase bone and protein turnover and the speed of muscle contraction and relax- ation. They also increase glycogenolysis, hepatic gluco- neogenesis, intestinal glucose absorption, and cholesterol synthesis and degradation. (See Schwartz 9th ed., p 1349.) The superior thyroid arteries arise from the ipsilateral ex- ternal carotid arteries and divide into anterior and poste- rior branches at the apices of the thyroid lobes. The inferior thyroid arteries arise from the thyrocervical trunk shortly after their origin from the subclavian arteries. The inferior thyroid arteries travel upward in the neck posterior to the carotid sheath to enter the thyroid lobes at their midpoint. A thyroidea ima artery arises directly from the aorta or innominate in 1 to 4% of individuals to enter the isthmus or replace a missing inferior thyroid artery. (See Schwartz 9th ed., p 1345, and Fig. 38-2.) Thyroid Ext. carotid a. cartilage Pyramidal lobe Sup. thyroid a. and v. Int. jugular v. Middle thyroid v. Common carotid a. Inf. thyroid v. Thyrocervical CHAPTER 38 trunk Recurrent laryngeal n. Thyroidea ima a. Vagus n. (variable) Vagus n. Arch of aorta Thyroid, Parathyroid, and Adrenal A Thyroid gland Trachea Strap muscles Sternocleido- mastoid m. Int. jugular v. Vagus n. Common carotid a. Inf. thyroid a. Vertebral laryngeal n. Recurrent B V. and a. 9.The most common location of the superior parathyroid glands is",
+   "inline_answer": "B",
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    52.9,
+    372.6,
+    228.2,
+    435.2
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 11,
+   "number": null,
+   "section": 2,
+   "type": "QCS",
+   "stem": "The most common location of the superior parathyroid glands is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dorsal to the recurrent laryngeal nerve (RLN), within 1 cm of the junction of the RLN and inferior thyroid artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      45.0,
+      522.4,
+      277.9,
+      533.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Ventral to the recurrent laryngeal nerve (RLN), within 1 cm of the junction of the RLN and inferior thyroid artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      45.0,
+      558.0,
+      278.6,
+      570.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Dorsal to the recurrent laryngeal nerve (RLN), within 3 cm of the junction of the RLN and inferior thyroid artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      45.4,
+      594.7,
+      277.9,
+      605.9
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Ventral to the recurrent laryngeal nerve (RLN), within 3 cm of the junction of the RLN and inferior thyroid artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      45.4,
+      630.7,
+      278.3,
+      641.9
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "empty_stem",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": null,
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 12,
+   "number": null,
+   "section": 2,
+   "type": "QCS",
+   "stem": "and surrounding structures, viewed anteriorly",
+   "options": [
+    {
+     "letter": "A",
+     "text": "and in cross-section",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      379.8,
+      462.2,
+      511.2,
+      472.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "a.= artery;",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      379.8,
+      462.2,
+      511.2,
+      472.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "= muscle; n.= nerve; v.= vein.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      379.8,
+      473.4,
+      498.6,
+      482.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "About 85% of individuals have four parathyroid glands that can be found within 1 cm of the junction of the inferior thy- roid artery and the RLN. The superior glands are usually located dorsal to the RLN, whereas the inferior glands are usu- ally found ventral to the RLN (Fig. 38-3 See Schwartz 9 ed., p 1349.) Inferior thyroid a. =E.38-3. Relationship of the para- oids to the recurrent laryngeal Int. jugular v. Common carotid a. nea.=artery;v.= vein. Secreted parathormone has a half-life of",
+   "inline_answer": "A",
+   "flags": [
+    "unnumbered",
+    "option_marker_repaired_C"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    379.4,
+    451.4,
+    535.3,
+    482.0
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 13,
+   "number": null,
+   "section": 2,
+   "type": "QCS",
+   "stem": "Secreted parathormone has a half-life of",
+   "options": [
+    {
+     "letter": "A",
+     "text": "2-4 minutes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      50.0,
+      374.8,
+      113.8,
+      384.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "45-60 minutes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      49.3,
+      386.3,
+      123.5,
+      397.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "3 hours",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      48.6,
+      397.8,
+      96.8,
+      410.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "8 hours",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      49.0,
+      410.0,
+      96.8,
+      422.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "empty_stem",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": null,
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 14,
+   "number": null,
+   "section": 2,
+   "type": "QCS",
+   "stem": "Which of the following is the substrate for allcate- cholamines?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Alanine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      49.7,
+      491.4,
+      99.4,
+      503.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Leucine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      50.8,
+      504.7,
+      99.4,
+      515.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Tryptophan",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      51.5,
+      515.2,
+      114.5,
+      527.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Tyrosine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      50.4,
+      527.8,
+      102.6,
+      539.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "Recurrent laryngeal n. Thyroid, Parathyroid, and Adrenal Secreted PTH has a half-life of 2 to 4 minutes. In the liver, PTH is metabolized into the active N-terminal compo- nent and the relatively inactive C-terminal fraction. The C-terminal component is excreted by the kidneys and ac- cumulates in chronic renal failure. (See Schwartz 9thed., p1376.) Catecholamine hormones (epinephrine, norepinephrine, and dopamine) are produced not only in the central and sympa- thetic nervous system but also in the adrenal medulla. The substrate, tyrosine, is converted to catecholamines via a series of steps shown in Fig. 38-4. (See Schwartz 9th ed., p 1392.) CHAPTER 38 Thyroid, Parathyroid, and Adrenal 12.The adrenal cortex arises from",
+   "inline_answer": "D",
+   "flags": [
+    "unnumbered",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    50.0,
+    466.2,
+    400.3,
+    539.3
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 15,
+   "number": null,
+   "section": 2,
+   "type": "QCS",
+   "stem": "The adrenal cortex arises from",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ectoderm",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      48.6,
+      381.6,
+      104.8,
+      391.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Mesoderm",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      47.5,
+      393.1,
+      108.4,
+      404.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Endoderm",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      47.5,
+      405.0,
+      107.6,
+      416.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Neural crest",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      47.9,
+      418.0,
+      113.0,
+      427.7
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": "C",
+   "flags": [
+    "unnumbered",
+    "orphan_rows_joined_to_option",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    553.7,
+    133.2,
+    568.4,
+    0
+   ],
+   "pages": [
+    4,
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 16,
+   "number": null,
+   "section": 2,
+   "type": "QCS",
+   "stem": "The inferior adrenal artery originates from the",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Phrenic artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      46.1,
+      563.0,
+      119.9,
+      574.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Splenic artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      46.4,
+      574.2,
+      117.7,
+      586.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Renal artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      45.0,
+      586.4,
+      112.0,
+      598.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Aorta",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      45.0,
+      598.7,
+      85.7,
+      609.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "14. Which of the following is NOT an effect of glucocorticos- teroids?",
+   "inline_answer": "B",
+   "flags": [
+    "unnumbered",
+    "orphan_rows_joined_to_option",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    292.0,
+    421.2,
+    538.2,
+    609.8
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 17,
+   "number": null,
+   "section": 2,
+   "type": "QCS",
+   "stem": "Which of the following is NOT an effect of glucocorticosteroids?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Decreased muscle protein synthesis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      47.2,
+      61.9,
+      205.6,
+      73.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Decreased lipolysis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      46.8,
+      75.2,
+      141.5,
+      86.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Inhibition of bone formation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      47.9,
+      86.8,
+      178.9,
+      97.9
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Increased cardiac output",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      47.5,
+      99.0,
+      163.1,
+      109.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    289.8,
+    602.3,
+    535.7,
+    0
+   ],
+   "pages": [
+    5,
+    6
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 18,
+   "number": null,
+   "section": 2,
+   "type": "QCS",
+   "stem": "The RET proto-oncogene is associated with",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Papillary thyroid cancer",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      51.1,
+      412.9,
+      163.1,
+      423.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hirschsprung's disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      50.0,
+      425.2,
+      158.4,
+      436.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pheochomocytoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      50.8,
+      437.4,
+      146.2,
+      448.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "All of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      50.0,
+      448.9,
+      129.6,
+      459.7
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "Glucocorticoids have important functions in intermediary metabolism but also affect connective tissue, bone, immune, cardiovascular, renal, and central nervous systems, as outlined in Table 38-2. (See Schwartz 9thed., p 1391.) TABLE 38-2 Functions of glucocorticoid hormones Function/System Effects Glucose metabolism Increased hepatic glycogen deposition, gluconeogenesis, decreased muscle glucose Protein metabolism Decreased muscle protein synthesis, increased uptake and metabolism CHAPTER 38 catabolism Fat metabolism Increased lipolysis in adipose tissue Connective tissue Inhibition of fibroblasts, loss of collagen, thinning of skin, striae formation Skeletal system Inhibition of bone formation, increased osteoclast activity, potentiate the action of PTH Immune system Increases circulation of polymorphonuclear cells, decreases numbers of lymphocytes, mono- cytes, and eosinophils, reduces migration of inflammatory cells to sites of injury Cardiovascular Increases cardiac output and peripheral vascular Renal system system Sodium retention, hypokalemia, hypertension via tone Thyroid, Parathyroid, and Adrenal mineralocorticoid effect, increased glomerular filtration via glucocorticoid effects Endocrine system Inhibits TSH synthesis and release, decreased TBG levels, decreased conversion ofT, to T PTH = parathyroid hormone; T = 3,5;3-triiodothyronine; T = thyroxine; TBG = thyroxine-binding globulin; TSH = thyroid-stimulating hormone. The RET proto-oncogene plays a significant role in the pathogenesis of thyroid cancers. It is located on chromo- some 10 and encodes a receptor tyrosine kinase, which binds several growth factors such as glial-derived neu- rotrophic factor and neurturin. The RET protein is ex- pressed in tissues derived from the embryonic nervous and excretory systems. Therefore, RET disruption can lead to developmental abnormalities in organs derived from these systems, such as the enteric nervous system (Hirschsprung's disease) and kidney. Germline mutations in the RET proto- oncogene are known to predispose to MEN2A, MEN2B, and familial MTCs, and somatic mutations have been dem- onstrated in tumors derived from the neural crest, such as MTCs (30%) and pheochromocytomas. (See Schwartz 9thed., p 1361, and Table 38-3.) CHAPTER 38 Thyroid, Parathyroid, and Adrenal 16.Thyroxine (T4) is composed of",
+   "inline_answer": "D",
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    34.9,
+    400.0,
+    224.6,
+    459.7
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 19,
+   "number": null,
+   "section": 2,
+   "type": "QCS",
+   "stem": "Thyroxine (T4) is composed of",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Two Diiodotyrosine (DIT) molecules",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      67.0,
+      406.8,
+      232.9,
+      417.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "One Diiodotyrosine (DIT) molecules and two monoiodohyrosin (MIT) molecules",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      66.6,
+      419.0,
+      296.6,
+      430.9
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Four monoiodohyrosin (MIT) molecules",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      67.0,
+      443.5,
+      247.0,
+      454.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "None of the above",
+     "bold": 0.0,
+     "color": 0.11,
+     "marks": [
+      "tint"
+     ],
+     "page": 7,
+     "bbox": [
+      67.7,
+      456.1,
+      155.2,
+      465.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "The synthesis of thyroid hormone consists of several steps. The first, iodide trapping, involves active (ATP-dependent) transport of iodide across the basement membrane of the thy- rocyte via an intrinsic membrane protein, the sodium/iodine (Na⁺/I-) symporter. Thyroglobulin (Tg)is a large (660 kDa) glycoprotein, which is present in thyroid follicles and has four tyrosyl residues. The second step in thyroid hormone synthe- sis involves oxidation of iodide to iodine and iodination of ty- rosine residues on Tg, to form monoiodotyrosines (MIT) and diiodotyrosines (DIT). Both processes are catalyzed by thy- roid peroxidase (TPO). A recently identified protein, pendrin, is thought to mediate iodine efflux at the apical membrane. The third step leads to coupling of two DIT molecules to form tetra-iodothyronine or thyroxine (T4), and one DIT molecule with one MIT molecule to form 3,5,3'-triiodothyronine (T3) or 3,3',5'-triiodothyronine reverse (rT, See Schwartz 9thed., p1348.) Which of the following is a function of aldosterone?",
+   "inline_answer": "C",
+   "flags": [
+    "unnumbered",
+    "empty_stem",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": null,
+   "pages": [
+    7
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 20,
+   "number": null,
+   "section": 2,
+   "type": "QCS",
+   "stem": "Which of the following is a function of aldosterone?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Increased potassium absorption",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      43.6,
+      47.2,
+      187.6,
+      58.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Increased hydrogen ion absorption",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      44.6,
+      59.4,
+      198.7,
+      70.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Increased sodium absorption",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      44.6,
+      71.3,
+      176.4,
+      82.1
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "None of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      43.2,
+      83.5,
+      131.4,
+      94.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": "B",
+   "flags": [
+    "unnumbered",
+    "orphan_rows_joined_to_option",
+    "very_long_stem",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": [
+    321.5,
+    61.9,
+    560.5,
+    0
+   ],
+   "pages": [
+    7,
+    8
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 21,
+   "number": null,
+   "section": 2,
+   "type": "QCS",
+   "stem": "Glucocorticoids are produced in the",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Zona glomerulosa",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      43.6,
+      132.8,
+      133.6,
+      144.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Zona fasciculate",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      44.6,
+      145.1,
+      124.9,
+      155.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Zona reticularis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      44.6,
+      157.3,
+      123.8,
+      167.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Adrenal medulla",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      43.2,
+      168.8,
+      127.1,
+      179.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "orphan_rows_joined_to_option",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    289.1,
+    80.6,
+    538.9,
+    179.3
+   ],
+   "pages": [
+    8
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 22,
+   "number": null,
+   "section": 2,
+   "type": "QCS",
+   "stem": "The paired lateral thyroid anlages fuse with the median thyroid anlage in the 5th week of gestation. These paired lateral anlages originate from",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ectoderm",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      43.9,
+      353.2,
+      100.4,
+      363.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Mesoderm",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      44.3,
+      365.0,
+      103.3,
+      375.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Endoderm",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      45.0,
+      376.9,
+      103.7,
+      388.1
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Neural crest",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      45.0,
+      389.2,
+      109.1,
+      400.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "orphan_rows_joined_to_option",
+    "very_long_stem",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    289.8,
+    166.0,
+    538.9,
+    400.0
+   ],
+   "pages": [
+    8
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 23,
+   "number": null,
+   "section": 2,
+   "type": "QCS",
+   "stem": "Cholesterol is the precursor of all hormones produced in the adrenal gland. The first step in the synthesis of all adrenal hormones is to cleave cholesterol to produce",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Progesterone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      46.4,
+      573.1,
+      113.8,
+      583.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Pregnenolone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      46.1,
+      584.6,
+      117.7,
+      595.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "17α-hydroxypregnenolone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      46.8,
+      596.5,
+      168.1,
+      607.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "11-deoxy-corticosterone",
+     "bold": 0.0,
+     "color": 0.1,
+     "marks": [
+      "tint"
+     ],
+     "page": 8,
+     "bbox": [
+      45.0,
+      608.8,
+      160.6,
+      619.9
+     ]
+    }
+   ],
+   "after": "1 6 Pregnenolone 17α-hydroxypregnenolone 1 2 − 2 6 Progesterone 17α-hydroxyprogesterone 3 3 CHAPTER 38 corticosterone 11-deoxy- 11-deoxycortisol X",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "orphan_rows_joined_to_option",
+    "text_after_options",
+    "very_long_stem",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    290.5,
+    386.6,
+    568.1,
+    619.9
+   ],
+   "pages": [
+    8,
+    9
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 24,
+   "number": 4,
+   "section": 2,
+   "type": "QROC",
+   "stem": "5 + 4 Corticosterone Cortisol V 5 18-hydroxy- Thyroid, Parathyroid, and Adrenal corticosterone + 5 Aldosterone FIG. 38-5. Synthesis of adrenal steroids. The enzymes involved are (1) p450scc (cholesterol side chain cleavage), (2) 3β-hydroxysteroid dehydrogenase, (3) p450c21 (21 β-hydroxylase), (4) p450c11 (11 β-hydroxylase), (5) p450c11AS (aldosterone synthase), (6) p450c17 (17a-hydroxylase activity), (7) p450c17 (17, 20-lyase/desmolase activity), and (8) sulfokinase. DHEAS = dehydroepiandrosterone sulfate. CLINICAL QUESTIONS",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "low_ocr_confidence",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    162.0,
+    204.5,
+    508.7,
+    405.0
+   ],
+   "pages": [
+    9
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 25,
+   "number": 1,
+   "section": 3,
+   "type": "QCS",
+   "stem": "Propylthiouracil",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Can be given once a day in patients with hyperthyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      61.6,
+      431.3,
+      294.5,
+      442.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Can cause agranulocytosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      61.2,
+      443.2,
+      184.0,
+      454.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Does not affect the peripheral conversion of T4 to T3",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      60.5,
+      454.7,
+      283.3,
+      466.9
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Does not cross the placenta",
+     "bold": 0.0,
+     "color": 0.04,
+     "marks": [
+      "tint"
+     ],
+     "page": 9,
+     "bbox": [
+      61.6,
+      467.6,
+      185.8,
+      477.7
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "Antithyroid medications generally are administered in prepa- ration for RAI ablation or surgery. The drugs commonly used are propylthiouracil (PTU, 100 to 300 mg three times daily) and methimazole (10 to 30 mg three times daily, then once daily). Methimazole has a longer half-life and can be dosed once daily. Both drugs reduce thyroid hormone production by inhibiting the organic binding of iodine and the coupling of iodotyrosines (mediated by TPO). In addition, PTU also in- hibits the peripheral conversion of T4 to Tz, making it useful for the treatment of thyroid storm. Both drugs can cross the placenta, inhibiting fetal thyroid function, and are excreted in breast milk, although PTU has a lower risk of transplacental transfer. Methimazole also has been associated with congeni- tal aplasia; therefore, PTU is preferred in pregnant and breast- feeding women. Side effects of treatment include reversible granulocytopenia, skin rashes, fever, peripheral neuritis, pol- yarteritis, vasculitis, and, rarely, agranulocytosis and aplastic anemia. Patients should be monitored for these possible com- plications and should always be warned to stop PTU or me- thimazole immediately and seek medical advice should they develop a sore throat or fever. Treatment of agranulocytosis in- volves admission to the hospital, discontinuation of the drug, and broad-spectrum antibiotic therapy. Surgery should be postponed until the granulocyte count reaches 1000 cells/m3. (See Schwartz 9thed., p1354.) Which of the following is NOT commonly seen in patients with MEN1 syndrome?",
+   "inline_answer": "B",
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    49.3,
+    419.0,
+    432.7,
+    477.7
+   ],
+   "pages": [
+    9
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 26,
+   "number": 2,
+   "section": 3,
+   "type": "QCS",
+   "stem": "Which of the following is NOT commonly seen in patients with MEN1 syndrome?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Gastrinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      45.7,
+      59.4,
+      109.4,
+      69.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Insulinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      44.6,
+      70.9,
+      108.0,
+      82.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Prolactinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      44.3,
+      82.4,
+      116.6,
+      93.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Pheochromocytoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      44.6,
+      96.1,
+      143.6,
+      105.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_inferred",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    387.4,
+    91.4,
+    475.9,
+    0
+   ],
+   "pages": [
+    9,
+    10
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 27,
+   "number": 3,
+   "section": 3,
+   "type": "QCS",
+   "stem": "Painful subacute thyroiditis",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Results in hypothyroidism in >80% of patients",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      46.8,
+      230.0,
+      246.2,
+      241.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Occurs most commonly in women >70 years of age",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      46.1,
+      242.6,
+      265.0,
+      253.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Is often preceded by an upper respiratory tract infection",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      47.2,
+      253.8,
+      272.5,
+      265.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Requires thyroidectomy for relief of symptoms in >50% of patients",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      46.4,
+      266.4,
+      280.1,
+      277.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_inferred",
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    44.3,
+    218.5,
+    280.1,
+    290.5
+   ],
+   "pages": [
+    10
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 28,
+   "number": 4,
+   "section": 3,
+   "type": "QCS",
+   "stem": "Which of the following tests has the highest sensitivity in localizing parathyroid adenomas?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ultrasound",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      46.8,
+      497.5,
+      108.0,
+      508.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Fine cut CT scan",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      45.7,
+      510.8,
+      127.8,
+      520.9
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "PET scan",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      46.1,
+      523.1,
+      99.0,
+      532.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Sestamibi scan",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      46.1,
+      533.9,
+      120.2,
+      545.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "Pheochromocytomas are seen in patients with MEN2 syn- drome.PHPTis the earliest and most common manifesta- tion of MEN1 59 and develops in 80 to 100% of patients by age 40 years old. These patients also are prone to pancreatic neu- roendocrine tumors and pituitary adenomas and, less com- monly, to adrenocortical tumors, lipomas, skin angiomas, and carcinoid tumors of the bronchus, thymus, or stomach. About 50% of patients develop gastrinomas, which often are multiple and metastatic at diagnosis. Insulinomas develop in 10 to 15% of cases, whereas many patients have nonfunctional pancre- atic endocrine tumors. Prolactinomas occur in 10 to 50% of CHAPTER 38 MEN1 patients and constitute the most common pituitary le- sion. (See Schwartz 9thed., p 1377.) Painful thyroiditis most commonly occurs in 30- to 40-year-old women and is characterized by the sudden or gradual onset of neck pain, which may radiate toward the mandible or ear. History of a preceding upper respiratory tract infection often can be elicited. The gland is enlarged, exquisitely tender, and firm. The disorder classically progresses through four stages. An initial hyperthyroid phase, due to release of thyroid hor- Thyroid, Parathyroid, and Adrenal mone, is followed by a second, euthyroid phase. The third phase, hypothyroidism, occurs in about 20 to 30% of patients and is followed by resolution and return to the euthyroid state in >90% of patients. A few patients develop recurrent disease. Painful thyroiditis is self-limited, and therefore, treatment is primarily symptomatic. Aspirin and other NSAIDs are used for pain relief, but steroids may be indicated in more severe cases. Short-term thyroid replacement may be needed and may shorten the duration of symptoms. Thyroidectomy is reserved for the rare patient who has a prolonged course not responsive to medical measures or for recurrent disease. (See Schwartz 9th ed., p 1356.) 99mTc-labeled sestamibi is the most widely used and accurate modality with a sensitivity >80% for detection of parathyroid adenomas. Sestamibi (Cardiolite) initially was introduced for cardiac imaging and is concentrated in mitochondria-rich tissue. It was subsequently noted to be useful for parathyroid localization due to the delayed washout of the radionuclide from hypercellular parathyroid tissue compared to thyroid tissue. Sestamibi scans generally are complemented by neck ultrasound, which can identify adenomas with >75% sensi- tivity in experienced centers, and are most useful in identi- fying intrathyroidalparathyroids. Single-photon emission computed tomography, particularly when used with CT, has been shown to be superior to other nuclear medicine-based imaging. Specifically, single-photon emission computed to- mography can indicate whether an adenoma is located in the anterior or posterior mediastinum (aortopulmonary win- dow), thus enabling the surgeon to modify the operative ap- proach accordingly. CT and MRI scans are less sensitive than sestamibi scans, but are helpful in localizing large paraesoph- ageal and mediastinal glands. (See Schwartz 9th ed., p 1381.)",
+   "inline_answer": "D",
+   "flags": [
+    "number_inferred"
+   ],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    44.6,
+    472.3,
+    280.1,
+    545.0
+   ],
+   "pages": [
+    10
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 29,
+   "number": 5,
+   "section": 3,
+   "type": "QCS",
+   "stem": "Which of the following drugs can cause thyroid storm in patients with hyperthyroidism?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Amiodarone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      60.5,
+      59.8,
+      127.4,
+      69.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Labetalol",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      60.1,
+      71.3,
+      113.4,
+      81.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Corticosteroids",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      60.5,
+      83.5,
+      137.9,
+      93.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "None of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      60.5,
+      95.4,
+      148.0,
+      105.1
+     ]
+    }
+   ],
+   "after": "CHAPTER 38",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_after_options"
+   ],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    46.4,
+    34.9,
+    293.8,
+    105.1
+   ],
+   "pages": [
+    11
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "key"
+  },
+  {
+   "i": 30,
+   "number": 6,
+   "section": 3,
+   "type": "QCS",
+   "stem": "In patients with elevated thyroglobulin after total thyroidectomy for thyroid cancer, many physicians recommend a dose of 100 mCi of ¹³¹I. Which of the following is a reported complication of this treatment?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sialadenitis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      59.8,
+      312.5,
+      121.0,
+      322.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Cerebral edema",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      58.0,
+      323.6,
+      138.6,
+      334.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Bone marrow suppression",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      58.3,
+      336.6,
+      178.6,
+      347.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Vocal cord paralysis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      59.4,
+      348.5,
+      154.4,
+      359.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    45.7,
+    263.9,
+    292.3,
+    359.6
+   ],
+   "pages": [
+    11
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 31,
+   "number": 7,
+   "section": 3,
+   "type": "QCS",
+   "stem": "The most common cause of Cushing's syndrome is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Adrenal adenoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      57.6,
+      607.3,
+      145.1,
+      617.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Adrenal hyperplasia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      56.5,
+      619.6,
+      153.7,
+      630.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Ectopic ACTH production",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      58.3,
+      632.2,
+      178.6,
+      641.9
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Pituitary adenoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      56.5,
+      643.7,
+      147.2,
+      654.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "Thyroid storm is a condition of hyperthyroidism accompanied by fever, central nervous system agitation or depression, car- diovascular dysfunction that may be precipitated by infection, surgery, or trauma. Occasionally, thyroid storm may result from amiodarone administration. This condition was previ- ously associated with high mortality rates but can be appropri- ately managed in an intensive care unit setting. Beta blockers are given to reduce peripheral T4 to T3 conversion and de- crease the hyperthyroid symptoms. Oxygen supplementation and hemodynamic support should be instituted. Non-aspirin compounds can be used to treat pyrexia and Lugol's iodine or sodium ipodate (intravenously) should be administered to decrease iodine uptake and thyroid hormone secretion. PTU therapy blocks the formation of new thyroid hormone and re- duces peripheral conversion of T4 to Tz. Corticosteroids often are helpful to prevent adrenal exhaustion and block hepatic thyroid hormone conversion. (See Schwartz 9thed., p 1355.) Sialadenitis, nausea, and vomiting are symptoms reported to occur with as little as 50 mCi of 131I. (See Schwartz 9th ed., p 1367,and Table 38-4.) TABLE 38-4 Complications of radioactive iodine therapy (13'1) and doses at which they are observed Acute Long-Term Neck pain, swelling, and tenderness Hematologic Thyroiditis (if remnant present) Bone marrow suppression Sialadenitis (50-450 mCi), taste (>500 mCi) dysfunction Leukemia (>1000 mCi) Hemorrhage (brain metastases) Fertility Cerebral edema (brain metastases, Ovarian/testicular damage, 200 mCi) infertility Vocal cord paralysis Increased spontaneous abortion Nausea and vomiting (50-450 mCi) rate Bone marrow suppression Pulmonary fibrosis (200 mCi) Chronic sialadenitis, nodules, taste dysfunction Increased risk of cancer Anaplastic thyroid cancer Gastric cancer Hepatocellular cancer Lung cancer Breast cancer (>1000 mCi) Bladder cancer Hypoparathyroidism Although a bit confusing, the most common cause ofCushing's syndrome is Cushing's disease. Cushing's syndrome refers to a complex of symptoms and signs resulting from hypersecretion of cortisol regardless of etiology. In contrast, Cushing's disease refers to a pituitary tumor, usually an adenoma, which leads to bilateral adrenal hyperplasia and hypercortisolism. Cushing's syndrome (endogenous) is a rare disease, affecting 10 in 1 mil- lion individuals. It is more common in adults but may occur in children. Women are more commonly affected (male:female ratio 1:8). Although most individuals have sporadic disease, Cushing's syndrome may be found in MEN1 families and can result from ACTH-secreting pituitary tumors, primary adrenal neoplasms, or an ectopic ACTH-secreting carcinoid tumor (more common in men) or bronchial adenoma (more common in women). or ACTH-independent (Table 38-5). The most common cause of hypercortisolism is exogenous administration of ste- roids. However, approximately 70% of cases of endogenous Cushing's syndrome are caused by an ACTH-producing pitu- itary tumor. Primary adrenal sources (adenoma, hyperplasia, and carcinoma) account for about 20% of cases and ectopic ACTH-secreting tumors account for <l0% of cases.(See Schwartz 9th ed., p 1394.) TABLE 38-5 Fo smal ellus pneats ell rsmeullyh, pheochromocytomas, and carcinoid tumors of the lung, thymus, gut, pancreas, and ovary. ACTH = adrenocorticotropic hormone; CTH = corticotrophin-releasing hormone. Surgery is indicated in which of the following asymptom- Answer:D atic patients with primary hyperparathyroidism? The guidelines for surgery in asymptomatic patients with pri",
+   "inline_answer": "D",
+   "flags": [],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    44.3,
+    595.1,
+    257.8,
+    654.8
+   ],
+   "pages": [
+    11
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 32,
+   "number": 8,
+   "section": 3,
+   "type": "QCS",
+   "stem": "Surgery is indicated in which of the following asymptomatic patients with primary hyperparathyroidism?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Mildly elevated urinary calcium excretion (>100 mg/dl)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      38.9,
+      418.3,
+      541.4,
+      434.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Reduction in creatinine clearance by 10%",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "C",
+     "text": "Serum calcium >0.8 above the upper limits of normal",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      291.6,
+      430.6,
+      541.1,
+      453.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Age <50 years",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      38.9,
+      460.8,
+      112.0,
+      473.4
+     ]
+    }
+   ],
+   "after": "levels (>1 mg/dL above the upper limit of normal) and if BMD measured at any of three sites (radius, spine, or hip) is greater than 2.5 standard deviations below those of gender- and race- matched, not age-matched, controls (i.e., peak bone density or T score (rather than Z score) <2.5). The panel still recommends exercising caution in using neuropsychologic abnormalities, cardiovascular disease, GI symptoms, menopause, and elevated Cushing's syndrome may be classified as ACTH-dependent CHAPTER 38 Etiology of Cushing's syndrome ACTH-dependent (70%) Pituitary adenoma or Cushing's disease (~70%) Ectopic ACTH production® (~10%) ·Ectopic CRH production (<1%) ACTH-independent (20-30%) Adrenal adenoma (10-15%) ·Adrenal carcinoma (5-10%) Adrenal hyperplasia-pigmented micronodular cortical hyperplasia Thyroid, Parathyroid, and Adrenal or gastric inhibitory peptide-sensitive macronodular hyperplasia (5%) Other Pseudo-Cushing's syndrome latrogenic-exogenous administration of steroids serum or urine indices of increased bone turnover as sole indica- tions for parathyroidectomy. (See Schwartz 9th ed., p 1380.) TABLE 38-6 Indications for parathyroidectomy in patients with asymptomatic primary HPT (2002 NIH consensus conference guidelines) Serum calcium >1 mg/dL above the upper limits of normal Life-threatening hypercalcemic episode Creatine clearance reduced by 30% Kidney stones on abdominal x-rays ·Markedly elevated 24-h urinary calcium excretion (≥400 mg/d) Substantially decreased bone mineral density at the lumbar spine, hip, or distal radius (>2.5 SD below peak bone mass, T score <-2.5 ·Age <50y Long-term medical surveillance not desired or possible HPT = hyperparathyroidism; NIH = National Institutes of Health; SD = standard deviation.",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_C_from_orphan_possible_mark",
+    "number_inferred",
+    "text_after_options",
+    "empty_stem",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": null,
+   "pages": [
+    12
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 33,
+   "number": 9,
+   "section": 3,
+   "type": "QCS",
+   "stem": "A patient with a 1-cm medullary carcinoma of the right thyroid and no clinically significant adenopathy is best treated with",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Right thyroid lobectomy and isthmusectomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      59.0,
+      70.9,
+      252.0,
+      80.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Right thyroid lobectomy and subtotal left thyroidectomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      57.6,
+      81.4,
+      286.9,
+      93.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Total thyroidectomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      58.3,
+      106.2,
+      155.5,
+      117.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Total thyroidectomy with central lymph node dissection",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      58.7,
+      118.1,
+      286.2,
+      128.9
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 13,
+   "bbox": [
+    45.0,
+    33.5,
+    287.3,
+    140.8
+   ],
+   "pages": [
+    13
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 34,
+   "number": null,
+   "section": 3,
+   "type": "QCS",
+   "stem": "The most common cause of primary hyperparathyroidism is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Parathyroid adenoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      59.4,
+      190.8,
+      161.6,
+      200.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Multiple parathyroid adenomas",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      58.3,
+      202.3,
+      201.2,
+      213.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Parathyroid hyperplasia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      58.3,
+      214.6,
+      169.9,
+      225.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Parathyroid carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      59.4,
+      227.5,
+      166.0,
+      237.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 13,
+   "bbox": [
+    10.8,
+    136.4,
+    286.2,
+    237.2
+   ],
+   "pages": [
+    13
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 35,
+   "number": 1,
+   "section": 4,
+   "type": "QCS",
+   "stem": "Which of the following can be seen in the ophthalmopathy of Graves' disease?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Chemosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      59.0,
+      275.8,
+      115.2,
+      285.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Proptosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "C",
+     "text": "Blindness",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "D",
+     "text": "All of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      58.3,
+      311.8,
+      135.7,
+      321.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "orphan_rows_joined_to_option",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 13,
+   "bbox": [
+    40.7,
+    250.2,
+    286.2,
+    381.6
+   ],
+   "pages": [
+    13
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 36,
+   "number": 2,
+   "section": 4,
+   "type": "QCS",
+   "stem": "Papillary cancer of the thyroid",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Is uncommon in children",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      58.7,
+      481.0,
+      175.7,
+      490.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Is the most common thyroid cancer in patients with a history of external radiation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      58.0,
+      492.5,
+      286.9,
+      503.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Occurs more commonly in men",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      58.3,
+      517.0,
+      202.0,
+      528.1
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "All of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      59.4,
+      530.3,
+      136.4,
+      538.9
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_inferred"
+   ],
+   "cut_prefix": "",
+   "page": 13,
+   "bbox": [
+    40.7,
+    467.6,
+    286.9,
+    538.9
+   ],
+   "pages": [
+    13
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "key"
+  },
+  {
+   "i": 37,
+   "number": 3,
+   "section": 4,
+   "type": "QCS",
+   "stem": "There are 7 compartments of lymph nodes in the neck. Metastases from thyroid cancer are uncommon in",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Level I nodes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      59.0,
+      590.8,
+      127.4,
+      600.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Level III nodes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      58.3,
+      602.6,
+      134.3,
+      612.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Level V nodes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      58.3,
+      614.9,
+      131.0,
+      625.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Level VII nodes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      58.3,
+      627.1,
+      136.8,
+      636.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "Total thyroidectomy is the treatment of choice for patients with MTC because of the high incidence of multicentricity the more aggressive course, and the fact that131I therapy usu- ally is not effective. Central compartment nodes frequently are involved early in the disease process, so that a bilateral cen- tral neck node dissection should be routinely performed. In patients with palpable cervical nodes or involved central neck nodes, ipsilateral or bilateral, modified radical neck dissection is recommended. (See Schwartz 9thed., p 1368.) PHPT results from the enlargement of a single gland or parathyroid adenoma in approximately 80% of cases, mul- tiple adenomas or hyperplasia in 15 to 20% of patients, and parathyroid carcinoma in 1% of patients. (See Schwartz 9th ed., p 1377.) Approximately 50% of patients with Graves' disease develop clinically evident ophthalmopathy. Eye symptoms include lid lag (von Graefe's sign), spasm of the upper eyelid revealing the sclera above the corneoscleral limbus (Dalrymple's sign), and a prominent stare, due to catecholamine excess. True in- filtrative eye disease results in periorbital edema, conjunctival swelling and congestion (chemosis), proptosis, limitation of upward and lateral gaze (from involvement of the inferior and medial rectus muscles, respectively), keratitis, and even blind- ness due to optic nerve involvement. The etiology of Graves' ophthalmopathy is not completely known; however, orbital fibroblasts and muscles are thought to share a common an- tigen, the TSHR. Ophthalmopathy is thought to result from inflammation caused by cytokines released from sensitized killer T lymphocytes and cytotoxic antibodies. (See Schwartz 9th ed., p 1353.) Papillary carcinoma accounts for 80% of all thyroid malignan- cies in iodine-sufficient areas and is the predominant thyroid cancer in children and individuals exposed to external radia- tion. Papillary carcinoma occurs more often in women, with a 2:1 female-to-male ratio, and the mean age at presentation is 30 to 40 years. (See Schwartz 9th ed., p 1362.) The thyroid gland is endowed with an extensive network of lymphatics. Intraglandular lymphatic vessels connect both thy- roid lobes through the isthmus and also drain to perithyroidal structures and lymph nodes. Regional lymph nodes include pretracheal, paratracheal, perithyroidal, RLN, superior medi- astinal, retropharyngeal, esophageal, and upper, middle, and lower jugular chain nodes. These lymph nodes can be classified into seven levels as depicted in Fig. 38-6. The central compart- ment includes nodes located in the area between the two carotid sheaths, whereas nodes lateral to the vessels are present in the lateral compartment. Thyroid cancers may metastasize to any of these regions, although metastases to submaxillary nodes (level I) are rare (<1%). There also can be 'skip' metastases to nodes in the ipsilateral neck. (See Schwartz 9th ed., p 1347.) External jugular node Sternocleido- mastoid m. Spinal accessory n. Jugulodigastric node Deep lateral nodes Intercalated node Transverse cervical chain of nodes A Upper jugular nodes Trapezius m. Sternocleidomastoid m. Posterior triangle FG.38-6. A and B. Lymph nodes in e neck can be divided into six regions. evelVIl. m. = muscle; n. = nerve. oper mediastinal nodes constitute B 14 A patient with hypertension is diagnosed with hyperaldos- Answer:C teronism. A CT scan shows bilaterally enlarged adrenals If adrenal hyperplasia is suspected, the algorithm depicted in without a mass. The most appropriate next intervention is Fig. 38-7 is useful. Selective venous catheterization and adre",
+   "inline_answer": "A",
+   "flags": [
+    "number_corrected_from_13"
+   ],
+   "cut_prefix": "",
+   "page": 13,
+   "bbox": [
+    40.3,
+    565.2,
+    286.6,
+    636.8
+   ],
+   "pages": [
+    13
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 38,
+   "number": null,
+   "section": 4,
+   "type": "QCS",
+   "stem": "A patient with hypertension is diagnosed with hyperaldosteronism. A CT scan shows bilaterally enlarged adrenals without a mass. The most appropriate next intervention is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Unilateral adrenalectomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      46.8,
+      604.4,
+      164.9,
+      615.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Bilateral adrenalectomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      46.8,
+      616.3,
+      158.0,
+      627.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Selective venous catheterization",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      47.5,
+      628.9,
+      190.1,
+      639.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Medical management",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      46.4,
+      640.8,
+      149.8,
+      652.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "orphan_rows_joined_to_option",
+    "empty_stem",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": null,
+   "pages": [
+    14
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 39,
+   "number": null,
+   "section": 4,
+   "type": "QCS",
+   "stem": "Papillary thyroid cancer of the clear cell variant is associated with",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cowden's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      73.8,
+      480.6,
+      170.6,
+      492.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Familial adenomatous polyposis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      73.8,
+      493.2,
+      218.2,
+      504.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Werner's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      73.8,
+      505.4,
+      168.8,
+      516.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "McCune-Albright syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      73.8,
+      517.0,
+      204.5,
+      528.1
+     ]
+    }
+   ],
+   "after": "TABLE 38-7 Familial cancer syndromes involving nonmedullary thyroid cancer Syndrome Gene Manifestation Cowden's syndrome PTEN Intestinal hamartomas, benign and malignant breast tumors FAP APC Colon polyps and cancer, duodenal neoplasms, desmoids Werner's syndrome WRN Adult progeroid syndrome Carney complex type 1 PRKAR1a Cutaneous and cardiac myxomas, breast and adrenal tumors McCune-Albright syndrome GNAS1 Polyostotic fibrous dysplasia, endocrine abnormalities, café-au-lait spots FAP = familial adenomatous polyposis; FTC= follicular thyroid cancer; PTC = papillary thyroid cancer. CT scan or MRI Unilateral Bilaterally adrenal tumor abnormal or normal usually 0.5 - 2 cm adrenals in diameter 3",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "text_after_options",
+    "very_long_stem",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 14,
+   "bbox": [
+    292.3,
+    639.7,
+    569.9,
+    0
+   ],
+   "pages": [
+    14,
+    15
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 40,
+   "number": 1,
+   "section": 5,
+   "type": "QCS",
+   "stem": "The initial treatment of choice for Riedel's thyroiditis is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Observation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      56.9,
+      46.8,
+      122.4,
+      56.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Antibiotics",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      57.2,
+      58.3,
+      117.7,
+      68.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Corticosteroids",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      57.2,
+      70.6,
+      134.3,
+      80.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Surgery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      56.2,
+      82.8,
+      104.4,
+      94.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "Nonmedullary thyroid cancers can occur in association with other known familial cancer syndromes such as Cowden's syndrome, Werner's (adult progeroid syndrome), and famil- ial adenomatous polyposis (Table 38-7 See Schwartz 9th ed., p1360.) Thyroid Tumor FTC, rarely PTC and Hürthle cell tumors PTC cribriform growth pattern PTC, FTC, anaplastic cancer PTC, FTC PTC clear cell 6 The initial treatment of choice for Riedel's thyroiditis is",
+   "inline_answer": "D",
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 15,
+   "bbox": [
+    448.2,
+    186.8,
+    551.5,
+    0
+   ],
+   "pages": [
+    15,
+    16
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 41,
+   "number": null,
+   "section": 5,
+   "type": "QCS",
+   "stem": "Which of the following should be the first drug to be started in a patient with a symptomatic pheochromocytoma?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "ACE inhibitor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      58.0,
+      252.0,
+      130.3,
+      262.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Alpha blocker",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      58.7,
+      263.9,
+      130.3,
+      274.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Beta blocker",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      58.0,
+      276.1,
+      123.8,
+      286.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Calcium channel blocker",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      58.3,
+      288.0,
+      173.2,
+      298.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 16,
+   "bbox": [
+    41.8,
+    226.4,
+    285.8,
+    298.4
+   ],
+   "pages": [
+    16
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 42,
+   "number": null,
+   "section": 5,
+   "type": "QCS",
+   "stem": "Following a total thyroidectomy for differentiated thyroid cancer, radioactive iodine ablation would be offered for all of the following patients EXCEPT",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Stage III disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      58.7,
+      469.1,
+      138.6,
+      480.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Stage II disease <45 years of age",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      59.0,
+      481.3,
+      199.4,
+      492.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Stage 1 disease with multifocal disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      59.4,
+      493.6,
+      225.7,
+      504.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Stage 1 disease <45 years of age",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      60.1,
+      506.2,
+      196.6,
+      516.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 16,
+   "bbox": [
+    58.7,
+    432.4,
+    286.9,
+    516.2
+   ],
+   "pages": [
+    16
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "key"
+  },
+  {
+   "i": 43,
+   "number": null,
+   "section": 5,
+   "type": "QCS",
+   "stem": "Which of the following organisms is a common cause of acute (suppurative) thyroiditis?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Escherichia coli",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      59.4,
+      553.7,
+      135.0,
+      563.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Pseudomonas aeruginous",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      58.0,
+      565.6,
+      174.2,
+      576.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Streptococcus species",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      60.1,
+      578.5,
+      155.2,
+      588.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Staphylococcus aureus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      58.7,
+      589.7,
+      162.4,
+      600.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "Riedel's thyroiditis is a rare variant of thyroiditis also known as Riedel's struma or invasive fibrous thyroiditis that is character- ized by the replacement of all or part of the thyroid parenchy- ma by fibrous tissue, which also invades into adjacent tissues. Surgery is the mainstay of the treatment for Riedel's thy- roiditis. The chief goal of operation is to decompress the tra- chea by wedge excision of the thyroid isthmus and to make a tissue diagnosis. More extensive resections are not advised due to the infiltrative nature of the fibrotic process that ob- scures usual landmarks and structures. Hypothyroid patients are treated with thyroid hormone replacement. Some patients CHAPTER 38 who remain symptomatic have been reported to experience dramatic improvement after treatment with corticosteroids and tamoxifen. (See Schwartz 9thed., p 1357.) Alpha blockers such as phenoxybenzamine are started 1 to 3 weeks before surgery at doses of 10 mg twice daily, which may be increased to 300 to 400 mg/d with rehydration. Patients should be warned about orthostatic hypotension. Other alpha blockers such as prazosin and other classes of drugs such as ACE inhibitors and calcium channel blockers are also useful. Thyroid, Parathyroid, and Adrenal Beta blockers such as propranolol at doses of 10 to 40 mg every 6 to 8 hours often need to be added preoperatively in patients who have persistent tachycardia and arrhythmias. Beta block- ers should only be instituted after adequate alpha blockade and hydration to avoid the effects of unopposed alpha stimulation, (i.e., hypertensive crisis and congestive heart failure). Patients also should be volume repleted preoperatively to avoid post- operative hypotension, which ensues with the loss of vasocon- striction after tumor removal. (See Schwartz 9th ed., p 1399.) RAI ablation currently is recommended for allpatients with stage III or IV disease, all patients with stage II disease younger than 45 years old, most patients 45 years or older with stage II disease, and patients with stage I disease who have aggres- sive histologies, nodal metastases, multifocal disease, and ex- trathyroid or vascular invasion. (See Schwartz 9th ed., p 1365.) The thyroid gland is inherently resistant to infection due to its extensive blood and lymphatic supply, high iodide content, and fibrous capsule. However, infectious agents can seed it (a) via the hematogenous or lymphatic route, (b) via direct spread from persistent pyriform sinus fistu- lae or thyroglossal duct cysts, (c) as a result of penetrating trauma to the thyroid gland, or (d) due to immunosuppres- sion. Streptococcus and anaerobes account for about 70% of cases; however, other species also have been cultured. Acute suppurative thyroiditis is more common in children and often is preceded by an upper respiratory tract infec- tion or otitis media. It is characterized by severe neck pain radiating to the jaws or ear, fever, chills, odynophagia, and dysphonia. Complications such as systemic sepsis, tracheal or esophageal rupture, jugular vein thrombosis, laryngeal chondritis, and perichondritis or sympathetic trunk paral- ysis may also occur. (See Schwartz 9th ed., p 1356.) 20. Thyroidectomy should be recommended for patients with Graves' disease who",
+   "inline_answer": "C",
+   "flags": [
+    "unnumbered",
+    "option_out_of_order_B"
+   ],
+   "cut_prefix": "",
+   "page": 16,
+   "bbox": [
+    58.3,
+    528.5,
+    288.4,
+    600.8
+   ],
+   "pages": [
+    16
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 44,
+   "number": null,
+   "section": 5,
+   "type": "QCS",
+   "stem": "Thyroidectomy should be recommended for patients with Graves' disease who",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Are of the male gender",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      59.4,
+      63.0,
+      164.9,
+      74.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Are >55 years of age",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      59.0,
+      75.6,
+      154.4,
+      86.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Have large asymptomatic goiters",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      59.0,
+      87.1,
+      203.8,
+      98.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Have a suspicious thyroid nodule",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      59.0,
+      98.6,
+      205.6,
+      109.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "empty_stem",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": null,
+   "pages": [
+    17
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 45,
+   "number": null,
+   "section": 5,
+   "type": "QCS",
+   "stem": "Which of the following is an indication for surgery in patients with secondary hyperparathyroidism?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Calciphylaxis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      60.5,
+      231.1,
+      130.0,
+      240.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "PTH>250",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      59.8,
+      242.3,
+      118.1,
+      253.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Progressive renal failure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      59.8,
+      253.8,
+      172.1,
+      265.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "None of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 17,
+   "bbox": [
+    12.6,
+    142.2,
+    287.3,
+    265.7
+   ],
+   "pages": [
+    17
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 46,
+   "number": null,
+   "section": 5,
+   "type": "QCS",
+   "stem": "Thyroglossal duct cysts are most commonly located",
+   "options": [
+    {
+     "letter": "A",
+     "text": "On the anterior border of the sternocleidomastoid muscle",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      61.6,
+      446.4,
+      289.1,
+      457.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "In the midline at the level of the hyoid",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      61.2,
+      470.5,
+      226.4,
+      481.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Over the medial clavicular head",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      61.9,
+      483.1,
+      204.1,
+      494.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "In the midline just superior to the thyroid gland",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      61.6,
+      494.6,
+      266.4,
+      506.9
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "In North America, surgery is recommended when RAI is con- traindicated as in patients who (a) have confirmed cancer or suspicious thyroid nodules, (b) are young, (c) are pregnant or desire to conceive soon after treatment, (d) have had severe reactions to antithyroid medications, (e) have large goiters causing compressive symptoms, and (f) are reluctant to un- dergo RAI therapy. Relative indications for thyroidectomy include patients, particularly smokers, with moderate to se- vere Graves' ophthalmopathy, those desiring rapid control of hyperthyroidism with a chance of being euthyroid, and those demonstrating poor compliance to antithyroid medications. (See Schwartz 9thed., p 1355.) Surgical treatment in secondary hyperparathyroidism was traditionally recommended for patients with bone pain, pru- ritus, and (a) a calcium-phosphate product ≥70, (b) calcium >11 mg/dL with markedly elevated PTH, (c) calciphylaxis, (d) progressive renal osteodystrophy, and Thyroglossal duct cysts are the most commonly encountered congenital cervical anomalies. During the fifth week of gesta- tion, the thyroglossal duct lumen starts to obliterate, and the duct disappears by the eighth week of gestation. Rarely, the thyroglossal duct may persist in whole, or in part. Thyroglossa duct cysts may occur anywhere along the migratory path the thyroid although 80% are found in juxtaposition to the hyoid bone. The thyroid gland arises as an outpouching of the primitiv foregut around the third week of gestation. It originates at the base of the tongue at the foramen cecum. Endoderm cells i the floor of the pharyngeal anlage thicken to form the media thyroid anlage (Fig. 38-8) that descends in the neck anterior structures that form the hyoid bone and larynx. During its d scent, the anlage remains connected to the foramen cecum an epithelial-lined tube known as the thyroglossal duct. (S Schwartz 9thed., p 1344.) 3rd pouch FIG. 38-8. Thyroid embryology-early development of the median thyroid anlage as a pharyngeal pouch. (Reproduced with permission from Embryology and developmental abnormalities, in Cady B, Rossi R (eds): Surgery of the Thyroid and Parathyroid Glands. Philadelphia: WB Saunders, 1991, p 6.) 23. Which of the following syndromes is NOT typically Answer: A associated with an increased risk of pheochromocytoma? Pheochromocytomas occur in families with MEN2A and",
+   "inline_answer": "B",
+   "flags": [
+    "unnumbered",
+    "option_out_of_order_D",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 17,
+   "bbox": [
+    13.0,
+    227.5,
+    549.4,
+    506.9
+   ],
+   "pages": [
+    17
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 47,
+   "number": null,
+   "section": 5,
+   "type": "QCS",
+   "stem": "Which of the following syndromes is NOT typically associated with an increased risk of pheochromocytoma?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Familial adenomatous polyposis syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 18,
+     "bbox": [
+      43.9,
+      347.4,
+      231.5,
+      358.9
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Carney's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 18,
+     "bbox": [
+      45.0,
+      360.7,
+      136.8,
+      371.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "von Hippel-Lindau syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 18,
+     "bbox": [
+      45.4,
+      371.9,
+      178.6,
+      383.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Sturge-Weber syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 18,
+     "bbox": [
+      45.7,
+      384.5,
+      158.0,
+      395.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": "A",
+   "flags": [
+    "unnumbered",
+    "orphan_rows_joined_to_option",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 17,
+   "bbox": [
+    304.6,
+    311.4,
+    549.7,
+    0
+   ],
+   "pages": [
+    17,
+    18
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 48,
+   "number": null,
+   "section": 5,
+   "type": "QCS",
+   "stem": "The most common cause of hyperthyroidism is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Graves' disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 18,
+     "bbox": [
+      46.4,
+      627.5,
+      122.4,
+      637.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Toxic multinodular goiter",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 18,
+     "bbox": [
+      46.4,
+      639.7,
+      164.5,
+      650.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Plummer's disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 18,
+     "bbox": [
+      46.8,
+      652.0,
+      135.4,
+      662.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Thyroiditis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 18,
+     "bbox": [
+      46.8,
+      663.5,
+      106.2,
+      675.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "orphan_rows_joined_to_option",
+    "very_long_stem",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 18,
+   "bbox": [
+    289.1,
+    380.9,
+    538.6,
+    675.4
+   ],
+   "pages": [
+    18
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 49,
+   "number": null,
+   "section": 5,
+   "type": "QCS",
+   "stem": "The most common adrenal mass incidentally found on CT scan (adrenal incidentaloma) is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Adrenal cyst",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 19,
+     "bbox": [
+      65.9,
+      224.3,
+      132.1,
+      235.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Adrenal hemorrhage",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 19,
+     "bbox": [
+      64.4,
+      235.8,
+      164.5,
+      247.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Cortical adenoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 19,
+     "bbox": [
+      64.8,
+      248.4,
+      153.0,
+      258.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Myelolipoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 18,
+   "bbox": [
+    290.9,
+    660.2,
+    564.5,
+    0
+   ],
+   "pages": [
+    18,
+    19
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 50,
+   "number": null,
+   "section": 5,
+   "type": "QCS",
+   "stem": "Which of the following would be the best initial treatment of a symptomatic lingual thyroid?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Intravenous thyroxine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 19,
+     "bbox": [
+      65.2,
+      458.6,
+      169.9,
+      468.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Radioactive iodine ablation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 19,
+     "bbox": [
+      64.4,
+      470.2,
+      190.1,
+      479.9
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "External beam radiation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 19,
+     "bbox": [
+      65.2,
+      482.8,
+      177.8,
+      492.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Local surgical excision",
+     "bold": 0.0,
+     "color": 0.08,
+     "marks": [
+      "tint"
+     ],
+     "page": 19,
+     "bbox": [
+      65.5,
+      495.4,
+      170.6,
+      505.1
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "The differential diagnosis of adrenal incidentalomas is shown in Table 38-9. Nonfunctional cortical adenomas ac- count for the majority (36 to 94%) of adrenal incidentalo- mas in patients without a history of cancer. (See Schwartz 9th ed., p 1401.) TABLE 38-9 Differential diagnosis of adrenal incidentaloma Functioning Lesions Nonfunctioning Lesions Benign Benign Aldosteronoma Cortical adenoma Cortisol-producing adenoma Myelolipoma Sex-steroid-producing adenoma Cyst Pheochromocytoma Ganglioneuroma Hemorrhage Malignant Malignant Adrenocortical cancer Metastasis Malignant pheochromocytoma Adrenocortical cancer A lingual thyroid represents a failure of the median thyroid anlage to descend normally and may be the only thyroid tis- sue present. Intervention becomes necessary for obstructive symptoms such as choking, dysphagia, airway obstruction, or hemorrhage. Many of these patients develop hypothy- roidism. Medical treatment options include administration of exogenous oral thyroid hormone to suppress thyroid- stimulating hormone (TSH) and radioactive iodine (RAI) ablation followed by hormone replacement. Surgical exci- sion is rarely needed but, if required, should be preceded by an evaluation of normal thyroid tissue in the neck to avoid inadvertently rendering the patient hypothyroid. (See Schwartz 9thed., p 1345.) 27.A patient is noted to have an adrenal mass on CT scan. Which of the followingCT findings is most suggestive of adrenal cancer?",
+   "inline_answer": "B",
+   "flags": [
+    "unnumbered",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 19,
+   "bbox": [
+    16.6,
+    222.5,
+    550.8,
+    505.1
+   ],
+   "pages": [
+    19
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 51,
+   "number": null,
+   "section": 5,
+   "type": "QCS",
+   "stem": "A patient is noted to have an adrenal mass on CT scan. Which of the following CT findings is most suggestive of adrenal cancer?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Tumor heterogeneity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 20,
+     "bbox": [
+      52.2,
+      71.3,
+      152.3,
+      82.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Adjacent lymphadenopathy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 20,
+     "bbox": [
+      51.8,
+      83.5,
+      178.2,
+      94.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Size >6 cm",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 20,
+     "bbox": [
+      52.2,
+      95.8,
+      110.5,
+      105.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Lesion enhancement",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 20,
+     "bbox": [
+      51.8,
+      107.6,
+      151.6,
+      117.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 19,
+   "bbox": [
+    441.4,
+    61.6,
+    554.4,
+    0
+   ],
+   "pages": [
+    19,
+    20
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 52,
+   "number": 8,
+   "section": 5,
+   "type": "QCS",
+   "stem": "The most sensitive test to diagnose a pheochromocytoma is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Plasma vanillylmandellic acid (VMA)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 20,
+     "bbox": [
+      51.8,
+      289.4,
+      218.9,
+      300.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Urinary vanillylmandellic acid (VMA)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 20,
+     "bbox": [
+      52.9,
+      301.7,
+      221.8,
+      312.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Plasma metanephrines",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 20,
+     "bbox": [
+      52.9,
+      314.3,
+      159.5,
+      325.1
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Urinary metanephrines",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 20,
+     "bbox": [
+      51.5,
+      325.4,
+      162.7,
+      337.7
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 20,
+   "bbox": [
+    36.7,
+    277.2,
+    278.3,
+    337.7
+   ],
+   "pages": [
+    20
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "key"
+  },
+  {
+   "i": 53,
+   "number": 9,
+   "section": 5,
+   "type": "QCS",
+   "stem": "Thyroid hormone production is inhibited by",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Epinephrine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 20,
+     "bbox": [
+      53.3,
+      448.2,
+      117.7,
+      458.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Glucocorticoids",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 20,
+     "bbox": [
+      51.8,
+      459.7,
+      131.8,
+      469.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Human chorionic gonadotrophin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 20,
+     "bbox": [
+      52.2,
+      471.2,
+      200.9,
+      482.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Alphafetoprotein",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 20,
+     "bbox": [
+      51.1,
+      483.8,
+      136.1,
+      495.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 20,
+   "bbox": [
+    37.1,
+    434.5,
+    230.0,
+    495.4
+   ],
+   "pages": [
+    20
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 54,
+   "number": null,
+   "section": 5,
+   "type": "QCS",
+   "stem": "Which of the following should be the first diagnostic test ordered in a patient with a solitary thyroid nodule?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Radioactive iodine scan",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 20,
+     "bbox": [
+      51.5,
+      593.3,
+      162.0,
+      603.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "CT or MRI",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 20,
+     "bbox": [
+      51.8,
+      605.9,
+      111.6,
+      616.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Fine needle aspiration",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 20,
+     "bbox": [
+      52.2,
+      618.5,
+      155.2,
+      629.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Core needle biopsy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 20,
+     "bbox": [
+      51.1,
+      630.7,
+      143.3,
+      641.9
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "The size of the adrenal mass on imaging studies is the single most important criterion to help diagnose malignancy. In the series reported by Copeland, 92% of adrenal cancers were >6 cm in diameter. The sensitivity, specificity, and like- lihood ratio of tumor size in predicting malignancy (based on Surveillance; Epidemiology, and End Results program data) was recently reported as 96%, 51%, and 2 for tumors ≥4 cm; and 90%, 78%, and 4.1 for tumors ≥6 cm. Other CT imaging characteristics suggesting malignancy include tu- mor heterogeneity, irregular margins, and the presence of hemorrhage and adjacent lymphadenopathy or liver metas- tases. Moderately bright signal intensity on Tz-weighted im- CHAPTER 38 ages (adrenal mass to liver ratio 1.2:2.8), significant lesion enhancement, and slow washout after injection of gado- linium contrast also indicate malignancy, as does evidence of local invasion into adjacent structures such as the liver, blood vessels (IVC), and distant metastases. (See Schwartz 9th ed., p 1397.) Recent studies have shown that plasma metanephrines are the most reliable tests to identify pheochromocytomas, with sen- Thyroid, Parathyroid, and Adrenal sitivity approaching 100%. Urinary metanephrines are 98% sensitive and also are high- ly specific for pheochromocytomas, whereas VMA measure- ments are slightly less sensitive and specific. False-positive VMA tests may result from ingestion of caffeine, raw fruits, or medications (α-methyldopa).Fractionated urinary cat- echolamines(norepinephrine, epinephrine, and dopamine) also are very sensitive but less specific for pheochromocy- tomas. (See Schwartz 9thed., p1399.) Epinephrine and human chorionic gonadotrophin hor- mones stimulate thyroid hormone production. Thus, el- evated thyroid hormone levels are found in pregnancy and gynecologic malignancies such as hydatidiform mole. In contrast, glucocorticoids inhibit thyroid hormone produc- tion. In severely ill patients, peripheral thyroid hormones may be reduced, without a compensatory increase in TSH levels, giving rise to the euthyroid sick syndrome. (See Schwartz 9thed., p 1348.) FNAB has become the single most important test in the evaluation of thyroid masses and can be performed with or without ultrasound guidance. (See Schwartz 9th ed., p 1360, and Fig. 38-9.) Solitary thyroid nodule FNAB a CHAPTER 38 Nondiagnostic Repeat FNAB Benign Cyst nodule Colloid Aspirate consider T4 therapy Observe Thyroid, Parathyroid, and Adrenal Reaccumulates ↓ X3 Continued growth compressive symptoms +/- FNAB Thyroidectomy FIG. 38-9. Management of a solitary thyroid nodule. a = except in patients with a history of external radiation exposure or a family history of thyroid cancer; FNAB = fine-needle aspiration biopsy; RAl = radioactive iodine; T = thyroxine. 31.Which of the following cancers does NOT occur in thy- roglossal duct cysts?",
+   "inline_answer": "C",
+   "flags": [
+    "unnumbered",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 20,
+   "bbox": [
+    35.3,
+    568.4,
+    280.4,
+    641.9
+   ],
+   "pages": [
+    20
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  },
+  {
+   "i": 55,
+   "number": null,
+   "section": 5,
+   "type": "QCS",
+   "stem": "Which of the following cancers does NOT occur in thyroglossal duct cysts?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Papillary thyroid cancer",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 21,
+     "bbox": [
+      65.2,
+      437.0,
+      178.9,
+      448.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Follicular thyroid cancer",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 21,
+     "bbox": [
+      65.2,
+      448.9,
+      181.1,
+      460.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Medullary thyroid cancer",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 21,
+     "bbox": [
+      65.5,
+      460.8,
+      185.0,
+      473.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hürthle cell cancer",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 21,
+     "bbox": [
+      65.9,
+      473.0,
+      159.5,
+      484.2
+     ]
+    }
+   ],
+   "after": "Malignant Thyroidectomy RAl scan \"hot\" \"cold\" + W RAI or Thyroidectomy thyroidectomy",
+   "exp": "Approximately 1% of thyroglossal duct cysts are found to contain cancer, which is usually papillary (85%).The role of total thyroidectomy in this setting is controversial, but is advised in older patients with large tumors, particular- ly if there are additional thyroid nodules and evidence of cyst wall invasion or lymph node metastases. Squamous, Hürthle cell, and anaplastic cancers also have been reported but are rare. Medullary thyroid cancers (MTCs) are, how- ever, not found in thyroglossal duct cysts. (See Schwartz 9th ed., p1344.)",
+   "inline_answer": "C",
+   "flags": [
+    "unnumbered",
+    "text_after_options",
+    "empty_stem",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": null,
+   "pages": [
+    21
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "inline answer line"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "inline answer line"
+  }
+ ]
+}

@@ -1,6 +1,7 @@
-# Diabetic drugs questions — extracted questions
+# mcq on diabetic drugs — extracted questions
 
-Source: mcq on diabetic drugs.docx
+> Source: `mcq on diabetic drugs.docx` · index 15 · parsed 2026-09-26 by mbset.py
+> Questions: 10 (10 MCQ / 0 written) · answers: marked 10
 
 ### Q1: Which class of antidiabetic drugs works by increasing insulin sensitivity in muscle and adipose tissue?
 
@@ -9,12 +10,13 @@ Source: mcq on diabetic drugs.docx
 - **C)** Thiazolidinediones
 - **D)** DPP-4 inhibitors
 
-**Correct Answer:** C
-**Answer Source:** derived
+**Correct Answer:** B
+**Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
-### Q2: Which antidiabetic drug is known to cause weight gain and hypoglycemia as common side effects?
+### Q2: Which of the following antidiabetic drugs is known to cause weight gain and hypoglycemia as common side effects?
 
 - **A)** Metformin
 - **B)** Sitagliptin
@@ -22,7 +24,8 @@ Source: mcq on diabetic drugs.docx
 - **D)** Pioglitazone
 
 **Correct Answer:** C
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
@@ -34,7 +37,8 @@ Source: mcq on diabetic drugs.docx
 - **D)** Alpha-glucosidase inhibitors
 
 **Correct Answer:** C
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
@@ -46,11 +50,12 @@ Source: mcq on diabetic drugs.docx
 - **D)** Empagliflozin
 
 **Correct Answer:** A
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
-### Q5: Which antidiabetic medication inhibits DPP-4, increasing insulin release and decreasing glucagon levels?
+### Q5: Which antidiabetic medication acts by inhibiting the enzyme DPP-4, thereby increasing insulin release and decreasing glucagon levels?
 
 - **A)** Saxagliptin
 - **B)** Metformin
@@ -58,11 +63,12 @@ Source: mcq on diabetic drugs.docx
 - **D)** Canagliflozin
 
 **Correct Answer:** A
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
-### Q6: Which class of antidiabetic drugs blocks reabsorption of glucose in the kidneys?
+### Q6: Which class of antidiabetic drugs works by blocking the reabsorption of glucose in the kidneys?
 
 - **A)** SGLT2 inhibitors
 - **B)** Alpha-glucosidase inhibitors
@@ -70,11 +76,12 @@ Source: mcq on diabetic drugs.docx
 - **D)** Biguanides
 
 **Correct Answer:** A
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
-### Q7: Which medication is a common alpha-glucosidase inhibitor that slows carbohydrate absorption in the intestine?
+### Q7: Which medication is a common alpha-glucosidase inhibitor that works by slowing carbohydrate absorption in the intestine?
 
 - **A)** Acarbose
 - **B)** Glyburide
@@ -82,11 +89,12 @@ Source: mcq on diabetic drugs.docx
 - **D)** Metformin
 
 **Correct Answer:** A
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
-### Q8: Which antidiabetic medication is known for a potential rare risk of bladder cancer?
+### Q8: Which antidiabetic medication is known for its potential to cause bladder cancer as a rare side effect?
 
 - **A)** Metformin
 - **B)** Pioglitazone
@@ -94,11 +102,12 @@ Source: mcq on diabetic drugs.docx
 - **D)** Exenatide
 
 **Correct Answer:** B
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
-### Q9: Which medication is a rapid-acting insulin analog used to manage postprandial blood glucose?
+### Q9: Which medication is a rapid-acting insulin analog used to manage postprandial blood glucose levels?
 
 - **A)** Lispro
 - **B)** NPH insulin
@@ -106,7 +115,8 @@ Source: mcq on diabetic drugs.docx
 - **D)** Detemir
 
 **Correct Answer:** A
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
@@ -118,6 +128,7 @@ Source: mcq on diabetic drugs.docx
 - **D)** DPP-4 inhibitors
 
 **Correct Answer:** B
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 1
 
 ---

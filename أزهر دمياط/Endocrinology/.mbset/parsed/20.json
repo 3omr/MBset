@@ -1,0 +1,277 @@
+{
+ "nn": "20",
+ "source": "Raw_PDF_Questions/Endocrinology Final Exam 2023..pdf",
+ "sha256": "0193eaf315e6deddb2f3c8da993b146a913348e7e626e8a4fbe3e79856d7e4d7",
+ "at": "2026-09-26T05:04:34Z",
+ "layout": {
+  "method": "native",
+  "splits": {
+   "1": null
+  }
+ },
+ "counters": {
+  "source_numbering": 1,
+  "sections": [
+   "5-5"
+  ],
+  "option_a_lines": 0,
+  "parsed_questions": 8,
+  "parsed_numbered": 0,
+  "declared_total": null
+ },
+ "gaps": [],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [],
+  "grid_hits": 0,
+  "style_stats": {},
+  "marked_hits": 0,
+  "answered": 0,
+  "mcq": 0,
+  "at": "2026-09-26T05:04:34Z"
+ },
+ "distribution": {},
+ "dropped_lines": [],
+ "dropped_count": 0,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 0,
+  "dropped": [],
+  "stale": []
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Indications of insulin.",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    87.14399719238281,
+    75.74002075195312,
+    232.51504516601562,
+    86.78002166748047
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 2,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Complications of hyperparathyroidism.",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    87.14399719238281,
+    122.32998657226562,
+    324.21502685546875,
+    133.36997985839844
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 3,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Compare between 1ry & 2ry hypoadrenalism ( causes, clinical picture, investigations & treatment 2.5 marks ).",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "figure_dependent",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    87.14399719238281,
+    168.64999389648438,
+    535.3016967773438,
+    194.3300018310547
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 4,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Enumerate risk factors of diabetic nephropathy & how to screen & treat.",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    87.14399719238281,
+    229.62997436523438,
+    474.5050354003906,
+    240.6699676513672
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 5,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Define precocious puberty, subclinical hypothyroidism & metabolic syndrome.",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    87.14399719238281,
+    276.19000244140625,
+    487.2450256347656,
+    287.2300109863281
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 6,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Mention one clinical benefit of SGLT inhibitors, carbimazole, GLP-1 analogues & pioglitazone.",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    87.14399719238281,
+    322.7799987792969,
+    527.19873046875,
+    348.2200012207031
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 7,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Enumerate manifestations of congenital hypothyroidism.",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    87.14399719238281,
+    383.760009765625,
+    405.1150207519531,
+    394.8000183105469
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 8,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Enumerate types & clinical manifestations of malignant thyroid.",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    87.14399719238281,
+    430.0799865722656,
+    434.905029296875,
+    441.1199951171875
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  }
+ ]
+}

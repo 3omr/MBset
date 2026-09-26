@@ -1,0 +1,32 @@
+# Parser profile for 01 — Endocrine WRITTEN Qs part.2.pdf
+# class=scanned pages=11 has_text=False columns=None bold_ratio=0.02 mark_rects=62
+# signals={'moodle': 0, 'docreader_quiz': None, 'phone': 0, 'question_numbers': 0, 'option_lines': 0, 'grid_pairs_tail': 0, 'declared_total': None, 'figure_words': 0}
+# Only fields that differ from the template/DEFAULT are needed. Field reference:
+#   .agents/skills/mbset-module-curator/references/profiles.md
+source: Raw_PDF_Questions/Endocrine WRITTEN Qs part.2.pdf
+template: written_only
+pages: '4,7'
+numbering: none
+type: written
+ocr:
+  dpi: 110
+  psm: 6
+written:
+  answer_marker: '^\s*answer\s*[.:-]?\s*$'
+skip_patterns:
+  - '^ID A'
+  - 'Sol tovy ty'
+  - 'Neuropsychiatric initability'
+  - 'SUSPENSION'
+  - 'Neuropsychiatric irritability'
+  - 'with cardiac manifest'
+  - 'metabolic symptoms'
+  - 'thyroid function test is mandatory'
+  - 'SCREENING:'
+  - 'CONFIRMATORY:'
+  - 'IDENTIFY CAUSE:'
+  - 'Graves:'
+  - 'Thyrotoxicosis \+ hyperthyroidism'
+  - 'RIU \(not confirm'
+  - 'Thyroiditis: decrease RIU'
+  - 'isotope scanning: confirm site'

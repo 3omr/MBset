@@ -1,0 +1,4290 @@
+{
+ "nn": "32",
+ "source": "Raw_PDF_Questions/Endocrine surgery.pdf",
+ "sha256": "c7629035fb86573ca23f1c9bf1f412c34f1b02bd405a888f8e0ac0088e59acb7",
+ "at": "2026-09-26T15:56:52Z",
+ "layout": {
+  "method": "ocr",
+  "splits": {
+   "1": null,
+   "2": null,
+   "3": null,
+   "4": null,
+   "5": null,
+   "6": null,
+   "7": null,
+   "8": null,
+   "9": null,
+   "10": null,
+   "11": null,
+   "12": null,
+   "13": null
+  }
+ },
+ "counters": {
+  "source_numbering": 38,
+  "sections": [
+   "1-38"
+  ],
+  "option_a_lines": 38,
+  "parsed_questions": 45,
+  "parsed_numbered": 38,
+  "declared_total": null
+ },
+ "gaps": [
+  "section 1: missing [20]"
+ ],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [],
+  "grid_hits": 0,
+  "style_stats": {
+   "bold": 0.0,
+   "color": 0.135,
+   "tick": 0.0,
+   "highlight": 0.0,
+   "fill": 0.0,
+   "tint": 0.288,
+   "ink": 0.0,
+   "circle": 0.0,
+   "box": 0.0,
+   "underline": 0.0
+  },
+  "marked_hits": 24,
+  "answered": 37,
+  "mcq": 37,
+  "at": "2026-09-26T15:56:52Z"
+ },
+ "distribution": {
+  "A": 0.243,
+  "B": 0.135,
+  "C": 0.216,
+  "D": 0.324,
+  "E": 0.081
+ },
+ "dropped_lines": [
+  "Scanned with CamScanner",
+  "-",
+  "Scanned with CamScanner",
+  "Scanned with CamScanner",
+  "-",
+  ",",
+  "Scanned with CamScanner",
+  "Scanned with CamScanner",
+  ".",
+  "Scanned with CamScanner",
+  "Scanned with CamScanner",
+  "Scanned with CamScanner",
+  "Scanned with CamScanner",
+  "Scanned with CamScanner",
+  "•••",
+  ".",
+  "Scanned with CamScanner",
+  "Scanned with CamScanner",
+  "Scanned with CamScanner",
+  "Choose the single best answer"
+ ],
+ "dropped_count": 20,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 20,
+  "dropped": [
+   {
+    "stem": "COPYRIGHT 2011- PrOf. AHMED EL-BISHRY & Prof. AMA MOHSEN Page 50 Chapter (7 ) ENDOCRINE SURGERY Tetany may be manifest o",
+    "reason": "duplicate of the post-thyroidectomy hypoparathyroidism question (overlapping scan p10-11) with its explanation text only"
+   }
+  ],
+  "stale": [
+   "correctanswer"
+  ],
+  "added": 0
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": 1,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About APuD cells, all the following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "These are of ectadermal origin arising from the neural crest.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      137.2,
+      45.7,
+      352.4,
+      55.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Neoplasms of APUD cells may occur simultaneously in different organs.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      137.2,
+      55.1,
+      389.5,
+      65.9
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "APUD cell neoplasms are always malignant.",
+     "bold": 0.0,
+     "color": 0.62,
+     "marks": [
+      "tint"
+     ],
+     "page": 0,
+     "bbox": [
+      134.6,
+      63.4,
+      350.3,
+      78.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "APUD cells are present in the islets of Langerhans.",
+     "bold": 0.0,
+     "color": 0.28,
+     "marks": [
+      "tint"
+     ],
+     "page": 0,
+     "bbox": [
+      137.2,
+      75.6,
+      318.2,
+      84.2
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "APUD cells are present in the adrenal medulla.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      136.8,
+      84.6,
+      306.0,
+      94.3
+     ]
+    }
+   ],
+   "after": "C. APUD is an acronym that stands for the ability of these cells for Amlne Precursor Uptake, and then thelr Decarboxylatlon to produce a variety of hormones. These are endocrine cells of ectoderrmal origin arlising from the neural crest and migrate during Intrauterine life to different organs In the body. APUDomas may be isolated or occur in groups; the so called multiple endocrine neoplasia (MEN) syndromes. An APuDoma may be benign or malignant. The majority of Insufinomas and pheochromocytomas are benign.",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_C",
+    "option_out_of_order_C",
+    "text_after_options",
+    "low_ocr_confidence",
+    "several_options_with_tint",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    126.0,
+    36.0,
+    389.5,
+    94.3
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 2,
+   "number": 2,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About multiple endocrine neoplasia (MEN) syndromes, all the following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The syndromes are non-hereditary.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      126.7,
+      251.6,
+      327.6,
+      261.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Neoplasms may be benign or malignant.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "C",
+     "text": "Islet cell tumours of the pancreas are part of MEN I.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      134.6,
+      214.9,
+      325.1,
+      223.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Medullary carcinoma of the thyroid is part of MEN II.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "E",
+     "text": "Pheochromocytoma is part of MEN II.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "MEN I (Wermer's syndrome) Parathyroid hyperplasia. Islet cell tumours of the Pancreas (gastrinoma, or insulinoma) Anterior Pitultary tumours (usually chromophobe adenoma) MEN II MEN IIa (SIpple's syndrome) Medullary carclnoma of the thyroid. Pheochromocytoma. Parathyroid hyperplasia. MEN lIb medullary carcinama of thyroid. Pheochromocytoma. Mucosal neuromas. As seen above, some of the neoplasms are benign while others are malignant e.E., medullary thyrold cancer and the majority of gastrinomas. The symdromes even contain parathyrold hyperplasia.",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_out_of_order_E",
+    "orphan_rows_joined_to_option",
+    "text_after_options",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    126.7,
+    175.7,
+    423.7,
+    261.7
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 3,
+   "number": 3,
+   "section": 1,
+   "type": "QROC",
+   "stem": "About the thyroid gland, one statement only Is true: AThyroid follcular tissue arises from the third pharyngeal pouch. COPYRIGHT 2011- Prof. AHMED EL-BISHRY & Prof. AMR MOHSEN Page 41 URGERY The parafollicular C cells arise from the floor of the developing pharynx. The thyroglossal duct is normally patent during the first few years of life. Thyroglobulin is stored in colloid that is present inside the thyroid follicies. D. The thyrold develops as praliferatlon of epithelial cells in the floor of the developing The parafollicular cells secrete thyroid stimulating hormone. FO pharynx (the thyroglossal duct) at a point that Iis indicated by the foramen caecum depresslon at the base of the tongue. As the thyroid primordium descends, It unites ultimobran:bial body whlch arises on either side from the (fourth) pharynp Parafollicular (C-cells) are derived from the neural crest and reach the thy ultimabranchlal body. After the thyroid reaches its definltlve location In the lov connecting thyroglossal duct undergoes obliteration. The thyrold follicles secrete thyroid hormones. They are stored as thyroglobulin that is present in theses follicles. The parafollicular C cells secrete the hormone calciton. 4 Ahout snatomu of the thur. URGERY The parafollcular C cells arise from the floor of the developing pharynx. The thyroglossal duct is normally patent during the first few years of life. D. Thyroglobulin is stored in colloid that is present inside the thyroid follicles. EThe parafollicular cells secrete thyroid stimulating hormone. D. The thyrold develops as proliferatlon of epithelial cells In the floor of the developing pharynx (the thyroglossal duct) at a polnt that is indicated by the foramen caecum, a depression at the base of the tongue. As the thyroid primordium descends, it unites with the ultimobrancbial body which arises on either side from the (fourth) pharyngeal pouch. Parafolliculiar (C-cells) are derived from the neural crest and reach the thyroid via the ultimobranchial body. After the thyroid reaches its definitive locatlon in the lower neck, the connecting thyroglossal duct undergoes obliteration. The thyrold follicles secrete thyroid hormones. They are stored as thyroglobulln In a colloid that is present In theses follicles. The parafollicular C cells secrete the hormone calcitonin.",
+   "options": [],
+   "after": "",
+   "exp": "Thyroglobulin is stored in the colloid inside thyroid follicles. Thyroid follicular cells arise from endoderm of the pharyngeal floor near the foramen caecum and descend to the lower neck; the thyroglossal duct normally obliterates. Parafollicular C cells derive from neural crest via the ultimobranchial body and secrete calcitonin.",
+   "inline_answer": null,
+   "flags": [
+    "option_out_of_order_D",
+    "very_long_stem",
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    128.9,
+    419.0,
+    495.0,
+    793.8
+   ],
+   "pages": [
+    0,
+    1
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null,
+   "exp_source": "key"
+  },
+  {
+   "i": 4,
+   "number": 4,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About anatomy of the thyroid gland, one statement only is true:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The thyroid is enclosed within the prevertebral fascla.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      181.4,
+      229.0,
+      378.4,
+      238.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "The sternomastoid muscles lie anterior to the thyroid.",
+     "bold": 0.0,
+     "color": 0.68,
+     "marks": [
+      "tint"
+     ],
+     "page": 1,
+     "bbox": [
+      181.8,
+      238.7,
+      379.1,
+      248.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "G The thyroid gland extends up to the level of the hyoid bone.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      178.2,
+      248.0,
+      399.6,
+      260.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Lymphatic drainage of the thyrold gland goes primarily to the submandibular lymph nodes.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      180.4,
+      258.8,
+      473.0,
+      269.6
+     ]
+    }
+   ],
+   "after": "The carotid sheath crosses the anterior surface of the thyroid gland. B. The thyroid gland is enclosed in a sheath of the pretracheal fascia, whlch is attached above to the thyroid cartilage. That is why the gland moves with deglutition. The upper limit of the thyroid gland is the oblique line of the thyroid cartllage. Thyroid lymphatics drain centrally to the prelaryngeal and the pretracheal lymph nodes, and laterally to the upper and lower deep cervical nodes that lle along the Internal jugular veins.",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "options_start_at_B",
+    "orphan_rows_joined_to_option",
+    "option_out_of_order_B",
+    "option_marker_repaired_A_bare_possible_mark",
+    "option_marker_repaired_C_from_wrap_possible_mark",
+    "text_after_options",
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    168.8,
+    218.2,
+    473.0,
+    279.4
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 5,
+   "number": 5,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About anatomical relatlons of the thyroid gland, all the following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The external laryngeal nerve is related to the superior thyroid vessels.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      179.3,
+      377.3,
+      428.0,
+      387.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "The recurrent laryngeal nerve is related to the inTerior thyroid artery.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      179.3,
+      386.6,
+      426.6,
+      397.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "The recurrent laryngeal nerve lies in the tracheo-oesophageal groove.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      178.9,
+      397.8,
+      428.0,
+      407.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "The sternohyoid and sternothyroid muscles lie superficlal to the gland. Ty",
+     "bold": 0.0,
+     "color": 0.02,
+     "marks": [
+      "tint"
+     ],
+     "page": 1,
+     "bbox": [
+      179.3,
+      407.5,
+      429.5,
+      417.2
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "The recurrent laryngeal nerve comes Into direct relationship with the terminal branches of the inferlor thyrold artery. The nerve is usually posterior to the branches of the artery, but may pass anterior to or between these branches.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      165.6,
+      436.7,
+      465.8,
+      446.4
+     ]
+    }
+   ],
+   "after": "The thyroid Isthmus overlles the second and third tracheal rings. There is no thyrold tissue over the cricothyroid membrane. This fact is important because it makes emergency cricothyroldotomy an easy and rapid way to access the alrway. COPYRIGHT 2011- Prof. AHMED EL-BISHRY & Prof. AMR MOHSEN Page 42 Chapter (7 ) ENDOCRINE SURGERY",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "orphan_rows_joined_to_option",
+    "text_after_options",
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    166.3,
+    356.0,
+    468.7,
+    465.5
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 6,
+   "number": 6,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About the blood vessels of the thyroid gland, all the following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The superior thyroid artery is a branch of the external carotid artery.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      144.7,
+      655.2,
+      371.9,
+      666.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "The inferior thyroid artery is a branch of the common carotid artery.",
+     "bold": 0.0,
+     "color": 0.74,
+     "marks": [
+      "tint"
+     ],
+     "page": 1,
+     "bbox": [
+      135.4,
+      664.2,
+      371.5,
+      675.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "The superior thyroid vein drains into the internal jugular vein.",
+     "bold": 0.0,
+     "color": 0.2,
+     "marks": [
+      "tint"
+     ],
+     "page": 1,
+     "bbox": [
+      135.4,
+      674.3,
+      348.5,
+      684.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "The middle thyroid vein drains into the internal jugular vein.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      135.7,
+      684.4,
+      343.4,
+      693.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "options_start_at_B",
+    "option_marker_repaired_A_bare_possible_mark",
+    "several_options_with_tint"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    123.5,
+    636.1,
+    413.6,
+    693.0
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 7,
+   "number": 7,
+   "section": 1,
+   "type": "QCS",
+   "stem": "ENDOCRINE SURGERY About the blood vessels of the thyroid gland, all the following statements are true, U except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The superior thyroid artery is a branch of the external carotid artery.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      121.3,
+      69.1,
+      381.2,
+      81.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "The inferior thyroid artery is a branch of the common carotid artery.",
+     "bold": 0.0,
+     "color": 0.66,
+     "marks": [
+      "tint"
+     ],
+     "page": 2,
+     "bbox": [
+      122.0,
+      79.9,
+      380.9,
+      90.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "The superior thyroid vein drains Into the internal jugular vein.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      122.4,
+      91.1,
+      355.3,
+      100.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "The middle thyroid vein drains into the internal jugular vein.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      122.4,
+      101.9,
+      350.6,
+      110.5
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "The inferlor thyroid veins drain into the left innominate vein.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      121.3,
+      110.5,
+      352.8,
+      121.3
+     ]
+    }
+   ],
+   "after": "B. The Inferior thyroid artery is a branch of the thyrocervical trunks of the subclavian artery. The common carotid artery has only two terminal branches; the external and Inteinal carotid arteries.",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_C_bare_possible_mark",
+    "option_out_of_order_B",
+    "stem_prefix_cut",
+    "number_from_stem",
+    "text_after_options",
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "The inferior thyrold veins drain into the left innominate vein. The inferior thyroid artery is a branch of the thyrocervical trunks of the subclavlan artery. The common carotid artery has only two terminal branches; the external and Internal carotid arteries.. About the physiology of the thyroid gland, all the following statements are true, except: Alodine is necessary for the synthesis of thyroid hormones.. The thyroid stimulating hormone (TSH) is secreted by the anterior lobe of the pituitary gland. Chapter",
+   "page": 1,
+   "bbox": [
+    134.3,
+    693.0,
+    425.5,
+    0
+   ],
+   "pages": [
+    1,
+    2
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 8,
+   "number": 7,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About the physiology of the thyroid gland, all the following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "lodine is necessary for the synthesis of thyroid hormones.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      123.8,
+      189.7,
+      343.8,
+      199.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "The thyroid stimulating hormone (TSH) is secreted by the anterior lobe of the pituitary gland.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      124.2,
+      199.4,
+      427.0,
+      210.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "TSH stimulates the synthesis and release of hormones from the thyrold gland.",
+     "bold": 0.0,
+     "color": 0.29,
+     "marks": [
+      "tint"
+     ],
+     "page": 2,
+     "bbox": [
+      121.3,
+      220.0,
+      415.1,
+      231.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Total T4 and T3 more accurately reflect the thyroid function status than the free T4 and T3.",
+     "bold": 0.0,
+     "color": 0.79,
+     "marks": [
+      "tint"
+     ],
+     "page": 2,
+     "bbox": [
+      124.2,
+      230.0,
+      428.4,
+      241.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_C_bare_possible_mark",
+    "option_out_of_order_D",
+    "several_options_with_tint"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    109.4,
+    168.1,
+    428.4,
+    250.9
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  },
+  {
+   "i": 9,
+   "number": 8,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Calcitonin stimulates the precipitation of calcium in bones. D. Total serum T4 and T3 are affected by fluctuations in the levels of the thyroxine binding proteins (namely thyroid binding globulin and pre-albumin). False elevated levels of total serum T3 or T4 accompany pregnancy and oral contraceptive intake. On the other hand false low results occur with hypoproteinaemia, e.g. nephrotic syndrome.. About congenital anomalies of the thyroid gland, all the following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The thyroglossal duct is intimately related to the central part of the hyold bone.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      124.6,
+      339.5,
+      424.1,
+      350.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "A thyroglossal fistula follows opening of a thyroglossal cyst.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      124.2,
+      350.6,
+      352.8,
+      361.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "A thyroglossal cyst always lies in the isthmus of the thyroid gland.",
+     "bold": 0.0,
+     "color": 0.45,
+     "marks": [
+      "tint"
+     ],
+     "page": 2,
+     "bbox": [
+      119.9,
+      360.4,
+      375.1,
+      372.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "A thyroglossal cyst moves up with protrusion of the tongue.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      125.3,
+      371.9,
+      354.2,
+      382.0
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Treatment of a thyroglossal cyst entails removal of the cyst and the thyroglossal tract.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      125.3,
+      380.5,
+      431.3,
+      392.8
+     ]
+    }
+   ],
+   "after": "C. The thyroglossal duct (or the residual tract) is intimatety related to the central part of the hyoid bone. This has two practical applications. It explains why a thyroglossal cyst moves up with tongue protruslon. This also explalns the need to remove the central part of the hyold bone with thyroglossal cyst and fistula surgery. A thyroglossal cyst may be present at any level from the foramen caecum of tongue to the suprasternal notch, usually In the midline just below the hyoid bone except at the level of the thyrold cartilage, where it Is displaced usually to the left. A thyroglossal fistula is always acquired, though it has a congenital basis. The development of a fistula foflows elther spontaneous rupture or incision and drainage of Infected thyroglossal COPYRIGHT 2011- Prof. AHMED EL-BISHRY & Prof. AMR MOHSEN Page 43 UIUpACI (' ENVULKINE SURGERY ' cyst. It may also follow inadequate surgical excision of the cyst. Compare thls with a branchial",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_E_bare_possible_mark",
+    "option_out_of_order_C",
+    "number_inferred",
+    "text_after_options"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    123.5,
+    250.9,
+    431.3,
+    403.6
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 10,
+   "number": 9,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All the following statements about thyroiditis are true, except: fistula which is always present since birth. EENA",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Subacute thyrolditis is caused by viral infection. Subacute thyrolditis predisposes to thyroid tymphoma. Hashimoto's thyroiditis is an autoimmune disease. cyst. It may also follow inadequate surgical excislon of the cyst. Compare this with a branchial fistula which is always present since birth. 9. All the foliowing statements about thyrolditis are true, except: A. Subacute thyroiditis is caused by viral infection. B Subacute thyroiditis predisposes to thyroid tymphoma. Haslimoto's thyroiditis is an autoimmune disease.",
+     "bold": 0.0,
+     "color": 0.2,
+     "marks": [
+      "tint"
+     ],
+     "page": 2,
+     "bbox": [
+      165.6,
+      756.7,
+      353.2,
+      767.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "It is Hashimoto's thyrolditis that predisposes to thyroid lymphoma.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      163.8,
+      118.4,
+      395.3,
+      128.9
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hashimoto's thyroiditis ultimately ends in hypothyroidism.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      176.8,
+      87.8,
+      397.8,
+      98.3
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Riedle's thyroiditis is a rare disease that simulates anaplastic thyroid carcinoma.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      176.8,
+      99.0,
+      473.0,
+      110.2
+     ]
+    }
+   ],
+   "after": "Though there may be an Initial translent phase of hyperthyroidism, Hashlmoto's thyroiditls ultimately ends in hypothyroidism.",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_out_of_order_A",
+    "orphan_rows_joined_to_option",
+    "letters_not_sequential",
+    "very_long_option",
+    "text_after_options",
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    153.7,
+    724.7,
+    506.2,
+    787.7
+   ],
+   "pages": [
+    2,
+    3
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 11,
+   "number": 10,
+   "section": 1,
+   "type": "QROC",
+   "stem": "About the aetiology of simple goitre, all the following statements are true, except: APendred's syndrome is characterized by hypothyroidism, goitre and blindness. Pencred's syndrome is caused by deficiency of peroxidase enzyme. LC. Deficiency of lodine causes simple goltre. .Pregnancy raises the need for lodine. E.Thiocyanates in cabbages are goitrogenic.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pendred's syndrome is caused by deficlency of peroxidase enzyme which transforms iodides to organic fodine prior to blnding with tyrosine. The patient is deaf and mute, but not",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      161.6,
+      232.2,
+      473.8,
+      243.0
+     ]
+    }
+   ],
+   "after": "blind. The commonest cause of a simple gaitre, however, is deficlency of lodine. Simple goltre Is endemic in regions with low lodide content of water and food as in mountains and desert areas away from seas. Relative deficiency of lodine occurs during periods of stress. Females t during the menarche, pregnancy and lactation are susceptible to this problem.",
+   "exp": "blind. The commonest cause of a simple gaitre, however, is deficlency of lodine. Simple goltre Is endemic in regions with low lodide content of water and food as in mountains and desert areas away from seas. Relative deficiency of lodine occurs during periods of stress. Females t during the menarche, pregnancy and lactation are susceptible to this problem.",
+   "inline_answer": null,
+   "flags": [
+    "option_out_of_order_E",
+    "single_option"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    163.1,
+    159.5,
+    474.1,
+    252.7
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 12,
+   "number": 11,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About management of a clinically simple multinodular goitre, all the following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Thyroid function tests are necessary.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      163.4,
+      330.5,
+      315.7,
+      340.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Assessment of the titres of thyroid antibodies is needed to exclude Hashimoto's disease.",
+     "bold": 0.0,
+     "color": 0.25,
+     "marks": [
+      "tint"
+     ],
+     "page": 3,
+     "bbox": [
+      163.4,
+      340.6,
+      470.9,
+      351.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "A dominant thyroid nodule requires assessment with FNA.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "D",
+     "text": "Thyroid isotope scan is the imaging study of choice in this case.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      159.5,
+      401.8,
+      469.4,
+      412.6
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "A small uncomplicated simple nodular goitre may not need surgery.",
+     "bold": 0.0,
+     "color": 0.25,
+     "marks": [
+      "tint"
+     ],
+     "page": 3,
+     "bbox": [
+      167.0,
+      381.6,
+      421.9,
+      392.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "orphan_rows_joined_to_option",
+    "several_options_with_tint",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    160.9,
+    310.3,
+    471.2,
+    412.6
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  },
+  {
+   "i": 13,
+   "number": 12,
+   "section": 1,
+   "type": "QCS",
+   "stem": "hypo or hyperthyroidism. In a multinodular goiter, a dominant nodule that is larger than 1.5 cm deserves fine needle aspiration cytology in order to laok for malignancy. The Imaging study of cholce is ultrasound. Isotope scan is mainly needed for patients with hyperthyroldism. It helps In differentlating the types of thyrotoxicosis. The Indications for surgery for a slmple multinodular goitre are: COPYRIGHT 2011- Prof. AHMED EL-BISHRY & Prof. AMR MOHSEN Page 44 Chapter (7 ) ENDOCRINE SURGERY Evidence of compression manifestations mainly on the trachea. Suspicion of malignancy. For cosmetic reasons, according to the patient's request. The possible complications of a simple multinodular goitre Include allthe following, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Tracheal compression.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      123.1,
+      650.2,
+      213.5,
+      659.9
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Retrosternal extension.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      123.5,
+      660.6,
+      215.6,
+      670.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Haemorrhage in a nodule. Development of thyrotoxicosis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      124.2,
+      670.3,
+      225.0,
+      680.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "E Hoarseness of voice.",
+     "bold": 0.0,
+     "color": 0.76,
+     "marks": [
+      "tint"
+     ],
+     "page": 3,
+     "bbox": [
+      123.1,
+      690.1,
+      205.9,
+      700.2
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Hoarseness of volce is a complication of mallgnant thyroid.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      110.9,
+      708.5,
+      303.5,
+      719.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_C_bare_possible_mark",
+    "option_marker_repaired_D_from_orphan_possible_mark",
+    "number_inferred",
+    "very_long_stem"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    159.8,
+    410.4,
+    468.4,
+    719.3
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 14,
+   "number": 13,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About retrosternal goitre, all the following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A retrosternal goitre usually develops in ectopic mediastinal thyroid tissue.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "B",
+     "text": "Clinically, the lower border of the goitre cannot be felt.",
+     "bold": 0.0,
+     "color": 0.11,
+     "marks": [
+      "tint"
+     ],
+     "page": 3,
+     "bbox": [
+      116.6,
+      747.0,
+      320.0,
+      757.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Compression on the mediastinal veins causes the appearance of dilated presternal and neck veins.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "D",
+     "text": "Thyroidectomy is the only line of treatment.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      122.8,
+      776.5,
+      283.3,
+      785.2
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "In most cases surgery does not require a thoracotomy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    111.2,
+    727.9,
+    407.9,
+    785.2
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 15,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In most of cases surgery does not reauire a thorarotomv Evidence of compression manifestations mainly on the trachea. Suspidon of malignancy. For cosmetic reasons, according to the patient's request.. The possible complications of a simple multinodular goitre indude allthe following. except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Tracheal compression.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      108.7,
+      72.4,
+      205.2,
+      82.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Retrosternal extension.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      109.1,
+      83.2,
+      208.8,
+      92.9
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Haemorrhage in a nodule.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      109.4,
+      94.0,
+      218.2,
+      104.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Development of thyrotoxicosis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      109.4,
+      104.0,
+      237.6,
+      114.8
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Hoarseness of voice.",
+     "bold": 0.0,
+     "color": 0.74,
+     "marks": [
+      "tint"
+     ],
+     "page": 4,
+     "bbox": [
+      106.6,
+      114.1,
+      199.1,
+      125.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "option_marker_repaired_D_bare_possible_mark",
+    "option_marker_repaired_E_bare_possible_mark",
+    "option_out_of_order_E",
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    119.2,
+    784.4,
+    418.3,
+    0
+   ],
+   "pages": [
+    3,
+    4
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "E",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 16,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "E. Hoarseness of volce is a complicatlon of malignant thyrold. 13. About retrosternal goitre, all the foflowing statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A retrosternal goitre usually develops in ectopic mediastinal thyroid tissue.",
+     "bold": 0.0,
+     "color": 0.75,
+     "marks": [
+      "tint"
+     ],
+     "page": 4,
+     "bbox": [
+      106.9,
+      166.7,
+      395.6,
+      177.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Clinically, the lower border of the goitre cannot be felt.",
+     "bold": 0.0,
+     "color": 0.34,
+     "marks": [
+      "tint"
+     ],
+     "page": 4,
+     "bbox": [
+      101.9,
+      176.4,
+      324.4,
+      187.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Compression on the mediastinal veins causes the appearance of dilated pre- sternal and neck veins.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      100.1,
+      187.2,
+      418.3,
+      198.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Thyroidectomy is the only line of treatment.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      108.0,
+      208.4,
+      284.0,
+      218.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "several_options_with_tint"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    95.8,
+    134.6,
+    418.3,
+    218.2
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 17,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "In most of cases surgery does not require a thoracotomy.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Retrosternal goitre is rarely caused by enlargement of ectopic thyroid tissue In the mediastinum. Usually It is a cervical goltre that moves down so that its lower part extends behind the manubrium sternl. This Is why the blood supply of this goitre Is obtained from the neck vessels, and hence, a cervical incislon Is usually enough to remove the gland.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      94.7,
+      238.7,
+      419.8,
+      249.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "In most cases, surgery for a retrosternal goitre does not require thoracotomy.",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "single_option"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    103.7,
+    217.8,
+    419.8,
+    277.9
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null,
+   "exp_source": "key"
+  },
+  {
+   "i": 18,
+   "number": 14,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 17-year old female presents with a 3cm thyroid nodule. FNA shows papillary structures. There is no evidence of metastases. The appropriate treatment is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "KA. Thyroxine therapy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      98.6,
+      310.7,
+      193.7,
+      320.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Radioactive iodine therapy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      107.6,
+      320.0,
+      225.0,
+      331.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Excision of the nodule.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      108.7,
+      331.6,
+      207.4,
+      341.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "2 Hemithyroidectomy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      110.2,
+      341.6,
+      200.2,
+      352.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "ETotal thyroidectomy.",
+     "bold": 0.0,
+     "color": 0.78,
+     "marks": [
+      "tint"
+     ],
+     "page": 4,
+     "bbox": [
+      108.4,
+      352.1,
+      201.6,
+      363.2
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "The presence of papllary structures on FNA Is enough proof that the patient has a papillary thyrold cancer. The primary treatment is surgery that is followed by thyroxine at high enough doses to suppress TSH.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      96.5,
+      372.2,
+      419.8,
+      383.4
+     ]
+    }
+   ],
+   "after": "Hemithyroidectomy (removal of affected lobe and Isthmus) is enough If the tumour is less than 1cm with no lymph no spread. This is called papillary microcarcinoma. With larger tumours, as In thls case, treatment is total thyroidectomy and removal of the central lymph nodes (prelaryngeal and pretracheal). If at operatlon the lateral lymph nodes are found to be Involved, a modified radical neck dissectlon is added. COPYRIGHT 7011_Drn! .E SURGERY",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "options_start_at_B",
+    "option_marker_repaired_D_from_orphan_possible_mark",
+    "option_marker_repaired_A_bare_possible_mark",
+    "letters_not_sequential",
+    "text_after_options",
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    95.8,
+    289.1,
+    419.8,
+    403.2
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 19,
+   "number": 15,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The clinical manifestations of thyroid malignancy include all the following, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Neck pain.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      167.4,
+      706.7,
+      231.1,
+      717.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Progressive enlargement of a neck mass.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      169.9,
+      719.3,
+      340.6,
+      731.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hoarseness of voice. 0 Jaundice. A hard and fixed thyroid nodule.",
+     "bold": 0.0,
+     "color": 0.13,
+     "marks": [
+      "tint"
+     ],
+     "page": 4,
+     "bbox": [
+      173.2,
+      729.4,
+      266.8,
+      739.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Thyroid cancer does not tend to spread to the fiver. Blood spread is through the systemic",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      161.3,
+      772.6,
+      488.5,
+      784.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "orphan_rows_joined_to_option"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    163.4,
+    699.1,
+    488.5,
+    784.4
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 20,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "velns, to the lungs and bones. ..ESURGERY 15. The clinical manifestations of thyroid malignancy Include all the following, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Neck pain.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      157.3,
+      51.5,
+      228.6,
+      64.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Progressive enlargement of a neck mass.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      159.8,
+      67.0,
+      354.6,
+      79.9
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "L-C.Hoarseness of voice.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      159.5,
+      79.2,
+      269.6,
+      90.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Jaundice.",
+     "bold": 0.0,
+     "color": 0.76,
+     "marks": [
+      "tint"
+     ],
+     "page": 5,
+     "bbox": [
+      169.6,
+      90.7,
+      222.5,
+      103.3
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "A hard and fixed thyroid nodule.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      165.6,
+      103.7,
+      318.2,
+      117.0
+     ]
+    }
+   ],
+   "after": "D. Thyroid cancer does not tend to spread to the liver. Blood spread is through the systemic veins, to the lungs and bones.",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "option_marker_repaired_C_from_orphan_possible_mark",
+    "option_out_of_order_D",
+    "text_after_options"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    162.4,
+    780.8,
+    529.2,
+    0
+   ],
+   "pages": [
+    4,
+    5
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 21,
+   "number": 16,
+   "section": 1,
+   "type": "QCS",
+   "stem": "One of the following cancers may be multicentric:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Papillary carcinoma of the thyroid.",
+     "bold": 0.0,
+     "color": 0.78,
+     "marks": [
+      "tint"
+     ],
+     "page": 5,
+     "bbox": [
+      162.0,
+      177.5,
+      325.4,
+      189.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Follicular carcinoma of the thyrold.",
+     "bold": 0.0,
+     "color": 0.19,
+     "marks": [
+      "tint"
+     ],
+     "page": 5,
+     "bbox": [
+      159.5,
+      188.6,
+      327.6,
+      203.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Anaplastic carcinoma of the thyroid.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      163.8,
+      202.3,
+      331.2,
+      214.9
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_B_from_orphan_possible_mark",
+    "several_options_with_tint"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    148.7,
+    165.6,
+    374.0,
+    214.9
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 22,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Medullary carcinoma of the thyrold. Carcinoma of the parathyroid.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "More than 30% of papillary cancers are multicentric. Thls fact favours its treatment with",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      146.2,
+      252.7,
+      518.8,
+      265.0
+     ]
+    }
+   ],
+   "after": "total thyroidectomy.",
+   "exp": "total thyroidectomy.",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "single_option"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    161.3,
+    214.2,
+    518.8,
+    265.0
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 23,
+   "number": 17,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About papillary thyroid cancer, all the following are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is the commonest thyroid cancer.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      159.8,
+      300.2,
+      325.4,
+      311.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "It usually affects teen-agers.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      159.1,
+      312.1,
+      295.2,
+      323.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "It usually spreads by lymphatics.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      158.8,
+      324.0,
+      311.8,
+      336.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "A high TSH helps its growth. It secretes calcitonin.",
+     "bold": 0.0,
+     "color": 0.37,
+     "marks": [
+      "tint"
+     ],
+     "page": 5,
+     "bbox": [
+      158.4,
+      335.9,
+      293.0,
+      348.5
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "It secretes calcitonin.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      143.3,
+      374.4,
+      513.4,
+      386.6
+     ]
+    }
+   ],
+   "after": "secretes calcitonin. Calcitonin is the tumour marker for medulfary carcinoma. Thyroglobutin Is the marker for differentlated thyroid cancer.",
+   "exp": "Papillary and follicular thyroid cancers are collectively called \"differentiated thyroid cancer\". They secrete thyroid hormones, not calcitonin. It is medullary carcinoma that secretes calcitonin. Calcitonin is the tumour marker for medullary carcinoma. Thyroglobulin is the marker for differentiated thyroid cancer.",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_B_from_orphan_possible_mark",
+    "orphan_rows_joined_to_option",
+    "text_after_options",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    145.1,
+    288.0,
+    513.4,
+    398.5
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint",
+   "exp_source": "key"
+  },
+  {
+   "i": 24,
+   "number": 18,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About thyroid cancer, all the following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "FNA is enough to diagnose follicular carcinoma.",
+     "bold": 0.0,
+     "color": 0.85,
+     "marks": [
+      "tint"
+     ],
+     "page": 5,
+     "bbox": [
+      156.2,
+      455.0,
+      370.1,
+      467.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Anaplastic carcinoma spreads mainly by local infiltration of surrounding tissues.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      155.5,
+      467.6,
+      502.6,
+      481.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Spread of follicular carcinoma is mainly haematogenous.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      157.0,
+      477.7,
+      407.5,
+      491.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Malignancy appears as a cold nodule on thyroid Isotope scan.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      157.0,
+      490.3,
+      427.3,
+      504.4
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "The prognosis of differentiated thyroid cancer is better than the anaplastic type.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      155.9,
+      504.7,
+      504.0,
+      517.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_B_bare_possible_mark"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    142.6,
+    442.8,
+    504.0,
+    517.0
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 25,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The finiling of follicular cells in FNA is not a conclusive evidence of follcular carcinoma.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      140.4,
+      528.5,
+      507.2,
+      539.6
+     ]
+    }
+   ],
+   "after": "Follicular cells can be also obtained from a follicular adenoma. The dlagnosls of follicular carclnoma depends upon the demonstration of capsular o: blood vessel invasion on histopathological examination of excised tissue. If a follcular carcinoma Is suspected a hemithyroidectomy is the minimum excision biopsy that Is done. COPYRIGHT 2O11- FrOf. AHMED EL-BISHEY & PrOf. AMR MOHSEN Page 46 Chapter (7 ) ENDOCRINE SURGERY On the other hand, the fInding of papllary structures on FNA is dlagnostic of papillary carclnoma because there is no such thing as papillary adenoma",
+   "exp": "Follicular cells can be also obtained from a follicular adenoma. The dlagnosls of follicular carclnoma depends upon the demonstration of capsular o: blood vessel invasion on histopathological examination of excised tissue. If a follcular carcinoma Is suspected a hemithyroidectomy is the minimum excision biopsy that Is done. COPYRIGHT 2O11- FrOf. AHMED EL-BISHEY & PrOf. AMR MOHSEN Page 46 Chapter (7 ) ENDOCRINE SURGERY On the other hand, the fInding of papllary structures on FNA is dlagnostic of papillary carclnoma because there is no such thing as papillary adenoma",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "single_option",
+    "empty_stem"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": null,
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 26,
+   "number": 19,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About the types of thyrotoxicosis, all the following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "In Graves' disease the gland has no nodularity.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      105.1,
+      775.1,
+      308.5,
+      787.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Plummer's disease is thyrotoxicosis that develops on top of a multinodular goitre.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      128.2,
+      109.8,
+      426.2,
+      120.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Graves' disease is characterized by huge enlargement of the thyroid gland.",
+     "bold": 0.0,
+     "color": 0.6,
+     "marks": [
+      "tint"
+     ],
+     "page": 6,
+     "bbox": [
+      127.8,
+      129.6,
+      404.3,
+      140.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "A solitary hyperactive thyrold nodule can cause thyrotoxicosis.",
+     "bold": 0.0,
+     "color": 0.21,
+     "marks": [
+      "tint"
+     ],
+     "page": 6,
+     "bbox": [
+      129.2,
+      140.4,
+      362.2,
+      150.1
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Hashimoto's disease and subacute thyroiditis can cause transient hyperthyroidism.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      128.5,
+      149.8,
+      427.0,
+      160.9
+     ]
+    }
+   ],
+   "after": "hyperthyroidism. C. Graves' disease is thyrotoxicosis that develops In a previously healthy thyroid gland. There is only mild enlargement of the gland or none at all. The surlace of the gland is characteristically smooth with no nodules. Exopthalmos Is a common feature of Graves' disease. 2 The clinical manifestations of thyrotoxicosis include all the following, except: Palpitations. .Weight loss. L. Exopthalmos. D. Tremors. E. Cyanosis. E. Cyanosis is not one of the manifestations of thyrotoxicosis.",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "orphan_rows_joined_to_option",
+    "option_marker_repaired_C_from_orphan_possible_mark",
+    "option_out_of_order_C",
+    "option_out_of_order_D",
+    "option_out_of_order_E",
+    "very_long_option",
+    "text_after_options",
+    "low_ocr_confidence",
+    "several_options_with_tint",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    92.2,
+    762.8,
+    427.0,
+    793.1
+   ],
+   "pages": [
+    5,
+    6
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "key"
+  },
+  {
+   "i": 27,
+   "number": 21,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About treatment of Graves' disease all the following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Thyroidectomy is the first-line treatment.",
+     "bold": 0.0,
+     "color": 0.65,
+     "marks": [
+      "tint"
+     ],
+     "page": 6,
+     "bbox": [
+      128.2,
+      326.2,
+      292.7,
+      337.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Agranulocytosis is a possible complication of anti-thyroid drugs.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      130.0,
+      337.3,
+      369.4,
+      348.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "√c Radioactive iodine therapy is contraindicated during pregnancy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      126.0,
+      347.8,
+      369.7,
+      358.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Radloactive lodine therapy is better avoided in cases of exopthalmos.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      133.2,
+      358.2,
+      389.2,
+      368.3
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "If thyroidectomy is decided upon, toxicity should be controlled by medications",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      126.7,
+      368.3,
+      430.9,
+      379.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "numbering_gap_before",
+    "option_marker_repaired_C_from_orphan_possible_mark"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    121.3,
+    316.4,
+    430.9,
+    379.4
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 28,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "prior to surgery.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The first-line treatment is anti-thyroid drugs. These are used for a period of 6 months to 2 years. The alm is to control toxicity until spontaneous rernission occurs. These drugs can cause agranulocytosis and subsequent serious Infections. In North America radiolodine therapy is galning popularlty as first-line treatment for Graves' disease. It is, however, contraindicated",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      123.8,
+      398.9,
+      431.3,
+      408.6
+     ]
+    }
+   ],
+   "after": "during pregnancy. It also tends to worsen exopthalmos. The indications for surgery Include: Failure or complications of conservative measures. Suspicion of malignancy. Large goitre, which Is unusual in cases of Graves' disease. Whether to do total or subtotal thyroidectomy is still a matter of debate among surgeons. Whatever the operation, thyrotoxicity should be controlled prior to surgery, by antl-thyroid COPYRIGHT 2011- Prof. AHMED EL-BISHRY & Prnf asAD AAr SURGERY drugs to bring the patient to a euthyroid status. Operating on uncontrolled thyrotoxicosis carrles the risk of causing a fatal thyrotoxic crisls.",
+   "exp": "during pregnancy. It also tends to worsen exopthalmos. The indications for surgery Include: Failure or complications of conservative measures. Suspicion of malignancy. Large goitre, which Is unusual in cases of Graves' disease. Whether to do total or subtotal thyroidectomy is still a matter of debate among surgeons. Whatever the operation, thyrotoxicity should be controlled prior to surgery, by antl-thyroid COPYRIGHT 2011- Prof. AHMED EL-BISHRY & Prnf asAD AAr SURGERY drugs to bring the patient to a euthyroid status. Operating on uncontrolled thyrotoxicosis carrles the risk of causing a fatal thyrotoxic crisls.",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "stem_recovered_from_option_wrap",
+    "single_option"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    147.2,
+    379.4,
+    431.6,
+    436.0
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 29,
+   "number": 22,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About toxic multinodular goitre, all the following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It usually affects patients, at an older age than those with Graves' disease.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      185.8,
+      744.8,
+      452.2,
+      756.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Exopthalmos is more prominent than in patients with Graves' disease.",
+     "bold": 0.0,
+     "color": 0.53,
+     "marks": [
+      "tint"
+     ],
+     "page": 6,
+     "bbox": [
+      183.2,
+      756.0,
+      441.4,
+      766.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Heart failure is more likely to occur than in patients with Graves' disease.",
+     "bold": 0.0,
+     "color": 0.2,
+     "marks": [
+      "tint"
+     ],
+     "page": 6,
+     "bbox": [
+      185.4,
+      764.3,
+      450.7,
+      776.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Goitre is usually sizable.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      183.6,
+      774.0,
+      282.2,
+      783.7
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "The first-line treatment i thwroidano. SURGERY",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      183.6,
+      784.1,
+      339.5,
+      793.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_B_from_orphan_possible_mark",
+    "option_out_of_order_E",
+    "option_out_of_order_B",
+    "option_out_of_order_C",
+    "option_out_of_order_D",
+    "several_options_with_tint"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    172.4,
+    736.2,
+    508.0,
+    793.8
+   ],
+   "pages": [
+    6,
+    7
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 30,
+   "number": 23,
+   "section": 1,
+   "type": "QROC",
+   "stem": "drugs to bring the patient to a euthyrold status. Operating on uncontrolled thyrotoxicosls carries the risk of causing a fatal thyrotoxic crisls. 22. About toxic multinodular goitre, all the following statements are true, except: AIt usually affects patients at an older age than those with Graves' disease. BExopthalmos is more prominent than In patients with Graves' disease. CHeart failure is more likely to occur than in patlents with Graves' disease. Goitre is usually sizable. E.The first-line treatment is thyroidectomy. B. Usually there is no exopthalmos in these patients. Because It affects patients at an older age than primary thyrotoxicosls, they are more likely to develop heart failure. Goltre Is usually sizable because thyrotoxicity develops on top of a multinodular gland. Anti-thyroid drugs tend to increase the size of the gland because they ralse the level of the suppressed TSH. Radio-iodine therapy can control toxlclty but causes little, If any, reduction In gland size. Thyroidectomy Is the only method that controls both the slze and toxicity of the gland. 2. About stridor in the postoperative perlod after thyroidectomy, all the fofllowing statements are true, except: ① Unilateral recurrent laryngeal nerve injury causes stridor. B. Dyspnoea due to deep neck haematoma should be immediately evacuated. c. Laryngeal oedema is a cause of stridor. D. Tracheal collapse due to tracheomalacia is a rare cause of stridor. E.External laryngeal nerve injury does not cause stridor.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Unllateral recurrent laryngeal nerve Injury causes hoarseness of voice. Bilateral Injury causes stridor.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      157.0,
+      381.6,
+      493.2,
+      393.8
+     ]
+    }
+   ],
+   "after": "A deep neck haematoma that causes stridor should be evacuated Immediately, even as a bed- side procedure. The sutures are removed to evacuate the compressing haematoma. The patient is then taken to the operating theatre for proper haemostasls. Injury of the external branch of superior laryngeal nerve causes loss of high pitched voice.",
+   "exp": "A deep neck haematoma that causes stridor should be evacuated Immediately, even as a bed- side procedure. The sutures are removed to evacuate the compressing haematoma. The patient is then taken to the operating theatre for proper haemostasls. Injury of the external branch of superior laryngeal nerve causes loss of high pitched voice.",
+   "inline_answer": null,
+   "flags": [
+    "number_inferred",
+    "single_option",
+    "very_long_stem",
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": [
+    164.5,
+    93.6,
+    506.5,
+    404.6
+   ],
+   "pages": [
+    7
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 31,
+   "number": 24,
+   "section": 1,
+   "type": "QROC",
+   "stem": "About thyrotoxic crisis, all the following statements are true, except: It follows surgery on uncontrolled thyrotoxicosis. If untreated it can be fatal. CIt is caused by marked elevation of serum thyroid stimulating hormone (TSH). LD. Hyperthermia and tachycardia are present. Treatment should be carried out in ICU.",
+   "options": [
+    {
+     "letter": "C",
+     "text": "Thyrotoxic crisis is caused by marked elevation of the circulating thyroid hormones, not TSH.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      154.4,
+      527.8,
+      487.4,
+      538.9
+     ]
+    }
+   ],
+   "after": "The conditlon Is highly fatal. It should be urgently managed In ICU. Treatment Includes: Intravenous flulds. COPYRIGHT 2011- Prof. AHMED EL-BISHRY & Prof. AMR MOHSEN Page 48 Chapter (7 ) ENDOCRINE SURGERY Cooling the patient, e.g. Ice packs. Oxygen. Digoxin for heart failure. Sedation. Intravenous hydrocortisone. Carbimazole 15-20 mg/6 hours. Lugot's lodine 10 drops/8 hours or Na- or K-lodide Intravenously as a drip. Propranolol 40 mg/6 hours orally or I mg intravenously as a drip to be repeated If needed. Chapter (7 ) ENDOCRINE SURGERY Cooling the patient, e.g. Ice packs. Oxygen. Digoadn for heart fallure. Sedation. Intravenous hydrocortIsone. Carbimazole 15-20 mg/6 hours. Lugof's lodine 10 drops/8 hours or Na- or K-lodide intravenously as a drip. Propranolol 40 mg/6 hours orally or 1 mg Intravenousty as a drlp to be repeated If needed.",
+   "exp": "The conditlon Is highly fatal. It should be urgently managed In ICU. Treatment Includes: Intravenous flulds. COPYRIGHT 2011- Prof. AHMED EL-BISHRY & Prof. AMR MOHSEN Page 48 Chapter (7 ) ENDOCRINE SURGERY Cooling the patient, e.g. Ice packs. Oxygen. Digoxin for heart failure. Sedation. Intravenous hydrocortisone. Carbimazole 15-20 mg/6 hours. Lugot's lodine 10 drops/8 hours or Na- or K-lodide Intravenously as a drip. Propranolol 40 mg/6 hours orally or I mg intravenously as a drip to be repeated If needed. Chapter (7 ) ENDOCRINE SURGERY Cooling the patient, e.g. Ice packs. Oxygen. Digoadn for heart fallure. Sedation. Intravenous hydrocortIsone. Carbimazole 15-20 mg/6 hours. Lugof's lodine 10 drops/8 hours or Na- or K-lodide intravenously as a drip. Propranolol 40 mg/6 hours orally or 1 mg Intravenousty as a drlp to be repeated If needed.",
+   "inline_answer": null,
+   "flags": [
+    "options_start_at_C",
+    "single_option"
+   ],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": [
+    156.2,
+    453.6,
+    487.4,
+    547.6
+   ],
+   "pages": [
+    7
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 32,
+   "number": 25,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About anatomy of the parathyrold glands, all the following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "There are always four parathyroid glands.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "tint"
+     ],
+     "page": 8,
+     "bbox": [
+      121.3,
+      171.7,
+      285.5,
+      182.9
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "The superior parathyrolds are derived from the fourth branchlal pouches while the inferior glands are derived from the third pouches.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      122.8,
+      180.4,
+      427.3,
+      194.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "The blood supply of the parathyroid glands is mainly from the inferior thyrold arteries.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      123.8,
+      201.2,
+      427.7,
+      214.9
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "The Inferlor parathyrold glands may be present in the mediastInum.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      124.2,
+      222.5,
+      380.2,
+      235.4
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "The Inferior parathyroid gland Is usually found near the intersectlon of the",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      122.8,
+      232.2,
+      428.8,
+      244.1
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "options_start_at_B",
+    "option_marker_repaired_A_bare_possible_mark"
+   ],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    109.1,
+    149.8,
+    428.8,
+    244.1
+   ],
+   "pages": [
+    8
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 33,
+   "number": 26,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Inferlor thyrold artery and the recurrent laryngeal nerve.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Only In so% of cases there are 4 glands which are symmetrical In position on both sldes. In the remalning cases there can be more than 4 asymmetrically placed glands, or sometimes only 3 giands. The Inferior glands are more variable in posltion than the superlor ones. They may migrate with the thymus gland to the medlastinum as both are derived from the third branchlal dim pouches. 26. About primary hyperparathyroidism, one statement only Is true: A.Commonest pathology Is parathyrold hyperplasla.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      111.6,
+      261.0,
+      430.2,
+      272.9
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Serum calclum is reduced.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      127.4,
+      352.1,
+      236.5,
+      362.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Serum calcitonin Is reduced. .Osteoporosis Is one of Its consequences. 1 EMain line of treatment is chemotherapy.",
+     "bold": 0.0,
+     "color": 0.36,
+     "marks": [
+      "tint"
+     ],
+     "page": 8,
+     "bbox": [
+      126.7,
+      362.2,
+      243.4,
+      373.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "The commonest pathology In cases of prlmary hyperparathyroldism is a parathyrold",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      115.6,
+      400.3,
+      433.1,
+      411.5
+     ]
+    }
+   ],
+   "after": "Serum parathormone (PTH) Is elevated. It causes osteoporosis by mobilizing calclum from adenoma. bone. This results In hypercalcaemla. For primary hyperparathyroldism treatment Is only surglcal. The adenoma (or adenomas) Is removed.",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "stem_recovered_from_option_wrap",
+    "option_out_of_order_A",
+    "orphan_rows_joined_to_option",
+    "number_inferred",
+    "very_long_option",
+    "text_after_options",
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    136.4,
+    244.1,
+    480.6,
+    411.5
+   ],
+   "pages": [
+    8
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 34,
+   "number": 27,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The manifestations of primary hyperparathyroidism Include all the following, excert:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Bony pains.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      129.6,
+      482.0,
+      188.3,
+      493.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Renal colic.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      130.0,
+      491.8,
+      187.9,
+      502.9
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Epigastric pain.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      193.3,
+      698.0,
+      265.0,
+      710.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Easy fatigue.",
+     "bold": 0.0,
+     "color": 0.39,
+     "marks": [
+      "tint"
+     ],
+     "page": 8,
+     "bbox": [
+      193.3,
+      708.8,
+      255.6,
+      720.4
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Normal serum calcium and high PTH.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      178.9,
+      745.2,
+      500.4,
+      759.2
+     ]
+    }
+   ],
+   "after": "PTH is elevated. Serum calclum is elevated In cases of primary hyperparathyroidism, but Is normal In cases of secondary hyperparathyroldism. The commonest cause of the secondary typa is renal fallure. Chapter (7 ) ENDOCRINE SURGERY C. Epigastric pain. D. Easy fatigue. E.Normal serum calcium and high PTH. E. Hyperparathyroidism is a \"disease of bones, stones, abdominal groans, psychic moans and fatigue overtones\". PTH is elevated. Serum calclum is elevated in cases of primary hyperparathyroldism, but Is normal In cases of secondary hyperparathyroidlsm. The commonest cause of the secondary type is renal failure.",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "orphan_rows_joined_to_option",
+    "option_out_of_order_C",
+    "option_out_of_order_D",
+    "option_out_of_order_E",
+    "text_after_options",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    117.0,
+    467.6,
+    504.7,
+    759.2
+   ],
+   "pages": [
+    8
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 35,
+   "number": 28,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The differential diagnoses of hypercalcaemia include all the following, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Primary hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "B",
+     "text": "Bone metastases",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "C",
+     "text": "Multiple myeloma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      195.1,
+      180.4,
+      274.7,
+      191.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Tuberculosis",
+     "bold": 0.0,
+     "color": 0.68,
+     "marks": [
+      "tint"
+     ],
+     "page": 9,
+     "bbox": [
+      193.7,
+      190.1,
+      254.9,
+      200.2
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Sarcoidosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "E Sarcoldosis. D. Primary hyperparathyroldism is the commonest cause of hypercalcaemla. The next cause Is tuberculosis) and multiple myeloma. bone metastases. Other less-frequent causes are milk-alkall syndrome, sarcoidosls (not",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_out_of_order_D",
+    "text_after_options",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    183.6,
+    154.8,
+    462.2,
+    200.2
+   ],
+   "pages": [
+    9
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 36,
+   "number": 29,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About the Investigations for cllnically-suspected hyperparathyroidism, all the following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      191.9,
+      277.2,
+      201.6,
+      284.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "High serum calclum Is present in patients with primary hyperparathyroidism.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      191.5,
+      281.9,
+      468.7,
+      294.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Estimating PTH is necessary for the diagnosls of hyperparathyroldism. Estimating serum calcitonin is necessary for diagnosis. Ultrasound scan is used for localization of the adenoma. Sistamibl scan is used for localization of the adenoma.",
+     "bold": 0.0,
+     "color": 0.04,
+     "marks": [
+      "tint"
+     ],
+     "page": 9,
+     "bbox": [
+      191.2,
+      292.0,
+      442.8,
+      304.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Serum calcitonin level Is not needed for the diagnosis of hyperparathyroldism.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      176.0,
+      340.6,
+      435.6,
+      351.7
+     ]
+    }
+   ],
+   "after": "The combinatlon of high serum calclum and high PTH are enough to dlagnose hyperparathyroldism, even In the absence of clinical manifestations. A combination of neck ultrasound and parathyroid Isotope (sistamibl) scan are very rellable in preoperatively locafizing the site of the adenoma. Other localfzation studies may be needed for recurrent cases. These include CT, MRl and selective venous sampling. However, the most the neck. accurate localization method of hyperactive parathyroid glands is by surgical exploration of",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "options_start_at_B",
+    "orphan_rows_joined_to_option",
+    "option_marker_repaired_A_bare_possible_mark",
+    "letters_not_sequential",
+    "text_after_options"
+   ],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    178.9,
+    261.0,
+    482.8,
+    351.7
+   ],
+   "pages": [
+    9
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 37,
+   "number": 30,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About post-thyroldectomy hypoparathyroldism, all the. following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It may be caused by Inadvertent removal of the parathyroid glands at thyroidectomy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      184.0,
+      445.0,
+      477.4,
+      461.9
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "It may be caused by devascularization of the parathyroid glands at operation.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      184.0,
+      465.8,
+      462.6,
+      476.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "The condition usually presents about two weeks after thyroldectomy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      184.0,
+      475.2,
+      435.6,
+      486.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "The earlest symptom is facial and peripheral numbness.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      183.6,
+      484.2,
+      389.9,
+      495.0
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Tetany may be manifest or latent.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_B_from_orphan_possible_mark",
+    "option_marker_repaired_D_bare_possible_mark",
+    "option_out_of_order_C",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    172.8,
+    424.8,
+    477.4,
+    495.0
+   ],
+   "pages": [
+    9
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 39,
+   "number": 31,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About anatomy of the adrenal glands, allthe following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The right adrenal gland is closely related to the inferior vena cava.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      108.4,
+      413.6,
+      368.6,
+      424.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "The right adrenal vein ends in the inferior vena cava.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      110.5,
+      424.8,
+      319.0,
+      435.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "The left adrenal vein ends in the left renal vein.",
+     "bold": 0.0,
+     "color": 0.23,
+     "marks": [
+      "tint"
+     ],
+     "page": 10,
+     "bbox": [
+      121.7,
+      436.3,
+      299.2,
+      446.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "The left adrenal vein is shorter than the right vein.",
+     "bold": 0.0,
+     "color": 0.71,
+     "marks": [
+      "tint"
+     ],
+     "page": 10,
+     "bbox": [
+      109.1,
+      447.1,
+      310.7,
+      456.8
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "The middle adrenal artery is a branch of the abdominal aorta.",
+     "bold": 0.0,
+     "color": 0.25,
+     "marks": [
+      "tint"
+     ],
+     "page": 10,
+     "bbox": [
+      109.1,
+      457.2,
+      352.8,
+      467.6
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "D. The right adrenal veln is very short (about Smm) and ends In the Inferior vena cav. The right veln is, therefore, diffcult to ligate and divide, and is easlly avulsed from the cav? which makes right adrenalectomy more serlous than the left.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      96.5,
+      477.7,
+      428.0,
+      488.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_out_of_order_D",
+    "option_marker_repaired_E_from_tail_possible_mark",
+    "option_marker_repaired_C_from_wrap_possible_mark",
+    "letters_not_sequential",
+    "several_options_with_tint"
+   ],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    95.4,
+    401.8,
+    428.4,
+    509.4
+   ],
+   "pages": [
+    10
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  },
+  {
+   "i": 40,
+   "number": 32,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About physiology of the adrenal gland, allthe following statements are true except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Aldosterone is secreted by the zona glomerulosa of the adrenal cortex.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      110.5,
+      531.4,
+      389.9,
+      542.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Aldosterone secretion is under control of the rennin-angiotensin syste m.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      110.5,
+      542.5,
+      398.2,
+      553.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "A high serum cortisol level Inhibits the secretion of ACTH from she anterior pituitary.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      110.9,
+      553.3,
+      430.2,
+      564.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "The adrenal medulia is under control by the anterior pituitary gland.",
+     "bold": 0.0,
+     "color": 0.59,
+     "marks": [
+      "tint"
+     ],
+     "page": 10,
+     "bbox": [
+      110.9,
+      574.6,
+      381.2,
+      585.7
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "The adrenal medulla secretes adrenaline and noradrenaline. D. The adrenal medulla is controlled by the sympathetic nervous system.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      112.0,
+      585.7,
+      351.7,
+      597.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_out_of_order_D",
+    "option_marker_repaired_E_from_tail_possible_mark"
+   ],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    97.2,
+    519.8,
+    430.2,
+    618.1
+   ],
+   "pages": [
+    10
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 41,
+   "number": 33,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About Conn's syndrome, allthe following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The syndrome is caused by an aldosterone-secreting tuniour of the adrenal cortex. Hypertension is the main feature of the syndrome. CHyperkalaemia is a feature of the syndrome. COPYRICUT 2O_ b E SURGERY",
+     "bold": 0.0,
+     "color": 0.18,
+     "marks": [
+      "tint"
+     ],
+     "page": 10,
+     "bbox": [
+      113.0,
+      639.0,
+      431.6,
+      650.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Conn's syndrome is primary hyperaldosteronlsm. The high aldosterone level causes sodlum and water retention (hypertenslon) and renat foss of potassium (hypokalaemla).",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      171.7,
+      115.2,
+      487.8,
+      126.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "CT and MRl are the imaging studies of choice for tumour localization.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      184.3,
+      83.5,
+      445.3,
+      94.7
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Adrenalectomy is the main line of treatment.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      184.3,
+      94.3,
+      358.9,
+      105.1
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "orphan_rows_joined_to_option",
+    "letters_not_sequential"
+   ],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    100.4,
+    628.2,
+    490.3,
+    710.3
+   ],
+   "pages": [
+    10,
+    11
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 42,
+   "number": 34,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 53 year old man is accidentally discovered to have a well-defined 2.5cm right adrenal inass on CT scan that Is done for some other reason. Hormonal studies are all normal. The proper management is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "FNAC.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      182.2,
+      176.0,
+      220.7,
+      187.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Adrenalectomy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      181.4,
+      185.8,
+      254.5,
+      196.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Radiological follow-up.",
+     "bold": 0.0,
+     "color": 0.76,
+     "marks": [
+      "tint"
+     ],
+     "page": 11,
+     "bbox": [
+      181.8,
+      196.2,
+      278.6,
+      207.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Radiotherapy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      181.8,
+      207.4,
+      247.7,
+      217.4
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Radiographically-gulded embolization of the feeding arteries.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      181.8,
+      217.4,
+      412.2,
+      228.6
+     ]
+    }
+   ],
+   "after": "C. The Incldentally-discovered asymptomatic non-functioning adrenal mass Is called \"adrenal Incldentaloma\". An Incldentaloma that Is bigger than 4cm carries a risk of belng malignant. A smaller mass requlres radiological follow-up. Any evidence of tumour enlargement or Invasion Is an Indication for adrenalectomy.",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_out_of_order_C",
+    "text_after_options"
+   ],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    170.6,
+    145.1,
+    486.7,
+    228.6
+   ],
+   "pages": [
+    11
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 43,
+   "number": 35,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What statement Is true of phaeochromocytoma?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is a neuroendocrine tumour of the adrenal cortex.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      180.7,
+      297.0,
+      378.0,
+      307.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "It is associated with MEN I.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      180.7,
+      307.4,
+      290.9,
+      317.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "It is malignant in 90% of cases.",
+     "bold": 0.0,
+     "color": 0.19,
+     "marks": [
+      "tint"
+     ],
+     "page": 11,
+     "bbox": [
+      179.3,
+      317.2,
+      302.4,
+      328.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Extra-adrenal pheochromocytomas account for about 10% of cases.",
+     "bold": 0.0,
+     "color": 0.8,
+     "marks": [
+      "tint"
+     ],
+     "page": 11,
+     "bbox": [
+      178.6,
+      326.9,
+      433.4,
+      339.1
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "It Is bllateral in 90% of cases.",
+     "bold": 0.0,
+     "color": 0.31,
+     "marks": [
+      "tint"
+     ],
+     "page": 11,
+     "bbox": [
+      179.3,
+      337.7,
+      296.6,
+      347.8
+     ]
+    }
+   ],
+   "after": "D. Pheochromocytoma may be isolated or may exlst as a part of MEN II. Pheochromocytoma is known as the disease of 10%: 10% malignant 10% bilateral 10% In chlldren 10% extra-adrenal. The commonest extra-adrenal slte Is the sympathetic chaln.",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_D_from_orphan_possible_mark",
+    "option_out_of_order_D",
+    "text_after_options",
+    "several_options_with_tint"
+   ],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    168.8,
+    285.8,
+    433.4,
+    347.8
+   ],
+   "pages": [
+    11
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  },
+  {
+   "i": 44,
+   "number": 36,
+   "section": 1,
+   "type": "QCS",
+   "stem": "For the pre and intraoperative preparation of a phaeochromocytoma patient, all the following are used, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Alpha adrenergic blockers.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      179.3,
+      448.6,
+      288.4,
+      459.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Beta adrenergic blockers.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      179.6,
+      458.6,
+      283.7,
+      468.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Correction of deficient blood volume.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      179.3,
+      469.1,
+      324.7,
+      479.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Correction of hypokalaemia.",
+     "bold": 0.0,
+     "color": 0.75,
+     "marks": [
+      "tint"
+     ],
+     "page": 11,
+     "bbox": [
+      179.3,
+      479.5,
+      293.8,
+      489.2
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Insertion of arterial cannula for intra-operative monitoring.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      177.8,
+      489.6,
+      400.7,
+      500.4
+     ]
+    }
+   ],
+   "after": "D. Pheochromocytoma Is a pharmacological bomb. It may suddenly release large amounts of catecholanines that cause severe hypertension, sweating and tachycardla. This is llkely to occur during adrenalectomy. Another compllcation of adrenalectomy for COPYRIGHT 2011- Prof. AHMED EL-BISHRY & Prof. AMR MOHSEN Page 52 Chapter (7 ) ENDOCRINE SURGERY phaeochromocytoma is sudden hypotenslon because of the contracted blood volume. Meticulous pre and intraoperative preparations can lessen these two complications. It is essential to give an alpha-adrenergi blocker like dibenzyline In Increasing doses for 7-10 days preoperatively until orthostatic hypotenslon occurs. A Beta-adrenergic blocker may be given after alpha blockade, for 3-4 days preoperatively to avold arrhythmlas and severe o i ct innle beo tachycardia. 1",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_D_from_orphan_possible_mark",
+    "option_out_of_order_D",
+    "text_after_options"
+   ],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    167.4,
+    428.0,
+    479.9,
+    500.4
+   ],
+   "pages": [
+    11
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 45,
+   "number": 37,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About Cushing's syndrome, all the following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cushing's disease is caused by an anterior pituitary adenoma.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      135.4,
+      739.4,
+      360.4,
+      749.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "With adrenal Cushing's syndrome ACTH level is elevated.",
+     "bold": 0.0,
+     "color": 0.61,
+     "marks": [
+      "tint"
+     ],
+     "page": 11,
+     "bbox": [
+      136.8,
+      748.8,
+      345.2,
+      758.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Truncal obesity is one of the manifestations of the syndrome.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      122.0,
+      298.4,
+      362.9,
+      309.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "These patients tend to be hypertensive.",
+     "bold": 0.0,
+     "color": 0.04,
+     "marks": [
+      "tint"
+     ],
+     "page": 12,
+     "bbox": [
+      154.1,
+      30.6,
+      487.1,
+      42.8
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "These patients are prone to develop diabetes mellitus.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      167.4,
+      10.4,
+      403.2,
+      21.2
+     ]
+    }
+   ],
+   "after": "D.These patients tend to be hypertensive. E.These patients are prone to develop diabetes mellitus. B. Pitultary Cushing's syndrome (Cushing's disease) is caused by an adenorna of the anterior pituitary that produces excess ACTH. It Is the most frequent cause of the syndrorre. The high ACTH level produces bilateral adrenal cortical hyperplasla and overproduction of cortisol. Adrenal Cushing's syndrome Is the next frequent cause. It Is usually the result of a hyperfunctioning adenoma, and rarely a carcinoma of the adrenal cortex. A high cortisol level causes Inhibition of ACTH. Cortisol Is a glucocorticold that causes diabetes. It also has a mineralocorticoid effect that causes hypertension.",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "orphan_rows_joined_to_option",
+    "option_out_of_order_D",
+    "option_out_of_order_E",
+    "option_out_of_order_B",
+    "option_marker_repaired_A_bare_possible_mark",
+    "option_marker_repaired_C_from_wrap_possible_mark",
+    "very_long_option",
+    "text_after_options",
+    "several_options_with_tint",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    124.6,
+    728.6,
+    487.8,
+    789.1
+   ],
+   "pages": [
+    11,
+    12
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 46,
+   "number": 38,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The risks of adrenalectomy for Cushing's syndrome are Increased by all the following, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hypertension.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      121.7,
+      453.6,
+      190.1,
+      463.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Diabetes mellitus.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      122.0,
+      462.6,
+      205.2,
+      473.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Delayed wound healing.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      121.3,
+      473.8,
+      227.2,
+      484.9
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Tendency to gastro-duodenal ulceration.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      121.0,
+      484.9,
+      289.4,
+      495.7
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Bronchospasm.",
+     "bold": 0.0,
+     "color": 0.76,
+     "marks": [
+      "tint"
+     ],
+     "page": 12,
+     "bbox": [
+      120.6,
+      496.1,
+      195.5,
+      507.2
+     ]
+    }
+   ],
+   "after": "E. An elevated level of cortisol impalrs wound healing and predisposes to gastro-duodenal peptic ulceration. Bronchospasm Is a feature of carcinoid syndrome, not Cushing's syndrome. 1 COPYRIGHT 2011- Prof. AHMED EL-BISHRY & Prof. AMR MOHSEN Pare 53",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_out_of_order_E",
+    "text_after_options"
+   ],
+   "cut_prefix": "",
+   "page": 12,
+   "bbox": [
+    107.6,
+    428.8,
+    438.8,
+    507.2
+   ],
+   "pages": [
+    12
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "E",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  }
+ ]
+}

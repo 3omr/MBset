@@ -1,5 +1,7 @@
 # Excluded source record
 
-**Status:** EXCLUDED — Duplicate of the endocrine written-topic outline source; excluded after OCR text similarity reconciliation.
+**Source:** `أسئلة endocrine قديمه...pdf`
 
-No question rows were created from this source.
+**Status:** EXCLUDED — Duplicate of NN 42 (endocrine_باطنة_سنه_رابعه_من_مذكرة_الامتحان.pdf): page images 1–7 show the same endocrine topic outline, written cases, and MCQ pages.
+
+No question rows were created from this source. The parser output is kept in `.mbset/excluded_md/` for audit.

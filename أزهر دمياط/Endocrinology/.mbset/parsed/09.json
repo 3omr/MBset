@@ -1,0 +1,4606 @@
+{
+ "nn": "09",
+ "source": "Raw_PDF_Questions/thyroid question منير.pdf",
+ "sha256": "58284cce50cd9fd7f92cd1eb4dd7cfda45fa66585ac54395138ad71250d5b48b",
+ "at": "2026-09-26T06:16:51Z",
+ "layout": {
+  "method": "native",
+  "splits": {
+   "1": 302.7,
+   "2": 302.7,
+   "3": 302.7,
+   "4": 302.7,
+   "5": 297.7,
+   "6": 297.7,
+   "7": 297.7
+  }
+ },
+ "counters": {
+  "source_numbering": 53,
+  "sections": [
+   "1-41",
+   "1-8",
+   "1-4"
+  ],
+  "option_a_lines": 45,
+  "parsed_questions": 53,
+  "parsed_numbered": 53,
+  "declared_total": null
+ },
+ "gaps": [],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [
+   41
+  ],
+  "grid_hits": 41,
+  "style_stats": {
+   "bold": 0.0,
+   "color": 0.0,
+   "tick": 0.0,
+   "highlight": 0.0,
+   "fill": 0.0,
+   "tint": 0.0,
+   "ink": 0.0,
+   "circle": 0.0,
+   "box": 0.0,
+   "underline": 0.0
+  },
+  "marked_hits": 0,
+  "answered": 41,
+  "mcq": 45,
+  "at": "2026-09-26T06:16:51Z"
+ },
+ "distribution": {
+  "A": 0.146,
+  "B": 0.195,
+  "C": 0.317,
+  "D": 0.22,
+  "E": 0.122
+ },
+ "dropped_lines": [
+  "Endocrinology",
+  "Thyroid Gland",
+  "Page 1 Dr. Moner",
+  "Endocrinology",
+  "Thyroid Gland",
+  "Page 2 Dr. Moner",
+  "Endocrinology",
+  "Thyroid Gland",
+  "Page 3 Dr. Moner",
+  "Endocrinology",
+  "Thyroid Gland",
+  "Page 4 Dr. Moner",
+  "1 E 21 C",
+  "2 A 22 C",
+  "3 C 23 D",
+  "4 B 24 C",
+  "5 C 25 C",
+  "6 E 26 C",
+  "7 E 27 B",
+  "8 B 28 D",
+  "9 D 29 C",
+  "10 A 30 C",
+  "11 D 31 B",
+  "12 D 32 D",
+  "13 D 33 C",
+  "14 B 34 C",
+  "15 B 35 C",
+  "16 D 36 B",
+  "17 E 37 B",
+  "18 A 38 A",
+  "19 E 39 A",
+  "20 D 40 A",
+  "41 C",
+  "Endocrinology",
+  "Thyroid Gland",
+  "Page 5 Dr. Moner",
+  "Endocrinology",
+  "Thyroid Gland",
+  "Page 6 Dr. Moner"
+ ],
+ "dropped_count": 39,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 12,
+  "dropped": [],
+  "stale": []
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": 1,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following is a very rare cause of thyrotoxicosis?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Graves",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      84.63196563720703,
+      74.0999984741211,
+      99.28396606445312
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Toxic STN",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      101.55200958251953,
+      89.57999420166016,
+      116.20401000976562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Toxic MNG",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      118.59198760986328,
+      95.2199935913086,
+      133.24398803710938
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Thyroiditis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      135.511962890625,
+      96.29999542236328,
+      150.16397094726562
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Secondary (pituitary) cause",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      152.4320068359375,
+      179.96600341796875,
+      167.08401489257812
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    7.320000171661377,
+    50.65198516845703,
+    218.8079833984375,
+    167.08401489257812
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 2,
+   "number": 2,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following is not routinely used in the management of thyrotoxic crisis?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Carbimazole",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      203.4320068359375,
+      106.73600006103516,
+      218.08401489257812
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Propranolol",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      220.3819580078125,
+      100.86000061035156,
+      235.03396606445312
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Dexamethasone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      237.302001953125,
+      122.93599700927734,
+      251.95401000976562
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Fluids",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      254.34197998046875,
+      74.57999420166016,
+      268.9939880371094
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Antipyretics",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      271.261962890625,
+      99.77999877929688,
+      285.9139709472656
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    7.320000171661377,
+    169.47198486328125,
+    245.5439910888672,
+    285.9139709472656
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 3,
+   "number": 3,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which is false regarding diffuse goiter?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Means enlargement of the whole thyroid with smooth surface",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      305.22198486328125,
+      269.0400695800781,
+      319.8739929199219
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "May be hyper, hypo, or euthyroid",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      339.1819763183594,
+      206.7259979248047,
+      353.833984375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Thyroiditis is not an underlying etiology",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      356.10198974609375,
+      239.84600830078125,
+      370.7539978027344
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Don't indicate malignancy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      373.1419982910156,
+      175.25601196289062,
+      387.79400634765625
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Euthyroid diffuse goiter needs just follow up",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      390.0820007324219,
+      263.0060119628906,
+      404.7340087890625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    7.320000171661377,
+    288.302001953125,
+    269.0400695800781,
+    404.7340087890625
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 4,
+   "number": 4,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following is not characteristic of thyroid hormones?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "T3 is the active hormone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      440.96197509765625,
+      166.13600158691406,
+      455.6139831542969
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "The thyroid secrets mainly T3",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      458.0019836425781,
+      190.04600524902344,
+      472.65399169921875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "99% of thyroid hormones in blood is bound to plasma protein",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      474.9219970703125,
+      270.9480285644531,
+      489.5740051269531
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "T3 increases the metabolism of all tissues and sensitizes the B adrenergic receptors",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      508.88201904296875,
+      275.86798095703125,
+      523.5339965820312
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "T3 diffuses through the cell membrane to intranuclear receptor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      542.8720092773438,
+      248.77203369140625,
+      557.5239868164062
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    7.320000171661377,
+    407.0019836425781,
+    275.86798095703125,
+    574.4439697265625
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 5,
+   "number": 5,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Choose the true statement in thyrotoxicosis?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Spastic eye signs are present in Graves' only",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      593.7520141601562,
+      267.08599853515625,
+      608.4039916992188
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Dyspnea is unusual symptom",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      610.6719970703125,
+      192.80599975585938,
+      625.323974609375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Severe malaise and anorexia occur in viral (subacute) thyroiditis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      627.7119750976562,
+      253.42794799804688,
+      642.3639526367188
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Tachycardia is manifested only during effort",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      661.552001953125,
+      264.3260192871094,
+      676.2039794921875
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Osteoporosis is not a complication in the elderly",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      678.5919799804688,
+      249.07200622558594,
+      693.2439575195312
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    7.320000171661377,
+    576.7119750976562,
+    271.8860168457031,
+    710.1839599609375
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 6,
+   "number": 6,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which is false regarding Grave's disease?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Characterized by goiter, dermopathy and ophthalmopathy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      17.760000228881836,
+      729.4920043945312,
+      246.95999145507812,
+      744.1439819335938
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Usually manifested by neuropsychiatric manifestations",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      24.719999313354492,
+      763.4519653320312,
+      248.1599884033203,
+      778.1039428710938
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Carbimazole is the antithyroid drug of choice",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      50.65198516845703,
+      579.39599609375,
+      65.30398559570312
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Remission usually occurs within 2 years of medical therapy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      67.59198760986328,
+      563.7820434570312,
+      82.24398803710938
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Thyroid scanning reveals diffuse decrease radioiodine uptake",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      101.55200958251953,
+      561.6458740234375,
+      116.20401000976562
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    7.320000171661377,
+    712.5719604492188,
+    579.39599609375,
+    795.0239868164062
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 7,
+   "number": 7,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which is false in subclinical (viral, De Quervan) thyroiditis?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Present with pain in the neck",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      169.47198486328125,
+      496.5760192871094,
+      184.12399291992188
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Has transient hyperthyroid phase",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      186.3919677734375,
+      519.85595703125,
+      201.04397583007812
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Fever, malaise, high ESR are manifest",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      203.4320068359375,
+      540.5159912109375,
+      218.08401489257812
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Low uptake in thyroid scan",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      220.3819580078125,
+      485.7760009765625,
+      235.03396606445312
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Treated by antithyroid drug",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      237.302001953125,
+      483.3760070800781,
+      251.95401000976562
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    308.7099914550781,
+    135.511962890625,
+    583.221923828125,
+    251.95401000976562
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 8,
+   "number": 8,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About toxic multinodular goiter, all the following statements are true, except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It usually affects patients at an older age than those with Graves' disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      288.302001953125,
+      580.0299682617188,
+      302.9540100097656
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Exophthalmos is more prominent than in patients with Graves' disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      322.1419982910156,
+      555.4058837890625,
+      336.79400634765625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Heart failure is more likely to occur than in patients with Graves' disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      356.10198974609375,
+      562.9779663085938,
+      370.7539978027344
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Goiter is usually sizable",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      390.0820007324219,
+      468.2560119628906,
+      404.7340087890625
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "The first-line treatment is thyroidectomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      407.0019836425781,
+      552.5159912109375,
+      421.65399169921875
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    308.7099914550781,
+    254.34197998046875,
+    580.0299682617188,
+    421.65399169921875
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 9,
+   "number": 9,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In thyrotoxicosis, smoking exacerbates the following?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Tremors",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      458.0019836425781,
+      390.9460144042969,
+      472.65399169921875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Sweating",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      474.9219970703125,
+      396.10601806640625,
+      489.5740051269531
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Insomnia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      491.84197998046875,
+      397.1860046386719,
+      506.4939880371094
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Exophthalmos",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      508.88201904296875,
+      420.97601318359375,
+      523.5339965820312
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    308.7099914550781,
+    424.0419921875,
+    561.573974609375,
+    523.5339965820312
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 10,
+   "number": 10,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Grave's disease may be manifested by?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "pretibial myxedema",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      542.8720092773438,
+      450.97601318359375,
+      557.5239868164062
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "dry skin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      559.7919921875,
+      388.906005859375,
+      574.4439697265625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "atrophic thyroid gland",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      576.7119750976562,
+      461.656005859375,
+      591.3639526367188
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "skin nodules",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      593.7520141601562,
+      412.0660095214844,
+      608.4039916992188
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    308.7099914550781,
+    525.802001953125,
+    544.8359985351562,
+    608.4039916992188
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 11,
+   "number": 11,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Grave's disease is an example of?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "type 1 hypersensitivity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      627.7119750976562,
+      463.21600341796875,
+      642.3639526367188
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "type 2 (cytotoxic)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      644.6320190429688,
+      436.5760192871094,
+      659.2839965820312
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "type 4",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      661.552001953125,
+      377.7460021972656,
+      676.2039794921875
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "type 5 (stimulatory)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      326.1099853515625,
+      678.5919799804688,
+      446.1759948730469,
+      693.2439575195312
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    308.7099914550781,
+    610.6719970703125,
+    513.7359619140625,
+    693.2439575195312
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 12,
+   "number": 12,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In hyperthyroidism, Moebius's sign refers to?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lagging of upper eye lid on looking downward",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      65.67200469970703,
+      273.3260192871094,
+      80.32400512695312
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Retracted lids causing wide palpebral opening",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      82.59198760986328,
+      277.8860168457031,
+      97.24398803710938
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Diminished frequency of blinking",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      99.63196563720703,
+      209.7259979248047,
+      114.28396606445312
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Inability to maintain convergence for close vision",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      116.55200958251953,
+      255.9240264892578,
+      131.20401000976562
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    7.320000171661377,
+    48.61200714111328,
+    277.8860168457031,
+    148.12399291992188
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 13,
+   "number": 13,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Neurological features of thyrotoxicosis don't include?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Distal myopathy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      184.47198486328125,
+      124.25599670410156,
+      199.12399291992188
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Fine tremors",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      201.3919677734375,
+      105.65599822998047,
+      216.04397583007812
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Exaggerated knee jerk",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      218.31201171875,
+      152.6959991455078,
+      232.96401977539062
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Periodic paresis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      235.3819580078125,
+      122.93599700927734,
+      250.03396606445312
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    7.320000171661377,
+    150.511962890625,
+    269.447998046875,
+    250.03396606445312
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 14,
+   "number": 14,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All the following are early manifestations of congenital hypothyroidism except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Feeding difficulties",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      286.261962890625,
+      138.41600036621094,
+      300.9139709472656
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Large protruding tongue",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      303.1820068359375,
+      163.61599731445312,
+      317.8340148925781
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Large anterior fontanelle",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      320.22198486328125,
+      166.8560028076172,
+      334.8739929199219
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Excessively sleepy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      337.1419982910156,
+      135.5360107421875,
+      351.79400634765625
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "prolonged neonatal jaundice",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      354.1819763183594,
+      185.96600341796875,
+      368.833984375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    7.320000171661377,
+    252.302001953125,
+    262.7279968261719,
+    368.833984375
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 15,
+   "number": 15,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All the following statements about thyroiditis are true, except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Subacute thyroiditis is caused by viral infection",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      405.0820007324219,
+      279.6860046386719,
+      419.7340087890625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Subacute thyroiditis predisposes to thyroid lymphoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      422.0019836425781,
+      258.7320251464844,
+      436.65399169921875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hashimoto's thyroiditis is an autoimmune disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      455.96197509765625,
+      252.80401611328125,
+      470.6139831542969
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hashimoto's thyroiditis ultimately ends in hypothyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      489.9219970703125,
+      251.4240264892578,
+      504.5740051269531
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Riedle's thyroiditis is a rare disease that simulates anaplastic thyroid carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      523.8820190429688,
+      240.6240234375,
+      538.5339965820312
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    7.320000171661377,
+    371.10198974609375,
+    279.6860046386719,
+    555.4839477539062
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 16,
+   "number": 16,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About the physiology of the thyroid gland, all the following statements are true, except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Iodine is necessary for the synthesis of thyroid hormones",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      591.7119750976562,
+      275.0280456542969,
+      606.3639526367188
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "The thyroid stimulating hormone (TSH) is secreted by the anterior lobe of the pituitary gland",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      625.6719970703125,
+      246.5400848388672,
+      640.323974609375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "TSH stimulates the synthesis and release of hormones from the thyroid gland",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      676.552001953125,
+      262.1520080566406,
+      691.2039794921875
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Total T4 and T3 more accurately reflect the thyroid function status than the free T4 and T3",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      17.760000228881836,
+      710.531982421875,
+      255.3000030517578,
+      725.1839599609375
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Calcitonin stimulates the precipitation of calcium in bone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      24.719999313354492,
+      744.4920043945312,
+      255.82801818847656,
+      759.1439819335938
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    7.320000171661377,
+    557.7520141601562,
+    275.96600341796875,
+    776.06396484375
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 17,
+   "number": 17,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The possible complications of a simple multinodular goiter include all the following, except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Tracheal compression",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      326.1099853515625,
+      99.63196563720703,
+      462.97601318359375,
+      114.28396606445312
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Retrosternal extension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      326.1099853515625,
+      116.55200958251953,
+      465.4960021972656,
+      131.20401000976562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hemorrhage in a nodule",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      326.1099853515625,
+      133.47198486328125,
+      473.0559997558594,
+      148.12399291992188
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Development of thyrotoxicosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      326.1099853515625,
+      150.511962890625,
+      506.0559997558594,
+      165.16397094726562
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Hoarseness of voice",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      326.1099853515625,
+      167.4320068359375,
+      450.85601806640625,
+      182.08401489257812
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    308.7099914550781,
+    48.61200714111328,
+    569.85400390625,
+    182.08401489257812
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 18,
+   "number": 18,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About treatment of Graves' disease all the following statements are true, except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Thyroidectomy is the first-line treatment",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      326.1099853515625,
+      218.31201171875,
+      554.9159545898438,
+      232.96401977539062
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Agranulocytosis is a possible complication of anti-thyroid drugs",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      326.1099853515625,
+      235.3819580078125,
+      578.9140014648438,
+      250.03396606445312
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Radioactive iodine therapy is contraindicated during pregnancy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      326.1099853515625,
+      269.34197998046875,
+      578.5899658203125,
+      283.9939880371094
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Radioactive iodine therapy is better avoided in cases of exophthalmos",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      326.1099853515625,
+      303.1820068359375,
+      583.137939453125,
+      317.8340148925781
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "If thyroidectomy is decided upon, toxicity should be controlled by medications prior to surgery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      326.1099853515625,
+      337.1419982910156,
+      557.5899047851562,
+      351.79400634765625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    308.7099914550781,
+    184.47198486328125,
+    583.137939453125,
+    385.7539978027344
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 19,
+   "number": 19,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Manifestations of over dosage of thyroxin in management of hypothyroidism in a young child may include any of the following except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Tachycardia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      326.1099853515625,
+      439.0419921875,
+      410.7460021972656,
+      453.6940002441406
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Fever",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      326.1099853515625,
+      455.96197509765625,
+      377.0260009765625,
+      470.6139831542969
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Sleeplessness",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      326.1099853515625,
+      472.8819885253906,
+      423.4960021972656,
+      487.53399658203125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Diarrhea",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      326.1099853515625,
+      489.9219970703125,
+      393.70599365234375,
+      504.5740051269531
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Vomiting",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      326.1099853515625,
+      506.84197998046875,
+      391.906005859375,
+      521.4939575195312
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    308.7099914550781,
+    388.0419921875,
+    575.1959838867188,
+    521.4939575195312
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 20,
+   "number": 20,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Thyrotoxicosis occurs without hyperthyroidism (activity of the grand) in",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Graves",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      319.1499938964844,
+      557.7520141601562,
+      377.9859924316406,
+      572.4039916992188
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "multinodular goiter",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      319.1499938964844,
+      574.7919921875,
+      443.2959899902344,
+      589.4439697265625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "solitary nodule",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      319.1499938964844,
+      591.7119750976562,
+      418.8160095214844,
+      606.3639526367188
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "thyroiditis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      319.1499938964844,
+      608.7520141601562,
+      390.9460144042969,
+      623.4039916992188
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    308.7099914550781,
+    523.8820190429688,
+    550.115966796875,
+    623.4039916992188
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 21,
+   "number": 21,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The good marker of follow up TTT of hypothyroidism is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "T3",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      319.1499938964844,
+      659.6320190429688,
+      354.22601318359375,
+      674.2839965820312
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "T4",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      319.1499938964844,
+      676.552001953125,
+      354.22601318359375,
+      691.2039794921875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "TSH",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      319.1499938964844,
+      693.6119995117188,
+      362.8659973144531,
+      708.2639770507812
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "reverses T3",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      319.1499938964844,
+      710.531982421875,
+      397.666015625,
+      725.1839599609375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    308.7099914550781,
+    625.6719970703125,
+    519.238037109375,
+    725.1839599609375
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 22,
+   "number": 22,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Regarding Graves' disease, which is false",
+   "options": [
+    {
+     "letter": "A",
+     "text": "it is the most common cause of hyperthyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      319.1499938964844,
+      744.4920043945312,
+      501.05804443359375,
+      759.1439819335938
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "it is autoimmune in nature",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      48.61200714111328,
+      175.37600708007812,
+      63.26400375366211
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "best treated surgically",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      65.67200469970703,
+      154.49600219726562,
+      80.32400512695312
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "exophthalmos may precede thyroid manifestations in young girls",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      82.59198760986328,
+      219.7560272216797,
+      97.24398803710938
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    308.7099914550781,
+    727.4519653320312,
+    553.4759521484375,
+    776.06396484375
+   ],
+   "pages": [
+    1,
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 23,
+   "number": 23,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The clinical manifestations of thyroid malignancy include all the following, except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Neck pain.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      150.511962890625,
+      93.53999328613281,
+      165.16397094726562
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Progressive enlargement of a neck mass.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      167.4320068359375,
+      248.00601196289062,
+      182.08401489257812
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hoarseness of voice.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      184.47198486328125,
+      145.61599731445312,
+      199.12399291992188
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Jaundice",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      201.3919677734375,
+      84.18000030517578,
+      216.04397583007812
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Hard and fixed solitary thyroid nodule.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      218.31201171875,
+      233.4860076904297,
+      232.96401977539062
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    7.320000171661377,
+    116.55200958251953,
+    268.5260009765625,
+    232.96401977539062
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 24,
+   "number": 24,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The common presentation of Hashimoto thyroiditis is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "hyperthyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      269.34197998046875,
+      124.61599731445312,
+      283.9939880371094
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "hypothyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      286.261962890625,
+      120.89599609375,
+      300.9139709472656
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "euthyroid state with goiter",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      303.1820068359375,
+      171.7760009765625,
+      317.8340148925781
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    7.320000171661377,
+    235.3819580078125,
+    246.67202758789062,
+    317.8340148925781
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 25,
+   "number": 25,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In Hashimoto thyroiditis there is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "hyperthyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      337.1419982910156,
+      124.61599731445312,
+      351.79400634765625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "hypothyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      354.1819763183594,
+      120.89599609375,
+      368.833984375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "both",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      371.10198974609375,
+      62.10000228881836,
+      385.7539978027344
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    7.320000171661377,
+    320.22198486328125,
+    204.4459991455078,
+    385.7539978027344
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 26,
+   "number": 26,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Thyrotoxicosis may be presented by all the following except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "myopathy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      422.0019836425781,
+      91.6199951171875,
+      436.65399169921875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "pretibial myxedema",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      439.0419921875,
+      142.61599731445312,
+      453.6940002441406
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "hypernatremia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      455.96197509765625,
+      116.09600067138672,
+      470.6139831542969
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "atrial fibrillation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      472.8819885253906,
+      119.69599914550781,
+      487.53399658203125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    7.320000171661377,
+    388.0419921875,
+    258.2639465332031,
+    487.53399658203125
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 27,
+   "number": 27,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Sign of hypothyroidism",
+   "options": [
+    {
+     "letter": "A",
+     "text": "heat intolerance",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      506.84197998046875,
+      124.85599517822266,
+      521.4939575195312
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "bradycardia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      523.8820190429688,
+      101.81999969482422,
+      538.5339965820312
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "tremors",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      540.8319702148438,
+      78.89999389648438,
+      555.4839477539062
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "all of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      557.7520141601562,
+      118.73600006103516,
+      572.4039916992188
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    7.320000171661377,
+    489.9219970703125,
+    154.7360076904297,
+    572.4039916992188
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 28,
+   "number": 28,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Pitting edema is seen in the following except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "right sided heart failure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      591.7119750976562,
+      159.41600036621094,
+      606.3639526367188
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "nephrotic syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      608.7520141601562,
+      144.41600036621094,
+      623.4039916992188
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "liver cell failure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      625.6719970703125,
+      118.4959945678711,
+      640.323974609375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "myxedema",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      642.5919799804688,
+      95.0999984741211,
+      657.2439575195312
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    7.320000171661377,
+    574.7919921875,
+    270.9259948730469,
+    657.2439575195312
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 29,
+   "number": 29,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Myxedema coma is characterized by",
+   "options": [
+    {
+     "letter": "A",
+     "text": "hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      676.552001953125,
+      108.41600036621094,
+      691.2039794921875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "tachycardia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      17.760000228881836,
+      693.6119995117188,
+      101.33999633789062,
+      708.2639770507812
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "hypoventilation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      24.719999313354492,
+      710.531982421875,
+      127.25599670410156,
+      725.1839599609375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "normal body temperature",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      24.719999313354492,
+      727.4519653320312,
+      176.6959991455078,
+      742.1039428710938
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    7.320000171661377,
+    659.6320190429688,
+    227.4860076904297,
+    742.1039428710938
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 30,
+   "number": 30,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Plummer's nails are a feature of",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Atopic eczema",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      24.719999313354492,
+      761.4119873046875,
+      124.01599884033203,
+      776.06396484375
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hypoparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      48.61200714111328,
+      454.09600830078125,
+      63.26400375366211
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Thyrotoxicosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      65.67200469970703,
+      423.0159912109375,
+      80.32400512695312
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Multiple endocrine neoplasia type I",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      82.59198760986328,
+      527.2959594726562,
+      97.24398803710938
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    7.320000171661377,
+    744.4920043945312,
+    527.2959594726562,
+    776.06396484375
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 31,
+   "number": 31,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is the agent of choice for treating thyrotoxicosis during pregnancy",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Carbimazole",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      133.47198486328125,
+      412.666015625,
+      148.12399291992188
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Propylthiouracil",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      150.511962890625,
+      427.9360046386719,
+      165.16397094726562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Methimazole",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      167.4320068359375,
+      413.5060119628906,
+      182.08401489257812
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Radioactive Iodine 131",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      184.47198486328125,
+      463.9360046386719,
+      199.12399291992188
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    308.7099914550781,
+    99.63196563720703,
+    567.9339599609375,
+    199.12399291992188
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 32,
+   "number": 32,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hypothyroidism may be caused by",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lithium",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      218.31201171875,
+      388.0660095214844,
+      232.96401977539062
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hematochromatosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      235.3819580078125,
+      455.5360107421875,
+      250.03396606445312
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Scleroderma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      252.302001953125,
+      415.8160095214844,
+      266.9540100097656
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "All of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      269.34197998046875,
+      425.416015625,
+      283.9939880371094
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    308.7099914550781,
+    201.3919677734375,
+    518.2959594726562,
+    283.9939880371094
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 33,
+   "number": 33,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What percentage of the thyroid hormone produced is T4?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "20%",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      320.22198486328125,
+      369.22601318359375,
+      334.8739929199219
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "50%",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      337.1419982910156,
+      369.22601318359375,
+      351.79400634765625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "80%",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      354.1819763183594,
+      369.22601318359375,
+      368.833984375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "90%",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      371.10198974609375,
+      369.22601318359375,
+      385.7539978027344
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    308.7099914550781,
+    286.261962890625,
+    548.7820434570312,
+    385.7539978027344
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 34,
+   "number": 34,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the primary effect of thyroid hormones on carbohydrate metabolism",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Decrease gluconeogenesis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      422.0019836425781,
+      486.1360168457031,
+      436.65399169921875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Increase glycogen synthesis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      439.0419921875,
+      490.9360046386719,
+      453.6940002441406
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Increase gluconeogenesis and glycolysis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      455.96197509765625,
+      556.115966796875,
+      470.6139831542969
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Promote insulin secretion",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      472.8819885253906,
+      478.8160095214844,
+      487.53399658203125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    308.7099914550781,
+    388.0419921875,
+    582.2260131835938,
+    487.53399658203125
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 35,
+   "number": 35,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following factors can lead to an increase in the total amount of T3 and T4 while maintaining normal free levels?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Chronic liver disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      540.8319702148438,
+      454.45599365234375,
+      555.4839477539062
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Nephrotic syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      557.7520141601562,
+      452.1759948730469,
+      572.4039916992188
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pregnancy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      574.7919921875,
+      400.5459899902344,
+      589.4439697265625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypothyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      591.7119750976562,
+      428.7760009765625,
+      606.3639526367188
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    308.7099914550781,
+    489.9219970703125,
+    579.9339599609375,
+    606.3639526367188
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 36,
+   "number": 36,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which cells in the thyroid gland secrete calcitonin?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Follicular cells",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      642.5919799804688,
+      421.8160095214844,
+      657.2439575195312
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Chief cells (parafollicular cells)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      659.6320190429688,
+      506.5360107421875,
+      674.2839965820312
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Parathyroid cells",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      326.1099853515625,
+      676.552001953125,
+      432.3760070800781,
+      691.2039794921875
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    308.7099914550781,
+    608.7520141601562,
+    543.3340454101562,
+    691.2039794921875
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 37,
+   "number": 37,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 35-year-old female presents with weight loss, heat intolerance, and palpitations. Laboratory tests reveal low TSH and elevated free T3 and T4. What is the most likely cause of her condition?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Thyroiditis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      48.61200714111328,
+      91.37999725341797,
+      63.26400375366211
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Graves' disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      65.67200469970703,
+      119.21599578857422,
+      80.32400512695312
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Toxic multinodular goiter",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      82.59198760986328,
+      165.05599975585938,
+      97.24398803710938
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Ectopic thyroid tissue",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      99.63196563720703,
+      149.4560089111328,
+      114.28396606445312
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    308.7099914550781,
+    693.6119995117188,
+    581.0260620117188,
+    0
+   ],
+   "pages": [
+    2,
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 38,
+   "number": 38,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In a patient with thyrotoxicosis caused by a pituitary adenoma, what laboratory finding would you expect?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Elevated TSH",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      167.4320068359375,
+      106.13599395751953,
+      182.08401489257812
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Elevated TRH",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      184.47198486328125,
+      106.85599517822266,
+      199.12399291992188
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Low T3 and T4",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      201.3919677734375,
+      110.69599914550781,
+      216.04397583007812
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Normal TSH",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      218.31201171875,
+      100.37999725341797,
+      232.96401977539062
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    7.320000171661377,
+    116.55200958251953,
+    260.90399169921875,
+    232.96401977539062
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 39,
+   "number": 39,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following signs is considered the most sensitive for thyrotoxicosis?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lid lag",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      269.34197998046875,
+      71.57999420166016,
+      283.9939880371094
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Staring look",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      286.261962890625,
+      99.18000030517578,
+      300.9139709472656
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Exophthalmos",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      303.1820068359375,
+      112.61599731445312,
+      317.8340148925781
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Pretibial myxedema",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      320.22198486328125,
+      140.21600341796875,
+      334.8739929199219
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    7.320000171661377,
+    235.3819580078125,
+    276.0000305175781,
+    334.8739929199219
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 40,
+   "number": 40,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A patient with a long-standing history of toxic multinodular goiter presents with worsening symptoms and is found to have a heart rate of 120 bpm and increased blood pressure. What is the most likely additional complication?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Thyroid storm",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      422.0019836425781,
+      108.89599609375,
+      436.65399169921875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Osteoporosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      439.0419921875,
+      107.81599426269531,
+      453.6940002441406
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Congestive heart failure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      455.96197509765625,
+      160.61599731445312,
+      470.6139831542969
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Myxedema coma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      472.8819885253906,
+      126.2959976196289,
+      487.53399658203125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    7.320000171661377,
+    337.1419982910156,
+    273.7799987792969,
+    487.53399658203125
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 41,
+   "number": 41,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 45-year-old male with a toxic solitary nodule presents with significant hyperthyroid symptoms. What is the best initial treatment option for this patient?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Surgery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      557.7520141601562,
+      77.2199935913086,
+      572.4039916992188
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Radioactive iodine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      574.7919921875,
+      133.61599731445312,
+      589.4439697265625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Antithyroid medication",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      591.7119750976562,
+      155.6959991455078,
+      606.3639526367188
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Observation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.760000228881836,
+      608.7520141601562,
+      101.57999420166016,
+      623.4039916992188
+     ]
+    }
+   ],
+   "after": "Written questions",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_after_options"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    7.320000171661377,
+    489.9219970703125,
+    277.8360900878906,
+    623.4039916992188
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 42,
+   "number": 1,
+   "section": 2,
+   "type": "QROC",
+   "stem": "Grave's disease '1ry thyrotoxicosis' (Define, clinical picture, laboratory investigations, treatment)",
+   "options": [],
+   "after": "",
+   "exp": "Graves disease is autoimmune primary hyperthyroidism caused by TSH-receptor-stimulating antibodies. Symptoms include heat intolerance, sweating, weight loss despite appetite, palpitations, tremor, anxiety, frequent stools and menstrual disturbance. Signs include diffuse goiter with bruit, tachycardia or atrial fibrillation, warm moist skin, fine tremor, lid retraction/stare and, in Graves disease, ophthalmopathy or pretibial dermopathy. TSH is suppressed with raised free T4 and/or T3; TSH-receptor antibodies support the diagnosis. If needed, uptake is diffusely increased; ultrasound shows diffuse enlargement and hypervascularity. Relieve adrenergic symptoms with a beta blocker; control hormone synthesis with methimazole (PTU is preferred in the first trimester of pregnancy). Definitive options are radioactive iodine or thyroidectomy, selected for the patient and disease; monitor thyroid function and treat resulting hypothyroidism.",
+   "inline_answer": null,
+   "flags": [
+    "figure_dependent"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    17.760000228881836,
+    91.11642456054688,
+    547.650146484375,
+    128.0592498779297
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null,
+   "exp_source": "derived",
+   "image": "Images/09_Q42.png"
+  },
+  {
+   "i": 43,
+   "number": 2,
+   "section": 2,
+   "type": "QROC",
+   "stem": "Thyrotoxicosis (causes, symptoms, specific clinical signs, Diagnosis & treatment)",
+   "options": [],
+   "after": "",
+   "exp": "Thyrotoxicosis is excess circulating thyroid hormone. Causes include Graves disease, toxic multinodular goiter, toxic adenoma, thyroiditis (subacute, painless or postpartum), excess iodine/amiodarone, exogenous thyroid hormone, hCG-mediated disease, a TSH-secreting pituitary tumor, struma ovarii and functioning metastases. Symptoms: heat intolerance, sweating, weight loss, palpitations, tremor, anxiety, proximal weakness and increased bowel frequency. Signs: tachycardia/atrial fibrillation, warm moist skin, fine tremor, hyperreflexia and goiter; Graves may add eye signs and pretibial dermopathy. Confirm with suppressed TSH and raised free T4 and/or T3. Use TSH-receptor antibodies for Graves; uptake/scintigraphy distinguishes diffuse Graves uptake, focal toxic nodules and low-uptake thyroiditis or exogenous hormone. Treat the cause: beta blocker for symptoms; antithyroid drugs for hormone synthesis; radioactive iodine or surgery for Graves/autonomous nodules when appropriate; thyroiditis is generally treated symptomatically, not with thionamides.",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    17.760000228881836,
+    130.71640014648438,
+    525.3101196289062,
+    147.85923767089844
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null,
+   "exp_source": "derived"
+  },
+  {
+   "i": 44,
+   "number": 3,
+   "section": 2,
+   "type": "QROC",
+   "stem": "Define (Subclinical hypothyroidism)",
+   "options": [],
+   "after": "",
+   "exp": "Subclinical hypothyroidism is a raised serum TSH with free T4 within the reference range (usually with no or mild symptoms). It may be transient or reflect early autoimmune thyroiditis, prior thyroid treatment, iodine imbalance or a drug effect. Confirm with repeat TSH/free T4 and assess thyroid peroxidase antibodies and symptoms. Consider levothyroxine when TSH is persistently at least 10 mIU/L, or at lower elevations in selected symptomatic patients, pregnancy/planning pregnancy, positive TPO antibodies, goiter or relevant cardiovascular risk. Otherwise monitor TSH and free T4 periodically. Recheck TSH about 6–8 weeks after starting or changing levothyroxine.",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    17.760000228881836,
+    150.51644897460938,
+    255.98011779785156,
+    167.65928649902344
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null,
+   "exp_source": "derived"
+  },
+  {
+   "i": 45,
+   "number": 4,
+   "section": 2,
+   "type": "QROC",
+   "stem": "Subacute thyroiditis (De Quervan thyroiditis): C/P, investigations & ttt",
+   "options": [],
+   "after": "",
+   "exp": "Subacute (De Quervain) thyroiditis is a usually post-viral, painful inflammatory thyroiditis. It causes fever, malaise and a tender enlarged thyroid with pain that may radiate to the jaw or ear; a transient thyrotoxic phase may be followed by temporary hypothyroidism and then recovery. Early tests show suppressed TSH and raised free T4/T3; ESR/CRP are elevated and radioactive iodine uptake is low. Treat pain/inflammation with an NSAID; use corticosteroids for severe or persistent pain. A beta blocker can control thyrotoxic symptoms. Antithyroid drugs are not useful because hormone excess is from leakage, not increased synthesis. Give temporary levothyroxine if the hypothyroid phase is symptomatic or prolonged, with follow-up thyroid function tests.",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    17.760000228881836,
+    170.31643676757812,
+    453.43011474609375,
+    187.4592742919922
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null,
+   "exp_source": "derived"
+  },
+  {
+   "i": 46,
+   "number": 5,
+   "section": 2,
+   "type": "QROC",
+   "stem": "Compare between Graves' disease & toxic multinodular goiter [symptoms, signs, laboratory and radiological diagnosis]",
+   "options": [],
+   "after": "",
+   "exp": "Graves disease is autoimmune and commonly affects younger adults; toxic multinodular goiter is more common in older people and often follows longstanding nodular goiter. Graves produces a diffuse, smooth goiter, sometimes with bruit, ophthalmopathy and pretibial dermopathy; toxic multinodular goiter has an irregular nodular gland and no characteristic Graves eye/skin disease. Both suppress TSH and raise free T4 and/or T3. TSH-receptor antibodies are usually positive in Graves and negative in toxic multinodular goiter. Radioiodine uptake is diffusely increased in Graves and patchy/heterogeneous with autonomous nodules in toxic multinodular goiter; ultrasound shows diffuse hypervascularity versus multiple nodules. Treatment options include antithyroid drugs, radioactive iodine or surgery, individualized to cause, age, comorbidity, goiter size and patient preference.",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    17.760000228881836,
+    190.11642456054688,
+    521.2861328125,
+    227.0592498779297
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null,
+   "exp_source": "derived"
+  },
+  {
+   "i": 47,
+   "number": 6,
+   "section": 2,
+   "type": "QROC",
+   "stem": "Cancer thyroid: Discuss risk factor for from the history, examination & investigation",
+   "options": [],
+   "after": "",
+   "exp": "Thyroid cancer risk clues include childhood head/neck irradiation, a first-degree relative with thyroid cancer, familial medullary cancer or MEN2, and relevant inherited syndromes. Concerning history/examination includes a rapidly enlarging, hard or fixed nodule, hoarseness, dysphagia, compressive symptoms, cervical lymphadenopathy or vocal-cord palsy. Evaluate with TSH and high-quality thyroid/neck ultrasound, including cervical nodes; perform ultrasound-guided fine-needle aspiration when sonographic pattern and nodule size meet criteria. If TSH is low, radionuclide scanning identifies a functioning nodule, which is rarely malignant. Cytology guides surveillance, repeat sampling or surgery. For suspected medullary cancer, measure calcitonin and evaluate for RET/MEN2 as indicated.",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    17.760000228881836,
+    229.74642944335938,
+    533.830078125,
+    246.88926696777344
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null,
+   "exp_source": "derived"
+  },
+  {
+   "i": 48,
+   "number": 7,
+   "section": 2,
+   "type": "QROC",
+   "stem": "Solitary thyroid nodule: the approaches to diagnosis",
+   "options": [],
+   "after": "",
+   "exp": "For a solitary thyroid nodule, take a history of growth, radiation exposure, family history, hoarseness and compressive symptoms; examine the thyroid, cervical nodes and voice. Measure TSH and perform thyroid/neck ultrasound to characterize the nodule and lymph nodes. If TSH is suppressed, obtain radionuclide scintigraphy: a hyperfunctioning nodule rarely needs cytology, while nonfunctioning nodules are assessed by ultrasound risk and size. Perform ultrasound-guided FNA when indicated and manage according to cytology (Bethesda): observe benign nodules with appropriate follow-up, repeat sampling for nondiagnostic/indeterminate results, and refer suspicious or malignant cytology for surgery. Consider surgery for compression, growth, suspicious cytology or patient-specific reasons.",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    17.760000228881836,
+    249.54641723632812,
+    351.1601257324219,
+    266.68927001953125
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null,
+   "exp_source": "derived"
+  },
+  {
+   "i": 49,
+   "number": 8,
+   "section": 2,
+   "type": "QROC",
+   "stem": "hypothyroidism Discuss Causes, Clinical types, Diagnosis and management Cases questions",
+   "options": [],
+   "after": "",
+   "exp": "Causes: primary thyroid failure (Hashimoto thyroiditis, iodine deficiency or excess, thyroidectomy/radioiodine, congenital dysgenesis or dyshormonogenesis, and drugs such as lithium or amiodarone) and central hypothyroidism from pituitary/hypothalamic disease. Types include overt primary, subclinical, central and congenital hypothyroidism. Features include fatigue, cold intolerance, weight gain, constipation, dry coarse skin/hair, hoarse voice, bradycardia, delayed relaxation of reflexes, menstrual disturbance and nonpitting myxedema. In primary disease TSH is high and free T4 low (subclinical: TSH high, free T4 normal); in central disease free T4 is low with an inappropriately low/normal TSH. Check TPO antibodies when autoimmune thyroiditis is suspected and evaluate pituitary/adrenal function in central disease. Treat with oral levothyroxine, individualized by age, weight and cardiac status; take consistently and separate from iron/calcium. Recheck TSH in about 6–8 weeks after a dose change and adjust; follow free T4 rather than TSH in central hypothyroidism. Treat adrenal insufficiency before starting thyroid hormone when suspected.",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    17.760000228881836,
+    269.3464050292969,
+    495.19012451171875,
+    319.04595947265625
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null,
+   "exp_source": "derived"
+  },
+  {
+   "i": 50,
+   "number": 1,
+   "section": 3,
+   "type": "QCS",
+   "stem": "female lady presented with palpitation, loss of weight, anxiety 3 months duration on Examination: tremors, staring look and neck swelling",
+   "options": [
+    {
+     "letter": "A",
+     "text": "What is the most likely diagnosis?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      32.400001525878906,
+      379.16644287109375,
+      258.2601318359375,
+      396.3092956542969
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Mention other symptoms and signs that confirm the diagnosis?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      32.400001525878906,
+      398.9664306640625,
+      433.630126953125,
+      416.1092834472656
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Mention laboratory and radiological investigations",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      32.400001525878906,
+      418.76641845703125,
+      408.5201416015625,
+      435.9092712402344
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Mention lines of treatment?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      32.400001525878906,
+      438.5664367675781,
+      274.94012451171875,
+      455.70928955078125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "Most likely diagnosis is Graves hyperthyroidism, supported by weight loss, palpitations, anxiety, tremor, staring appearance and diffuse neck swelling. Look for heat intolerance, sweating, increased appetite, frequent stools, diffuse goiter/bruit, lid retraction or lag, proptosis, fine tremor, warm moist skin and hyperreflexia. Measure TSH, free T4 and T3; test TSH-receptor antibodies. Thyroid uptake is diffusely increased in Graves; ultrasound can show diffuse enlargement/hypervascularity. Check ECG for tachyarrhythmia. Relieve symptoms with a beta blocker and treat hormone synthesis with methimazole (PTU in the first trimester of pregnancy); discuss radioactive iodine or thyroidectomy when appropriate, with follow-up thyroid testing.",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    10.5600004196167,
+    339.5464172363281,
+    531.7901000976562,
+    455.70928955078125
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "derived"
+  },
+  {
+   "i": 51,
+   "number": 2,
+   "section": 3,
+   "type": "QCS",
+   "stem": "44-y female pt presented with fatigue, lethargy, hypersomnia, weight gain, cold intolerance & sense of compression in the neck. On examination; pulse 56/m, BI P 140/100 with pallor, puffiness and slow thick voice. Chest was free. She had a family history of a similar condition, but past history was irrelevant",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Enumerate causes of bradycardia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      31.799999237060547,
+      537.4765014648438,
+      256.82012939453125,
+      554.6193237304688
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Enumerate causes of puffy eye lids",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      31.799999237060547,
+      557.2764282226562,
+      264.0201416015625,
+      574.4192504882812
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "What is your provisional diagnosis, why",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      31.799999237060547,
+      577.0764770507812,
+      287.3001403808594,
+      594.2192993164062
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "How can you confirm this diagnosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      31.799999237060547,
+      596.87646484375,
+      265.58013916015625,
+      614.019287109375
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "What are the types of anaemia in this case",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      31.799999237060547,
+      616.6764526367188,
+      308.9201354980469,
+      633.8192749023438
+     ]
+    },
+    {
+     "letter": "F",
+     "text": "What can you find in the obstetric and gynecological history in this patient g. Give 3 other signs in the hands h. Do you think that surgery may have a role in the treatment",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      31.799999237060547,
+      636.4764404296875,
+      494.2301330566406,
+      653.6192626953125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "The provisional diagnosis is primary hypothyroidism, likely autoimmune thyroiditis, based on cold intolerance, weight gain, lethargy, bradycardia, puffy face and a thick hoarse voice with goiter/compressive symptoms. Bradycardia causes include hypothyroidism, beta blockers and other rate-limiting drugs, sinus-node disease/heart block, ischemia and high vagal tone. Puffy eyelids may occur with hypothyroidism/myxedema, renal disease, nephrotic syndrome, heart failure or allergy. Confirm with high TSH and low free T4; check TPO antibodies, CBC, lipids and thyroid ultrasound for the neck mass/compression. Anemia may be normocytic, iron-deficiency (including from menorrhagia) or macrocytic from B12/folate deficiency. Ask about menorrhagia, irregular cycles, anovulation, infertility and recurrent pregnancy loss. Hand signs include cool dry skin, delayed relaxation of tendon reflexes, carpal tunnel syndrome, and puffy/nonpitting fingers. Thyroidectomy is considered for significant compressive symptoms, a large goiter, suspicious nodule/cancer, or another structural indication; it is not routine treatment for uncomplicated hypothyroidism.",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    10.5600004196167,
+    458.2464294433594,
+    571.978515625,
+    693.2192993164062
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "derived"
+  },
+  {
+   "i": 52,
+   "number": 3,
+   "section": 3,
+   "type": "QCS",
+   "stem": "A 23-year old female patient presented with history of 2 months dyspnea, palpitation, anxiety, insomnia, and weight loss. Her past history is irrelevant, and her mother has a similar condition",
+   "options": [
+    {
+     "letter": "A",
+     "text": "What is the most likely diagnosis? And why?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      31.799999237060547,
+      108.03640747070312,
+      318.64013671875,
+      125.17925262451172
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "What is the first possible etiology in this patient? Mention 3 other common etiologies",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      31.799999237060547,
+      127.83645629882812,
+      561.330078125,
+      144.9792938232422
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "What is expected in the appetite and menstrual history in this patient",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      31.799999237060547,
+      147.63644409179688,
+      467.5901184082031,
+      164.77928161621094
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "What is the most sensitive sign in the eye?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      31.799999237060547,
+      167.43643188476562,
+      307.1201171875,
+      184.5792694091797
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Give 4 important signs in the hand",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      31.799999237060547,
+      187.23641967773438,
+      256.70013427734375,
+      204.37925720214844
+     ]
+    },
+    {
+     "letter": "F",
+     "text": "What are expected in the laboratory and radiological investigations of this patient g. Give 2 different drugs (of different classes), with their dosage, for the treatment",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      31.799999237060547,
+      207.03640747070312,
+      536.9700927734375,
+      224.1792449951172
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "The likely diagnosis is Graves hyperthyroidism, given weight loss, dyspnea, palpitations, anxiety/insomnia and a family history suggesting autoimmune disease. Other causes include toxic multinodular goiter, toxic adenoma, thyroiditis, iodine/amiodarone exposure and exogenous thyroid hormone. Appetite is often increased despite weight loss; menstrual flow may become scant or irregular, with oligomenorrhea/amenorrhea. The most frequent eye sign is upper-lid retraction/stare; assess lid lag, proptosis, conjunctival irritation and restricted eye movements. Hand signs include fine tremor, warm moist palms, palmar erythema, onycholysis and, rarely, thyroid acropachy. Investigations: suppressed TSH, raised free T4 and/or T3, TSH-receptor antibodies; diffuse increased uptake supports Graves, and ultrasound assesses goiter/nodules. ECG is appropriate for palpitations. A beta blocker such as propranolol 20–40 mg every 6 hours controls adrenergic symptoms; methimazole is commonly started at about 10–30 mg/day according to biochemical severity (use PTU in the first trimester of pregnancy). Reassess thyroid function and adjust therapy; discuss definitive treatment if indicated.",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    10.5600004196167,
+    48.61642837524414,
+    561.330078125,
+    244.00926208496094
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "derived"
+  },
+  {
+   "i": 53,
+   "number": 4,
+   "section": 3,
+   "type": "QCS",
+   "stem": "21 year's Old Student Female; complaining of irritability, Excessive sweating, Cardiac palpitation & occasionally hand tremors. There is no Thyroid Swelling. BL.P 138/75mmHg and TSH is low normal",
+   "options": [
+    {
+     "letter": "A",
+     "text": "what is the most likely diagnosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      31.799999237060547,
+      306.0664367675781,
+      248.5401153564453,
+      323.20928955078125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "What are Further clinical signs",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      31.799999237060547,
+      325.8664245605469,
+      237.50010681152344,
+      343.00927734375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "discuss the important investigation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      31.799999237060547,
+      345.66644287109375,
+      266.18011474609375,
+      362.8092956542969
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "give one other diagnostic possibility",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      31.799999237060547,
+      365.4664306640625,
+      266.4201354980469,
+      382.6092834472656
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Is this patient need psychiatric consultation and Why?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      31.799999237060547,
+      385.28643798828125,
+      377.32012939453125,
+      402.4292907714844
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "The leading possibility is early or mild thyrotoxicosis (including subclinical hyperthyroidism or T3-predominant disease); the absence of a palpable goiter does not exclude it. Repeat TSH and measure free T4 and total/free T3, because TSH is only low-normal; review biotin, thyroid hormone and iodine/amiodarone exposure. If biochemical thyrotoxicosis is confirmed, assess TSH-receptor antibodies and use uptake/scintigraphy or ultrasound according to the suspected cause; obtain an ECG for palpitations. Differential diagnoses include anxiety/panic disorder, stimulant use and pheochromocytoma when clinically suggested. Do not attribute symptoms to a psychiatric disorder before thyroid and relevant medical causes are evaluated. If thyroid testing is normal and symptoms persist, assess for anxiety/depression and arrange psychiatric consultation when indicated.",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    10.5600004196167,
+    246.66641235351562,
+    562.9365234375,
+    402.4292907714844
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "derived"
+  }
+ ]
+}

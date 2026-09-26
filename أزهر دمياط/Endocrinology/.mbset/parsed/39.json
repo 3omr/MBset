@@ -1,0 +1,138 @@
+{
+ "nn": "39",
+ "source": "Raw_PDF_Questions/اهم اسئلة فالثايرويد.pdf",
+ "sha256": "d3ee3d4e60021f5114df6364df1f26e5ea881dfbc50c888580b82faec0e49302",
+ "at": "2026-09-26T05:05:06Z",
+ "layout": {
+  "method": "ocr",
+  "splits": {
+   "1": null,
+   "2": null,
+   "3": null
+  }
+ },
+ "counters": {
+  "source_numbering": 1,
+  "sections": [
+   "2-2"
+  ],
+  "option_a_lines": 0,
+  "parsed_questions": 1,
+  "parsed_numbered": 1,
+  "declared_total": null
+ },
+ "gaps": [
+  "section 1: missing [1]"
+ ],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [],
+  "grid_hits": 0,
+  "style_stats": {},
+  "marked_hits": 0,
+  "answered": 0,
+  "mcq": 0,
+  "at": "2026-09-26T05:05:06Z"
+ },
+ "distribution": {},
+ "dropped_lines": [
+  "CamScanner",
+  "eo) CamScanner",
+  "=",
+  "eo) CamScanner",
+  "Causes of nodular goiter ttt f one Piles.",
+  "a A uu 4 Se etme Af. abyroid dlend by",
+  "due Fo + prdudiw of thy tov hofrtenes Vfom -",
+  "I~ dine lehivency 5 may be .absahde lative -",
+  "Bn Goi Te Jeni c SulstinG_— Dict Cauliflower) , drufs (atk thay pee dru) Dm €neyrne wees 5 pendr'd's _Syrd tome ( Gagenrk ale deficiency ef RK ATE",
+  "Simple rodulur goiter -",
+  "</P symipJems —> Slew y &y\\\\an gyrenk” woke wall v4 :",
+  "7 Sis G Arnel 4 afclude tect].",
+  "eX de makes!",
+  "le Cel \\eSpeClbn, ,",
+  "Siggle la number, varcble sj nat tender exceph if infected",
+  "localized ec Afbused in Shap pnedul ar surhee lower boc dey Gr. be falk",
+  "wee uP; dowre ut MH deqlubihen , well defied ody)",
+  "PrESSien —) revwdl Grvct eollegk RSE —» dull",
+  "aE ae neo muymut LCL sf Gmolated .",
+  "& complications 5s OD gland itsall’.",
+  "@ gst Focindlion iy in gst) Sut by Asplation, ncisien Pskin dee? ACs",
+  "@ Glcfiahon on Len} shandiag",
+  "TB Arcinome -",
+  "(I 244 Lay veHiGS'S (J Grtid ss As phe mort",
+  "@S pressute onrkrachea",
+  "uniLateel. => kiukiv sPhechoe | @ -Lacheo maker chia as GllaPae",
+  "bilakeml —» savbbavd -brachen",
+  "t KX im divated iE yy RSE: ’ jee J Suspect malignancy —",
+  "Csmétic",
+  "if Sel-tal | —> hem; +thytoidectem",
+  "if multinodular, Subs Teoh tlagrei Jeckore| Leint aloout Sem)",
+  "semanas",
+  "ee enfin => Koliiculer adenom et",
+  "malignant (0 mredlignaik LY mPhemnee 4",
+  "Iz) meduker{ Grcnoma: €b",
+  "[3] Adenstatune nade. Pllar{ er",
+  "y Fallicar 11%",
+  "anaplstic 13°/,",
+  "manfeslaleen of sa i al y Be yeurS",
+  "SymiPens",
+  "° feaPd jncteGee we Sire. with Shei dunt",
+  "» pin, '5 leltéd swelin",
+  "_melistsic (Live 1; bone, Lung , blair)",
+  "+ Synpbas ef iaPiHetdlbas =",
+  "» trachea —dyspnen.",
+  "esPhafas—» dys hash:",
+  ": Sympabacke chen —> Hovner's Zynd fone",
+  "« Catetid arlory = postive Fainthyd:",
+  "- tetra jequblour vein —> edema of Fate",
+  ": Ze Curten Laryngeal neve inne",
+  "cy 5 Genotal exam wait | > For mitShss",
+  "Letl 5 swlir steader yp hard 5 ieyule -",
+  "Beted ss Sn — dgeack of Gretid Pubcon",
+  "LowWs —> enl{ed \\ ard '",
+  "rae ») — Hekal thedetowl,",
+  "why Fhe — as Ate peed Isstrcholege :",
+  "re ee",
+  ") abo (doe| 5 } Soran Gta sr",
+  "— f Lhy veg lebuli -"
+ ],
+ "dropped_count": 59,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 0,
+  "dropped": [],
+  "stale": []
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": 2,
+   "section": 1,
+   "type": "QROC",
+   "stem": "D aIpoStc - jad fo all ip DZan - 5 Gld nod he evr, Mt*RE neck uttaseurd C3) Ackth. we rf distavct MOTs - \\U\\ Actes, nw Gis ECA wz thal Al, Yar dock m d all cretllcKtD eT CUE (Causes s) aS iG imoRevalts -s estein Encl x for > Feralor adenoma - ae SZ. -_ Kay | Yo",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "numbering_gap_before",
+    "low_ocr_confidence",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    15.6,
+    137.0,
+    459.1,
+    485.0
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  }
+ ]
+}

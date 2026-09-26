@@ -1,8 +1,7 @@
-# Kumar endocrinology questions — extracted questions
+# mcq kumar endocrine pdf — extracted questions
 
-Total recoverable MCQs: 126
-
-> Status: Page 1 Dermatology questions was excluded; one OCR-damaged MCQ was omitted.
+> Source: `mcq kumar endocrine pdf.pdf` · index 12 · parsed 2026-09-26 by mbset.py
+> Questions: 127 (127 MCQ / 0 written) · answers: key 127
 
 ### Q1: Features of hypoglycaemia do not include:
 
@@ -13,6 +12,7 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -25,10 +25,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q3: Which of the following is not a part of metabolic ‘syndrome X’?
+### Q3: Which of the following is not a part of metabolic 'syndrome X'?
 
 - **A)** Hyperlipidaemia
 - **B)** Obesity
@@ -37,6 +38,7 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -49,6 +51,7 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -61,18 +64,19 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
 ### Q6: All are features of diabetic ketoacidosis except:
 
-- **A)** Hyperthermia
-- **B)** Drowsiness
-- **C)** Dehydration
-- **D)** Air hunger
+- **A)** Hyperthermia Bb. Drowsiness
+- **B)** Dehydration
+- **C)** Air hunger
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -81,10 +85,11 @@ Total recoverable MCQs: 126
 - **A)** Diabetic ketoacidosis
 - **B)** Lactic acidosis
 - **C)** Hyperosmolar non-ketotic coma
-- **D)** Hypoglycaemia Endocrinology 251
+- **D)** Hypoglycaemia
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -97,6 +102,7 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -109,6 +115,7 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -121,10 +128,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q11: Neurological features of myxoedema include all of the following except:
+### Q11: ier Neurological features of myxoedema include all of the following except:
 
 - **A)** Delayed relaxation of ankle jerk
 - **B)** Cerebellar ataxia
@@ -133,6 +141,7 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -145,6 +154,7 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -153,10 +163,11 @@ Total recoverable MCQs: 126
 - **A)** Myasthenic syndrome
 - **B)** Brisk knee jerk
 - **C)** Hypokalaemic periodic paralysis
-- **D)** Hyperkinesia 13
+- **D)** Hyperkinesia
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -169,6 +180,7 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -177,10 +189,11 @@ Total recoverable MCQs: 126
 - **A)** Cavernous sinus thrombosis
 - **B)** Retrobulbar tumour
 - **C)** Chloroma
-- **D)** Thyrotoxicosis 252 MCaQs in Internal Medicine
+- **D)** Thyrotoxicosis
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -193,10 +206,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
-### Q17: ‘Microalbuminuria’ is urinary albumin excretion ratio:
+### Q17: 'Microalbuminuria' is urinary albumin excretion ratio:
 
 - **A)** 10-100 pg/min
 - **B)** 20-200 pg/min
@@ -205,6 +219,7 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -217,6 +232,7 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -229,6 +245,7 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -241,6 +258,7 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -253,18 +271,20 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
 ### Q22: Cardiovascular findings of thyrotoxicosis do not include:
 
-- **A)** Loud S$,
+- **A)** Loud 5,
 - **B)** Means-Lerman scartch
 - **C)** Water-hammer pulse
 - **D)** Ejection click
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -277,6 +297,7 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -285,22 +306,24 @@ Total recoverable MCQs: 126
 - **A)** Normal cholesterol
 - **B)** Menorrhagia
 - **C)** Low TSH
-- **D)** Fine hairs Endocrinology 253
+- **D)** Fine hairs
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
 ### Q25: Thyroid acropachy is found in:
 
 - **A)** Subclinical hypothyroidism
-- **B)** Graves’ disease
+- **B)** Graves' disease
 - **C)** Myxoedema
 - **D)** Medullary carcinoma of thyroid
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -313,6 +336,7 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -325,10 +349,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
-### Q28: Klinefelter’s syndrome is characterised by:
+### Q28: Klinefelter's syndrome is characterised by:
 
 - **A)** Small, soft testes
 - **B)** Chromosomal pattern 46, XO
@@ -337,6 +362,7 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -349,6 +375,7 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -361,34 +388,49 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
-### Q31: Tall stature is not characteristic of:
+### Q31: 31, Tall stature is not characteristic of:
 
-- **A)** Klinefelter’s syndrome
+- **A)** Klinefelter's syndrome
 - **B)** Homocystinuria
-- **C)** Marfan’s syndrome
-- **D)** Turner’s syndrome 13
+- **C)** Marfan's syndrome
+- **D)** Turner's syndrome
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
-### Q32: Cushing’s syndrome does not give rise to:
+### Q32: Which cranial nerve is not involved in acromegaly?
+
+- **A)** VIO
+- **B)** IIL, IV, VI
+- **C)** V D. I
+
+**Correct Answer:** C
+**Answer Source:** key
+**Source Pages:** 5
+
+---
+
+### Q33: Cushing's syndrome does not give rise to:
 
 - **A)** Hirsutism
 - **B)** Peripheral neuropathy
 - **C)** Purple striae
-- **D)** Acne 254 MCaQs in Internal Medicine
+- **D)** Acne
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
-### Q33: Medical adrenalectomy is done by all except:
+### Q34: Medical adrenalectomy is done by all except:
 
 - **A)** Aminoglutethimide
 - **B)** Mitotane
@@ -397,10 +439,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q34: ‘Pseudo-Cushing’s syndrome’ may be found in all except:
+### Q35: 'Pseudo-Cushing's syndrome' may be found in all except:
 
 - **A)** Myxoedema
 - **B)** Chronic alcoholism
@@ -409,22 +452,24 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q35: Sheehan’s syndrome presents with:
+### Q36: Sheehan's syndrome presents with:
 
 - **A)** Cardiac failure
 - **B)** Persistent lactation
-- **C)** . Fever
+- **C)** Fever
 - **D)** Striking cachexia
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q36: Hypocalcaemia is produced by all except:
+### Q37: Hypocalcaemia is produced by all except:
 
 - **A)** Hysterical hypoventilation
 - **B)** Acute pancreatitis
@@ -433,10 +478,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q37: ‘Menopause’ may be manifested by all except:
+### Q38: 38 'Menopause' may be manifested by all except:
 
 - **A)** Hirsutism
 - **B)** Emotional lability
@@ -445,10 +491,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q38: Gynaecomastia may be produced after treatment with all except:
+### Q39: Gynaecomastia may be produced after treatment with all except:
 
 - **A)** Spironolactone
 - **B)** Digitalis
@@ -457,10 +504,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q39: Primary hyperaldosteronism is not featured by:
+### Q40: Primary hyperaldosteronism is not featured by:
 
 - **A)** Diastolic hypertension
 - **B)** Paraesthesia
@@ -469,10 +517,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q40: Thyrotoxicosis may be featured by all except:
+### Q41: Thyrotoxicosis may be featured by all except:
 
 - **A)** Myopathy
 - **B)** Pretibial myxoedema
@@ -481,10 +530,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q41: Which of the following is not associated with hypothyroidism?
+### Q42: Which of the following is not associated with hypothyroidism?
 
 - **A)** Loss of libido
 - **B)** Weight loss
@@ -493,34 +543,37 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q42: Tetany is characterised by all of the following signs except:
+### Q43: Tetany is characterised by all of the following signs except:
 
-- **A)** Trousseau’s sign
-- **B)** Tinel’s sign
-- **C)** Erb’s sign
-- **D)** Peroneal sign Endocrinology 255
+- **A)** Trousseau's sign
+- **B)** Tinel's sign
+- **C)** Erb's sign
+- **D)** Peroneal sign
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q43: Allof the following are featured by dermal hyperpigmentation except:
+### Q44: 44, All of the following are featured by dermal hyperpigmentation except:
 
-- **A)** Conn’s syndrome
+- **A)** Conn's syndrome
 - **B)** Bronchogenic carcinoma
-- **C)** Addison’s disease
+- **C)** Addison's disease
 - **D)** Haemochromatosis
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
-### Q44: Hyperparathyroidism is not featured by:
+### Q45: Hyperparathyroidism is not featured by:
 
 - **A)** Acute pancreatitis
 - **B)** Nephrocalcinosis
@@ -529,10 +582,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
-### Q45: Phaeochromocytoma is not associated with:
+### Q46: Phaeochromocytoma is not associated with:
 
 - **A)** Weight gain
 - **B)** Fear of death (angor animi)
@@ -541,10 +595,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
-### Q46: Which of the following is false regarding medullary carcinoma of thyroid?
+### Q47: Which of the following is false regarding medullary carcinoma of thyroid?
 
 - **A)** Cervical lymphadenopathy
 - **B)** High serum calcitonin
@@ -553,10 +608,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
-### Q47: Malignant hypercalcaemia is treated by all except:
+### Q48: Malignant hypercalcaemia is treated by all except:
 
 - **A)** Pamidronate
 - **B)** Calcitonin
@@ -565,10 +621,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
-### Q48: Most common type of carcinoma of the thyroid gland is:
+### Q49: Most common type of carcinoma of the thyroid gland is:
 
 - **A)** Follicular
 - **B)** Anaplastic
@@ -577,10 +634,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
-### Q49: Features of Addison’s disease do not include:
+### Q50: Features of Addison's disease do not include:
 
 - **A)** Diarrhoea
 - **B)** Dizziness
@@ -589,34 +647,37 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
-### Q50: Pseudohypoparathyroidism is not associated with:
+### Q51: Pseudohypoparathyroidism is not associated with:
 
 - **A)** Cataract
-- **B)** Raised level of plasma PTH 13
+- **B)** Raised level of plasma PTH
 - **C)** Mental retardation
 - **D)** Reduced level of plasma phosphate
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
-### Q51: Commonest cause of phaeochromocytoma is:
+### Q52: Commonest cause of phaeochromocytoma is:
 
 - **A)** Tumour of adrenal medulla
 - **B)** Necrosis of adrenal gland
 - **C)** Small cell carcinoma of bronchus
-- **D)** Adrenal cortical hyperplasia 256 MCaQs in Internal Medicine
+- **D)** Adrenal cortical hyperplasia
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
-### Q52: Commonest cause of Addison’s disease is:
+### Q53: Commonest cause of Addison's disease is:
 
 - **A)** Granuloma
 - **B)** Idiopathic atrophy
@@ -625,10 +686,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q53: All of the following are noted in Cushing’s syndrome except:
+### Q54: All of the following are noted in Cushing's syndrome except:
 
 - **A)** Psychosis
 - **B)** Systemic hypertension
@@ -637,10 +699,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q54: Secondary hyperaldosteronism is associated with all except:
+### Q55: Secondary hyperaldosteronism is associated with all except:
 
 - **A)** Congestive cardiac failure
 - **B)** Nephrotic syndrome
@@ -649,22 +712,24 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q55: Empty sella syndrome may be due to all except:
+### Q56: Empty sella syndrome may be due to all except:
 
-- **A)** Sheehan’s syndrome
+- **A)** Sheehan's syndrome
 - **B)** Spontaneous development
 - **C)** Pituitary tumour
 - **D)** Post-irradiation necrosis of pituitary gland
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q56: Increased muscle mass with slowness of activity (Hoffman syndrome) is seen in:
+### Q57: Increased muscle mass with slowness of activity (Hoffman syndrome) is seen in:
 
 - **A)** Acromegaly
 - **B)** Myxoedema
@@ -673,10 +738,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q57: All of the following develop into dwarfism except:
+### Q58: All of the following develop into dwarfism except:
 
 - **A)** Congenital adrenal hyperplasia
 - **B)** Hypopituitarism
@@ -685,10 +751,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q58: Plummer’s nails are a feature of:
+### Q59: Plummer's nails are a feature of:
 
 - **A)** Atopic eczema
 - **B)** Hypoparathyroidism
@@ -697,22 +764,24 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q59: Froehlich’s syndrome is characterised by all except:
+### Q60: Froehlich's syndrome is characterised by all except:
 
 - **A)** Infantilism
 - **B)** Truncal obesity
 - **C)** Diabetes mellitus
-- **D)** Mental retardation Endocrinology 257
+- **D)** Mental retardation
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q60: The triad of hyponatraemia, haemodilution and urine hypertonic to plasma suggest diagnosis of:
+### Q61: The triad of hyponatraemia, haemodilution and urine hypertonic to plasma suggest diagnosis of:
 
 - **A)** Nephrotic syndrome
 - **B)** SIADH
@@ -721,22 +790,23 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
-### Q61: ‘Heel-pad thickness’ for a male acromegaly should be:
+### Q62: 'Heel-pad thickness' for a male acromegaly should be:
 
-- **A)** >14mm
-- **B)** > 18mm
-- **C)** >19mm
-- **D)** >21 mm
+- **A)** >14mm By & 413 Hm
+- **B)** >19mm
+- **C)** >21 mm
 
-**Correct Answer:** D
+**Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
-### Q62: Nephrogenic diabetes insipidus may develop due to all except:
+### Q63: Nephrogenic diabetes insipidus may develop due to all except:
 
 - **A)** Cystinosis
 - **B)** Lithium-induced
@@ -745,10 +815,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
-### Q63: All of the following drugs may produce galactorrhoea except:
+### Q64: All of the following drugs may produce galactorrhoea except:
 
 - **A)** Salicylates
 - **B)** Reserpine
@@ -757,22 +828,24 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
-### Q64: Allof the following produce hypergonadotropic hypogonadism except:
+### Q65: All of the following produce hypergonadotropic hypogonadism except:
 
 - **A)** Sertoli cell only tumour
-- **B)** Klinefelter’s syndrome
-- **C)** Kallman’s syndrome
-- **D)** Reifenstein’s syndrome
+- **B)** Klinefelter's syndrome
+- **C)** Kallman's syndrome
+- **D)** Reifenstein's syndrome
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
-### Q65: Which is not a part of multiple endocrine neoplasia type I (Wermer’s syndrome)?
+### Q66: Which is not a part of multiple endocrine neoplasia type I (Wermer's syndrome)?
 
 - **A)** Phaeochromocytoma
 - **B)** Tumour of pituitary
@@ -781,34 +854,37 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
-### Q66: Calcification of basal ganglia is seen in:
+### Q67: 67, Calcification of basal ganglia is seen in:
 
 - **A)** Primary hyperparathyroidism
 - **B)** Hypoparathyroidism
-- **C)** Secondary hyperparathyroidism 13
+- **C)** Secondary hyperparathyroidism
 - **D)** Milk-alkali syndrome
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
-### Q67: Phaeochromocytoma may be associated with following anomalies except:
+### Q68: Phaeochromocytoma may be associated with following anomalies except:
 
 - **A)** Neurofibromatosis
 - **B)** Medullary carcinoma of thyroid
 - **C)** Hyperparathyroidism
-- **D)** Addison’s disease 258 MCaQs in Internal Medicine
+- **D)** Addison's disease
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
-### Q68: Tertiary hyperparathyroidism is commonly found in:
+### Q69: Tertiary hyperparathyroidism is commonly found in:
 
 - **A)** Rickets
 - **B)** Pseudohypoparathyroidism
@@ -817,22 +893,24 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q69: Commonest enzymatic defect for development of congenital adrenal hyperplasia is:
+### Q70: Commonest enzymatic defect for development of congenital adrenal hyperplasia is: A.
 
-- **A)** C-21 hydroxylase deficiency
-- **B)** 3b dehydrogenase deficiency
+- **A)** 3b dehydrogenase deficiency
+- **B)** 21 hydroxylase deficiency
 - **C)** C-11 hydroxylase deficiency
 - **D)** C-17 hydroxylase deficiency
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q70: ‘Brown tumour’ of bone is found in:
+### Q71: 'Brown tumour' of bone is found in:
 
 - **A)** Primary hyperparathyroidism
 - **B)** Pseudohypoparathyroidism
@@ -841,10 +919,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q71: Primary aldosteronism is not featured by:
+### Q72: Primary aldosteronism is not featured by:
 
 - **A)** Low plasma renin
 - **B)** Hypokalaemia
@@ -853,10 +932,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q72: Which is not a feature of mucosal neuroma syndrome (multiple endocrine neoplasia type III)?
+### Q73: Which is not a feature of mucosal neuroma syndrome (multiple endocrine neoplasia type III)?
 
 - **A)** Café au lait spots
 - **B)** Blubbery lips
@@ -865,10 +945,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q73: Necrolytic migratory erythema is characteristic of:
+### Q74: Necrolytic migratory erythema is characteristic of:
 
 - **A)** Insulinoma
 - **B)** Zollinger-Ellison syndrome
@@ -877,10 +958,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q74: Prader-Willi syndrome is featured by all except:
+### Q75: Prader-Willi syndrome is featured by all except:
 
 - **A)** Mental retardation
 - **B)** Obesity
@@ -889,22 +971,24 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q75: Which of the following does not produce fasting hypo- glycaemia?
+### Q76: Which of the following does not produce fasting hypo- glycaemia?
 
 - **A)** Galactosaemia
 - **B)** Insulinoma
 - **C)** Glucose-6-phosphatase deficiency
-- **D)** Systemic carnitine deficiency Endocrinology 259
+- **D)** Systemic carnitine deficiency
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q76: Schmidt syndrome (polyglandular deficiency syndrome) is not associated with:
+### Q77: ZF Schmidt syndrome (polyglandular deficiency syndrome) is not associated with:
 
 - **A)** Adrenal insufficiency
 - **B)** Hypoparathyroidism
@@ -913,22 +997,24 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
-### Q77: Allof the following produce hirsutism with virilisation except:
+### Q78: All of the following produce hirsutism with virilisation except:
 
-- **A)** Cushing’s syndrome
+- **A)** Cushing's syndrome
 - **B)** Arrhenoblastoma
 - **C)** Malignant adrenal hyperplasia
 - **D)** Congenital adrenal hyperplasia
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
-### Q78: Erythropoietin is secreted from:
+### Q79: Erythropoietin is secreted from:
 
 - **A)** Mesenchymal tumours
 - **B)** Cerebellar haemangioblastoma
@@ -937,10 +1023,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
-### Q79: Turner’s syndrome is not associated with:
+### Q80: Turner's syndrome is not associated with:
 
 - **A)** Shield-like chest
 - **B)** Aortic incompetence
@@ -949,10 +1036,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
-### Q80: Melatonin is clinically used in:
+### Q81: Melatonin is clinically used in:
 
 - **A)** Pituitary tumour
 - **B)** Decompression sickness
@@ -961,10 +1049,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
-### Q81: POEMS syndrome aggregates polyneuropathy, organomegaly, M-proteins, skin changes and ;
+### Q82: POEMS syndrome aggregates polyneuropathy, organomegaly, M-proteins, skin changes and
 
 - **A)** Enlarged pituitary gland
 - **B)** Empyema thoracis
@@ -973,46 +1062,50 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
-### Q82: Sildenafil (Viagra) should be used with caution in:
+### Q83: Sildenafil (Viagra) should be used with caution in:
 
 - **A)** Retinitis pigmentosa
-- **B)** Diabetes mellitus 13
+- **B)** Diabetes mellitus
 - **C)** Endogenous depression
 - **D)** Hypertension
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
-### Q83: Vanillylmandelic acid (VMA) excretion is increased in urine in:
+### Q84: Vanillylmandelic acid (VMA) excretion is increased in urine in:
 
-- **A)** Conn’s syndrome
+- **A)** Conn's syndrome
 - **B)** Congenital adrenal hyperplasia
 - **C)** Testicular feminisation syndrome
-- **D)** Phaeochromocytoma 260 MCQs in Internal Medicine
+- **D)** Phaeochromocytoma
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
-### Q84: Commonest cause of thyrotoxicosis is:
+### Q85: Commonest cause of thyrotoxicosis is:
 
 - **A)** Multinodular goitre
-- **B)** Hashimoto’s thyroiditis
-- **C)** Graves’ disease
+- **B)** Hashimoto's thyroiditis
+- **C)** Graves' disease
 - **D)** Well-differentiated carcinoma
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
-### Q85: In pregnancy, antithyroid treatment of choice is:
+### Q86: In pregnancy, antithyroid treatment of choice is:
 
 - **A)** Radio-active iodine
 - **B)** Carbimazole
@@ -1021,10 +1114,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
-### Q86: Charcot joint in diabetes mellitus commonly affects:
+### Q87: Charcot joint in diabetes mellitus commonly affects:
 
 - **A)** Hip
 - **B)** Shoulder
@@ -1033,10 +1127,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
-### Q87: Osmoreceptors are present in:
+### Q88: Osmoreceptors are present in:
 
 - **A)** Atria
 - **B)** Kidney
@@ -1045,10 +1140,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
-### Q88: The prostaglandins were first demonstrated in:
+### Q89: The prostaglandins were first demonstrated in:
 
 - **A)** CSF
 - **B)** Urine
@@ -1057,10 +1153,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
-### Q89: Which is considered to be an endocrine organ?
+### Q90: Which is considered to be an endocrine organ?
 
 - **A)** Skin
 - **B)** Ciliary body
@@ -1069,22 +1166,24 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
-### Q90: Epiphyseal dysgenesis is seen in:
+### Q91: Epiphyseal dysgenesis is seen in:
 
 - **A)** Hypoparathyroidism
 - **B)** Secondary hyperparathyroidism
-- **C)** Cushing’s syndrome
+- **C)** Cushing's syndrome
 - **D)** Hypothyroidism
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
-### Q91: Commonest site of insulinoma is in the pancreatic:
+### Q92: Commonest site of insulinoma is in the pancreatic:
 
 - **A)** Tail
 - **B)** Head
@@ -1093,22 +1192,24 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
-### Q92: In Somogyi phenomenon commonly associated with type 2 diabetes mellitus, the dose of insulin should be:
+### Q93: In Somogyi phenomenon commonly associated with type 2 diabetes mellitus, the dose of insulin should be:
 
 - **A)** Increased
 - **B)** Stopped
 - **C)** Decreased
-- **D)** Needs no change Endocrinology 261
+- **D)** Needs no change
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
-### Q93: Miglitol used in diabetes mellitus falls under category of drugs like:
+### Q94: Miglitol used in diabetes mellitus falls under category of drugs like:
 
 - **A)** Alpha-glucosidase inhibitor
 - **B)** Thiazolidinediones
@@ -1117,10 +1218,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
-### Q94: Thyromegaly may develop from all except:
+### Q95: Thyromegaly may develop from all except:
 
 - **A)** Chlorpromazine
 - **B)** Lithium
@@ -1129,10 +1231,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
-### Q95: In the Klinefelter’s syndrome:
+### Q96: In the Klinefelter's syndrome:
 
 - **A)** All the patients are infertile
 - **B)** Plasma FSH is elevated
@@ -1141,10 +1244,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
-### Q96: Which of the following is not a recognised feature of myxoe- dema?
+### Q97: Which of the following is not a recognised feature of myxoe- dema?
 
 - **A)** Ascites
 - **B)** Cerebellar ataxia
@@ -1153,22 +1257,24 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
-### Q97: Percussion myoedema is characteristic of:
+### Q98: Percussion myoedema is characteristic of:
 
 - **A)** Acromegaly
 - **B)** Hypoparathyroidism
-- **C)** Sheehan’s syndrome
+- **C)** Sheehan's syndrome
 - **D)** Hypothyroidism
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
-### Q98: Anorexia nervosa is not associated with:
+### Q99: Anorexia nervosa is not associated with:
 
 - **A)** Hypokalaemia
 - **B)** Primary amenorrhoea
@@ -1177,10 +1283,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
-### Q99: ‘Blubbery’ lips are characteristic of: 13
+### Q100: "'Blubbery' lips are characteristic of:
 
 - **A)** Mucosal neuroma syndrome (MEN type III)
 - **B)** McCune-Albright syndrome
@@ -1189,22 +1296,24 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
-### Q100: Priapism may be a side effect of:
+### Q101: Priapism may be a side effect of:
 
 - **A)** Reserpine
 - **B)** Octreotide
 - **C)** Methaqualone
-- **D)** Trazodone 262 MCaQs in Internal Medicine
+- **D)** Trazodone
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
-### Q101: Which of the following is false regarding prerequisites of oral glucose tolerance test?
+### Q102: Which of the following is false regarding prerequisites of oral glucose tolerance test?
 
 - **A)** Restricted carbohydrate diet, 72 hours before test
 - **B)** Patient will take 75 g of glucose orally during the test
@@ -1213,10 +1322,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
-### Q102: Orlistat is used to treat:
+### Q103: Orlistat is used to treat:
 
 - **A)** Diabetic neuropathy
 - **B)** Obesity
@@ -1225,10 +1335,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
-### Q103: Prolonged ingestion of iodine can produce goitre, and is known as:
+### Q104: Prolonged ingestion of iodine can produce goitre, and is known as:
 
 - **A)** Jod-Basedow effect
 - **B)** Sick euthyroid syndrome
@@ -1237,10 +1348,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
-### Q104: Priapism may be encountered in all except:
+### Q105: Priapism may be encountered in all except:
 
 - **A)** Spinal cord injury
 - **B)** Alprostadil therapy
@@ -1249,10 +1361,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
-### Q105: Seminal emission may be absent in all except:
+### Q106: Seminal emission may be absent in all except:
 
 - **A)** Phentolamine therapy
 - **B)** Parasympathetic denervation
@@ -1261,34 +1374,37 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
-### Q106: Advanced maternal age is a predisposing factor in:
+### Q107: Advanced maternal age is a predisposing factor in:
 
-- **A)** Turner’s syndrome
+- **A)** Turner's syndrome
 - **B)** Ataxia-telangiectasia
-- **C)** Klinefelter’s syndrome
+- **C)** Klinefelter's syndrome
 - **D)** True hermaphroditism
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
-### Q107: Karyotype 47, XYY is:
+### Q108: Karyotype 47, XYY is:
 
 - **A)** True hermaphroditism
 - **B)** Supermale
-- **C)** Klinefelter’s syndrome
+- **C)** Klinefelter's syndrome
 - **D)** Gonadal dysgenesis
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
-### Q108: Commonest cause of ‘ambiguous genitalia’ in newborn is: 13 | 2
+### Q109: Commonest cause of 'ambiguous genitalia' in newborn is:
 
 - **A)** Congenital adrenal hyperplasia
 - **B)** True hermaphroditism
@@ -1297,22 +1413,24 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
-### Q109: Hiirthle cells are pathognomonic of:
+### Q110: Hurthle cells are pathognomonic of:
 
 - **A)** Pemphigus
 - **B)** Pinealoma
 - **C)** Hashimoto's thyroiditis
-- **D)** Insulinoma Endocrinology 263
+- **D)** Insulinoma
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
-### Q110: Psammoma bodies are seen in all except:
+### Q111: Psammoma bodies are seen in all except:
 
 - **A)** Papillary carcinoma of thyroid
 - **B)** Meningioma
@@ -1321,10 +1439,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q111: In a male subject, if ovulation causes testicular pain, the diagnosis is:
+### Q112: In a male subject, if ovulation causes testicular pain, the diagnosis is:
 
 - **A)** Gonadal dysgenesis
 - **B)** True hermaphroditism
@@ -1333,10 +1452,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q112: A female with negative Barr body and having lymphoedema of hand and foot is diagnostic of:
+### Q113: A female with negative Barr body and having lymphoedema of hand and foot is diagnostic of:
 
 - **A)** 21-hydroxylase deficiency
 - **B)** Karotype 47, XXY
@@ -1345,22 +1465,24 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q113: Persistent muscular weakness is characteristic of:
+### Q114: 114, Persistent muscular weakness is characteristic of:
 
-- **A)** Conn’s syndrome
+- **A)** Conn's syndrome
 - **B)** Acromegaly
 - **C)** Hyperparathyroidism
 - **D)** Myxoedema
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q114: Galactorrhoea may be produced by all except:
+### Q115: Galactorrhoea may be produced by all except:
 
 - **A)** Reserpine
 - **B)** Butyrophenones
@@ -1369,10 +1491,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q115: Which of the following augments growth hormone release?
+### Q116: Which of the following augments growth hormone release?
 
 - **A)** Glucocorticoids
 - **B)** Somatostatin
@@ -1381,34 +1504,37 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q116: Syndrome of inappropriate antidiuretic hormone (SIADH) may be seen in all except:
+### Q117: Syndrome of inappropriate antidiuretic hormone (SIADH) may be seen in all except:
 
 - **A)** Guillain-Barré syndrome
-- **B)** Subacute bacterial endocarditis 13
+- **B)** Subacute bacterial endocarditis
 - **C)** Myxoedema
 - **D)** Bronchogenic carcinoma
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q117: Type 3 diabetes mellitus is related to:
+### Q118: Type 3 diabetes mellitus is related to:
 
 - **A)** Leprechaunism
 - **B)** Coeliac disease
-- **C)** Alzheimer’s disease
-- **D)** Lean body mass obesity 264 MCQs in Internal Medicine
+- **C)** Alzheimer's disease
+- **D)** Lean body mass obesity
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q118: Regarding syndrome of inappropriate antidiuretic hormone (SIADH), which is true?
+### Q119: Regarding syndrome of inappropriate antidiuretic hormone (SIADH), which is true?
 
 - **A)** Hyponatremia is dilutional
 - **B)** Urine is relatively hypertonic to plasma
@@ -1417,10 +1543,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q119: In injury to adrenal cortex, secretion of which is least affected?
+### Q120: In injury to adrenal cortex, secretion of which is least affected?
 
 - **A)** Adrenaline
 - **B)** Cortisol
@@ -1429,10 +1556,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q120: Which is the specific region of hypothalamus responsible for sweat secretion?
+### Q121: Which is the specific region of hypothalamus responsible for sweat secretion?
 
 - **A)** Supra-optic
 - **B)** Median eminence
@@ -1441,10 +1569,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q121: Increased serum aldosterone level is not associated with:
+### Q122: Increased serum aldosterone level is not associated with:
 
 - **A)** Hypertension
 - **B)** Hypernatraemia
@@ -1453,10 +1582,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q122: In parathyroid pathology, investigation of choice is:
+### Q123: In parathyroid pathology, investigation of choice is:
 
 - **A)** Gallium scan
 - **B)** Thallium scan
@@ -1465,10 +1595,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q123: Increased gonadal production of oestrogen is seen in:
+### Q124: Increased gonadal production of oestrogen is seen in:
 
 - **A)** Third trimester of pregnancy
 - **B)** Congenital adrenal hyperplasia
@@ -1477,10 +1608,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q124: Excess prolactin gives rise to:
+### Q125: Excess prolactin gives rise to:
 
 - **A)** Acromegaly
 - **B)** Gynaecomastia
@@ -1489,10 +1621,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q125: Which hormone stimulates egg production in ovaries?
+### Q126: 13 126. Which hormone stimulates egg production in ovaries?
 
 - **A)** FSH
 - **B)** TSH
@@ -1501,10 +1634,11 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q126: Which of the following country has highest number of type 1 diabetes patients?
+### Q127: Which of the following country has highest number of type 1 diabetes patients?
 
 - **A)** Japan
 - **B)** India
@@ -1513,5 +1647,6 @@ Total recoverable MCQs: 126
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 16
 
 ---

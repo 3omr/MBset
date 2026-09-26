@@ -1,10 +1,9 @@
-# Pituitary questions — extracted questions
+# pituitary questions منير — extracted questions
 
-Total recoverable MCQs: 51
+> Source: `pituitary questions منير.pdf` · index 08 · parsed 2026-09-26 by mbset.py
+> Questions: 54 (54 MCQ / 0 written) · answers: key 54
 
-> Status: 3 numbered blocks were omitted because options/key were incomplete.
-
-### Q1: Regarding hypogonadism, which is false ?
+### Q1: Regarding hypogonadism, which is false?
 
 - **A)** The clinical picture differs according to the time of occurrence
 - **B)** Primary hypogonadism is less hopeful than secondary
@@ -13,10 +12,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q2: Which is false regarding prolactinoma ?
+### Q2: Which is false regarding prolactinoma?
 
 - **A)** Presented with galactorrhea-amenorrhea syndrome
 - **B)** May be micro or macro adenoma
@@ -26,6 +26,7 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -38,6 +39,7 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -50,6 +52,7 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -63,10 +66,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q6: Patient presents with sudden onset of headache, visual disturbance, ophthalmoplegia, and reduced mental status diagnosis is ?
+### Q6: Patient presents with sudden onset of headache, visual disturbance, ophthalmoplegia, and reduced mental status diagnosis is?
 
 - **A)** pituitary adenoma
 - **B)** Rathke's pouch
@@ -75,10 +79,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q7: The mass effects of pituitary macroadenoma upward the structure compressed is :
+### Q7: The mass effects of pituitary macroadenoma upward the structure compressed is:
 
 - **A)** sphenoid sinus
 - **B)** optic chiasm
@@ -87,10 +92,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q8: The pituitary gland weight is :
+### Q8: The pituitary gland weight is:
 
 - **A)** 0.6 g
 - **B)** 3 g
@@ -99,10 +105,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q9: Post-operative Complications of pituitary adenoma include the following except :
+### Q9: Post-operative Complications of pituitary adenoma include the following except:
 
 - **A)** Diabetes Insipidus
 - **B)** Diabetes mellites
@@ -112,10 +119,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q10: The adenohypophysis originates from :
+### Q10: The adenohypophysis originates from:
 
 - **A)** pituitary stalk
 - **B)** Rathke's pouch
@@ -125,6 +133,7 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -137,21 +146,50 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q12: Which is false regarding prolactinoma :
+### Q12: Which is false regarding prolactinoma:
 
-- **A)** Presented with galactorrhea-amenorrhea syndrome e b. Drug-related hyperprolactinemia may present with similar picture
-- **B)** Does not respond to medical treatment
-- **C)** Pressure symptoms may be absent or present
+- **A)** Presented with galactorrhea-amenorrhea syndrome
+- **B)** Drug-related hyperprolactinemia may present with similar picture
+- **C)** Does not respond to medical treatment
+- **D)** Pressure symptoms may be absent or present
 
-**Correct Answer:** B
+**Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q13: The following is not a cause of panhypopituitarism
+### Q13: The blood supply to the anterior pituitary is derived from the
+
+- **A)** superior hypophyseal artery
+- **B)** inferior hypophyseal artery
+- **C)** ophthalmic artery
+- **D)** cavernous sinus
+
+**Correct Answer:** A
+**Answer Source:** key
+**Source Pages:** 1
+
+---
+
+### Q14: The pituitary gland is located in the center of the brain lying in the
+
+- **A)** anterior cleniod process
+- **B)** posterior clenoid process
+- **C)** diaphragma sella
+- **D)** sella turcica
+
+**Correct Answer:** D
+**Answer Source:** key
+**Source Pages:** 1
+
+---
+
+### Q15: The following is not a cause of panhypopituitarism
 
 - **A)** Sheehan's
 - **B)** Prolactinoma
@@ -160,10 +198,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q14: This class of drugs is not causing hyperprolactinemia
+### Q16: This class of drugs is not causing hyperprolactinemia
 
 - **A)** Prokinetic drugs
 - **B)** Anti psychotics
@@ -173,10 +212,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q15: The following is false regarding anterior pituitary hypofunction
+### Q17: The following is false regarding anterior pituitary hypofunction
 
 - **A)** It is often panhypopituitarism
 - **B)** Pallor is characteristic
@@ -186,10 +226,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q16: Presentation of pituitary disorders are by either
+### Q18: Presentation of pituitary disorders are by either
 
 - **A)** Hormonal excess
 - **B)** Hormone deficiency
@@ -199,10 +240,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q17: Acromegaly is characterized by
+### Q19: Acromegaly is characterized by
 
 - **A)** Visual field defects are common
 - **B)** Usually caused by microadenoma
@@ -212,10 +254,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q18: Endocrinal causes of short stature doesn't include
+### Q20: Endocrinal causes of short stature doesn't include
 
 - **A)** Cushing's syndrome
 - **B)** GH deficiency
@@ -225,10 +268,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q19: Pancreatic tumors are found in
+### Q21: Pancreatic tumors are found in
 
 - **A)** MEN type 1
 - **B)** MEN type 2
@@ -238,10 +282,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q20: Which absent jn pituitary apoplexy
+### Q22: Which absent jn pituitary apoplexy
 
 - **A)** Acute loss of Vision
 - **B)** Headache
@@ -251,12 +296,27 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q21: In Sheehan's syndrome, which is false:
+### Q23: The following excludes the diagnosis of MEN type 1
 
-- **A)** Caused by severe peripartum ( )hemorrhage
+- **A)** Insulinoma
+- **B)** Hypercalcemia
+- **C)** Cushing diseasee
+- **D)** Acromegaly
+- **E)** Pheochromocytoma
+
+**Correct Answer:** E
+**Answer Source:** key
+**Source Pages:** 2
+
+---
+
+### Q24: In Sheehan's syndrome, which is false:
+
+- **A)** Caused by severe peripartum hemorrhage
 - **B)** It proceeds gradually over many years until it is presented with full clinical manifestations
 - **C)** Adrenal failure occurs early
 - **D)** Measurement of pituitary hormones and target hormones are essential for diagnosis confirmation
@@ -264,10 +324,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q22: Surgical indications of pituitary adenoma include the following except
+### Q25: Surgical indications of pituitary adenoma include the following except
 
 - **A)** pituitary macroadenoma
 - **B)** Worsening of vision
@@ -277,10 +338,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q23: The following does NOT lead to short stature
+### Q26: The following does NOT lead to short stature
 
 - **A)** Sheehan syndrome
 - **B)** Cretinism
@@ -289,10 +351,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q24: The following is false regarding pituitary hypofunction
+### Q27: The following is false regarding pituitary hypofunction
 
 - **A)** Usually panhypopituitarism
 - **B)** Usually of gradual course
@@ -301,10 +364,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q25: The main stimulus of vasopressin secretion is
+### Q28: The main stimulus of vasopressin secretion is
 
 - **A)** Hypoglycemia
 - **B)** Angiotensin 2
@@ -313,10 +377,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q26: Isolated growth hormone deficiency is not characterized by
+### Q29: Isolated growth hormone deficiency is not characterized by
 
 - **A)** Disproportionate dwarfism
 - **B)** Good mental function
@@ -325,10 +390,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q27: Acromegaly is due to a disease in
+### Q30: Acromegaly is due to a disease in
 
 - **A)** Ant. Pituitary
 - **B)** post. Pituitary
@@ -336,10 +402,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q28: Acromegaly is characterized by all except
+### Q31: Acromegaly is characterized by all except
 
 - **A)** big head and feet
 - **B)** prognothism
@@ -348,10 +415,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q29: Recognized complications of acromegaly
+### Q32: Recognized complications of acromegaly
 
 - **A)** exophthalmos
 - **B)** DM
@@ -360,10 +428,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q30: In investigations of acromegaly all are true except
+### Q33: In investigations of acromegaly all are true except
 
 - **A)** failure to suppress GH < 2mg/ml after glucose
 - **B)** ↑ IGF 1
@@ -372,10 +441,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q31: All of the following are causes of hyperprolactineamia except
+### Q34: All of the following are causes of hyperprolactineamia except
 
 - **A)** pregnancy
 - **B)** primary hypothyroidism
@@ -384,10 +454,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q32: Intra-sellar pituitary tumor cause
+### Q35: Intra-sellar pituitary tumor cause
 
 - **A)** visual defect
 - **B)** neurological defect
@@ -396,10 +467,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q33: Recognized causes of hypopituitarism include all of the following except
+### Q36: Recognized causes of hypopituitarism include all of the following except
 
 - **A)** postpartum hemorrhage
 - **B)** Cushing's syndrome
@@ -409,10 +481,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q34: Causes of hypopituitarism all are true except
+### Q37: Causes of hypopituitarism all are true except
 
 - **A)** carnio-pharngioma
 - **B)** head injury
@@ -421,10 +494,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q35: Pan hypopituitarism causes
+### Q38: Pan hypopituitarism causes
 
 - **A)** galactorrhea
 - **B)** skin pigmentation
@@ -432,10 +506,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q36: Causes of nephrotic Dl include all of the following except
+### Q39: Causes of nephrotic Dl include all of the following except
 
 - **A)** lithium therapy
 - **B)** heavy metal poisoning
@@ -444,10 +519,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q37: AII typical features of central Dl except
+### Q40: AII typical features of central Dl except
 
 - **A)** specific gravity less than 1005 with decreases urine osmolality & 'TX plasma osmolality
 - **B)** onset following based meningitis & hypothalamic trauma
@@ -455,10 +531,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q38: Regarding syndrome of inappropriate anti.diuretic hormone (SIADH), which is true?
+### Q41: Regarding syndrome of inappropriate anti.diuretic hormone (SIADH), which is true?
 
 - **A)** Hyponatremia is dilutional
 - **B)** Urine is relatively hypertonic to plasma
@@ -467,10 +544,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q39: Empty sella syndrome may be due to all except
+### Q42: Empty sella syndrome may be due to all except
 
 - **A)** Sheehan's syndrome
 - **B)** Spontaneous development
@@ -479,10 +557,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q40: Acromegaly is associated with all of the following except:
+### Q43: Acromegaly is associated with all of the following except:
 
 - **A)** Acanthosis nigricans
 - **B)** Fibromata Mollusca
@@ -491,10 +570,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q41: Upper segment > lower segment of body is found in all (in dwarfism) except:
+### Q44: Upper segment > lower segment of body is found in all (in dwarfism) except:
 
 - **A)** Pituitary dwarf
 - **B)** Cretinism
@@ -503,10 +583,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
-### Q42: All of the following are associated with gigantism / acromegaly, except :
+### Q45: All of the following are associated with gigantism / acromegaly, except:
 
 - **A)** Mental Retardation
 - **B)** Hyperhidrosis
@@ -515,10 +596,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
-### Q43: A middle aged man noticed that he can no longer fit in his shoes and that his jaw was protruding and phalanges were enlarged. These effects are likely to be mediated by :
+### Q46: A middle aged man noticed that he can no longer fit in his shoes and that his jaw was protruding and phalanges were enlarged. These effects are likely to be mediated by:
 
 - **A)** ACTH
 - **B)** Somatomedins
@@ -527,10 +609,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
-### Q44: Which of the following is the most common type of pituitary adenoma?
+### Q47: Which of the following is the most common type of pituitary adenoma?
 
 - **A)** Thyrotropinoma
 - **B)** Gonadotropinoma
@@ -539,10 +622,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
-### Q45: A 30 year old woman presented with secondary amenorrhea for 3 years along with galactorrhea. The most likely cause of her symptoms would be :
+### Q48: A 30 year old woman presented with secondary amenorrhea for 3 years along with galactorrhea. The most likely cause of her symptoms would be:
 
 - **A)** Craniopharyngioma
 - **B)** Prolactinoma
@@ -551,10 +635,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
-### Q46: In a lady with bilateral superior temporal quadrantopia, galactorrhea, the most probable cause is:
+### Q49: In a lady with bilateral superior temporal quadrantopia, galactorrhea, the most probable cause is:
 
 - **A)** Pituitary macroadenoma
 - **B)** Craniopharyngioma
@@ -563,10 +648,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
-### Q47: A young woman with secondary amenorrhea and galactorrhea. MRI shows a tumour of < 10 mm diameter in the pituitary fossa. Treatment is
+### Q50: A young woman with secondary amenorrhea and galactorrhea. MRI shows a tumour of < 10 mm diameter in the pituitary fossa. Treatment is
 
 - **A)** Hormonal therapy for withdrawal bleeding
 - **B)** Radiotherapy
@@ -576,10 +662,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
-### Q48: Confirmatory investigation for Acromegaly is
+### Q51: Confirmatory investigation for Acromegaly is
 
 - **A)** Insulin induced GH suppression
 - **B)** Glucose induced GH suppression
@@ -588,10 +675,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
-### Q49: All are associated with pituitary apoplexy except
+### Q52: All are associated with pituitary apoplexy except
 
 - **A)** Hyperthyroidism
 - **B)** Diabetes mellitus
@@ -600,10 +688,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
-### Q50: SIADH is associated with the following drug:
+### Q53: SIADH is associated with the following drug:
 
 - **A)** Vincristine
 - **B)** Erythromycin
@@ -612,10 +701,11 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
-### Q51: Inappropriate ADH secretion is characterised by the following except
+### Q54: Inappropriate ADH secretion is characterised by the following except
 
 - **A)** Hypo-osmolar urine
 - **B)** Water intoxication
@@ -624,5 +714,6 @@ Total recoverable MCQs: 51
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 4
 
 ---

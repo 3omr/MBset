@@ -1,0 +1,2073 @@
+{
+ "nn": "25",
+ "source": "Raw_PDF_Questions/Mcq, endocrine الموجي أطفال.pdf",
+ "sha256": "3557605fa225a9faf8fd6a45890a88fa3192ce0c589de3f266f16b3904c16a75",
+ "at": "2026-09-26T15:28:53Z",
+ "layout": {
+  "method": "ocr",
+  "splits": {
+   "1": null,
+   "2": null,
+   "3": null,
+   "4": null
+  }
+ },
+ "counters": {
+  "source_numbering": 5,
+  "sections": [
+   "3-7"
+  ],
+  "option_a_lines": 16,
+  "parsed_questions": 20,
+  "parsed_numbered": 20,
+  "declared_total": null
+ },
+ "gaps": [],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [
+   12
+  ],
+  "grid_hits": 10,
+  "style_stats": {
+   "bold": 0.0,
+   "color": 0.0,
+   "tick": 0.0,
+   "highlight": 0.0,
+   "fill": 0.0,
+   "tint": 0.012,
+   "ink": 0.0,
+   "circle": 0.481,
+   "box": 0.0,
+   "underline": 0.0
+  },
+  "marked_hits": 3,
+  "answered": 19,
+  "mcq": 19,
+  "at": "2026-09-26T15:28:53Z"
+ },
+ "distribution": {
+  "A": 0.158,
+  "B": 0.211,
+  "C": 0.263,
+  "D": 0.158,
+  "E": 0.211
+ },
+ "dropped_lines": [
+  "18 Endocrine and Metabolic Disorders",
+  "Scanned by CamScanner",
+  "18 Endocrine and Metabolic Disorders",
+  "(405)",
+  "Scanned by CamScanner",
+  "18 Endocrine and Metabolic Disorders",
+  "95in",
+  "s0th",
+  "5th",
+  "SEEIIE",
+  "Scanned by CamScanner",
+  "18 Endocrine and Metabolic Disorders"
+ ],
+ "dropped_count": 12,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 20,
+  "dropped": [],
+  "stale": [
+   "whichofthefollowingiscorrectaboutgrowthhormonedeficiency"
+  ],
+  "added": 0
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": 1,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Type I Diabetes mellitus is characterised by all the following except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Majority of cases present acutely",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 0,
+     "bbox": [
+      53.0,
+      159.8,
+      290.2,
+      177.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Obesity is an important predisposing factor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 0,
+     "bbox": [
+      52.6,
+      175.4,
+      353.3,
+      195.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Insulin therapy is always needed",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      53.0,
+      190.6,
+      288.7,
+      209.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Positive family history is less common than in type II",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      53.0,
+      207.6,
+      414.0,
+      228.0
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Islet cells antibodies are present in majority of cases",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      52.3,
+      223.2,
+      412.1,
+      244.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_inferred",
+    "several_options_with_circle",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    42.7,
+    112.8,
+    414.0,
+    244.3
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 2,
+   "number": 2,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All the following are correct about insulin therapy in uncomplicated type I diabetes mellitus except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dose is 0.3-1 U/kg/ day",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      55.4,
+      267.4,
+      233.5,
+      282.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "The intermediate acting comprises 2/3 of the dose",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      53.5,
+      284.2,
+      397.9,
+      304.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Majority of patients are managed by twice daily injections.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 0,
+     "bbox": [
+      55.2,
+      301.4,
+      444.7,
+      320.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Confinement in bed due to fracture hip needs decrease of the dose",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "E",
+     "text": "Infection needs increase of the dose by 10-15%",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      55.7,
+      330.7,
+      381.6,
+      347.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "stem_recovered_from_option_wrap",
+    "number_inferred",
+    "key_letter_not_among_options",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    47.0,
+    252.5,
+    444.7,
+    347.8
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with circle"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with circle"
+  },
+  {
+   "i": 3,
+   "number": 3,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hypoglycaemic symptoms include all the following except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pallor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "B",
+     "text": "Irritability and bad behavior",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      55.4,
+      373.7,
+      258.5,
+      388.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Dizziness",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "D",
+     "text": "Tiredness",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "E",
+     "text": "Dry skin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "SXR c- Dizziness e- Dry skin",
+   "exp": "SXR c- Dizziness e- Dry skin",
+   "inline_answer": null,
+   "flags": [
+    "option_out_of_order_D",
+    "option_out_of_order_E",
+    "single_option",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    46.3,
+    346.6,
+    469.2,
+    388.3
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "E",
+   "answer_source": "marked"
+  },
+  {
+   "i": 4,
+   "number": 4,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All the following are correct about diet in type I diabetes mellitus except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Daily caloric intake of a 6 year old child should be around 1000 Kcal",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "B",
+     "text": "Timing and caloric content of meals and snacks should be fixed",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      56.2,
+      450.2,
+      475.0,
+      469.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "The caloric intake should be 50-55% from carbohydrates",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "D",
+     "text": "High fibre food is encouraged",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "E",
+     "text": "Complex carbohydrates are preferable than simple sugars",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "S d- High fibre food is encouraged c- The caloric intake should be 50-55% from carbohydrates e- Complex carbohydrates are preferable than simple sugars",
+   "exp": "S d- High fibre food is encouraged c- The caloric intake should be 50-55% from carbohydrates e- Complex carbohydrates are preferable than simple sugars",
+   "inline_answer": null,
+   "flags": [
+    "option_out_of_order_E",
+    "single_option",
+    "low_ocr_confidence",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    46.1,
+    405.4,
+    542.2,
+    469.7
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 5,
+   "number": 5,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In the management of DKA all the following are correct except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The starting IV fluid is saline",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      59.3,
+      522.0,
+      262.1,
+      536.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Regular insulin is given in a dose of 0.1 U/kg/hour",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 0,
+     "bbox": [
+      59.5,
+      537.4,
+      391.4,
+      552.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Potassium chloride is added after 12-24 hours",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 0,
+     "bbox": [
+      60.0,
+      551.8,
+      365.3,
+      566.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Drop of blood glucose level should not exceed 100mg/dl/hour",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      59.5,
+      566.9,
+      458.6,
+      582.5
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "NGT is introduced to empty the stomach if the patient is in coma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      59.5,
+      582.0,
+      476.6,
+      597.1
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "several_options_with_circle",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    54.7,
+    509.8,
+    500.9,
+    597.1
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 6,
+   "number": 6,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All the following are early manifestations of congenital hypothyroidism except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Feeding difficulties",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 0,
+     "bbox": [
+      60.0,
+      623.5,
+      199.4,
+      637.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Large protruding tongue",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 0,
+     "bbox": [
+      60.0,
+      638.4,
+      457.0,
+      654.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Large anterior fontanelle",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 0,
+     "bbox": [
+      59.8,
+      652.1,
+      235.4,
+      666.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Excessively sleepy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      267.8,
+      625.0,
+      397.7,
+      640.3
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Prolonged neonatal jaundice",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 0,
+     "bbox": [
+      60.0,
+      638.4,
+      457.0,
+      654.7
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "several_options_with_circle",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    52.3,
+    593.5,
+    535.0,
+    666.7
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 7,
+   "number": 7,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All the following are correct about congenital hypothyroidism except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Most cases are due to aplasia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      60.0,
+      681.4,
+      264.7,
+      695.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "A case starting treatment at 6 months of age is not likely to be mentally normal in the future",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 0,
+     "bbox": [
+      58.3,
+      693.6,
+      532.6,
+      712.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Delay in the screening test for few weeks makes it insensitive",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 0,
+     "bbox": [
+      58.8,
+      722.4,
+      456.0,
+      739.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "The dose of thyroxin per kg decreases with age",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 0,
+     "bbox": [
+      59.8,
+      738.0,
+      373.0,
+      753.4
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Fever and diarrhoea are common manifestations of overdosage",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      59.8,
+      752.2,
+      465.4,
+      768.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "orphan_rows_joined_to_option",
+    "several_options_with_circle",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    51.1,
+    666.5,
+    532.6,
+    768.2
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 8,
+   "number": 8,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All the following are correct about constitutional delay in growth and puberty except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Normal birth size",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      35.0,
+      92.9,
+      169.2,
+      107.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Short stature becomes evident at adolescence",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      31.0,
+      106.3,
+      353.5,
+      127.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Bone age is delayed",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      35.5,
+      123.8,
+      187.7,
+      140.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Height of parents is average",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 1,
+     "bbox": [
+      36.5,
+      140.4,
+      241.0,
+      155.8
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Final height is short",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 1,
+     "bbox": [
+      37.0,
+      155.0,
+      187.0,
+      169.7
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_corrected_from_404",
+    "several_options_with_circle",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    53.3,
+    774.2,
+    532.6,
+    0
+   ],
+   "pages": [
+    0,
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 9,
+   "number": 9,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is correct about growth hormone deficiency",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is the commonest cause of short stature",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      36.2,
+      184.1,
+      330.7,
+      202.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "BMI is below average",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      37.2,
+      201.6,
+      197.0,
+      215.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Birth weight and length are lower than average",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 1,
+     "bbox": [
+      36.7,
+      214.6,
+      357.1,
+      232.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Infantile body proportions",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 1,
+     "bbox": [
+      37.9,
+      231.1,
+      226.6,
+      246.5
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Mentality is below average",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 1,
+     "bbox": [
+      38.2,
+      246.7,
+      230.2,
+      261.1
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_inferred",
+    "several_options_with_circle",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": null,
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 10,
+   "number": 10,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Children with constitutional delay in growth and puberty can expect to be ultimately",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Of normal height and weight",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 1,
+     "bbox": [
+      38.2,
+      290.4,
+      242.6,
+      308.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Short and obese",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 1,
+     "bbox": [
+      39.4,
+      306.5,
+      177.6,
+      320.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Short but of proportionate weight",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      39.4,
+      320.9,
+      272.9,
+      337.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Tall but of proportionate weight",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      40.3,
+      335.5,
+      262.6,
+      351.6
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Tall and obese",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      40.8,
+      351.4,
+      154.6,
+      365.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_inferred",
+    "low_ocr_confidence",
+    "several_options_with_circle",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    497.3,
+    252.5,
+    530.9,
+    365.3
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 11,
+   "number": 11,
+   "section": 1,
+   "type": "QCS",
+   "stem": "According to current theory, the most likely cause of insulin dependent (type I) diabetes mellitus is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Chromosomal Imbalance",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      42.0,
+      395.8,
+      217.7,
+      409.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "An enzyme defect preventing proper action of insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 1,
+     "bbox": [
+      40.1,
+      406.6,
+      392.9,
+      426.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Autoimmune destruction of beta cells in the pancreas",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 1,
+     "bbox": [
+      42.5,
+      423.4,
+      393.4,
+      437.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "High carbohydrate diet over a long period",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 1,
+     "bbox": [
+      42.5,
+      438.0,
+      324.0,
+      454.3
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Chronic emotional stress",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      43.0,
+      454.6,
+      219.1,
+      468.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "stem_recovered_from_option_wrap",
+    "number_inferred",
+    "several_options_with_circle",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    32.6,
+    379.4,
+    393.4,
+    468.2
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 12,
+   "number": 12,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In a full term normal weight newborn, thyroid screening tests carried shortly after birth revealed decreased T4 and increased TSH. The most likely diagnosis is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Congenital hyperthyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 1,
+     "bbox": [
+      44.2,
+      512.9,
+      235.4,
+      526.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Congenital hypothyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 1,
+     "bbox": [
+      43.7,
+      526.8,
+      231.8,
+      542.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Transient hypothyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 1,
+     "bbox": [
+      44.4,
+      542.2,
+      222.7,
+      555.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Secondary hypothyroidism due to hypopituitarism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      43.7,
+      552.7,
+      373.0,
+      569.8
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "None of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "several_options_with_circle",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    34.3,
+    463.2,
+    530.2,
+    569.8
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 13,
+   "number": 13,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Manifetations of overdosage of thyroxin in management of hypothyroidism in a young child may include any of the following except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Tachycardia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      43.2,
+      628.3,
+      139.9,
+      644.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Fever",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      44.2,
+      645.6,
+      100.3,
+      658.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Sleeplessness",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "D",
+     "text": "Diarrhoea",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      240.5,
+      624.0,
+      319.7,
+      637.4
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Vomiting",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 1,
+     "bbox": [
+      240.2,
+      639.4,
+      312.7,
+      652.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    36.7,
+    571.4,
+    529.9,
+    658.6
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "E",
+     "evidence": "only option with circle"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 14,
+   "number": 14,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All the following are correct about national screening programme for congenital hypothyroidism except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A dry blood spot on filter paper is taken from a prick heel capillary blood",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "B",
+     "text": "The sample is collected from the 3rd to 7th day of life",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      39.6,
+      709.4,
+      389.0,
+      729.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "TSH is measured",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 1,
+     "bbox": [
+      42.0,
+      731.5,
+      170.2,
+      745.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Positive cases should start immediately life long treatment",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 1,
+     "bbox": [
+      40.8,
+      739.4,
+      426.7,
+      757.0
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Blood sampling of premature should not be delayed",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 1,
+     "bbox": [
+      40.6,
+      755.3,
+      384.7,
+      773.0
+     ]
+    }
+   ],
+   "after": "9 10 11 12 13 14 15 16 17 18",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_after_options",
+    "several_options_with_circle",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    34.1,
+    658.3,
+    530.4,
+    773.0
+   ],
+   "pages": [
+    1,
+    2
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  },
+  {
+   "i": 15,
+   "number": 15,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Match the height curves in the figure shown with the most appropriate diagnosis among the following conditions: a- Acquired hypothyroidism; b- Growth hormone deficiency; c- Precocious puberty; d- Familial short stature; e- Constitutional delay in growth and puberty",
+   "options": [],
+   "after": "",
+   "exp": "a- Acquired hypothyroidism: curve 2\nb- Growth hormone deficiency: curve 5\nc- Precocious puberty: curve 1\nd- Familial short stature: curve 3\ne- Constitutional delay in growth and puberty: curve 4",
+   "inline_answer": null,
+   "flags": [
+    "figure_dependent",
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    23.0,
+    365.8,
+    538.8,
+    477.1
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "key",
+   "image": "Images/25_Q15.png"
+  },
+  {
+   "i": 16,
+   "number": 16,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All the following statement about familial short stature are true except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Growth retardation is present from early childhood",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      37.0,
+      506.4,
+      381.1,
+      522.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Ultimate height is below average",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 2,
+     "bbox": [
+      37.7,
+      521.3,
+      269.5,
+      535.9
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "The bone age is usually retarded",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 2,
+     "bbox": [
+      37.4,
+      535.7,
+      268.3,
+      551.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Onset of puberty usually occurs at the normal time",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      37.7,
+      551.3,
+      384.7,
+      568.1
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "The shape of growth curve is normal",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      38.2,
+      565.9,
+      294.5,
+      581.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "several_options_with_circle",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    27.6,
+    477.6,
+    537.1,
+    581.3
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 17,
+   "number": 17,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All of the following may be manifestations of an insulin reaction (hypoglycaemia) in an insulin dependent diabetic patient except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Loss of appetite",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 2,
+     "bbox": [
+      33.8,
+      609.6,
+      159.1,
+      624.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Sweating",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 2,
+     "bbox": [
+      34.8,
+      624.2,
+      116.4,
+      638.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Lethargy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      34.8,
+      639.6,
+      113.5,
+      653.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Bizarre behaviour",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      260.2,
+      614.4,
+      391.7,
+      628.3
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Slurred speech",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      259.0,
+      628.8,
+      372.5,
+      643.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "several_options_with_circle",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    30.2,
+    582.7,
+    536.9,
+    653.8
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 18,
+   "number": 18,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Factors most likely to contribute to the development of diabetic ketoacidosis include all of the following except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Overeating",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 2,
+     "bbox": [
+      35.3,
+      684.5,
+      127.9,
+      699.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Vomiting",
+     "bold": 0.0,
+     "color": 0.21,
+     "marks": [
+      "circle",
+      "tint"
+     ],
+     "page": 2,
+     "bbox": [
+      34.8,
+      698.9,
+      115.9,
+      713.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Omission of insulin doses",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 2,
+     "bbox": [
+      36.0,
+      714.2,
+      219.1,
+      728.9
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Infection",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      266.2,
+      688.6,
+      341.8,
+      701.8
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Lack of patient education",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      266.4,
+      703.9,
+      444.7,
+      718.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    31.2,
+    657.1,
+    537.4,
+    728.9
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 19,
+   "number": 19,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Nutritional obesity may be complicated by all the following except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hypertension and cardiovascular disease.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 2,
+     "bbox": [
+      32.2,
+      744.5,
+      501.6,
+      763.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Gall bladder disease.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      33.1,
+      758.2,
+      188.9,
+      772.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Type II diabetes mellitus.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      33.1,
+      772.8,
+      216.7,
+      789.1
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Type I diabetes mellitus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 2,
+     "bbox": [
+      32.2,
+      744.5,
+      501.6,
+      763.4
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Hypercholesterolaemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "circle"
+     ],
+     "page": 2,
+     "bbox": [
+      332.9,
+      764.2,
+      495.8,
+      778.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "several_options_with_circle",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    32.2,
+    731.3,
+    525.8,
+    789.1
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  },
+  {
+   "i": 20,
+   "number": 20,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 7 year old child has weight for length on the 85th percentile and length for age on the 10th percentile, which of the following is the most likely diagnosis",
+   "options": [
+    {
+     "letter": "A",
+     "text": "He is normal",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "B",
+     "text": "Nutritional obesity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "C",
+     "text": "Nutritional stunting",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "D",
+     "text": "Chronic renal failure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "E",
+     "text": "Acquired hypothyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_corrected_from_406",
+    "written_without_model_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    34.8,
+    794.2,
+    183.8,
+    812.6
+   ],
+   "pages": [
+    2,
+    3
+   ],
+   "candidates": [],
+   "correct": "E",
+   "answer_source": "key"
+  }
+ ]
+}

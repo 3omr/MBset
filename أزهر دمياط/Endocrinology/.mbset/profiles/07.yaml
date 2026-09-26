@@ -1,0 +1,12 @@
+# Parser profile for 07 — parathyroid questions منير.pdf
+# class=digital_two_column pages=3 has_text=True columns=2 bold_ratio=0.24 mark_rects=0
+# signals={'moodle': 0, 'docreader_quiz': None, 'phone': 0, 'question_numbers': 21, 'option_lines': 85, 'grid_pairs_tail': 34, 'declared_total': None, 'figure_words': 0}
+# Only fields that differ from the template/DEFAULT are needed. Field reference:
+#   .agents/skills/mbset-module-curator/references/profiles.md
+source: Raw_PDF_Questions/parathyroid questions منير.pdf
+template: digital_two_column
+columns: 2
+options_inline: true
+skip_patterns:
+  - '^\s*❖'
+  - '^\s*manifestations & investigations & TTT\s*$'

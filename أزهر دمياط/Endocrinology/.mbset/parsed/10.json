@@ -1,0 +1,8304 @@
+{
+ "nn": "10",
+ "source": "Raw_PDF_Questions/اسئلة DM منير.pdf",
+ "sha256": "38e010c5118b07fc2e55aca302e54364510be191f5faa67bfbd12466aac07fea",
+ "at": "2026-09-26T05:21:10Z",
+ "layout": {
+  "method": "native",
+  "splits": {
+   "1": 302.7,
+   "2": 302.7,
+   "3": 302.7,
+   "4": 302.7,
+   "5": 302.7,
+   "6": 302.7,
+   "7": 302.7,
+   "8": 297.7
+  }
+ },
+ "counters": {
+  "source_numbering": 90,
+  "sections": [
+   "1-90"
+  ],
+  "option_a_lines": 88,
+  "parsed_questions": 90,
+  "parsed_numbered": 90,
+  "declared_total": null
+ },
+ "gaps": [],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [
+   90
+  ],
+  "grid_hits": 90,
+  "style_stats": {
+   "bold": 0.0,
+   "color": 0.0,
+   "tick": 0.0,
+   "highlight": 0.0,
+   "fill": 0.0,
+   "tint": 0.0,
+   "ink": 0.0,
+   "circle": 0.0,
+   "box": 0.0,
+   "underline": 0.0
+  },
+  "marked_hits": 0,
+  "answered": 90,
+  "mcq": 90,
+  "at": "2026-09-26T05:21:10Z"
+ },
+ "distribution": {
+  "A": 0.222,
+  "B": 0.344,
+  "C": 0.3,
+  "D": 0.1,
+  "E": 0.033
+ },
+ "dropped_lines": [
+  "1 A 19 C 37 B 55 B 73 C",
+  "2 A 20 B 38 B 56 B 74 C",
+  "3 E 21 C 39 B 57 B 75 B",
+  "4 E 22 C 40 A 58 B 76 B",
+  "5 A 23 C 41 B 59 C 77 C",
+  "6 B 24 C 42 D 60 C 78 C",
+  "7 A 25 B 43 C 61 C 79 C",
+  "8 C 26 C 44 B 62 B 80 B",
+  "9 C 27 A 45 C 63 B 81 C",
+  "10 A 28 B 46 A 64 A 82 B",
+  "11 B 29 D 47 A 65 B 83 A",
+  "12 D 30 B 48 D 66 A 84 B",
+  "13 C 31 E 49 D 67 B 85 C",
+  "14 D 32 A 50 C 68 C 86 C",
+  "15 D 33 A 51 A 69 A 87 B",
+  "16 A 34 B 52 A 70 B 88 A",
+  "17 C 35 D 53 D 71 C 89 B",
+  "18 B 36 A 54 C 72 B 90 B"
+ ],
+ "dropped_count": 18,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 0,
+  "dropped": [],
+  "stale": []
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": 1,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following class of anti diabetic drugs has cardioprotective benefits?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sodium glucose co-transporter 2 inhibitors (SGLT-2 Inhibitors)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      62.29199981689453,
+      249.50001525878906,
+      76.94400024414062
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Sulphonylureas",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      96.27198028564453,
+      109.73600006103516,
+      110.92398071289062
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "DPP-4 inhibitors",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      113.19202423095703,
+      111.65599822998047,
+      127.84402465820312
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Insulins",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      130.23199462890625,
+      69.89999389648438,
+      144.88400268554688
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    14.15999984741211,
+    28.33197593688965,
+    271.4520263671875,
+    144.88400268554688
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 2,
+   "number": 2,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which is wrong regarding the physiologic basal insulin?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It has anabolic actions",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      181.11199951171875,
+      145.49600219726562,
+      195.76400756835938
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "It continues during 24 hours",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      198.031982421875,
+      172.37600708007812,
+      212.68399047851562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Continues even during fasting state",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      215.07196044921875,
+      209.96600341796875,
+      229.72396850585938
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "It has no elevation peak",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      232.02197265625,
+      150.656005859375,
+      246.67398071289062
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    14.15999984741211,
+    147.1519775390625,
+    250.46401977539062,
+    246.67398071289062
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 3,
+   "number": 3,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which is wrong in the complications of metabolic syndrome?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "May or may not have diabetes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      282.9019775390625,
+      181.64601135253906,
+      297.5539855957031
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Atherosclerosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      299.9420166015625,
+      109.4959945678711,
+      314.5940246582031
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Fatty liver",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      316.86199951171875,
+      78.05999755859375,
+      331.5140075683594
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "PCOS (polycystic ovary)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      333.781982421875,
+      151.8560028076172,
+      348.4339904785156
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Hypotension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      350.8219909667969,
+      94.37999725341797,
+      365.4739990234375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    14.15999984741211,
+    248.9420166015625,
+    238.88600158691406,
+    365.4739990234375
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 4,
+   "number": 4,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In T2DM, which is false?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Insulin resistance is the main pathophysiology",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      384.802001953125,
+      266.72601318359375,
+      399.4540100097656
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "It is potentially preventable disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      401.72198486328125,
+      210.80599975585938,
+      416.3739929199219
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Lifestyle modification is essential for prevention",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      418.6419982910156,
+      273.8059997558594,
+      433.29400634765625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Metformin is usually the first drug of choice",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      435.6819763183594,
+      250.76600646972656,
+      450.333984375
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Insulin is not indicated in treatment",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      452.60198974609375,
+      210.4459991455078,
+      467.2539978027344
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    14.15999984741211,
+    367.7419738769531,
+    273.8059997558594,
+    467.2539978027344
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 5,
+   "number": 5,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The most important risk factor for diabetic macrovascular complications is?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Insulin resistance",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      503.48199462890625,
+      120.17599487304688,
+      518.1339721679688
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Insulin deficiency",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      520.52197265625,
+      119.45599365234375,
+      535.1739501953125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Duration of DM",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      537.4719848632812,
+      106.13599395751953,
+      552.1239624023438
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "High HbAIC",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      554.5120239257812,
+      89.0999984741211,
+      569.1640014648438
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Age of the patient",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      571.4319458007812,
+      118.61599731445312,
+      586.0839233398438
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    14.15999984741211,
+    469.6419982910156,
+    258.04803466796875,
+    586.0839233398438
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 6,
+   "number": 6,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which injectable and oral glucose-lowering drugs has efficacy as adjuncts to insulin treatment of type 1 diabetes?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pioglitazone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      639.3519897460938,
+      91.86000061035156,
+      654.0039672851562
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Pramlintide which is an amylin analogue",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      656.27197265625,
+      235.88600158691406,
+      670.9239501953125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Glimepiride",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      673.1919555664062,
+      88.97999572753906,
+      687.8439331054688
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Sitagliptin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      14.15999984741211,
+      690.2319946289062,
+      80.93999481201172,
+      704.8839721679688
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    14.15999984741211,
+    588.3519897460938,
+    263.8219909667969,
+    704.8839721679688
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 7,
+   "number": 7,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 43-year-old woman with Type-2 diabetes has been taking insulin with meals as well as metformin. Her blood glucose remains poorly controlled. Her doctor prescribes an additional drug, which is an analog of an endogenous peptide that enhances insulin secretion. What drug is this",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Exenatide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      28.33197593688965,
+      381.22601318359375,
+      42.98397445678711
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Glipizide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      45.37201690673828,
+      375.70599365234375,
+      60.02401351928711
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Miglitol",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      62.29199981689453,
+      367.7860107421875,
+      76.94400024414062
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Pramlintide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      79.23200225830078,
+      390.34600830078125,
+      93.88400268554688
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Rosiglitazone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      96.27198028564453,
+      399.34600830078125,
+      110.92398071289062
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    14.15999984741211,
+    707.1719970703125,
+    399.34600830078125,
+    110.92398071289062
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 8,
+   "number": 8,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which one of the following drugs promotes the release of endogenous insulin:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Acarbose",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      147.1519775390625,
+      380.5060119628906,
+      161.80398559570312
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Pioglitazone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      164.07196044921875,
+      394.0660095214844,
+      178.72396850585938
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Glimpride",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      181.11199951171875,
+      383.3860168457031,
+      195.76400756835938
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Metformin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      198.031982421875,
+      385.3059997558594,
+      212.68399047851562
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    315.7900085449219,
+    113.19202423095703,
+    583.1859741210938,
+    212.68399047851562
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 9,
+   "number": 9,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 69-year-old male with type 2 diabetes and advanced chronic kidney disease. Which of the following diabetes medications is contraindicated in this patient:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Glipizide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      282.9019775390625,
+      374.7460021972656,
+      297.5539855957031
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "lnsulin lispro",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      299.9420166015625,
+      395.8659973144531,
+      314.5940246582031
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Metformin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      316.86199951171875,
+      384.10601806640625,
+      331.5140075683594
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Saxagliptin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      333.781982421875,
+      387.34600830078125,
+      348.4339904785156
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    315.7900085449219,
+    215.07196044921875,
+    573.3159790039062,
+    348.4339904785156
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 10,
+   "number": 10,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 56-year-old woman was recently diagnosed with type 2 diabetes. Her medical history was significant for a serious allergic reaction to sulfamethoxazole and for recurrent urinary tract infections presently treated with ciprofloxacin. An appropriate therapy was prescribed that included a strict diet and an oral antidiabetic drug. Which of the following drugs would be contraindicated for this patient",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Glyburide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      503.48199462890625,
+      381.70599365234375,
+      518.1339721679688
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Metformin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      520.52197265625,
+      384.46600341796875,
+      535.1739501953125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Repaglinide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      537.4719848632812,
+      393.10601806640625,
+      552.1239624023438
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Acarbose",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      554.5120239257812,
+      380.9859924316406,
+      569.1640014648438
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Pioglitazone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      571.4319458007812,
+      393.70599365234375,
+      586.0839233398438
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    315.7900085449219,
+    350.8219909667969,
+    581.9979858398438,
+    586.0839233398438
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 11,
+   "number": 11,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following drugs for diabetes would be LEAST likely to cause weight gain",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Glimepiride",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      622.3119506835938,
+      389.2659912109375,
+      636.9639282226562
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Liraglutide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      639.3519897460938,
+      383.6260070800781,
+      654.0039672851562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pioglitazone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      656.27197265625,
+      391.5459899902344,
+      670.9239501953125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Repaglinide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      673.1919555664062,
+      390.10601806640625,
+      687.8439331054688
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "lnsulin glulisine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      690.2319946289062,
+      409.1860046386719,
+      704.8839721679688
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    315.7900085449219,
+    588.3519897460938,
+    558.8499755859375,
+    704.8839721679688
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 12,
+   "number": 12,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following confirmed values meet the diagnostic threshold for diabetes",
+   "options": [
+    {
+     "letter": "A",
+     "text": "fasting blood glucose 140 mg/dl",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      741.1320190429688,
+      494.0559997558594,
+      755.7839965820312
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "random glucose > 160 mg/dl",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      758.052001953125,
+      476.5360107421875,
+      772.7039794921875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "2 hour post prandial glucose ≥ to 126 mg/dl",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      775.0919799804688,
+      551.5559692382812,
+      789.7439575195312
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "fasting blood glucose ≥ 126 mg/dl",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      315.7900085449219,
+      792.011962890625,
+      503.0559997558594,
+      806.6639404296875
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    315.7900085449219,
+    707.1719970703125,
+    555.2500610351562,
+    806.6639404296875
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 13,
+   "number": 13,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following statements is correct:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Insulin suppresses the activity of glycogen synthesis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      45.37201690673828,
+      245.23199462890625,
+      60.02401351928711
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Insulin mediates glucose uptake in the brain",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      79.23200225830078,
+      255.68600463867188,
+      93.88400268554688
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "\"Prediabetes\" is a condition characterized by an increased risk for the future development of type 2 diabetes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      96.27198028564453,
+      273.8280029296875,
+      110.92398071289062
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "The rise in insulin concentration after meal ingestion is reduced in type 1 but not in type 2 diabetes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      147.1519775390625,
+      248.2440185546875,
+      161.80398559570312
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    14.15999984741211,
+    28.33197593688965,
+    281.60601806640625,
+    195.76400756835938
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 14,
+   "number": 14,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The risk factors for type 2 diabete mellitus include",
+   "options": [
+    {
+     "letter": "A",
+     "text": "family history",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      232.02197265625,
+      98.0999984741211,
+      246.67398071289062
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "being overweight",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      248.9420166015625,
+      116.45599365234375,
+      263.5940246582031
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "high intake of dietary fat",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      265.98199462890625,
+      151.61599731445312,
+      280.6340026855469
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "All of the options listed are correct",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      282.9019775390625,
+      205.88600158691406,
+      297.5539855957031
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    14.15999984741211,
+    198.031982421875,
+    262.91998291015625,
+    297.5539855957031
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 15,
+   "number": 15,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The pathogenesis of hyperglycemia in type 2 diabetes includes all the following mechanisms except for:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Increased glucose production by the liver",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      350.8219909667969,
+      240.56600952148438,
+      365.4739990234375
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Impaired insulin secretion",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      367.7419738769531,
+      163.37600708007812,
+      382.39398193359375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Decreased glucose uptake from the skeletal muscle",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      384.802001953125,
+      254.96400451660156,
+      399.4540100097656
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "All of the options given are correct",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      418.6419982910156,
+      204.08599853515625,
+      433.29400634765625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    14.15999984741211,
+    299.9420166015625,
+    275.6600036621094,
+    433.29400634765625
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 16,
+   "number": 16,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The test for checking mean plasma glucose concentration over the previous 8-12 weeks is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hemoglobin A1C",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      469.6419982910156,
+      116.69599914550781,
+      484.29400634765625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Oral glucose tolerance test (OGTT)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      486.5619812011719,
+      206.00601196289062,
+      501.2139892578125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Fructosamine test",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      503.48199462890625,
+      122.69599914550781,
+      518.1339721679688
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Fasting plasma glucose concentration",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      520.52197265625,
+      226.04600524902344,
+      535.1739501953125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    14.15999984741211,
+    435.6819763183594,
+    270.302001953125,
+    535.1739501953125
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 17,
+   "number": 17,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which statement best describes the differences between the characteristics of type 1 and type 2 diabetes:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "persons with type 2 diabetes usually require lower doses of insulin than person with type 1 diabetes because they have a milder form of diabetes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      588.3519897460938,
+      254.4599609375,
+      603.0039672851562
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "persons with type 1 diabetes rapidly develop chronic complications",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      656.27197265625,
+      257.2559509277344,
+      670.9239501953125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "autoimmune factors are involved in the pathogenesis of type 1 but not type 2 diabetes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      690.2319946289062,
+      229.27200317382812,
+      704.8839721679688
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "persons with type 1 diabetes can increase endogenous insulin production by taking oral hypoglycemic agents",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      14.15999984741211,
+      724.2119750976562,
+      244.7519989013672,
+      738.8639526367188
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    14.15999984741211,
+    537.4719848632812,
+    282.0500183105469,
+    772.7039794921875
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 18,
+   "number": 18,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is not a beneficial effect of exercise in people with diabetes",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Reduction of triglycerides",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      62.29199981689453,
+      462.3760070800781,
+      76.94400024414062
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hypoglycemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      79.23200225830078,
+      404.5060119628906,
+      93.88400268554688
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "increase of insulin sensitivity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      96.27198028564453,
+      478.6960144042969,
+      110.92398071289062
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "help controlling hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      113.19202423095703,
+      481.6960144042969,
+      127.84402465820312
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    315.7900085449219,
+    28.33197593688965,
+    556.5340576171875,
+    127.84402465820312
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 19,
+   "number": 19,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Diabetes mellitus is a disorder characterized by hyperglycemia. Which of the following are common characteristic features of type 2 diabetes mellitus:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Impaired insulin secretion",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      198.031982421875,
+      464.656005859375,
+      212.68399047851562
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Increased Insulin resistance",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      215.07196044921875,
+      475.9360046386719,
+      229.72396850585938
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Diabetic ketoacidosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      232.02197265625,
+      442.09600830078125,
+      246.67398071289062
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Excessive hepatic glucose production",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      248.9420166015625,
+      525.0159912109375,
+      263.5940246582031
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    315.7900085449219,
+    130.23199462890625,
+    579.93408203125,
+    263.5940246582031
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 20,
+   "number": 20,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following are not the criteria for the diagnosis of diabetes:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Fasting blood glucose >126 mg/dL",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      299.9420166015625,
+      506.0559997558594,
+      314.5940246582031
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "2-hour postprandial glucose >140 mg/dL",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      316.86199951171875,
+      538.8359985351562,
+      331.5140075683594
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "HbAIC > 6.5%",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      333.781982421875,
+      401.6260070800781,
+      348.4339904785156
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Random blood glucose >200 mg/dL with classical symptoms",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      350.8219909667969,
+      537.141845703125,
+      365.4739990234375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    315.7900085449219,
+    265.98199462890625,
+    578.3740234375,
+    382.39398193359375
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 21,
+   "number": 21,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Prediabetes is the term used for individuals that do not meet the criteria for diabetes but are too high to be considered normal. Which of the following statement accurately characterize prediabetes:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Fasting blood glucose from 120-180 mg/dL",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      469.6419982910156,
+      548.7959594726562,
+      484.29400634765625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Fasting blood glucose from 126-140 mg/dL",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      486.5619812011719,
+      549.1559448242188,
+      501.2139892578125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Fasting blood glucose from 110-125 mg/dL",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      503.48199462890625,
+      548.6759643554688,
+      518.1339721679688
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "All of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      520.52197265625,
+      409.7860107421875,
+      535.1739501953125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    315.7900085449219,
+    384.802001953125,
+    578.3679809570312,
+    535.1739501953125
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 22,
+   "number": 22,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following anti diabetic class has the advantage of causing weight loss",
+   "options": [
+    {
+     "letter": "A",
+     "text": "TZDs (Pioglitazone)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      571.4319458007812,
+      428.89599609375,
+      586.0839233398438
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Sulphonylureas",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      588.3519897460938,
+      411.34600830078125,
+      603.0039672851562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "GLP-I analogues",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      605.3919677734375,
+      414.34600830078125,
+      620.0439453125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "DPP-4 inhibitors",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      622.3119506835938,
+      414.10601806640625,
+      636.9639282226562
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Insulins",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      639.3519897460938,
+      370.666015625,
+      654.0039672851562
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    315.7900085449219,
+    537.4719848632812,
+    553.6300659179688,
+    654.0039672851562
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 23,
+   "number": 23,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Criteria of metabolic syndrome include blood pressure",
+   "options": [
+    {
+     "letter": "A",
+     "text": "110/70",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      690.2319946289062,
+      366.58599853515625,
+      704.8839721679688
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "120/80",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      707.1719970703125,
+      366.58599853515625,
+      721.823974609375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "130/85",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      724.2119750976562,
+      366.10601806640625,
+      738.8639526367188
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "140/90",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      741.1320190429688,
+      366.9460144042969,
+      755.7839965820312
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    315.7900085449219,
+    656.27197265625,
+    583.402099609375,
+    755.7839965820312
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 24,
+   "number": 24,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which is the most appropriate initial oral agent for management of type 2 diabetes?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Glipizide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      315.7900085449219,
+      792.011962890625,
+      376.4259948730469,
+      806.6639404296875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Empagliflozin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      28.33197593688965,
+      99.89999389648438,
+      42.98397445678711
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Metformin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      45.37201690673828,
+      82.86000061035156,
+      60.02401351928711
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Pioglitazone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      62.29199981689453,
+      92.81999969482422,
+      76.94400024414062
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    315.7900085449219,
+    758.052001953125,
+    557.7220458984375,
+    806.6639404296875
+   ],
+   "pages": [
+    1,
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 25,
+   "number": 25,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following statements is characteristic of metformin?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "There is increased risk of myocardial infarction.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      113.19202423095703,
+      272.0060119628906,
+      127.84402465820312
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Metformin decreases hepatic glucose production.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      130.23199462890625,
+      224.12600708007812,
+      144.88400268554688
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "can be used safely in patients with renal dysfunction.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      164.07196044921875,
+      234.70803833007812,
+      178.72396850585938
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Weight gain is a common adverse effect.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      198.031982421875,
+      237.92601013183594,
+      212.68399047851562
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    14.15999984741211,
+    79.23200225830078,
+    272.0060119628906,
+    212.68399047851562
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 26,
+   "number": 26,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 64-year-old woman with a history of type 2 diabetes is diagnosed with heart failure. Which of the following medications would be a poor choice for controlling her diabetes?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Exenatide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      282.9019775390625,
+      80.33999633789062,
+      297.5539855957031
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Glybenclamide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      299.9420166015625,
+      108.77599334716797,
+      314.5940246582031
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pioglitazone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      316.86199951171875,
+      92.45999908447266,
+      331.5140075683594
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      333.781982421875,
+      64.6199951171875,
+      348.4339904785156
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    14.15999984741211,
+    215.07196044921875,
+    273.6839599609375,
+    348.4339904785156
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 27,
+   "number": 27,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hypoglycemic manifestations doesn't include",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pallor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      384.802001953125,
+      58.5,
+      399.4540100097656
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Tiredness",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      401.72198486328125,
+      78.65999603271484,
+      416.3739929199219
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Irritability",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      418.6419982910156,
+      77.45999908447266,
+      433.29400634765625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Dry skin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      435.6819763183594,
+      70.6199951171875,
+      450.333984375
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Dizziness",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      452.60198974609375,
+      77.2199935913086,
+      467.2539978027344
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    14.15999984741211,
+    350.8219909667969,
+    241.45199584960938,
+    467.2539978027344
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 28,
+   "number": 28,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which is a major secondary cause of dyslipidemia",
+   "options": [
+    {
+     "letter": "A",
+     "text": "HTN",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      503.48199462890625,
+      51.5160026550293,
+      518.1339721679688
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "DM",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      520.52197265625,
+      48.996002197265625,
+      535.1739501953125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Gout",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      537.4719848632812,
+      54.0359992980957,
+      552.1239624023438
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Familial combined hyperlipidemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      554.5120239257812,
+      204.68600463867188,
+      569.1640014648438
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Apo C 2 deficiency",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      571.4319458007812,
+      124.25599670410156,
+      586.0839233398438
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    14.15999984741211,
+    469.6419982910156,
+    233.81997680664062,
+    586.0839233398438
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 29,
+   "number": 29,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which statement is not correct regarding prediabetes",
+   "options": [
+    {
+     "letter": "A",
+     "text": "HbAIC 5.7-6.4 gm/dl",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      622.3119506835938,
+      133.25601196289062,
+      636.9639282226562
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Insulin resistance is the main pathophysiology",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      639.3519897460938,
+      266.72601318359375,
+      654.0039672851562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Treatment by lifestyle modification and metformin is essential",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      656.27197265625,
+      228.08599853515625,
+      670.9239501953125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "It is not associated witty increased risk of macrovascular complications",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      690.2319946289062,
+      240.4459991455078,
+      704.8839721679688
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Microvascular complications are unusual",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      724.2119750976562,
+      241.406005859375,
+      738.8639526367188
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    14.15999984741211,
+    588.3519897460938,
+    266.72601318359375,
+    738.8639526367188
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 30,
+   "number": 30,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The hallmark of type 1 DM is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Age at onset < 30y",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      758.052001953125,
+      121.97599792480469,
+      772.7039794921875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "DKA",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      775.0919799804688,
+      50.91600036621094,
+      789.7439575195312
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Lean body weight",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      14.15999984741211,
+      792.011962890625,
+      118.13599395751953,
+      806.6639404296875
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Absence of similar condition in the family",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      28.33197593688965,
+      542.9159545898438,
+      42.98397445678711
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Gradual onset of symptoms",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      45.37201690673828,
+      472.8160095214844,
+      60.02401351928711
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    14.15999984741211,
+    741.1320190429688,
+    542.9159545898438,
+    806.6639404296875
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 31,
+   "number": 31,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hypoglycemia may occur in all the following except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Addison's disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      96.27198028564453,
+      423.4960021972656,
+      110.92398071289062
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Insulinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      113.19202423095703,
+      388.5459899902344,
+      127.84402465820312
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hypopituitarism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      130.23199462890625,
+      413.5060119628906,
+      144.88400268554688
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Myxedema coma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      147.1519775390625,
+      418.9360046386719,
+      161.80398559570312
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Hyperthyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      164.07196044921875,
+      415.9360046386719,
+      178.72396850585938
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    315.7900085449219,
+    62.29199981689453,
+    575.8300170898438,
+    178.72396850585938
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 32,
+   "number": 32,
+   "section": 1,
+   "type": "QCS",
+   "stem": "One of the statements about GLP-1 analogue is NOT true:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Can induce hypoglycemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      215.07196044921875,
+      463.9360046386719,
+      229.72396850585938
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Used mainly for treatment of T2 DM",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      232.02197265625,
+      512.2959594726562,
+      246.67398071289062
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "It is given subcutaneously",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      248.9420166015625,
+      462.85601806640625,
+      263.5940246582031
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "It decreases glucagon",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      265.98199462890625,
+      443.7760009765625,
+      280.6340026855469
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "It can promote weight loss",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      282.9019775390625,
+      465.4960021972656,
+      297.5539855957031
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    315.7900085449219,
+    181.11199951171875,
+    578.9800415039062,
+    297.5539855957031
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 33,
+   "number": 33,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which is true about insulin lispro (a rapid acting insulin analogue):",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Action is faster and short in duration than regular insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      333.781982421875,
+      580.8339233398438,
+      348.4339904785156
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "lt is given 15 minutes prior to meal",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      367.7419738769531,
+      506.0559997558594,
+      382.39398193359375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "More hypoglycemia than regular insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      384.802001953125,
+      532.095947265625,
+      399.4540100097656
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Action is faster and of longer duration than regular insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      401.72198486328125,
+      548.6759643554688,
+      416.3739929199219
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "It is given IV",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      435.6819763183594,
+      390.10601806640625,
+      450.333984375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    315.7900085449219,
+    299.9420166015625,
+    580.8339233398438,
+    450.333984375
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 34,
+   "number": 34,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following drugs promotes the release of endogenous insulin",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Acarbose",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      486.5619812011719,
+      379.5459899902344,
+      501.2139892578125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Sulphonylurea",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      503.48199462890625,
+      405.46600341796875,
+      518.1339721679688
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Metformin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      520.52197265625,
+      383.3860168457031,
+      535.1739501953125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Pioglitazone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      537.4719848632812,
+      393.8260192871094,
+      552.1239624023438
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Dapagliflozin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      554.5120239257812,
+      397.4259948730469,
+      569.1640014648438
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    315.7900085449219,
+    452.60198974609375,
+    566.758056640625,
+    569.1640014648438
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 35,
+   "number": 35,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Risk factors for microvascular complications does not include",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Long duration of DM",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      605.3919677734375,
+      434.1759948730469,
+      620.0439453125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Prolonged hyperglycemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      622.3119506835938,
+      460.5760192871094,
+      636.9639282226562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "HTN",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      639.3519897460938,
+      352.7860107421875,
+      654.0039672851562
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Insulin resistance",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      656.27197265625,
+      422.0559997558594,
+      670.9239501953125
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Genetic factors",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      673.1919555664062,
+      409.5459899902344,
+      687.8439331054688
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    315.7900085449219,
+    571.4319458007812,
+    580.8220825195312,
+    687.8439331054688
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 36,
+   "number": 36,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Factors most likely to contribute to the development of diabetic ketoacidosis include all of the following except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Overeating",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      741.1320190429688,
+      386.5060119628906,
+      755.7839965820312
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Vomiting",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      758.052001953125,
+      375.8260192871094,
+      772.7039794921875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Omission of insulin doses",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      775.0919799804688,
+      462.7359924316406,
+      789.7439575195312
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "infections",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      315.7900085449219,
+      792.011962890625,
+      384.58599853515625,
+      806.6639404296875
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    315.7900085449219,
+    690.2319946289062,
+    582.39599609375,
+    806.6639404296875
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 37,
+   "number": 37,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Type I diabetes mellitus is characterized by all the following except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Majority of cases present acutely",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      62.29199981689453,
+      198.2060089111328,
+      76.94400024414062
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Obesity is an important predisposing factor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      79.23200225830078,
+      251.00601196289062,
+      93.88400268554688
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Insulin therapy is always needed",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      96.27198028564453,
+      197.36599731445312,
+      110.92398071289062
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Islet cells antibodies are present in majority of cases",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      113.19202423095703,
+      265.77801513671875,
+      127.84402465820312
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    14.15999984741211,
+    28.33197593688965,
+    268.71600341796875,
+    144.88400268554688
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 38,
+   "number": 38,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hypoglycemia may occur in the following disease except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sheehan's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      181.11199951171875,
+      137.21600341796875,
+      195.76400756835938
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Cushing's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      198.031982421875,
+      135.05599975585938,
+      212.68399047851562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "chlorpropamide therapy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      215.07196044921875,
+      153.7760009765625,
+      229.72396850585938
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    14.15999984741211,
+    147.1519775390625,
+    258.0240173339844,
+    229.72396850585938
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 39,
+   "number": 39,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Secondary DM may be caused by the following except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "chronic pancreatitis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      265.98199462890625,
+      132.7760009765625,
+      280.6340026855469
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "insulinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      282.9019775390625,
+      87.89999389648438,
+      297.5539855957031
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "glucoagonoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      299.9420166015625,
+      106.61599731445312,
+      314.5940246582031
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    14.15999984741211,
+    232.02197265625,
+    234.5039520263672,
+    314.5940246582031
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 40,
+   "number": 40,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Immune mediated DM is present in",
+   "options": [
+    {
+     "letter": "A",
+     "text": "type 1",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      333.781982421875,
+      60.78000259399414,
+      348.4339904785156
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "type 2",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      350.8219909667969,
+      61.380001068115234,
+      365.4739990234375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "both",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      367.7419738769531,
+      53.316001892089844,
+      382.39398193359375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    14.15999984741211,
+    316.86199951171875,
+    224.96600341796875,
+    382.39398193359375
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 41,
+   "number": 41,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The best TTT of type 1 DM is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "oral hypoglecmi drugs",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      401.72198486328125,
+      143.09600830078125,
+      416.3739929199219
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      418.6419982910156,
+      64.6199951171875,
+      433.29400634765625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "low caloric intake",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      435.6819763183594,
+      119.69599914550781,
+      450.333984375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    14.15999984741211,
+    384.802001953125,
+    183.4459991455078,
+    450.333984375
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 42,
+   "number": 42,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Feature of hypoglycemic don't include",
+   "options": [
+    {
+     "letter": "A",
+     "text": "drenching sweating",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      469.6419982910156,
+      129.656005859375,
+      484.29400634765625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "tachycardia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      486.5619812011719,
+      90.89999389648438,
+      501.2139892578125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "brisk jerk (tremors)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      503.48199462890625,
+      126.2959976196289,
+      518.1339721679688
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "tachypnea",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      520.52197265625,
+      84.41999816894531,
+      535.1739501953125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    14.15999984741211,
+    452.60198974609375,
+    242.84600830078125,
+    535.1739501953125
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 43,
+   "number": 43,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In type 2 DM is associated with",
+   "options": [
+    {
+     "letter": "A",
+     "text": "insulin resistance",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      554.5120239257812,
+      120.53599548339844,
+      569.1640014648438
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "cell defect",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      571.4319458007812,
+      84.29999542236328,
+      586.0839233398438
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Both",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      588.3519897460938,
+      53.676002502441406,
+      603.0039672851562
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    14.15999984741211,
+    537.4719848632812,
+    201.92601013183594,
+    603.0039672851562
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 44,
+   "number": 44,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In type 2 DM insulin resistance is increase by",
+   "options": [
+    {
+     "letter": "A",
+     "text": "exercise",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      622.3119506835938,
+      72.18000030517578,
+      636.9639282226562
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "obesity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      639.3519897460938,
+      67.73999786376953,
+      654.0039672851562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "metformin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      656.27197265625,
+      83.57999420166016,
+      670.9239501953125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    14.15999984741211,
+    605.3919677734375,
+    277.8860168457031,
+    670.9239501953125
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 45,
+   "number": 45,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The initial TTT of obese Type 2 DM is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "sulfonylurea",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      690.2319946289062,
+      93.53999328613281,
+      704.8839721679688
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "biguanide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      707.1719970703125,
+      81.05999755859375,
+      721.823974609375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "wt reduction",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      724.2119750976562,
+      94.37999725341797,
+      738.8639526367188
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    14.15999984741211,
+    673.1919555664062,
+    227.4860076904297,
+    738.8639526367188
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 46,
+   "number": 46,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In DM there is polyurea with",
+   "options": [
+    {
+     "letter": "A",
+     "text": "high specific gravity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      758.052001953125,
+      130.49600219726562,
+      772.7039794921875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "low specific gravity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      775.0919799804688,
+      127.4959945678711,
+      789.7439575195312
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Both",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      14.15999984741211,
+      792.011962890625,
+      53.676002502441406,
+      806.6639404296875
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    14.15999984741211,
+    741.1320190429688,
+    186.3260040283203,
+    806.6639404296875
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 47,
+   "number": 47,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Glycosylated HB assess glucose level during",
+   "options": [
+    {
+     "letter": "A",
+     "text": "last 3 months",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      45.37201690673828,
+      401.3860168457031,
+      60.02401351928711
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "past week",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      62.29199981689453,
+      381.46600341796875,
+      76.94400024414062
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "this day",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      79.23200225830078,
+      371.14599609375,
+      93.88400268554688
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "none of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      96.27198028564453,
+      423.2560119628906,
+      110.92398071289062
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    315.7900085449219,
+    28.33197593688965,
+    578.1959838867188,
+    110.92398071289062
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 48,
+   "number": 48,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Diabetic keto-acidosis is charactrized by",
+   "options": [
+    {
+     "letter": "A",
+     "text": "rapid respiration",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      130.23199462890625,
+      415.4259948730469,
+      144.88400268554688
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "dehydration",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      164.07196044921875,
+      393.22601318359375,
+      178.72396850585938
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "rapid small pulse",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      147.1519775390625,
+      419.416015625,
+      161.80398559570312
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "all of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      181.11199951171875,
+      409.5459899902344,
+      195.76400756835938
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    315.7900085449219,
+    113.19202423095703,
+    557.6759643554688,
+    195.76400756835938
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 49,
+   "number": 49,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Charcot joint in diabetes mellitus commonly affect",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hip",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      232.02197265625,
+      349.4259948730469,
+      246.67398071289062
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Shoulder",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      248.9420166015625,
+      377.8659973144531,
+      263.5940246582031
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Knee",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      265.98199462890625,
+      358.0660095214844,
+      280.6340026855469
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Foot",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      282.9019775390625,
+      355.1860046386719,
+      297.5539855957031
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    315.7900085449219,
+    198.031982421875,
+    578.6140747070312,
+    297.5539855957031
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 50,
+   "number": 50,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Thiazolidinedione group of anti-diabetic is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Voglibose",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      316.86199951171875,
+      381.70599365234375,
+      331.5140075683594
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Nateglinide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      333.781982421875,
+      390.34600830078125,
+      348.4339904785156
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Rosiglitazone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      350.8219909667969,
+      401.2659912109375,
+      365.4739990234375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Glimepiride",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      367.7419738769531,
+      392.5060119628906,
+      382.39398193359375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    315.7900085449219,
+    299.9420166015625,
+    570.9959716796875,
+    382.39398193359375
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 51,
+   "number": 51,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Effect of diabetes on foetus includes all except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Microsomia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      418.6419982910156,
+      392.2659912109375,
+      433.29400634765625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hyperbilirubinaemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      435.6819763183594,
+      436.6960144042969,
+      450.333984375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Stillbirth",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      452.60198974609375,
+      375.8260192871094,
+      467.2539978027344
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Open neural tube defed",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      469.6419982910156,
+      453.7359924316406,
+      484.29400634765625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    315.7900085449219,
+    384.802001953125,
+    551.8660278320312,
+    484.29400634765625
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 52,
+   "number": 52,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All are features of diabetic ketoacidosis except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hyperthermia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      520.52197265625,
+      402.70599365234375,
+      535.1739501953125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Drowsiness",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      537.4719848632812,
+      391.3059997558594,
+      552.1239624023438
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Dehydration",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      554.5120239257812,
+      395.14599609375,
+      569.1640014648438
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Air hunger",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      571.4319458007812,
+      384.22601318359375,
+      586.0839233398438
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    315.7900085449219,
+    486.5619812011719,
+    551.9620971679688,
+    586.0839233398438
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 53,
+   "number": 53,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Commonest cause of coma in a diabetic is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Diabetic ketoacidosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      605.3919677734375,
+      443.0559997558594,
+      620.0439453125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Lactic acidosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      622.3119506835938,
+      408.70599365234375,
+      636.9639282226562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hyperosmolar non-ketotic coma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      639.3519897460938,
+      499.45599365234375,
+      654.0039672851562
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypoglycaemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      656.27197265625,
+      411.8260192871094,
+      670.9239501953125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    315.7900085449219,
+    588.3519897460938,
+    573.0359497070312,
+    670.9239501953125
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 54,
+   "number": 54,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A patient of impaired fasting glucose ranges blood glucose value in between:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "96-106mg/dl",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      707.1719970703125,
+      395.8659973144531,
+      721.823974609375
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "106-116mg/dl",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      724.2119750976562,
+      401.9859924316406,
+      738.8639526367188
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "100-125mg/dl",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      741.1320190429688,
+      402.9460144042969,
+      755.7839965820312
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "116-130mg/dl",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      315.7900085449219,
+      758.052001953125,
+      402.8260192871094,
+      772.7039794921875
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    315.7900085449219,
+    673.1919555664062,
+    573.9339599609375,
+    772.7039794921875
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 55,
+   "number": 55,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is NOT a function of insulin?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Stimulation of lipogenesis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      28.33197593688965,
+      162.656005859375,
+      42.98397445678711
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Activation of gluconeogenesis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      45.37201690673828,
+      183.3260040283203,
+      60.02401351928711
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Facilitation of potassium uptake into cells",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      62.29199981689453,
+      243.4459991455078,
+      76.94400024414062
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Inhibition of ketogenesis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      79.23200225830078,
+      154.8560028076172,
+      93.88400268554688
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    315.7900085449219,
+    775.0919799804688,
+    566.4359741210938,
+    0
+   ],
+   "pages": [
+    3,
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 56,
+   "number": 56,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A patient presents with recurrent hypoglycemia. Which of the following lab findings would most strongly suggest an insulinoma?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "High fasting blood glucose with low insulin levels",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      164.07196044921875,
+      279.6860046386719,
+      178.72396850585938
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "High C-peptide with high insulin levels during hypoglycemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      181.11199951171875,
+      260.42401123046875,
+      195.76400756835938
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Low C-peptide with high insulin levels during hypoglycemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      215.07196044921875,
+      257.4119567871094,
+      229.72396850585938
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Elevated HbA1c levels with high fasting insulin levels",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      248.9420166015625,
+      266.6040344238281,
+      263.5940246582031
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    14.15999984741211,
+    96.27198028564453,
+    279.6860046386719,
+    280.6340026855469
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 57,
+   "number": 57,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is the most likely mechanism by which cortisol causes hyperglycemia?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Increasing muscle glycogenolysis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      333.781982421875,
+      201.3260040283203,
+      348.4339904785156
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Increasing hepatic gluconeogenesis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      350.8219909667969,
+      213.92601013183594,
+      365.4739990234375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Enhancing pancreatic insulin secretion",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      367.7419738769531,
+      228.80599975585938,
+      382.39398193359375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Inhibiting glucagon release",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      384.802001953125,
+      167.33599853515625,
+      399.4540100097656
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    14.15999984741211,
+    282.9019775390625,
+    250.4760284423828,
+    399.4540100097656
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 58,
+   "number": 58,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A patient with diabetes on SGLT2 inhibitors presents with euglycemic ketoacidosis. Which of the following is the most likely cause?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Excessive carbohydrate intake",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      452.60198974609375,
+      184.2860107421875,
+      467.2539978027344
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Reduced insulin dose or insulin resistance",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      469.6419982910156,
+      246.56600952148438,
+      484.29400634765625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Increased hepatic glycogen storage",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      486.5619812011719,
+      210.3260040283203,
+      501.2139892578125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Increased GLUT4 receptor expression",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      503.48199462890625,
+      222.2060089111328,
+      518.1339721679688
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    14.15999984741211,
+    401.72198486328125,
+    269.0760498046875,
+    518.1339721679688
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 59,
+   "number": 59,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following tissues does NOT require insulin for glucose uptake?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Skeletal muscle",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      554.5120239257812,
+      111.05599975585938,
+      569.1640014648438
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Adipose tissue",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      571.4319458007812,
+      104.45599365234375,
+      586.0839233398438
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Brain",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      588.3519897460938,
+      55.11600112915039,
+      603.0039672851562
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Cardiac muscle",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      605.3919677734375,
+      110.69599914550781,
+      620.0439453125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    14.15999984741211,
+    520.52197265625,
+    253.1400146484375,
+    620.0439453125
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 60,
+   "number": 60,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following conditions is MOST likely to increase the risk of hyperosmolar hyperglycemic state (HHS)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Infection in a type 1 diabetic patient",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      673.1919555664062,
+      212.4860076904297,
+      687.8439331054688
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Poor adherence to insulin therapy in a type 1 diabetic",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      690.2319946289062,
+      255.92401123046875,
+      704.8839721679688
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Severe dehydration in a type 2 diabetic patient",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      724.2119750976562,
+      265.166015625,
+      738.8639526367188
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Overuse of metformin in a type 2 diabetic",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      14.15999984741211,
+      741.1320190429688,
+      240.56600952148438,
+      755.7839965820312
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    14.15999984741211,
+    622.3119506835938,
+    265.166015625,
+    755.7839965820312
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 61,
+   "number": 61,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the primary reason for the \"dawn phenomenon\" in diabetic patients?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Increased cortisol secretion in the morning",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      28.33197593688965,
+      550.8359985351562,
+      42.98397445678711
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Nocturnal hypoglycemia followed by a rebound hyperglycemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      45.37201690673828,
+      572.56591796875,
+      60.02401351928711
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Increased growth hormone secretion during early morning hours",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      79.23200225830078,
+      582.501953125,
+      93.88400268554688
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Suppression of glucagon secretion during sleep",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      113.19202423095703,
+      574.8359985351562,
+      127.84402465820312
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    14.15999984741211,
+    758.052001953125,
+    582.501953125,
+    127.84402465820312
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 62,
+   "number": 62,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A patient with long-standing type 2 diabetes develops gastroparesis. Which of the following is the most likely pathophysiological cause?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Increased vagal nerve activity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      181.11199951171875,
+      481.9360046386719,
+      195.76400756835938
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Peripheral neuropathy affecting enteric nerves",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      198.031982421875,
+      567.9959716796875,
+      212.68399047851562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hyperinsulinemia causing gut dysmotility",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      215.07196044921875,
+      542.3159790039062,
+      229.72396850585938
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Excessive secretion of somatostatin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      232.02197265625,
+      515.6559448242188,
+      246.67398071289062
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    315.7900085449219,
+    130.23199462890625,
+    583.402099609375,
+    246.67398071289062
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 63,
+   "number": 63,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following statements best explains the pathogenesis of Latent Autoimmune Diabetes in Adults (LADA)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "LADA is primarily caused by insulin resistance due to aging.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      299.9420166015625,
+      566.39794921875,
+      314.5940246582031
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "LADA is characterized by autoimmune destruction of β-cells with a slower progression than type 1 diabetes.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      333.781982421875,
+      526.7020263671875,
+      348.4339904785156
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "LADA is caused by a complete lack of insulin receptor function on muscle cells.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      384.802001953125,
+      559.3659057617188,
+      399.4540100097656
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "LADA is associated with a deficiency of glucagon-like peptide-1 (GLP-1).",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      418.6419982910156,
+      530.93798828125,
+      433.29400634765625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    315.7900085449219,
+    248.9420166015625,
+    566.39794921875,
+    450.333984375
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 64,
+   "number": 64,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is the most likely mechanism for the development of diabetic ketoacidosis (DKA) in a type 1 diabetic patient?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Increased hepatic gluconeogenesis due to insulin deficiency",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      503.48199462890625,
+      548.4580078125,
+      518.1339721679688
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Activation of the sympathetic nervous system causing insulin resistance",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      537.4719848632812,
+      564.6578369140625,
+      552.1239624023438
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Decreased lipolysis and ketogenesis due to insulin secretion",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      571.4319458007812,
+      552.89794921875,
+      586.0839233398438
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Increased renal excretion of ketones",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      605.3919677734375,
+      517.3359985351562,
+      620.0439453125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    315.7900085449219,
+    452.60198974609375,
+    572.1959838867188,
+    620.0439453125
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 65,
+   "number": 65,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In patients with type 1 diabetes, which of the following autoimmune markers is most commonly found?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Antibodies against GLUT4",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      673.1919555664062,
+      462.97601318359375,
+      687.8439331054688
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Antibodies against insulin and islet cells",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      690.2319946289062,
+      537.1559448242188,
+      704.8839721679688
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Antibodies against thyroid peroxidase",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      707.1719970703125,
+      523.5759887695312,
+      721.823974609375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Antibodies against glucagon",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      315.7900085449219,
+      724.2119750976562,
+      476.1759948730469,
+      738.8639526367188
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    315.7900085449219,
+    622.3119506835938,
+    578.6019897460938,
+    738.8639526367188
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 66,
+   "number": 66,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which genetic factors are most strongly associated with an increased risk of developing type 1 diabetes?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Mutations in the HLA-DR3 and HLA-DR4 genes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      28.33197593688965,
+      267.9259948730469,
+      42.98397445678711
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Mutations in the SLC30A8 gene",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      45.37201690673828,
+      189.56600952148438,
+      60.02401351928711
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Polymorphisms in the FTO gene",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      62.29199981689453,
+      191.12600708007812,
+      76.94400024414062
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Mutations in the GLP-1 receptor gene",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      79.23200225830078,
+      219.4459991455078,
+      93.88400268554688
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    315.7900085449219,
+    741.1320190429688,
+    574.785888671875,
+    0
+   ],
+   "pages": [
+    4,
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 67,
+   "number": 67,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the most likely reason for the absence of diabetic ketoacidosis (DKA) in type 2 diabetes, despite significant hyperglycemia?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Increased β-cell function prevents ketogenesis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      147.1519775390625,
+      269.2460021972656,
+      161.80398559570312
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "There is sufficient insulin production to prevent lipolysis and ketogenesis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      164.07196044921875,
+      270.8280029296875,
+      178.72396850585938
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hyperglycemia in type 2 diabetes is due to renal glucose reabsorption rather than insulin resistance",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      198.031982421875,
+      273.70806884765625,
+      212.68399047851562
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Type 2 diabetics typically have higher glucagon levels that prevent DKA",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      232.02197265625,
+      269.083984375,
+      246.67398071289062
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    14.15999984741211,
+    96.27198028564453,
+    278.60601806640625,
+    263.5940246582031
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 68,
+   "number": 68,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is the primary defect in maturity-onset diabetes of the young (MODY)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Autoimmune destruction of β-cells",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      299.9420166015625,
+      208.5260009765625,
+      314.5940246582031
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Insulin resistance in peripheral tissues",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      316.86199951171875,
+      227.12600708007812,
+      331.5140075683594
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "A genetic mutation affecting pancreatic β-cell function",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      333.781982421875,
+      263.4740295410156,
+      348.4339904785156
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Reduced insulin receptor activity in the liver",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      367.7419738769531,
+      253.88600158691406,
+      382.39398193359375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    14.15999984741211,
+    265.98199462890625,
+    279.20599365234375,
+    382.39398193359375
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 69,
+   "number": 69,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the role of glucagon in patients with type 1 diabetes during hypoglycemia?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Glucagon is ineffective due to impaired secretion in type 1 diabetes.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      418.6419982910156,
+      280.8360290527344,
+      433.29400634765625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Glucagon helps to increase hepatic glucose production, compensating for the lack of insulin.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      452.60198974609375,
+      254.1360321044922,
+      467.2539978027344
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Glucagon is absent in type 1 diabetes and is never secreted during hypoglycemia.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      486.5619812011719,
+      254.00399780273438,
+      501.2139892578125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Glucagon only increases lipolysis, which does not help in hypoglycemia.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      520.52197265625,
+      265.3919982910156,
+      535.1739501953125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    14.15999984741211,
+    384.802001953125,
+    280.8360290527344,
+    552.1239624023438
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 70,
+   "number": 70,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the primary mechanism by which obesity leads to insulin resistance?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Decreased hepatic insulin sensitivity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      588.3519897460938,
+      218.36599731445312,
+      603.0039672851562
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Excessive secretion of pro-inflammatory cytokines from adipocytes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      605.3919677734375,
+      237.02001953125,
+      620.0439453125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Increased secretion of insulin by beta cells",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      639.3519897460938,
+      250.16600036621094,
+      654.0039672851562
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Impaired renal clearance of insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      656.27197265625,
+      210.0260009765625,
+      670.9239501953125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    14.15999984741211,
+    554.5120239257812,
+    259.10400390625,
+    670.9239501953125
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 71,
+   "number": 71,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is NOT a characteristic of metabolic syndrome?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Central obesity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      707.1719970703125,
+      107.93599700927734,
+      721.823974609375
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Dyslipidemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      724.2119750976562,
+      97.25999450683594,
+      738.8639526367188
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Insulin sensitivity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      741.1320190429688,
+      119.81599426269531,
+      755.7839965820312
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      14.15999984741211,
+      758.052001953125,
+      100.5,
+      772.7039794921875
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    14.15999984741211,
+    673.1919555664062,
+    281.78399658203125,
+    772.7039794921875
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 72,
+   "number": 72,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is a hallmark feature of Type 2 diabetes mellitus (T2DM)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Absolute insulin deficiency",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      28.33197593688965,
+      470.1759948730469,
+      42.98397445678711
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Insulin resistance and relative insulin deficiency",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      45.37201690673828,
+      578.0759887695312,
+      60.02401351928711
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Autoimmune destruction of pancreatic beta cells",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      62.29199981689453,
+      557.9378662109375,
+      76.94400024414062
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Increased peripheral glucose uptake",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      96.27198028564453,
+      520.095947265625,
+      110.92398071289062
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    14.15999984741211,
+    775.0919799804688,
+    578.0759887695312,
+    110.92398071289062
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 73,
+   "number": 73,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The pathogenesis of Type 2 diabetes involves which of the following processes?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Beta-cell hyperplasia followed by exhaustion",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      147.1519775390625,
+      561.5159912109375,
+      161.80398559570312
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Increased hepatic insulin clearance",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      164.07196044921875,
+      514.9359741210938,
+      178.72396850585938
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Deposition of amyloid in pancreatic islets",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      181.11199951171875,
+      545.4359741210938,
+      195.76400756835938
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Autoimmune destruction of beta cells",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      198.031982421875,
+      527.0559692382812,
+      212.68399047851562
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    315.7900085449219,
+    113.19202423095703,
+    579.7899169921875,
+    212.68399047851562
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 74,
+   "number": 74,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following substances, secreted by adipocytes, contributes directly to insulin resistance?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Leptin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      265.98199462890625,
+      363.70599365234375,
+      280.6340026855469
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Adiponectin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      282.9019775390625,
+      394.0660095214844,
+      297.5539855957031
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Resistin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      299.9420166015625,
+      373.7860107421875,
+      314.5940246582031
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Plasminogen activator inhibitor-1",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      316.86199951171875,
+      501.85601806640625,
+      331.5140075683594
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    315.7900085449219,
+    215.07196044921875,
+    578.157958984375,
+    331.5140075683594
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 75,
+   "number": 75,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is a typical feature of MODY (Mature Onset Diabetes of the Young)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Insulin resistance",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      367.7419738769531,
+      422.5360107421875,
+      382.39398193359375
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Onset before the age of 25 with a strong family history",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      384.802001953125,
+      568.6181030273438,
+      399.4540100097656
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Insulin dependency from diagnosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      418.6419982910156,
+      512.5360107421875,
+      433.29400634765625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Association with HLA-DR3,4",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      435.6819763183594,
+      477.4960021972656,
+      450.333984375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    315.7900085449219,
+    333.781982421875,
+    573.5859985351562,
+    450.333984375
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 76,
+   "number": 76,
+   "section": 1,
+   "type": "QCS",
+   "stem": "LADA (Latent Autoimmune Diabetes in Adults) is often mistakenly diagnosed as:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Type 1 diabetes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      486.5619812011719,
+      411.22601318359375,
+      501.2139892578125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Type 2 diabetes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      503.48199462890625,
+      411.34600830078125,
+      518.1339721679688
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Gestational diabetes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      520.52197265625,
+      439.9360046386719,
+      535.1739501953125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "MODY",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      537.4719848632812,
+      365.14599609375,
+      552.1239624023438
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    315.7900085449219,
+    452.60198974609375,
+    544.6900024414062,
+    552.1239624023438
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 77,
+   "number": 77,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is a risk factor for the development of gestational diabetes mellitus (GDM)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Age < 25 years",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      605.3919677734375,
+      404.8659973144531,
+      620.0439453125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Family history of autoimmune disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      622.3119506835938,
+      527.5359497070312,
+      636.9639282226562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "History of delivering a large-for-gestational-age infant",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      639.3519897460938,
+      572.8799438476562,
+      654.0039672851562
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "BMI < 25",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      673.1919555664062,
+      376.4259948730469,
+      687.8439331054688
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    315.7900085449219,
+    554.5120239257812,
+    574.785888671875,
+    687.8439331054688
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 78,
+   "number": 78,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The most common complication of diabetes mellitus leading to death is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Diabetic ketoacidosis (DKA)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      724.2119750976562,
+      474.4960021972656,
+      738.8639526367188
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Chronic kidney disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      741.1320190429688,
+      451.45599365234375,
+      755.7839965820312
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Cardiovascular disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      758.052001953125,
+      453.7359924316406,
+      772.7039794921875
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Non-alcoholic fatty liver disease (NAFLD)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      315.7900085449219,
+      775.0919799804688,
+      543.7559814453125,
+      789.7439575195312
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    315.7900085449219,
+    690.2319946289062,
+    575.998046875,
+    789.7439575195312
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 79,
+   "number": 79,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following findings is typical in the diagnosis of metabolic syndrome?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Triglycerides < 150 mg/dL",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      62.29199981689453,
+      159.41600036621094,
+      76.94400024414062
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "High-density lipoprotein (HDL) cholesterol ≥ 60 mg/dL",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      79.23200225830078,
+      271.15203857421875,
+      93.88400268554688
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Waist circumference > 40 inches in men",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      113.19202423095703,
+      236.36599731445312,
+      127.84402465820312
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Fasting blood glucose < 100 mg/dL",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      130.23199462890625,
+      208.64601135253906,
+      144.88400268554688
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    14.15999984741211,
+    28.33197593688965,
+    271.15203857421875,
+    144.88400268554688
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 80,
+   "number": 80,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the primary mechanism of action of Biguanides (Metformin)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Increase insulin secretion from beta cells",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      181.11199951171875,
+      241.88600158691406,
+      195.76400756835938
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Increase insulin sensitivity and decrease hepatic glucose output",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      198.031982421875,
+      279.3600158691406,
+      212.68399047851562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Inhibit glucose absorption from the intestines",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      232.02197265625,
+      264.5660095214844,
+      246.67398071289062
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Stimulate pancreatic beta cells to secrete insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      248.9420166015625,
+      245.35203552246094,
+      263.5940246582031
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    14.15999984741211,
+    147.1519775390625,
+    279.3600158691406,
+    280.6340026855469
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 81,
+   "number": 81,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is NOT an advantage of Metformin?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "No hypoglycemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      316.86199951171875,
+      118.85599517822266,
+      331.5140075683594
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Beneficial in prediabetes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      333.781982421875,
+      157.49600219726562,
+      348.4339904785156
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Promotes weight gain",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      350.8219909667969,
+      141.41600036621094,
+      365.4739990234375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Cardiovascular protection",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      367.7419738769531,
+      165.5360107421875,
+      382.39398193359375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    14.15999984741211,
+    282.9019775390625,
+    269.1839904785156,
+    382.39398193359375
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 82,
+   "number": 82,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the primary contraindication for Metformin use?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      418.6419982910156,
+      99.29999542236328,
+      433.29400634765625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Chronic kidney failure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      435.6819763183594,
+      142.37600708007812,
+      450.333984375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Asthma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      452.60198974609375,
+      70.97999572753906,
+      467.2539978027344
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Gastrointestinal disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      469.6419982910156,
+      156.5360107421875,
+      484.29400634765625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    14.15999984741211,
+    384.802001953125,
+    251.916015625,
+    484.29400634765625
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 83,
+   "number": 83,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is a significant side effect of Thiazolidinediones?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Osteoporosis in elderly",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      520.52197265625,
+      148.7360076904297,
+      535.1739501953125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hyperglycemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      537.4719848632812,
+      106.97599792480469,
+      552.1239624023438
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Lactic acidosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      554.5120239257812,
+      108.53599548339844,
+      569.1640014648438
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Severe nausea",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      571.4319458007812,
+      106.4959945678711,
+      586.0839233398438
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    14.15999984741211,
+    486.5619812011719,
+    262.716064453125,
+    586.0839233398438
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 84,
+   "number": 84,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which drug class works by inhibiting the DPP-4 enzyme to enhance incretin activity?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Biguanides",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      622.3119506835938,
+      86.93999481201172,
+      636.9639282226562
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "DPP-4 inhibitors",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      639.3519897460938,
+      113.09600067138672,
+      654.0039672851562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Sulfonylureas",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      656.27197265625,
+      101.81999969482422,
+      670.9239501953125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Amylin analogues",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      673.1919555664062,
+      122.33599853515625,
+      687.8439331054688
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    14.15999984741211,
+    588.3519897460938,
+    253.12802124023438,
+    687.8439331054688
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 85,
+   "number": 85,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is a common side effect of DPP-4 inhibitors?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Vomiting",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      724.2119750976562,
+      75.05999755859375,
+      738.8639526367188
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Weight gain",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      741.1320190429688,
+      89.69999694824219,
+      755.7839965820312
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pancreatitis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      758.052001953125,
+      92.45999908447266,
+      772.7039794921875
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Fluid retention",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.15999984741211,
+      775.0919799804688,
+      105.77599334716797,
+      789.7439575195312
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    14.15999984741211,
+    690.2319946289062,
+    245.7259979248047,
+    789.7439575195312
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 86,
+   "number": 86,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is a significant advantage of Sodium- glucose cotransporter 2 (SGLT2) inhibitors?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Weight gain",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      62.29199981689453,
+      391.1860046386719,
+      76.94400024414062
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "No cardiovascular benefits",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      79.23200225830078,
+      470.0559997558594,
+      93.88400268554688
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Mild to moderate weight loss and cardiovascular protection",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      96.27198028564453,
+      581.0980224609375,
+      110.92398071289062
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Increased risk for severe hypoglycemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      130.23199462890625,
+      531.7359619140625,
+      144.88400268554688
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    315.7900085449219,
+    28.33197593688965,
+    581.0980224609375,
+    144.88400268554688
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 87,
+   "number": 87,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is a side effect of SGLT2 inhibitors?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Increased blood pressure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      181.11199951171875,
+      462.4960021972656,
+      195.76400756835938
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Risk of diabetic ketoacidosis (DKA)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      198.031982421875,
+      510.1360168457031,
+      212.68399047851562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Dehydration due to water retention",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      215.07196044921875,
+      511.45599365234375,
+      229.72396850585938
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Weight gain",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      232.02197265625,
+      392.3860168457031,
+      246.67398071289062
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    315.7900085449219,
+    147.1519775390625,
+    552.573974609375,
+    246.67398071289062
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 88,
+   "number": 88,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the recommended contraindication for using SGLT2 inhibitors?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Severe renal failure (GFR < 45)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      282.9019775390625,
+      485.7760009765625,
+      297.5539855957031
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      299.9420166015625,
+      401.14599609375,
+      314.5940246582031
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hyperglycemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      316.86199951171875,
+      409.666015625,
+      331.5140075683594
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Pregnancy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      333.781982421875,
+      386.5060119628906,
+      348.4339904785156
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    315.7900085449219,
+    248.9420166015625,
+    573.3461303710938,
+    348.4339904785156
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 89,
+   "number": 89,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In insulin therapy, what is the purpose of basal insulin?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "To control postprandial glucose spikes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      384.802001953125,
+      528.4959716796875,
+      399.4540100097656
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "To maintain glucose levels during fasting",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      401.72198486328125,
+      538.9559936523438,
+      416.3739929199219
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "To reduce insulin resistance",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      418.6419982910156,
+      475.9360046386719,
+      433.29400634765625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "To stimulate beta-cell regeneration",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      435.6819763183594,
+      511.5760192871094,
+      450.333984375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    315.7900085449219,
+    350.8219909667969,
+    555.741943359375,
+    450.333984375
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 90,
+   "number": 90,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is a common complication associated with insulin therapy?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hyperkalemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      486.5619812011719,
+      403.1860046386719,
+      501.2139892578125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hypoglycemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      503.48199462890625,
+      405.10601806640625,
+      518.1339721679688
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Osteoporosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      520.52197265625,
+      402.10601806640625,
+      535.1739501953125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Liver failure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      315.7900085449219,
+      537.4719848632812,
+      392.0260009765625,
+      552.1239624023438
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    315.7900085449219,
+    452.60198974609375,
+    574.9301147460938,
+    552.1239624023438
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  }
+ ]
+}

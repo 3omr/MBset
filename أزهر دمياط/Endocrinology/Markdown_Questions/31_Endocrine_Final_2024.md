@@ -1,43 +1,45 @@
-# Endocrinology Final 2024 — extracted questions
+# endocrine final 2024 — extracted questions
 
-Total recoverable MCQs: 24
+> Source: `endocrine final 2024.pdf` · index 31 · parsed 2026-09-26 by mbset.py
+> Questions: 29 (29 MCQ / 0 written) · answers: marked 28, none 1
 
-> Status: 24 recoverable MCQs reconstructed from the OCR scan; marked choices were preserved where legible and remaining choices were derived from the source wording.
+### Q1: which is wrong regarding the physiologic basal insulin
 
-### Q1: Which statement is wrong regarding physiological basal insulin?
+- **A)** ithas anabolic actions
+- **B)** it continues for 24 hours
+- **C)** it continues even during the fasting state
+- **D)** it has no elevation peaks
 
-- **A)** It has anabolic actions
-- **B)** It continues for 24 hours
-- **C)** It continues during fasting
-- **D)** It has no peak of elevation
-
-**Correct Answer:** D
+**Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
-### Q2: Which is unusual in metabolic syndrome?
+### Q2: the following is unusual in the metabolic syndrome
 
 - **A)** Diabetes
 - **B)** Atherosclerosis
 - **C)** Fatty liver
-- **D)** PCOS
+- **D)** PCOS (polycystic ovary)
 - **E)** Hypotension
 
 **Correct Answer:** E
 **Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
-### Q3: Which statement is false regarding diffuse goiter?
+### Q3: Which is false regarding diffuse goiter?
 
-- **A)** It means enlargement of the whole thyroid with a smooth surface
-- **B)** It may be hyperthyroid, hypothyroid or euthyroid
-- **C)** It cannot be caused by thyroiditis
-- **D)** It does not indicate malignancy
+- **A)** This means enlargement of the whole thyroid with a smooth surface
+- **B)** May be hyper, hypo, or euthyroid
+- **C)** Can not be caused by thyroiditis
+- **D)** Don't indicate malignancy
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
@@ -46,11 +48,12 @@ Total recoverable MCQs: 24
 - **A)** Hyperglycemia
 - **B)** Hyperventilation
 - **C)** Hypothermia
-- **D)** Sweating
+- **D)** Sweeting
 - **E)** Agitation and tremors
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
@@ -60,27 +63,29 @@ Total recoverable MCQs: 24
 - **B)** Serum albumin/creatinine
 - **C)** Serum creatinine
 - **D)** Blood urea
-- **E)** Routine urinalysis
+- **E)** Routine urine analysis
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
-### Q6: The most essential measure for prevention of diabetic microvascular complications is
+### Q6: The following is the most essential for the prevention of diabetic microvascular complications
 
 - **A)** Good glycemic control
-- **B)** Weight reduction
+- **B)** Decrease the weight
 - **C)** Exercise
-- **D)** Increasing HDL
-- **E)** Antioxidants
+- **D)** Increase HDL
+- **E)** Atioxidants 'al complication of Cushing syndrome?
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 1, 2
 
 ---
 
-### Q7: Which is a potential complication of Cushing syndrome?
+### Q7: Which of the following is potential comp
 
 - **A)** Osteoporosis
 - **B)** Hypoglycemia
@@ -90,100 +95,94 @@ Total recoverable MCQs: 24
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
-### Q8: In diabetic patients, hypoglycemia is least likely to occur in
+### Q8: In diabetic patients, hypoglycemia is not easy to occur in the following category
 
-- **A)** The elderly
-- **B)** Childhood
-- **C)** Associated hyperthyroidism
-- **D)** Associated hypopituitarism
-- **E)** Associated hypoadrenalism
+- **A)** elderly
+- **B)** childhood
+- **C)** associated hyperthyroidism
+- **D)** associated hypopituitarism
+- **E)** associated hypoadrenalism
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
-### Q9: The primary cause of Addison disease is
+### Q9: What is the primary cause of Addison's disease?
 
-- **A)** Autoimmune adrenal destruction
-- **B)** Iatrogenic disease
-- **C)** Pituitary dysfunction
+- **A)** Autoimmune
+- **B)** Iatrogenic
+- **C)** Pituitary gland dysfunction
 - **D)** Genetic mutation
 - **E)** Adrenal tumor
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
-### Q10: Which can precipitate diabetic ketoacidosis?
+### Q10: Which can precipitate DKA
 
 - **A)** Infection
 - **B)** Surgery
-- **C)** Neglecting insulin doses
-- **D)** All of the above
-- **E)** None of the above
+- **C)** Neglect insulin doses
+- **D)** Any of the above
 
 **Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
-### Q11: Which suggests type 1 rather than type 2 diabetes?
+### Q11: The following suggests T1DM rather than T2DM
 
 - **A)** Central obesity
-- **B)** Maternal family history of diabetes
-- **C)** Recurrent diabetic ketoacidosis
-- **D)** Hypertension
+- **B)** Family history of diabetes in the mother
+- **C)** Recurrent DKA
+- **D)** HTN
 - **E)** Dyslipidemia
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
-### Q12: The first symptom or sign of puberty in a boy is
+### Q12: The first symptom/sign of puberty in a boy is:
 
 - **A)** Testicular enlargement
-- **B)** Penile enlargement
-- **C)** Linear growth
-- **D)** Ability to ejaculate
+- **B)** Enlargement of the penis
+- **C)** Linear growth height
+- **D)** Ability to ejaculate As. "a Rene for a long-standing Sheehan syndrome, simply you can measure: b. TSH c. ACTH d. Growth hormone
+- **E)** Prolactin
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 2, 3
 
 ---
 
-### Q13: To screen for long-standing Sheehan syndrome, simply measure
+### Q13: Which is not correct regarding thyroiditis?
 
-- **A)** FSH
-- **B)** TSH
-- **C)** ACTH
-- **D)** Growth hormone
-- **E)** Prolactin
-
-**Correct Answer:** E
-**Answer Source:** marked
-
----
-
-### Q14: Which is not correct regarding thyroiditis?
-
-- **A)** It may occur as a side effect of amiodarone or interferon
-- **B)** Hashimoto thyroiditis is the commonest cause of hypothyroidism
-- **C)** Hashimoto thyroiditis may have an initial toxic phase
-- **D)** Goiter is diffuse when present
+- **A)** Thyroiditis may occur as a side effect of amiodarone or interferon therapy
+- **B)** Hashimoto thyroiditis is the most common cause of hypothyroidism
+- **C)** Hashimoto thyroiditis sometimes has an initial toxic phase
+- **D)** Goiter is diffuse, if present
 - **E)** High radioiodine uptake is characteristic
 
 **Correct Answer:** E
 **Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
-### Q15: A patient with hypercalcemia and osteitis fibrosa cystica most likely has
+### Q14: A 30-year-old woman presents with hypertension, weakness, bone pain, and a serum calcium level of 15.2 mg/dL. Hand films show osteitis fibrosa cystica. Which of the following is the most likely cause of these findings?
 
 - **A)** Sarcoidosis
 - **B)** Vitamin D intoxication
@@ -193,122 +192,208 @@ Total recoverable MCQs: 24
 
 **Correct Answer:** E
 **Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
-### Q16: A 2-cm cold thyroid nodule with follicular cells on FNA is initially treated with
+### Q15: A 51-year-old man presents with a 2-cm left thyroid nodule. A thyroid scan shows a cold lesion. FNA cytology demonstrates follicular cells. Which of the following is the most appropriate initial treatment for this patient?
 
-- **A)** External-beam radiation
-- **B)** Multidrug chemotherapy
-- **C)** TSH suppression
-- **D)** Prophylactic neck dissection with total thyroidectomy
-- **E)** Thyroid lobectomy
-
-**Correct Answer:** E
-**Answer Source:** marked
-
----
-
-### Q17: Which adrenal mass could be observed after a complete metabolic work-up?
-
-- **A)** A nonfunctioning 3-cm solid mass
-- **B)** A nonfunctioning 7-cm cystic mass
-- **C)** A functioning 2-cm cystic mass
-- **D)** A nonfunctioning solid mass that doubled in one year
-- **E)** A 10-cm solid mass
-
-**Correct Answer:** A
-**Answer Source:** marked
-
----
-
-### Q18: In management of diabetic ketoacidosis, all are correct except
-
-- **A)** The starting fluid is saline
-- **B)** Regular insulin is given at 0.1 U/kg/hour
-- **C)** Potassium chloride is added after 12–24 hours
-- **D)** Glucose fall should not exceed 100 mg/dL/hour
-- **E)** A nasogastric tube is used in coma
-
-**Correct Answer:** C
-**Answer Source:** marked
-
----
-
-### Q19: The most likely cause of insulin-dependent type 1 diabetes is
-
-- **A)** Chromosomal imbalance
-- **B)** An enzyme defect preventing insulin action
-- **C)** Autoimmune beta-cell destruction
-- **D)** A high-carbohydrate diet
-- **E)** Chronic emotional stress
-
-**Correct Answer:** C
-**Answer Source:** marked
-
----
-
-### Q20: A full-term newborn has low T4 and high TSH shortly after birth. The diagnosis is
-
-- **A)** Congenital hyperthyroidism
-- **B)** Congenital hypothyroidism
-- **C)** Transient hypothyroidism
-- **D)** Secondary hypothyroidism due to hypopituitarism
-- **E)** None of the above
-
-**Correct Answer:** B
-**Answer Source:** marked
-
----
-
-### Q21: Regarding hypogonadism, which is false?
-
-- **A)** The clinical picture differs with age of occurrence
-- **B)** Primary hypogonadism has a worse prognosis than secondary
-- **C)** It can be caused by pituitary disorders
-- **D)** It does not occur with liver-cell failure
-- **E)** Anosmia with hypogonadism is Kallmann syndrome
+- **A)** External beam radiation to the neck.
+- **B)** Multidrug chemotherapy.
+- **C)** TSH suppression by thyroid hormone.
+- **D)** Prophylactic neck dissection is indicated along with a total thyroidectomy.
+- **E)** Thyroid lobectomy.
 
 **Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
-### Q22: Which antidiabetic class has cardiovascular protective benefit?
+### Q16: Which of the following adrenal masses could be treated with observation and follow-up after a complete metabolic work-up?
 
-- **A)** SGLT2 inhibitors
-- **B)** Sulfonylureas
-- **C)** DPP-4 inhibitors
-- **D)** Insulin
-- **E)** Metformin
+- **A)** Non-functioning, 3-cm, solid adrenal mass in a 38-year-old man
+- **B)** Non-functioning, 7-cm, cystic adrenal mass in a 25-year-old woman
+- **C)** Functioning, 2-cm, cystic mass in a 45-year-old woman
+- **D)** Nonfunctioning, solid mass that has doubled in size in 1 year in a 67-year-old man
+- **E)** A 10-cm, solid adrenal mass in a 56-year-old man
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
-### Q23: Which is false regarding prolactinoma?
+### Q17: In the management of DKA all the following are correct except
 
-- **A)** It presents with galactorrhea-amenorrhea syndrome
-- **B)** It may be a micro- or macroadenoma
-- **C)** It often responds well to medical treatment
-- **D)** Drug-related hyperprolactinemia may present similarly
+- **A)** The starting IV fluid is saline
+- **B)** Regular insulin is given in a dose of 0.1 U/kg/hour
+- **C)** Potassium chloride is added after 12-24 hours
+- **D)** Drop in blood glucose level should not exceed 100 mg/dl/hour
+- **E)** NGT is introduced to empty the stomach if the patient is in coma
+
+**Correct Answer:** C
+**Answer Source:** marked
+**Source Pages:** 4
+
+---
+
+### Q18: According to current theory, the most likely cause of insulin-dependent (type I) diabetes mellitus ts 4, Chromosomal imbalance
+
+- **A)** An enzyme defect preventing proper action of insulin
+- **B)** Autoimmune destruction of beta cells in the pancreas
+- **C)** High carbohydrate diet over a long period
+- **D)** Chronic emotional stress
+
+**Correct Answer:** C
+**Answer Source:** marked
+**Source Pages:** 4
+
+---
+
+### Q19: In a full ferm normal Weight newborn, thyroid screening tests carried out shortly after birth revealed decreased T4 and Increased TSH, the most likely diagnosis is a. Congenital hyperthyroidism
+
+- **A)** Congenital hypothyroidism
+- **B)** Transient hypothyroidism
+- **C)** Secondary hypothyroidism due to hypopituitarism
+- **D)** None of the above
+
+**Correct Answer:** A
+**Answer Source:** marked
+**Source Pages:** 4
+
+---
+
+### Q20: Regarding hypogonadism, which is false?
+
+- **A)** The clinical picture differs according to the age of occurrence
+- **B)** Primary hypogonadism has a worse prognosis than secondary hypogonadism
+- **C)** It can be caused by most pituitary disorders
+- **D)** It does not occur in patients with liver cell failure
+- **E)** When associated with anosmia it is called Kallmann syndrome
+
+**Correct Answer:** D
+**Answer Source:** marked
+**Source Pages:** 4
+---
+
+### Q21: The following class of anti-diabetic drugs has cardioprotective benefits
+
+- **A)** Sodium-glucose co-transporter 2 inhibitors (SGLT-2 Inhibitors)
+- **B)** Sulphonylureas
+- **C)** DPP-4 inhibitors
+- **D)** Insulins
+
+**Correct Answer:** A
+**Answer Source:** marked
+**Source Pages:** 4
+
+---
+
+### Q22: Which is false regarding prolactinoma?
+
+- **A)** Presented with galactorrhea-amenorrhea syndrome
+- **B)** May be micro or macro adenoma
+- **C)** Often respond well to medical treatment
+- **D)** Drug-related hyperprolactinemia may also present with galactorrhea
 - **E)** Pressure symptoms are always absent
 
 **Correct Answer:** E
 **Answer Source:** marked
+**Source Pages:** 4
 
 ---
 
-### Q24: In addition to water reabsorption, ADH enhances reabsorption of
+### Q23: In aie to water reabsorption, what other substance does ADH enhance reabsorption? a. rea
 
-- **A)** Urea
-- **B)** Glucose
-- **C)** Carbon dioxide
-- **D)** Sodium
-- **E)** Phosphate
+- **A)** Glucose
+- **B)** Carbon dioxide
+- **C)** Bicarbonate
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 5
+
+---
+
+### Q24: One of the following suppresses the release of ADH?
+
+- **A)** Low plasma osmolality
+- **B)** Rise in plasma volume
+- **C)** Emotional factors and stress
+- **D)** SLEEP
+
+**Correct Answer:** A
+**Answer Source:** marked
+**Source Pages:** 5
+
+---
+
+### Q25: Which is a cause of hypertension?
+
+- **A)** 21-hydroxylase deficiency
+- **B)** 17-hydroxylase deficiency
+- **C)** 3 B dehydrogenase deficiency
+- **D)** Addison disease
+- **E)** Sheehan syndrome Precocious
+
+**Correct Answer:** B
+**Answer Source:** marked
+**Source Pages:** 5
+
+---
+
+### Q26: The most common central cause of a 8 y girl with delayed puberty is
+
+- **A)** Hydrocephalus
+- **B)** Brain tumor
+- **C)** Idiopathic
+- **D)** Meningitis
+- **E)** Turner syndrome
+
+**Correct Answer:** C
+**Answer Source:** marked
+**Source Pages:** 5
+
+---
+
+### Q27: In the investigations of delayed puberty of a 15-year-old boy, which has a good prognosis?
+
+- **A)** Klinefelter karyotype
+- **B)** High LH and FSH
+- **C)** Bone age of 12y (delayed bone age)
+- **D)** Undescended testes
+
+**Correct Answer:** C
+**Answer Source:** marked
+**Source Pages:** 5
+
+---
+
+### Q28: Causes of hyperprolactinemia do not include
+
+- **A)** Chronic renal failure
+- **B)** Polycystic ovary syndrome
+- **C)** Prokinetic drugs (dopamine antagonists)
+- **D)** Prolactinoma
+- **E)** Hyperthyroidism
+
+**Correct Answer:** E
+**Answer Source:** marked
+**Source Pages:** 5
+
+---
+
+### Q29: Complications of acromegaly do not include
+
+- **A)** Visual problems
+- **B)** Diabetes mellitus
+- **C)** Hypertension
+- **D)** Hashimoto thyroiditis
+- **E)** Cancer colon
+
+**Correct Answer:** D
+**Answer Source:** marked
+**Source Pages:** 5
 
 ---

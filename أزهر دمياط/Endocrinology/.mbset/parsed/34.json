@@ -1,0 +1,141 @@
+{
+ "nn": "34",
+ "source": "Raw_PDF_Questions/أسئلة MCQ د. خالد..pdf",
+ "sha256": "ec2eaaf60123fc09e2c059badf25ae1b70b940e6927b1d430e0236fe14d04cc2",
+ "at": "2026-09-26T05:04:42Z",
+ "layout": {
+  "method": "ocr",
+  "splits": {
+   "1": null,
+   "2": null,
+   "3": null,
+   "4": null
+  }
+ },
+ "counters": {
+  "source_numbering": 1,
+  "sections": [
+   "3-3"
+  ],
+  "option_a_lines": 0,
+  "parsed_questions": 1,
+  "parsed_numbered": 1,
+  "declared_total": null
+ },
+ "gaps": [
+  "section 1: missing [1, 2]"
+ ],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [],
+  "grid_hits": 0,
+  "style_stats": {},
+  "marked_hits": 0,
+  "answered": 0,
+  "mcq": 0,
+  "at": "2026-09-26T05:04:42Z"
+ },
+ "distribution": {},
+ "dropped_lines": [
+  "—_",
+  "CamScanner",
+  "\\'",
+  "CamScanner",
+  "=",
+  "CamScanner",
+  "CamScanner",
+  "CAd Perales 4 4 ABA don RA",
+  "op bash co mtind Ae he af cide fea kt Moff li ril-al-Grdcadfonde trad td",
+  "OE ar Jam o's piso ote. i au auTo MMA use lds 4",
+  "Av. habe va ted. §terps nl wee",
+  "ea Mast Coda A- Cause ia f + All des eve",
+  "ev lo bt Cra. Ta et ‘7 Aids poy Ae \"",
+  "ares “& Causes l Head / Ma A. VAs Devt + All Dnida ‘crinal L yPo ify schbs: 4 tutte tM Line. :",
+  "BY Dr, Incbina a ef $- Mog} CusaiMion Lurtlinsas Pit uttays £ Mov.",
+  "ye 0g YY eos |. phyya te Kices!s Ta: + Clubbias 4n2 Suga of Avau",
+  "pat",
+  "‘s \\ Be Lund el fect! ON: _",
+  "* 4 ; : }/ rl . iol Fr 4 i iS",
+  "i”",
+  "- Lorn defs'e'o Caz ofa AA. 6",
+  "sk ha a '",
+  "L. Hyrgag",
+  "aS Pr ay deficesenc i",
+  "— | Lyn Blo yl pi eo o ovalacct'n asfay Ji —=——",
+  "a Pah Pe 4 —",
+  "K Cavhio Phar mde oa it X= Cat sh mT",
+  "zt",
+  "weer etHiNe —a.- —f ecti lized",
+  "ksevedete (Minat babe a tn",
+  "Ta cn epg ncen nuannre gneag Dee",
+  "ils LiPo Mas ashe vate plate 7 6",
+  "1s Med) Cast 2 Aa",
+  "€ Pah rent unity thyyotoX Gsis Hal g4 ncaa t hia:",
+  "__due 4. Lo 2 ta Ts F uthrd: be",
+  "A mosh common Coule bh fac, Math th lateval",
+  "EDiaketk Yytient Has Pallacdae la Vale Guastitc Ss Maculo Paula cash. Se ald ade LS Breas ha Yousg age (5 Du bects sh cra fro af 0 A eae 19 Patio at ‘pes ui Lederal Ay oMaft. — - |!",
+  "fk Dp WAP gly Cp ma 3 tad wisline ee! AY) aad Lahn! 44 Coir 1H .¥o rAboSt§",
+  "it neta ete sh ) cl 4 L An ddabedite —",
+  "bs La Seta aad_ o£",
+  "ae",
+  "ieee ee",
+  ". i",
+  "Te a ldo Stevan 7 a ove £ [Wor f2@o 43 se8 et",
+  "“sh",
+  "rJ sy Shean _sdvanatic wall a AST |",
+  "allesf F ld hg fev aldo ster msm NA. pole we Use",
+  "van Peer Rly cher ‘a Prevensne\"",
+  "ype oes of tet coshioy is ATH etal * oe yi CoMMa Gufe of Cushiay a5 \"Ta teden: EW on we) | +] hy fs halemi'e, occur",
+  "x mos. CoM ‘OJ dis Case Ov td 2A halle of addisen disade—s adly wives",
+  "\"of Sat kteral’ U adrenale tomy Galea: nel ih SY ddve2ae",
+  "- oft d\\) Sales dis ide May Cause art sh \\ have",
+  "CCORt AWyre SoX sis EY Tsolatel Ganede bofine deft",
+  "af most Capron Yresertalt jn of a WaPo Jonadism .",
+  "i all. A) endocyinal \\y for inch, \\SNes pi Um",
+  "Zxcoot AaVe ease.",
+  ". 4 +",
+  "MQ Po Pan NAME Mcrae ny a at eeate ey Wttey Guanes",
+  "Sd SCE Prose, fa Yo ernere s¢-tlese.",
+  "~ inn Cav ly” “duc be Ce APVESSION oN Sella tuys, \\- Bi bend dy Yeadache Grisly bee pegall | Mev",
+  "ela Puy $)\\¢, of Heed ache» hw de Breck down of"
+ ],
+ "dropped_count": 61,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 0,
+  "dropped": [],
+  "stale": []
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": 3,
+   "section": 1,
+   "type": "QROC",
+   "stem": "dene vali Zoe leadaclo. *MAS Cormealis in ™ disse RAB Uide tee rm, [ bitter sh, ser beth Shesine / cst rate, + Primarg awhinsird ta 4 * hal me Sy oh ln TI Neco Mash,; #90. Gray disersedla nish at rsh base SsPeck former 3 Most Cs !, 1 - 3 Added Ly 05: cotter Un dyonye MMon Fomor of nha th! Pe lect Vo\" ete fe Ye 80 i → Tsslated Sta June Coy ho Cof\\ fp, M > o z > of Aut IMM ume Lat xy f; gurdery. buf on Wiel proded by",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "numbering_gap_before",
+    "low_ocr_confidence",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    7.0,
+    212.4,
+    590.6,
+    681.8
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  }
+ ]
+}

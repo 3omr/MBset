@@ -1,0 +1,400 @@
+{
+ "nn": "36",
+ "source": "Raw_PDF_Questions/Endocrine WRITTEN Qs part.1.pdf",
+ "sha256": "4eb53e85932f2a3a82b1039cb5f91a44d36c350b27e4928e1355f6fb20262eab",
+ "at": "2026-09-26T05:04:58Z",
+ "layout": {
+  "method": "ocr",
+  "splits": {
+   "1": null,
+   "2": null,
+   "3": null,
+   "4": null,
+   "5": null,
+   "6": null,
+   "7": null,
+   "8": 940.8,
+   "9": null,
+   "10": null,
+   "11": null,
+   "12": null,
+   "13": null,
+   "14": null,
+   "15": null,
+   "16": null,
+   "17": null,
+   "18": null
+  }
+ },
+ "counters": {
+  "source_numbering": 6,
+  "sections": [
+   "6-6",
+   "1-2",
+   "1-3"
+  ],
+  "option_a_lines": 4,
+  "parsed_questions": 7,
+  "parsed_numbered": 6,
+  "declared_total": null
+ },
+ "gaps": [],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [],
+  "grid_hits": 0,
+  "style_stats": {
+   "bold": 0.0,
+   "color": 0.0,
+   "tick": 0.0,
+   "highlight": 0.0,
+   "fill": 0.0,
+   "tint": 0.0,
+   "ink": 0.0,
+   "circle": 0.0,
+   "box": 0.0,
+   "underline": 0.0
+  },
+  "marked_hits": 0,
+  "answered": 0,
+  "mcq": 2,
+  "at": "2026-09-26T05:04:58Z"
+ },
+ "distribution": {},
+ "dropped_lines": [
+  "“",
+  "——",
+  "©",
+  "-",
+  "; - —— —",
+  "\\",
+  "—",
+  "|",
+  ".. ©)",
+  "-",
+  "~ ©",
+  "__..",
+  "©)",
+  "©)",
+  "_",
+  ".",
+  ">, ,",
+  "ft fy) Gt",
+  "MiCvavascalar",
+  "_ LA AVLG, PhvaPatiy — _.——s—s—C CS: Orabehc_retinoP _— Gi",
+  "[els",
+  "—( JK",
+  "| 1",
+  "Bt _Gibe mdications",
+  "O FRG_< 13a pies (7) be 2) iy co @OPPBG <ixa",
+  "cA (a vin 14 (a ‘4 | ' 7 i",
+  "QHbAIC ¢ FY",
+  "©TG",
+  "O Prediabetey ’, Cond tkron in whirl sd Gaveee =",
+  "5, Gea : — ___ +S hiGhev than normal but net high = 7 oe Sv Oc Usados Ceraltansa iy ‘fyegy iclehiran emi,",
+  "Peatiat Eran GhxsatutZ mn",
+  "due to auto immune distrec Chor of B-vens = 7 e~",
+  "(ls",
+  "= 4 ae oS oe",
+  "oP >",
+  "“© MODY. \"Mature Onset Dyno bates ia You 1g-e __ ONSeL ¢ 25 Yea | [Y Pe Z re eae in P ation ts under 25 YoY, pelnannune",
+  "Se = Ly Cho 4a 7",
+  "Ang onset of first sre@Qnation dcnng 2a Oextat wl) K og Vee ok impeared Gi lure tol eyvanc 4 ah: 2 Anan _terne",
+  "\\ —oF Pas g aa — |",
+  "ae Lf 2"
+ ],
+ "dropped_count": 40,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 0,
+  "dropped": [],
+  "stale": []
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": 6,
+   "section": 1,
+   "type": "QCS",
+   "stem": "2 dr ag naric {Abactovy fost .. a OBbad bse (Vv L - .[s] AC} sens [ 00 fo 7-125 _ >} 2 6 fe _@ Une text 7 Glu@0e Ureg ee eee Wpik kev nle_botween ------=_=-= ----w IDENYVIFY OF ee Type 1 [juvenile] {IDDM} Definition Incidence 510% Prevalence 0.3% of population Pathogenesis _ Auto immune AB against B cells IR then B-cells exhuasion Insulin level int Early increase, late decrease Age of onset <40 >40 y ane | _ Clinical pic. Role of age Mi: DKA Common Rare except in stress",
+   "options": [
+    {
+     "letter": "A",
+     "text": "B | |' | HALA Association HALA DR 3,4 No HALA association Genetic Chromosome 6 ressicive Chromosome 11 multifactorial ie il ei Insulin + diet + excersise _ Diet, exr toral drugs +insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      123.6,
+      2897.0,
+      2337.6,
+      2998.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Glucagon-like peptide-1(GLP1)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      441.8,
+      1704.2,
+      1319.5,
+      1761.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_out_of_order_A",
+    "low_ocr_confidence",
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    124.3,
+    320.6,
+    2341.4,
+    3274.8
+   ],
+   "pages": [
+    3,
+    5
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 2,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "GS In diabetic patient the incretins are decreased about 50% of its normal level & Both incretins rapidly deactivated by an enzyme Dipeptidyl peptidase 4 § To protect the incretins: inhibit the DPP4 enzyme or take the analog",
+   "options": [
+    {
+     "letter": "A",
+     "text": "DPP4 Inhibitor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      757.9,
+      2034.0,
+      1638.0,
+      2086.8
+     ]
+    }
+   ],
+   "after": "NAME: sitagliptin, saxagliptin, vildagliptin Mechanism of action: block DPP4 enzyme action DOSE: ORAL ADVANTIGE: - minimal hypoglycemia - durable - at any age - weight loss S/E; -headache - nausea CONTRAINDICATION: severe renal failure _ B. Incretin mimetic ' 7 NAME: Exenatide > Mechanism of action: insulin dependent manner > like insulin DOSE: injected subcutaneously 2/d one hour before meals (first meal& last meal) ADVANTIGE: - CVS protective - no hypoglycemia - weight loss SIE: - sever vomiting - pancreatitis CONTRAINDICATION: castroparesis Bei oo oe / / us) Lill AT hag",
+   "exp": "NAME: sitagliptin, saxagliptin, vildagliptin Mechanism of action: block DPP4 enzyme action DOSE: ORAL ADVANTIGE: - minimal hypoglycemia - durable - at any age - weight loss S/E; -headache - nausea CONTRAINDICATION: severe renal failure _ B. Incretin mimetic ' 7 NAME: Exenatide > Mechanism of action: insulin dependent manner > like insulin DOSE: injected subcutaneously 2/d one hour before meals (first meal& last meal) ADVANTIGE: - CVS protective - no hypoglycemia - weight loss SIE: - sever vomiting - pancreatitis CONTRAINDICATION: castroparesis Bei oo oe / / us) Lill AT hag",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "single_option"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    166.8,
+    1782.0,
+    2231.5,
+    2086.8
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 3,
+   "number": 1,
+   "section": 2,
+   "type": "QROC",
+   "stem": "Clinical picture: o o Macroglossia o Menorrhagia",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "figure_dependent",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": [
+    128.2,
+    153.8,
+    668.6,
+    506.4
+   ],
+   "pages": [
+    7
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 4,
+   "number": 2,
+   "section": 2,
+   "type": "QCS",
+   "stem": "Investigation:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "TSH:",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      188.6,
+      612.7,
+      376.6,
+      658.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hypercholesterolemia Depigmented, thin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      188.6,
+      763.0,
+      820.8,
+      808.8
+     ]
+    }
+   ],
+   "after": "Coarse, thick with wrinklin¢ ee CD |< um |un - High LOW - Normal - Common < / Quire ( Acvomegaly) _ eget oT fats. 50) ACide Phil adenoma. nif Matealam¢c disavd ov: _ MEN-T - ) /eare s extva Pituta: \"yf (eyso) a ¥ ee \"St Gt a Seal 1 Gyoulth = \"eb loctye le lfte, i Ala owe or) ww Bie a Jeg on cl ,Prominant rontea| -INUSey_ suPror hte malar pene} Ay mastotd) _é =} ae od (nore, S ae My 2G -- ( p- ! mensttu | ProlaCct lee Ctinleved:; 3; 7 | BulGdZ, aede ve day Lil af2) am (ation) NU CvGho a ee --___ 8. CavpPal + __=: _b- Arthwrti's _ _ a lt Obed al) Bromo fate 20mg __ pledge af GH __.. aCtreatrde. (a0 ran 1g(8h)-@ =e iCal) Eas xPhenoidal hy Phy sectamy gd ILC i cated_if thave 1s SuU/Aasalle extension _Pitatavy.: indicated. >, _{[é) Lf Common failed _---- - Q_ exPaastan A00 Y Q tumor HEN | = \" e / of sf ill = er { M Metab ol'C_ Syndrome -- & O \"Clusters ef | _ due to Tnselin_tresistanC. QD Cnhumsvrate_stip. ComPoanent), | Aisdgatad obe s/t @HE @) Diegn a@st1C C4 ftaviQo. (3 oL the Ca 7 _ Qwaist CrCumferen®. SJa2em FF * @BP > (30_ [85 mmHg @-F-BLGL_ 7140 \"© HPL < Uo Or aaa 'Bae f/f Ke MacvounsCulav_ mPli@trons -~Fnumerate risk foc Dvodout ron 0, a S=sREeeemeeeeimemmemmeeemmeeee",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "letters_not_sequential",
+    "text_after_options",
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": [
+    126.2,
+    535.4,
+    1475.8,
+    808.8
+   ],
+   "pages": [
+    7
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 5,
+   "number": 1,
+   "section": 3,
+   "type": "QROC",
+   "stem": "Brain: increase risk of stroke ?-limes more than normal",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "stem_prefix_cut",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "macrovascular Definition: damage of large B.V by atherosclerosis Affect on:",
+   "page": 12,
+   "bbox": [
+    27.6,
+    609.8,
+    1996.6,
+    903.8
+   ],
+   "pages": [
+    12
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 6,
+   "number": 2,
+   "section": 3,
+   "type": "QROC",
+   "stem": "Heart: increase risk of IHD 35-limes more than normal",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 12,
+   "bbox": [
+    283.0,
+    936.5,
+    1940.2,
+    981.1
+   ],
+   "pages": [
+    12
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 7,
+   "number": 3,
+   "section": 3,
+   "type": "QROC",
+   "stem": "Hyperglycemia 7, Proteinuria 4, Smoking 8. Dyslipidemia screening pulse ECG BP FCHO & carotid duplex & LL duplex when needed Prevention & modification: I. life style 5. control DM 2. low dose aspirin 6. avoid hypoglycemia 3. statin >40 year 4, target [see later SS LKCeSS uh 10 Cut C1MMune { Arti botie ~TSH hot ryitol WAN muscle. Son Pam @Q (Macnam COA 8 « Proffa 515 - Co} new rt LCey \"OIC atroPhy = Chemasi) - Conjunctru stl - Cl Lndey Mat, jon) Hovmonal asses¥ men, ty. (V tote Ty Ay I> @k ree lu bts 15H (yy) T3 resin uftan® (G) Iz Thyroid antibe di » Lp thyro! dy 0(oPtor antibody + Toil \"LATS pats'P havmonaf bhatt, Lcholestere] _ £, - ny o P arsory ha Rhy _ Pavitibial myxedem4 a Mart (ai lura: Rod vest, diuvet'Y, Caibimg al \"Has, 2D f y, Weoure genic on lh ANMETY 4+ (s Prtatt on Dy sPneq framoys -@ Cnkirmatory, elavara QD sani main O) Ide wtiPy the Cuse ~ Frave) + TSH- ¥eCc bors anti hadiy oni Thi roicitts v f RT \"EM tod ing _~fsatae sam ole x Cor Pt to al Ne _. - ee. hey ain hy Pow 3) aAmenavv hag FimPoton CZ | g dePress son - 390) are 59 475 (i) Muscle uate) WW) HTN JOM 955) oly 88.5 JD me ae + abla Gap nis (eo) | Z Di2G nos! Po. O72 9.A6 as C16 JI) > 0) crit. sch: Ozespect it \"shite obesitey Q Treen 9 _ 7 gam & m'dnarg nt ZU hy. Oni mary ovarn Sho. d exqmeatha Tong DURES 510\" nf: - My Hw Cor 15e! _ isnot c Tow dos. xX suPPresion tose NJ ») uPPr CSS od ( not CHS ning Y) Ldonti Cease D Y sutPress ion host omes PTMNag i Wot) | Lp Adrenal tum op MW (MRL spmatosiatin Z Psaude Ct Shing Pela pots of Carti Caster (a) ya' Chronic atCohotrsm vests yn | \" Iddv Eemetton | + Direct ebhect oF ala hels an ACTH A Carticostonl mpaire",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "stem_prefix_cut",
+    "very_long_stem",
+    "low_ocr_confidence",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "Legs: increase risk of PVD 30-limes more Than normal Occur in: diabetic and prediabetic que To Ik Risk factors: as metabolic syndrome I. IR. 5. Stress 9, HTN 2. Obesity 6. Sleep disorder 10. Sedentary life",
+   "page": 12,
+   "bbox": [
+    283.0,
+    1016.6,
+    2346.7,
+    2306.4
+   ],
+   "pages": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  }
+ ]
+}

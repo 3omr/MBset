@@ -1,0 +1,3026 @@
+{
+ "nn": "31",
+ "source": "Raw_PDF_Questions/endocrine final 2024.pdf",
+ "sha256": "de141d7911db26377b2b53890103a25630262dd14af05415b1e2defcffa6cbd7",
+ "at": "2026-09-26T14:03:52Z",
+ "layout": {
+  "method": "ocr",
+  "splits": {
+   "1": null,
+   "2": null,
+   "3": null,
+   "4": null,
+   "5": null,
+   "6": null,
+   "7": null,
+   "8": null,
+   "9": null,
+   "10": null,
+   "11": null
+  }
+ },
+ "counters": {
+  "source_numbering": 30,
+  "sections": [
+   "1-30"
+  ],
+  "option_a_lines": 23,
+  "parsed_questions": 29,
+  "parsed_numbered": 27,
+  "declared_total": null
+ },
+ "gaps": [
+  "section 1: missing [2, 3]",
+  "section 1: missing [13]"
+ ],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [],
+  "grid_hits": 0,
+  "style_stats": {
+   "bold": 0.0,
+   "color": 0.023,
+   "tick": 0.0,
+   "highlight": 0.0,
+   "fill": 0.0,
+   "tint": 0.038,
+   "ink": 0.538,
+   "circle": 0.0,
+   "box": 0.0,
+   "underline": 0.0
+  },
+  "marked_hits": 7,
+  "answered": 28,
+  "mcq": 29,
+  "at": "2026-09-26T14:03:52Z"
+ },
+ "distribution": {
+  "A": 0.321,
+  "B": 0.107,
+  "C": 0.25,
+  "D": 0.179,
+  "E": 0.143
+ },
+ "dropped_lines": [
+  "CamScanner 3 i592 4>9.uaall",
+  "CamScanner 3 i592 4>9.u00I",
+  "CamScanner 3 L392 4>9.n00ll",
+  "CamScanner 3 i592 4>9.u00I",
+  "CamScanner 3 i592 4>9.u00I",
+  "©",
+  "CamScanner 3 92",
+  ":",
+  "—_—",
+  ".",
+  "CamScanner 3 Li92 4 | ero W900 d> gunna!",
+  "°",
+  "CamScanner - 92 m",
+  "CamScanner 3 L394 4>9.u0aI!",
+  "CamScanner 3 92 m",
+  "=",
+  "~",
+  "CamScanner = Li ge d Jk d> gunna)"
+ ],
+ "dropped_count": 18,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 23,
+  "dropped": [
+   {
+    "stem": "k revent diabetic m xpiain how to | i N creen and p 1 ac ular Cc nenwneeeeneeeee= - no pwowsmmneri' aa wo neerewsnseneee",
+    "reason": "OCR merged the written section Q2–Q7 on source pages 6–11 into one corrupted fragment after the MCQ section; the parser cannot safely split the six written prompts."
+   }
+  ],
+  "stale": [
+   "regardinghypogonadismwhichisfalse4theclinicalpicturediffersaccordingtothe4gofoccurrence"
+  ]
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": 1,
+   "section": 1,
+   "type": "QCS",
+   "stem": "which is wrong regarding the physiologic basal insulin",
+   "options": [
+    {
+     "letter": "A",
+     "text": "ithas anabolic actions",
+     "bold": 0.0,
+     "color": 0.5,
+     "marks": [
+      "ink",
+      "tint"
+     ],
+     "page": 0,
+     "bbox": [
+      74.5,
+      106.2,
+      211.0,
+      121.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "it continues for 24 hours",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 0,
+     "bbox": [
+      74.7,
+      122.9,
+      224.3,
+      139.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "it continues even during the fasting state",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      75.8,
+      139.9,
+      312.1,
+      157.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "it has no elevation peaks",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      76.3,
+      160.7,
+      226.3,
+      175.9
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    44.8,
+    80.5,
+    379.6,
+    175.9
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 2,
+   "number": 4,
+   "section": 1,
+   "type": "QCS",
+   "stem": "the following is unusual in the metabolic syndrome",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Diabetes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      77.6,
+      200.9,
+      141.3,
+      211.9
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Atherosclerosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      77.6,
+      217.4,
+      179.3,
+      230.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Fatty liver",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      78.3,
+      236.9,
+      151.7,
+      249.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "PCOS (polycystic ovary)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 0,
+     "bbox": [
+      78.8,
+      251.8,
+      232.0,
+      267.3
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Hypotension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 0,
+     "bbox": [
+      79.2,
+      272.3,
+      166.0,
+      286.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "numbering_gap_before",
+    "several_options_with_ink"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    47.0,
+    175.0,
+    362.3,
+    286.2
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "E",
+   "answer_source": "marked"
+  },
+  {
+   "i": 3,
+   "number": 5,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which is false regarding diffuse goiter?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "This means enlargement of the whole thyroid with a smooth surface",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      79.7,
+      299.5,
+      476.3,
+      320.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "May be hyper, hypo, or euthyroid",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 0,
+     "bbox": [
+      79.6,
+      323.1,
+      282.1,
+      340.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Can not be caused by thyroiditis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 0,
+     "bbox": [
+      80.3,
+      342.0,
+      274.5,
+      356.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Don't indicate malignancy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 0,
+     "bbox": [
+      80.6,
+      358.4,
+      244.4,
+      374.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_corrected_from_3",
+    "several_options_with_ink"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    48.6,
+    286.6,
+    476.3,
+    374.8
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 4,
+   "number": 6,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Myxedema coma is characterized by",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hyperglycemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      80.8,
+      399.4,
+      215.6,
+      413.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hyperventilation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 0,
+     "bbox": [
+      80.5,
+      418.0,
+      192.8,
+      432.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hypothermia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 0,
+     "bbox": [
+      81.4,
+      436.7,
+      172.4,
+      450.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Sweeting",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 0,
+     "bbox": [
+      81.4,
+      455.4,
+      150.8,
+      468.5
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Agitation and tremors",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      81.5,
+      473.8,
+      221.8,
+      487.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_corrected_from_4",
+    "several_options_with_ink"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    49.3,
+    379.4,
+    284.9,
+    487.6
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 5,
+   "number": 7,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Screening of diabetic nephropathy is usually by",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Urinary albumin/creatinine ratio",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 0,
+     "bbox": [
+      81.7,
+      515.7,
+      281.2,
+      530.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Serum albumin/creatinine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 0,
+     "bbox": [
+      81.4,
+      535.1,
+      245.5,
+      547.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Serum creatinine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      81.7,
+      555.1,
+      195.8,
+      566.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Blood urea",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      81.7,
+      574.9,
+      162.5,
+      585.9
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Routine urine analysis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      81.7,
+      594.2,
+      227.0,
+      607.9
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_corrected_from_5",
+    "several_options_with_ink"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    49.9,
+    496.6,
+    356.2,
+    607.9
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 6,
+   "number": 8,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following is the most essential for the prevention of diabetic microvascular complications",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Good glycemic control",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 0,
+     "bbox": [
+      81.5,
+      663.5,
+      232.9,
+      677.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Decrease the weight",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 0,
+     "bbox": [
+      81.2,
+      683.8,
+      217.4,
+      698.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Exercise",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      81.5,
+      704.7,
+      149.0,
+      716.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Increase HDL",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      81.5,
+      724.9,
+      182.2,
+      737.3
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Atioxidants 'al complication of Cushing syndrome?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      81.5,
+      746.1,
+      167.8,
+      758.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_corrected_from_6",
+    "several_options_with_ink"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    49.9,
+    623.7,
+    566.5,
+    758.3
+   ],
+   "pages": [
+    0,
+    1
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 7,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is potential comp",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Osteoporosis",
+     "bold": 0.0,
+     "color": 0.67,
+     "marks": [
+      "ink",
+      "tint"
+     ],
+     "page": 1,
+     "bbox": [
+      49.9,
+      72.9,
+      142.0,
+      88.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hypoglycemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 1,
+     "bbox": [
+      50.0,
+      92.2,
+      152.1,
+      107.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hypothyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      50.8,
+      112.3,
+      162.9,
+      127.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Low blood pressure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      51.1,
+      132.3,
+      183.2,
+      146.2
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Anemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      51.8,
+      151.7,
+      116.1,
+      162.7
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    16.0,
+    47.0,
+    292.9,
+    162.7
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 8,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In diabetic patients, hypoglycemia is not easy to occur in the following category",
+   "options": [
+    {
+     "letter": "A",
+     "text": "elderly",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      52.7,
+      193.0,
+      111.8,
+      207.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "childhood",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 1,
+     "bbox": [
+      52.6,
+      211.3,
+      130.0,
+      223.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "associated hyperthyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 1,
+     "bbox": [
+      53.5,
+      227.5,
+      230.8,
+      246.1
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "associated hypopituitarism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 1,
+     "bbox": [
+      53.8,
+      249.7,
+      227.2,
+      265.3
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "associated hypoadrenalism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      54.2,
+      270.0,
+      228.8,
+      284.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "option_marker_repaired_E",
+    "several_options_with_ink"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    17.5,
+    158.4,
+    541.4,
+    284.4
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 9,
+   "number": 9,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the primary cause of Addison's disease?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Autoimmune",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 1,
+     "bbox": [
+      55.1,
+      321.1,
+      152.5,
+      332.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Iatrogenic",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 1,
+     "bbox": [
+      54.9,
+      339.3,
+      135.0,
+      353.9
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pituitary gland dysfunction",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      55.6,
+      359.1,
+      234.7,
+      373.9
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Genetic mutation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      56.2,
+      378.0,
+      178.4,
+      390.1
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Adrenal tumor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      56.3,
+      398.0,
+      273.2,
+      412.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "several_options_with_ink"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    18.9,
+    300.2,
+    341.3,
+    412.4
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 10,
+   "number": 10,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which can precipitate DKA",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Infection",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      57.2,
+      458.8,
+      130.9,
+      469.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Surgery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      57.1,
+      478.4,
+      124.6,
+      492.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Neglect insulin doses",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 1,
+     "bbox": [
+      57.8,
+      497.9,
+      204.5,
+      511.9
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Any of the above",
+     "bold": 0.0,
+     "color": 0.61,
+     "marks": [
+      "ink",
+      "tint"
+     ],
+     "page": 1,
+     "bbox": [
+      58.0,
+      518.0,
+      181.4,
+      532.1
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    21.8,
+    439.4,
+    222.8,
+    532.1
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 11,
+   "number": 11,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following suggests T1DM rather than T2DM",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Central obesity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      58.7,
+      562.9,
+      170.3,
+      577.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Family history of diabetes in the mother",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 1,
+     "bbox": [
+      58.5,
+      582.1,
+      317.0,
+      597.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Recurrent DKA",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 1,
+     "bbox": [
+      59.4,
+      603.2,
+      175.0,
+      615.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "HTN",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 1,
+     "bbox": [
+      59.9,
+      624.2,
+      110.2,
+      635.4
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Dyslipidemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      60.3,
+      643.5,
+      161.6,
+      658.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "several_options_with_ink"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    22.9,
+    543.2,
+    357.3,
+    658.4
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 12,
+   "number": 12,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The first symptom/sign of puberty in a boy is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Testicular enlargement",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 1,
+     "bbox": [
+      61.6,
+      699.7,
+      219.4,
+      713.9
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Enlargement of the penis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 1,
+     "bbox": [
+      61.6,
+      720.0,
+      231.5,
+      735.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Linear growth height",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      62.3,
+      740.9,
+      212.8,
+      756.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Ability to ejaculate As. \"a Rene for a long-standing Sheehan syndrome, simply you can measure: b. TSH c. ACTH d. Growth hormone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 1,
+     "bbox": [
+      62.6,
+      761.9,
+      201.4,
+      777.2
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Prolactin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      58.3,
+      152.6,
+      128.9,
+      164.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_out_of_order_B",
+    "option_out_of_order_C",
+    "option_out_of_order_D",
+    "orphan_rows_joined_to_option",
+    "several_options_with_ink"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    26.1,
+    678.6,
+    492.3,
+    777.2
+   ],
+   "pages": [
+    1,
+    2
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 13,
+   "number": 14,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which is not correct regarding thyroiditis?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Thyroiditis may occur as a side effect of amiodarone or interferon therapy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      60.3,
+      202.5,
+      490.9,
+      222.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hashimoto thyroiditis is the most common cause of hypothyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      60.5,
+      220.9,
+      457.6,
+      240.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hashimoto thyroiditis sometimes has an initial toxic phase",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      61.6,
+      240.7,
+      406.3,
+      258.1
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Goiter is diffuse, if present",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 2,
+     "bbox": [
+      62.3,
+      258.8,
+      232.4,
+      274.3
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "High radioiodine uptake is characteristic",
+     "bold": 0.0,
+     "color": 0.39,
+     "marks": [
+      "ink",
+      "tint"
+     ],
+     "page": 2,
+     "bbox": [
+      62.8,
+      278.3,
+      307.3,
+      293.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "numbering_gap_before"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    27.0,
+    182.3,
+    490.9,
+    293.0
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "E",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 14,
+   "number": 15,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 30-year-old woman presents with hypertension, weakness, bone pain, and a serum calcium level of 15.2 mg/dL. Hand films show osteitis fibrosa cystica. Which of the following is the most likely cause of these findings?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sarcoidosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      64.1,
+      360.5,
+      147.8,
+      371.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Vitamin D intoxication",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      63.5,
+      377.6,
+      214.6,
+      393.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Paget disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      64.4,
+      397.4,
+      159.3,
+      410.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Metastatic carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 2,
+     "bbox": [
+      3.2,
+      414.7,
+      205.0,
+      432.9
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Primary hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 2,
+     "bbox": [
+      65.0,
+      434.5,
+      249.8,
+      447.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_D_from_orphan_possible_mark",
+    "several_options_with_ink",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    30.4,
+    304.2,
+    549.9,
+    447.8
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  },
+  {
+   "i": 15,
+   "number": 16,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 51-year-old man presents with a 2-cm left thyroid nodule. A thyroid scan shows a cold lesion. FNA cytology demonstrates follicular cells. Which of the following is the most appropriate initial treatment for this patient?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "External beam radiation to the neck.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      65.3,
+      509.0,
+      286.9,
+      519.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Multidrug chemotherapy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      65.0,
+      527.8,
+      228.4,
+      540.9
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "TSH suppression by thyroid hormone.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 2,
+     "bbox": [
+      65.3,
+      546.3,
+      298.6,
+      560.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Prophylactic neck dissection is indicated along with a total thyroidectomy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 2,
+     "bbox": [
+      65.3,
+      565.0,
+      499.1,
+      579.4
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Thyroid lobectomy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 2,
+     "bbox": [
+      65.3,
+      584.5,
+      197.1,
+      598.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "several_options_with_ink"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    32.0,
+    453.2,
+    574.6,
+    598.3
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  },
+  {
+   "i": 16,
+   "number": 17,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following adrenal masses could be treated with observation and follow-up after a complete metabolic work-up?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Non-functioning, 3-cm, solid adrenal mass in a 38-year-old man",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 2,
+     "bbox": [
+      65.5,
+      650.9,
+      446.0,
+      666.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Non-functioning, 7-cm, cystic adrenal mass in a 25-year-old woman",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 2,
+     "bbox": [
+      65.2,
+      669.8,
+      468.7,
+      685.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Functioning, 2-cm, cystic mass in a 45-year-old woman",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      65.7,
+      689.6,
+      400.1,
+      706.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Nonfunctioning, solid mass that has doubled in size in 1 year in a 67-year-old man",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      65.9,
+      706.3,
+      547.4,
+      725.2
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "A 10-cm, solid adrenal mass in a 56-year-old man",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      65.9,
+      728.6,
+      369.5,
+      744.8
+     ]
+    }
+   ],
+   "after": "a ot",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_after_options",
+    "several_options_with_ink"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    32.6,
+    613.4,
+    571.9,
+    744.8
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 17,
+   "number": 18,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In the management of DKA all the following are correct except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The starting IV fluid is saline",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 3,
+     "bbox": [
+      56.7,
+      56.0,
+      236.3,
+      88.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Regular insulin is given in a dose of 0.1 U/kg/hour",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 3,
+     "bbox": [
+      57.2,
+      76.1,
+      329.4,
+      103.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Potassium chloride is added after 12-24 hours",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 3,
+     "bbox": [
+      57.2,
+      97.9,
+      425.2,
+      130.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Drop in blood glucose level should not exceed 100 mg/dl/hour",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 3,
+     "bbox": [
+      57.6,
+      117.9,
+      442.1,
+      157.0
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "NGT is introduced to empty the stomach if the patient is in coma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    25.2,
+    27.2,
+    442.1,
+    157.0
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 18,
+   "number": 19,
+   "section": 1,
+   "type": "QCS",
+   "stem": "According to current theory, the most likely cause of insulin-dependent (type I) diabetes mellitus ts 4, Chromosomal imbalance",
+   "options": [
+    {
+     "letter": "B",
+     "text": "An enzyme defect preventing proper action of insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 3,
+     "bbox": [
+      59.6,
+      228.6,
+      372.6,
+      251.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Autoimmune destruction of beta cells in the pancreas",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 3,
+     "bbox": [
+      59.4,
+      249.5,
+      371.0,
+      272.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "High carbohydrate diet over a long period",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 3,
+     "bbox": [
+      59.8,
+      267.3,
+      307.8,
+      291.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Chronic emotional stress",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      59.8,
+      287.6,
+      215.8,
+      305.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "options_start_at_B",
+    "option_marker_repaired_B",
+    "option_marker_repaired_D",
+    "letters_not_sequential",
+    "several_options_with_ink"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    27.0,
+    168.5,
+    578.5,
+    305.5
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  },
+  {
+   "i": 19,
+   "number": 20,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In a full ferm normal Weight newborn, thyroid screening tests carried out shortly after birth revealed decreased T4 and Increased TSH, the most likely diagnosis is a. Congenital hyperthyroidism",
+   "options": [
+    {
+     "letter": "B",
+     "text": "Congenital hypothyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 3,
+     "bbox": [
+      59.8,
+      373.1,
+      230.2,
+      393.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Transient hypothyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 3,
+     "bbox": [
+      60.1,
+      393.3,
+      222.1,
+      411.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Secondary hypothyroidism due to hypopituitarism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      60.1,
+      410.9,
+      353.2,
+      438.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "None of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      60.1,
+      431.1,
+      181.8,
+      446.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "options_start_at_B",
+    "option_marker_repaired_B",
+    "option_marker_repaired_D",
+    "letters_not_sequential",
+    "several_options_with_ink"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    26.1,
+    315.0,
+    566.5,
+    446.6
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 20,
+   "number": 21,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Regarding hypogonadism, which is false?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "4, The clinical picture differs according to the 4g¢ of occurrence",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      61.4,
+      466.0,
+      424.4,
+      495.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Primary hypogonadism of worse prognosis than secondary c. Can be caused by most pituitary disorders",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 3,
+     "bbox": [
+      61.4,
+      480.8,
+      407.7,
+      522.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "When associated with anosmia is called Kalmann syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 3,
+     "bbox": [
+      61.4,
+      538.4,
+      414.0,
+      565.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "does not occur in patients with liver cell failure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 3,
+     "bbox": [
+      61.4,
+      518.8,
+      344.0,
+      541.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "options_start_at_B",
+    "option_marker_repaired_C",
+    "option_marker_repaired_A_bare_possible_mark",
+    "several_options_with_ink",
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    26.6,
+    446.9,
+    424.4,
+    565.6
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 21,
+   "number": 22,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following class of anti-diabetic drugs has cardioprotective benefits",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sodium-glucose co-transporter 2 inhibitors (SGLT-2 Inhibitors)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 3,
+     "bbox": [
+      27.2,
+      559.3,
+      461.5,
+      608.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Sulphonylureas",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 3,
+     "bbox": [
+      27.2,
+      559.3,
+      461.5,
+      608.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "DPP-4 inhibitors",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 3,
+     "bbox": [
+      61.4,
+      611.8,
+      180.2,
+      624.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Insulins",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      61.7,
+      629.3,
+      130.5,
+      641.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_C_from_wrap_possible_mark",
+    "several_options_with_ink",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    27.2,
+    559.3,
+    461.5,
+    641.5
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 22,
+   "number": 23,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which is false regarding prolactinoma?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Presented with galactorrhea-amenorrhea syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      62.3,
+      668.3,
+      362.9,
+      689.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "May be micro or macro adenoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      62.3,
+      683.1,
+      268.0,
+      700.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Often respond well to medical treatment",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      62.6,
+      702.5,
+      306.2,
+      720.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Drug-related hyperprolactinemia may also present with galactorrhea",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 3,
+     "bbox": [
+      62.8,
+      720.0,
+      456.5,
+      758.0
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Pressure symptoms are always absent",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_C",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    28.6,
+    650.9,
+    456.5,
+    758.0
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with ink"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "marked",
+   "answer_evidence": "only option with ink"
+  },
+  {
+   "i": 23,
+   "number": 24,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In aie to water reabsorption, what other substance does ADH enhance reabsorption? a. rea",
+   "options": [
+    {
+     "letter": "B",
+     "text": "Glucose",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 4,
+     "bbox": [
+      49.5,
+      57.4,
+      119.9,
+      68.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Carbon dioxide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      50.6,
+      74.7,
+      161.3,
+      86.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Bicarbonate",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      51.3,
+      92.3,
+      142.4,
+      103.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "options_start_at_B",
+    "letters_not_sequential"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    19.4,
+    23.0,
+    571.0,
+    103.3
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with ink"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with ink"
+  },
+  {
+   "i": 24,
+   "number": 25,
+   "section": 1,
+   "type": "QCS",
+   "stem": "One of the following suppresses the release of ADH?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Low plasma osmolality",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 4,
+     "bbox": [
+      53.8,
+      133.7,
+      195.8,
+      148.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Rise in plasma volume",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 4,
+     "bbox": [
+      54.0,
+      150.5,
+      193.5,
+      164.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Emotional factors and stress",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      55.3,
+      170.6,
+      222.1,
+      181.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "SLEEP",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      56.0,
+      190.1,
+      109.4,
+      200.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "several_options_with_ink"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    21.1,
+    114.5,
+    347.6,
+    200.5
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 25,
+   "number": 26,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which is a cause of hypertension?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "21-hydroxylase deficiency",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 4,
+     "bbox": [
+      56.9,
+      231.7,
+      218.0,
+      244.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "17-hydroxylase deficiency",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 4,
+     "bbox": [
+      57.2,
+      250.9,
+      218.5,
+      264.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "3 B dehydrogenase deficiency",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 4,
+     "bbox": [
+      58.3,
+      269.5,
+      238.0,
+      283.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Addison disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      59.2,
+      288.9,
+      164.2,
+      299.3
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Sheehan syndrome Precocious",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      59.8,
+      307.3,
+      519.5,
+      326.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "several_options_with_ink"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    24.5,
+    212.8,
+    519.5,
+    326.0
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 26,
+   "number": 27,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The most common central cause of a 8 y girl with delayed puberty is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hydrocephalus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      60.7,
+      343.3,
+      158.8,
+      356.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Brain tumor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 4,
+     "bbox": [
+      60.1,
+      359.6,
+      142.9,
+      369.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Idiopathic",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 4,
+     "bbox": [
+      60.8,
+      377.8,
+      132.5,
+      390.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Meningitis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 4,
+     "bbox": [
+      61.0,
+      396.2,
+      136.3,
+      408.8
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Turner syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      61.2,
+      414.2,
+      170.8,
+      427.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "several_options_with_ink"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    29.2,
+    324.0,
+    439.7,
+    427.0
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 27,
+   "number": 28,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In the investigations of delayed puberty of a 15-year-old boy, which has a good prognosis?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Klinefelter karyotype",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      61.6,
+      452.0,
+      193.5,
+      464.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "High LH and FSH",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 4,
+     "bbox": [
+      61.4,
+      470.3,
+      177.7,
+      483.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Bone age of 12y (delayed bone age)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 4,
+     "bbox": [
+      61.7,
+      487.3,
+      270.7,
+      502.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Undescended testes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 4,
+     "bbox": [
+      61.7,
+      507.2,
+      183.8,
+      518.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "several_options_with_ink"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    30.2,
+    430.6,
+    563.9,
+    518.0
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 28,
+   "number": 29,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Causes of hyperprolactinemia do not include",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Chronic renal failure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      61.6,
+      545.2,
+      190.3,
+      556.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Polycystic ovary syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      61.2,
+      563.2,
+      223.9,
+      577.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Prokinetic drugs (dopamine antagonists)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      61.6,
+      580.3,
+      294.7,
+      594.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Prolactinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 4,
+     "bbox": [
+      61.6,
+      601.2,
+      149.9,
+      611.6
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Hyperthyroidism",
+     "bold": 0.0,
+     "color": 0.42,
+     "marks": [
+      "ink",
+      "tint"
+     ],
+     "page": 4,
+     "bbox": [
+      61.4,
+      619.4,
+      169.9,
+      632.9
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    31.0,
+    525.8,
+    306.7,
+    632.9
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "E",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 29,
+   "number": 30,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Complications of acromegaly do not include",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Visual problems",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      61.2,
+      661.0,
+      283.9,
+      674.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Diabetes mellitus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      60.8,
+      679.9,
+      171.5,
+      690.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 4,
+     "bbox": [
+      61.0,
+      698.9,
+      150.1,
+      712.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hashimoto thyroiditis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 4,
+     "bbox": [
+      61.0,
+      716.9,
+      195.3,
+      730.8
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Cancer colon",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 4,
+     "bbox": [
+      61.2,
+      736.6,
+      148.9,
+      746.8
+     ]
+    }
+   ],
+   "after": "ee = 5 e ul - F ' in 4 il Hs ¢ betes mellitus, pr ' a me poems Po Se om ra edataledad pe Rae Ht epee aes aPEeagae POPE Rem ORD OHO OOE TORSO OOS EHMeree eae ereeee e save roege. neers errr pret te tities een nan amen eh it Tee - _ mea nnm me mmnn oe Pee -_- eee CR EHEAOS OEE ERAL EEE a PPP rte tte PP 2 ed dada OT A el anne eeen aenanrenee Pe el pan Ps oe ll Pee ee ddl ern renrenr aren cewe ET ee ded see ceeae rere nads gain CORE PPROP LOY 0689 OCIA DOOS BL EE DEO ebehwebonrerse soe emnme ote roreeresesnen sas On ede ROHeeeE Tin en eae Aree wean ee a Itee Pere eee PT tee eled Pee ee tl PPT ed pvrwe eemere Pet adel ee Eee PP ere Pre eee ee ee ee PE e. Lk dak eat ee ee ee eed erm eres a ee Eel - Pn ee ee SS OOo memes ey, pearncaveonasvsanpeoueenue OF ee ee veer. te Te 7 Lr were ewerreeunpnaees - wren c ee ween nee lalla aaa aaa ee ee Ee te ee Er ne sree be mw OF Neen OOo Oe Ree ee LO oO re ee ee ee ee OO RRHOON DH ODO RES WHEL ele tices (OOD OO RSH LHRH ODORS Daa k bEORORNEY DHE bene EoOeE RLS ee ee ee ee ee ed we ewe \" ee Sen en ween eee ee OLE Pee Tee eee ee ed ee ee Se ee eee eet - ' seve OF OF 88 H4 EE OF Ot to OB: deen _ A eee ot He eentae ey ot me oe cree oe ee ee ey a 7 = = ve oad Pe -. \" Pare '-- seated add dan aoe Ae (LENO EAD E PU MD AEA MAA ee eed * dead Se aie ae ee ee \" TOA Oe ROM eR eH Oe OE one Ome eee ee SOOO NE + ONNOW O O.@ mew me nein Be wm andladed idee EET eee VOLO DEMME N EN man nen bEne nN he eemene nnn \"- ~ ave. me. omen << PORE AF we Ge Sem Oe GO 0 tee ae te we to REE eo ene seo oe: oe mmm ne we a0 0 nome - OCCA CROMER SREED EFCC RDAs eemLanane rosa Enh inereanndnnsn COCO CC CRENANORRENEEDEDUEAYUEURSNEE FEED HEAR EE EE Ens CER ERE CoE NnCEEEwenene aw oot > Pere an matte 20 207 We Reet OP C9 CARO BO BO 8 Gr enemas oP res amin re testmanen on ore CRAM OCEMBER EN TOR eREDNHRCORe wR Rees MLRER KOR To memumaerauenanneneceaant nentintarrenaasecmensiitwrtnaeanrvesntce rentsttinrrettmcristknnbedtesaintneinantaivi¢uiesiniecics,.. Sree ewe em me ewe mew. a CON NN ARAN ONO WENCH BARN EOH UL EEEME Own veneer To eemanasameeeenceemennereeeeneaceneestiventee tteeteteeettnerteeetetenttantnrwttentatneveversaneeeesnte-eeeecca owe ew ewe i t, i, ot 2 j hibit d S i ] t? Ce armmmmeerensetaetennansascencenassececeetstaassssscerecartincesstsnnetsttnmestertemeeseerttestetnneessseteeseess., Weblaicbreaeaitina esac Nn tani dw sdntictai atnhodcaaees ran ee ene mareeremmereemenemeeecreeeetttactet nite tatttetaerttennenienttte testes tsee ees (00 Perce tee am 64 60 Sen creecen, ~ bodied NN ee a Oe can oe ro ree COREE ERRNO OEE OH EE hme ORR Nm mh nee enn COON COREA NERO SOE DRE ee awe ee oH Hema eH 2 memesen wow ne 60 a tenho or aan <li bimiad a sitashsaae neeee. POI Fe 00 0 66 a9 erssssren oy OO tees 6 ae epee, COCALO ECNRL LEO ROUTE HD ODEO LEWD BmML Gene Nmme HHH A TRC Ne teCENE abana renin iin. wee RE OO Oe were 0 eo essere LEELA OLA ER OTHE Rs ee mE D CO mmemrmmmemetrammesetttanceereececaatsttamcctttttanerttstnesttttweettemneeetesnmerste eet sa PORNO Ow mine FO NN a fe eNO an dade hy (PORE MMAN RENE Se emeNNCeNeeemerUtTerens aveneeeatNawenNeCLeeTenentnneuneLavereeenberetnnes tittsietsnenece wirelée faible phe bcgie ha hindi its Fame RN ON ay osc i ' iis le OR Ce Winn d ce cians din, To mmemnanaarenencevererenaneuencucarnenesasstienenentunesnansreeesnsenineasterenvaneuseretents trerenereeeenea.. st nenatd keen tiene ae sherpa cs caliade We Ramee, COOOCLOE RO AAEE EERE OEE EL OREEEH ENO REED wee To nemneumemnnceeneneaaeepaneceanemmecanseeueraaneeteetasenmentnarwestanseruevscerrigse.. ceeded eee TN ee ere ene cts ~~. TNO ee wenn eee nner ermueerwiwenceya. we a re en a ey CF PIOMEEIEORE HOLE ROO NE sneenawewenaeeanetessscwesaarsuvcsoausiwerenermeresesseseosresoeurtaessernes row andi sisi iaisibicaaibiciecs abies EE ae sai ee ae - NNO Marca iiaiidnens -- OCCT ANS Ce mw emma, TT nmamnennecenenterencceacneumreatns iments tsavesetenenasierbneesessries ised tenetas ees s:., Wad pmetiiiehuess ee sideman ja eee =. _ -~ OO ee new we, i alata Tee mm. LL LOR ECAH REE OO EDDY Stee we 2 nase OW mde Sw Maldini bdr iain Sen 3 a - \" - * wa\" wrens eo me een owe ST enneeetenee tt eneneet shee tt banewettrs nett timer netenens tesco. on Neate OF 60 te 16 piccsetneaner atte OO CORRE ERS a eceee. Sr, deen ee ee SRO AOR aces 8 mere g nN AERMRUCSCemeNente det tei rtannenunditadt seems qitiemsaneipsiaies sae.. - OE MI te 00 wai tert 08 ws ac semidetedee Tee COORD OH TREO LOL Beery ep we wwe id ostiimie x. Oo & eee \" oo mee COLAO Oa At humo 4b taee 486 ree + 8Hd oees ¥bnenes beh rendesacun spats thw bc dnaipiisfansas iinet ae ee Ne Oo a Reo ss wos ee wn i Differential diagnosis of short sta 9.. mar | een pe i EE POLI A I _- _ eae re eee eae ener nn nor ern ee romencnn enone sas eeeees 6 eee eS eRe OOOO OE a nar CO ELLIE DD CLT SESE CT CSE LT -_--- ae Om ee _ - - - - a OE ee qa nates ena are conwasooomoe= a eee renner nen ern cennnmeernnne ee enenenee ene tee OO - = = Ip A ~ rn I _ a _ EO a ISU ae a ni nnn __ cece a ee -niniainitebeeectoer re sesaineoensiealais re enn renee eer enn nee nennceren neem ---- ee nL A A A a om nee ee I wee en ewan neane cee eencesewemmnec enn case ceenne nese ne nnn nee nn ee nn ees ~asso ooo eee e s",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_after_options",
+    "several_options_with_ink"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    30.6,
+    641.0,
+    302.9,
+    746.8
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  }
+ ]
+}

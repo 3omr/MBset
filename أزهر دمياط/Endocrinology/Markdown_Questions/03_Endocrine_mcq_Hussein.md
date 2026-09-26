@@ -1,16 +1,18 @@
-# Endocrine mcq Hussein — extracted questions
+# Endocrine mcq الحسين — extracted questions
 
-> 200 MCQs and 24 case prompts. Printed multi-answer keys are preserved verbatim.
+> Source: `Endocrine mcq الحسين.pdf` · index 03 · parsed 2026-09-26 by mbset.py
+> Questions: 224 (200 MCQ / 24 written) · answers: key 191, marked 9
 
 ### Q1: The following is not a complication of obesity
 
 - **A)** osteoarthritis
-- **B)** renal calculi
+- **B)** renal caluli
 - **C)** hypertension
 - **D)** varicose vein of leg
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -18,14 +20,15 @@
 
 - **A)** hyperthyroidism
 - **B)** hypothyroidism
-- **C)** euthyroid state with goiter
+- **C)** euothyroid state with goiter
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q3: In hashimoto thyroiditis there is
+### Q3: In hashimoto thyroditis there is
 
 - **A)** hyperthyroidism
 - **B)** hypothyroidism
@@ -33,6 +36,7 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -40,22 +44,24 @@
 
 - **A)** SLE
 - **B)** Graves' disease
-- **C)** anaphylaxis
+- **C)** anaphylatics
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
 ### Q5: Graves' disease is an example of
 
-- **A)** type 1 hypersensitivity
+- **A)** type 1 hypersensititvty
 - **B)** type 2 (cytotoxic)
 - **C)** type 4 (MI)
 - **D)** type 5 (stimulatory)
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -63,11 +69,12 @@
 
 - **A)** myopathy
 - **B)** pretibial myxedema
-- **C)** hypernatremia
+- **C)** hypernatrimia
 - **D)** atrial fibrillation
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -76,11 +83,11 @@
 - **A)** puffy face
 - **B)** palpitation
 - **C)** sweating
-- **D)** somnolence
+- **D)** somnelance
 
-**Correct Answer:** -
+**Correct Answer:** B
 **Answer Source:** key
-**EXP:** The printed source key lists both B and C; this is a multi-answer item that cannot be represented as a single-letter QCS in the platform schema.
+**Source Pages:** 1
 
 ---
 
@@ -92,6 +99,7 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -103,6 +111,7 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -114,6 +123,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -125,6 +135,7 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -137,6 +148,7 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -148,6 +160,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -159,7 +172,8 @@
 - **D)** myxedema
 
 **Correct Answer:** D
-**Answer Source:** key
+**Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
@@ -172,6 +186,7 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -183,6 +198,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -193,9 +209,9 @@
 - **C)** mal absorption
 - **D)** pseudo hyperparathyroidism
 
-**Correct Answer:** -
+**Correct Answer:** B
 **Answer Source:** key
-**EXP:** The printed source key lists both B and C; this is a multi-answer item that cannot be represented as a single-letter QCS in the platform schema.
+**Source Pages:** 2
 
 ---
 
@@ -207,6 +223,7 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -219,6 +236,7 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -231,10 +249,11 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q21: TTT of hypercalcemia include 4
+### Q21: TTT of hypercalcemia include
 
 - **A)** IV saline
 - **B)** loop diuretic
@@ -243,6 +262,7 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -255,6 +275,7 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -266,6 +287,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -278,6 +300,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -289,18 +312,20 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
 ### Q26: Acromegaly is characterized by all except
 
 - **A)** big head and feet
-- **B)** prognathism
+- **B)** prognothism
 - **C)** moon face
 - **D)** separate teeth
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -313,18 +338,20 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
 ### Q28: In investigations of acromegaly all are true except
 
-- **A)** failure to suppress GH < 2ng/mL after glucose
+- **A)** failure to suppress GH < 2mg/ml after glucose
 - **B)** ↑ IGF 1
 - **C)** MRI sellaturica reveals pituitary adenoma
-- **D)** ↓ serum prolactin
+- **D)** ↓ serum prolation
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -337,6 +364,7 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -349,6 +377,7 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -360,15 +389,16 @@
 - **D)** auto-immune hypophysitis
 - **E)** sarcoidosis
 
-**Correct Answer:** -
+**Correct Answer:** B
 **Answer Source:** key
-**EXP:** The printed source key lists both C and B; this is a multi-answer item that cannot be represented as a single-letter QCS in the platform schema.
+**Source Pages:** 3
+**EXP:** The source marks both B and C as correct.
 
 ---
 
 ### Q32: Causes of hypopituitarism all are true except
 
-- **A)** craniopharyngioma
+- **A)** carnio-pharngioma
 - **B)** head injury
 - **C)** Sheehan's syndrome
 - **D)** Caplan's syndrome
@@ -376,29 +406,32 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
 ### Q33: Pan hypopituitarism causes
 
-- **A)** galactorrhea
+- **A)** glactorrhea
 - **B)** skin pigmentation
 - **C)** amenorrhea
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
 ### Q34: Causes of DI include all of the following except
 
-- **A)** craniopharyngioma
+- **A)** carniopharyngioma
 - **B)** sarcoidosis
 - **C)** sever hypocalcemia
 - **D)** sever ↑ in Ca & ↓ in K
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -411,6 +444,7 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -423,6 +457,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -434,6 +469,7 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -446,6 +482,7 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -457,6 +494,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -468,6 +506,7 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -480,6 +519,7 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -491,6 +531,7 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -502,6 +543,7 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -513,7 +555,8 @@
 - **D)** hypotension
 
 **Correct Answer:** B
-**Answer Source:** key
+**Answer Source:** marked
+**Source Pages:** 4
 
 ---
 
@@ -525,6 +568,7 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -534,10 +578,11 @@
 - **B)** severe abdominal pain
 - **C)** vascular collapse
 - **D)** low Na & high K
-- **E)** all of the above 4
+- **E)** all of the above
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -550,6 +595,7 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -561,6 +607,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -573,6 +620,7 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -584,6 +632,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -595,17 +644,19 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
 ### Q52: The best TTT of type 1 DM is
 
-- **A)** oral hypoglycemic drugs
+- **A)** oral hypoglecmi drugs
 - **B)** insulin
 - **C)** low caloric intake
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -618,6 +669,7 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -629,6 +681,7 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -640,6 +693,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -651,10 +705,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
-### Q57: In DM there is polyuria with
+### Q57: In DM there is polyurea with
 
 - **A)** high specific gravity
 - **B)** low specific gravity
@@ -662,6 +717,7 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -674,10 +730,11 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
-### Q59: Diabetic keto-acidosis is characterized by
+### Q59: Diabetic keto-acidosis is charactrized by
 
 - **A)** rapid respiration
 - **B)** dehydration
@@ -686,6 +743,7 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -697,6 +755,7 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -709,10 +768,11 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
-### Q62: Which hormone is responsible for many of symptoms of hypoglycemia 4
+### Q62: Which hormone is responsible for many of symptoms of hypoglycemia
 
 - **A)** TSH
 - **B)** epinephrine
@@ -720,7 +780,8 @@
 - **D)** thyroxin
 
 **Correct Answer:** D
-**Answer Source:** key
+**Answer Source:** marked
+**Source Pages:** 5
 
 ---
 
@@ -733,6 +794,7 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -740,11 +802,12 @@
 
 - **A)** Hyponatremia is dilutional
 - **B)** Urine is relatively hypertonk to plasm.a
-- **C)** ADH-mediated water reabsorption does not occur
+- **C)** ADH-rnediated water reabsorption does not occur
 - **D)** Renal function is jeopardized
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -757,6 +820,7 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -769,6 +833,7 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -781,10 +846,11 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
-### Q68: In parathyroid pathology, investigation of choice is :
+### Q68: In parathyroid pathology, investigation of choice is:
 
 - **A)** Gallium scan
 - **B)** Thallium scan
@@ -793,6 +859,7 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
@@ -805,6 +872,7 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
@@ -817,10 +885,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q71: Syndrome of inappropriate antidiuretic hormone (SIADH) may be seen in all except :
+### Q71: Syndrome of inappropriate antidiuretic hormone (SIADH) may be seen in all except:
 
 - **A)** Guillain-Barre syndrome
 - **B)** Subacute bacterial endocarditis
@@ -829,10 +898,11 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q72: Orlistat is used to treat :
+### Q72: Orlistat is used to treat:
 
 - **A)** Diabetic neuropathy
 - **B)** Obesity
@@ -841,10 +911,11 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q73: Prolonged ingestion of iodine can produce goiter and is known as :
+### Q73: Prolonged ingestion of iodine can produce goiter and is known as:
 
 - **A)** Jod-Basedow effect
 - **B)** Sick euthyroid syndrome
@@ -853,10 +924,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q74: Commonest cause of thyrotoxicosis is : 4
+### Q74: Commonest cause of thyrotoxicosis is:
 
 - **A)** Multinodular goitre
 - **B)** Hashimoto's thyroiditis
@@ -864,11 +936,12 @@
 - **D)** Well-differentiated carcinoma
 
 **Correct Answer:** C
-**Answer Source:** key
+**Answer Source:** marked
+**Source Pages:** 6
 
 ---
 
-### Q75: In pregnancy, antithyroid treatment of choice is :
+### Q75: In pregnancy, antithyroid treatment of choice is:
 
 - **A)** Radio-active iodine
 - **B)** Carbimazole
@@ -877,10 +950,11 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q76: Charcot joint in diabetes mellitus commonly affected :
+### Q76: Charcot joint in diabetes mellitus commonly affected:
 
 - **A)** Hip
 - **B)** Shoulder
@@ -889,10 +963,11 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q77: Osmoreceptors are present in :
+### Q77: Osmoreceptors are present in:
 
 - **A)** Atria
 - **B)** Kidney
@@ -901,10 +976,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q78: Erythropoietin is secreted from :
+### Q78: Erythropoietin is secreted from:
 
 - **A)** Mesenchymal tumours
 - **B)** Cerebellar haemangioblastoma
@@ -913,10 +989,11 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q79: Vanillyl-mandelic acid (VMA) excretion is increased in urine in :
+### Q79: Vanillyl-mandelic acid (VMA) excretion is increased in urine in:
 
 - **A)** Conn's syndrome
 - **B)** Congenital adrenal hyperplasia
@@ -925,10 +1002,11 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q80: Anorexia nervosa is not associated with :
+### Q80: Anorexia nervosa is not associated with:
 
 - **A)** Hypokalaemia
 - **B)** Primary amenorrhoea
@@ -937,10 +1015,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
-### Q81: Primary aldosteronism is not featured by :
+### Q81: Primary aldosteronism is not featured by:
 
 - **A)** Low plasma renin
 - **B)** Hypokalaemia
@@ -949,10 +1028,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
-### Q82: The triad of hyponatraemia, haemodilution and urine hypertonic to plasma suggest diagnosis of :
+### Q82: The triad of hyponatraemia, haemodilution and urine hypertonic to plasma suggest diagnosis of:
 
 - **A)** Nephrotic syndrome
 - **B)** SIADH
@@ -961,6 +1041,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
@@ -973,6 +1054,7 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
@@ -985,10 +1067,11 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
-### Q85: All of the following are noted in Cushing's syndrome except :
+### Q85: All of the following are noted in Cushing's syndrome except:
 
 - **A)** Psychosis
 - **B)** Systemic hypertension
@@ -997,22 +1080,24 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
-### Q86: Secondary hyperaldosteronism is associated with all except :
+### Q86: Secondary hyperaldosteronism is associated with all except:
 
 - **A)** Congestive cardiac failure
-- **B)** nephrotic syndrome
+- **B)** Nephroti.c syndrome
 - **C)** SIADH
 - **D)** Cirrhosis of liver
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
-### Q87: Empty sella syndrome may be due to all except :
+### Q87: Empty sella syndrome may be due to all except:
 
 - **A)** Sheehan's syndrome
 - **B)** Spontaneous development
@@ -1021,22 +1106,24 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
-### Q88: Increased muscle mass with slowness of activity (Hoffman syndrome) is seen in :
+### Q88: Increased muscle mass with slowness of activity (Hoffman syndrome) is seen in:
 
-- **A)** acromegaly
+- **A)** Aaomegaly
 - **B)** Myxoedema
 - **C)** Pseudohypoparathyroidism
 - **D)** Myotonia dystrophica
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
-### Q89: All of the following develop into dwarfism except :
+### Q89: All of the following develop into dwarfism except:
 
 - **A)** Congenital adrenal hyperplasia
 - **B)** Hypopituitarism
@@ -1045,10 +1132,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
-### Q90: Plummer's nails are a feature of :
+### Q90: Plummer's nails are a feature of:
 
 - **A)** Atopic eczema
 - **B)** Hypoparathyroidism
@@ -1057,6 +1145,7 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
@@ -1069,6 +1158,7 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
@@ -1081,6 +1171,7 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
@@ -1093,6 +1184,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
@@ -1105,10 +1197,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q95: Thiazolidinedione group of anti-diabetic is :
+### Q95: Thiazolidinedione group of anti-diabetic is:
 
 - **A)** Voglibose
 - **B)** Nateglinide
@@ -1117,22 +1210,24 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q96: Effect of diabetes on foetus includes all except :
+### Q96: Effect of diabetes on foetus includes all except:
 
 - **A)** Microsomia
 - **B)** Hyperbilirubinaemia
 - **C)** Stillbirth
-- **D)** Open neural tube defect
+- **D)** Open neural tube defed
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q97: All are features of diabetic ketoacidosis except :
+### Q97: All are features of diabetic ketoacidosis except:
 
 - **A)** Hyperthermia
 - **B)** Drowsiness
@@ -1141,10 +1236,11 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q98: Commonest cause of coma in a diabetic is :
+### Q98: Commonest cause of coma in a diabetic is:
 
 - **A)** Diabetic ketoacid.osis
 - **B)** Lactic acidosis
@@ -1153,6 +1249,7 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
@@ -1165,10 +1262,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q100: A patient of impaired fasting glucose ranges blood glucose value in between: 4
+### Q100: A patient of impaired fasting glucose ranges blood glucose value in between:
 
 - **A)** 96-106mg/dl
 - **B)** 106-116mg/dl
@@ -1177,10 +1275,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q101: Glycated fructosamine givesanindicationofglycaemiacontrol for last:
+### Q101: Glycated fru.ctosamine givesanindicationofglycaemiacontrol for last:
 
 - **A)** 3days
 - **B)** 7 days
@@ -1189,6 +1288,7 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
@@ -1201,18 +1301,20 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
 ### Q103: Hypoglycaemia may result from all except:
 
 - **A)** Glycogen storage disease
-- **B)** Chronic pancreatitis
+- **B)** Oaronic pancreatitis
 - **C)** Galactosaemia
 - **D)** Post-gastrectomy
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
@@ -1224,11 +1326,12 @@
 - **D)** Hyperkinesia
 
 **Correct Answer:** B
-**Answer Source:** key
+**Answer Source:** marked
+**Source Pages:** 8
 
 ---
 
-### Q105: Myxoedema coma is characterised by :
+### Q105: Myxoedema coma is characterised by:
 
 - **A)** Hypertension
 - **B)** Tachycardia
@@ -1237,10 +1340,11 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q106: Commonest cause of unilateral exophthalmos is :
+### Q106: Commonest cause of unilateral exophthalmos is:
 
 - **A)** Cavernous sinus thrombosis
 - **B)** Retrobulbar tumour
@@ -1249,10 +1353,11 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 8
 
 ---
 
-### Q107: Beta-blockers can be used in all except :
+### Q107: Beta-blockers can be used in all exeept:
 
 - **A)** Glaucoma
 - **B)** Bronchial asthma
@@ -1261,18 +1366,20 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
-### Q108: Cardiovascular findings of thyrotoxicosis do not include :
+### Q108: Cardiovascular findings of thyrotoxicosis do not include:
 
 - **A)** Loud
-- **B)** Means-Lerman scratch
+- **B)** Means-Lerman scartch
 - **C)** Water-hammer pulse
 - **D)** Ejection click
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
@@ -1285,10 +1392,11 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
-### Q110: Secondary hypothyroidism is not featured by :
+### Q110: Secondary hypothyroidism is not featured by:
 
 - **A)** Normal cholesterol
 - **B)** Menorrhagia
@@ -1297,6 +1405,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
@@ -1304,11 +1413,12 @@
 
 - **A)** Subclinical hypothyroidism
 - **B)** Graves' disease
-- **C)** myxoedema
+- **C)** Myx.oedema
 - **D)** Medullary carcinoma of thyroid
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
@@ -1317,10 +1427,11 @@
 - **A)** Pituitary dwarf
 - **B)** Cretinism
 - **C)** Achondroplasia
-- **D)** Juvenile myxoedema
+- **D)** Juvenile myx.oedema
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
@@ -1333,6 +1444,7 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
@@ -1345,6 +1457,7 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
@@ -1357,10 +1470,11 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
-### Q116: Hirsutism may develop from all except:
+### Q116: Hirsutism may develop from all exeept:
 
 - **A)** Psoralens
 - **B)** Diazoxide
@@ -1369,6 +1483,7 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
@@ -1381,18 +1496,20 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
 ### Q118: Which cranial nerve is not involved. in acromegaly
 
 - **A)** VIII
-- **B)** III, IV , VI
+- **B)** III, IV, VI
 - **C)** V
 - **D)** II
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
@@ -1405,10 +1522,11 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 9
 
 ---
 
-### Q120: Medical adrenalectomy is done by all except :
+### Q120: Medical adrenalectomy is done by all except:
 
 - **A)** Aminoglutethimide
 - **B)** Mitotane
@@ -1417,10 +1535,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q121: "Pseudo-Cushing's syndrome' may be found in all except :
+### Q121: "Pseudo-Cushing's syndrome' may be found in all except:
 
 - **A)** Myxoedema
 - **B)** Chronic alcoholism
@@ -1429,10 +1548,11 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q122: Sheehan's syndrome presents with :
+### Q122: Sheehan's syndrome presents with:
 
 - **A)** Cardiac failure
 - **B)** Persistent lactation
@@ -1441,22 +1561,24 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q123: Hypocalcemia is produced by all except :
+### Q123: Hypocalcemia is produced by all except:
 
-- **A)** hysterical hyperventilation
+- **A)** Hysterical hypoventilation
 - **B)** Acute pancreatitis
 - **C)** Chronic renal failure
 - **D)** Osteomalacia
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q124: Primary hyperaldosteronism is not featured by :
+### Q124: Primary hyperaldosteronism is not featured by:
 
 - **A)** Diastolic hypertension
 - **B)** Paraesthesia
@@ -1465,6 +1587,7 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
@@ -1477,6 +1600,7 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
@@ -1485,14 +1609,15 @@
 - **A)** Loss of libido
 - **B)** Weight loss
 - **C)** Cardiac failure
-- **D)** Organic psychosis
+- **D)** Organic pyschosis
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q127: Tetany is characterised by all of the following signs except :
+### Q127: Tetany is characterised by all of the following signs except:
 
 - **A)** Trousseau's sign
 - **B)** Tinel's sign
@@ -1501,6 +1626,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
@@ -1513,22 +1639,24 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q129: Hyperparathyroidism is not featured by :
+### Q129: Hyperparathyroidism is not featured by:
 
-- **A)** Acute pancreatitis
+- **A)** Acute panaeatitis
 - **B)** Nephrocalcinosis
 - **C)** Palpable neck swelling
 - **D)** Pseudogout
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q130: Phaeochromocytoma is not associated with:
+### Q130: Phaeoduomocytoma is not associated with:
 
 - **A)** Weight gain
 - **B)** Fear of death (angor animi)
@@ -1537,10 +1665,11 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q131: Which of the following is false regarding medullary carcinoma of thyroid ?
+### Q131: Which of the following is false regarding medullary carcinoma of thyroid?
 
 - **A)** Cervical Iymphadenopathy
 - **B)** High serum calcitonin
@@ -1549,6 +1678,7 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
@@ -1561,22 +1691,24 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 10
 
 ---
 
-### Q133: All of the following are associated with gigantism / acromegaly, except :
+### Q133: All of the following are associated with gigantism / acromegaly, except:
 
 - **A)** Mental Retardation
-- **B)** hyperhidrosis
-- **C)** visceromegaly
+- **B)** Hyperhydrosis
+- **C)** Visceromegly
 - **D)** Impaired glucose tolerance
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
-### Q134: A middle aged man noticed that he can no longer fit in his shoes and that his jaw was protruding and phalanges were enlarged. These effects are likely to be mediated by :
+### Q134: A middle aged man noticed that he can no longer fit in his shoes and that his jaw was protruding and phalanges were enlarged. These effects are likely to be mediated by:
 
 - **A)** ACTH
 - **B)** Somatomedins
@@ -1584,7 +1716,8 @@
 - **D)** TGF Beta
 
 **Correct Answer:** B
-**Answer Source:** key
+**Answer Source:** marked
+**Source Pages:** 11
 
 ---
 
@@ -1597,10 +1730,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
-### Q136: A 30 year old woman presented with secondary amenorrhoea for 3 years along with galactorrhoea. The most likely cause of her symptoms would be :
+### Q136: A 30 year old woman presented with secondary amenorrhoea for 3 years along with galactorrhoea. The most likely cause of her symptoms would be:
 
 - **A)** Craniopharyngioma
 - **B)** Prolactinoma
@@ -1609,6 +1743,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
@@ -1621,10 +1756,11 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
-### Q138: A young woman with secondary amenorrhea and galactorrhea. MRI shows a tumour of < 10mm diameter in the pituitary fossa. Treatment is :
+### Q138: A young woman with secondary amenorrhea and galactorrhea. MRI shows a tumour of < 10mm c. Sheehan's syndrome d. Pituitary hypophysitis diameter in the pituitary fossa. Treatment is:
 
 - **A)** Hormonal therapy for withdrawal bleeding
 - **B)** Radiotherapy
@@ -1634,10 +1770,11 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
-### Q139: Confirmatory investigation for Acromegaly is :
+### Q139: Confirmatory investigation for Acromegaly is:
 
 - **A)** Insulin induced GH suppression
 - **B)** Glucose induced GH suppression
@@ -1646,6 +1783,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
@@ -1658,10 +1796,11 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
-### Q141: A patient meets with an accident with resultant transaction of the pituitary stalk ; what will NOT occur :
+### Q141: A patient meets with an accident with resultant transaction of the pituitary stalk; what will NOT occur:
 
 - **A)** Diabetes mellitus
 - **B)** Diabetes insipidus
@@ -1670,6 +1809,7 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
@@ -1677,15 +1817,16 @@
 
 - **A)** Vincristine
 - **B)** Erythromycin
-- **C)** 5 – FU
+- **C)** 5 - FU
 - **D)** Methotrexate
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 11
 
 ---
 
-### Q143: Inappropriate ADH secretion is characterised by the following except :
+### Q143: Inappropriate ADH secretion is characterised by the following except:
 
 - **A)** Hypo-osmolar urine
 - **B)** Water intoxication
@@ -1694,10 +1835,11 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
-### Q144: In a patient suffering from thyrotoxicosis the thyroid scintigraphy reveals decreased uptake the most likely diagnosis is :
+### Q144: In a patient suffering from thyrotoxicosis the thyroid scintigraphy reveals decreased uptake the most likely diagnosis is:
 
 - **A)** Toxic adenoma
 - **B)** Graves' disease
@@ -1706,6 +1848,7 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
@@ -1718,10 +1861,11 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
-### Q146: Hypothyroidism may be caused by :
+### Q146: Hypothyroidism may be caused by:
 
 - **A)** Lithium
 - **B)** Hematochromatosis
@@ -1730,10 +1874,11 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
-### Q147: Which of the following conditions is associated with Hypothyroidism :
+### Q147: Which of the following conditions is associated with Hypothyroidism:
 
 - **A)** Hashimoto's thyroiditis
 - **B)** Grave's disease
@@ -1742,18 +1887,20 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
 ### Q148: Which of the following is not associated with hypothyroidism:
 
 - **A)** Low T3
-- **B)** High TSH 4
+- **B)** High TSH
 - **C)** High Triglycerides
 - **D)** Low cholesterol
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
@@ -1766,10 +1913,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
-### Q150: The lab investigation of patient shows ↓T3, ↓T4, and ↓TSH. It cannot be :
+### Q150: The lab investigation of patient shows ↓T3, ↓T4, and ↓TSH. It cannot be:
 
 - **A)** Primary hypothyroidism
 - **B)** Pan-hypopituitarism
@@ -1778,18 +1926,20 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
 ### Q151: Most common cause of Thyroiditis is:
 
 - **A)** Reidls thyroiditis
-- **B)** Subacute thyroiditis
+- **B)** Subacute thyroditis
 - **C)** Hashimoto's thyroiditis
 - **D)** Viral thyroiditis
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
@@ -1802,6 +1952,7 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
@@ -1814,10 +1965,11 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 12
 
 ---
 
-### Q154: Low calcium and high phosphate is seen in :
+### Q154: Low calcium and high phosphate is seen in:
 
 - **A)** Hyperparathyroidism
 - **B)** Hypoparathyroidism
@@ -1826,6 +1978,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
@@ -1838,6 +1991,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
@@ -1850,10 +2004,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
-### Q157: Secondary hyperparthyroidism is seen in all of the following, except :
+### Q157: Secondary hyperparthyroidism is seen in all of the following, except:
 
 - **A)** Chronic renal failure
 - **B)** Parathyroid adenoma
@@ -1862,6 +2017,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
@@ -1874,10 +2030,11 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
-### Q159: All of the following statements about pseudohypoparathyroidism are true, except :
+### Q159: All of the following statements about pseudohypoparathyroidism are true, except:
 
 - **A)** ↓ Serum PTH
 - **B)** ↓ Serum calclum
@@ -1886,6 +2043,7 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
@@ -1898,11 +2056,12 @@
 - **E)** Hyperthyroidism
 
 **Correct Answer:** A
-**Answer Source:** key
+**Answer Source:** marked
+**Source Pages:** 13
 
 ---
 
-### Q161: Hypercalciuria is seen in :
+### Q161: Hypercalciuria is seen in:
 
 - **A)** Hyperparathyroidism
 - **B)** Vit. D intoxication
@@ -1911,10 +2070,11 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
-### Q162: Which of the following is not a feature of hypercalcemia :
+### Q162: Which of the following is not a feature of hypercalcemia:
 
 - **A)** Diarrhoea
 - **B)** Polyuria
@@ -1923,10 +2083,11 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
-### Q163: Endocrinal causes of carpal tunnel syndrome include all of the following, except :
+### Q163: Endocrinal causes of carpal tunnel syndrome include all of the following, except:
 
 - **A)** Diabetes Mellitus
 - **B)** Hypothyroidism
@@ -1935,22 +2096,24 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
-### Q164: Hirsuitism is caused by all, except :
+### Q164: Hirsuitism is caused by all, except:
 
 - **A)** Cushing's syndrome
 - **B)** Hyperthyroidism
 - **C)** Hyperprolactinemia
-- **D)** Acromegaly 
+- **D)** Acromegaly
 
 **Correct Answer:** B
-**Answer Source:** key
+**Answer Source:** marked
+**Source Pages:** 13
 
 ---
 
-### Q165: The most common cause of severe hypercalcemia is :
+### Q165: The most common cause of severe hypercalcemia is:
 
 - **A)** Vitamin D toxicity
 - **B)** Sarcoidosis
@@ -1959,10 +2122,11 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 13
 
 ---
 
-### Q166: In the management of diabetic ketoacidosis :
+### Q166: In the management of diabetic ketoacidosis:
 
 - **A)** Intracellular water deficit is best restored using half strength saline (0.45% saline)
 - **B)** Potassium should be given even before checking the serum potassium concentration
@@ -1971,10 +2135,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
-### Q167: In the long term management of diabetes :
+### Q167: In the long term management of diabetes:
 
 - **A)** Retinal neovascularisation should resolve with better glycaemic control
 - **B)** Microaneurysms are usually only visible with fluorescein angiography
@@ -1983,6 +2148,7 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
@@ -1995,10 +2161,11 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
-### Q169: TSI are synthesized in all except ?
+### Q169: TSI are synthesized in all except?
 
 - **A)** Thyroid gland
 - **B)** Spleen
@@ -2007,10 +2174,11 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
-### Q170: Which of the following is the most common symptom of hyperthyroidism ?
+### Q170: Which of the following is the most common symptom of hyperthyroidism?
 
 - **A)** Palpitation
 - **B)** Heat intolerance and sweating
@@ -2019,10 +2187,11 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
-### Q171: Which of the following is the most common sign of hyperthyroidism ?
+### Q171: Which of the following is the most common sign of hyperthyroidism?
 
 - **A)** Tremor
 - **B)** Warm, moist skin
@@ -2031,10 +2200,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
-### Q172: In hyperthyroidism, von Graefe's sign refers to ?
+### Q172: In hyperthyroidism, von Graefe's sign refers to?
 
 - **A)** Lagging of upper eye lid on looking downward
 - **B)** Retracted lids causing wide palpebral opening
@@ -2043,10 +2213,11 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
-### Q173: In hyperthyroidism, Stellwag's sign refers to ?
+### Q173: In hyperthyroidism, Stellwag's sign refers to?
 
 - **A)** Lagging of upper eye lid on looking downward
 - **B)** Retracted lids causing wide palpebral opening
@@ -2055,10 +2226,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
-### Q174: In hyperthyroidism, Dalrymple's sign refers to ?
+### Q174: In hyperthyroidism, Dalrymple's sign refers to?
 
 - **A)** Lagging of upper eye lid on looking downward
 - **B)** Retracted lids causing wide palpebral opening
@@ -2067,10 +2239,11 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 14
 
 ---
 
-### Q175: In hyperthyroidism, Moebius' sign refers to ?
+### Q175: In hyperthyroidism, Moebius' sign refers to?
 
 - **A)** Lagging of upper eye lid on looking downward
 - **B)** Retracted lids causing wide palpebral opening
@@ -2079,10 +2252,11 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q176: In hyperthyroidism, Abadie's sign refers to ?
+### Q176: In hyperthyroidism, Abadie's sign refers to?
 
 - **A)** Involuntary twitching or spasm of LPS muscle
 - **B)** Retracted lids causing wide palpebral opening
@@ -2091,10 +2265,11 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q177: Which of the following is not a cause of "thyrotoxicosis without hyperthyroidism" ?
+### Q177: Which of the following is not a cause of "thyrotoxicosis without hyperthyroidism"?
 
 - **A)** Subacute thyroiditis
 - **B)** Silent thyroiditis
@@ -2103,10 +2278,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q178: Which of the following is not a cause of primary hyperthyroidism ?
+### Q178: Which of the following is not a cause of primary hyperthyroidism?
 
 - **A)** Toxic multinodular goiter
 - **B)** Toxic adenoma
@@ -2115,22 +2291,23 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q179: Hyperthyroidism is most difficult to control in which trimester of pregnancy ?
+### Q179: Hyperthyroidism is most difficult to control in which trimester of pregnancy?
 
 - **A)** First
-- **B)** Second 4
-- **C)** Third
-- **D)** All of the above
+- **B)** Second 4 C. Third
+- **C)** All of the above
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q180: Which of the following is not a cause of chronic thyroiditis ?
+### Q180: Which of the following is not a cause of chronic thyroiditis?
 
 - **A)** Riedel's thyroiditis
 - **B)** Hashimoto's thyroiditis
@@ -2139,10 +2316,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q181: Which of the following can cause acute, subacute or chronic thyroiditis ?
+### Q181: Which of the following can cause acute, subacute or chronic thyroiditis?
 
 - **A)** 131 Iodine treatment
 - **B)** Amiodarone
@@ -2151,10 +2329,11 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q182: de Quervain's thyroiditis is a type of ?
+### Q182: de Quervain's thyroiditis is a type of?
 
 - **A)** Acute thyroiditis
 - **B)** Subacute thyroiditis
@@ -2163,10 +2342,11 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q183: ACTH is synthesized and stored in ?
+### Q183: ACTH is synthesized and stored in?
 
 - **A)** Acidophilic cells of anterior pituitary
 - **B)** Basophilic cells of anterior pituitary
@@ -2175,10 +2355,11 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q184: Neuropeptide ‘Urocortin' is related to ?
+### Q184: Neuropeptide 'Urocortin' is related to?
 
 - **A)** ACTH
 - **B)** CRH
@@ -2187,10 +2368,11 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 15
 
 ---
 
-### Q185: The plasma level of ACTH peak ?
+### Q185: The plasma level of ACTH peak?
 
 - **A)** Just prior to waking up
 - **B)** Just after waking up
@@ -2199,10 +2381,11 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q186: The plasma level of ACTH are lowest at ?
+### Q186: The plasma level of ACTH are lowest at?
 
 - **A)** Just prior to waking up
 - **B)** Just after waking up
@@ -2211,10 +2394,11 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q187: Normal pulsatile, circadian pattern of ACTH release is regulated by ?
+### Q187: Normal pulsatile, circadian pattern of ACTH release is regulated by?
 
 - **A)** Corticotropin-releasing hormone
 - **B)** Free plasma cortisol concentration
@@ -2223,10 +2407,11 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q188: Stress causes which of the following ?
+### Q188: Stress causes which of the following?
 
 - **A)** Release of CRH
 - **B)** Release of AVP
@@ -2235,10 +2420,11 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q189: Factors increasing ACTH release include ?
+### Q189: Factors increasing ACTH release include?
 
 - **A)** Response to eating
 - **B)** Vasopressin
@@ -2247,10 +2433,11 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q190: Factors decreasing ACTH release include ?
+### Q190: Factors decreasing ACTH release include?
 
 - **A)** beta-endorphin
 - **B)** Enkephalin
@@ -2259,22 +2446,24 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q191: Which of the following is a cause of ACTH-independent Cushing's syndrome ? 4
+### Q191: Which of the following is a cause of ACTH-independent Cushing's syndrome?
 
 - **A)** ACTH-independent macronodular hyperplasia (AIMAH)
 - **B)** Primary pigmented nodular adrenal disease (PPNAD)
-- **C)** McCune-Albright syndrome `
+- **C)** McCune-Albright syndrome
 - **D)** All of the above
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q192: In ACTH-independent macronodular hyperplasia (AIMAH), which of the following receptor is ectopically expressed in the adrenal gland ?
+### Q192: In ACTH-independent macronodular hyperplasia (AIMAH), which of the following receptor is ectopically expressed in the adrenal gland?
 
 - **A)** Luteinizing hormone
 - **B)** Vasopressin
@@ -2283,10 +2472,11 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q193: Which of the following is the commonest feature of ‘Cushing's syndrome' ?
+### Q193: Which of the following is the commonest feature of 'Cushing's syndrome'?
 
 - **A)** Centripetal obesity
 - **B)** Hypertension
@@ -2295,10 +2485,11 @@
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q194: Which of the following features of Cushing's syndrome is considered more specific ?
+### Q194: Which of the following features of Cushing's syndrome is considered more specific?
 
 - **A)** Hypertension
 - **B)** Osteoporosis
@@ -2306,11 +2497,12 @@
 - **D)** Obesity
 
 **Correct Answer:** C
-**Answer Source:** key
+**Answer Source:** marked
+**Source Pages:** 16
 
 ---
 
-### Q195: Criteria for the diagnosis of primary aldosteronism include ?
+### Q195: Criteria for the diagnosis of primary aldosteronism include?
 
 - **A)** Diastolic hypertension without edema
 - **B)** Hyposecretion of renin (low PRA levels) that do not increase during volume depletion
@@ -2319,10 +2511,11 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 16
 
 ---
 
-### Q196: Secondary aldosteronism is a feature of ?
+### Q196: Secondary aldosteronism is a feature of?
 
 - **A)** Cirrhosis
 - **B)** Nephrotic syndrome
@@ -2331,10 +2524,11 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 17
 
 ---
 
-### Q197: Elevated levels of free fatty acids can cause which of the following ?
+### Q197: Elevated levels of free fatty acids can cause which of the following?
 
 - **A)** Impair glucose utilization in skeletal muscle
 - **B)** Promote glucose production by liver
@@ -2343,10 +2537,11 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 17
 
 ---
 
-### Q198: All can cause islet cell dysfunction except ?
+### Q198: All can cause islet cell dysfunction except?
 
 - **A)** Hyperglycemia
 - **B)** Hypoglycemia
@@ -2355,10 +2550,11 @@
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 17
 
 ---
 
-### Q199: Which of the following can worsen islet function ?
+### Q199: Which of the following can worsen islet function?
 
 - **A)** Chronic hyperglycemia
 - **B)** Elevation of free fatty acid levels
@@ -2367,10 +2563,11 @@
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 17
 
 ---
 
-### Q200: In DKA, following insulin therapy, the decline in plasma glucose within the first 1 to 2 hours is mostly related to ?
+### Q200: In DKA, following insulin therapy, the decline in plasma glucose within the first 1 to 2 hours is mostly related to?
 
 - **A)** Insulin-mediated glucose disposal
 - **B)** Reduced hepatic glucose release
@@ -2379,197 +2576,273 @@
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 17
 
 ---
 
-### Q201: Case 1: A 28-year-old woman presents with tremors, excessive sweating, insomnia, tachycardia, and weight loss despite good feeding. What are the diagnosis, investigations, and suggested treatment?
+### Q201: Female patient 28 y. old presented with tremors, excessive sweating insomnia, tachycardia & wt loss inspite of good feeding a. What is your diagnosis? b. What are the investigations? c. TTT you suggest?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Thyrotoxicosis. Model answer: Confirm with suppressed TSH and raised free T4 or T3; check TSH-receptor antibodies, CBC, liver tests and ECG, and use radioactive iodine uptake and scan when appropriate. Treat symptoms with a beta blocker. Graves disease requires an antithyroid drug, radioactive iodine or surgery; thyroiditis requires an NSAID or glucocorticoid, not an antithyroid drug.
+**Answer Source:** derived
+**Source Pages:** 19
+**EXP:** a. Diagnosis: thyrotoxicosis, most likely Graves' disease (young female with tremor, sweating, insomnia, tachycardia and weight loss despite good appetite).
+b. Investigations: serum TSH (suppressed) with free T4 and free T3 (raised); TSH-receptor antibodies (TRAb/TSI) to confirm Graves'; thyroid ultrasound with Doppler (diffuse vascular goitre) and/or radioactive iodine uptake scan (diffuse increased uptake; low uptake suggests thyroiditis); ECG for sinus tachycardia or atrial fibrillation; CBC and liver function tests as a baseline before antithyroid drugs.
+c. Treatment: beta-blocker (propranolol 40 mg every 6-8 h) for symptoms; antithyroid drugs - carbimazole/methimazole (propylthiouracil in the first trimester of pregnancy) for 12-18 months, titrated or block-replace, with warning about agranulocytosis (report sore throat/fever); definitive treatment for relapse or large goitre: radioactive iodine (contraindicated in pregnancy and active severe ophthalmopathy) or near-total thyroidectomy after rendering euthyroid; follow up with thyroid function tests.
 
 ---
 
-### Q202: Case 2: A 45-year-old woman presents with constipation, weight gain, skin and hair changes, and bradycardia. What are the diagnosis, investigations, and suggested treatment?
+### Q202: A female patient 45 y. old presented with constipation, wt gain skin & hair changes & bradycardia. a. What is the diagnosis? b. What are investigations? c. Treatment you suggest
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Myxedema. Model answer: This is hypothyroidism presenting as myxedema. Measure TSH and free T4, with thyroid antibodies when indicated; assess CBC, lipids, sodium, glucose, creatine kinase and ECG. Treat with levothyroxine, starting cautiously in cardiac disease and monitoring TSH after 6 to 8 weeks.
+**Answer Source:** derived
+**Source Pages:** 19
+**EXP:** a. Diagnosis: primary hypothyroidism, most likely autoimmune (Hashimoto's) thyroiditis (constipation, weight gain, skin and hair changes, bradycardia).
+b. Investigations: serum TSH (raised) and free T4 (low); anti-TPO and anti-thyroglobulin antibodies; lipid profile (hypercholesterolaemia); CBC (anaemia); ECG (bradycardia, low voltage); CK may be raised; thyroid ultrasound if goitre or nodule.
+c. Treatment: lifelong levothyroxine (L-T4) about 1.6 microgram/kg/day taken on an empty stomach; in elderly or cardiac patients start low (25 microgram/day) and increase slowly; recheck TSH after 6-8 weeks and adjust the dose to keep TSH normal, then yearly.
 
 ---
 
-### Q203: Case 3: A 38-year-old woman has weight loss, anxiety, insomnia, a temperature of 36.3 C, pulse 135/min, and warm tremoring hands; ESR is normal. What are the diagnosis, investigations, and suggested treatment?
+### Q203: A 38 y. old lady noticed that she is losing weight and suffers from anxiety & insomnia at night. Examination revealed a temp. 36.3°C pulse 135/mm, and she has warm tremoring hands. ESR is normal. a. What is your diagnosis? b. What are the investigations? c. TTT you suggest?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Thyrotoxicosis due to Graves disease. Model answer: Confirm with suppressed TSH, raised free T4 or T3, TSH-receptor antibodies, ECG and baseline CBC and liver tests. Use uptake and scan when indicated. Treat with a beta blocker and antithyroid drug, with radioactive iodine or surgery as definitive options.
+**Answer Source:** derived
+**Source Pages:** 19
+**EXP:** a. Diagnosis: thyrotoxicosis, most likely Graves' disease (weight loss, anxiety, insomnia, marked tachycardia and warm tremulous hands); the normal ESR and normal temperature argue against subacute (de Quervain's) thyroiditis.
+b. Investigations: TSH (suppressed), free T4 and free T3 (raised); TSH-receptor antibodies; radioactive iodine uptake scan (diffuse high uptake in Graves', low in thyroiditis) and thyroid ultrasound with Doppler; ECG (sinus tachycardia or atrial fibrillation); CBC and liver functions as baseline.
+c. Treatment: propranolol for symptomatic control; carbimazole/methimazole (e.g. 20-40 mg/day, then titrated) for 12-18 months, with counselling about agranulocytosis; radioactive iodine or thyroidectomy for relapse, large goitre or intolerance of drugs; regular thyroid function follow-up.
 
 ---
 
-### Q204: Case 4: A 45-year-old woman has fatigue, cold intolerance, progressive hoarseness, dry skin, and slow knee reflexes. What are the diagnosis, investigations, and suggested treatment?
+### Q204: A 45 y. old lady presented to the medical clinic complaining from an increasing sense of general fatigue and intolerance to colds since three months. In the last two weeks her voice became increasingly hoarse. Examination revealed that her temp. is 36.9°C, pulse 60/min, BP 140/80, her skin is dry. Neurological examination was negative but the knee reflexes were slow in their response. a. What is the diagnosis? b. What are investigations? c. Treatment you suggest.
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Myxedema. Model answer: Confirm hypothyroidism with TSH and free T4; assess thyroid antibodies, CBC, lipids, sodium, glucose, creatine kinase and ECG. Treat with levothyroxine, using a low starting dose and slow titration when cardiac disease is present.
+**Answer Source:** derived
+**Source Pages:** 19
+**EXP:** a. Diagnosis: primary hypothyroidism (fatigue, cold intolerance, hoarse voice, dry skin, relative bradycardia, diastolic hypertension and delayed relaxation of the tendon reflexes), most likely Hashimoto's thyroiditis.
+b. Investigations: TSH (raised) and free T4 (low); anti-TPO antibodies; lipid profile, CBC, serum sodium, CK; ECG; thyroid ultrasound if a goitre is palpable.
+c. Treatment: levothyroxine replacement for life, starting at a low dose in older patients (25-50 microgram/day) and increasing gradually to a full dose (about 1.6 microgram/kg/day); monitor TSH every 6-8 weeks until normal, then annually.
 
 ---
 
-### Q205: Case 5: A 44-year-old woman has weakness and constipation, pallor, puffy eyelids, pulse 60/min, and serum TSH 201 U/mL (reference 1 to 6). What is the diagnosis, how are the findings explained, and how should she be treated and followed?
+### Q205: A woman 44 y. old complaining of increasing weakness and constipation over the last 3 months. O/E, she was pale with puffy eyelids. Her pulse was 60/min, regular. Her serum TSH 201 U/ml (N. 1-6) a. What is the possible diagnosis? b. How can you explain the clinical and laboratory findings? c. What is the treatment and how can you follow up her condition?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Adult myxedema. Model answer: This is severe primary hypothyroidism: very high TSH indicates failed thyroid feedback, while low thyroid hormone explains lethargy, constipation, bradycardia, pallor and puffy non-pitting edema. Confirm free T4 and assess antibodies, CBC, lipids, sodium, glucose and ECG. Give levothyroxine, start low if cardiac risk exists, and reassess TSH after 6 to 8 weeks.
+**Answer Source:** derived
+**Source Pages:** 19
+**EXP:** a. Diagnosis: primary hypothyroidism (markedly raised TSH with weakness, constipation, pallor, puffy eyelids and bradycardia), most likely autoimmune (Hashimoto's) thyroiditis.
+b. Explanation: failure of the thyroid gland lowers T4/T3, removing negative feedback so pituitary TSH rises greatly. Thyroid hormone deficiency reduces metabolic rate and sympathetic sensitivity (bradycardia, weakness), slows gut motility (constipation), causes accumulation of glycosaminoglycans in the tissues (myxoedema: puffy eyelids) and anaemia plus skin vasoconstriction and carotenaemia (pallor).
+c. Treatment: levothyroxine daily on an empty stomach, starting at a moderate dose (lower if elderly or cardiac) and titrating. Follow-up: TSH (with free T4) 6-8 weeks after each dose change, aiming for TSH within the normal range, then every 6-12 months; clinical review of symptoms, weight, pulse and anaemia.
 
 ---
 
-### Q206: Case 6: A 35-year-old woman has six months of diarrhea, weight loss and palpitation, feels anxious and irritable, and has not responded to a tranquilizer. What disease must be excluded, what signs and blood tests help, and how is it managed if confirmed?
+### Q206: A 35 y. old woman presented with 6 months history of diarrhea, weight loss and palpitation. She was seen by psychiatrist for feeling anxious & irritable and was given atranquilizer without good response. a. What is the most important disease you have to exclude? b. Mention important clinical signs that can help you in its diagnosis? c. Mention important blood testes help you in its diagnosis? d. If the diagnosis proved to be correct how to manage?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Thyrotoxicosis. Model answer: Exclude thyrotoxicosis. Look for warm moist skin, fine tremor, tachycardia or atrial fibrillation, lid lag or retraction, goiter, ophthalmopathy, proximal myopathy and hyperreflexia. Check TSH, free T4/T3, antibodies, CBC and liver tests, with ECG and uptake/scan as indicated. Treat with a beta blocker and cause-specific therapy.
+**Answer Source:** derived
+**Source Pages:** 20
+**EXP:** a. Thyrotoxicosis (hyperthyroidism, e.g. Graves' disease) must be excluded before labelling the patient as an anxiety state.
+b. Clinical signs: sinus tachycardia or atrial fibrillation with wide pulse pressure; warm moist skin and fine tremor of the outstretched hands; lid retraction and lid lag, exophthalmos; diffuse goitre with a bruit; proximal myopathy and brisk reflexes; pretibial myxoedema and thyroid acropachy in Graves'. (Sleeping pulse remains high in thyrotoxicosis but falls in anxiety.)
+c. Blood tests: suppressed TSH with raised free T4 and/or free T3; TSH-receptor antibodies; (plus CBC and liver function tests as baseline before treatment).
+d. Management: beta-blocker (propranolol) for symptoms; antithyroid drug (carbimazole/methimazole) for 12-18 months; definitive radioactive iodine or thyroidectomy (after making the patient euthyroid) for relapse, large goitre or drug side effects; follow-up thyroid function tests.
 
 ---
 
-### Q207: Case 7: A 45-year-old woman has exertional and resting palpitations and marked weight loss despite reasonable appetite. What is the provisional diagnosis, differential diagnosis, and laboratory work-up?
+### Q207: A 45 y. old female patient complained of regular palpitation that used to increase by exertion, but sometimes also occur during rest, she reported that she had marked weight loss in spite of her reasonable appetite. a. What is your provisional diagnosis? b. What is your D.D.? c. What laboratory tests you need to reach a definitive diagnosis?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Thyrotoxicosis. Model answer: Consider Graves disease, toxic multinodular goiter, toxic adenoma, thyroiditis, arrhythmia, anemia, anxiety and stimulant effects. Check TSH, free T4/T3, thyroid antibodies, CBC, glucose and liver tests; obtain ECG and thyroid uptake/scan when necessary.
+**Answer Source:** derived
+**Source Pages:** 20
+**EXP:** a. Provisional diagnosis: thyrotoxicosis (hyperthyroidism), most likely Graves' disease or toxic nodular goitre (palpitation at rest as well as on exertion, weight loss despite good appetite).
+b. Differential diagnosis: anxiety state/panic disorder; diabetes mellitus (weight loss with good appetite); pheochromocytoma; paroxysmal supraventricular tachycardia or other arrhythmia; malabsorption; malignancy; exogenous thyroxine intake.
+c. Laboratory tests: serum TSH (suppressed) with free T4 and free T3 (raised) - T3 toxicosis possible; TSH-receptor antibodies; radioactive iodine uptake scan/thyroid scintigraphy to distinguish Graves' (diffuse), toxic nodule or multinodular goitre (hot nodules) and thyroiditis (low uptake); thyroid ultrasound; ECG; blood glucose.
 
 ---
 
-### Q208: Case 8: A 55-year-old woman presents with coma, puffy face, mild leg edema, temperature 35 C, pulse 50/min, and a history of stopping long-term pills; her speech became slow and clumsy. What are the diagnosis, differential diagnosis, confirmation, and treatment?
+### Q208: A 55 y. old female presented with coma. Examination revealed puffy face and mild lower limb edema. Her temperature was 35°C. her pulse was 50 beats/mm & regular. Her relatives stated that she was taking pills regularly for long time and she stopped the ttt. The last 4 weeks, she also noticed that her speech was clumsy and slows in the last weeks. a. What is your diagnosis? b. What is your differential diagnosis? c. What are you doing to confirm your diagnosis? d. What ttt should be given?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Myxedema coma. Model answer: Check TSH, free T4/T3, cortisol, glucose, electrolytes, renal function, CBC, blood gases, ECG, cultures and chest imaging. Consider hypoglycemia, sepsis, stroke, sedative intoxication and adrenal crisis. Give urgent IV hydrocortisone followed by IV levothyroxine, cautious warming, glucose and ventilatory support, and treat the precipitant.
+**Answer Source:** derived
+**Source Pages:** 20
+**EXP:** a. Diagnosis: myxoedema coma (severe decompensated hypothyroidism) after stopping thyroxine replacement - coma with hypothermia (35°C), bradycardia, puffy face, oedema and slow clumsy speech.
+b. Differential diagnosis: other causes of coma with hypothermia - hypoglycaemia, cerebrovascular stroke, drug overdose (sedatives), hypopituitary coma, adrenal crisis, uraemic or hepatic coma, and exposure hypothermia.
+c. Confirmation: TSH (markedly raised) and free T4 (very low) - take blood before treatment; serum cortisol (exclude coexistent adrenal insufficiency); blood glucose, serum sodium (hyponatraemia), arterial blood gases (hypercapnia, hypoxia), CK, renal function, CBC; ECG (bradycardia, low voltage); chest X-ray and cultures for a precipitating infection.
+d. Treatment: ICU admission; airway support and ventilation if hypoventilating; IV hydrocortisone 100 mg every 8 h before/with thyroid hormone; IV levothyroxine (loading 200-400 microgram then 50-100 microgram daily) with or without liothyronine; passive slow rewarming; cautious IV fluids and correction of hyponatraemia and hypoglycaemia; treat precipitating infection; then oral levothyroxine for life with education about compliance.
 
 ---
 
-### Q209: Case 9: A 60-year-old woman has tiredness, constipation, weight gain, tingling in the hands and feet, pallor, puffy face, normocytic anemia, hypercholesterolemia and cardiomegaly. What are the diagnosis, explanation of the chest X-ray, cause of tingling, and treatment?
+### Q209: A 60 y. old female complained of tiredness, constipation, weight gain and tingling in her hands and feet. O/E, she was obese, with pale puffy face. Investigations revealed mild normocytic normochromic anemia and hypercholesterolemia, chest X-ray revealed cardiomegaly. a. What is your diagnosis? b. How would you explain the chest X-ray findings? c. What is the possible cause for the tingling in her hands? d. How would you treat this lady?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Myxedema. Model answer: Hypothyroidism may cause pericardial effusion or cardiomyopathy explaining cardiomegaly; tingling may reflect carpal tunnel syndrome or peripheral neuropathy. Confirm with TSH and free T4, assess anemia and lipids, and treat with levothyroxine while monitoring thyroid and cardiac status.
+**Answer Source:** derived
+**Source Pages:** 20
+**EXP:** a. Diagnosis: primary hypothyroidism (myxoedema).
+b. Chest X-ray: the cardiomegaly is mainly due to pericardial effusion (accumulation of protein- and glycosaminoglycan-rich fluid) and in addition dilated hypothyroid cardiomyopathy; hypercholesterolaemia also predisposes to coronary artery disease.
+c. Tingling in the hands: carpal tunnel syndrome from median nerve compression by myxoedematous tissue deposition at the wrist (peripheral neuropathy is another possible cause).
+d. Treatment: levothyroxine starting at a low dose (25 microgram/day because she is 60 years old with cardiac involvement) increased gradually every 2-4 weeks to full replacement, monitoring TSH and watching for angina; the anaemia, hypercholesterolaemia, pericardial effusion and carpal tunnel symptoms usually improve with euthyroidism.
 
 ---
 
-### Q210: Case 10: A 22-year-old woman with insulin-dependent diabetes develops tachycardia, sweating and nervousness. Enumerate possible causes and discuss the diagnosis and management of one cause.
+### Q210: A 22 y. old female student suffered from IDDM for the last 7 years. She started a few weeks ago to complain of tachycardia, sweating & nervousness. a. Enumerate possible causes of her complaints. b. Discuss diagnosis & management of one of them.
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Thyrotoxicosis, either Graves disease or thyroiditis, with recurrent attacks of hypoglycemia. Model answer: Consider hypoglycemia from excess insulin or missed meals, thyrotoxicosis, infection, anemia, arrhythmia, anxiety, stimulant use and autonomic neuropathy. Check glucose during symptoms, HbA1c, TSH and free T4/T3, ECG, CBC and thyroid tests. Treat Graves with a beta blocker and antithyroid drug, then definitive therapy when appropriate; treat and prevent documented hypoglycemia.
+**Answer Source:** derived
+**Source Pages:** 20
+**EXP:** a. Possible causes of tachycardia, sweating and nervousness in a type 1 diabetic: hypoglycaemia (insulin overdose, missed meals, exercise); thyrotoxicosis (Graves' disease or Hashitoxicosis - autoimmune thyroid disease is associated with type 1 DM); diabetic autonomic neuropathy (resting tachycardia); anxiety state; pheochromocytoma (rare); drugs (e.g. beta-agonists, excessive caffeine).
+b. Hypoglycaemia (example): diagnosis by Whipple's triad - symptoms, low blood glucose (below 70 mg/dl, adrenergic symptoms like tachycardia, sweating, tremor and nervousness, and neuroglycopenic symptoms) and relief after glucose; check capillary glucose during symptoms and review insulin doses and HbA1c. Management: if conscious give 15-20 g rapid oral glucose and recheck after 15 min, then a complex carbohydrate snack; if unconscious give IV 50 ml of 50% dextrose (or 20% dextrose) or IM glucagon 1 mg; then adjust insulin regimen, regular meals and snacks, glucose monitoring, education of patient and family, carry sugar and a diabetic card. (Alternatively thyrotoxicosis: TSH, free T4/T3, TRAb; treat with beta-blocker and carbimazole.)
 
 ---
 
-### Q211: Case 11: A 72-year-old woman has increasing lethargy, thinning hair, pulse 52/min and BP 138/90 mmHg. What is the diagnosis and why, how is it investigated, and how is it managed?
+### Q211: A 72 y. old lady complaining of fatigue has become increasingly lethargic. She also said that her hair is thinning. Her pulse rate is 52/min, regular and BP is 138/90 mmHg. Examination of her heart chest and abdomen is normal. a. What is your diagnosis (explain why)? b. How do you investigate this case? c. How would you manage the case?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Hypothyroidism. Model answer: Lethargy, hair thinning and bradycardia suggest hypothyroidism. Measure TSH, free T4, antibodies, CBC, lipids, sodium, glucose and ECG; investigate pituitary disease if TSH is inappropriately normal or low. Treat with levothyroxine and monitor TSH after 6 to 8 weeks.
+**Answer Source:** derived
+**Source Pages:** 21
+**EXP:** a. Diagnosis: primary hypothyroidism (elderly woman with fatigue, lethargy, hair thinning, bradycardia 52/min and diastolic hypertension); hypothyroidism is common in elderly women, usually due to autoimmune thyroiditis.
+b. Investigations: TSH (raised) and free T4 (low); anti-TPO antibodies; lipid profile, CBC, serum sodium; ECG (bradycardia, ischaemic changes before therapy); (if TSH is low or normal with low T4, suspect secondary hypothyroidism and assess the pituitary).
+c. Management: levothyroxine started at a low dose (12.5-25 microgram/day because of age and risk of ischaemic heart disease) increased by 25 microgram every 3-4 weeks guided by symptoms and TSH; watch for angina and arrhythmia; lifelong treatment with yearly TSH once stable.
 
 ---
 
-### Q212: Case 12: A middle-aged man has chronic fatigue, hyperpigmentation, supine BP 95/75 mmHg and a fall in BP on standing. What are the diagnosis, investigations, and suggested treatment?
+### Q212: Middle age male patient presented with chronic fatigue & hyperpigmentaion on examination his BP was 95/75 mmhg on supine and decreased on standing a) What is your diagnosis? b) What are the investigations? c) TTT you suggest?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Addison disease. Model answer: Measure morning cortisol and ACTH, electrolytes, glucose, renin and aldosterone, and confirm with an ACTH stimulation test; test adrenal antibodies and image when indicated. Treat with hydrocortisone or equivalent plus fludrocortisone, sick-day education and emergency IV hydrocortisone and saline for crisis.
+**Answer Source:** derived
+**Source Pages:** 21
+**EXP:** a. Diagnosis: primary adrenal insufficiency (Addison's disease) - chronic fatigue, hyperpigmentation and hypotension with postural drop.
+b. Investigations: 8 a.m. serum cortisol (low) with plasma ACTH (high); short Synacthen (ACTH stimulation) test - inadequate cortisol rise (peak below 18-20 microgram/dl); serum sodium (low), potassium (high), urea, blood glucose (low); plasma renin (high) and aldosterone (low); 21-hydroxylase adrenal antibodies; CT of the adrenals and tests for tuberculosis (chest X-ray) when autoimmunity is not proven.
+c. Treatment: glucocorticoid replacement with hydrocortisone 15-25 mg/day in divided doses (larger in the morning); mineralocorticoid fludrocortisone 0.05-0.2 mg/day; liberal salt intake; sick-day rules (double the dose in illness, IV/IM hydrocortisone if vomiting or before surgery); steroid card/bracelet and emergency injection kit; treat the cause (e.g. anti-tuberculous therapy).
 
 ---
 
-### Q213: Case 13: A 35-year-old woman has paroxysmal hypertension, pallor, sweating, headache, anxiety, palpitation, abdominal pain, vomiting, constipation, weight loss and intolerance. What are the diagnosis, investigations, and suggested treatment?
+### Q213: 35 years old female suffer from paroxysmal HTN and attack of pallor and sweating, headache, anxiety, palpitation, abdominal pain and vomiting, constipation, wt loss and intolerance also evident. a) What is your diagnosis? b) What are the investigations? c) TTT you suggest?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Pheochromocytoma. Model answer: Measure plasma free or 24-hour urinary fractionated metanephrines and localize with CT or MRI. Prepare with salt and fluid, then alpha blockade with phenoxybenzamine or a selective alpha blocker; add beta blockade only after alpha blockade, and perform surgical excision.
+**Answer Source:** derived
+**Source Pages:** 21
+**EXP:** a. Diagnosis: pheochromocytoma (paroxysmal hypertension with attacks of headache, sweating, palpitation, pallor and anxiety, plus weight loss, heat intolerance and constipation from catecholamine excess).
+b. Investigations: biochemical confirmation by plasma free metanephrines or 24-hour urinary fractionated metanephrines and catecholamines (VMA less sensitive); blood glucose (hyperglycaemia); localisation by CT or MRI of the adrenals/abdomen, then MIBG or PET scan for extra-adrenal or metastatic disease; screening for associated syndromes (MEN 2 - serum calcitonin, calcium and PTH; von Hippel-Lindau, NF1) and genetic testing.
+c. Treatment: preoperative alpha-blockade (phenoxybenzamine or doxazosin) for 10-14 days with high salt and fluid intake, then a beta-blocker added only after adequate alpha-blockade; surgical removal by laparoscopic adrenalectomy with careful anaesthesia (control of hypertensive crisis by IV phentolamine or nitroprusside, and postoperative hypotension/hypoglycaemia by fluids and glucose); for inoperable or malignant disease, alpha-methyl-para-tyrosine, MIBG therapy or chemotherapy; long-term follow-up with metanephrines.
 
 ---
 
-### Q214: Case 14: A 65-year-old man has truncal obesity, diabetes, hypertension and myopathy, then develops sudden back pain after trauma. What is the differential diagnosis, investigations, and suggested treatment?
+### Q214: Male patient 65 years old recently suffered from trunked obesity, DM, HTN & myopathy and presented with sudden back pain with history trauma. a) DD of this case? b) What are the investigations? c) TTT you suggest?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Cushing syndrome, including Cushing disease, adrenal or ectopic causes. Model answer: Consider cortisol excess with osteoporosis and vertebral compression fracture; exclude exogenous steroid use, pseudo-Cushing states, primary osteoporosis and metastatic or traumatic fracture. Screen with late-night salivary cortisol, 24-hour urinary free cortisol or dexamethasone suppression, then measure ACTH and localize the cause. Treat the source and manage glucose, blood pressure and bone disease.
+**Answer Source:** derived
+**Source Pages:** 21
+**EXP:** a. Differential diagnosis: Cushing's syndrome (truncal obesity, diabetes, hypertension and proximal myopathy) complicated by an osteoporotic vertebral collapse fracture after minor trauma. Causes to differentiate: exogenous (iatrogenic) glucocorticoid intake; ACTH-dependent - pituitary Cushing's disease and ectopic ACTH secretion (e.g. small cell lung carcinoma, especially in a 65-year-old man); ACTH-independent adrenal adenoma or carcinoma. Other causes of back pain: vertebral metastases (e.g. from lung or prostate cancer), multiple myeloma, traumatic fracture.
+b. Investigations: screening - 24-hour urinary free cortisol, overnight 1 mg dexamethasone suppression test, late-night salivary cortisol; then plasma ACTH (suppressed = adrenal; normal/high = pituitary or ectopic), high-dose dexamethasone suppression and CRH tests, pituitary MRI, adrenal CT, chest CT for an ectopic source, inferior petrosal sinus sampling; serum potassium (hypokalaemia in ectopic ACTH), blood glucose/HbA1c; spine X-ray/MRI and DEXA scan for the fracture and osteoporosis.
+c. Treatment: treat the cause - transsphenoidal pituitary surgery, adrenalectomy, or removal of the ectopic tumour; withdraw exogenous steroids gradually; medical control of cortisol (ketoconazole, metyrapone, osilodrostat) when surgery is delayed or not possible; control of diabetes, hypertension and hypokalaemia; for the fracture - analgesia, rest/brace, calcium, vitamin D and bisphosphonates; postoperative glucocorticoid replacement until the axis recovers.
 
 ---
 
-### Q215: Case 15: A woman has amenorrhea for two years after difficult labor with severe postpartum hemorrhage, persistent hypotension, asthenia and cold intolerance. What other symptoms should be sought, what is the diagnosis, how is it proved, treated, and what is the prognosis?
+### Q215: Female patient complaining of amenorrhea for 2 years following the last difficult labor complicated by severe postpartum hemorrhage, from that time she was told that she is hypotensive. She has a well-marked asthenia & can't tolerate cold weather a) What are other symptoms to be asked for? b) What is the diagnosis? c) What are the necessary investigations to prove the diagnosis? d) What are the main lines of treatment? e) What is the prognosis?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Sheehan syndrome. Model answer: Ask about failure to lactate, loss of body hair, low libido, infertility, fatigue, anorexia, weight loss, constipation, hypoglycemia and adrenal crisis. Measure cortisol and ACTH, free T4 and TSH, prolactin, LH/FSH and IGF-1, with glucose, electrolytes and pituitary MRI. Replace hydrocortisone before levothyroxine, then sex steroids and other deficient hormones; deficits are usually chronic but replacement gives a good functional prognosis.
+**Answer Source:** derived
+**Source Pages:** 21
+**EXP:** a. Other symptoms to ask about: failure of lactation after delivery; loss of axillary and pubic hair; loss of libido, breast atrophy; symptoms of hypothyroidism (cold intolerance, constipation, weight gain, dry skin, slowness); symptoms of adrenal insufficiency (fatigue, anorexia, nausea, weight loss, postural dizziness, hypoglycaemic attacks); pallor (skin depigmentation) and loss of energy; polyuria is rare.
+b. Diagnosis: Sheehan's syndrome - postpartum ischaemic necrosis of the anterior pituitary causing hypopituitarism (panhypopituitarism).
+c. Investigations: basal hormones - low FSH/LH with low oestradiol; low free T4 with low or inappropriately normal TSH; low 8 a.m. cortisol with low ACTH and poor response to the Synacthen or insulin tolerance test; low prolactin and IGF-1; stimulation (combined pituitary function) tests; serum sodium and glucose; MRI of the pituitary (empty sella).
+d. Treatment: hormone replacement - hydrocortisone first (before thyroxine, to avoid precipitating adrenal crisis), then levothyroxine (monitor free T4, not TSH), then oestrogen/progestogen replacement (gonadotrophins if fertility is desired), growth hormone if indicated; steroid card and sick-day rules.
+e. Prognosis: good with adequate lifelong replacement and patient education; risk of adrenal crisis and death with stress, infection or surgery if steroid cover is not increased; the pituitary damage is permanent.
 
 ---
 
-### Q216: Case 16: A 35-year-old man has asthenia, treated low blood pressure and progressive dark discoloration of the trunk and skin. What should be expected in the history and examination, what are the diagnostic steps, and what treatment is suggested?
+### Q216: A male patient aged 35 years presented with asthenia. He has been under therapy for his low blood pressure for sometimes. His dermatologist had along run of therapy for discoloration on his trunk & for the deep color of skin. a) What do you expect to find in his history and on full clinical examination? b) What are the steps needed for the diagnosis? c) What do you suggest for treatment?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Addison disease. Model answer: Expect weight loss, anorexia, nausea, vomiting, abdominal pain, diarrhea, salt craving, postural dizziness, hypoglycemia, fatigue, diffuse hyperpigmentation and possibly vitiligo. Check morning cortisol and ACTH, sodium, potassium, glucose, renin, aldosterone, adrenal antibodies and ACTH stimulation; image the adrenals when indicated. Treat with hydrocortisone and fludrocortisone and increase doses during illness.
+**Answer Source:** derived
+**Source Pages:** 22
+**EXP:** a. Expected findings (primary adrenal insufficiency / Addison's disease): history - fatigue and weakness, anorexia, weight loss, nausea, vomiting, abdominal pain, salt craving, postural dizziness and fainting, hypoglycaemic attacks, loss of axillary and pubic hair in women, depression; history of tuberculosis or other autoimmune disease; examination - diffuse hyperpigmentation especially of exposed areas, skin creases, scars, knuckles, buccal mucosa and gums; low blood pressure with postural drop; weight loss; vitiligo may coexist.
+b. Steps for diagnosis: 8 a.m. serum cortisol (low) and plasma ACTH (high); short Synacthen test (failure of cortisol to rise); electrolytes - hyponatraemia, hyperkalaemia, raised urea; blood glucose; plasma renin (high) and aldosterone (low); adrenal 21-hydroxylase antibodies; chest X-ray, tuberculin test and adrenal CT (calcification in tuberculosis) to find the cause.
+c. Treatment: hydrocortisone 15-25 mg/day in 2-3 divided doses plus fludrocortisone 50-200 microgram/day; adequate salt; increase the dose during illness, trauma or surgery (parenteral hydrocortisone if vomiting); steroid alert card and emergency hydrocortisone injection; treat the underlying cause (e.g. antituberculous therapy); monitor blood pressure, electrolytes and weight.
 
 ---
 
-### Q217: Case 17: A 64-year-old man gains 8 kg over six months, bruises easily, has difficulty rising from a chair or climbing stairs, depression, abdominal obesity, purple striae, BP 168/100 mmHg, proximal weakness and raised postprandial glucose. What is the provisional diagnosis and how is it investigated and managed?
+### Q217: A 64 years old man noticed that he had gained 8 kg in weight over the past 6 months. He started to get easily bruising, he found difficulty in getting up from his arm chair or to climb stairs, he felt depressed. On examination he is overweight particularly on the abdominal region with purpurish stria on his abdomen and thighs. His blood pressure is 168/100, examination of his heart respiratory system and abdomen is normal. There is some weakness in shoulder and hip regions. His routine examinations are within normal abort from elevated 2 hours post prandial blood sugar. a) What is the provisional diagnosis? b) How would you investigate and manage this patient?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Cushing syndrome. Model answer: Screen with overnight dexamethasone suppression, late-night salivary cortisol or 24-hour urinary free cortisol, then measure ACTH and localize with pituitary or adrenal imaging. Treat the cause, usually surgically, with cortisol-lowering drugs or radiotherapy when required, and manage hypertension, diabetes, osteoporosis and infection risk.
+**Answer Source:** derived
+**Source Pages:** 22
+**EXP:** a. Provisional diagnosis: Cushing's syndrome (weight gain with central obesity, easy bruising, purple striae, proximal myopathy, depression, hypertension and impaired glucose tolerance); in a 64-year-old man ectopic ACTH secretion (e.g. from a lung tumour) must be considered besides pituitary Cushing's disease, adrenal tumour and exogenous steroid intake.
+b. Investigation: exclude exogenous glucocorticoid use; confirm hypercortisolism with 24-hour urinary free cortisol, overnight 1 mg dexamethasone suppression test and late-night salivary cortisol (two positive tests); then plasma ACTH - suppressed (adrenal adenoma/carcinoma: CT adrenals) or normal/raised (ACTH-dependent: high-dose dexamethasone suppression and CRH tests, pituitary MRI, inferior petrosal sinus sampling, and CT chest/abdomen for an ectopic source); also serum potassium, blood glucose/OGTT, DEXA scan. Management: transsphenoidal adenomectomy for Cushing's disease (radiotherapy or bilateral adrenalectomy if it fails); unilateral adrenalectomy for an adrenal adenoma; resection of the ectopic tumour; medical cortisol-lowering drugs (metyrapone, ketoconazole, osilodrostat, mifepristone) before surgery or if inoperable; treat hypertension, diabetes, hypokalaemia and osteoporosis; postoperative hydrocortisone replacement until the HPA axis recovers.
 
 ---
 
-### Q218: Case 18: A 25-year-old man has recurrent headache and shortness of breath, obesity with fatty abdomen, BP 170/100 mmHg, flushed greasy face, acne and urine positive for glucose. What are the diagnosis, differential diagnosis, and further tests?
+### Q218: A 25 y. old white male consulted his physician for recurrent headache & shortness of breath. The patient was obese and his abdomen was fatty. His BP was 170/100. His face was flushed and greasy, there was some acne on his chest wall. Urine was positive for glucose (++) a) What is your diagnosis? b) What is your differential diagnosis? c) What other tests would you like to ask to reach a definitive diagnosis?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Cushing syndrome. Model answer: Consider exogenous steroid exposure, pituitary disease, adrenal cortisol excess, ectopic ACTH and pseudo-Cushing states. Ask about steroid use and perform late-night salivary cortisol, 24-hour urinary free cortisol and dexamethasone suppression; measure ACTH and use targeted imaging to identify the source.
+**Answer Source:** derived
+**Source Pages:** 22
+**EXP:** a. Diagnosis: Cushing's syndrome (obesity with fatty abdomen, hypertension, plethoric greasy face, acne and glycosuria), probably pituitary-dependent Cushing's disease in a young man, or iatrogenic steroid intake.
+b. Differential diagnosis: simple (exogenous) obesity with essential hypertension and type 2 diabetes (metabolic syndrome); pseudo-Cushing's state (alcoholism, depression); polycythaemia (plethora with headache); pheochromocytoma; anabolic steroid/androgen abuse (acne, hypertension); congenital adrenal hyperplasia.
+c. Tests for a definitive diagnosis: 24-hour urinary free cortisol, overnight 1 mg dexamethasone suppression test, late-night salivary cortisol, low-dose 48-hour dexamethasone suppression test; plasma ACTH; high-dose dexamethasone suppression and CRH tests; pituitary MRI and adrenal CT; blood glucose/HbA1c, serum potassium, CBC (polycythaemia).
 
 ---
 
-### Q219: Case 19: A 15-year-old boy with insulin-dependent diabetes presents to the emergency department in coma. What are the differential diagnoses, investigations, and management of one of them?
+### Q219: 15 y. old boy known history of IDDM presented to ER with coma a. DD of causes? b. What are the investigations? c. Management on of the above?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Differential diagnosis of diabetic coma. Model answer: Consider hypoglycemia, DKA, HHS, lactic acidosis, sepsis, stroke, uremia and intoxication. Check glucose, ketones, electrolytes, urea/creatinine, osmolality, pH and bicarbonate, CBC, cultures, ECG and precipitating causes. If DKA is confirmed, give isotonic saline, potassium-guided IV insulin, potassium replacement, dextrose when glucose falls and close monitoring.
+**Answer Source:** derived
+**Source Pages:** 22
+**EXP:** a. Differential diagnosis of coma in a type 1 diabetic boy: hypoglycaemic coma; diabetic ketoacidosis; (rarely) hyperosmolar hyperglycaemic state or lactic acidosis; non-diabetic causes - head injury, meningitis/encephalitis, cerebral oedema, drug or alcohol intoxication, epilepsy (post-ictal).
+b. Investigations: immediate bedside capillary glucose; then laboratory blood glucose, blood or urine ketones, arterial/venous blood gases (pH, bicarbonate, anion gap), serum sodium and potassium, urea and creatinine, serum osmolality, CBC and cultures for infection, urine analysis; CT brain and CSF examination if metabolic causes are excluded.
+c. Management of the above: hypoglycaemia - IV 50 ml of 50% (or 2-5 ml/kg of 10%) dextrose or IM glucagon, followed by a dextrose infusion and oral carbohydrate on waking, then review of insulin dose and meals. DKA - isotonic saline for rehydration, IV regular insulin infusion 0.1 unit/kg/h, potassium replacement according to serum K, add dextrose when glucose falls to about 250 mg/dl, bicarbonate only if pH below 6.9, treat the precipitating infection, and monitor glucose, electrolytes, pH and watch for cerebral oedema.
 
 ---
 
-### Q220: Case 20: A 35-year-old obese woman has weight loss despite increased appetite, vulval pruritus and frequent nocturia. What are the diagnosis, investigations, and complications?
+### Q220: 35 y. old obese female complain of Wt loss inspite of increase appetite pruritus in her vulva and frequent waking up for urination at night a. What is the diagnosis? b. What are the investigations? c. Complication of the case?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Type 2 diabetes mellitus. Model answer: Confirm with fasting glucose, HbA1c, random glucose with symptoms or a 2-hour oral glucose tolerance test; assess urine and genital infection. Evaluate blood pressure, lipids, kidney function and urine albumin, retinal status, neuropathy and feet. Complications include retinopathy, nephropathy, neuropathy, cardiovascular disease, infection and hyperosmolar crisis.
+**Answer Source:** derived
+**Source Pages:** 22
+**EXP:** a. Diagnosis: diabetes mellitus (type 2, uncontrolled) - weight loss despite increased appetite (polyphagia), nocturia/polyuria and vulval pruritus (candidal vulvovaginitis) in an obese woman.
+b. Investigations: fasting plasma glucose (126 mg/dl or more), 2-hour post-prandial or OGTT glucose (200 mg/dl or more), random glucose 200 mg/dl or more with symptoms, HbA1c (6.5% or more); urine for glucose, ketones and albumin (albumin/creatinine ratio); lipid profile; renal function; fundus examination; ECG; vaginal swab for Candida.
+c. Complications: acute - diabetic ketoacidosis, hyperosmolar hyperglycaemic state, hypoglycaemia with treatment, and infections (candidiasis, urinary tract infection, skin infections); chronic microvascular - retinopathy, nephropathy, neuropathy; macrovascular - coronary artery disease, stroke, peripheral vascular disease; diabetic foot.
 
 ---
 
-### Q221: Case 21: A 16-year-old boy with insulin-dependent diabetes is lethargic and drowsy after three days of vomiting, polyuria and polydipsia while taking soluble insulin only each morning. Temperature is 37.6 C, pulse 140/min and BP 100/60 mmHg. What is the diagnosis, precipitating factors and immediate management?
+### Q221: A 16 y. old boy, with known insulin dependent D.M., was admitted to hospital in a lethargic drowsy condition, with history of vomiting, polyuria & polydespia 3 days before. He was taking soluble insulin 10 units each morning. His temp. was 37.6 °C, pulse was 140/min, BP 100/60 mmHg, heart, lung & abdomen were clinical normal a. What is your diagnosis? b. What are the possible precipitating factors? c. What is your immediate management
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Diabetic ketoacidosis. Model answer: Give isotonic IV saline, assess and replace potassium, start IV regular insulin when potassium is safe, add dextrose as glucose falls while ketones clear, monitor glucose, electrolytes, pH and ketones, and treat infection, missed insulin or other precipitant.
+**Answer Source:** derived
+**Source Pages:** 23
+**EXP:** a. Diagnosis: diabetic ketoacidosis (DKA) in a type 1 diabetic, with severe dehydration (tachycardia 140/min, low BP) and impaired consciousness.
+b. Possible precipitating factors: inadequate insulin (only 10 units of soluble insulin once daily, missed doses or reduction of insulin during vomiting/anorexia); infection (fever 37.6°C - e.g. respiratory, urinary tract or gastroenteritis); other acute stress (trauma, surgery); dietary indiscretion; insulin pump failure; psychological stress or non-compliance.
+c. Immediate management: ABC and IV access; blood for glucose, ketones, blood gases, electrolytes, urea and creatinine, CBC and cultures; IV normal saline 1 L in the first hour (10-20 ml/kg in children) then replacement over 24-48 h; IV regular insulin infusion 0.1 unit/kg/h after confirming K above 3.3 mmol/L; potassium replacement added to fluids according to serum K; 5% dextrose when glucose falls to about 250 mg/dl while continuing insulin until ketoacidosis resolves; bicarbonate only for pH below 6.9; hourly glucose and 2-4 hourly electrolytes and pH, fluid balance chart, watch for cerebral oedema; treat infection; then switch to a proper subcutaneous basal-bolus insulin regimen and education.
 
 ---
 
-### Q222: Case 22: A 12-year-old underweight boy has fever and a tender gluteal abscess, then becomes confused with dry mouth and acidotic breathing. What is the likely diagnosis for the confusion, differential diagnosis and further tests?
+### Q222: A 12 y. old underweight boy had fever for 2 days. Examination revealed a very tender swelling in his right buttock that was diagnosed as a gluteus abscess. Next day the patient was very confused and his mouth was dry, had also acidotic breathing. a. What is the likely diagnosis for the confusion? b. What is your differential diagnosis? c. What further tests do you like to perform to this patient to reach a diagnosis?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Insulin-dependent diabetes complicated by a gluteal abscess leading to DKA. Model answer: Check glucose, ketones, electrolytes, urea/creatinine, pH, bicarbonate, osmolality, CBC, cultures and abscess assessment. Treat DKA with fluids, potassium-guided IV insulin and monitoring; drain the abscess, give antibiotics and support the airway if required.
+**Answer Source:** derived
+**Source Pages:** 23
+**EXP:** a. Likely diagnosis for the confusion: diabetic ketoacidosis in a previously undiagnosed type 1 diabetic (underweight child), precipitated by infection (gluteal abscess) - dry mouth (dehydration), acidotic (Kussmaul) breathing and confusion.
+b. Differential diagnosis: septicaemia/septic shock with lactic acidosis; meningitis or encephalitis; salicylate or other poisoning; uraemic acidosis (acute kidney injury); hypoglycaemia; hyperosmolar hyperglycaemic state; gastroenteritis with dehydration and acidosis.
+c. Further tests: blood glucose; blood/urine ketones (beta-hydroxybutyrate); arterial blood gases (low pH and bicarbonate, high anion gap); serum sodium, potassium, urea and creatinine; serum osmolality; CBC with blood culture and pus culture from the abscess; urine analysis; HbA1c; (C-peptide and islet antibodies later to confirm type 1 DM); lumbar puncture if meningitis is suspected.
 
 ---
 
-### Q223: Case 23: A 60-year-old man has one day of impaired consciousness, weight loss despite good appetite, polyuria, dehydration, glucose 684 mg/dL, raised BUN and creatinine and normal serum bicarbonate. What is the provisional diagnosis, confirmatory investigation and treatment?
+### Q223: A 60 y. old male presented to ER with disturbed level of consciousness of 1 day duration. His relatives reported that he had weight loss over the past few weeks despite of good appetite. They also gave history of polyuria for the last 2-3 weeks. O/E, the pt. was drowsy and dehydrate with sunken eyes. His BP was 140/65 mmHg, temp. was 37°C & tests revealed a Hb of 16 gm/dl, a hematocrit of 50, WBCs 11.000/mm3 & platelets 380.000/mm3. Serum creat. Was 1.8 mg/dl & BUN was 46 mgldl. Random blood sugar was 684 mg/dl. Arterial blood gases (ABG) revealed normal serum bicarbonate. a. What is your provisional diagnosis? b. What investigation would you like to do to confirm your diagnosis? c. What is your suggested line of ttt?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Diabetic ketoacidosis. Model answer: Preserve the printed key, but the normal bicarbonate and marked dehydration also make HHS important. Confirm with ketones, pH and bicarbonate, effective osmolality, electrolytes and anion gap. Treat the hyperglycemic emergency with isotonic saline, potassium-guided IV insulin, dextrose when glucose falls, monitoring and treatment of the precipitant.
+**Answer Source:** derived
+**Source Pages:** 23
+**EXP:** a. Provisional diagnosis: hyperosmolar hyperglycaemic state (HHS; non-ketotic hyperosmolar coma) in a newly presenting type 2 diabetic - elderly patient, very high glucose (684 mg/dl), severe dehydration (haemoconcentration: Hb 16, hematocrit 50; prerenal azotaemia: BUN 46, creatinine 1.8) with normal bicarbonate (no significant acidosis).
+b. Investigations to confirm: serum osmolality (measured or calculated = 2 Na + glucose/18 + BUN/2.8; above 320 mOsm/kg); serum sodium and potassium; blood/urine ketones (absent or mild); arterial blood gases (pH above 7.30, bicarbonate above 18 mmol/L); renal function; HbA1c; search for precipitating factors - CBC, blood and urine cultures, chest X-ray, ECG and cardiac enzymes, CT brain if focal signs.
+c. Line of treatment: IV fluid replacement is the priority - 0.9% saline 1-1.5 L in the first hour, then guided by sodium and osmolality (0.45% saline if corrected sodium is high), replacing the deficit gradually over 24-48 h; low-dose IV insulin (about 0.05-0.1 unit/kg/h) started after fluids have begun to lower glucose, aiming at a slow fall; add 5% dextrose when glucose falls to about 300 mg/dl; potassium replacement; prophylactic low-molecular-weight heparin (thrombosis risk); treat the precipitating cause (infection); monitor glucose, electrolytes, osmolality, urine output and neurological status; later long-term diabetes management (often oral agents or insulin).
 
 ---
 
-### Q224: Case 24: A 22-year-old student has abdominal pain, repeated vomiting, weakness, polydipsia, polyuria, fever, bilateral loin pain and dysuria; she is dehydrated and tachypneic with glucose 450 mg/dL. What are the probable diagnosis, investigations and suggested treatment?
+### Q224: A 22 y. old student presented with abdominal pain, repeated vomiting and marked weakness. Over the last few weeks she noticed polydispia and polyuria. Two days ago she complained of fever, bilateral loin pain and dysuria. O/E, she was dehydrated, tachypneic and feverish. Random blood sugar was 450 mgldl. Abdominal examination revealed tender both loins. a. What is your probable diagnosis? b. What would you investigate such case? c. What is your suggested treatment?
 
 **Correct Answer:** -
-**Answer Source:** key
-**EXP:** Source key: Insulin-dependent diabetes complicated by acute pyelonephritis. Model answer: Evaluate for DKA with glucose, ketones, electrolytes, anion gap, urea/creatinine, pH and bicarbonate, CBC, blood and urine cultures, urinalysis and imaging if needed. Treat with isotonic fluids, potassium-guided IV insulin and monitoring, plus appropriate antibiotics and source control for pyelonephritis.
+**Answer Source:** derived
+**Source Pages:** 23
+**EXP:** a. Probable diagnosis: diabetic ketoacidosis in a newly presenting (type 1) diabetic, precipitated by acute bilateral pyelonephritis (fever, bilateral loin pain and tenderness, dysuria), with dehydration and tachypnoea (Kussmaul breathing); abdominal pain and vomiting are features of DKA.
+b. Investigations: blood glucose; blood and urine ketones; arterial blood gases (low pH and bicarbonate, raised anion gap); serum sodium, potassium, urea and creatinine; CBC; urine analysis (pus cells, bacteria, glucose, ketones) and urine culture and sensitivity; blood culture; abdominal/renal ultrasound (to exclude obstruction or renal abscess); serum amylase/lipase to exclude pancreatitis; HbA1c.
+c. Treatment: IV fluids (normal saline) for rehydration; IV regular insulin infusion 0.1 unit/kg/h with potassium replacement according to serum K; dextrose when glucose falls to about 250 mg/dl while continuing insulin until ketosis resolves; bicarbonate only if pH below 6.9; IV antibiotics for pyelonephritis (e.g. ceftriaxone or a fluoroquinolone, adjusted to culture); antipyretics and antiemetics; close monitoring of glucose, electrolytes and pH; then subcutaneous basal-bolus insulin with diabetes education.
 
 ---

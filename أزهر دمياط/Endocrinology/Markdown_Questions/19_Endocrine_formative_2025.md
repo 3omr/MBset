@@ -1,19 +1,19 @@
 # Endocrine formative 2025 — extracted questions
 
-Total recoverable MCQs: 15
-
-> Status: 15 MCQs recovered from the online-form export; the file contains no answer key, so all answers are derived.
+> Source: `Endocrine formative 2025.pdf` · index 19 · parsed 2026-09-26 by mbset.py
+> Questions: 15 (15 MCQ / 0 written) · answers: marked 15
 
 ### Q1: Myxedema coma is characterized by
 
 - **A)** Hyperglycemia
 - **B)** Hyperventilation
 - **C)** Hypothermia
-- **D)** Sweating
+- **D)** Sweeting
 - **E)** Agitation and tremors
 
 **Correct Answer:** C
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
@@ -23,14 +23,15 @@ Total recoverable MCQs: 15
 - **B)** Increased height
 - **C)** Axillary hair
 - **D)** Pubic hair
-- **E)** Menarche
+- **E)** Menarche name ( Arabic) *
 
 **Correct Answer:** A
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 1, 2
 
 ---
 
-### Q3: name ( Arabic) * Which is not correct regarding thyroiditis?
+### Q3: Which is not correct regarding thyroiditis?
 
 - **A)** Thyroiditis may occur as a side effect of amiodarone or interferon therapy
 - **B)** Hashimoto thyroiditis is the most common cause of hypothyroidism
@@ -38,12 +39,13 @@ Total recoverable MCQs: 15
 - **D)** Goiter is diffuse, if present
 - **E)** High radioiodine uptake is characteristic
 
-**Correct Answer:** D
-**Answer Source:** derived
+**Correct Answer:** E
+**Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
-### Q4: Which is wrong regarding the physiological basal insulin :
+### Q4: Which is wrong regarding the physiological basal insulin:
 
 - **A)** it has anabolic actions
 - **B)** it continues during 24 hours
@@ -51,11 +53,12 @@ Total recoverable MCQs: 15
 - **D)** it has no peak of elevation
 
 **Correct Answer:** A
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
-### Q5: The best antihyperglycemic drug for a patient with type 2 diabetes and heart failure is:
+### Q5: The best antihyperglycemic drug for a patient with type 2 * 1 point diabetes and heart failure is:
 
 - **A)** Pioglitazone
 - **B)** DPP4i inhibitors
@@ -64,31 +67,35 @@ Total recoverable MCQs: 15
 - **E)** Metformin
 
 **Correct Answer:** C
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
-### Q6: The following is a cause of secondary hyperaldosteronism that is not usually associated with hypertension:
+### Q6: The following is a cause of secondary hyperaldosteronism that * 1 point is not usually associated with hypertension:
 
 - **A)** Renal artery stenosis
 - **B)** Coarctation of the aorta
 - **C)** Renin-secreting tumor
 - **D)** Accelerated (malignant) hypertension
+- **E)** Liver cirrhosis
 
-**Correct Answer:** C
-**Answer Source:** derived
+**Correct Answer:** E
+**Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
-### Q7: C-cells of the thyroid gland
+### Q7: C-cells of thyroid gland:
 
-- **A)** Develop from the ultimobranchial body.
+- **A)** Develop from oltimobronchiol body.
 - **B)** Produce calcitonin.
 - **C)** Are the origin of medullary carcinoma.
-- **D)** All of the above
+- **D)** All of the obove
 
 **Correct Answer:** D
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
@@ -100,12 +107,13 @@ Total recoverable MCQs: 15
 - **D)** Thyroiditis
 - **E)** Secondary (pituitary) cause
 
-**Correct Answer:** D
-**Answer Source:** derived
+**Correct Answer:** E
+**Answer Source:** marked
+**Source Pages:** 4
 
 ---
 
-### Q9: In boys, delayed puberty is the lack of starting testicular enlargement by the age of :
+### Q9: In boys, delayed puberty is the lack of starting testicular * 1 point enlargement by the age of:
 
 - **A)** 12y
 - **B)** 13y
@@ -113,12 +121,13 @@ Total recoverable MCQs: 15
 - **D)** 15y
 - **E)** 16 y
 
-**Correct Answer:** D
-**Answer Source:** derived
+**Correct Answer:** C
+**Answer Source:** marked
+**Source Pages:** 4
 
 ---
 
-### Q10: Which is wrong in the complications of metabolic syndrome
+### Q10: Which is wrong in the complications of metabolic syndrome * 1 point
 
 - **A)** May or may not have diabetes
 - **B)** Atherosclerosis
@@ -126,12 +135,13 @@ Total recoverable MCQs: 15
 - **D)** PCOS (polycystic ovary)
 - **E)** Hypotension
 
-**Correct Answer:** C
-**Answer Source:** derived
+**Correct Answer:** E
+**Answer Source:** marked
+**Source Pages:** 4
 
 ---
 
-### Q11: ln physiological goiter the following statements are true except that it
+### Q11: ln physiological goiter the following statements are true except * 1 point that it
 
 - **A)** Affects moles more often than females.
 - **B)** Presents as fullness of the neck (Venus neck).
@@ -140,7 +150,8 @@ Total recoverable MCQs: 15
 - **E)** Usually resolves spontaneously
 
 **Correct Answer:** D
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 5
 
 ---
 
@@ -151,12 +162,13 @@ Total recoverable MCQs: 15
 - **C)** Propranolol.
 - **D)** A and C
 
-**Correct Answer:** D
-**Answer Source:** derived
+**Correct Answer:** C
+**Answer Source:** marked
+**Source Pages:** 5
 
 ---
 
-### Q13: 3 hours post-thyroidectomy, 30-year old woman developed agitation and difficulty breathing, tachycardia and dry dressing but anterior cervical swelling. The most appropriate immediate step is
+### Q13: 3 hours post-thyroidectomy, 30-year old woman developed * 1 point agitation and difficulty breathing, tachycardia and dry dressing but anterior cervical swelling. The most appropriate immediate step is
 
 - **A)** insertion of on oro-trocheol tube
 - **B)** Reopening of the cervical wound
@@ -164,7 +176,8 @@ Total recoverable MCQs: 15
 - **D)** lV morphine
 
 **Correct Answer:** B
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 5
 
 ---
 
@@ -177,18 +190,34 @@ Total recoverable MCQs: 15
 - **E)** Treated with suppressive corticosteroids at night
 
 **Correct Answer:** D
-**Answer Source:** derived
+**Answer Source:** marked
+**Source Pages:** 6
 
 ---
 
-### Q15: The most hopeful etiology of delayed puberty is f. Constitutional delay g. Turner syndrome h. Klinefelter syndrome i. Severe systemic disease j. Gonadal exposure to irradiation in childhood Most diagnostic single investigation for toxic adenoma is:
+### Q15: The most hopeful etiology of delayed puberty is
+
+- **A)** Constitutional delay
+- **B)** Turner syndrome
+- **C)** Klinefelter syndrome
+- **D)** Severe systemic disease
+- **E)** Gonadal exposure to irradiation in childhood
+
+**Correct Answer:** A
+**Answer Source:** marked
+**Source Pages:** 6
+
+---
+### Q16: Most diagnostic single investigation for toxic adenoma is:
 
 - **A)** T3-T4.
 - **B)** US.
 - **C)** Thyroid scan.
 - **D)** FNABC.
 
-**Correct Answer:** A
-**Answer Source:** derived
+**Correct Answer:** C
+**Answer Source:** marked
+**Source Pages:** 6
 
+---
 ---

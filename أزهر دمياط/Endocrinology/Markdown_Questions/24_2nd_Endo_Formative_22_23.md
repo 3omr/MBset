@@ -1,8 +1,7 @@
-# Endocrine formative 2 (2022–2023) — extracted questions
+# 2nd Endo Formative  (22- 23) ans — extracted questions
 
-Total recoverable MCQs: 39
-
-> Status: Marked answers recovered from the form. Q32 was an incomplete form fragment with no recoverable options.
+> Source: `2nd Endo Formative  (22- 23) ans.pdf` · index 24 · parsed 2026-09-26 by mbset.py
+> Questions: 40 (39 MCQ / 1 written) · answers: marked 39
 
 ### Q1: The clinical manifestations of thyroid malignancy include all the following, except
 
@@ -14,110 +13,119 @@ Total recoverable MCQs: 39
 
 **Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
 ### Q2: About thyroid cancer, all the following statements are true, except
 
-- **A)** FNA is enough t o diagnose follicular carcinoma
-- **B)** Anaplast ic carcinoma spreads mainly by local infilt rat ion of surrounding t issues
-- **C)** Spread of follicular carcinoma is mainly Haemat ogenous
-- **D)** Malignancy appears as a cold nodule on thyroid isot ope scan
-- **E)** The prognosis of different iat ed thyroid cancer is bet t er t han t he anaplast ic t ype
+- **A)** FNA is enough to diagnose follicular carcinoma
+- **B)** Anaplastic carcinoma spreads mainly by local infiltration of surrounding tissues
+- **C)** Spread of follicular carcinoma is mainly Haematogenous
+- **D)** Malignancy appears as a cold nodule on thyroid isotope scan
+- **E)** The prognosis of differentiated thyroid cancer is better than the anaplastic type
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
 ### Q3: About treatment of Graves' disease all the following statements :are true, except
 
-- **A)** Thyroidect omy is t he first -line treat ment
-- **B)** Agranulocyt osis is a possible complicat ion of ant i-thyroid drugs
-- **C)** Radioact ive iodine t herapy is cont raindicat ed during pregnancy
-- **D)** Radioact ive iodine t herapy is bet t er avoided in cases of exopt halmos
-- **E)** If thyroidect omy is decided upon, t oxicit y should be cont rolled by medications prior .t o surgery
+- **A)** Thyroidectomy is the first-line treatment
+- **B)** Agranulocytosis is a possible complication of anti-thyroid drugs
+- **C)** Radioactive iodine therapy is contraindicated during pregnancy
+- **D)** Radioactive iodine therapy is better avoided in cases of exopthalmos
+- **E)** If thyroidectomy is decided upon, toxicity should be controlled by medications prior to surgery
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
 ### Q4: About stridor in the postoperative period after thyroidectomy, all :the following statements are true, except
 
-- **A)** Unilat eral recurrent laryngeal nerve injury causes stridor
-- **B)** Dyspnea due t o deep neck hemat oma should be immediat ely evacuat ed
-- **C)** Laryngeal oedema is a cause of st rider
-- **D)** Tracheal collapse due t o t racheomalacia is a rare cause of stridor
-- **E)** Ext ernal laryngeal nerve injury does not cause stridor
+- **A)** Unilateral recurrent laryngeal nerve injury causes stridor
+- **B)** Dyspnea due to deep neck hematoma should be immediately evacuated
+- **C)** Laryngeal oedema is a cause of strider
+- **D)** Tracheal collapse due to tracheomalacia is a rare cause of stridor
+- **E)** External laryngeal nerve injury does not cause stridor
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
-### Q5: A patient with severe hypertension is ref erred to an inpatient clinic, Af ter testing there was a very high level of plasma Aldosterone. Which of the following changes would be expected to find in this patient ; an increase in reabsorption of
+### Q5: A patient with severe hypertension is referred to an inpatient clinic, After testing there was a very high level of plasma Aldosterone. Which of the following changes would be expected to find in this patient; an increase in reabsorption of
 
 - **A)** Hydrogen
-- **B)** Pot assium
+- **B)** Potassium
 - **C)** Calcium
 - **D)** Sodium
 - **E)** magnesium
 
 **Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
-### Q6: Manif estations of over dosage of thyroxin in management of hypothyroidism in a young child may include any of the following except
+### Q6: Manifestations of over dosage of thyroxin in management of hypothyroidism in a young child may include any of the following except
 
 - **A)** Tachycardia
 - **B)** Fever
 - **C)** Sleeplessness
 - **D)** Diarrhoea
-- **E)** Vomit ing
+- **E)** Vomiting
 
 **Correct Answer:** E
 **Answer Source:** marked
+**Source Pages:** 3
 
 ---
 
 ### Q7: All the following are correct about national screening program for congenital hypothyroidism except
 
-- **A)** A dry blood spot on filt er paper is t aken from aprike heel capillary blood
-- **B)** The sample is collect ed from t he t hird t o t he svent h day of t he life
+- **A)** A dry blood spot on filter paper is taken from aprike heel capillary blood
+- **B)** The sample is collected from the third to the sventh day of the life
 - **C)** TSH is measured
-- **D)** Posit ive cases should st art immediat ely lif long treat ment
-- **E)** Blood sampling of premat ure should not be delayed
+- **D)** Positive cases should start immediately lif long treatment
+- **E)** Blood sampling of premature should not be delayed
 
 **Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 4
 
 ---
 
 ### Q8: One of the following is false about calcitriol ?actions
 
-- **A)** Increases absorpt ion of calcium by t he int est ine
-- **B)** Increases format ion of calcium binding prot ein,( Calbindin
+- **A)** Increases absorption of calcium by the intestine
+- **B)** Increases formation of calcium binding protein,( Calbindin
 - **C)** Increases secretion of PTH
-- **D)** Promot es bone mineralizat ion
+- **D)** Promotes bone mineralization
 - **E)** Increases renal reabsorption of calcium
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 4
 
 ---
 
 ### Q9: One of the following is false about parathyroid hormone ?actions
 
-- **A)** St imulat es resorpt ion of (Ca, Ph and Mg) from bones
-- **B)** Inhibit s resorpt ion of (Ca, Ph and Mg) from bones
+- **A)** Stimulates resorption of (Ca, Ph and Mg) from bones
+- **B)** Inhibits resorption of (Ca, Ph and Mg) from bones
 - **C)** Increases calcium and magnesium reabsorption by kidneys
-- **D)** Increases excret ion of Ph by kidneys
-- **E)** St imulat es calcit riol synt hesis st ep in kidneys
+- **D)** Increases excretion of Ph by kidneys
+- **E)** Stimulates calcitriol synthesis step in kidneys
 
 **Correct Answer:** B
 **Answer Source:** marked
+**Source Pages:** 5
 
 ---
 
@@ -125,25 +133,27 @@ Total recoverable MCQs: 39
 
 - **A)** Increased
 - **B)** Decreased
-- **C)** Not affect ed
+- **C)** Not affected
 - **D)** Normal
 - **E)** All of above
 
 **Correct Answer:** B
 **Answer Source:** marked
+**Source Pages:** 5
 
 ---
 
-### Q11: In resorptive bone diseases, serum calcium is
+### Q11: ?In resorptive bone diseases, serum calcium is
 
 - **A)** Increased
 - **B)** Decreased
-- **C)** Not affect ed
+- **C)** Not affected
 - **D)** Normal
 - **E)** All of above
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 6
 
 ---
 
@@ -153,23 +163,25 @@ Total recoverable MCQs: 39
 - **B)** 2 cm
 - **C)** 1 cm
 - **D)** 4 cm
-- **E)** none of t he above
+- **E)** none of the above
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 6
 
 ---
 
-### Q13: The mass ef f ects of pituitary macroadenoma upward the structure compressed is
+### Q13: The mass effects of pituitary macroadenoma upward the structure compressed is
 
 - **A)** sphenoid sinus
-- **B)** opt ic chiasm
-- **C)** post erior communicat ing art ery
-- **D)** post erior fossa compression
-- **E)** none of t he above
+- **B)** optic chiasm
+- **C)** posterior communicating artery
+- **D)** posterior fossa compression
+- **E)** none of the above
 
 **Correct Answer:** B
 **Answer Source:** marked
+**Source Pages:** 6
 
 ---
 
@@ -183,57 +195,62 @@ Total recoverable MCQs: 39
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 7
 
 ---
 
 ### Q15: Post-operative Complications of pituitary adenoma include the following except
 
-- **A)** Diabet es Insipidus
-- **B)** Diabet es mellit es
-- **C)** hypot halamic injury
+- **A)** Diabetes Insipidus
+- **B)** Diabetes mellites
+- **C)** hypothalamic injury
 - **D)** CSF leak
-- **E)** none of t he above
+- **E)** none of the above
 
 **Correct Answer:** B
 **Answer Source:** marked
+**Source Pages:** 7
 
 ---
 
-### Q16: Patient presents with sudden onset of headache, visual disturbance, ophthalmoplegia, and reduced mental status . The diagnosis is
+### Q16: Patient presents with sudden onset of headache, visual disturbance, ophthalmoplegia, and reduced mental status. The diagnosis is
 
-- **A)** pit uit ary adenoma
-- **B)** pit uit ary apoplexy
-- **C)** Rat hke”s pouch
-- **D)** hypot halamic glioma
-- **E)** none of t he above
+- **A)** pituitary adenoma
+- **B)** pituitary apoplexy
+- **C)** Rathke"s pouch
+- **D)** hypothalamic glioma
+- **E)** none of the above
 
 **Correct Answer:** B
 **Answer Source:** marked
+**Source Pages:** 8
 
 ---
 
 ### Q17: The adenohypophysis originates from
 
-- **A)** pit uit ary st alk
-- **B)** Rat hke”s pouch
-- **C)** Hypot halamus
+- **A)** pituitary stalk
+- **B)** Rathke"s pouch
+- **C)** Hypothalamus
 - **D)** Cavernous sinus
-- **E)** None of t he above
+- **E)** None of the above
 
 **Correct Answer:** B
 **Answer Source:** marked
+**Source Pages:** 8
 
 ---
 
-### Q18: Which one of the following drugs promotes the release of endogenous insulin
+### Q18: ?Which one of the following drugs promotes the release of endogenous insulin
 
 - **A)** Acarbose
-- **B)** Pioglit azone
+- **B)** Pioglitazone
 - **C)** Glimpride
-- **D)** Met formin
+- **D)** Metformin
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 8
 
 ---
 
@@ -241,253 +258,274 @@ Total recoverable MCQs: 39
 
 - **A)** Glipizide
 - **B)** Insulin lispro
-- **C)** Met formin
-- **D)** Saxaglipt in
+- **C)** Metformin
+- **D)** Saxagliptin
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 9
 
 ---
 
-### Q20: A 56-year-old woman was recently diagnosed with type 2 diabetes. Her medical history was significant for a serious allergic reaction to sulf amethoxazole and for recurrent urinary tract inf ections presently treated with ciprofloxacin. An appropriate therapy was prescribed that included a strict diet and an oral antidiabetic drug. Which of the following drugs would be contraindicated for this ?patient
+### Q20: A 56-year-old woman was recently diagnosed with type 2 diabetes. Her medical history was significant for a serious allergic reaction to sulfamethoxazole and for recurrent urinary tract infections presently treated with ciprofloxacin. An appropriate therapy was prescribed that included a strict diet and an oral antidiabetic drug. Which of the following drugs would be contraindicated for this ?patient
 
 - **A)** Glyburide
-- **B)** Met formin
+- **B)** Metformin
 - **C)** Repaglinide
 - **D)** Acarbose
-- **E)** Pioglit azone
+- **E)** Pioglitazone
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 9
 
 ---
 
 ### Q21: Which of the following drugs for diabetes would be LEAST likely to cause weight ?gain
 
 - **A)** Glimepiride
-- **B)** Liraglut ide
-- **C)** Pioglit azone
+- **B)** Liraglutide
+- **C)** Pioglitazone
 - **D)** Repaglinide
 - **E)** Insulin glulisine
 
 **Correct Answer:** B
 **Answer Source:** marked
+**Source Pages:** 10
 
 ---
 
-### Q22: A 72-year-old man with Type-2 diabetes and hypertension presents to the emergency department af ter f eeling dizzy and f alling. In the emergency department, he becomes conf used and does not know where he is. His blood pressure is 134/76 mm Hg. His blood sugar is 34 mg/dL. He is given dextrose, and as his blood sugar improves, so does his mental status. What medication most likely ?caused this patient’s hypoglycemia
+### Q22: A 72-year-old man with Type-2 diabetes and hypertension presents to the emergency department after feeling dizzy and falling. In the emergency department, he becomes confused and does not know where he is. His blood pressure is 134/76 mm Hg. His blood sugar is 34 mg/dL. He is given dextrose, and as his blood sugar improves, so does his mental status. What medication most likely ?caused this patient's hypoglycemia
 
 - **A)** Acarbose
-- **B)** Exenat ide
+- **B)** Exenatide
 - **C)** Glyburide
-- **D)** Met formin
-- **E)** Pioglit azone
+- **D)** Metformin
+- **E)** Pioglitazone
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 10
 
 ---
 
 ### Q23: The confirmatory test for diabetes insipidus is
 
-- **A)** Insulin st imulat ion t est
-- **B)** ACTH st imulat ion t est
-- **C)** Wat er deprivat ion t est
-- **D)** Saline suppression t est
+- **A)** Insulin stimulation test
+- **B)** ACTH stimulation test
+- **C)** Water deprivation test
+- **D)** Saline suppression test
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 11
 
 ---
 
-### Q24: Which is f alse regarding prolactinoma
+### Q24: Which is false regarding prolactinoma
 
-- **A)** Present ed wit h galact orrhea-amenorrhea syndrome
-- **B)** Drug-relat ed hyperprolact inemia may present wit h similar pict ure
-- **C)** Does not respond t o medical treat ment
-- **D)** Pressure sympt oms may be absent or present
+- **A)** Presented with galactorrhea-amenorrhea syndrome
+- **B)** Drug-related hyperprolactinemia may present with similar picture
+- **C)** Does not respond to medical treatment
+- **D)** Pressure symptoms may be absent or present
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 11
 
 ---
 
 ### Q25: Thyrotoxicosis occurs without hyperthyroidism (activity of the grand) in
 
 - **A)** Graves
-- **B)** mult inodular goit er
-- **C)** solit ary nodule
-- **D)** thyroidit is
+- **B)** multinodular goiter
+- **C)** solitary nodule
+- **D)** thyroiditis
 
 **Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 11
 
 ---
 
-### Q26: Regarding Graves' disease, which is f alse
+### Q26: Regarding Graves' disease, which is false
 
-- **A)** it is t he most common cause of hyperthyroidism
-- **B)** it is aut oimmune in nat ure
-- **C)** best treat ed surgically
-- **D)** exopht halmos may precede thyroid manifest at ions in young girls
+- **A)** it is the most common cause of hyperthyroidism
+- **B)** it is autoimmune in nature
+- **C)** best treated surgically
+- **D)** exophthalmos may precede thyroid manifestations in young girls
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 12
 
 ---
 
 ### Q27: Among the following adrenal disorders, this is not responsible for secondary hypertension
 
-- **A)** Some t ypes of congenital adrenal hyperplasia (adreno-genit al syndrome
+- **A)** Some types of congenital adrenal hyperplasia (adreno-genital syndrome
 - **B)** Conn's syndrome
 - **C)** Cushing's syndrome
 - **D)** Addison's disease
 
 **Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 12
 
 ---
 
 ### Q28: Turner syndrome is not characterized by
 
 - **A)** Primary amenorrhea
-- **B)** Short st at ure
-- **C)** Chromosomal karyot yping is 47XXY
-- **D)** Skelet al and ment al abnormalit ies
+- **B)** Short stature
+- **C)** Chromosomal karyotyping is 47XXY
+- **D)** Skeletal and mental abnormalities
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 12
 
 ---
 
 ### Q29: Which of the following confirmed values meet the diagnostic threshold for ?diabetes
 
-- **A)** fast ing blood glucose 140 mg/dl
+- **A)** fasting blood glucose 140 mg/dl
 - **B)** random glucose > 160 mg/dl
-- **C)** 2 hour post prandial glucose ≥ t o 126 mg/dl
-- **D)** fast ing blood glucose ≥ 126 mg/dl
+- **C)** 2 hour post prandial glucose ≥ to 126 mg/dl
+- **D)** fasting blood glucose ≥ 126 mg/dl
 
 **Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 13
 
 ---
 
-### Q30: Which of the following statements is correct
+### Q30: ?Which of the following statements is correct
 
-- **A)** Insulin suppresses t he act ivit y of glycogen synt hesis
-- **B)** Insulin mediat es glucose upt ake in t he brain
-- **C)** "Prediabet es" is a condit ion charact erized by an increased risk for t he fut ure .development of t ype 2 diabet es
-- **D)** The rise in insulin concent rat ion aft er meal ingest ion is reduced in t ype 1 but not in .t ype 2 diabet es
+- **A)** Insulin suppresses the activity of glycogen synthesis
+- **B)** Insulin mediates glucose uptake in the brain
+- **C)** "Prediabetes" is a condition characterized by an increased risk for the future development of type 2 diabetes
+- **D)** The rise in insulin concentration after meal ingestion is reduced in type 1 but not in type 2 diabetes
 
-**Correct Answer:** D
+**Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 13
 
 ---
 
-### Q31: The risk f actors for type 2 diabetes mellitus include
+### Q31: The risk factors for type 2 diabetes mellitus include
 
-- **A)** family hist ory
+- **A)** family history
 - **B)** being overweight
-- **C)** high int ake of diet ary fat
-- **D)** All of t he opt ions list ed are correct
+- **C)** high intake of dietary fat
+- **D)** All of the options listed are correct
 
 **Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 13
 
 ---
 
 ### Q32: The pathogenesis of hyperglycemia in type 2 diabetes includes all the following :mechanisms except for
 
-- **A)** Increased glucose product ion by t he liver
+- **A)** Increased glucose production by the liver
 - **B)** Impaired insulin secretion
-- **C)** Decreased glucose upt ake from t he skelet al muscle
-- **D)** All of t he opt ions given are correct
+- **C)** Decreased glucose uptake from the skeletal muscle
+- **D)** All of the options given are correct
 
 **Correct Answer:** D
 **Answer Source:** marked
+**Source Pages:** 14
 
 ---
 
 ### Q33: The test for checking mean plasma glucose concentration over the previous 8-12 :weeks is
 
 - **A)** Hemoglobin A1c
-- **B)** Oral glucose t olerance t est (OGTT
-- **C)** Fruct osamine t est
-- **D)** Fast ing plasma glucose concent rat ion
+- **B)** Oral glucose tolerance test (OGTT
+- **C)** Fructosamine test
+- **D)** Fasting plasma glucose concentration
 
 **Correct Answer:** A
 **Answer Source:** marked
+**Source Pages:** 14
 
 ---
 
-### Q34: Which statement best describes the dif f erences between the characteristics of :type 1 and type 2 diabetes
+### Q34: Which statement best describes the differences between the characteristics of :type 1 and type 2 diabetes
 
-- **A)** persons wit h t ype 2 diabet es usually require lower doses of insulin t han person wit h .t ype 1 diabet es because t hey have a milder form of diabet es
-- **B)** persons wit h t ype 1 diabet es rapidly develop chronic complicat ions
-- **C)** aut oimmune fact ors are involved in t he pat hogenesis of t ype 1 but not t ype 2 .diabet es
-- **D)** persons wit h t ype 1 diabet es can increase endogenous insulin product ion by t aking .oral hypoglycemic agent s
+- **A)** persons with type 2 diabetes usually require lower doses of insulin than person with type 1 diabetes because they have a milder form of diabetes
+- **B)** persons with type 1 diabetes rapidly develop chronic complications
+- **C)** autoimmune factors are involved in the pathogenesis of type 1 but not type 2 diabetes
+- **D)** persons with type 1 diabetes can increase endogenous insulin production by taking oral hypoglycemic agents
 
-**Correct Answer:** D
+**Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 14
 
 ---
 
-### Q35: Which of the following is not a beneficial ef f ect of exercise in people with :diabetes
+### Q35: Which of the following is not a beneficial effect of exercise in people with :diabetes
 
-- **A)** Reduct ion of t riglycerides
+- **A)** Reduction of triglycerides
 - **B)** Hypoglycemia
-- **C)** increase of insulin sensit ivit y
-- **D)** help cont rolling hypert ension
+- **C)** increase of insulin sensitivity
+- **D)** help controlling hypertension
 
 **Correct Answer:** B
 **Answer Source:** marked
+**Source Pages:** 15
 
 ---
 
 ### Q36: Insulin deficiency is associated with
 
 - **A)** Reduced lipolysis
-- **B)** Increased ket ogenesis
+- **B)** Increased ketogenesis
 - **C)** Reduced gluconeogenesis
-- **D)** Reduced prot eolysis
+- **D)** Reduced proteolysis
 
 **Correct Answer:** B
 **Answer Source:** marked
+**Source Pages:** 15
 
 ---
 
-### Q37: Diabetes mellitus is a disorder characterized by hyperglycemia. Which of the ?following are not the common characteristic f eatures of type 2 diabetes mellitus
+### Q37: Diabetes mellitus is a disorder characterized by hyperglycemia. Which of the ?following are not the common characteristic features of type 2 diabetes mellitus
 
 - **A)** Impaired insulin secretion
-- **B)** Increased Insulin resist ance
-- **C)** Diabet ic ket oacidosis
-- **D)** Excessive hepat ic glucose product ion
+- **B)** Increased Insulin resistance
+- **C)** Diabetic ketoacidosis
+- **D)** Excessive hepatic glucose production
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 15
 
 ---
 
-### Q38: Which of the following are not the criteria for the diagnosis of diabetes
+### Q38: ?Which of the following are not the criteria for the diagnosis of diabetes
 
-- **A)** Fast ing blood glucose >126 mg/dL
-- **B)** 2-hour post prandial glucose >140 mg/dL
+- **A)** Fasting blood glucose >126 mg/dL
+- **B)** 2-hour postprandial glucose >140 mg/dL
 - **C)** HbA1C > 6.5%
-- **D)** Random blood glucose >200 mg/dL wit h classical sympt oms
+- **D)** Random blood glucose >200 mg/dL with classical symptoms
 
 **Correct Answer:** B
 **Answer Source:** marked
+**Source Pages:** 16
 
 ---
 
 ### Q39: Prediabetes is the term used for individuals that do not meet the criteria for diabetes but are too high to be considered normal. Which of the following ?statement accurately characterize prediabetes
 
-- **A)** Fast ing blood glucose from 120-180 mg/dL
-- **B)** Fast ing blood glucose from 126-140 mg/dL
-- **C)** Fast ing blood glucose from 110-125 mg/dL
-- **D)** All of t he above Microsoft . . . .
+- **A)** Fasting blood glucose from 120-180 mg/dL
+- **B)** Fasting blood glucose from 126-140 mg/dL
+- **C)** Fasting blood glucose from 110-125 mg/dL
+- **D)** All of the above
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 16
 
 ---

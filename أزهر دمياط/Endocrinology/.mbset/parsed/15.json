@@ -1,0 +1,977 @@
+{
+ "nn": "15",
+ "source": "Raw_PDF_Questions/mcq on diabetic drugs.docx",
+ "sha256": "574ae2aa45517a4ac63a28f08b035e688d46eb02267121f441e1eef612dbc870",
+ "at": "2026-09-26T05:04:32Z",
+ "layout": {
+  "method": "docx",
+  "splits": {}
+ },
+ "counters": {
+  "source_numbering": 0,
+  "sections": [],
+  "option_a_lines": 10,
+  "parsed_questions": 10,
+  "parsed_numbered": 10,
+  "declared_total": null
+ },
+ "gaps": [],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [],
+  "grid_hits": 0,
+  "style_stats": {
+   "bold": 0.0,
+   "color": 0.0,
+   "tick": 0.0,
+   "highlight": 0.25,
+   "fill": 0.0,
+   "tint": 0.0,
+   "ink": 0.0,
+   "circle": 0.0,
+   "box": 0.0,
+   "underline": 0.0
+  },
+  "marked_hits": 10,
+  "answered": 10,
+  "mcq": 10,
+  "at": "2026-09-26T05:04:32Z"
+ },
+ "distribution": {
+  "A": 0.5,
+  "B": 0.3,
+  "C": 0.2
+ },
+ "dropped_lines": [],
+ "dropped_count": 0,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 0,
+  "dropped": [],
+  "stale": []
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": 1,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which class of antidiabetic drugs works by increasing insulin sensitivity in muscle and adipose tissue?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sulfonylureas",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      24.0,
+      500,
+      34.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Biguanides",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "highlight"
+     ],
+     "page": 0,
+     "bbox": [
+      0,
+      36.0,
+      500,
+      46.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Thiazolidinediones",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      48.0,
+      500,
+      58.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "DPP-4 inhibitors",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      60.0,
+      500,
+      70.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_inferred"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    0,
+    12.0,
+    500,
+    70.0
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with highlight"
+  },
+  {
+   "i": 2,
+   "number": 2,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following antidiabetic drugs is known to cause weight gain and hypoglycemia as common side effects?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Metformin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      96.0,
+      500,
+      106.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Sitagliptin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      108.0,
+      500,
+      118.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Glipizide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "highlight"
+     ],
+     "page": 0,
+     "bbox": [
+      0,
+      120.0,
+      500,
+      130.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Pioglitazone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      132.0,
+      500,
+      142.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    0,
+    72.0,
+    500,
+    142.0
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with highlight"
+  },
+  {
+   "i": 3,
+   "number": 3,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which antidiabetic drug class is associated with the risk of causing lactic acidosis?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Thiazolidinediones",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      168.0,
+      500,
+      178.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "SGLT2 inhibitors",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      180.0,
+      500,
+      190.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Biguanides",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "highlight"
+     ],
+     "page": 0,
+     "bbox": [
+      0,
+      192.0,
+      500,
+      202.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Alpha-glucosidase inhibitors",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      204.0,
+      500,
+      214.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    0,
+    144.0,
+    500,
+    214.0
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with highlight"
+  },
+  {
+   "i": 4,
+   "number": 4,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which medication is a GLP-1 receptor agonist used to improve glycemic control and promote weight loss?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Liraglutide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "highlight"
+     ],
+     "page": 0,
+     "bbox": [
+      0,
+      240.0,
+      500,
+      250.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Acarbose",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      252.0,
+      500,
+      262.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Glimepiride",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      264.0,
+      500,
+      274.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Empagliflozin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      276.0,
+      500,
+      286.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    0,
+    216.0,
+    500,
+    286.0
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with highlight"
+  },
+  {
+   "i": 5,
+   "number": 5,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which antidiabetic medication acts by inhibiting the enzyme DPP-4, thereby increasing insulin release and decreasing glucagon levels?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Saxagliptin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "highlight"
+     ],
+     "page": 0,
+     "bbox": [
+      0,
+      312.0,
+      500,
+      322.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Metformin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      324.0,
+      500,
+      334.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pioglitazone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      336.0,
+      500,
+      346.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Canagliflozin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      348.0,
+      500,
+      358.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    0,
+    288.0,
+    500,
+    358.0
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with highlight"
+  },
+  {
+   "i": 6,
+   "number": 6,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which class of antidiabetic drugs works by blocking the reabsorption of glucose in the kidneys?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "SGLT2 inhibitors",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "highlight"
+     ],
+     "page": 0,
+     "bbox": [
+      0,
+      384.0,
+      500,
+      394.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Alpha-glucosidase inhibitors",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      396.0,
+      500,
+      406.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Thiazolidinediones",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      408.0,
+      500,
+      418.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Biguanides",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      420.0,
+      500,
+      430.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    0,
+    360.0,
+    500,
+    430.0
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with highlight"
+  },
+  {
+   "i": 7,
+   "number": 7,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which medication is a common alpha-glucosidase inhibitor that works by slowing carbohydrate absorption in the intestine?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Acarbose",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "highlight"
+     ],
+     "page": 0,
+     "bbox": [
+      0,
+      456.0,
+      500,
+      466.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Glyburide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      468.0,
+      500,
+      478.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Sitagliptin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      480.0,
+      500,
+      490.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Metformin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      492.0,
+      500,
+      502.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    0,
+    432.0,
+    500,
+    502.0
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with highlight"
+  },
+  {
+   "i": 8,
+   "number": 8,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which antidiabetic medication is known for its potential to cause bladder cancer as a rare side effect?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Metformin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      528.0,
+      500,
+      538.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Pioglitazone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "highlight"
+     ],
+     "page": 0,
+     "bbox": [
+      0,
+      540.0,
+      500,
+      550.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Glipizide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      552.0,
+      500,
+      562.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Exenatide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      564.0,
+      500,
+      574.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    0,
+    504.0,
+    500,
+    574.0
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with highlight"
+  },
+  {
+   "i": 9,
+   "number": 9,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which medication is a rapid-acting insulin analog used to manage postprandial blood glucose levels?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lispro",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "highlight"
+     ],
+     "page": 0,
+     "bbox": [
+      0,
+      600.0,
+      500,
+      610.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "NPH insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      612.0,
+      500,
+      622.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Glargine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      624.0,
+      500,
+      634.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Detemir",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      636.0,
+      500,
+      646.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    0,
+    576.0,
+    500,
+    646.0
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with highlight"
+  },
+  {
+   "i": 10,
+   "number": 10,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which antidiabetic drug class can lead to significant gastrointestinal side effects such as nausea and diarrhea?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "SGLT2 inhibitors",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      672.0,
+      500,
+      682.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Biguanides",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "highlight"
+     ],
+     "page": 0,
+     "bbox": [
+      0,
+      684.0,
+      500,
+      694.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Thiazolidinediones",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      696.0,
+      500,
+      706.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "DPP-4 inhibitors",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      0,
+      708.0,
+      500,
+      718.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    0,
+    648.0,
+    500,
+    718.0
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with highlight"
+  }
+ ]
+}

@@ -1,10 +1,9 @@
-# Diabetes questions — extracted questions
+# اسئلة DM منير — extracted questions
 
-Total recoverable MCQs: 90
+> Source: `اسئلة DM منير.pdf` · index 10 · parsed 2026-09-26 by mbset.py
+> Questions: 90 (90 MCQ / 0 written) · answers: key 90
 
-> Status: 0 numbered blocks were omitted because options/key were incomplete.
-
-### Q1: The following class of anti diabetic drugs has cardioprotective benefits ?
+### Q1: The following class of anti diabetic drugs has cardioprotective benefits?
 
 - **A)** Sodium glucose co-transporter 2 inhibitors (SGLT-2 Inhibitors)
 - **B)** Sulphonylureas
@@ -13,10 +12,11 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q2: Which is wrong regarding the physiologic basal insulin ?
+### Q2: Which is wrong regarding the physiologic basal insulin?
 
 - **A)** It has anabolic actions
 - **B)** It continues during 24 hours
@@ -25,10 +25,11 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q3: Which is wrong in the complications of metabolic syndrome ?
+### Q3: Which is wrong in the complications of metabolic syndrome?
 
 - **A)** May or may not have diabetes
 - **B)** Atherosclerosis
@@ -38,10 +39,11 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q4: In T2DM, which is false ?
+### Q4: In T2DM, which is false?
 
 - **A)** Insulin resistance is the main pathophysiology
 - **B)** It is potentially preventable disease
@@ -51,10 +53,11 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q5: The most important risk factor for diabetic macrovascular complications is ?
+### Q5: The most important risk factor for diabetic macrovascular complications is?
 
 - **A)** Insulin resistance
 - **B)** Insulin deficiency
@@ -64,10 +67,11 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q6: Which injectable and oral glucose-lowering drugs has efficacy as adjuncts to insulin treatment of type 1 diabetes ?
+### Q6: Which injectable and oral glucose-lowering drugs has efficacy as adjuncts to insulin treatment of type 1 diabetes?
 
 - **A)** Pioglitazone
 - **B)** Pramlintide which is an amylin analogue
@@ -76,6 +80,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -89,10 +94,11 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q8: Which one of the following drugs promotes the release of endogenous insulin :
+### Q8: Which one of the following drugs promotes the release of endogenous insulin:
 
 - **A)** Acarbose
 - **B)** Pioglitazone
@@ -101,10 +107,11 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q9: A 69-year-old male with type 2 diabetes and advanced chronic kidney disease. Which of the following diabetes medications is contraindicated in this patient :
+### Q9: A 69-year-old male with type 2 diabetes and advanced chronic kidney disease. Which of the following diabetes medications is contraindicated in this patient:
 
 - **A)** Glipizide
 - **B)** lnsulin lispro
@@ -113,6 +120,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -126,6 +134,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -139,6 +148,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
@@ -151,10 +161,11 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 1
 
 ---
 
-### Q13: Which of the following statements is correct :
+### Q13: Which of the following statements is correct:
 
 - **A)** Insulin suppresses the activity of glycogen synthesis
 - **B)** Insulin mediates glucose uptake in the brain
@@ -163,6 +174,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -175,10 +187,11 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q15: The pathogenesis of hyperglycemia in type 2 diabetes includes all the following mechanisms except for :
+### Q15: The pathogenesis of hyperglycemia in type 2 diabetes includes all the following mechanisms except for:
 
 - **A)** Increased glucose production by the liver
 - **B)** Impaired insulin secretion
@@ -187,10 +200,11 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q16: The test for checking mean plasma glucose concentration over the previous 8-12 weeks is :
+### Q16: The test for checking mean plasma glucose concentration over the previous 8-12 weeks is:
 
 - **A)** Hemoglobin A1C
 - **B)** Oral glucose tolerance test (OGTT)
@@ -199,10 +213,11 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q17: Which statement best describes the differences between the characteristics of type 1 and type 2 diabetes :
+### Q17: Which statement best describes the differences between the characteristics of type 1 and type 2 diabetes:
 
 - **A)** persons with type 2 diabetes usually require lower doses of insulin than person with type 1 diabetes because they have a milder form of diabetes
 - **B)** persons with type 1 diabetes rapidly develop chronic complications
@@ -211,6 +226,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -223,10 +239,11 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q19: Diabetes mellitus is a disorder characterized by hyperglycemia. Which of the following are common characteristic features of type 2 diabetes mellitus :
+### Q19: Diabetes mellitus is a disorder characterized by hyperglycemia. Which of the following are common characteristic features of type 2 diabetes mellitus:
 
 - **A)** Impaired insulin secretion
 - **B)** Increased Insulin resistance
@@ -235,10 +252,11 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q20: Which of the following are not the criteria for the diagnosis of diabetes :
+### Q20: Which of the following are not the criteria for the diagnosis of diabetes:
 
 - **A)** Fasting blood glucose >126 mg/dL
 - **B)** 2-hour postprandial glucose >140 mg/dL
@@ -247,10 +265,11 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
-### Q21: Prediabetes is the term used for individuals that do not meet the criteria for diabetes but are too high to be considered normal. Which of the following statement accurately characterize prediabetes :
+### Q21: Prediabetes is the term used for individuals that do not meet the criteria for diabetes but are too high to be considered normal. Which of the following statement accurately characterize prediabetes:
 
 - **A)** Fasting blood glucose from 120-180 mg/dL
 - **B)** Fasting blood glucose from 126-140 mg/dL
@@ -259,6 +278,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -272,6 +292,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -284,6 +305,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2
 
 ---
 
@@ -296,6 +318,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 2, 3
 
 ---
 
@@ -308,6 +331,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -320,6 +344,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -333,6 +358,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -346,6 +372,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -359,6 +386,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -372,6 +400,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -385,6 +414,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** E
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -398,6 +428,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -411,6 +442,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -424,18 +456,21 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
 ### Q35: Risk factors for microvascular complications does not include
 
-- **A)** Long duration of DM b, Prolonged hyperglycemia
-- **B)** HTN
-- **C)** Insulin resistance
-- **D)** Genetic factors
+- **A)** Long duration of DM
+- **B)** Prolonged hyperglycemia
+- **C)** HTN
+- **D)** Insulin resistance
+- **E)** Genetic factors
 
-**Correct Answer:** C
+**Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -448,6 +483,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 3
 
 ---
 
@@ -460,6 +496,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -471,6 +508,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -482,6 +520,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -493,6 +532,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -504,6 +544,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -516,6 +557,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -527,6 +569,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -538,6 +581,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -549,6 +593,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -560,6 +605,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -572,6 +618,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -584,6 +631,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -596,10 +644,11 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
-### Q50: Thiazolidinedione group of anti-diabetic is :
+### Q50: Thiazolidinedione group of anti-diabetic is:
 
 - **A)** Voglibose
 - **B)** Nateglinide
@@ -608,6 +657,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -620,10 +670,11 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
-### Q52: All are features of diabetic ketoacidosis except :
+### Q52: All are features of diabetic ketoacidosis except:
 
 - **A)** Hyperthermia
 - **B)** Drowsiness
@@ -632,10 +683,11 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
-### Q53: Commonest cause of coma in a diabetic is :
+### Q53: Commonest cause of coma in a diabetic is:
 
 - **A)** Diabetic ketoacidosis
 - **B)** Lactic acidosis
@@ -644,6 +696,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** D
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -656,6 +709,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 4
 
 ---
 
@@ -668,6 +722,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 4, 5
 
 ---
 
@@ -680,6 +735,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -692,6 +748,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -704,6 +761,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -716,6 +774,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -728,6 +787,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -740,6 +800,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -752,6 +813,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -764,6 +826,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -776,6 +839,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -788,6 +852,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 5
 
 ---
 
@@ -800,6 +865,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 5, 6
 
 ---
 
@@ -812,6 +878,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
@@ -824,6 +891,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
@@ -836,6 +904,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
@@ -848,6 +917,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
@@ -860,6 +930,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
@@ -872,6 +943,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
@@ -884,6 +956,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
@@ -896,6 +969,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
@@ -908,6 +982,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
@@ -920,6 +995,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
@@ -932,6 +1008,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
@@ -944,6 +1021,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 6
 
 ---
 
@@ -956,6 +1034,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
@@ -968,6 +1047,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
@@ -980,6 +1060,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
@@ -992,6 +1073,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
@@ -1004,6 +1086,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
@@ -1016,6 +1099,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
@@ -1028,6 +1112,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
@@ -1040,6 +1125,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** C
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
@@ -1052,6 +1138,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
@@ -1064,6 +1151,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** A
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
@@ -1076,6 +1164,7 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 7
 
 ---
 
@@ -1088,5 +1177,6 @@ Total recoverable MCQs: 90
 
 **Correct Answer:** B
 **Answer Source:** key
+**Source Pages:** 7
 
 ---

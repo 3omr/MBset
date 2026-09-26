@@ -1,0 +1,3051 @@
+{
+ "nn": "07",
+ "source": "Raw_PDF_Questions/parathyroid questions منير.pdf",
+ "sha256": "21dbf3d3717684c1dd545075927e57e904ef65781430aa847c96f49b13cd24b2",
+ "at": "2026-09-26T06:22:09Z",
+ "layout": {
+  "method": "native",
+  "splits": {
+   "1": 302.7,
+   "2": 302.7,
+   "3": 297.7
+  }
+ },
+ "counters": {
+  "source_numbering": 33,
+  "sections": [
+   "1-33"
+  ],
+  "option_a_lines": 33,
+  "parsed_questions": 33,
+  "parsed_numbered": 33,
+  "declared_total": null
+ },
+ "gaps": [],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [
+   33
+  ],
+  "grid_hits": 33,
+  "style_stats": {
+   "bold": 0.0,
+   "color": 0.0,
+   "tick": 0.0,
+   "highlight": 0.0,
+   "fill": 0.0,
+   "tint": 0.0,
+   "ink": 0.0,
+   "circle": 0.0,
+   "box": 0.0,
+   "underline": 0.0
+  },
+  "marked_hits": 0,
+  "answered": 33,
+  "mcq": 33,
+  "at": "2026-09-26T06:22:09Z"
+ },
+ "distribution": {
+  "A": 0.182,
+  "B": 0.394,
+  "C": 0.182,
+  "D": 0.182,
+  "E": 0.061
+ },
+ "dropped_lines": [
+  "1 A 12 B 23 C",
+  "2 C 13 C 24 B",
+  "3 A 14 B 25 B",
+  "4 A 15 B 26 C",
+  "5 D 16 B 27 B",
+  "6 B 17 D 28 A",
+  "7 E 18 B 29 D",
+  "8 D 19 D 30 A",
+  "9 E 20 B 31 D",
+  "10 C 21 C 32 B",
+  "11 B 22 A 33 B",
+  "❖ Hyperparathyroidism: Causes, Clinical",
+  "manifestations & investigations & TTT",
+  "❖ Hypoparathyroidism: Causes, Clinical",
+  "manifestations & investigations & TTT"
+ ],
+ "dropped_count": 15,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 0,
+  "dropped": [],
+  "stale": []
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": 1,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The main reservoir of calcium in our body is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Bones",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      52.93201446533203,
+      70.86000061035156,
+      67.58401489257812
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Parathyroid gland",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      69.99201202392578,
+      125.81599426269531,
+      84.64401245117188
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Liver",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      86.91199493408203,
+      62.459999084472656,
+      101.56399536132812
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Intestine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      103.95197296142578,
+      81.53999328613281,
+      118.60397338867188
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    21.239999771118164,
+    36.01197052001953,
+    273.5660095214844,
+    118.60397338867188
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 2,
+   "number": 2,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Bone tissues hardened through mineralizationby",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Magnesium mainly",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      137.7919921875,
+      135.656005859375,
+      152.44400024414062
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Chloride",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      154.83197021484375,
+      82.97999572753906,
+      169.48397827148438
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Calcium mainly",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      171.75201416015625,
+      118.97599792480469,
+      186.40402221679688
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Aluminum",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      188.7919921875,
+      89.81999969482422,
+      203.44400024414062
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    21.239999771118164,
+    120.87201690673828,
+    298.906005859375,
+    203.44400024414062
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 3,
+   "number": 3,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In resorptive bone diseases, serum calcium is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Increased",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      239.70196533203125,
+      87.29999542236328,
+      254.35397338867188
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Decreased",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      273.6619873046875,
+      92.0999984741211,
+      288.3139953613281
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Normal",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      256.62200927734375,
+      74.33999633789062,
+      271.2740173339844
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "All of above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      290.58197021484375,
+      95.81999969482422,
+      305.2339782714844
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    21.239999771118164,
+    205.71197509765625,
+    272.5680236816406,
+    305.2339782714844
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 4,
+   "number": 4,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In hyperparathyroidism, serum calcium is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Increased",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      324.5419921875,
+      87.29999542236328,
+      339.1940002441406
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Decreased",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      341.46197509765625,
+      92.0999984741211,
+      356.1139831542969
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Not affected",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      358.5019836425781,
+      100.0199966430664,
+      373.15399169921875
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Normal",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      375.4219970703125,
+      75.18000030517578,
+      390.0740051269531
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    21.239999771118164,
+    307.50201416015625,
+    264.5660095214844,
+    390.0740051269531
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 5,
+   "number": 5,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which one of the following in chronic liver cell failure is true",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Serum albumin is normal",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      426.3219909667969,
+      165.656005859375,
+      440.9739990234375
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Serum calcitriol is normal",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      443.36199951171875,
+      168.5360107421875,
+      458.0140075683594
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Serum calcium is normal",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      460.281982421875,
+      164.4560089111328,
+      474.9339904785156
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "All of the above are false",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      477.2019958496094,
+      161.5760040283203,
+      491.85400390625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    21.239999771118164,
+    392.36199951171875,
+    262.7160339355469,
+    491.85400390625
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 6,
+   "number": 6,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In chronic renal failure the level of serum calcitriol is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Increased",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      528.2019653320312,
+      87.29999542236328,
+      542.8539428710938
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Decreased",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      545.1519775390625,
+      92.0999984741211,
+      559.803955078125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Normal",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      562.0719604492188,
+      74.33999633789062,
+      576.7239379882812
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "All of above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      579.1119995117188,
+      95.81999969482422,
+      593.7639770507812
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    21.239999771118164,
+    494.2419738769531,
+    258.15594482421875,
+    593.7639770507812
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 7,
+   "number": 7,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 30-year-old woman presents with hypertension, weakness, bone pain, and a serum calcium level of 15.2 mg/dL. Hand films show osteitis fibrosa cystica. Which of the following is the most likely cause of these findings",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sarcoidosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      697.9320068359375,
+      96.65999603271484,
+      712.583984375
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Vitamin D intoxication",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      714.8519897460938,
+      149.21600341796875,
+      729.5039672851562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Paget disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      731.77197265625,
+      106.85599517822266,
+      746.4239501953125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Metastatic carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      748.81201171875,
+      149.09600830078125,
+      763.4639892578125
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Primary hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      21.239999771118164,
+      765.7319946289062,
+      184.76600646972656,
+      780.3839721679688
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    21.239999771118164,
+    596.031982421875,
+    269.69000244140625,
+    780.3839721679688
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 8,
+   "number": 8,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 35-year-old woman presents with a serum calcium level of 15.2 mg/dL and an elevated parathyroid hormone level. Following correction of the patient's hypercalcemia with hydration and furosemide, which of the following is the best therapeutic approach",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Administration of steroids",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      137.7919921875,
+      456.2560119628906,
+      152.44400024414062
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Radiation treatment to the neck",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      154.83197021484375,
+      486.2560119628906,
+      169.48397827148438
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Neck exploration and resection of all 4 parathyroid glands",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      171.75201416015625,
+      519.7359619140625,
+      186.40402221679688
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Neck exploration and resection of a parathyroid adenoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      205.71197509765625,
+      566.7099609375,
+      220.36398315429688
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Avoidance of sunlight, vitamin D, and calcium- containing dairy products",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      239.70196533203125,
+      559.3200073242188,
+      254.35397338867188
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    308.7099914550781,
+    36.01197052001953,
+    566.7099609375,
+    271.2740173339844
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 9,
+   "number": 9,
+   "section": 1,
+   "type": "QCS",
+   "stem": "One of the following is false about bone turn- over remodeling",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Essential for bone repair",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      307.50201416015625,
+      448.45599365234375,
+      322.1540222167969
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Essential for adaptation of the bone to the forces placed on it",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      324.5419921875,
+      538.4500122070312,
+      339.1940002441406
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Essential for growth during childhood period",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      358.5019836425781,
+      550.115966796875,
+      373.15399169921875
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Reservoir for maintaining normal blood calcium level",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      375.4219970703125,
+      568.35400390625,
+      390.0740051269531
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Essential for intestinal absorption of calcium and phosphorus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      409.4019775390625,
+      552.76611328125,
+      424.0539855957031
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    308.7099914550781,
+    273.6619873046875,
+    568.35400390625,
+    440.9739990234375
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 10,
+   "number": 10,
+   "section": 1,
+   "type": "QCS",
+   "stem": "One of the following is false about calcitriol actions",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Increases absorption of calcium by the intestine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      477.2019958496094,
+      522.9819946289062,
+      491.85400390625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Increases formation of calcium binding protein (Calbindin)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      511.1619873046875,
+      563.7699584960938,
+      525.81396484375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Increases secretion of PTH",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      545.1519775390625,
+      460.45599365234375,
+      559.803955078125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Promotes bone mineralization",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      562.0719604492188,
+      478.5760192871094,
+      576.7239379882812
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Increases renal reabsorption of calcium",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      579.1119995117188,
+      527.89599609375,
+      593.7639770507812
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    308.7099914550781,
+    443.36199951171875,
+    565.115966796875,
+    593.7639770507812
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 11,
+   "number": 11,
+   "section": 1,
+   "type": "QCS",
+   "stem": "One of the following is false about parathyroid hormone actions",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Stimulates resorption of (Ca, Ph and Mg) from bones",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      629.9920043945312,
+      557.5180053710938,
+      644.6439819335938
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Inhibits resorption of (Ca, Ph and Mg) from bones",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      663.9519653320312,
+      540.1300048828125,
+      678.6039428710938
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Increases calcium and magnesium reabsorption by kidneys",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      697.9320068359375,
+      503.1759948730469,
+      712.583984375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Increases excretion of Ph by kidneys",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      731.77197265625,
+      509.2959899902344,
+      746.4239501953125
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Stimulates calcitriol synthesis step in kidneys",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      308.7099914550781,
+      748.81201171875,
+      557.0759887695312,
+      763.4639892578125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    308.7099914550781,
+    596.031982421875,
+    557.5180053710938,
+    763.4639892578125
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 12,
+   "number": 12,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The most accurate description of findings in hypoparathyroidism is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Low serum calcium; spontaneous fractures",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      69.99201202392578,
+      259.7659912109375,
+      84.64401245117188
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Low serum calcium; tetany",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      86.91199493408203,
+      175.01600646972656,
+      101.56399536132812
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "High serum calcium; tetany",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      103.95197296142578,
+      177.17601013183594,
+      118.60397338867188
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "High serum calcium; low serum phosphorus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      120.87201690673828,
+      264.08599853515625,
+      135.52401733398438
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    21.239999771118164,
+    36.01197052001953,
+    279.6239929199219,
+    135.52401733398438
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 13,
+   "number": 13,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following is not a complication of hyperparathyroidism",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Renal stones",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      171.75201416015625,
+      103.01599884033203,
+      186.40402221679688
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Pancreatitis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      188.7919921875,
+      97.5,
+      203.44400024414062
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Gall bladder stones",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      205.71197509765625,
+      138.7760009765625,
+      220.36398315429688
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Osteoporosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      222.6619873046875,
+      105.89599609375,
+      237.31399536132812
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    21.239999771118164,
+    137.7919921875,
+    244.28602600097656,
+    237.31399536132812
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 14,
+   "number": 14,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The underlying etiology of hypoparathyroidism does not include",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Autoimmune",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      273.6619873046875,
+      103.13599395751953,
+      288.3139953613281
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Adenoma of the parathyroid",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      290.58197021484375,
+      179.12600708007812,
+      305.2339782714844
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Developmental defect",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      307.50201416015625,
+      150.05599975585938,
+      322.1540222167969
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Surgical removal",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      324.5419921875,
+      122.21599578857422,
+      339.1940002441406
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    21.239999771118164,
+    239.70196533203125,
+    226.2860107421875,
+    339.1940002441406
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 15,
+   "number": 15,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Secondary hyperparathyroidism is commonly found in",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Milk alkali syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      375.4219970703125,
+      141.17601013183594,
+      390.0740051269531
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Chronic renal failure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      392.36199951171875,
+      140.93600463867188,
+      407.0140075683594
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "MEN syndromes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      409.4019775390625,
+      119.81599426269531,
+      424.0539855957031
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Sarcoidosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      426.3219909667969,
+      96.89999389648438,
+      440.9739990234375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    21.239999771118164,
+    341.46197509765625,
+    229.22398376464844,
+    440.9739990234375
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 16,
+   "number": 16,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In primary hyperparathyroidism there is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "hypocalcemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      460.281982421875,
+      109.73600006103516,
+      474.9339904785156
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "hypercalcemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      477.2019958496094,
+      113.81599426269531,
+      491.85400390625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "hypophosphatemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      494.2419738769531,
+      136.7360076904297,
+      508.89398193359375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    21.239999771118164,
+    443.36199951171875,
+    257.3659973144531,
+    508.89398193359375
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 17,
+   "number": 17,
+   "section": 1,
+   "type": "QCS",
+   "stem": "TTT of hypercalcemia include",
+   "options": [
+    {
+     "letter": "A",
+     "text": "IV saline",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      528.2019653320312,
+      82.6199951171875,
+      542.8539428710938
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Loop diuretics",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      545.1519775390625,
+      113.33599853515625,
+      559.803955078125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "calcitonin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      562.0719604492188,
+      90.41999816894531,
+      576.7239379882812
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "all of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      579.1119995117188,
+      115.01599884033203,
+      593.7639770507812
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    21.239999771118164,
+    511.1619873046875,
+    203.36599731445312,
+    593.7639770507812
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 18,
+   "number": 18,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Bisphosphonate are used for TTT of the following",
+   "options": [
+    {
+     "letter": "A",
+     "text": "increase activity of osteoclast",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      629.9920043945312,
+      190.04600524902344,
+      644.6439819335938
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "increase osteoclastic bone resorption",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      646.9119873046875,
+      232.16600036621094,
+      661.56396484375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "increase activity of vit D",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      663.9519653320312,
+      158.21600341796875,
+      678.6039428710938
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "increase calcitonin production",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      680.8720092773438,
+      194.6060028076172,
+      695.5239868164062
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    21.239999771118164,
+    596.031982421875,
+    252.61203002929688,
+    695.5239868164062
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 19,
+   "number": 19,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hypocalcemia is characterized by the following except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "parathesia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      731.77197265625,
+      91.37999725341797,
+      746.4239501953125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "tetany",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      765.7319946289062,
+      69.53999328613281,
+      780.3839721679688
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "lenticular cataract",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      748.81201171875,
+      131.21600341796875,
+      763.4639892578125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "shorting of Q-t interval in the ECG",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      21.239999771118164,
+      782.77197265625,
+      209.24600219726562,
+      797.4239501953125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    21.239999771118164,
+    697.9320068359375,
+    246.6119384765625,
+    797.4239501953125
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 20,
+   "number": 20,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In patient with pseudo hypoparathyroidism serum PTH is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "normal",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      69.99201202392578,
+      361.0660095214844,
+      84.64401245117188
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "increase",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      86.91199493408203,
+      369.10601806640625,
+      101.56399536132812
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "decrease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      103.95197296142578,
+      371.9859924316406,
+      118.60397338867188
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    308.7099914550781,
+    36.01197052001953,
+    562.6781005859375,
+    118.60397338867188
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 21,
+   "number": 21,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In parathyroid pathology, investigation of choice is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Gallium scan",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      154.83197021484375,
+      397.3059997558594,
+      169.48397827148438
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Thallium scan",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      171.75201416015625,
+      396.10601806640625,
+      186.40402221679688
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Technetiurn 99 sestamibi scan",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      188.7919921875,
+      481.8160095214844,
+      203.44400024414062
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "CT scan",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      205.71197509765625,
+      365.9859924316406,
+      220.36398315429688
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    308.7099914550781,
+    120.87201690673828,
+    550.7139282226562,
+    220.36398315429688
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 22,
+   "number": 22,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hyperparathyroidism is not featured by",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Acute panaeatitis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      239.70196533203125,
+      414.8260192871094,
+      254.35397338867188
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Nephrocalcinosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      256.62200927734375,
+      415.1860046386719,
+      271.2740173339844
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Palpable neck swelling",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      273.6619873046875,
+      442.21600341796875,
+      288.3139953613281
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Pseudogout",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      290.58197021484375,
+      386.3860168457031,
+      305.2339782714844
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    308.7099914550781,
+    222.6619873046875,
+    544.7160034179688,
+    305.2339782714844
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 23,
+   "number": 23,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Malignant hypercalcaemia is treated by all except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pamidronate",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      341.46197509765625,
+      390.58599853515625,
+      356.1139831542969
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Calcitonin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      358.5019836425781,
+      377.5060119628906,
+      373.15399169921875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Calcitriol",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      375.4219970703125,
+      372.34600830078125,
+      390.0740051269531
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Glucocorticoids",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      392.36199951171875,
+      408.10601806640625,
+      407.0140075683594
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    308.7099914550781,
+    307.50201416015625,
+    559.677978515625,
+    407.0140075683594
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 24,
+   "number": 24,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Low calcium and high phosphate is seen in",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      426.3219909667969,
+      438.0159912109375,
+      440.9739990234375
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hypoparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      443.36199951171875,
+      428.5360107421875,
+      458.0140075683594
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hyperthyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      460.281982421875,
+      408.8260192871094,
+      474.9339904785156
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypothyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      477.2019958496094,
+      405.9460144042969,
+      491.85400390625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    308.7099914550781,
+    409.4019775390625,
+    564.0359497070312,
+    491.85400390625
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 25,
+   "number": 25,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Asymptomatic hypercalcemia in a 30 year old young male is due to",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Occult primary malignancy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      528.2019653320312,
+      462.85601806640625,
+      542.8539428710938
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Primary hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      545.1519775390625,
+      472.6960144042969,
+      559.803955078125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Familial hypocalciuria",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      562.0719604492188,
+      436.5760192871094,
+      576.7239379882812
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypernephroma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      579.1119995117188,
+      408.10601806640625,
+      593.7639770507812
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    308.7099914550781,
+    494.2419738769531,
+    555.946044921875,
+    593.7639770507812
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 26,
+   "number": 26,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Secondary hyperparathyroidism is seen in all of the following, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Rickets",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      629.9920043945312,
+      361.3059997558594,
+      644.6439819335938
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Osteomalacia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      646.9119873046875,
+      396.34600830078125,
+      661.56396484375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Osteoporosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      663.9519653320312,
+      392.5060119628906,
+      678.6039428710938
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Renal failure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      680.8720092773438,
+      388.5459899902344,
+      695.5239868164062
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    308.7099914550781,
+    596.031982421875,
+    557.9380493164062,
+    695.5239868164062
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 27,
+   "number": 27,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 45 year old man, known case of chronic renal failure develops rugger jersey spine The probable cause is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Aluminium intoxication",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      748.81201171875,
+      448.45599365234375,
+      763.4639892578125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Secondary hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      765.7319946289062,
+      488.2959899902344,
+      780.3839721679688
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Osteoporosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      308.7099914550781,
+      782.77197265625,
+      392.5060119628906,
+      797.4239501953125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    308.7099914550781,
+    697.9320068359375,
+    556.0919799804688,
+    797.4239501953125
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 28,
+   "number": 28,
+   "section": 1,
+   "type": "QCS",
+   "stem": "AII of the following statements about pseudohypoparathyroidism are true, except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "↓ Serum PTH",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      69.99201202392578,
+      103.13599395751953,
+      84.64401245117188
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "↓ Serum calcium",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      86.91199493408203,
+      124.01599884033203,
+      101.56399536132812
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "↑ Serum phosphate",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      103.95197296142578,
+      137.21600341796875,
+      118.60397338867188
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Albright's hereditary osteodystrophy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      120.87201690673828,
+      221.96600341796875,
+      135.52401733398438
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    21.239999771118164,
+    36.01197052001953,
+    263.60601806640625,
+    135.52401733398438
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 29,
+   "number": 29,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hypercalciuria is seen in",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      154.83197021484375,
+      144.7760009765625,
+      169.48397827148438
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Vit. D intoxication",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      171.75201416015625,
+      126.53599548339844,
+      186.40402221679688
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Sarcoidosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      188.7919921875,
+      96.18000030517578,
+      203.44400024414062
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "All of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      205.71197509765625,
+      117.53599548339844,
+      220.36398315429688
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    21.239999771118164,
+    137.7919921875,
+    178.76600646972656,
+    220.36398315429688
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 30,
+   "number": 30,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is not a feature of hypercalcemia",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Diarrhea",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      256.62200927734375,
+      80.69999694824219,
+      271.2740173339844
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Polyuria",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      273.6619873046875,
+      77.45999908447266,
+      288.3139953613281
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Depression",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      290.58197021484375,
+      94.5,
+      305.2339782714844
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Vomiting",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      307.50201416015625,
+      81.65999603271484,
+      322.1540222167969
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    21.239999771118164,
+    222.6619873046875,
+    260.1960144042969,
+    322.1540222167969
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 31,
+   "number": 31,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The most common cause of severe hypercalcemia is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Vitamin D toxicity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      358.5019836425781,
+      125.69599914550781,
+      373.15399169921875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Sarcoidosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      375.4219970703125,
+      96.65999603271484,
+      390.0740051269531
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Chronic renal failure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      392.36199951171875,
+      140.4560089111328,
+      407.0140075683594
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Malignancy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      409.4019775390625,
+      95.2199935913086,
+      424.0539855957031
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    21.239999771118164,
+    324.5419921875,
+    230.71197509765625,
+    424.0539855957031
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 32,
+   "number": 32,
+   "section": 1,
+   "type": "QCS",
+   "stem": "all cases of hyperparathyroidism have ↑ Ca except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "1ry hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      460.281982421875,
+      161.33599853515625,
+      474.9339904785156
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "2ry hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      477.2019958496094,
+      161.33599853515625,
+      491.85400390625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "3ry hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      494.2419738769531,
+      160.8560028076172,
+      508.89398193359375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    21.239999771118164,
+    426.3219909667969,
+    275.6999816894531,
+    508.89398193359375
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 33,
+   "number": 33,
+   "section": 1,
+   "type": "QCS",
+   "stem": "commonest cause of hyperparathyroidism",
+   "options": [
+    {
+     "letter": "A",
+     "text": "1ry hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      528.2019653320312,
+      161.33599853515625,
+      542.8539428710938
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "2ry hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      545.1519775390625,
+      161.33599853515625,
+      559.803955078125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "3ry hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      21.239999771118164,
+      562.0719604492188,
+      160.8560028076172,
+      576.7239379882812
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    21.239999771118164,
+    511.1619873046875,
+    272.96600341796875,
+    576.7239379882812
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  }
+ ]
+}

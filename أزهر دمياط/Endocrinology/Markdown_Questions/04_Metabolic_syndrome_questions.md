@@ -1,18 +1,22 @@
 # Metabolic syndrome questions — extracted questions
 
-### Q1: Metabolic syndrome comprises all of the following except:
+> Source: `Metabolic syndrome questions.pdf` · index 04 · parsed 2026-09-26 by mbset.py
+> Questions: 10 (8 MCQ / 2 written) · answers: marked 8
+
+### Q1: Metabolic syndrome comprises of all except
 
 - **A)** Hypertension
 - **B)** Dyslipidemia
-- **C)** Type 1 diabetes mellitus
-- **D)** Central or upper-body obesity
+- **C)** Type1 diabetes mellitus
+- **D)** Central/upper body obesity
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
-### Q2: All of the following parameters are included in the diagnostic criteria of metabolic syndrome except:
+### Q2: All of the following parameters are included in the diagnostic criteria of metabolic syndrome except
 
 - **A)** Serum HDL levels
 - **B)** Serum triglyceride levels
@@ -21,46 +25,50 @@
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
-### Q3: Various risk factors for metabolic syndrome include all of the following except:
+### Q3: Various risk factors for metabolic syndrome includes all except
 
-- **A)** Increasing age
+- **A)** Increasing Age
 - **B)** Obesity
 - **C)** Congenital heart disease
-- **D)** Sedentary lifestyle
+- **D)** Sedentary life style
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
-### Q4: Metabolic syndrome is associated with an increased risk of all of the following except:
+### Q4: Metabolic syndrome is associated with increased risk of all except
 
 - **A)** Cardiovascular disease
-- **B)** Type 2 diabetes mellitus
+- **B)** Type2 diabetes mellitus
 - **C)** Hypothyroidism
 - **D)** Non-alcoholic fatty liver disease
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 1
 
 ---
 
-### Q5: What is the most effective strategy in the management of metabolic syndrome?
+### Q5: Most effective strategy in management of metabolic syndrome is
 
-- **A)** Use of insulin-sensitizing agents
+- **A)** Use of insulin sensitizing agents
 - **B)** Lifestyle changes
-- **C)** Treatment of hyperlipidemia
+- **C)** Treatment of Hyperlipidemia
 - **D)** Treatment of hypertension
 
 **Correct Answer:** B
 **Answer Source:** marked
+**Source Pages:** 1, 2
 
 ---
 
-### Q6: Metabolic syndrome is also known as all of the following except:
+### Q6: Metabolic syndrome is also known as all except
 
 - **A)** Insulin resistance syndrome
 - **B)** Syndrome X
@@ -69,30 +77,33 @@
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
-### Q7: What is the basic pathophysiology associated with the pathogenesis of metabolic syndrome?
+### Q7: Basic pathophysiology associated with the pathogenesis of metabolic syndrome is
 
 - **A)** Hypertension
 - **B)** Hyperlipidemia
-- **C)** Insulin resistance
+- **C)** Insulin Resistance
 - **D)** Hyperglycemia
 
 **Correct Answer:** C
 **Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
-### Q8: According to the IDF criteria for diagnosis of metabolic syndrome, state the odd one out.
+### Q8: According to IDF criteria for diagnosis of metabolic syndrome strike the odd one out- Triglycerymia < 150 mg/dl
 
 **Correct Answer:** -
-**Answer Source:** marked
-**EXP:** Triglyceridemia below 150 mg/dL.
+**Answer Source:** key
+**Source Pages:** 2
+**EXP:** A triglyceride level below 150 mg/dL is the odd one out under the stated metabolic syndrome criteria.
 
 ---
 
-### Q9: Acanthosis nigricans is a feature of:
+### Q9: Acanthosis nigricans is a feature of
 
 - **A)** Obesity
 - **B)** Insulin resistance
@@ -101,13 +112,15 @@
 
 **Correct Answer:** B
 **Answer Source:** marked
+**Source Pages:** 2
 
 ---
 
-### Q10: Which condition is not associated with metabolic syndrome?
+### Q10: Which of the following conditions not associated with metabolic syndrome Polycystic kidney disease
 
 **Correct Answer:** -
-**Answer Source:** marked
-**EXP:** Polycystic kidney disease.
+**Answer Source:** key
+**Source Pages:** 2
+**EXP:** Polycystic kidney disease is not associated with metabolic syndrome.
 
 ---

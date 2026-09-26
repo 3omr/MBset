@@ -40,17 +40,19 @@ OCR_Text/
 Telegram_Staging/
 Lectures*/
 Lecture_PowerPoint_PDF_Staging/
-.mbset/work/
-.mbset/ocr/
-.mbset/cache/
-.mbset/locks/
-.mbset/state.lock
-.mbset/*.tmp
-.mbset/reports/*.png
+**/.mbset/work/
+**/.mbset/ocr/
+**/.mbset/cache/
+**/.mbset/locks/
+**/.mbset/state.lock
+**/.mbset/*.tmp
+**/.mbset/reports/*.png
 *.ppsx
 *.ndjson
 *.mp4
 
 # tidy moves removed items here (restorable, never versioned)
 _trash/
-.mbset/archive/
+**/.mbset/archive/
+**/.mbset/packets/
+**/.mbset/state.pre-*.json

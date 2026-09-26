@@ -1,5 +1,7 @@
 # Excluded source record
 
-**Status:** EXCLUDED — The scan contains diagrams/lecture notes and no recoverable question blocks.
+**Source:** `Surgery & Pediatric.pdf`
 
-No question rows were created from this source.
+**Status:** EXCLUDED — Pages 1–4 are adrenal and thyroid lecture notes/diagrams; page 1 has note prompts, but no discrete exam question blocks are recoverable.
+
+No question rows were created from this source. The parser output is kept in `.mbset/excluded_md/` for audit.

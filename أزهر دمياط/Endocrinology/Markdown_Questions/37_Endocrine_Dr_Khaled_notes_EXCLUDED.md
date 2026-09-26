@@ -1,5 +1,7 @@
 # Excluded source record
 
-**Status:** EXCLUDED — The 64-page file is a colored lecture-note/revision handout; OCR inventory found no reliable numbered question blocks with answer choices.
+**Source:** `Endocrine د.خالد ملونة.pdf`
 
-No question rows were created from this source.
+**Status:** EXCLUDED — Excluded: 64-page colored lecture-note/revision handout, pages 1-64; inspected representative pages across pituitary, hypogonadism, puberty, thyroid, parathyroid, and diabetes sections plus full-page contact sheet. Contains explanatory notes, tables, figures, and highlighted study points, but no actual question stems/options or exam prompts.
+
+No question rows were created from this source. The parser output is kept in `.mbset/excluded_md/` for audit.

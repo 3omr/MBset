@@ -1,0 +1,10 @@
+# Parser profile for 08 — pituitary questions منير.pdf
+# class=digital_two_column pages=4 has_text=True columns=2 bold_ratio=0.21 mark_rects=1
+# signals={'moodle': 0, 'docreader_quiz': None, 'phone': 0, 'question_numbers': 23, 'option_lines': 100, 'grid_pairs_tail': 57, 'declared_total': None, 'figure_words': 3}
+# Only fields that differ from the template/DEFAULT are needed. Field reference:
+#   .agents/skills/mbset-module-curator/references/profiles.md
+source: Raw_PDF_Questions/pituitary questions منير.pdf
+template: digital_two_column
+columns: 2
+options_inline: true
+option_pattern: '^\s*(?:\.\s*)*[(\[]?([a-fA-F])\s*(?:[.)\]:,]|-(?=\s))\s*(?=\S)'

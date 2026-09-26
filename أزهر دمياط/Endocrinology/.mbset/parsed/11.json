@@ -1,0 +1,7578 @@
+{
+ "nn": "11",
+ "source": "Raw_PDF_Questions/Thyroid Mansoura.pdf",
+ "sha256": "8d20b788b1453ec0856c37da9f47e1512eb18b466b1e1fd66c2822cbcb291ab6",
+ "at": "2026-09-26T05:04:26Z",
+ "layout": {
+  "method": "native",
+  "splits": {
+   "1": null,
+   "2": null,
+   "3": null,
+   "4": null,
+   "5": null,
+   "6": null,
+   "7": null,
+   "8": null,
+   "9": null,
+   "10": null,
+   "11": null,
+   "12": null,
+   "13": null,
+   "14": null,
+   "15": null,
+   "16": null,
+   "17": null,
+   "18": null
+  }
+ },
+ "counters": {
+  "source_numbering": 70,
+  "sections": [
+   "2-71"
+  ],
+  "option_a_lines": 72,
+  "parsed_questions": 72,
+  "parsed_numbered": 71,
+  "declared_total": null
+ },
+ "gaps": [],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [
+   72
+  ],
+  "grid_hits": 71,
+  "style_stats": {
+   "bold": 0.0,
+   "color": 0.0,
+   "tick": 0.0,
+   "highlight": 0.226,
+   "fill": 0.226,
+   "tint": 0.0,
+   "ink": 0.003,
+   "circle": 0.0,
+   "box": 0.0,
+   "underline": 0.0
+  },
+  "marked_hits": 71,
+  "answered": 71,
+  "mcq": 72,
+  "at": "2026-09-26T05:04:26Z"
+ },
+ "distribution": {
+  "A": 0.155,
+  "B": 0.155,
+  "C": 0.31,
+  "D": 0.239,
+  "E": 0.141
+ },
+ "dropped_lines": [
+  "1 C",
+  "2 D",
+  "3 D",
+  "4 E",
+  "5 C",
+  "6 C",
+  "7 B",
+  "8 C",
+  "9 C",
+  "10 D",
+  "11 A",
+  "12 C",
+  "13 C",
+  "14 C",
+  "15 A",
+  "16 C",
+  "17 C",
+  "18 E",
+  "19 A",
+  "20 B",
+  "21 D",
+  "22 D",
+  "23 B",
+  "24 C",
+  "25 E",
+  "26 D",
+  "27 E",
+  "28 E",
+  "29 D",
+  "30 B",
+  "31 B",
+  "32 E",
+  "33 D",
+  "34 E",
+  "35 B",
+  "36 E",
+  "37 C",
+  "38 D",
+  "39 C",
+  "40 D",
+  "41 D",
+  "42 A",
+  "43 C",
+  "44 B",
+  "45 C",
+  "46 B",
+  "47 C",
+  "48 E",
+  "49 D",
+  "50 D",
+  "51 E",
+  "52 A",
+  "53 E",
+  "54 C",
+  "55 C",
+  "56 C",
+  "57 D",
+  "58 B",
+  "59 A",
+  "60 A",
+  "61 C",
+  "62 C",
+  "63 D",
+  "64 B",
+  "65 A",
+  "66 A",
+  "67 D",
+  "68 D",
+  "69 A",
+  "70 C",
+  "71 A",
+  "72 B",
+  "Thyroid gland"
+ ],
+ "dropped_count": 73,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 0,
+  "dropped": [
+   {
+    "stem": "Hypertension in a patient with a family history of medullary thyroid carcinoma is most often due To:",
+    "reason": "Source p14 has options A-D only, while the printed key is E; the missing E option is not present or recoverable."
+   }
+  ],
+  "stale": []
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": 1,
+   "section": 1,
+   "type": "QCS",
+   "stem": "l. As regard embryology of thyroid:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Develops from 1st branchial Arch.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      147.8299560546875,
+      324.363037109375,
+      164.5699920654297
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Develops from 4th branchial Arch.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      164.8699951171875,
+      322.4430236816406,
+      181.60997009277344
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Both A and Above.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      182.55380249023438,
+      234.9430389404297,
+      198.77000427246094
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Develops from 2nd branchial pouch",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      199.07000732421875,
+      326.5230407714844,
+      215.8099822998047
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "None of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      216.63375854492188,
+      234.82302856445312,
+      232.84996032714844
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_inferred"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    90.02400207519531,
+    133.36996459960938,
+    326.5230407714844,
+    232.84996032714844
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 2,
+   "number": 2,
+   "section": 1,
+   "type": "QCS",
+   "stem": "C-cells of thyroid gland:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Develop from ultimobranchial body.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      268.0237731933594,
+      335.04302978515625,
+      284.239990234375
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Produce calcitonin.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      285.0637512207031,
+      237.9430389404297,
+      301.27996826171875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Are the origin of medullary carcinoma.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      302.1037902832031,
+      348.363037109375,
+      318.32000732421875
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "All of the above.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      319.2637634277344,
+      222.22303771972656,
+      335.47998046875
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    90.02400207519531,
+    253.04000854492188,
+    348.363037109375,
+    335.47998046875
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 3,
+   "number": 3,
+   "section": 1,
+   "type": "QCS",
+   "stem": "As regard to T3:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Less concentration thon circulating T4.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      370.5037841796875,
+      348.8430480957031,
+      386.7200012207031
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "More potent thon T4.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      387.6637878417969,
+      252.58303833007812,
+      403.8800048828125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Mostly bound to TBG.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      404.7237854003906,
+      253.42303466796875,
+      420.94000244140625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "All of the above.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      421.7637634277344,
+      222.22303771972656,
+      437.97998046875
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    90.02400207519531,
+    355.6399841308594,
+    348.8430480957031,
+    437.97998046875
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 4,
+   "number": 4,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The correct sequence of events for the metabolism of iodine and synthesis thyroid hormone is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Trapping, organification, coupling, release, oxidation.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      490.1637878417969,
+      431.55303955078125,
+      506.3800048828125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Oxidation, trapping, coupling, organification, release.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      507.2037658691406,
+      431.1930236816406,
+      523.4199829101562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Coupling, organification, trapping, oxidation, release.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      524.36376953125,
+      430.8330383300781,
+      540.5799560546875
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Trapping, coupling, oxidation, release, organification.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      541.40380859375,
+      431.55303955078125,
+      557.6199951171875
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Trapping, oxidation, organification, coupling. release",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 0,
+     "bbox": [
+      108.0199966430664,
+      558.5938110351562,
+      431.1930236816406,
+      574.8099975585938
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    90.02400207519531,
+    458.1399841308594,
+    483.24273681640625,
+    574.8099975585938
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "E",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 5,
+   "number": 5,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The daily requirement of iodine is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "50-20 pg.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      89.6738052368164,
+      182.50303649902344,
+      105.89000701904297
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "80-90 µg.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      106.83377838134766,
+      182.50303649902344,
+      123.04998016357422
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "100-125 prg.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      123.8737564086914,
+      201.58303833007812,
+      140.08995056152344
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "15O-l65 µg.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      141.03378295898438,
+      194.9830322265625,
+      157.24998474121094
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "None of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      158.07376098632812,
+      234.82302856445312,
+      174.2899627685547
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    90.02400207519531,
+    74.80996704101562,
+    307.2030334472656,
+    174.2899627685547
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 6,
+   "number": 6,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Most diagnostic single investigation for toxic adenoma is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "T3-T4.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      209.31375122070312,
+      164.863037109375,
+      225.5299530029297
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "US.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      226.47378540039062,
+      148.1530303955078,
+      242.6899871826172
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Thyroid scan.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      243.54379272460938,
+      204.70303344726562,
+      259.760009765625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "FNABC.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      260.7037658691406,
+      171.46302795410156,
+      276.91998291015625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    90.02400207519531,
+    194.44998168945312,
+    440.67303466796875,
+    276.91998291015625
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 7,
+   "number": 7,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following statements regarding TSH measuring are true except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "lt is increased after total thyroidectomy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      311.9437561035156,
+      357.9630432128906,
+      328.15997314453125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Normal TSH is about 5 micro units/liter.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      328.9837646484375,
+      354.4830322265625,
+      345.1999816894531
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "lt is the most sensitive test for mild cases.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      346.1437683105469,
+      366.0030212402344,
+      362.3599853515625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "All of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      363.18377685546875,
+      218.62303161621094,
+      379.3999938964844
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    90.02400207519531,
+    296.9599914550781,
+    502.2530212402344,
+    379.3999938964844
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 8,
+   "number": 8,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Worm nodule means:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Inactive nodule.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      414.44378662109375,
+      220.30303955078125,
+      430.6600036621094
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Usually cancerous.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      431.6037902832031,
+      235.1830291748047,
+      447.82000732421875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Active nodule.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      448.6437683105469,
+      210.82302856445312,
+      464.8599853515625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Toxic adenoma.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      108.0199966430664,
+      465.80377197265625,
+      218.9830322265625,
+      482.0199890136719
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    90.02400207519531,
+    399.5799865722656,
+    236.14303588867188,
+    482.0199890136719
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 9,
+   "number": 9,
+   "section": 1,
+   "type": "QCS",
+   "stem": "As regards FNAB all cancel except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Outpatient procedure.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      108.0199966430664,
+      123.8737564086914,
+      257.383056640625,
+      140.08995056152344
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Cheap and safe.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      108.0199966430664,
+      141.03378295898438,
+      219.82302856445312,
+      157.24998474121094
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Requires general anesthesia.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 2,
+     "bbox": [
+      108.0199966430664,
+      158.07376098632812,
+      292.56304931640625,
+      174.2899627685547
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Can not differentiate follicular adenoma from carcinoma.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      108.0199966430664,
+      175.11380004882812,
+      454.35302734375,
+      191.3300018310547
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    90.02400207519531,
+    109.00997924804688,
+    454.35302734375,
+    191.3300018310547
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 10,
+   "number": 10,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Presentations of ectopic thyroid include:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dysarthria.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      108.0199966430664,
+      226.47378540039062,
+      191.62303161621094,
+      242.6899871826172
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Midline neck swelling.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      108.0199966430664,
+      243.54379272460938,
+      254.9830322265625,
+      259.760009765625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Myxedema if removed by mistake.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      108.0199966430664,
+      260.7037658691406,
+      325.80303955078125,
+      276.91998291015625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Any of the above.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 2,
+     "bbox": [
+      108.0199966430664,
+      277.7438049316406,
+      229.42303466796875,
+      293.96002197265625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    90.02400207519531,
+    211.48995971679688,
+    350.04302978515625,
+    293.96002197265625
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 11,
+   "number": 11,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The most common site of thyroglossal cyst is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Subhyoid.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 2,
+     "bbox": [
+      108.0199966430664,
+      328.9837646484375,
+      185.50303649902344,
+      345.1999816894531
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Suprahyoid.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      108.0199966430664,
+      346.1437683105469,
+      197.14303588867188,
+      362.3599853515625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Sublingual.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      108.0199966430664,
+      363.18377685546875,
+      191.50303649902344,
+      379.3999938964844
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "At thyroid cartilage.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      108.0199966430664,
+      380.2237854003906,
+      242.02304077148438,
+      396.44000244140625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    90.02400207519531,
+    314.1199645996094,
+    377.7630310058594,
+    396.44000244140625
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 12,
+   "number": 12,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following ore true regarding thyroglossal cyst except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Usually presents as midline neck swelling.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      108.0199966430664,
+      431.6037902832031,
+      366.2430419921875,
+      447.82000732421875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Moy be confused with ectopic thyroid.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      108.0199966430664,
+      448.6437683105469,
+      348.60302734375,
+      464.8599853515625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Best treatment is follow up.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 2,
+     "bbox": [
+      108.0199966430664,
+      465.80377197265625,
+      287.16302490234375,
+      482.0199890136719
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Should be excised completely for fear of complications.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      108.0199966430664,
+      482.8437805175781,
+      443.67303466796875,
+      499.05999755859375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    90.02400207519531,
+    416.6199951171875,
+    451.35302734375,
+    499.05999755859375
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 13,
+   "number": 13,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Preparation of retrosternal goiter for surgery includes:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Neomercazole.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      108.0199966430664,
+      89.6738052368164,
+      214.9030303955078,
+      105.89000701904297
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Lugol's iodine.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      108.0199966430664,
+      106.83377838134766,
+      210.82302856445312,
+      123.04998016357422
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Propranolol.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 3,
+     "bbox": [
+      108.0199966430664,
+      123.8737564086914,
+      199.7830352783203,
+      140.08995056152344
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "A and C.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      108.0199966430664,
+      141.03378295898438,
+      176.02304077148438,
+      157.24998474121094
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    90.02400207519531,
+    74.80996704101562,
+    430.5930480957031,
+    157.24998474121094
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 14,
+   "number": 14,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Sporadic goiter may occur due to the following except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cabbage.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      108.0199966430664,
+      192.27377319335938,
+      181.9030303955078,
+      208.48997497558594
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Water pollution by excreta.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      108.0199966430664,
+      209.31375122070312,
+      285.0030212402344,
+      225.5299530029297
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Iodine deficiency.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 3,
+     "bbox": [
+      108.0199966430664,
+      226.47378540039062,
+      229.30303955078125,
+      242.6899871826172
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Percolates.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      108.0199966430664,
+      243.54379272460938,
+      192.22303771972656,
+      259.760009765625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    90.02400207519531,
+    177.29000854492188,
+    432.1530456542969,
+    259.760009765625
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 15,
+   "number": 15,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Autoimmune manifestations of Grave's disease include the following except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Palmar erythema.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 3,
+     "bbox": [
+      108.0199966430664,
+      311.9437561035156,
+      230.9830322265625,
+      328.15997314453125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Clubbing.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      108.0199966430664,
+      328.9837646484375,
+      182.62303161621094,
+      345.1999816894531
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pretibial myxedema.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      108.0199966430664,
+      346.1437683105469,
+      246.10302734375,
+      362.3599853515625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Exophthalmos.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      108.0199966430664,
+      363.18377685546875,
+      213.70303344726562,
+      379.3999938964844
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    90.02400207519531,
+    279.9200134277344,
+    460.7130432128906,
+    379.3999938964844
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 16,
+   "number": 16,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All of the following ore recognized complications of neomercazole except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Goiter.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      108.0199966430664,
+      431.6037902832031,
+      168.70303344726562,
+      447.82000732421875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Agranulocytosis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      108.0199966430664,
+      448.6437683105469,
+      222.82302856445312,
+      464.8599853515625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Renal failure.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 3,
+     "bbox": [
+      108.0199966430664,
+      465.80377197265625,
+      204.34303283691406,
+      482.0199890136719
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hepatotoxicity.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      108.0199966430664,
+      482.8437805175781,
+      216.10302734375,
+      499.05999755859375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    90.02400207519531,
+    399.5799865722656,
+    498.41302490234375,
+    499.05999755859375
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 17,
+   "number": 17,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Thyrotoxicosis in children all correct except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Usually goes into spontaneous remission.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      108.0199966430664,
+      89.6738052368164,
+      364.3230285644531,
+      105.89000701904297
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Medical treatment alone can control the disease.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      108.0199966430664,
+      106.83377838134766,
+      408.873046875,
+      123.04998016357422
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Radioactive iodine is the ideal treatment.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 4,
+     "bbox": [
+      108.0199966430664,
+      123.8737564086914,
+      363.4830322265625,
+      140.08995056152344
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Thyroidectomy should be near total to avoid recurrence.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      108.0199966430664,
+      141.03378295898438,
+      450.9930419921875,
+      157.24998474121094
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    90.02400207519531,
+    74.80996704101562,
+    450.9930419921875,
+    157.24998474121094
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 18,
+   "number": 18,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following treatment schedule for diffuse toxic goiter is true:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Over 45yeors: radioactive iodine.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      108.0199966430664,
+      209.31375122070312,
+      317.6430358886719,
+      225.5299530029297
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Under 45 years: with large goiter: surgery.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      108.0199966430664,
+      226.47378540039062,
+      369.2430419921875,
+      242.6899871826172
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Under 45 years: with small goiter: antithyroid drugs.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      108.0199966430664,
+      243.54379272460938,
+      429.3930358886719,
+      259.760009765625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "None of the above.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      108.0199966430664,
+      260.7037658691406,
+      238.42303466796875,
+      276.91998291015625
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "All of the above.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 4,
+     "bbox": [
+      108.0199966430664,
+      277.7438049316406,
+      222.22303771972656,
+      293.96002197265625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    90.02400207519531,
+    177.29000854492188,
+    508.33056640625,
+    293.96002197265625
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "E",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 19,
+   "number": 19,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Toxic goiter hos the following signs except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Flapping tremors of the hand",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 4,
+     "bbox": [
+      108.0199966430664,
+      328.9837646484375,
+      301.4430236816406,
+      345.1999816894531
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Exophthalmos",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      108.0199966430664,
+      346.1437683105469,
+      210.22303771972656,
+      362.3599853515625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Diarrhea",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      108.0199966430664,
+      363.18377685546875,
+      178.54302978515625,
+      379.3999938964844
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Menstrual irregularities",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      108.0199966430664,
+      380.2237854003906,
+      263.2630310058594,
+      396.44000244140625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    90.02400207519531,
+    314.1199645996094,
+    363.8430480957031,
+    396.44000244140625
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 20,
+   "number": 20,
+   "section": 1,
+   "type": "QCS",
+   "stem": "3 hours post-thyroidectomy, 30 years old woman developed agitation and difficulty breathing, tachycardia and dry dressing but inferior cervical swelling. The most appropriate immediate step is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "insertion of an oro-tracheal tube",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      108.0199966430664,
+      465.80377197265625,
+      321.2430419921875,
+      482.0199890136719
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Reopening of the cervical wound",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 4,
+     "bbox": [
+      108.0199966430664,
+      482.8437805175781,
+      319.2030334472656,
+      499.05999755859375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Estimation of serum calcium level",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      108.0199966430664,
+      499.8837585449219,
+      323.5230407714844,
+      516.0999755859375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "IV morphine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      108.0199966430664,
+      517.0438232421875,
+      199.54302978515625,
+      533.260009765625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    90.02400207519531,
+    416.6199951171875,
+    480.8075866699219,
+    533.260009765625
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 21,
+   "number": 21,
+   "section": 1,
+   "type": "QCS",
+   "stem": "On the 1 St postoperative day after total thyroidectomy, patient complains of tingling of the finger, lips and the serum calcium level of 5.5 mg/dL. The next step should be:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Observation only",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      108.0199966430664,
+      123.8737564086914,
+      229.42303466796875,
+      140.08995056152344
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Administration of vitamin D2 or D3 50000-100000 units/ day",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      108.0199966430664,
+      141.03378295898438,
+      480.03302001953125,
+      157.24998474121094
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Administration of vitamin D3 1-2pgldoy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      108.0199966430664,
+      158.07376098632812,
+      356.6430358886719,
+      174.2899627685547
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Administration of calcium gluconate 3-5g /day, by slow IV drip",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 5,
+     "bbox": [
+      108.0199966430664,
+      175.11380004882812,
+      485.5730285644531,
+      191.3300018310547
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    90.02400207519531,
+    74.80996704101562,
+    496.7330322265625,
+    191.3300018310547
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 22,
+   "number": 22,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hashimoto disease may present by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Thyrotoxicosis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      108.0199966430664,
+      226.47378540039062,
+      214.30303955078125,
+      242.6899871826172
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Myxedemo.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      108.0199966430664,
+      243.54379272460938,
+      197.02304077148438,
+      259.760009765625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Goiter.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      108.0199966430664,
+      260.7037658691406,
+      168.70303344726562,
+      276.91998291015625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Any of the above.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 5,
+     "bbox": [
+      108.0199966430664,
+      277.7438049316406,
+      229.42303466796875,
+      293.96002197265625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    90.02400207519531,
+    211.48995971679688,
+    321.123046875,
+    293.96002197265625
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 23,
+   "number": 23,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following type of thyroiditis mimics malignancy:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hashimoto thyroiditis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      108.0199966430664,
+      328.9837646484375,
+      255.82302856445312,
+      345.1999816894531
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Riedle thyroiditis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 5,
+     "bbox": [
+      108.0199966430664,
+      346.1437683105469,
+      229.0630340576172,
+      362.3599853515625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "De Quervain's thyroiditis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      108.0199966430664,
+      363.18377685546875,
+      273.2430419921875,
+      379.3999938964844
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "All of the above.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      108.0199966430664,
+      380.2237854003906,
+      222.22303771972656,
+      396.44000244140625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    90.02400207519531,
+    314.1199645996094,
+    418.2330322265625,
+    396.44000244140625
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 24,
+   "number": 24,
+   "section": 1,
+   "type": "QCS",
+   "stem": "the most common cause of goitrous hypothyroidism in adults is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Graves' disease.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      108.0199966430664,
+      431.6037902832031,
+      220.30303955078125,
+      447.82000732421875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Riedel's thyroiditis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      108.0199966430664,
+      448.6437683105469,
+      238.0630340576172,
+      464.8599853515625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hashimoto's disease.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 5,
+     "bbox": [
+      108.0199966430664,
+      465.80377197265625,
+      249.22303771972656,
+      482.0199890136719
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "De Quervain's thyroiditis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      108.0199966430664,
+      482.8437805175781,
+      273.2430419921875,
+      499.05999755859375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    90.02400207519531,
+    416.6199951171875,
+    487.4930419921875,
+    499.05999755859375
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 25,
+   "number": 25,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Clinical picture of thyroid carcinoma include:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dyspnea and dysphagia.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      108.0199966430664,
+      89.6738052368164,
+      266.3830261230469,
+      105.89000701904297
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Referred otology.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      108.0199966430664,
+      106.83377838134766,
+      228.82302856445312,
+      123.04998016357422
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Horsiness.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      108.0199966430664,
+      123.8737564086914,
+      187.6630401611328,
+      140.08995056152344
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Lateral aberrant thyroid.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      108.0199966430664,
+      141.03378295898438,
+      268.9030456542969,
+      157.24998474121094
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "All of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 6,
+     "bbox": [
+      108.0199966430664,
+      158.07376098632812,
+      218.62303161621094,
+      174.2899627685547
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "figure_dependent"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    90.02400207519531,
+    74.80996704101562,
+    373.80303955078125,
+    174.2899627685547
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "E",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid",
+   "image": "Images/11_Q25.png"
+  },
+  {
+   "i": 26,
+   "number": 26,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A familial form of medullary thyroid carcinoma (MTC) should be suspected whenever:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The tumor is multifocal.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      108.0199966430664,
+      226.47378540039062,
+      264.7030334472656,
+      242.6899871826172
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "The tumor is bilateral foci of tumor are present in both thyroid lobes.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      108.0199966430664,
+      243.54379272460938,
+      485.16845703125,
+      259.760009765625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pathologic examination of the resected thyroid gland reveals the presence of C-cell hyperplasia in areas of the gland adjacent to foci of MTC.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      108.0199966430664,
+      277.7438049316406,
+      496.9730224609375,
+      293.96002197265625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "All of the above.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 6,
+     "bbox": [
+      108.0199966430664,
+      328.9837646484375,
+      222.22303771972656,
+      345.1999816894531
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    90.02400207519531,
+    194.44998168945312,
+    496.9730224609375,
+    345.1999816894531
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 27,
+   "number": 27,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A thyroid nodule could be malignant if it shows:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "rapid growth",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      108.0199966430664,
+      380.2237854003906,
+      202.7830352783203,
+      396.44000244140625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Pain referred to the ear",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      108.0199966430664,
+      397.4037780761719,
+      266.3830261230469,
+      413.6199951171875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hardness",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      108.0199966430664,
+      414.44378662109375,
+      182.14303588867188,
+      430.6600036621094
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Associated hoarseness of voice",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      108.0199966430664,
+      431.6037902832031,
+      305.6430358886719,
+      447.82000732421875
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "All of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 6,
+     "bbox": [
+      108.0199966430664,
+      448.6437683105469,
+      218.62303161621094,
+      464.8599853515625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    90.02400207519531,
+    365.3599853515625,
+    395.91302490234375,
+    464.8599853515625
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "E",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 28,
+   "number": 28,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following statements regarding follicular adenoma is true:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It presents clinically as solitary nodule.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      108.0199966430664,
+      517.0438232421875,
+      354.363037109375,
+      533.260009765625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Distinction between follicular adenoma and carcinoma can only be made by histological examination.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      108.0199966430664,
+      534.0838012695312,
+      508.2530212402344,
+      550.2999877929688
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "In adenoma there is no invasion of the capsule or of pericapsular blood vessels.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      108.0199966430664,
+      568.3138427734375,
+      497.6929931640625,
+      584.530029296875
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Preferable treatment is lobectomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      108.0199966430664,
+      602.5137939453125,
+      328.56304931640625,
+      618.72998046875
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "All of the above.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 6,
+     "bbox": [
+      108.0199966430664,
+      619.5538330078125,
+      222.22303771972656,
+      635.77001953125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    90.02400207519531,
+    485.0199890136719,
+    508.2530212402344,
+    635.77001953125
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "E",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 29,
+   "number": 29,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In thyroid carcinoma, mediastinal node involvement is a feature of which type:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Follicular.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      108.0199966430664,
+      106.83377838134766,
+      184.30303955078125,
+      123.04998016357422
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Anaplastic.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      108.0199966430664,
+      123.8737564086914,
+      191.50303649902344,
+      140.08995056152344
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Papillary.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      108.0199966430664,
+      141.03378295898438,
+      181.6630401611328,
+      157.24998474121094
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Medullary.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 7,
+     "bbox": [
+      108.0199966430664,
+      158.07376098632812,
+      190.7830352783203,
+      174.2899627685547
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": [
+    90.02400207519531,
+    74.80996704101562,
+    505.2561340332031,
+    174.2899627685547
+   ],
+   "pages": [
+    7
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 30,
+   "number": 30,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The term lateral aberrant thyroid implies",
+   "options": [
+    {
+     "letter": "A",
+     "text": "congenital aberrant thyroid tissue lateral to the thyroid",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      108.0199966430664,
+      209.31375122070312,
+      443.43304443359375,
+      225.5299530029297
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "metastasis in cervical lymph node from on occult thyroid carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 7,
+     "bbox": [
+      108.0199966430664,
+      226.47378540039062,
+      460.9846496582031,
+      242.6899871826172
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "a metastasis from carcinoma of the larynx",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      108.0199966430664,
+      260.7037658691406,
+      370.92303466796875,
+      276.91998291015625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "a type of bronchial cyst",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      108.0199966430664,
+      277.7438049316406,
+      261.4630432128906,
+      293.96002197265625
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "that a loose piece of thyroid has become implanted in a thyroidectomy scar",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      108.0199966430664,
+      294.7837829589844,
+      445.2877502441406,
+      311.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": [
+    90.02400207519531,
+    194.44998168945312,
+    460.9846496582031,
+    328.15997314453125
+   ],
+   "pages": [
+    7
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 31,
+   "number": 31,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hoarseness of voice denotes:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Compression of the superior laryngeal nerve",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      108.0199966430664,
+      363.18377685546875,
+      385.113037109375,
+      379.3999938964844
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "infiltration of the recurrent laryngeal nerve",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 7,
+     "bbox": [
+      108.0199966430664,
+      380.2237854003906,
+      377.5230407714844,
+      396.44000244140625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "infiltration of the superior laryngeal nerve",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      108.0199966430664,
+      397.4037780761719,
+      371.16302490234375,
+      413.6199951171875
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Tracheal compression",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      108.0199966430664,
+      414.44378662109375,
+      253.54302978515625,
+      430.6600036621094
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": [
+    90.02400207519531,
+    348.3199768066406,
+    385.113037109375,
+    430.6600036621094
+   ],
+   "pages": [
+    7
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 32,
+   "number": 32,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All are causes of hypercalcemia, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Metastatic cancer",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      108.0199966430664,
+      465.80377197265625,
+      234.34303283691406,
+      482.0199890136719
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Sarcoidosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      108.0199966430664,
+      482.8437805175781,
+      192.70303344726562,
+      499.05999755859375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Multiple myeloma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      108.0199966430664,
+      499.8837585449219,
+      236.50303649902344,
+      516.0999755859375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Vitamin D intoxication",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      108.0199966430664,
+      517.0438232421875,
+      258.8230285644531,
+      533.260009765625
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Medullary carcinoma of the thyroid",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 7,
+     "bbox": [
+      108.0199966430664,
+      534.0838012695312,
+      334.2030334472656,
+      550.2999877929688
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": [
+    90.02400207519531,
+    450.8199768066406,
+    345.7230224609375,
+    550.2999877929688
+   ],
+   "pages": [
+    7
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "E",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 33,
+   "number": 33,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 17 year old girl presented with o 2.5 cm nodule in the right lobe of the thyroid gland and enlarged three cervical LNs confirmed by US. FNA cytology revealed malignant cells with vesicular nuclei, the most probable diagnosis is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lymphoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      108.0199966430664,
+      141.03378295898438,
+      192.58303833007812,
+      157.24998474121094
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Anaplastic carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      108.0199966430664,
+      158.07376098632812,
+      250.42303466796875,
+      174.2899627685547
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Follicular carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      108.0199966430664,
+      175.11380004882812,
+      246.34303283691406,
+      191.3300018310547
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Papillary carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 8,
+     "bbox": [
+      108.0199966430664,
+      192.27377319335938,
+      243.70303344726562,
+      208.48997497558594
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Medullary carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      108.0199966430664,
+      209.31375122070312,
+      252.82302856445312,
+      225.5299530029297
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    90.02400207519531,
+    74.80996704101562,
+    496.5984802246094,
+    225.5299530029297
+   ],
+   "pages": [
+    8
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 34,
+   "number": 34,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 30-yeor old female presents for evolution of a palpable thyroid nodule Tc99 scan demonstrated a single cold nodule it may be the following EXCEPT:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      108.0199966430664,
+      294.7837829589844,
+      190.0630340576172,
+      311.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Non-functioning adenoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      108.0199966430664,
+      311.9437561035156,
+      278.8830261230469,
+      328.15997314453125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Thyroid cyst",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      108.0199966430664,
+      328.9837646484375,
+      198.10302734375,
+      345.1999816894531
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Colloid nodule",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      108.0199966430664,
+      346.1437683105469,
+      211.30303955078125,
+      362.3599853515625
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Autonomous nodule",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 8,
+     "bbox": [
+      108.0199966430664,
+      363.18377685546875,
+      245.7430419921875,
+      379.3999938964844
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    90.02400207519531,
+    245.72000122070312,
+    498.42657470703125,
+    379.3999938964844
+   ],
+   "pages": [
+    8
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "E",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 35,
+   "number": 35,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The most frequent variety of thyroid cancer is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Follicular carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      108.0199966430664,
+      414.44378662109375,
+      246.34303283691406,
+      430.6600036621094
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Papillary carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 8,
+     "bbox": [
+      108.0199966430664,
+      431.6037902832031,
+      243.70303344726562,
+      447.82000732421875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Anaplastic carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      108.0199966430664,
+      448.6437683105469,
+      250.42303466796875,
+      464.8599853515625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Medullary carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      108.0199966430664,
+      465.80377197265625,
+      252.82302856445312,
+      482.0199890136719
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    90.02400207519531,
+    399.5799865722656,
+    384.1530456542969,
+    482.0199890136719
+   ],
+   "pages": [
+    8
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 36,
+   "number": 36,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Thyroid disease treatment:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lymphoma >( irradiation and chemotherapy)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      108.0199966430664,
+      517.0438232421875,
+      388.113037109375,
+      533.260009765625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Follicular adenoma> ( lobectomy)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      108.0199966430664,
+      534.0838012695312,
+      323.04302978515625,
+      550.2999877929688
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Follicular carcinoma> (total thyroidectomy and radioiodine)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      108.0199966430664,
+      551.2437744140625,
+      480.873046875,
+      567.4599609375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Follicular carcinoma> (by histopothological surprise completion thyroidectomy and radioiodine)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      108.0199966430664,
+      568.3138427734375,
+      505.4930419921875,
+      584.530029296875
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "All of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 8,
+     "bbox": [
+      108.0199966430664,
+      602.5137939453125,
+      218.62303161621094,
+      618.72998046875
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    90.02400207519531,
+    502.0599670410156,
+    505.4930419921875,
+    618.72998046875
+   ],
+   "pages": [
+    8
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "E",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 37,
+   "number": 37,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Thyroid carcinoma during pregnancy, appropriate treatment is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "rodioiodine l3l",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      108.0199966430664,
+      89.6738052368164,
+      211.6630401611328,
+      105.89000701904297
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Chemotherapy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      108.0199966430664,
+      106.83377838134766,
+      213.82302856445312,
+      123.04998016357422
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Surgery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 9,
+     "bbox": [
+      108.0199966430664,
+      123.8737564086914,
+      172.6630401611328,
+      140.08995056152344
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Wait for delivery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      108.0199966430664,
+      141.03378295898438,
+      224.38304138183594,
+      157.24998474121094
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    90.02400207519531,
+    74.80996704101562,
+    481.5930480957031,
+    157.24998474121094
+   ],
+   "pages": [
+    9
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 38,
+   "number": 38,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Recurrent goiter may be due to:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Inadequate initial removal.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      108.0199966430664,
+      192.27377319335938,
+      282.363037109375,
+      208.48997497558594
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Persistence of etiology.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      108.0199966430664,
+      209.31375122070312,
+      261.5830383300781,
+      225.5299530029297
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Foreign body reaction.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      108.0199966430664,
+      226.47378540039062,
+      257.5030517578125,
+      242.6899871826172
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Any of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 9,
+     "bbox": [
+      108.0199966430664,
+      243.54379272460938,
+      225.9430389404297,
+      259.760009765625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    90.02400207519531,
+    177.29000854492188,
+    300.2430419921875,
+    259.760009765625
+   ],
+   "pages": [
+    9
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 39,
+   "number": 39,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Excision of o thyroglosssal cyst should include removal of",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Thyroid isthmus.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      108.0199966430664,
+      294.7837829589844,
+      224.02304077148438,
+      311.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Pyramidal lobe.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      108.0199966430664,
+      311.9437561035156,
+      217.6630401611328,
+      328.15997314453125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Body of the hyoid bone.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 9,
+     "bbox": [
+      108.0199966430664,
+      328.9837646484375,
+      265.54302978515625,
+      345.1999816894531
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Foramen cecum.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      108.0199966430664,
+      346.1437683105469,
+      224.14303588867188,
+      362.3599853515625
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Remnants of the thyroglossal duct.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      108.0199966430664,
+      363.18377685546875,
+      327.4830322265625,
+      379.3999938964844
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    90.02400207519531,
+    279.9200134277344,
+    446.31304931640625,
+    379.3999938964844
+   ],
+   "pages": [
+    9
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 40,
+   "number": 40,
+   "section": 1,
+   "type": "QCS",
+   "stem": "ln physiological goiter the following statements are true except that it:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Affects males more often thon females.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      108.0199966430664,
+      431.6037902832031,
+      354.60302734375,
+      447.82000732421875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Presents as fullness of the neck (Venus neck).",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      108.0199966430664,
+      448.6437683105469,
+      387.03302001953125,
+      464.8599853515625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Is characterized by uniform smooth enlargement with fleshy or firm consistency.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      108.0199966430664,
+      465.80377197265625,
+      490.6580505371094,
+      482.0199890136719
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Moy be associated with toxic or pressure symptoms.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 9,
+     "bbox": [
+      108.0199966430664,
+      499.8837585449219,
+      428.0730285644531,
+      516.0999755859375
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Usually resolves spontaneously.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      108.0199966430664,
+      517.0438232421875,
+      310.2030334472656,
+      533.260009765625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    90.02400207519531,
+    399.5799865722656,
+    490.6580505371094,
+    533.260009765625
+   ],
+   "pages": [
+    9
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 41,
+   "number": 41,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The best routine managment for multinodular goitre is by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hemithyroidectomy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      106.83377838134766,
+      246.58303833007812,
+      123.04998016357422
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Partial thyroidectomy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      123.8737564086914,
+      256.18304443359375,
+      140.08995056152344
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Bilateral wedge resection.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      141.03378295898438,
+      277.0830383300781,
+      157.24998474121094
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Subtotal thyroidectomy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      158.07376098632812,
+      267.3430480957031,
+      174.2899627685547
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Thyroxin administrotion.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      175.11380004882812,
+      269.3830261230469,
+      191.3300018310547
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    90.02400207519531,
+    91.85000610351562,
+    456.873046875,
+    191.3300018310547
+   ],
+   "pages": [
+    10
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 42,
+   "number": 42,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Among the following statements about retrosternal goiter, the false one is that it:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Usually arises in aberrant intra-thoracic thyroid tissue.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      243.54379272460938,
+      437.43304443359375,
+      259.760009765625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Is particularly common in males.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      260.7037658691406,
+      313.4430236816406,
+      276.91998291015625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Moy present with symptoms of mediastinal compression (syndrome).",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      277.7438049316406,
+      452.43304443359375,
+      293.96002197265625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Is often associated with palpable enlargement of the thyroid.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      311.9437561035156,
+      476.55303955078125,
+      328.15997314453125
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Is best removed through a cervical incision.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      328.9837646484375,
+      374.8830261230469,
+      345.1999816894531
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    90.02400207519531,
+    211.48995971679688,
+    479.1930236816406,
+    345.1999816894531
+   ],
+   "pages": [
+    10
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 43,
+   "number": 43,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A middle-aged female presented with an asymptomatic nodule in the right lobe of the thyroid. She gave a history of irradiation in childhood. The nodule was cold on radioactive iodine scanning and the sonogram reveled that it was a solid mass. The appropriate management of this case is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Aspiration biopsy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      448.6437683105469,
+      231.46302795410156,
+      464.8599853515625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Treatment with thyroxin.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      465.80377197265625,
+      271.92303466796875,
+      482.0199890136719
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Right lobectomy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      482.8437805175781,
+      225.82302856445312,
+      499.05999755859375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Subtotal thyroidectomy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      499.8837585449219,
+      267.3430480957031,
+      516.0999755859375
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Total thyroidectomy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      517.0438232421875,
+      248.38304138183594,
+      533.260009765625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    90.02400207519531,
+    365.3599853515625,
+    507.9763488769531,
+    533.260009765625
+   ],
+   "pages": [
+    10
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 44,
+   "number": 44,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Voice fatigue after thyroidectomy is due to injury to which of the following nerves?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Superior laryngeal.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      585.3538208007812,
+      236.38304138183594,
+      601.5700073242188
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "External laryngeal.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      602.5137939453125,
+      234.58303833007812,
+      618.72998046875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Internal laryngeal.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      619.5538330078125,
+      232.54302978515625,
+      635.77001953125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Recurrent laryngeal.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      636.7138061523438,
+      244.54302978515625,
+      652.9299926757812
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Vagus.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      108.0199966430664,
+      653.7537841796875,
+      166.7830352783203,
+      669.969970703125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    90.02400207519531,
+    553.419921875,
+    491.674072265625,
+    669.969970703125
+   ],
+   "pages": [
+    10
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 45,
+   "number": 45,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Medical treatment of thyrotoxicosis is least useful in:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cases with true exophthalmos.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      89.6738052368164,
+      304.68304443359375,
+      105.89000701904297
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Pregnant females.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      106.83377838134766,
+      232.54302978515625,
+      123.04998016357422
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Secondary thyrotoxicosis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      123.8737564086914,
+      274.80303955078125,
+      140.08995056152344
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Uncomplicated thyrocardic potients.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      141.03378295898438,
+      337.2030334472656,
+      157.24998474121094
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Post-operative recurrence.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      158.07376098632812,
+      281.5230407714844,
+      174.2899627685547
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    90.02400207519531,
+    74.80996704101562,
+    423.3930358886719,
+    174.2899627685547
+   ],
+   "pages": [
+    11
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 46,
+   "number": 46,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Thyrotoxicosis during pregnancy is best treated by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Subtotal thyroidectomy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      209.31375122070312,
+      267.3430480957031,
+      225.5299530029297
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Corbimazole.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      226.47378540039062,
+      203.9830322265625,
+      242.6899871826172
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Beta blockers.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      243.54379272460938,
+      209.50303649902344,
+      259.760009765625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Lugol's iodine.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      260.7037658691406,
+      210.82302856445312,
+      276.91998291015625
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Rodioiodine.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      277.7438049316406,
+      201.22303771972656,
+      293.96002197265625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    90.02400207519531,
+    194.44998168945312,
+    410.67303466796875,
+    293.96002197265625
+   ],
+   "pages": [
+    11
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 47,
+   "number": 47,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following statements about treatment of thyrotoxicosis by radioactive iodine are fine except that:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Is contraindicated in patients below the age of 40.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      345.06378173828125,
+      414.03302001953125,
+      361.2799987792969
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Is particularly useful in elderly and thyrocardiac patients.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      362.2237854003906,
+      451.8330383300781,
+      378.44000244140625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Produces its beneficial effects within o few days.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      379.2637634277344,
+      405.03302001953125,
+      395.47998046875
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Moy be followed by myxedemo.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      396.44378662109375,
+      312.363037109375,
+      412.6600036621094
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Carriers the risk of occurrence of thyroid cancer.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      413.4837646484375,
+      404.31304931640625,
+      429.6999816894531
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    90.02400207519531,
+    313.1600036621094,
+    479.67303466796875,
+    429.6999816894531
+   ],
+   "pages": [
+    11
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 48,
+   "number": 48,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hypothyroidism is most often due to:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Multinodulor goitre.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      481.8837890625,
+      248.14303588867188,
+      498.1000061035156
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Solitary adenoma,",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      498.92376708984375,
+      235.54302978515625,
+      515.1399536132812
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Thyroid cancer.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      516.0838012695312,
+      217.0630340576172,
+      532.2999877929688
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Chronic thyroiditis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      533.123779296875,
+      237.34303283691406,
+      549.3399658203125
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "iotrogenic courses.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 11,
+     "bbox": [
+      108.0199966430664,
+      550.163818359375,
+      236.9830322265625,
+      566.3800048828125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 11,
+   "bbox": [
+    90.02400207519531,
+    466.8999938964844,
+    331.56304931640625,
+    566.3800048828125
+   ],
+   "pages": [
+    11
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "E",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 49,
+   "number": 49,
+   "section": 1,
+   "type": "QCS",
+   "stem": "True statements about papillary carcinoma of the thyroid do not include that it:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Often affects adolescents.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      106.83377838134766,
+      277.56304931640625,
+      123.04998016357422
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "ls a slow-growing tumor.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      123.8737564086914,
+      272.7630310058594,
+      140.08995056152344
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "May be hormone-dependent.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      141.03378295898438,
+      297.60302734375,
+      157.24998474121094
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Metastasize early by the blood stream.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      158.07376098632812,
+      350.4030456542969,
+      174.2899627685547
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "ls rodioresistant.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      175.11380004882812,
+      224.26303100585938,
+      191.3300018310547
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 12,
+   "bbox": [
+    90.02400207519531,
+    74.80996704101562,
+    489.29302978515625,
+    191.3300018310547
+   ],
+   "pages": [
+    12
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 50,
+   "number": 50,
+   "section": 1,
+   "type": "QCS",
+   "stem": "ln subacute thyroiditis (de Quervain's disease), it is untrue that it:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Is a virus infection related to influenza or mumps",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      226.47378540039062,
+      407.67303466796875,
+      242.6899871826172
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Has a sudden onset with fever and painful swelling of the gland.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      243.54379272460938,
+      492.41302490234375,
+      259.760009765625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Moy cause radiating pain in the ear.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      260.7037658691406,
+      333.363037109375,
+      276.91998291015625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Never resolves spontaneously.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      277.7438049316406,
+      303.0030212402344,
+      293.96002197265625
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Responds well to prednisone.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      294.7837829589844,
+      304.80303955078125,
+      311.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 12,
+   "bbox": [
+    90.02400207519531,
+    211.48995971679688,
+    501.41302490234375,
+    311.0
+   ],
+   "pages": [
+    12
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 51,
+   "number": 51,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In hashimoto's disease (lymphadenoid goitre), the false statement that it:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Usually affects menopausal women.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      363.18377685546875,
+      334.4430236816406,
+      379.3999938964844
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Is characterized by uniform smooth enlargement of the gland with hard consistency.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      380.2237854003906,
+      506.81304931640625,
+      396.44000244140625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "May be associated with hypothyroidism.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      414.44378662109375,
+      359.4030456542969,
+      430.6600036621094
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Has a characteristic histological picture.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      431.6037902832031,
+      354.2430419921875,
+      447.82000732421875
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Is best treated by radiotherapy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      448.6437683105469,
+      308.7630310058594,
+      464.8599853515625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 12,
+   "bbox": [
+    90.02400207519531,
+    331.15997314453125,
+    506.81304931640625,
+    464.8599853515625
+   ],
+   "pages": [
+    12
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "E",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 52,
+   "number": 52,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The most frequent cause of primary hyperparathyroidism is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Parathyroid adenoma.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      499.8837585449219,
+      256.30303955078125,
+      516.0999755859375
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Idiopathic parathyroid hyperplasia.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      517.0438232421875,
+      328.3230285644531,
+      533.260009765625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Primary parathyroid carcinoma.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      534.0838012695312,
+      309.60302734375,
+      550.2999877929688
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Familial hyperparathyroidism.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      551.2437744140625,
+      299.4030456542969,
+      567.4599609375
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Ectopic production of parathormone.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 12,
+     "bbox": [
+      108.0199966430664,
+      568.3138427734375,
+      340.92303466796875,
+      584.530029296875
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 12,
+   "bbox": [
+    90.02400207519531,
+    485.0199890136719,
+    464.79302978515625,
+    584.530029296875
+   ],
+   "pages": [
+    12
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 53,
+   "number": 53,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hypertension in a patient with a family history of medullary thyroid carcinoma is most often due To:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Renal artery stenosis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      108.0199966430664,
+      106.83377838134766,
+      251.38304138183594,
+      123.04998016357422
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Glomerulonephritis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      108.0199966430664,
+      123.8737564086914,
+      243.70303344726562,
+      140.08995056152344
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Cushing's syndrome.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      108.0199966430664,
+      141.03378295898438,
+      246.70303344726562,
+      157.24998474121094
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hyperparathyroidism.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      108.0199966430664,
+      158.07376098632812,
+      253.6630401611328,
+      174.2899627685547
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "key_letter_not_among_options",
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 13,
+   "bbox": [
+    90.02400207519531,
+    74.80996704101562,
+    507.8930358886719,
+    174.2899627685547
+   ],
+   "pages": [
+    13
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "E",
+     "evidence": "answer grid"
+    }
+   ],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 54,
+   "number": 54,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All the following are True about the thyroglossal cyst except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Painless swelling.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      108.0199966430664,
+      209.31375122070312,
+      245.62303161621094,
+      225.5299530029297
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Cystic in consistency.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      108.0199966430664,
+      226.47378540039062,
+      266.863037109375,
+      242.6899871826172
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Moves up & Down with swallowing but not with protrusion of the tongue.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight",
+      "ink"
+     ],
+     "page": 13,
+     "bbox": [
+      108.0199966430664,
+      243.54379272460938,
+      498.87823486328125,
+      259.760009765625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "If infected, can form a thyroglossal fistula.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      108.0199966430664,
+      277.7438049316406,
+      385.9530334472656,
+      293.96002197265625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 13,
+   "bbox": [
+    90.02400207519531,
+    194.44998168945312,
+    498.87823486328125,
+    293.96002197265625
+   ],
+   "pages": [
+    13
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 55,
+   "number": 55,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Regarding thyroiditis, all are true except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Inflammatory conditions of the thyroid gland.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      108.0199966430664,
+      328.0237731933594,
+      391.7130432128906,
+      344.239990234375
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "It's rare.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      108.0199966430664,
+      345.06378173828125,
+      179.26303100585938,
+      361.2799987792969
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Painless.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 13,
+     "bbox": [
+      108.0199966430664,
+      362.2237854003906,
+      181.54302978515625,
+      378.44000244140625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Dramatic response to prednisone & anti-inflammatories.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      108.0199966430664,
+      379.2637634277344,
+      454.113037109375,
+      395.47998046875
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 13,
+   "bbox": [
+    90.02400207519531,
+    313.1600036621094,
+    454.113037109375,
+    395.47998046875
+   ],
+   "pages": [
+    13
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 56,
+   "number": 56,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The simple Goiter has the following featuring except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "More common on females.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      108.0199966430664,
+      429.56378173828125,
+      286.56304931640625,
+      445.7799987792969
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Presented by diffuse, soft enlargement of the gland in cases if diffuse simple goiter.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      108.0199966430664,
+      446.7237854003906,
+      479.9683837890625,
+      462.94000244140625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Shows toxic manifestations.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 13,
+     "bbox": [
+      108.0199966430664,
+      480.80377197265625,
+      290.8830261230469,
+      497.0199890136719
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Can be treated surgically.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 13,
+     "bbox": [
+      108.0199966430664,
+      497.9637756347656,
+      273.363037109375,
+      514.1799926757812
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 13,
+   "bbox": [
+    90.02400207519531,
+    414.6999816894531,
+    479.9683837890625,
+    514.1799926757812
+   ],
+   "pages": [
+    13
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 57,
+   "number": 57,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The simple nodular goiter can be complicated by one of the following EXCEPT:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "2ry thyrotoxicosis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      108.0199966430664,
+      106.83377838134766,
+      236.863037109375,
+      123.04998016357422
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Haemorrhage.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      108.0199966430664,
+      123.8737564086914,
+      214.30303955078125,
+      140.08995056152344
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Turn malignant in 30% of cases",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      108.0199966430664,
+      141.03378295898438,
+      308.6430358886719,
+      157.24998474121094
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Stridor.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 14,
+     "bbox": [
+      108.0199966430664,
+      158.07376098632812,
+      171.58303833007812,
+      174.2899627685547
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 14,
+   "bbox": [
+    90.02400207519531,
+    74.80996704101562,
+    460.0227355957031,
+    174.2899627685547
+   ],
+   "pages": [
+    14
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 58,
+   "number": 58,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Retrosternal goiter has the following features EXCEPT:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dullness on direct sterna percussion.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      108.0199966430664,
+      209.31375122070312,
+      341.5230407714844,
+      225.5299530029297
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Not an indication for surgery.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 14,
+     "bbox": [
+      108.0199966430664,
+      226.47378540039062,
+      299.16302490234375,
+      242.6899871826172
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Diagnosis by X-ray.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      108.0199966430664,
+      243.54379272460938,
+      239.50303649902344,
+      259.760009765625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "More common in male.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      108.0199966430664,
+      260.7037658691406,
+      265.66302490234375,
+      276.91998291015625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 14,
+   "bbox": [
+    90.02400207519531,
+    194.44998168945312,
+    433.35302734375,
+    276.91998291015625
+   ],
+   "pages": [
+    14
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 59,
+   "number": 59,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All are features of Grave's disease EXCEPT:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Affects mainly elderly males more than females.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 14,
+     "bbox": [
+      108.0199966430664,
+      310.9837951660156,
+      406.4730224609375,
+      327.20001220703125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Shows clinical picture of hyperthyroidism.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      108.0199966430664,
+      328.0237731933594,
+      370.0830383300781,
+      344.239990234375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Thyroid profile has a \"low\" TSH value.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      108.0199966430664,
+      345.06378173828125,
+      346.2030334472656,
+      361.2799987792969
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Can be accompanied by exophthalmos.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      108.0199966430664,
+      362.2237854003906,
+      355.3230285644531,
+      378.44000244140625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 14,
+   "bbox": [
+    90.02400207519531,
+    295.9999694824219,
+    406.4730224609375,
+    378.44000244140625
+   ],
+   "pages": [
+    14
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 60,
+   "number": 60,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Exophthalmos can be detected by all of the following EXCEPT:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Elevated free T3 and T4.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 14,
+     "bbox": [
+      108.0199966430664,
+      412.5237731933594,
+      269.9830322265625,
+      428.739990234375
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Clinically by starring look and loss of forehead wrinkling on looking upwards.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      108.0199966430664,
+      429.56378173828125,
+      507.3042907714844,
+      445.7799987792969
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Exophthalmometer.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      108.0199966430664,
+      463.7637634277344,
+      246.10302734375,
+      479.97998046875
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Autoimmune survey to detect the TSA (Thyroid Stimulating Antibodies)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 14,
+     "bbox": [
+      108.0199966430664,
+      480.80377197265625,
+      464.83447265625,
+      497.0199890136719
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 14,
+   "bbox": [
+    90.02400207519531,
+    397.53997802734375,
+    507.3042907714844,
+    514.1799926757812
+   ],
+   "pages": [
+    14
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 61,
+   "number": 61,
+   "section": 1,
+   "type": "QCS",
+   "stem": "As differentiation between primary and 2ry toxic goiter all are true EXCEPT:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The 2ry is more common in elderly.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      108.0199966430664,
+      106.83377838134766,
+      333.363037109375,
+      123.04998016357422
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "The 2ry appears with gradual onset.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      108.0199966430664,
+      123.8737564086914,
+      336.60302734375,
+      140.08995056152344
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "The 2ry is presented by diffuse enlargement of the gland.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 15,
+     "bbox": [
+      108.0199966430664,
+      141.03378295898438,
+      457.9530334472656,
+      157.24998474121094
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Nervous manifestation, metabolic disorders and eye signs are more prominent in the 1ry form.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      108.0199966430664,
+      158.07376098632812,
+      479.3772888183594,
+      174.2899627685547
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 15,
+   "bbox": [
+    90.02400207519531,
+    74.80996704101562,
+    502.9850158691406,
+    191.3300018310547
+   ],
+   "pages": [
+    15
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 62,
+   "number": 62,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All are indications of surgery in Goiter EXCEPT:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Retrosternal goiter.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      108.0199966430664,
+      225.39376831054688,
+      243.58303833007812,
+      241.60997009277344
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "2ry toxic goiter.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      108.0199966430664,
+      242.58377075195312,
+      221.62303161621094,
+      258.79998779296875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Thyroiditis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 15,
+     "bbox": [
+      108.0199966430664,
+      259.6237487792969,
+      195.82302856445312,
+      275.8399658203125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Failure of medical treatment",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      108.0199966430664,
+      276.7837829589844,
+      294.9630432128906,
+      293.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 15,
+   "bbox": [
+    90.02400207519531,
+    210.52999877929688,
+    388.2330322265625,
+    293.0
+   ],
+   "pages": [
+    15
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 63,
+   "number": 63,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Pre-operative preparation for the patient include all of the following EXCEPT:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "CBC, coagulation profile, liver and kidney profile.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      108.0199966430664,
+      344.1037902832031,
+      409.113037109375,
+      360.32000732421875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "CXR and indirect laryngoscopy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      108.0199966430664,
+      361.2637634277344,
+      310.92303466796875,
+      377.47998046875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Thyroid profile and neck ultrasound.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      108.0199966430664,
+      378.30377197265625,
+      339.0030212402344,
+      394.5199890136719
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Recurrent laryngeal nerve conduction.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 15,
+     "bbox": [
+      108.0199966430664,
+      395.36376953125,
+      350.4030456542969,
+      411.5799865722656
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 15,
+   "bbox": [
+    90.02400207519531,
+    312.0799865722656,
+    454.97314453125,
+    411.5799865722656
+   ],
+   "pages": [
+    15
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 64,
+   "number": 64,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Regarding the recurrent laryngeal nerve, all are true EXCEPT:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "If injured bilaterally, completely, the patient will be aphonic.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      108.0199966430664,
+      445.6437683105469,
+      475.4730224609375,
+      461.8599853515625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Stridor will occur in unilateral complete injury.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 15,
+     "bbox": [
+      108.0199966430664,
+      462.80377197265625,
+      395.91302490234375,
+      479.0199890136719
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Can be injured during devascularization of the inferior lobe.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      108.0199966430664,
+      479.8437805175781,
+      471.03302001953125,
+      496.05999755859375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Can be non-recurrent only on the right side.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 15,
+     "bbox": [
+      108.0199966430664,
+      497.0037841796875,
+      382.113037109375,
+      513.219970703125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 15,
+   "bbox": [
+    90.02400207519531,
+    430.7799987792969,
+    475.4730224609375,
+    513.219970703125
+   ],
+   "pages": [
+    15
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "B",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 65,
+   "number": 65,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Most common type of the thyroid malignancy is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Papillary carcinoma.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 16,
+     "bbox": [
+      108.0199966430664,
+      89.6738052368164,
+      247.1830291748047,
+      105.89000701904297
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Anaplastic carcinoma.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      108.0199966430664,
+      106.83377838134766,
+      257.1430358886719,
+      123.04998016357422
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Follicular carcinoma.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      108.0199966430664,
+      123.8737564086914,
+      249.9430389404297,
+      140.08995056152344
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Metastatic deposits.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      108.0199966430664,
+      141.03378295898438,
+      248.02304077148438,
+      157.24998474121094
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 16,
+   "bbox": [
+    90.02400207519531,
+    74.80996704101562,
+    400.5930480957031,
+    157.24998474121094
+   ],
+   "pages": [
+    16
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 66,
+   "number": 66,
+   "section": 1,
+   "type": "QCS",
+   "stem": "66-Anaplastic carcinoma has the following characters:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "More common in elderly, bad prognosis, early spread and aggressive.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 16,
+     "bbox": [
+      108.0199966430664,
+      191.31375122070312,
+      457.4412536621094,
+      207.5299530029297
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Main way of spread is blood.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      108.0199966430664,
+      225.39376831054688,
+      295.80303955078125,
+      241.60997009277344
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Can occur in children.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      108.0199966430664,
+      242.58377075195312,
+      255.22303771972656,
+      258.79998779296875
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Characterized pathologically by Psammoma Bodies.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      108.0199966430664,
+      259.6237487792969,
+      422.1930236816406,
+      275.8399658203125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_inferred"
+   ],
+   "cut_prefix": "",
+   "page": 16,
+   "bbox": [
+    90.02400207519531,
+    176.32998657226562,
+    457.4412536621094,
+    275.8399658203125
+   ],
+   "pages": [
+    16
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 67,
+   "number": 67,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following is not one of the characters of the malignant thyroid cyst:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Its aspirate is haemorrhagic.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      108.0199966430664,
+      328.0237731933594,
+      293.04302978515625,
+      344.239990234375
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Cytology shows malignant cells.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      108.0199966430664,
+      345.06378173828125,
+      312.2430419921875,
+      361.2799987792969
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Rapid re-accumulation after aspiration.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      108.0199966430664,
+      362.2237854003906,
+      355.3230285644531,
+      378.44000244140625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "The cyst will be completely disappeared after aspiration.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 16,
+     "bbox": [
+      108.0199966430664,
+      379.2637634277344,
+      453.7530212402344,
+      395.47998046875
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 16,
+   "bbox": [
+    90.02400207519531,
+    295.9999694824219,
+    500.794921875,
+    395.47998046875
+   ],
+   "pages": [
+    16
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 68,
+   "number": 68,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Malignant goiter, if painful the pain will be referred to the ear through:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Phrenic nerve.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      108.0199966430664,
+      446.7237854003906,
+      217.6630401611328,
+      462.94000244140625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Sympathetic plexus.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      108.0199966430664,
+      463.7637634277344,
+      249.58303833007812,
+      479.97998046875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Bronchial plexus.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 16,
+     "bbox": [
+      108.0199966430664,
+      480.80377197265625,
+      229.1830291748047,
+      497.0199890136719
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Arnold's nerve ( branch of vagus nerve)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 16,
+     "bbox": [
+      108.0199966430664,
+      497.9637756347656,
+      352.3230285644531,
+      514.1799926757812
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 16,
+   "bbox": [
+    90.02400207519531,
+    414.6999816894531,
+    474.59619140625,
+    514.1799926757812
+   ],
+   "pages": [
+    16
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "D",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 69,
+   "number": 69,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following is a cause of painful goiter:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Acute thyroiditis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 17,
+     "bbox": [
+      90.02400207519531,
+      91.85000610351562,
+      208.0630340576172,
+      105.89000701904297
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Simple nodular goiter.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      90.02400207519531,
+      109.00997924804688,
+      240.58303833007812,
+      123.04998016357422
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Retrosternal goiter.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      90.02400207519531,
+      126.04995727539062,
+      221.02304077148438,
+      140.08995056152344
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Goiter with pregnancy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      90.02400207519531,
+      143.20999145507812,
+      241.6630401611328,
+      157.24998474121094
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 17,
+   "bbox": [
+    90.02400207519531,
+    74.80996704101562,
+    355.92303466796875,
+    157.24998474121094
+   ],
+   "pages": [
+    17
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 70,
+   "number": 70,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In a case of goiter, the following may be cause of un-equal pulse during examination:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Diffuse goiter.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      90.02400207519531,
+      210.52999877929688,
+      191.14303588867188,
+      224.5699920654297
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Cancer thyroid.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      90.02400207519531,
+      227.56997680664062,
+      198.34303283691406,
+      241.60997009277344
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Retrosternal goiter.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 17,
+     "bbox": [
+      90.02400207519531,
+      244.75997924804688,
+      221.02304077148438,
+      258.79998779296875
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hashimoto's disease.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      90.02400207519531,
+      261.7999572753906,
+      230.7430419921875,
+      275.8399658203125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 17,
+   "bbox": [
+    90.02400207519531,
+    176.32998657226562,
+    487.661376953125,
+    275.8399658203125
+   ],
+   "pages": [
+    17
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "C",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 71,
+   "number": 71,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hard goiter can be felt during examination of the gland in the following cases:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Malignancy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 17,
+     "bbox": [
+      90.02400207519531,
+      329.239990234375,
+      179.38304138183594,
+      343.2799987792969
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Calcified simple nodular goiter.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      90.02400207519531,
+      346.2799987792969,
+      287.8830261230469,
+      360.32000732421875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Riedle's thyroiditis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      90.02400207519531,
+      363.4399719238281,
+      224.38304138183594,
+      377.47998046875
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Tense thyroid cyst.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      90.02400207519531,
+      380.47998046875,
+      218.26303100585938,
+      394.5199890136719
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 17,
+   "bbox": [
+    90.02400207519531,
+    295.0400085449219,
+    471.2265625,
+    394.5199890136719
+   ],
+   "pages": [
+    17
+   ],
+   "candidates": [
+    {
+     "source": "key",
+     "letter": "A",
+     "evidence": "answer grid"
+    },
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "key",
+   "answer_evidence": "answer grid"
+  },
+  {
+   "i": 72,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "72-All of the following are causes of dullness over the manubrium stain EXCEPT:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ectopic thyroid.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      90.02400207519531,
+      447.8199768066406,
+      199.7830352783203,
+      461.8599853515625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Pneumothorax.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "highlight"
+     ],
+     "page": 17,
+     "bbox": [
+      90.02400207519531,
+      464.97998046875,
+      199.30303955078125,
+      479.0199890136719
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pre-tracheal lymph nodes.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      90.02400207519531,
+      482.0199890136719,
+      259.42303466796875,
+      496.05999755859375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Retrosternal goiter.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 17,
+     "bbox": [
+      90.02400207519531,
+      499.17999267578125,
+      219.22303771972656,
+      513.219970703125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 17,
+   "bbox": [
+    90.02400207519531,
+    413.739990234375,
+    506.5482177734375,
+    513.219970703125
+   ],
+   "pages": [
+    17
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with highlight"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with highlight"
+  }
+ ]
+}

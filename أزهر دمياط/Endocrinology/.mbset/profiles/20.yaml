@@ -1,0 +1,8 @@
+# Parser profile for 20 — Endocrinology Final Exam 2023..pdf
+# class=digital_single pages=1 has_text=True columns=1 bold_ratio=0.0 mark_rects=0
+# signals={'moodle': 0, 'docreader_quiz': None, 'phone': 0, 'question_numbers': 0, 'option_lines': 0, 'grid_pairs_tail': 0, 'declared_total': None, 'figure_words': 1}
+# Only fields that differ from the template/DEFAULT are needed. Field reference:
+#   .agents/skills/mbset-module-curator/references/profiles.md
+source: Raw_PDF_Questions/Endocrinology Final Exam 2023..pdf
+template: written_only
+numbering: none

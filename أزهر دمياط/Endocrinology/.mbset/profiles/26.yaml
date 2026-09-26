@@ -1,0 +1,18 @@
+# Parser profile for 26 — Endocrine summtive 2025.pdf
+# class=scanned pages=7 has_text=False columns=None bold_ratio=0.0 mark_rects=0
+# signals={'moodle': 0, 'docreader_quiz': None, 'phone': 0, 'question_numbers': 0, 'option_lines': 0, 'grid_pairs_tail': 0, 'declared_total': None, 'figure_words': 0}
+# Only fields that differ from the template/DEFAULT are needed. Field reference:
+#   .agents/skills/mbset-module-curator/references/profiles.md
+source: Raw_PDF_Questions/Endocrine summtive 2025.pdf
+template: scanned
+options_inline: true
+question_start: ^\s*[^\dA-Za-z]{0,4}[A-Za-z|]{0,2}\s*(\d{1,2})\s*[.)\-,:]?\s*(?=[A-Z(])
+ocr:
+  tool: paddle
+  dpi: 200
+skip_patterns:
+- marks.*each
+option_pattern: ^\s*(?:[.)]\s*)*[\[(]?([a-fA-F])\s*(?:[.)\]:,\-])\s*(?=\S)
+notes:
+- '2026-09-26 coordinator: OCR switched to PaddleOCR (was {''dpi'': 300, ''psm'':
+  4}); measured better question/option recovery'

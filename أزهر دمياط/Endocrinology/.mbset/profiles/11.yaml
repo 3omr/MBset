@@ -1,0 +1,8 @@
+# Parser profile for 11 — Thyroid Mansoura.pdf
+# class=digital_single pages=18 has_text=True columns=1 bold_ratio=0.12 mark_rects=315
+# signals={'moodle': 0, 'docreader_quiz': None, 'phone': 0, 'question_numbers': 19, 'option_lines': 83, 'grid_pairs_tail': 8, 'declared_total': None, 'figure_words': 0}
+# Only fields that differ from the template/DEFAULT are needed. Field reference:
+#   .agents/skills/mbset-module-curator/references/profiles.md
+source: Raw_PDF_Questions/Thyroid Mansoura.pdf
+template: digital_single
+options_inline: true

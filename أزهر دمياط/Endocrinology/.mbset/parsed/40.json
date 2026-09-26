@@ -1,0 +1,3232 @@
+{
+ "nn": "40",
+ "source": "Raw_PDF_Questions/أسئلة endocrine قديمه...pdf",
+ "sha256": "5a438150550d96bcd6bed7d22dc796b282092d6d63c6f364b70e1c862e100ab9",
+ "at": "2026-09-26T05:05:07Z",
+ "layout": {
+  "method": "ocr",
+  "splits": {
+   "1": null,
+   "2": null,
+   "3": null,
+   "4": null,
+   "5": null,
+   "6": null,
+   "7": 315.7
+  }
+ },
+ "counters": {
+  "source_numbering": 30,
+  "sections": [
+   "1-9",
+   "1-3",
+   "1-5",
+   "1-4",
+   "1-5",
+   "1-4"
+  ],
+  "option_a_lines": 27,
+  "parsed_questions": 48,
+  "parsed_numbered": 41,
+  "declared_total": null
+ },
+ "gaps": [
+  "section 1: missing [6]",
+  "section 6: missing [3, 4, 5]"
+ ],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [],
+  "grid_hits": 0,
+  "style_stats": {
+   "bold": 0.0,
+   "color": 0.065,
+   "tick": 0.0,
+   "highlight": 0.0,
+   "fill": 0.0,
+   "tint": 0.111,
+   "ink": 0.176,
+   "circle": 0.0,
+   "box": 0.0,
+   "underline": 0.0
+  },
+  "marked_hits": 14,
+  "answered": 14,
+  "mcq": 29,
+  "at": "2026-09-26T05:05:07Z"
+ },
+ "distribution": {
+  "A": 0.357,
+  "B": 0.214,
+  "C": 0.143,
+  "D": 0.286
+ },
+ "dropped_lines": [
+  "= Endocrine questions",
+  "e Diabetes mellitus",
+  "- Define **** [2021/2020/2019/2018]",
+  "- Complications ** [2021/2019]",
+  "- Give indications for insulin therapy [2021]",
+  "- Target of treatment [2021]",
+  "- Types*** (2018/2008/2007]",
+  "- 2 diagnostic laboratory tests [2018]",
+  "- Differences between type 1 & type 2 [2018]",
+  "- Mention oral drug therapy for type 2 DM [2018]",
+  "- Mention 7 kinds of patients you want to screen for type 2 DM** [2018/2017]",
+  "- Give a note on the Incretin-base therapy for type 2 DM [2017]",
+  "- Management of an overweight diabetic 30 years old patient** [2008/2007]",
+  "- Two (2) common chronic complications of type || OM [2006]",
+  "- Pathogenesis & treatment of type 2 DM** [2008/2003]",
+  "Compare () primary & secondary hypothyroidism (C/P, investigations, ttt) [2021/2019]",
+  "e Acromegaly:",
+  "- Causes [2015]",
+  "- Manifestations [2015/2014]",
+  "- Investigations [2021/2014]",
+  "- Complication [2011/2005]",
+  "- Treatment [2015/2014/2005]",
+  "Metabolic syndrome",
+  "- Define **** [2021/2020/2017]}",
+  "- enumerate its components*** {2021/2017}",
+  "* Microvascular complications :",
+  "- What are the macro-vascular complications [2016]",
+  "- risk factors [2021/2016]",
+  "- in brief how to prevent [2021]",
+  "* Grave's disease ‘Iry thyrotoxicosis’ ** 2018/2019/2010",
+  "(Define , clinical picture , laboratory investigations , treatment)",
+  "* Thyrotoxicosis. [2019/2018/2010/2006] ( causes ,symptoms , specific clinical signs",
+  ",Diagnosis & treatment)",
+  "© Cushing syndrome:",
+  "- Clinical picture**** (2021/2019/1\" - 2\" 2017]",
+  "- Diagnosis [2007]",
+  "- Complications ** [1° & 2\" 2017]",
+  "- Differentiate () true Cushing's disease & pseudo-Cushing (history/CP/investigation) [2013]",
+  "© Diabetic ketoacidosis:",
+  "- Clinical picture [2016/2007/2004}",
+  "- Diagnosis [2007]",
+  "- Management [2016/2013/2007/2004]",
+  "- Causes & diagnosis [2011/2008]",
+  "* Define (Subclinical hypothyroidism,) [2020]",
+  "* Subacute thyroiditis (De Quervan thyroditis): C/P, investigations & ttt [2020]",
+  "* primary hyperaldosteronism: investigations & which kind of patients you will do these",
+  "investigations ?[2020]",
+  "* Compare between: [symptoms, signs, laboratory and radiological diagnosis] 2019",
+  "- Graves' disease ** & toxic multinodular goiter",
+  "- Conn's & Cushing's syndrome",
+  "* Oral anti diabetic drugs: Enumerate classes , Mention the clinical benefits & side effects of",
+  "each group(2019]",
+  "* Hypogonadism: Mention pituitary causes [2019]",
+  "* Cancer thyroid: Discuss risk factor for from the history , examination & investigation",
+  "[2019]",
+  "* Adrenal crises: 4 causes , clinical presentations & treatment [2018]",
+  "© Pre-diabetes:",
+  "- Define {2020/2018}",
+  "- How to diagnose it [2018]",
+  "- Explain its importance [2018]",
+  "- Treatment {2018}",
+  "- Comment [2014]",
+  "* Solitary thyroid nodule: the approaches to diagnosis [2018]",
+  "* Hypoglycemia: Mention definition, causes & treatment [2 2017]",
+  "* Hypocalcemia: Symptoms & sigs ** [1 & 2\"° 2017] Causes & treatment [2016]",
+  "* hypoglycemia: causes& clinical picture [2011]",
+  "* Hypopituitarism (Causes and clinical types).[2014]",
+  "* Hyperparathyroidism: Causes, Clinical manifestations & investigations.[2013/2011/2004)",
+  "* hypothyroidism Discuss Causes, Clinical types, Diagnosis and management of (2005/2002)",
+  "* Addisson's disease. Clinical picture ,Diagnosis & ttt *** [2013/2006/2003)",
+  "e Short stature Discuss the cause, diagnosis & treatment [2012/2010]",
+  "* Pheochromocytoma & anxiety neurosis./ 2009)",
+  "* Gynecomastia (Causes, Investigations, and treatment) [2014]",
+  "« Comment on Metformin. [2014]",
+  "¢ The main differences between Ketotic and Non Ketotic hyperosmolar [2011]",
+  "= Endocrine Cases"
+ ],
+ "dropped_count": 76,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 0,
+  "dropped": [],
+  "stale": []
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": 1,
+   "section": 1,
+   "type": "QCS",
+   "stem": "female lady presented with palpitation, loss of weight, anxiety 3 months duration on Examination: tremors, staring look and neck swelling [2\"° 2017]",
+   "options": [
+    {
+     "letter": "A",
+     "text": "What is the most likely diagnosis?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      19.2,
+      72.0,
+      277.7,
+      84.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Mention other symptoms and signs that confirm the diagnosis?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      19.9,
+      89.8,
+      447.4,
+      103.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Mention laboratory and radiological investigations?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      19.2,
+      108.2,
+      432.2,
+      121.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Mention lines of treatment? (Smarks)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      19.2,
+      127.0,
+      247.2,
+      139.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    19.2,
+    34.3,
+    531.4,
+    139.4
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 2,
+   "number": 2,
+   "section": 1,
+   "type": "QCS",
+   "stem": "44-y female pt presented with fatigue, lethargy, hypersomnia, weight gain, cold intolerance & sense of compression in the neck. On examination; pulse 56/m, BI P 140/100 with pallor, puffiness and slow thick voice. Chest was free. She had a family history of a similar condition, but past history was irrelevant [1° 2017]",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Enumerate causes of bradycardia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      19.2,
+      228.0,
+      278.2,
+      240.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Enumerate causes of puffy eye lids",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      19.9,
+      245.8,
+      286.8,
+      259.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "What is your provisional diagnosis, why?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      19.2,
+      265.0,
+      318.5,
+      277.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "How can you confirm this diagnosis?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      19.2,
+      282.7,
+      291.4,
+      295.2
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "What are the types of anaemia in this case",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      19.2,
+      301.2,
+      331.2,
+      313.9
+     ]
+    },
+    {
+     "letter": "F",
+     "text": "What can you find in the obstetric and gynecological history in this patient? g. Give 3 other signs in the hands h. Do you think that surgery may have a role in the treatment?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      19.2,
+      319.7,
+      516.2,
+      332.9
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    15.1,
+    153.4,
+    516.2,
+    370.6
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 3,
+   "number": 3,
+   "section": 1,
+   "type": "QCS",
+   "stem": "44-y female pt presented with fatigue, lethargy, hypersomnia, (weight gain, cold intolerance and sense of compression in the neck. On examination; pulse 56 m, BI P140/100 with pallor, puffiness and slow thick voice. Chest was free, She had a family history of a similar condition, but past history was irrelevant. [2\"° 2017]",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Enumerate causes of bradycardia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      19.2,
+      457.9,
+      282.2,
+      469.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Enumerate causes of puffy eye lids (2)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      19.9,
+      476.4,
+      249.1,
+      488.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "What is your provisional diagnosis why?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      19.2,
+      494.9,
+      315.8,
+      507.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "How can you confirm this diagnosis?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      19.2,
+      513.4,
+      291.4,
+      525.8
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "What are the types of anaemia in this case",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      19.2,
+      531.8,
+      331.7,
+      544.3
+     ]
+    },
+    {
+     "letter": "F",
+     "text": "What can you find in the obstetric and gynecological history in this patient? g. Give other signs in the hands h. Do you think that surgery may have a role in the treatment?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      19.2,
+      550.3,
+      520.1,
+      562.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    15.1,
+    383.3,
+    520.1,
+    600.7
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 4,
+   "number": 4,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 23-year old female patient presented with history of 2 months dyspnea, palpitation, anxiety, insomnia, and weight loss. Her past history is irrelevant, and her mother has a similar condition. [1* 2016]",
+   "options": [
+    {
+     "letter": "A",
+     "text": "What is the most likely diagnosis? And why?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      19.2,
+      679.9,
+      342.2,
+      692.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "What is the first possible etiology in this patient? Mention 3 other common etiologies",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      19.9,
+      698.4,
+      521.5,
+      710.9
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "What is expected in the appetite and menstrual history in this patient",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      19.2,
+      716.9,
+      486.5,
+      729.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "What is the most sensitive sign in the eye? Give 4 important signs in the hand",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.0,
+      17.8,
+      523.4,
+      31.0
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "What are expected in the laboratory and radiological investigations of this patient?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.0,
+      36.2,
+      499.2,
+      49.2
+     ]
+    },
+    {
+     "letter": "F",
+     "text": "Give 2 different drugs (of different classes), with their dosage, for the treatment",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      17.0,
+      54.5,
+      482.2,
+      67.7
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    19.2,
+    624.2,
+    523.4,
+    729.4
+   ],
+   "pages": [
+    2,
+    3
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 5,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "(S) A 23-year old female patient presented with history of 2 months dyspnea, palpitation, anxiety, insomnia, and weight loss. Her past history is irrelevant, and her mother has a similar condition. [1 2016]",
+   "options": [
+    {
+     "letter": "A",
+     "text": "What is the most likely diagnosis? And why?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      11.8,
+      143.8,
+      332.9,
+      157.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "What is the first possible etiology in this patient? Mention 3 other common etiologies",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      12.5,
+      162.2,
+      511.0,
+      175.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "What is expected in the appetite and menstrual history in this patient",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      12.5,
+      180.7,
+      475.4,
+      193.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "What is the most sensitive sign in the eye? Give 4 important signs in the hand",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      12.5,
+      199.0,
+      519.6,
+      212.2
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "What are expected in the laboratory and radiological investigations of this patient?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      12.5,
+      217.4,
+      495.1,
+      230.6
+     ]
+    },
+    {
+     "letter": "F",
+     "text": "Give 2 different drugs (of different classes), with their dosage, for the treatment",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      12.5,
+      235.7,
+      478.1,
+      248.9
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "stem_recovered_from_option_wrap",
+    "option_marker_repaired_B",
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    12.5,
+    80.9,
+    528.7,
+    248.9
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 6,
+   "number": 7,
+   "section": 1,
+   "type": "QCS",
+   "stem": "An 18 years old girl Presented with unintentional weight loss, nocturia, Polyuria and high blood glucose. On examination, there was abdominal pain, dehydration, Hypotension and mental confusion. [1** 2015]",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Most likely diagnosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      11.8,
+      335.0,
+      144.5,
+      347.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Investigations",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      12.5,
+      354.0,
+      105.1,
+      365.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "treatment plan",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      12.5,
+      371.8,
+      111.6,
+      383.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "numbering_gap_before",
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    12.5,
+    279.1,
+    517.0,
+    383.5
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 7,
+   "number": 8,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A male patient 38 old presenting by easy fatigability, dizziness on standing and recurrent vomiting blood pressure 90/60. There is skin hyperpigmentation of recent onset and patchy of buccal mucosa hyperpigmentation [2\" 2015]",
+   "options": [
+    {
+     "letter": "A",
+     "text": "What is the most likely diagnosis?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      12.5,
+      453.1,
+      216.7,
+      465.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Discuss the investigations needed to reach the diagnosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      12.5,
+      471.6,
+      344.9,
+      484.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Discuss the appropriate treatment.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      12.5,
+      490.1,
+      222.7,
+      502.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    12.5,
+    397.9,
+    532.6,
+    502.3
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 8,
+   "number": 9,
+   "section": 1,
+   "type": "QROC",
+   "stem": "A 17 years old female presented at university hospital by disturbed consciousness, dehydration and rapid respiration (air hunger). BP 100/60 mm Hg, Temp 37.8, Cardiac Ex. Showed no abnormalities apart from tachycardia. R. blood sugar was 495 mg/dl. She has no history of diabetes mellitus before. [2° 2014]",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    12.5,
+    525.4,
+    528.0,
+    593.0
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 9,
+   "number": 1,
+   "section": 2,
+   "type": "QROC",
+   "stem": "What Is most likely diagnosis.",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    13.2,
+    599.8,
+    192.5,
+    612.2
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 10,
+   "number": 2,
+   "section": 2,
+   "type": "QROC",
+   "stem": "What are further clinical signs and laboratory findings related to this condition?",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    12.5,
+    618.0,
+    476.9,
+    630.5
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 11,
+   "number": 3,
+   "section": 2,
+   "type": "QROC",
+   "stem": "treatment during the hospitalization & the advice & treatment post-dischargement (10) 21 year's Old Student Female; complaining of irritability, Excessive sweating, Cardiac palpitation & occasionally hand tremors. There is no Thyroid Swelling. BL.P 138/75mmHg and TSH is low normal. [1* 2013]",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    12.5,
+    636.5,
+    528.7,
+    721.9
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 12,
+   "number": 1,
+   "section": 3,
+   "type": "QROC",
+   "stem": "what is the most likely diagnosis",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    12.5,
+    17.8,
+    208.3,
+    30.2
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 13,
+   "number": 2,
+   "section": 3,
+   "type": "QROC",
+   "stem": "What are Further clinical sign",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    12.5,
+    36.2,
+    191.0,
+    49.2
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 14,
+   "number": 3,
+   "section": 3,
+   "type": "QROC",
+   "stem": "discuss the important investigation",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    12.5,
+    54.5,
+    223.9,
+    67.0
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 15,
+   "number": 4,
+   "section": 3,
+   "type": "QROC",
+   "stem": "give one other diagnostic possibility?",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    11.8,
+    73.0,
+    235.2,
+    85.4
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 16,
+   "number": 5,
+   "section": 3,
+   "type": "QCS",
+   "stem": "Is this patient need psychiatric consultation and Why? (11) 45 years old presented to outpatient clinic by progressive loss of weight, easy fatigability, hyperpigmentation, on examination, he is hypotensive. [2\"° 2013]",
+   "options": [
+    {
+     "letter": "A",
+     "text": "What is your diagnosis?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      11.8,
+      164.9,
+      160.8,
+      177.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Discuss the possible investigations and treatment",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      12.5,
+      183.4,
+      306.7,
+      195.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    12.5,
+    91.2,
+    486.0,
+    195.8
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 17,
+   "number": 6,
+   "section": 3,
+   "type": "QCS",
+   "stem": "A 15 years old boy diabetic on insulin therapy presented coma & profuse Sweating. [2012]",
+   "options": [
+    {
+     "letter": "A",
+     "text": "what is the most likely diagnosis. How can you confirm.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      12.5,
+      243.6,
+      337.7,
+      256.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Give possible explanation for this presentation and other possible clinical features",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      12.5,
+      260.6,
+      490.1,
+      273.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Enumerate 5 different causes for hypoglycemia.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      11.8,
+      277.9,
+      295.4,
+      290.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Suggest the acceptable therapeutic strategy.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      12.5,
+      295.0,
+      277.9,
+      307.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_corrected_from_12",
+    "low_ocr_confidence",
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    12.5,
+    209.5,
+    518.9,
+    307.4
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 18,
+   "number": 7,
+   "section": 3,
+   "type": "QROC",
+   "stem": "A 57 years old patient presenting by disturbed consciousness he is diabetic on insulin and no history of hypertension Abd. and heart Ex showed no abnormalities. [1* 2010}",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_corrected_from_13",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    12.5,
+    327.8,
+    513.6,
+    373.7
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 19,
+   "number": 1,
+   "section": 4,
+   "type": "QROC",
+   "stem": "Give 3 different causes for this presentation.",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    12.5,
+    379.0,
+    277.9,
+    391.4
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 20,
+   "number": 2,
+   "section": 4,
+   "type": "QROC",
+   "stem": "Discuss the Important investigations needed to reach the definite diagnosis.",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    12.5,
+    395.3,
+    455.8,
+    408.5
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 21,
+   "number": 3,
+   "section": 4,
+   "type": "QROC",
+   "stem": "Give 5 causes of hypoglycemia.",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    12.5,
+    412.6,
+    201.6,
+    425.5
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 22,
+   "number": 4,
+   "section": 4,
+   "type": "QCS",
+   "stem": "Discuss 5 Specific clinical sign of middle cerebral artery Occlusion. (14) A male patient 3 years old presenting by easy fatigue, dizziness on standing and recurrent vomiting. Blood pressure 90/60. There is skin hyperpigmentation of recent onset and patchy of buccal mucosa hyperpigmentation. [2 2010]",
+   "options": [
+    {
+     "letter": "A",
+     "text": "What is the most likely diagnosis?",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      12.5,
+      515.5,
+      216.7,
+      528.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Enumerate the cause of this disease.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      12.5,
+      532.6,
+      233.0,
+      542.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Discuss the investigations needed to reach the diagnosis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      12.5,
+      549.8,
+      346.8,
+      562.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Mention 3 endocrinal causes of hyperpigmentation.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      12.5,
+      566.2,
+      319.2,
+      578.6
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Discuss the appropriate treatment.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      12.5,
+      583.9,
+      223.9,
+      595.7
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    11.8,
+    430.1,
+    501.8,
+    595.7
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 23,
+   "number": 5,
+   "section": 4,
+   "type": "QROC",
+   "stem": "A female patient aged 43 years presenting by easy fatigue, loss of libido, constipation, recurrent knee joint pain. There is puffy face and mild edema in the lower limbs. Cardiac examination showed no abnormalities. [2008]",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_corrected_from_15",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    12.5,
+    617.3,
+    519.6,
+    664.1
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 24,
+   "number": 1,
+   "section": 5,
+   "type": "QROC",
+   "stem": "What is the most likely diagnosis?",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    12.5,
+    669.4,
+    217.4,
+    681.8
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 25,
+   "number": 2,
+   "section": 5,
+   "type": "QROC",
+   "stem": "What are farther symptoms and clinical signs in this case.",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    12.5,
+    685.7,
+    350.2,
+    698.9
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 26,
+   "number": 3,
+   "section": 5,
+   "type": "QROC",
+   "stem": "Discuss the investigations needed to confirm the diagnosis.",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    12.5,
+    702.7,
+    361.2,
+    715.2
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 27,
+   "number": 4,
+   "section": 5,
+   "type": "QCS",
+   "stem": "Give 2 other possibilities for this case. (16) 29 years old lady presented by excessive sweating, tremor, loose motion and insomnia. Blood pressure 170/90 mmgh. [2007]",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Give further 3 symptoms and 5 signs help in diagnosis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      12.5,
+      101.5,
+      332.4,
+      116.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "What's the most likely diagnosis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      12.5,
+      119.5,
+      210.7,
+      132.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Discuss the investigations and treatment of this case.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      12.5,
+      136.6,
+      325.2,
+      149.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    11.8,
+    17.8,
+    482.2,
+    149.8
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 28,
+   "number": 5,
+   "section": 5,
+   "type": "QCS",
+   "stem": "A male patient aged 52 years, with diabetes mikkits of 10 years duration, maintained 25 units of insulin daily, was admitted to hospital in a comatosed state, he had history fiver and loss of appetite 3 days before: [2002]",
+   "options": [
+    {
+     "letter": "A",
+     "text": "What are the most probable 3 D.D.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      12.5,
+      222.0,
+      222.7,
+      234.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Mention the expected clinical signs.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      12.5,
+      239.0,
+      227.3,
+      251.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Invest required and its significance.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      11.8,
+      256.1,
+      223.2,
+      268.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Outline the ttt for one diagnosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      12.5,
+      273.1,
+      206.9,
+      285.6
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Endocrine MCQs",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      13.2,
+      289.0,
+      160.8,
+      302.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_corrected_from_17",
+    "option_marker_repaired_E",
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    12.5,
+    170.9,
+    529.4,
+    302.2
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 29,
+   "number": null,
+   "section": 5,
+   "type": "QROC",
+   "stem": "Normal fasting plasma glucose is: 2021",
+   "options": [
+    {
+     "letter": "A",
+     "text": "70-100 me/dl",
+     "bold": 0.0,
+     "color": 0.55,
+     "marks": [
+      "ink",
+      "tint"
+     ],
+     "page": 5,
+     "bbox": [
+      290.9,
+      307.4,
+      381.6,
+      320.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "single_option",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    291.6,
+    290.9,
+    492.5,
+    320.4
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 30,
+   "number": 1,
+   "section": 6,
+   "type": "QCS",
+   "stem": "Secondary hyperparathyroidism is",
+   "options": [
+    {
+     "letter": "B",
+     "text": "70-110 mg/dl commonly found in",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      291.6,
+      324.5,
+      380.9,
+      337.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "70-125 mg/dl",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      291.6,
+      341.5,
+      380.9,
+      354.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "options_start_at_B",
+    "letters_not_sequential",
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    13.2,
+    325.2,
+    380.9,
+    354.0
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 31,
+   "number": null,
+   "section": 6,
+   "type": "QCS",
+   "stem": "",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Milk alkali syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 5,
+     "bbox": [
+      11.8,
+      359.3,
+      143.3,
+      371.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "70-140 mg/dl",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      291.6,
+      357.8,
+      380.9,
+      371.0
+     ]
+    }
+   ],
+   "after": "B. Chronic renal failure",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "option_out_of_order_B",
+    "text_after_options",
+    "empty_stem"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": null,
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with ink"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with ink"
+  },
+  {
+   "i": 32,
+   "number": 6,
+   "section": 6,
+   "type": "QCS",
+   "stem": "The following drug doesn't induce",
+   "options": [
+    {
+     "letter": "C",
+     "text": "MEN syndromes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 5,
+     "bbox": [
+      12.5,
+      393.4,
+      118.8,
+      405.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Sarcoidosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      12.5,
+      410.4,
+      90.0,
+      420.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "numbering_gap_before",
+    "options_start_at_C",
+    "letters_not_sequential"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    291.6,
+    375.6,
+    496.6,
+    420.2
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with ink"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with ink"
+  },
+  {
+   "i": 33,
+   "number": null,
+   "section": 6,
+   "type": "QCS",
+   "stem": "",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sulphonylureas 2. The most common cause of primary",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 5,
+     "bbox": [
+      290.9,
+      409.9,
+      392.6,
+      422.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Pioglitazone adrenal insufficiency (Addison's disease) is",
+     "bold": 0.0,
+     "color": 0.08,
+     "marks": [
+      "ink",
+      "tint"
+     ],
+     "page": 5,
+     "bbox": [
+      291.6,
+      427.0,
+      374.4,
+      439.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Repaglinide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      291.6,
+      444.0,
+      371.0,
+      455.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "empty_stem"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": null,
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 34,
+   "number": null,
+   "section": 6,
+   "type": "QCS",
+   "stem": "",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Autoimmune process",
+     "bold": 0.0,
+     "color": 0.53,
+     "marks": [
+      "ink",
+      "tint"
+     ],
+     "page": 5,
+     "bbox": [
+      11.8,
+      462.5,
+      147.1,
+      474.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Surgical excision",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 5,
+     "bbox": [
+      12.5,
+      478.8,
+      118.3,
+      490.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      291.6,
+      461.0,
+      343.0,
+      470.9
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "letters_not_sequential",
+    "empty_stem"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": null,
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 35,
+   "number": 7,
+   "section": 6,
+   "type": "QCS",
+   "stem": "Prolonged use of metformin requires",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Iron",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      290.9,
+      512.9,
+      328.3,
+      522.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "B12 ketoacidosis",
+     "bold": 0.0,
+     "color": 0.11,
+     "marks": [
+      "ink",
+      "tint"
+     ],
+     "page": 5,
+     "bbox": [
+      292.3,
+      529.4,
+      326.4,
+      538.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hemorhagic shock",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      12.5,
+      495.8,
+      130.1,
+      507.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "The following is not a feature of diabetic",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      12.5,
+      529.9,
+      254.9,
+      542.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "options_start_at_C",
+    "option_marker_repaired_C",
+    "option_out_of_order_C",
+    "letters_not_sequential"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    291.6,
+    478.1,
+    514.3,
+    557.0
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 36,
+   "number": null,
+   "section": 6,
+   "type": "QCS",
+   "stem": "C. Folic acid",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hyperthermia",
+     "bold": 0.0,
+     "color": 0.58,
+     "marks": [
+      "ink",
+      "tint"
+     ],
+     "page": 5,
+     "bbox": [
+      11.8,
+      564.2,
+      105.1,
+      576.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Dehydration",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      12.5,
+      580.6,
+      96.0,
+      593.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Leukocytosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      12.5,
+      598.3,
+      97.9,
+      610.1
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "lodine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      292.3,
+      563.5,
+      341.5,
+      573.4
+     ]
+    }
+   ],
+   "after": "2018 D. Air hunger",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "option_out_of_order_D",
+    "text_after_options"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    291.6,
+    546.5,
+    356.6,
+    610.1
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 37,
+   "number": 8,
+   "section": 6,
+   "type": "QCS",
+   "stem": "Surgery is never indicated in 4. The following anti diabetic drug causes",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hashimotos thyroidits considerable weight loss",
+     "bold": 0.0,
+     "color": 0.25,
+     "marks": [
+      "ink",
+      "tint"
+     ],
+     "page": 5,
+     "bbox": [
+      291.6,
+      631.9,
+      430.8,
+      643.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Primary hyperparathyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      292.3,
+      649.0,
+      471.6,
+      660.7
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    291.6,
+    614.6,
+    471.6,
+    661.4
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 38,
+   "number": null,
+   "section": 6,
+   "type": "QCS",
+   "stem": "",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pioglitazone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      11.8,
+      666.0,
+      95.3,
+      678.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      12.5,
+      683.8,
+      62.4,
+      693.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Cushing disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      291.6,
+      666.0,
+      394.8,
+      677.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Thyroid carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      292.3,
+      682.3,
+      411.1,
+      694.8
+     ]
+    }
+   ],
+   "after": "C. Sulphonylures",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "option_out_of_order_C",
+    "text_after_options",
+    "empty_stem",
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": null,
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 39,
+   "number": 9,
+   "section": 6,
+   "type": "QCS",
+   "stem": "Imatinib is tyrosine kinase inhibitor D. SGLT 2 inhibitors used for treatment of",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Acute lymphatic leukemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      13.4,
+      20.2,
+      197.5,
+      34.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "chronic lymphatic leukemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.2,
+      39.8,
+      206.6,
+      54.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Acute myeloid leukemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.2,
+      59.3,
+      184.8,
+      73.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "chronic myeloid leukemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.2,
+      79.0,
+      196.8,
+      93.1
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_out_of_order_D",
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    291.6,
+    700.1,
+    504.5,
+    0
+   ],
+   "pages": [
+    5,
+    6
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 40,
+   "number": 10,
+   "section": 6,
+   "type": "QCS",
+   "stem": "All can induce hypoglycemia in type 2 DM except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sulphonylurea",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      13.4,
+      136.6,
+      123.1,
+      151.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "insulin therapy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.2,
+      157.0,
+      126.2,
+      171.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Repaglinide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 6,
+     "bbox": [
+      14.2,
+      176.4,
+      105.1,
+      190.1
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Acarbose",
+     "bold": 0.0,
+     "color": 0.52,
+     "marks": [
+      "ink",
+      "tint"
+     ],
+     "page": 6,
+     "bbox": [
+      14.2,
+      195.4,
+      90.2,
+      207.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    15.1,
+    98.4,
+    280.1,
+    207.4
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 41,
+   "number": 11,
+   "section": 6,
+   "type": "QCS",
+   "stem": "11-Bromocriptin is not useful in treatment of",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Parkinsonism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      13.4,
+      253.9,
+      115.7,
+      265.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Alzheimer disease",
+     "bold": 0.0,
+     "color": 0.59,
+     "marks": [
+      "ink",
+      "tint"
+     ],
+     "page": 6,
+     "bbox": [
+      14.2,
+      273.4,
+      146.4,
+      284.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Diabetes Mellitus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.2,
+      292.8,
+      142.1,
+      304.1
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Acromegaly",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.2,
+      312.5,
+      107.5,
+      326.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "stem_recovered_from_option_wrap",
+    "number_inferred"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    15.1,
+    214.8,
+    287.8,
+    326.6
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 42,
+   "number": 12,
+   "section": 6,
+   "type": "QCS",
+   "stem": "12-Graves' disease is best treated by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Surgery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      13.4,
+      352.3,
+      79.7,
+      365.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Radioactive iodine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      14.2,
+      371.0,
+      148.8,
+      382.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Propylthiouracil",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 6,
+     "bbox": [
+      14.2,
+      390.5,
+      132.2,
+      403.9
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Carbimazole",
+     "bold": 0.0,
+     "color": 0.46,
+     "marks": [
+      "ink",
+      "tint"
+     ],
+     "page": 6,
+     "bbox": [
+      14.2,
+      409.9,
+      111.1,
+      421.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "stem_recovered_from_option_wrap",
+    "number_inferred"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    14.2,
+    331.9,
+    254.6,
+    421.2
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 43,
+   "number": 13,
+   "section": 6,
+   "type": "QROC",
+   "stem": "In somogyi phenomenon commonly associated with type 2 DM, the dose of insulin should be A-Increased",
+   "options": [
+    {
+     "letter": "B",
+     "text": "Stopped",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 6,
+     "bbox": [
+      14.2,
+      507.6,
+      84.2,
+      521.3
+     ]
+    }
+   ],
+   "after": "C-Decreased D-Needs no change",
+   "exp": "C-Decreased D-Needs no change",
+   "inline_answer": null,
+   "flags": [
+    "options_start_at_B",
+    "single_option"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    15.1,
+    429.6,
+    271.9,
+    521.3
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 44,
+   "number": 14,
+   "section": 6,
+   "type": "QROC",
+   "stem": "Thyroid acropachy is found in A-Subclinical hyperthyroidism B-Grave's disease C-Myxedema D- Medullary carcinoma of thyroid",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_out_of_order_D",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    14.2,
+    566.2,
+    554.4,
+    579.8
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 45,
+   "number": 15,
+   "section": 6,
+   "type": "QCS",
+   "stem": "Commonest cause of ambiguous genetilia in newborn is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Conginital Adrenal Hyperplasia",
+     "bold": 0.0,
+     "color": 0.49,
+     "marks": [
+      "ink",
+      "tint"
+     ],
+     "page": 6,
+     "bbox": [
+      332.6,
+      137.5,
+      549.1,
+      151.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "True hermaphroditism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      333.6,
+      157.0,
+      494.9,
+      171.1
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Pseudo hermaphroditism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      333.6,
+      196.1,
+      517.4,
+      210.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "letters_not_sequential"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    333.6,
+    99.1,
+    567.1,
+    210.2
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 46,
+   "number": 16,
+   "section": 6,
+   "type": "QCS",
+   "stem": "insulin glargine is",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Short acting insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      333.6,
+      235.0,
+      471.6,
+      249.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "ultrashort acting",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      333.6,
+      254.6,
+      456.7,
+      268.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "premixed insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      333.6,
+      274.1,
+      454.3,
+      287.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "long acting basal insulin",
+     "bold": 0.0,
+     "color": 0.53,
+     "marks": [
+      "ink",
+      "tint"
+     ],
+     "page": 6,
+     "bbox": [
+      333.6,
+      293.5,
+      503.3,
+      307.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    334.3,
+    215.5,
+    503.3,
+    307.2
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 47,
+   "number": 17,
+   "section": 6,
+   "type": "QCS",
+   "stem": "the following are features of Cushing syndrome except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "moon face",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      333.6,
+      351.4,
+      419.0,
+      363.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "buffalo hump",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      334.3,
+      371.0,
+      437.0,
+      385.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "stria rubra",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      333.6,
+      390.5,
+      415.4,
+      401.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "alopecia",
+     "bold": 0.0,
+     "color": 0.5,
+     "marks": [
+      "ink",
+      "tint"
+     ],
+     "page": 6,
+     "bbox": [
+      333.6,
+      409.9,
+      403.4,
+      424.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    334.3,
+    312.5,
+    596.4,
+    424.3
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  },
+  {
+   "i": 48,
+   "number": 18,
+   "section": 6,
+   "type": "QCS",
+   "stem": "all of the following are features of pituitary dwarfism except a-Caused by decreased growth hormone b-proportionate dwarfism",
+   "options": [
+    {
+     "letter": "C",
+     "text": "mental apathy",
+     "bold": 0.0,
+     "color": 0.69,
+     "marks": [
+      "ink",
+      "tint"
+     ],
+     "page": 6,
+     "bbox": [
+      333.6,
+      507.6,
+      442.3,
+      521.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "may be associated with hypogonadism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 6,
+     "bbox": [
+      333.6,
+      527.3,
+      600.2,
+      541.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "options_start_at_C",
+    "letters_not_sequential"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    334.3,
+    429.6,
+    600.2,
+    541.4
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with tint"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with tint"
+  }
+ ]
+}
