@@ -1,6 +1,12 @@
 # Extraction Playbook — Format Triage, Columns, OCR & Figures
 
-Stage 1 of the pipeline. The rule this file exists to enforce: **look at the file before you extract it**, and pick the recipe that matches its format. A single generic extractor applied to a whole folder is how questions get lost.
+Stage 1 of the pipeline. The rule this file exists to enforce: **look at the file before you extract it**, and pick the recipe that matches its format.
+
+> **With `mbset.py` (the default since v2)** triage is automatic (`inventory`) and each recipe below
+> is a *profile* (`references/profiles/*.yaml`, fields in [`profiles.md`](./profiles.md)) executed by one
+> parser — not a script per file, and never questions typed by the model. Use this playbook to
+> understand a format and to choose profile settings when `show --flags` shows the parser misread a
+> file. The manual commands below remain valid for inspecting a source by hand.
 
 ---
 

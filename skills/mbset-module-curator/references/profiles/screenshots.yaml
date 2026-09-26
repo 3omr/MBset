@@ -1,0 +1,4 @@
+# A single screenshot image (pass one file per source). OCR is required.
+text: ocr
+columns: 1
+options_inline: true

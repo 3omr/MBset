@@ -1,0 +1,11 @@
+# Moodle review export / phone screenshots of a Moodle attempt.
+# The correct option is the one the review marks as correct — never the student's choice.
+text: auto
+columns: 1
+options_inline: true
+skip_patterns:
+  - '^\s*(?:Your answer is (?:correct|incorrect)|Correct|Incorrect)\s*\.?\s*$'
+  - '^\s*Question text\s*$'
+answers:
+  mode: inline
+  inline_pattern: '^\s*The correct answer is:?\s*\(?([A-Fa-f])\)?[.)\s]'

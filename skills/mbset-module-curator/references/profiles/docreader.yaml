@@ -1,0 +1,9 @@
+# DocReader export: clean single column, no printed key. The key is the online quiz
+# printed at the top (docreader_quiz is filled from triage) → Answer Source: online.
+text: native
+columns: 1
+skip_patterns:
+  - '^\s*Questions\s*$'
+  - '^\s*Department book \d{4}\s*$'
+answers:
+  mode: online

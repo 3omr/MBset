@@ -1,0 +1,5 @@
+# Written (QROC) paper: every numbered item is a question; the model answer follows it
+# (after an "Answer:" line, or on the next lines when answer_follows is true).
+type: written
+written:
+  answer_follows: false

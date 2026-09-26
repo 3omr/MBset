@@ -1,0 +1,8 @@
+# Department book: numbering restarts per chapter, key grid at the end of each chapter or book.
+# Stop the question parser at the key pages and point grid_pages at them.
+text: native
+columns: auto
+sections_restart: true
+answers:
+  mode: grid
+  grid_pages: null   # e.g. "45-48"

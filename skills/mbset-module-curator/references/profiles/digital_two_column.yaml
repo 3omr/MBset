@@ -1,0 +1,3 @@
+# Digital PDF in two columns: each column is read top-to-bottom, left column first.
+text: native
+columns: 2

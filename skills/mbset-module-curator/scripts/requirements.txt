@@ -1,0 +1,8 @@
+# mbset.py pipeline (system packages: tesseract-ocr, unrar or 7z for archives)
+PyMuPDF>=1.24
+PyYAML>=6.0
+rapidfuzz>=3.0
+Pillow>=10.0
+openpyxl>=3.1
+python-docx>=1.1
+python-pptx>=0.6

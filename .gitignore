@@ -3,7 +3,7 @@
 !/.gitignore
 !/AGENTS.md
 !/SKILL_UPGRADE_PLAN.md
-!/requirements*.txt
+!requirements*.txt
 !/skills-lock.json
 !/scripts/
 !/.agents/
@@ -28,7 +28,7 @@
 *.rar
 *.7z
 *.txt
-!/requirements*.txt
+!requirements*.txt
 __pycache__/
 *.pyc
 .venv*/
@@ -44,6 +44,9 @@ Lecture_PowerPoint_PDF_Staging/
 .mbset/ocr/
 .mbset/cache/
 .mbset/locks/
+.mbset/state.lock
+.mbset/*.tmp
+.mbset/reports/*.png
 *.ppsx
 *.ndjson
 *.mp4

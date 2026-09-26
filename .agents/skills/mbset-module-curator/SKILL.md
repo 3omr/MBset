@@ -2,9 +2,11 @@
 name: mbset-module-curator
 description: >-
   Standard operating procedure and toolkit for curating, formatting, and building
-  MBset medical modules: source inventory reconciliation, format-aware 1-to-1 markdown
-  extraction with confidence-aware OCR and deep noise removal, answer-key provenance and statistical verification,
-  image-question handling, lecture PDF management, and 31-column master question bank Excel.
+  MBset medical modules. Use it to extract questions from exam PDFs, scans, Word files,
+  slides and screenshots into markdown and the 31-column question bank Excel: the mbset.py
+  pipeline (inventory, OCR, per-source parser profiles, automatic answer keys with provenance,
+  visual answer sheets, figures, spot checks, forensic check gate, build), tagging rules,
+  lecture subcategories and PDF management.
 ---
 
 # MBset Medical Module Curator Skill
@@ -128,87 +130,133 @@ Full detail: [`references/tagging-and-naming.md`](./references/tagging-and-namin
 
 ---
 
-## 5. The Question Bank Curation Pipeline (Stage 0 → Stage 4)
+## 5. The Question Bank Pipeline — `mbset.py` (parse first, review second)
 
-### Stage 0 — Source Inventory & Reconciliation (before any extraction)
-1. Expand every archive in the module folder (`.zip`, `.7z`, `.rar`) into `<Module>/Raw_PDF_Questions/`; archives are sources too and are frequently forgotten.
-2. List **every** candidate source: `.pdf`, `.PDF`, `.docx`, `.pptx`, `.txt`, `.md`, image folders (`.jpg`/`.png` screenshot sets).
-3. Record each with its page/slide count (`pdfinfo`, `pdftotext`) in the catalog skeleton.
-4. **Reconciliation rule**: `count(source files) == count(markdown files)`. A source that is intentionally excluded (duplicate of another file, lecture notes with no questions, unreadable scan) must still appear in the catalog with `EXCLUDED — <reason>`. Silent omissions are the single most common way questions go missing.
+**The model never types question text.** A deterministic parser extracts every stem, option and
+answer from the source into canonical markdown; the agent's job is to (1) make each source's
+*profile* right, (2) review only what the tools flag, and (3) read answers off the page where the
+source marks them by pen. This is what makes a module take minutes of agent time instead of hours,
+and it removes the paraphrasing, skipped questions and invented answers that hand-transcription
+produces. Retyping questions from a PDF — or from memory — is forbidden; if the parser gets a file
+wrong, fix the profile and re-parse.
 
-### Stage 1 — Format-Aware 1-to-1 Markdown Extraction
-Every source file becomes exactly one file at `<Module>/Markdown_Questions/<Index>_<SourceName>.md`. No grouping, no merging, no splitting.
+All state lives in `<Module>/.mbset/` (state.json, profiles, OCR cache, parsed evidence, reports).
+Every command is idempotent and resumable; `status` shows where each source is.
 
-1. **Triage first, extract second.** Before writing any extraction code, classify the file — digital single-column, digital multi-column, scanned/OCR, Moodle web export, phone-screenshot set, DocReader export, or slide deck — and use the matching recipe in [`references/extraction-playbook.md`](./references/extraction-playbook.md). For scanned/image-only sources or weak existing OCR, use the confidence-aware PaddleOCR pass in [`references/smart-ocr-workflow.md`](./references/smart-ocr-workflow.md) as an OCR aid. **Never run a generic regex script across several files**; each source has its own quirks.
-2. **Multi-column handling is mandatory, not optional.** `pdftotext -layout` interleaves columns and silently destroys stems. Detect columns (see playbook) and extract each column separately with `scripts/extract_pdf_columns.py`, then concatenate in reading order (page 1 col 1, page 1 col 2, page 2 col 1, …).
-3. **Section-restarting numbering.** Department books commonly restart numbering per chapter (`1..54`, then `1..12`, then `1..12`). Renumber continuously `Q1..QN` in the markdown, and note each source section boundary in the catalog. Never treat a restart as the end of the file.
-4. **Answer extraction, never answer invention.** Every question records where its answer came from (Stage 2). If a source genuinely has no key anywhere, the answer is derived — and must be labelled as derived.
-5. **Strict ban on placeholders & fabrications**: never default `Correct` to `A` or any letter; never invent `True/False` options; never fabricate an option to fill a gap.
-6. **Agent-owned deep noise removal on every source.** Clean OCR/text while structuring the Markdown, then run `scripts/clean_markdown_noise.py` and manually inspect and repair its output against the source. Remove Moodle chrome, phone status bars, inline `Select one:` options, trailing answer-key grids, `TABLE n A B` headers, bubble artifacts (`@©`, `®@`), Franco-Arab OCR gibberish, Arabic script, leading numbering, invisible unicode, and preceding-question explanation bleed. The cleaner supplements source-aware work; it does not replace it. Do not hand off routine noise cleanup to the user. Use [`references/noise-removal-and-curation.md`](./references/noise-removal-and-curation.md), and do not proceed with noisy Markdown.
-7. **Figure-dependent questions.** When a stem refers to a figure, diagram, slide, arrow, photomicrograph or "the following image", the picture is part of the question:
-   - Crop the figure from the source page (see playbook §7) and save it as `<Module>/Images/<Index>_<Qn>.png`.
-   - Reference that path in the markdown as `**Image:** <relative path>` and carry it into the `Image` column.
-   - A figure-dependent question with no image is unanswerable on the platform: if the figure cannot be recovered, mark the question `EXCLUDED — figure unrecoverable` in the catalog rather than shipping a broken question.
-8. **Unicode fidelity.** Preserve medical notation: `Ca²⁺`, `Na⁺`, `K⁺`, `β1`, `α2`, `µm`, `→`. OCR renders these as `Ca**`, `Na*`, `B1`, `um`; repair them, do not ship them.
+```bash
+S=.agents/skills/mbset-module-curator/scripts/mbset.py      # M="أزهر دمياط/<Module>"
+python $S inventory "$M"            # Stage 0: expand archives, hash-dedupe, triage every source, suggest tags
+python $S ocr "$M"                  # Tesseract for every scanned source, parallel, cached per page
+python $S parse "$M"                # profile → markdown for every source (≈1 min per module), flags + counters
+python $S check "$M"                # Stages 2+3 gate: problems only, grouped per file
+# … review loop below until check prints 0 hard failures …
+python $S catalog "$M"              # 00_CATALOG_OF_ALL_FILES.md + tag map, generated from state
+python $S build "$M"                # check → build_module_template → validate → audit (all must pass)
+```
 
-**Markdown file format** (fixed — the Stage 3 compiler parses it):
+### Stage 0 — Inventory (`inventory`)
+Expands `.zip/.rar/.7z`, lists every source with pages and a SHA-256, auto-excludes byte-identical
+duplicates (`EXCLUDED — duplicate of NN`), flags near-duplicates, keeps the NN of an existing
+catalog, and triages each file (`digital_single`, `digital_two_column`, `scanned`, `moodle`,
+`docreader`, `docx`, `pptx`, `screenshot`, `phone_screenshots`, `text`) with signals such as
+declared totals and figure words. Tags are *suggested* (`confirmed: false`); the agent confirms or
+corrects them with `set NN --tag … --year … --confirm`. `set NN --exclude "reason"` documents a
+source with no questions. `count(sources) == count(markdown) + excluded` is enforced by `check`.
+
+### Stage 1 — Profiles and parsing (`profile`, `parse`, `show`)
+Each source gets `.mbset/profiles/NN.yaml`, pre-filled from its triage class
+(`references/profiles/*.yaml`). The parser handles, without per-file code: column detection per
+page, two-column reading order, option grids (a c / b d), inline `a. … b. …` runs, right-to-left
+PDFs, section-restarting numbering, excerpts starting at Q121, chapter numbering `24.3`,
+unnumbered questions, OCR number/marker repair, Moodle/DocReader/scanner/phone chrome, and
+figure detection. `parse` prints per file: questions, MCQ, answered, the three counters, answer
+distribution and flag count. Read **only** the flagged questions:
+
+```bash
+python $S show "$M" NN --flags      # flagged questions with evidence (source no., page, marks/style per option)
+python $S show "$M" NN --dropped    # lines the parser discarded as noise — make sure no question is in there
+python $S profile "$M" --only NN --print   # the effective profile; edit .mbset/profiles/NN.yaml, then parse --only NN
+```
+
+Typical profile fixes: `columns: 2`, `pages: "3-40"`, `stop_patterns: ["^Answers"]`,
+`answers: {mode: grid, grid_pages: "-1"}`, `numbering: none`, `type: written`,
+`declared_total: 60`. Every field is in [`references/profiles.md`](./references/profiles.md).
+A markdown file edited after the parser wrote it is never overwritten without `--force`
+(a backup is kept).
+
+### Stage 2 — Answers with provenance (automatic first, visual second)
+`parse` resolves answers itself, in priority order, and labels each one:
+
+| Label | Found by | Notes |
+| :--- | :--- | :--- |
+| `key` | answer grid anywhere in the file (`1-C 2-A`, two-row tables, `Ans: B` lines, section-aware) | highest trust |
+| `online` | the source's DocReader quiz (`answers.docreader_quiz: <id>`) | never defaults when the site has no answer |
+| `marked` | exactly one option carries a mark: tick glyph, highlight/ink/circle/box annotation, coloured fill, pixel tint, bold, colour, underline | a style shared by most options is ignored |
+| `derived` | the agent's medical knowledge, only when the source has no answer | **reported to the user with counts** |
+
+Sources disagreeing, a key letter that is not among the options and multi-letter keys are flagged.
+Scans with **pen marks** cannot be read reliably by pixels — read them visually, in batches:
+
+```bash
+python $S answersheet "$M" --only NN            # crops of every unanswered MCQ, 6 per PNG, labelled with Q numbers
+python $S fix "$M" NN --answers "2=B 3=B 4=B 6=C" --source marked
+python $S fix "$M" NN --exp-file model_answers.json          # written questions: {"12": "model answer …"} (derived)
+python $S fix "$M" NN --image 7=Images/NN_Q7.png --drop 31 --reason "duplicate of Q30 in the source"
+```
+
+Every `fix` decision is stored in state (keyed by stem), so a later profile fix + re-parse
+re-applies it; stale decisions are reported. **Bias gate:** ≥ 15 MCQs and one letter > 45% →
+investigate, > 60% → hard fail. Never copy an answer from a similar question in another file.
+
+### Stage 3 — Review and the gate (`figures`, `spotcheck`, `review`, `check`)
+```bash
+python $S figures "$M" --only NN                 # crops figures for figure-dependent stems → Images/NN_Qi.png, linked
+python $S spotcheck "$M" --only NN [--flagged]   # max(5,10%) source crops beside the markdown, 5 per PNG
+python $S review "$M" NN --spot "7/7 OK"         # record the verdict (required by check)
+python $S check "$M" [--only NN] [--all]         # 0 hard failures before any Excel work
+```
+`check` hard-fails on: missing markdown, non-continuous numbering, counters that disagree
+(source numbering − documented drops ≠ headings), declared total mismatch, numbering gaps,
+Arabic, noise signatures, non-sequential options, unanswered MCQs, invalid Answer Source,
+written questions without a model answer, figure stems without an image, bias > 60%, no spot
+check, unconfirmed tags, duplicate NN, missing sources. An explained, accepted mismatch is
+recorded with `set NN --count-note "…"`. Everything else is a review item.
+
+### Stage 4 — Build (`catalog`, `build`)
+`build` refuses to run while `check` has hard failures, then runs
+`build_module_template.py` (dedupe on normalized stems, tags merged), `validate_questions_excel.py`
+and `audit_question_bank.py --by-tag`; all three must pass. Report the final counts per file,
+the answer-source breakdown and every `derived` count to the user.
+
+### Working in parallel and choosing models
+`packets "$M" --n 4` splits the sources into balanced work packets (by pages) with the exact
+command loop; each agent `lock`s its NNs and touches only their profiles and markdown. The
+catalog and the Excel are built once, by the coordinator. See
+[`references/parallel-workflow.md`](./references/parallel-workflow.md) and
+[`references/model-routing.md`](./references/model-routing.md) (cheap model for the
+mechanical loop, strong model only for pen-marked answer sheets and derived answers).
+
+### Legacy tools
+`extract_pdf_columns.py`, `ocr_paddle_pages.py` and `clean_markdown_noise.py` (now canonical-format,
+dry-run by default, never invents an answer) remain for one-off inspection. The markdown format,
+the provenance labels, the counters and the gates are unchanged — `mbset.py` writes and proves them.
+
+**Markdown file format** (what `build_module_template.py` parses):
 ```markdown
 ### Q1: <clean stem>
 
 - **A)** <option>
 - **B)** <option>
-- **C)** <option>
-- **D)** <option>
 
-**Correct Answer:** C
+**Correct Answer:** B
 **Answer Source:** key            <!-- key | marked | online | derived -->
 **Image:** Images/05_Q1.png       <!-- only when figure-dependent -->
+**Source Pages:** 3
 **EXP:** <explanation / model answer>
 
 ---
 ```
 Written questions use `**Correct Answer:** -` with the model answer in `**EXP:**` and no options.
-
-### Stage 2 — Answer-Key Provenance & Verification (the accuracy gate)
-This stage exists because unverified keys are the largest silent defect in the repository — one module shipped 228 questions keyed 100% `A` and another 560 keyed 97% `A`.
-
-1. **Provenance label on every MCQ** (`**Answer Source:**`):
-   | Label | Meaning | Trust |
-   | :--- | :--- | :--- |
-   | `key` | Printed answer key/grid in the source | Highest |
-   | `marked` | Correct option bolded, highlighted, ticked, bulleted or colored in the source | High — verify the letter after any option repacking |
-   | `online` | Recovered from the source's own online quiz (e.g. a DocReader `doc-reader-guide.com/mcq-quizzes/<id>` link printed in the PDF) | High |
-   | `derived` | No key in the source; answered from medical knowledge | **Must be reported to the user, per file, with counts** |
-2. **Statistical bias gate (hard fail).** For every source file with ≥ 15 MCQs, compute the distribution of `Correct`. A real exam sits near 20-30% per letter. **Fail the file** if any single letter exceeds **45%**, and investigate before proceeding; > 80% on one letter is proof of a placeholder default, never a coincidence. Run `scripts/audit_question_bank.py --markdown <dir>` or `--excel <file>` to get the per-source table.
-3. **Marked-answer recovery.** Where OCR dropped the letter of a highlighted option, recover it from the layout (bold run, highlight rectangle, bullet glyph, indentation) — and re-check the letter after any option repacking in Stage 3.
-4. **Spot-check sampling.** For each file, verify 5 answers (or 10%, whichever is larger) against the source by eye. Record `verified n/N` in the catalog.
-5. **Never** resolve a missing key by copying the answer of a similar question from another file.
-
-### Stage 3 — Forensic Completeness Audit (pre-Excel gate)
-1. **Catalog** `<Module>/Markdown_Questions/00_CATALOG_OF_ALL_FILES.md` with one row per source: index, group, source filename, type/pages, target markdown, total/MCQ/written counts, tag, `tagSuggere`, `Year`, answer-source breakdown (`key/marked/online/derived`), spot-check result, status.
-2. **Three independent counters must agree** (± small, explained margin):
-   - the highest question number in the source (per section, summed),
-   - the number of option-`A` blocks in the extracted text,
-   - the number of `### Q` headings in the markdown.
-   Disagreement means questions were lost or duplicated — re-extract, do not "explain away".
-3. **Declared totals** stated in the source ("120 questions", "Total marks 80") override every estimate.
-4. Continuous numbering `1..N`, no gaps, no duplicates, zero Arabic characters, zero noise signatures.
-5. **STOP & VERIFY**: the Excel is not created or modified until every markdown file passes Stages 2 and 3.
-
-### Stage 4 — Master 31-Column Excel Compilation & Validation
-1. **Aggregate** all verified markdown into `<Module>_Questions.xlsx` (canonical header, Section 3).
-2. **Deduplicate** on the normalized stem `re.sub(r'[^a-z0-9]','',stem.lower())`:
-   - MCQ + written sharing a stem → keep `QCS`, enrich `EXP` with the model answer, merge tags.
-   - Matching questions ("match structure with effect") keep their matching items inside the stem so distinct items are not collapsed.
-   - After compiling, **zero duplicate normalized stems may remain**.
-3. **Option repacking**: options must start at `A` and be sequential; when repacking, move `Correct` with them.
-4. **Validate, then audit**:
-   ```bash
-   python scripts/validate_questions_excel.py <Module>/<Module>_Questions.xlsx   # schema gate
-   python scripts/audit_question_bank.py --excel <Module>/<Module>_Questions.xlsx # forensic gate
-   ```
-   Both must exit clean: 0 schema errors, 0 option mismatches, 0 duplicate stems, 0 Arabic, 0 noise signatures, 0 bias-flagged sources, 0 figure-dependent questions without an image.
-5. Report the final counts to the user against the catalog totals.
 
 ---
 
@@ -231,6 +279,10 @@ This stage exists because unverified keys are the largest silent defect in the r
 
 ## 7. Reference Files and Helpers
 
+* [Pipeline v2 — every mbset.py command](./references/pipeline-v2.md)
+* [Parser profiles — every field, with recipes](./references/profiles.md)
+* [Parallel workflow (packets, locks)](./references/parallel-workflow.md)
+* [Model routing (which model for which step)](./references/model-routing.md)
 * [Extraction Playbook (format triage, columns, OCR, figures)](./references/extraction-playbook.md)
 * [Smart OCR Workflow (PaddleOCR positions, confidence, review)](./references/smart-ocr-workflow.md)
 * [Answer-Key Provenance & Verification](./references/answer-key-verification.md)
@@ -238,6 +290,7 @@ This stage exists because unverified keys are the largest silent defect in the r
 * [Deep Noise Removal & Curation Guide](./references/noise-removal-and-curation.md)
 * [Tagging & Merging Reference](./references/tagging-and-naming.md)
 * [Subcategories & Lecture Processing Guide](./references/subcategories-and-lectures.md)
+* [mbset.py — the pipeline CLI](./scripts/mbset.py)
 * [Column-Aware PDF Extractor](./scripts/extract_pdf_columns.py)
 * [Forensic Bank Auditor](./scripts/audit_question_bank.py)
 * [Excel Schema Validator](./scripts/validate_questions_excel.py)
