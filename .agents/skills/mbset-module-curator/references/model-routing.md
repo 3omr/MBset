@@ -33,8 +33,10 @@ node ~/.agents/skills/codex-delegate/scripts/relay.mjs \
 - The relay never commits, and neither does the orchestrator unless the user asks.
 
 ## Rules for every worker (they are in the brief)
-- Never transcribe, retype or paraphrase question text. A misread question is fixed through the
-  profile + re-parse, or `fix` (answers, images, drops, model answers) — all keep the source wording.
+- Question text is fixed in this order: profile + re-parse (whole file) → `fix --text-file` for single
+  questions, **re-read from the page image and written exactly as printed** (restore a lost option,
+  remove OCR symbols, put words back in order). Never paraphrase, shorten or complete from knowledge;
+  every text fix is logged with the original and large rewrites show up in `check`.
 - `fix --answers … --source marked` only when the mark is actually visible on the sheet. Unsure →
   leave the answer `?`; it is reported as unresolved, never guessed.
 - Derived answers only via `--source derived` (MCQ) or `--exp-file` (QROC, `exp-source derived`),

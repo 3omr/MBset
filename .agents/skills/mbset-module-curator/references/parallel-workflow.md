@@ -48,7 +48,8 @@ python $S lock "$M" <NNs> --release
 ```
 A worker touches only `.mbset/profiles/NN.yaml`, `Markdown_Questions/NN_*.md`, `Images/NN_*` and
 the state entries of its NNs (through `fix`, `review`, `set`). It never edits the catalog, the tag
-map or the Excel, never retypes question text, and never commits.
+map or the Excel, never paraphrases question text (corrections only as exact re-reads of the page
+through `fix --text-file`), and never commits.
 
 **Report contract** (the worker's final message): per file — questions, MCQ, QROC, answered;
 answer-source counts (key / marked / online / derived / `?`); every derived answer as `NN Qn`;

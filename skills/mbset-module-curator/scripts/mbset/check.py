@@ -36,6 +36,10 @@ AUDIT = _load("audit_question_bank")
 NOISE = {k: re.compile(v, re.M) for k, v in AUDIT.NOISE.items() if k not in ("markdown markers", "leading numbering")}
 
 
+# stray OCR glyphs that are never part of a question (medical symbols such as ± ≥ µ ² ° → are fine)
+ODD = re.compile(r"[©®¢§¤¦¬¨«»|~^@\\]|[^\w\s(),.:;%'\"/+=<>≥≤±°²³⁺⁻→←↑↓µ\-–—?!\[\]]{2,}")
+
+
 def check_source(module: Module, src: dict[str, Any]) -> dict[str, Any]:
     hard: list[str] = []
     review: list[str] = []
@@ -67,14 +71,23 @@ def check_source(module: Module, src: dict[str, Any]) -> dict[str, Any]:
         expected = c["source_numbering"] + sum(1 for r in parsed["questions"] if r["number"] is None) - skipped
         info["counters"] = {"source_numbering": c["source_numbering"], "option_a_lines": c["option_a_lines"],
                             "headings": len(qs), "dropped": dropped, "declared": c.get("declared_total")}
-        if expected and expected - dropped != len(qs) and not note:
-            hard.append(f"counters disagree: source numbering {expected} − dropped {dropped} ≠ {len(qs)} headings")
+        # the numbering range already counts numbers the parser missed; unnumbered items may be those very
+        # questions (number lost in OCR, or restored by a reviewer with `fix --add-file`) or extra ones
+        lo = c["source_numbering"] - skipped
+        if expected and not (lo - dropped <= len(qs) <= expected - dropped) and not note:
+            hard.append(f"counters disagree: source numbering {lo}"
+                        f"{f'–{expected}' if expected != lo else ''} − dropped {dropped} ≠ {len(qs)} headings")
+        complete = lo and len(qs) >= lo - dropped
         if c["option_a_lines"] and abs(c["option_a_lines"] - dropped - len(mcq)) > max(1, len(mcq) // 50) and not note:
             review.append(f"option-A lines {c['option_a_lines']} vs {len(mcq)} MCQs (± dropped {dropped})")
         if c.get("declared_total") and c["declared_total"] != len(qs) + dropped and not note:
             hard.append(f"declared total {c['declared_total']} ≠ {len(qs)} questions (+{dropped} dropped)")
         for g in parsed.get("gaps", []):
-            if not note:
+            if note:
+                continue
+            if complete:        # the count covers the whole numbering range: the gap was filled
+                review.append(f"numbering gap filled (count matches the range): {g}")
+            else:
                 hard.append(f"numbering gap in source: {g}")
         flagged = [(r["i"], r["flags"]) for r in parsed["questions"] if r["flags"]]
         stems = {BUILD.scrub(r["stem"]) for r in parsed["questions"]}
@@ -92,12 +105,29 @@ def check_source(module: Module, src: dict[str, Any]) -> dict[str, Any]:
     if note:
         info["count_note"] = note
 
+    # ---- visual text fixes: large rewrites are reviewed (they should be re-reads, never paraphrases)
+    try:
+        from rapidfuzz import fuzz
+    except ImportError:
+        fuzz = None
+    for k, o in (src.get("overrides") or {}).items():
+        before = (o.get("text_before") or {}).get("stem")
+        if fuzz and o.get("stem_fix") and before and fuzz.token_set_ratio(before, o["stem_fix"]) < 55:
+            review.append(f"large stem correction (similarity {fuzz.token_set_ratio(before, o['stem_fix']):.0f}): "
+                          f"{o['stem_fix'][:60]!r} — confirm against the page")
+
     # ---- per question
     letters = Counter()
     for n, (q, block) in enumerate(zip(qs, raw_blocks), 1):
         text_all = " ".join(str(q.get(k) or "") for k in ("Text", "EXP", *LETTERS))
         if ARABIC.search(text_all):
             hard.append(f"Q{n}: Arabic characters")
+        odd = ODD.findall(text_all)
+        if odd:
+            review.append(f"Q{n}: odd characters {''.join(sorted(set(''.join(odd))))[:12]!r} — re-read the page, "
+                          f"`fix --text-file`")
+        if "**Extra Options" in block:
+            hard.append(f"Q{n}: more than 6 options (two questions glued?) — split via profile or drop")
         for label, rx in NOISE.items():
             if rx.search(text_all):
                 hard.append(f"Q{n}: noise ({label})")

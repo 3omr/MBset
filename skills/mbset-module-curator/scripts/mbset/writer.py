@@ -46,14 +46,22 @@ def render(src: dict[str, Any], records: list[dict[str, Any]], title: str | None
         out.append(f"### Q{n}: {r['stem']}")
         out.append("")
         if r["type"] == "QCS":
-            for i, o in enumerate(r["options"]):
+            for i, o in enumerate(r["options"][:6]):
                 out.append(f"- **{'ABCDEF'[i]})** {o['text']}")
+            if len(r["options"]) > 6:
+                # more than A-F is almost always two questions glued together: keep the text visible
+                # for the reviewer (split with a profile fix or drop); `check` fails while it is here
+                extra = " | ".join(o["text"] for o in r["options"][6:])
+                out.append(f"**Extra Options (split or drop):** {extra}")
             out.append("")
             correct = r.get("correct")
-            if correct:
+            letters = [o["letter"] for o in r["options"]]
+            if correct in letters:
                 # options are repacked to A.. in order, so map the letter by position
-                pos = [o["letter"] for o in r["options"]].index(correct)
-                correct = "ABCDEF"[pos]
+                pos = letters.index(correct)
+                correct = "ABCDEF"[pos] if pos < 6 else None
+            else:
+                correct = None
             out.append(f"**Correct Answer:** {correct or '?'}")
             out.append(f"**Answer Source:** {r.get('answer_source') or 'none'}")
         else:

@@ -26,7 +26,7 @@ from .document import Line
 from .noise import clean_text, is_noise_line
 
 FIGURE = re.compile(r"(?i)\b(figure|fig\.|diagram|shown (?:below|above|here)|this slide|arrows?|labell?ed|"
-                    r"photomicrograph|following image|picture|the image|micrograph|X-ray shown|ECG shown)\b")
+                    r"photomicrograph|following image|(?<!clinical )(?<!blood )picture|the image|micrograph|X-ray shown|ECG shown)\b")
 
 
 @dataclass
@@ -69,7 +69,9 @@ def _compile(patterns: list[str] | None) -> list[re.Pattern]:
 TIGHT_DASH_OPT = re.compile(r"^\s*([a-fA-F])\s*-(?=[A-Za-z(\d])")   # "A-Glipizide", trusted only inside a run
 QUESTION_HEADER = re.compile(r"^\s*Q(?:uestion)?\s*(?:No\.?\s*)?(\d{1,3})\s*[:.)-]?\s*$", re.I)
 RTL_NUMBER = re.compile(r"(?:^|\s)[-*]?\s*\.(\d{1,3})\s*[*]?\s*$")   # "… except .4" from right-to-left PDFs
-INLINE_OPT = re.compile(r"(?:(?<=\s)|^)[(\[]?([a-fA-F])\s*(?:[.)\]]|-(?=\s?[A-Za-z(\d]))\s*(?=\S)")
+# "C-reactive protein", "B-lymphocytes": an upper-case letter + dash + lower-case word is a compound,
+# not an option; "c-reactive" (lower-case marker) and "C- text" / "C-Text" still are options
+INLINE_OPT = re.compile(r"(?:(?<=\s)|^)[(\[]?([a-fA-F])\s*(?:[.)\]]|-(?=\s)|-(?=[A-Z(\d])|(?<=[a-f])-(?=[a-z]))\s*(?=\S)")
 
 
 def split_inline_options(text: str, mode: Any) -> list[str]:
@@ -126,6 +128,11 @@ def is_grid_line(text: str) -> bool:
 
 OCR_NUMBER = re.compile(r"^\s*[\\/|'`‘’]?\s*([0-9lIOSZ|]{1,3})\s*[.)]\s+(?=[A-Za-z(])")
 OCR_DIGITS = str.maketrans({"l": "1", "I": "1", "|": "1", "O": "0", "S": "5", "Z": "2"})
+def BARE_MARKER(letter: str) -> re.Pattern:
+    """The expected option letter after a pen tick ate its "." — "D Incision", "DIncision", "By Infected"."""
+    return re.compile(rf"^\s*{letter}(?:[y/\\|'`’]?\s+(?=[A-Za-z(\d])|(?=[A-Z][a-z])|(?=\d+\s+[a-z]))")
+
+
 OCR_MARKER = re.compile(r"^\s*(?:[^\sA-Za-z]{1,2}|[a-fA-F][,;:]|\S{1,2}[.,:;])\s+(?=\S)")   # "4.", "&", "c,", "«."
 
 
@@ -283,6 +290,24 @@ class Parser:
             k -= 1
         return pending[:k], pending[k:]
 
+    def _keep_orphans(self, q: Question, letter: str) -> None:
+        """Rows between two options that are not a wrap: never drop them.
+
+        'b. …' / 'Local tissue infection' / 'd. …' — the pen covered the 'c.'; the orphan is option c and
+        its tick is a strong hint of the marked answer. Anything else is kept as a wrap of the last option.
+        """
+        orphans, q.after[:] = q.after[:], []
+        missing = LETTERS.index(letter) - len(q.options)
+        if q.options and missing == 1 and self.lenient:
+            new = LETTERS[len(q.options)]
+            q.options.append(Option(letter=new, parts=orphans))
+            q.flags.append(f"option_marker_repaired_{new}_from_orphan_possible_mark")
+        elif q.options:
+            q.options[-1].parts.extend(orphans)
+            q.flags.append("orphan_rows_joined_to_option")
+        else:
+            q.stem_parts.extend(orphans)
+
     @staticmethod
     def _opt(letter: str, rest: str, ln: Line) -> Option:
         return Option(letter, [Line(text=rest, page=ln.page, col=ln.col, bbox=ln.bbox, bold=ln.bold,
@@ -374,11 +399,18 @@ class Parser:
                 if not mo and self.lenient and q is not None and q.options and len(q.options) < 6:
                     first = q.options[0].parts[0]
                     mg = OCR_MARKER.match(text)
-                    if mg and first.page == ln.page and first.col == ln.col and abs(ln.bbox[0] - first.bbox[0]) <= 8 \
-                            and not q.after:
-                        letter = LETTERS[len(q.options)]
+                    letter = LETTERS[len(q.options)]
+                    aligned = first.page == ln.page and first.col == ln.col and not q.after
+                    if mg and aligned and abs(ln.bbox[0] - first.bbox[0]) <= 8:
                         q.options.append(self._opt(letter, text[mg.end():], ln))
                         q.flags.append(f"option_marker_repaired_{letter}")
+                        continue
+                    # "D Incision and drainage": the expected letter with its "." eaten by a pen tick —
+                    # the option is real, and the tick is a strong hint that it is the marked answer
+                    bare = BARE_MARKER(letter).match(text)
+                    if bare and aligned and abs(ln.bbox[0] - first.bbox[0]) <= 14:
+                        q.options.append(self._opt(letter, text[bare.end():], ln))
+                        q.flags.append(f"option_marker_repaired_{letter}_bare_possible_mark")
                         continue
                 if mo:
                     letter = mo.group(1).upper()
@@ -404,8 +436,9 @@ class Parser:
                     if letter == expected or (letter not in used and reach and not restart):
                         if not q.options and letter != "A":
                             q.flags.append(f"options_start_at_{letter}")
+                        if q.after:
+                            self._keep_orphans(q, letter)
                         q.options.append(self._opt(letter, rest, ln))
-                        q.after.clear()
                         in_exp = False
                         continue
                     if restart:
@@ -495,6 +528,28 @@ def _running_key(text: str) -> str:
 def _repair_lost_marker(q: Question) -> None:
     """OCR only: 'a. …' / '<marker lost under a pen stroke> …' / 'c. …' — the lone wrap line is option b."""
     opts = q.options
+    if opts and opts[0].letter == "B" and len(q.stem_parts) >= 2:
+        # "…burn is:" / "A Early excision" (pen tick on the A) / "B. …": the last stem row is option A
+        last, before = q.stem_parts[-1], q.stem_parts[-2]
+        m = BARE_MARKER("A").match(last.text)
+        # no letter at all ("…occlusion is:" / "Pain" / "B. Pallor"): the stem ended with ":" or "?"
+        if not m and before.text.rstrip().endswith((":", "?")) and not last.text.rstrip().endswith((":", "?")):
+            m = re.match(r"^\s*", last.text)
+        if m and last.conf is not None and abs(last.bbox[0] - opts[0].parts[0].bbox[0]) <= 14:
+            q.stem_parts.pop()
+            opts.insert(0, Option(letter="A", parts=[Line(text=last.text[m.end():], page=last.page, col=last.col,
+                                                          bbox=last.bbox, conf=last.conf, marks=last.marks)]))
+            q.flags.append("option_marker_repaired_A_bare_possible_mark")
+    if 2 <= len(opts) < 5 and 1 <= len(q.after) <= 3 and q.after[0].conf is not None:
+        # "c. …" / "The metatarsophalangeal joint" (+ its wrap rows) / next question: the pen covered
+        # the last marker
+        tail, ref = q.after[0], opts[-1].parts[-1]
+        if tail.page == ref.page and abs(tail.bbox[0] - opts[-1].parts[0].bbox[0]) <= 14 \
+                and 0 <= tail.bbox[1] - ref.bbox[3] < 40:
+            new = LETTERS[len(opts)]
+            opts.append(Option(letter=new, parts=q.after[:]))
+            q.after.clear()
+            q.flags.append(f"option_marker_repaired_{new}_from_tail_possible_mark")
     for k in range(len(opts) - 1):
         a, b = opts[k], opts[k + 1]
         if ord(b.letter) - ord(a.letter) != 2 or len(a.parts) != 2:
@@ -502,20 +557,26 @@ def _repair_lost_marker(q: Question) -> None:
         first, extra = a.parts
         if first.conf is None or extra.page != first.page or extra.bbox[1] - first.bbox[3] < -2:
             continue
-        # the orphan starts where the option texts start (right of the markers), on its own row
-        if extra.bbox[0] > first.bbox[0] + 8:
+        # the orphan starts where the option texts start (right of the markers) — or, when the tick
+        # covered the whole marker, where the markers start; either way on its own row, between a and c
+        if extra.bbox[0] > first.bbox[0] + 8 or abs(extra.bbox[0] - first.bbox[0]) <= 14:
             new = Option(letter=chr(ord(a.letter) + 1), parts=[extra])
             a.parts = [first]
             opts.insert(k + 1, new)
-            q.flags.append(f"option_marker_repaired_{new.letter}_from_wrap")
+            q.flags.append(f"option_marker_repaired_{new.letter}_from_wrap_possible_mark")
             return
 
 
 def finish(questions: list[Question], profile: dict[str, Any]) -> list[dict[str, Any]]:
     """Clean texts, compute type and flags, and return JSON-able records."""
     out = []
+    dehy = (lambda t: t)
+    if profile.get("glyph_repair"):
+        from .glyphs import GlyphRepair
+        dehy = GlyphRepair.dehyphenate
     for i, q in enumerate(questions, 1):
-        stem = clean_text(" ".join(p.text for p in q.stem_parts if p.text), stem=True)
+        _repair_lost_marker(q)                  # before the stem text: it may take the stem's last row
+        stem = dehy(clean_text(" ".join(p.text for p in q.stem_parts if p.text), stem=True))
         cut = ""
         prev = next((x.number for x in reversed(questions[:i - 1]) if x.number is not None), 0)
         expected = q.number if q.number is not None else prev + 1
@@ -536,11 +597,11 @@ def finish(questions: list[Question], profile: dict[str, Any]) -> list[dict[str,
             q.options.sort(key=lambda o: o.letter)   # 2×2 option grids arrive as a, c, b, d
         options = []
         for opt in q.options:
-            text = clean_text(" ".join(p.text for p in opt.parts if p.text))
+            text = dehy(clean_text(" ".join(p.text for p in opt.parts if p.text)))
             options.append({"letter": opt.letter, "text": text, **opt.style(),
                             "page": opt.parts[0].page, "bbox": list(opt.parts[0].bbox)})
         after = clean_text(" ".join(p.text for p in q.after))
-        exp = clean_text(" ".join(p.text for p in q.exp_parts))
+        exp = dehy(clean_text(" ".join(p.text for p in q.exp_parts)))
         flags = list(dict.fromkeys(q.flags))
         forced = profile.get("type")
         qtype = "QCS" if len(options) >= 2 else "QROC"

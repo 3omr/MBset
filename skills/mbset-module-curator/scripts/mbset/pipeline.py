@@ -65,7 +65,7 @@ def parse_source(module: Module, state: dict[str, Any], src: dict[str, Any], for
     old = load_json(module.parsed_path(src)) or {}
     old_images = {r["stem"]: r.get("image") for r in old.get("questions", []) if r.get("image")}
     for r in records:
-        if r["stem"] in old_images:
+        if r["stem"] in old_images and not r.get("image_removed"):
             r["image"] = old_images[r["stem"]]
     counters = raw_counters(lines, profile)
     counters["parsed_questions"] = len(records)

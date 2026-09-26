@@ -114,7 +114,8 @@ def cmd_show(args) -> int:
         if args.flags and not r["flags"]:
             continue
         block = _show_block(text, n) or f"### Q{n}: (not in markdown) {r['stem']}"
-        opts = " ".join(f"{o['letter']}[b{o['bold']} c{o['color']} {','.join(o['marks'])}]" for o in r["options"])
+        opts = " ".join(f"{o['letter']}[b{o.get('bold', 0)} c{o.get('color', 0)} {','.join(o.get('marks', []))}]"
+                        for o in r["options"])
         print(block)
         print(f"    ↳ source no. {r['number']} sec {r['section']} p{r['page'] + 1} | flags: {', '.join(r['flags']) or '-'}"
               f" | evidence: {r.get('answer_evidence') or '-'} | style: {opts}")
@@ -149,6 +150,12 @@ def cmd_figures(args) -> int:
     return 0
 
 
+# content decisions are never cleared by `--clear-drops ocr`, whatever else their reason mentions
+CONTENT_DROP = r"not (?:a )?(?:question|standalone)|explanation|lecture|note|stud(?:y|ies)|duplicate|table.of.contents|" \
+               r"index|heading|placeholder|chapter|another|other subject|dermatology|pediatric|handwritten|timing"
+OCR_DROP = r"\bocr\b|pars(?:er|ed)|merg|fus(?:ed|e)|garbl|unreadable|malformed|lost|shift|fragment|damag|split"
+
+
 def cmd_fix(args) -> int:
     """Edit questions in place and record each decision so a re-parse re-applies it."""
     import json
@@ -159,6 +166,22 @@ def cmd_fix(args) -> int:
 
     module, state = _mod(args)
     src = module.sources(state, args.nn)[0]
+    if args.clear_drops:
+        # after a better OCR / profile: drops made only because the old text was garbled must go, so the
+        # questions come back on the next parse; content drops (not a question, other subject) stay
+        rx = re.compile(OCR_DROP if args.clear_drops == "ocr" else args.clear_drops, re.I)
+        keep = re.compile(CONTENT_DROP, re.I) if args.clear_drops == "ocr" else None
+        gone = [k for k, v in src.get("overrides", {}).items() if v.get("drop") and rx.search(v["drop"])
+                and (not keep or re.match(r"\W*(?:the\s+)?(?:ocr|pars)", v["drop"], re.I)
+                     or not keep.search(v["drop"]))]
+        for k in gone:
+            entry = src["overrides"][k]
+            entry.pop("drop")
+            if set(entry) <= {"at"}:
+                del src["overrides"][k]
+        module.save(state)
+        print(f"[+] {src['nn']}: {len(gone)} drop decision(s) cleared — run `parse --only {src['nn']} --force`")
+        return 0
     path = module.md_path(src)
     qs = overrides.md_questions(path)
     items = list(args.answer or [])
@@ -177,9 +200,20 @@ def cmd_fix(args) -> int:
     if args.exp_file:
         data = json.loads(Path(args.exp_file).read_text(encoding="utf-8"))
         for n, text in data.items():
-            if ARABIC.search(text):
+            if text is not None and ARABIC.search(text):
                 raise SystemExit(f"[-] exp Q{n}: Arabic characters")
-            exps[int(n)] = (text, args.exp_source)
+            exps[int(n)] = (text, args.exp_source)          # null clears a wrong explanation
+    texts: dict[int, dict[str, Any]] = {}
+    if args.text_file:
+        # {"7": {"stem": "…", "options": {"C": "…", "E": "…"}, "note": "C was lost under a pen mark"}}
+        for n, fixd in json.loads(Path(args.text_file).read_text(encoding="utf-8")).items():
+            blob = " ".join([fixd.get("stem") or "", *[t or "" for t in (fixd.get("options") or {}).values()]])
+            if ARABIC.search(blob):
+                raise SystemExit(f"[-] text Q{n}: Arabic characters")
+            bad = [L for L in (fixd.get("options") or {}) if L not in "ABCDEF"]
+            if bad:
+                raise SystemExit(f"[-] text Q{n}: option letters must be A-F, got {bad}")
+            texts[int(n)] = fixd
     images = {}
     for item in args.image or []:
         n, _, img = item.partition("=")
@@ -187,20 +221,65 @@ def cmd_fix(args) -> int:
     drop = {int(x) for x in args.drop.split(",")} if args.drop else set()
     if drop and not args.reason:
         raise SystemExit("[-] --drop needs --reason (it is logged in the catalog evidence)")
-    for n in set(answers) | set(exps) | set(images) | drop:
+    for n in set(answers) | set(exps) | set(images) | set(texts) | drop:
         if n not in qs:
             raise SystemExit(f"[-] Q{n} does not exist in {path.name} (1..{len(qs)})")
+    if args.add_file:
+        # [{"after": 24, "stem": "…", "options": {"A": "…"}, "page": 5, "note": "…"}] — exact re-reads of
+        # questions the parser lost; "after": markdown Q number it follows (0 = first)
+        from .pipeline import parse_source
+        adds = json.loads(Path(args.add_file).read_text(encoding="utf-8"))
+        for a in adds:
+            blob = " ".join([a.get("stem") or "", *(a.get("options") or {}).values()])
+            if ARABIC.search(blob) or not a.get("stem"):
+                raise SystemExit(f"[-] add after Q{a.get('after')}: stem missing or Arabic characters")
+            after = int(a.get("after") or 0)
+            anchor = overrides.key_for(src, qs[after]["stem"], qs[after]["options"]) if after else ""
+            src.setdefault("additions", []).append({"after": anchor, "stem": a["stem"].strip(),
+                                                   "options": a.get("options") or {}, "page": a.get("page"),
+                                                   "note": a.get("note"), "at": now()})
+        module.save(state)
+        parse_source(module, state, src, force=True)
+        qs = overrides.md_questions(path)
+        print(f"[+] {src['nn']}: {len(adds)} question(s) added — markdown renumbered; re-read numbers before "
+              f"answering")
+    if texts:
+        # visual text fixes first (answers given in the same call may name a restored option);
+        # the original text is kept beside the fix for audit, and the source is re-rendered
+        from .pipeline import parse_source
+        for n, fixd in texts.items():
+            q = qs[n]
+            # the answer is stored as its option's text: follow the option when its text is corrected
+            prev = (src.get("overrides") or {}).get(overrides.key_for(src, q["stem"], q["options"])) or {}
+            if prev.get("answer"):
+                for letter, new_text in (fixd.get("options") or {}).items():
+                    if new_text and overrides.norm_stem(q["options"].get(letter, "")) == overrides.norm_stem(prev["answer"]):
+                        prev["answer"] = new_text
+            overrides.record(src, q["stem"], q["options"], stem_fix=fixd.get("stem"), options_fix=fixd.get("options"),
+                             text_note=fixd.get("note"), text_before={"stem": q["stem"], "options": q["options"]})
+        module.save(state)
+        parse_source(module, state, src, force=True)
+        qs = overrides.md_questions(path)
     for n, (letter, source) in answers.items():
         if letter not in qs[n]["options"]:
             raise SystemExit(f"[-] Q{n}: {letter} is not among its options {sorted(qs[n]['options'])}")
-        overrides.record(src, qs[n]["stem"], answer=qs[n]["options"][letter], source=source)
+        overrides.record(src, qs[n]["stem"], qs[n]["options"], answer=qs[n]["options"][letter], source=source)
     for n, (text, source) in exps.items():
-        overrides.record(src, qs[n]["stem"], exp=text, exp_source=source)
+        if text is None:
+            overrides.record(src, qs[n]["stem"], qs[n]["options"], exp_clear=True)
+        else:
+            overrides.record(src, qs[n]["stem"], qs[n]["options"], exp=text, exp_source=source, exp_clear=False)
     for n, img in images.items():
-        overrides.record(src, qs[n]["stem"], image=img)
+        overrides.record(src, qs[n]["stem"], qs[n]["options"], image=img)
     for n in drop:
-        overrides.record(src, qs[n]["stem"], drop=args.reason)
-    edit(path, answers=answers, images=images, drop=drop, exps=exps)
+        overrides.record(src, qs[n]["stem"], qs[n]["options"], drop=args.reason)
+    edit(path, answers=answers, images=images, drop=drop)
+    if exps:
+        # re-render from the stored decisions: an MCQ explanation must not touch its Answer Source, and a
+        # cleared explanation disappears
+        from .pipeline import parse_source
+        module.save(state)
+        parse_source(module, state, src, force=True)
     if drop:
         # keep the parsed evidence in step so the counters account for the drop before a re-parse
         parsed_path = module.parsed_path(src)
@@ -211,7 +290,7 @@ def cmd_fix(args) -> int:
             dump_json(parsed_path, parsed)
     refresh_hash(module, state, src)
     derived = sum(1 for _, s_ in answers.values() if s_ == "derived") + len(exps)
-    print(f"[+] {src['md']}: {len(answers)} answer(s), {len(exps)} model answer(s), {len(images)} image(s), "
+    print(f"[+] {src['md']}: {len(texts)} text fix(es), {len(answers)} answer(s), {len(exps)} model answer(s), {len(images)} image(s), "
           f"{len(drop)} dropped{f' · {derived} derived (report to the user)' if derived else ''}")
     return 0
 
@@ -268,7 +347,7 @@ def cmd_set(args) -> int:
         if args.subject is not None:
             tags["tagSuggere"] = None if args.subject.lower() in ("none", "") else args.subject
         if args.year is not None:
-            tags["year"] = args.year
+            tags["year"] = None if str(args.year).lower() in ("none", "") else int(args.year)
         if args.tag is not None or args.subject is not None or args.year is not None or args.confirm:
             if "<" in (tags.get("tag") or ""):
                 raise SystemExit(f"[-] {src['nn']}: tag still has a placeholder: {tags.get('tag')}")
@@ -503,8 +582,17 @@ def cmd_build(args) -> int:
     tags = catalog.tag_map(module, state)
     out = args.out or str(catalog.excel_path(module))
     py = sys.executable
+    # only the sources that are in the bank: excluded ones keep their markdown (placeholder or parser
+    # output) in Markdown_Questions for the audit trail, but never reach the Excel
+    import shutil
+    import tempfile
+    stage = Path(tempfile.mkdtemp(prefix="mbset_build_"))
+    for src in state["sources"]:
+        md = module.md_path(src)
+        if src.get("status") not in ("excluded", "missing") and md.exists():
+            shutil.copy(md, stage / md.name)
     steps = [
-        [py, str(SKILL_SCRIPTS / "build_module_template.py"), "--markdown", str(module.markdown),
+        [py, str(SKILL_SCRIPTS / "build_module_template.py"), "--markdown", str(stage),
          "--tag-map", str(tags), "--category-id", cid, "--category-name", cname, "--out", out],
         [py, str(SKILL_SCRIPTS / "validate_questions_excel.py"), out],
         [py, str(SKILL_SCRIPTS / "audit_question_bank.py"), "--excel", out, "--by-tag"],
@@ -605,6 +693,12 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--image", action="append", help="N=Images/NN_QN.png")
     p.add_argument("--drop", help="comma-separated question numbers to remove")
     p.add_argument("--reason")
+    p.add_argument("--text-file", help='JSON {"N": {"stem": "…", "options": {"C": "…"}, "note": "…"}}: '
+                   'text re-read from the page image (exact wording, never paraphrased); null removes an option')
+    p.add_argument("--add-file", help='JSON list [{"after": N, "stem": "…", "options": {"A": "…"}, "page": P, '
+                   '"note": "…"}]: a question the parser lost, re-read exactly from the page')
+    p.add_argument("--clear-drops", metavar="REGEX|ocr",
+                   help="remove drop decisions whose reason matches (`ocr` = drops caused by bad OCR/parsing)")
     p.set_defaults(fn=cmd_fix)
     p = add("spotcheck", cmd_spotcheck, "source-vs-markdown sheets for max(5,10%%) sampled questions")
     p.add_argument("--flagged", action="store_true", help="include flagged questions in the sample")
@@ -617,7 +711,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.set_defaults(fn=cmd_review)
     p = sub.add_parser("set", help="confirm tags, exclude/include a source, annotate counts")
     p.add_argument("module"); p.add_argument("nn", help="NN or comma list")
-    p.add_argument("--tag"); p.add_argument("--subject"); p.add_argument("--year", type=int)
+    p.add_argument("--tag"); p.add_argument("--subject"); p.add_argument("--year", help="integer, or `none` when the source gives no year")
     p.add_argument("--confirm", action="store_true", help="accept the suggested tag as is")
     p.add_argument("--exclude", metavar="REASON"); p.add_argument("--include", action="store_true")
     p.add_argument("--count-note", help="explain an accepted counter mismatch")
@@ -637,8 +731,8 @@ def build_parser() -> argparse.ArgumentParser:
     add("status", cmd_status, "one line per source", only=False)
     p = add("run", cmd_run, "inventory → OCR → parse → check in one go", only=False)
     p.add_argument("--jobs", type=int, default=2); p.add_argument("--workers", type=int, default=4)
-    from . import crossdup, doctor, lectures, report, tidy
-    for extra in (tidy, report, doctor, crossdup, lectures):
+    from . import crossdup, doctor, lectures, report, tidy, worklist
+    for extra in (tidy, report, doctor, crossdup, lectures, worklist):
         extra.register(sub)
     return ap
 

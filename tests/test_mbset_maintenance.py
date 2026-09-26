@@ -186,7 +186,7 @@ class PacketBriefTests(unittest.TestCase):
                 self.assertIn(f'check "$M" --only {nns}', text)
                 self.assertIn('--source marked       # only marks you can see; else leave ?', text)
                 self.assertIn("--source derived", text)
-                self.assertIn("Never type, retype, paraphrase", text)
+                self.assertIn("never paraphrase, shorten, reword", text)
                 self.assertIn("Report contract", text)
                 self.assertIn("Do NOT commit", text)
                 self.assertNotIn("05", nns)                             # excluded sources are not packeted
@@ -229,3 +229,13 @@ class TagHeuristicTests(unittest.TestCase):
             self.assertEqual(khaled["tag"], "Professor, Dr <Name>")      # English only; agent transliterates
             self.assertEqual(suggest_tags(m, "Raw_PDF_Questions/Endocrine summtive 2025.pdf")["tag"], "Exams, End 2025")
             self.assertEqual(suggest_tags(m, "Raw_PDF_Questions/Final 26.pdf")["year"], 2026)
+
+
+class WriterTests(unittest.TestCase):
+    def test_more_than_six_options_does_not_crash_and_is_visible(self):
+        from mbset.writer import render
+        opts = [{"letter": L, "text": f"opt {L}"} for L in "ABCDEFGH"]
+        md = render({"rel": "x.pdf", "nn": "01"},
+                    [{"type": "QCS", "stem": "Glued stem", "options": opts, "correct": "H", "answer_source": "key"}])
+        self.assertIn("**Extra Options (split or drop):** opt G | opt H", md)
+        self.assertIn("**Correct Answer:** ?", md)                # never a wrong in-range letter

@@ -35,6 +35,9 @@ shows the effective result. `profile --only NN --force` rewrites it from the tri
 | `answers.docreader_quiz` | `null` | the id in `doc-reader-guide.com/mcq-quizzes/<id>` printed in the PDF |
 | `written.answer_marker` | `Answer:` / `Model answer:` | where a written question's model answer starts |
 | `ocr.dpi`, `ocr.psm`, `ocr.rotate` | 300, 3, 0 | re-OCR with `ocr --only NN --force` after changing (psm 4/6 for tables, rotate 90/180) |
+| `ocr.tool` | `tesseract` | `paddle` = PaddleOCR (`.venv-smart-ocr`): far better on phone photos, curved or unevenly lit scans and bold headings; try it first when a scanned exam loses questions |
+| `ocr.split` | 1 | `2` = two book pages per scan: cut at the gutter and OCR each half (stops lines running across the spread) |
+| `ocr.normalize`, `ocr.threshold` | off | Tesseract only: flatten uneven lighting / binarize (0-255) when highlighter or shading hides text |
 | `notes` | `""` | free text for the next agent (what was special about this file) |
 
 ## Recipes
@@ -62,3 +65,10 @@ source (`written.answer_marker`) or are derived and recorded with `fix --exp-fil
 
 **A counter mismatch that is real** (the source skips number 17) →
 `mbset.py set "$M" NN --count-note "source skips no. 17"`; never pad or renumber the source.
+
+## Pen-marked scans
+A tick or circle often destroys the option marker: `D Incision`, `DIncision`, `By Infected`, a row
+with no letter at all between two options, as the first row after the stem, or after the last option.
+In OCR mode the parser rebuilds the missing option from the letter sequence and flags it
+`option_marker_repaired_<L>_…_possible_mark` — the damaged option is usually the marked answer.
+Confirm it on the answer sheet; the flag alone is never an answer.

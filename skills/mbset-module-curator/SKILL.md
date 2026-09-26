@@ -20,9 +20,12 @@ the master Excel, **with the answer the source actually gives**. Both are proven
 
 ## 1. Hard rules (never relaxed)
 
-1. **The model never types question text.** The parser writes every stem and option; a misread file
-   is fixed through its profile (`.mbset/profiles/NN.yaml`) and a re-parse, or a single `fix`.
-   Retyping from a PDF or from memory is forbidden.
+1. **Question text comes from the source, never from memory.** The parser writes every stem and
+   option; a misread *file* is fixed through its profile (`.mbset/profiles/NN.yaml`) and a re-parse.
+   A misread *question* (missing option, OCR symbols like `¢ © |`, words out of order, glued stem and
+   option) is corrected by **re-reading the page image** and writing exactly what is printed with
+   `fix NN --text-file` — every fix is logged with the original text and reviewed. Never paraphrase,
+   shorten, reword, complete or "improve" a question, and never type one from memory or another bank.
 2. **Never invent an answer.** Every MCQ carries `**Answer Source:**` `key` / `marked` / `online` /
    `derived`. An unreadable mark stays `?`. `derived` (the agent's knowledge, only when the source
    has no answer) is reported to the user with counts.

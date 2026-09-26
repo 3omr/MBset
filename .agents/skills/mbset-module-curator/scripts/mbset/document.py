@@ -258,9 +258,14 @@ def _is_colored(rgb: int) -> bool:
     return max(r, g, b) - min(r, g, b) > 60 and max(r, g, b) > 90
 
 
-def native_pdf_pages(path: Path, pages: list[int] | None = None):
+def native_pdf_pages(path: Path, pages: list[int] | None = None, glyph_repair: list[str] | None = None):
     """Yield (page_index, width, height, [Line]) from the PDF text layer."""
     import fitz
+
+    fixer = None
+    if glyph_repair:
+        from .glyphs import GlyphRepair
+        fixer = GlyphRepair(glyph_repair)
 
     with fitz.open(path) as doc:
         for pno in pages if pages is not None else range(len(doc)):
@@ -272,7 +277,8 @@ def native_pdf_pages(path: Path, pages: list[int] | None = None):
                     spans = [s for s in raw["spans"] if s["text"].strip()]
                     if not spans:
                         continue
-                    text = clean_inline("".join(s["text"] for s in raw["spans"]))
+                    raw_text = "".join(s["text"] for s in raw["spans"])
+                    text = clean_inline(fixer.repair(raw_text) if fixer else raw_text)
                     if not text:
                         continue
                     n = sum(len(s["text"].strip()) for s in spans) or 1
@@ -529,7 +535,11 @@ def load_lines(module: Module, src: dict[str, Any], profile: dict[str, Any]) -> 
     pages = parse_pages(profile.get("pages"), total)
     columns = profile.get("columns", "auto")
     forced_split = profile.get("split")
-    iterator = native_pdf_pages(path, pages) if mode == "native" else ocr_pages(module, src, pages)
+    if mode == "best":
+        iterator = best_pages(module, src, path, pages, profile.get("glyph_repair"), info)
+    else:
+        iterator = (native_pdf_pages(path, pages, profile.get("glyph_repair")) if mode == "native"
+                    else ocr_pages(module, src, pages))
     out: list[Line] = []
     for pno, width, height, lines in iterator:
         ordered, split = order_page(lines, width, height, columns, forced_split)
@@ -537,4 +547,86 @@ def load_lines(module: Module, src: dict[str, Any], profile: dict[str, Any]) -> 
         out.extend(ordered)
     if mode == "ocr" and suffix == ".pdf" and profile.get("answers", {}).get("tint", True):
         colour_marks(path, out)
+    if profile.get("options_unlabeled"):
+        out = letter_unlabeled_options(out, profile)
     return out, info
+
+
+def _nonword_rate(lines: list[Line]) -> float:
+    from .glyphs import piece
+
+    words = [w for ln in lines for w in re.findall(r"[A-Za-z]{3,}", ln.text)]
+    return sum(1 for w in words if not piece(w)) / len(words) if words else 1.0
+
+
+def best_pages(module: Module, src: dict[str, Any], path: Path, pages: list[int] | None,
+               glyph_repair: list[str] | None, info: dict[str, Any]):
+    """`text: best` — per page, the text layer or the cached OCR, whichever has fewer non-words.
+
+    For books whose text layer lost glyphs on some pages only; run `ocr --only NN` first (the profile's
+    `text: best` makes `ocr` include the source).
+    """
+    ocr = {pno: (w, h, ls) for pno, w, h, ls in ocr_pages(module, src, pages)}
+    chosen: dict[int, str] = {}
+    for pno, width, height, lines in native_pdf_pages(path, pages, glyph_repair):
+        alt = ocr.get(pno)
+        if alt and _nonword_rate(alt[2]) + 0.02 < _nonword_rate(lines):
+            chosen[pno + 1] = "ocr"
+            yield pno, alt[0], alt[1], alt[2]
+        else:
+            chosen[pno + 1] = "native"
+            yield pno, width, height, lines
+    info["page_text"] = {"ocr": sorted(p for p, m in chosen.items() if m == "ocr")}
+
+
+ARABIC_ONLY = re.compile(r"^[^A-Za-z]*$")         # no Latin letters: form chrome, points
+_QNUM = re.compile(r"^\s*(?:\.\s*\d{1,3}|\d{1,3}\s*[.)-]?)\s*$|^\s*\d{1,3}\s*[.)-]\s+\S")
+
+
+def letter_unlabeled_options(lines: list[Line], profile: dict[str, Any]) -> list[Line]:
+    """Microsoft/Google Forms exports: choices are rows with no letter, in a smaller font than the stem.
+
+    Each choice row gets a synthetic "a. ", "b. " … marker (restarting at every question number); a row
+    closer than 1.6 line heights to the previous choice is its wrap. Profile:
+    `options_unlabeled: true` (size found automatically) or `{size: 12.8}`.
+    """
+    cfg = profile.get("options_unlabeled")
+    from collections import Counter
+
+    common = Counter(round(ln.size, 1) for ln in lines if ln.size and ln.text.strip())
+    if isinstance(cfg, dict) and cfg.get("size"):
+        opt_size = float(cfg["size"])
+    else:
+        # the two dominant sizes: stems and choices; choices are the smaller one
+        top = [z for z, c in common.most_common(4) if c >= max(5, 0.1 * sum(common.values()))]
+        if len(top) < 2:
+            return lines
+        opt_size = min(top)
+    out, n, prev = [], 0, None
+    for ln in lines:
+        # RTL form chrome: "(نقطة 1) *" points badges, ".10" numbers glued into the row, ":" at the start
+        text = re.sub(r"\(\s*[؀-ۿ\s]*\d+\s*[؀-ۿ\s]*\)\s*\*?", " ", ln.text)
+        text = re.sub(r"(?:(?<=\s)|^)\.\d{1,3}(?=\s|$)", " ", text)
+        text = " ".join(text.split())
+        if text.startswith(":"):
+            text = text[1:].strip() + ":"
+        text = re.sub(r"\s*-\s*:$", ":", text)
+        if text != ln.text:
+            ln.text = text
+        if not ln.text or (len(re.findall(r"[A-Za-z]", ln.text)) < 2 and abs((ln.size or 0) - opt_size) <= 0.25):
+            continue                                                # stray glyphs ("y") are not choices
+        is_opt = ln.size and abs(ln.size - opt_size) <= 0.25 and not ARABIC_ONLY.match(ln.text)
+        if not is_opt:
+            if ln.size and ln.size > opt_size + 0.25 and not ARABIC_ONLY.match(ln.text):
+                n, prev = 0, None                                   # a stem row: the next choices restart
+            out.append(ln)
+            continue
+        h = max(ln.bbox[3] - ln.bbox[1], 6)
+        if prev is not None and prev.page == ln.page and 0 <= ln.bbox[1] - prev.bbox[3] < 0.6 * h:
+            prev = ln                                               # wrap of the previous choice
+        elif n < 6:
+            ln.text = f"{'abcdef'[n]}. {ln.text.lstrip('. ')}"
+            n += 1
+            prev = ln
+        out.append(ln)
+    return out
