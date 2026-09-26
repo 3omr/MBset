@@ -1,0 +1,15 @@
+# Parser profile for 06 — Final exam written 2023 summer course.pdf
+# class=scanned pages=1 has_text=False columns=None bold_ratio=0.0 mark_rects=0
+# signals={'moodle': 0, 'docreader_quiz': None, 'phone': 0, 'question_numbers': 0, 'option_lines': 0, 'grid_pairs_tail': 0, 'declared_total': None, 'figure_words': 0}
+# Only fields that differ from the template/DEFAULT are needed. Field reference:
+#   .agents/skills/mbset-module-curator/references/profiles.md
+source: Raw_PDF_Questions/Final exam written 2023 summer course.pdf
+template: written_only
+type: written
+ocr:
+  tool: paddle
+  dpi: 200
+question_start: ^\W*(?:Q\s*)?(\d+)\s*[-.:)]
+notes:
+- '2026-09-26 coordinator: OCR switched to PaddleOCR (was {''dpi'': 400, ''psm'':
+  11}); measured better question/option recovery'

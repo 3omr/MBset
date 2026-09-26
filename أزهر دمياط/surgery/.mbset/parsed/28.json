@@ -1,0 +1,4694 @@
+{
+ "nn": "28",
+ "source": "Raw_PDF_Questions/جراحة 20٪.pdf",
+ "sha256": "846749ec69a557ba746c85b32f50c07733fadfdcf953ef5f092bd88e934fd1f7",
+ "at": "2026-09-26T15:57:00Z",
+ "layout": {
+  "method": "ocr",
+  "splits": {
+   "1": null,
+   "2": null,
+   "3": null,
+   "4": null,
+   "5": null,
+   "6": null,
+   "7": null
+  }
+ },
+ "counters": {
+  "source_numbering": 60,
+  "sections": [
+   "1-60"
+  ],
+  "option_a_lines": 44,
+  "parsed_questions": 60,
+  "parsed_numbered": 58,
+  "declared_total": null
+ },
+ "gaps": [
+  "section 1: missing [26]"
+ ],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [],
+  "grid_hits": 0,
+  "style_stats": {
+   "bold": 0.0,
+   "color": 0.0,
+   "tick": 0.0,
+   "highlight": 0.0,
+   "fill": 0.0,
+   "tint": 0.0,
+   "ink": 0.0,
+   "circle": 0.0,
+   "box": 0.0,
+   "underline": 0.0
+  },
+  "marked_hits": 0,
+  "answered": 50,
+  "mcq": 57,
+  "at": "2026-09-26T15:57:00Z"
+ },
+ "distribution": {
+  "A": 0.3,
+  "B": 0.32,
+  "C": 0.26,
+  "D": 0.12
+ },
+ "dropped_lines": [
+  "CamScanner",
+  "-",
+  "CamScanner",
+  "- |",
+  "—_—",
+  "CamScanner",
+  "=_—_",
+  "=",
+  "CamScanner",
+  "CamScanner",
+  "CamScanner",
+  "CamScanner",
+  "d Al Azhar University",
+  "Damietta Faculty of Medicine (Boys and girls)",
+  "MCQ Examination 6\" year",
+  "B"
+ ],
+ "dropped_count": 16,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 54,
+  "dropped": [],
+  "stale": [],
+  "added": 1
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": 1,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The term \"iatrogenic\" in medicine refers to:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A genetic disorder",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      97.7,
+      203.0,
+      571.2,
+      226.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "A condition caused by medical treatment or intervention",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "C",
+     "text": "An infectious disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      97.2,
+      228.7,
+      230.2,
+      247.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "A congenital anomaly",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    34.8,
+    175.2,
+    571.2,
+    247.7
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 2,
+   "number": 2,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which imaging modiality is commonly used to assess fractures and joint injuries?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Magnetic resonance imaging (MRI)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      102.2,
+      296.4,
+      287.5,
+      311.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "b) Positron emission tomography (PET)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      349.9,
+      302.2,
+      553.9,
+      317.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Ultrasound",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      102.2,
+      321.6,
+      175.2,
+      332.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "X-ray",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "ey",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_after_options",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    12.7,
+    267.8,
+    553.9,
+    332.2
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  },
+  {
+   "i": 3,
+   "number": 3,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In which type of anesthesia does the patient lose consciousness and is unable to feel pain during the procedure?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Local anesthesia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      139.9,
+      391.0,
+      244.1,
+      402.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Regional anesthesia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      392.2,
+      396.0,
+      580.8,
+      408.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "General anesthesia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "D",
+     "text": "Sedation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      391.7,
+      421.2,
+      456.0,
+      433.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    45.4,
+    346.1,
+    580.8,
+    433.2
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 4,
+   "number": 4,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is not a component of the ABCDEs of trauma assessment?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Alrway",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      138.0,
+      469.0,
+      191.0,
+      479.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Breathing",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      391.0,
+      472.8,
+      456.0,
+      484.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Circulation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      137.5,
+      493.7,
+      208.1,
+      504.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Digestion",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "B) Digestion",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_after_options",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    44.2,
+    442.1,
+    479.3,
+    504.5
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  },
+  {
+   "i": 5,
+   "number": 5,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A patient presents with sudden-onset severe abdominal pain, rebound tenderness, and guarding. This may be indicative of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Appendicitis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "B",
+     "text": "Cholecystitis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "C",
+     "text": "Peptic ulcer",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      136.3,
+      584.4,
+      573.1,
+      613.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Diverticulitis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      136.3,
+      584.4,
+      573.1,
+      613.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    24.5,
+    515.0,
+    573.1,
+    613.4
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 6,
+   "number": 6,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which type of shock results from severe blood loss?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hypovolemic shock",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      136.3,
+      633.6,
+      568.8,
+      660.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Cardiogenic shock",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      136.3,
+      633.6,
+      568.8,
+      660.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Septic shock",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      134.9,
+      658.3,
+      211.9,
+      668.9
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Neurogenic shock",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      385.9,
+      661.9,
+      486.2,
+      673.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    44.9,
+    607.2,
+    568.8,
+    673.4
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 7,
+   "number": 7,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The primary treatment for a patient with a severe burn is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Antibiotics",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      133.7,
+      709.2,
+      202.3,
+      720.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Surgical debridement",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      386.6,
+      715.0,
+      502.6,
+      725.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Fluid resuscitation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "D",
+     "text": "Skin grafting",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "ST Fluid resuscitation _-D) Skin grafting c",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_after_options",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    43.0,
+    681.6,
+    502.6,
+    725.8
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 8,
+   "number": 8,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which type of tumor is characterized by uncontrolled cell growth and the potential to spread to other parts of the body?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Benign tumor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      169.7,
+      99.8,
+      245.8,
+      109.9
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Malignant tumor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      400.1,
+      96.2,
+      489.4,
+      108.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Metastatic tumor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      170.4,
+      123.1,
+      262.1,
+      132.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Pre-cancerous tumor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      400.1,
+      121.2,
+      505.9,
+      130.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_C_bare_possible_mark"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    83.5,
+    55.4,
+    547.2,
+    132.7
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 9,
+   "number": 9,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which condition results from an excess of growth hormone in adults?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Gigantism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      171.6,
+      170.6,
+      235.4,
+      180.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Acromegaly",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      399.6,
+      168.7,
+      471.1,
+      180.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Dwarfism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      171.6,
+      194.2,
+      233.8,
+      204.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Cretinism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      400.1,
+      193.4,
+      460.3,
+      203.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    86.2,
+    144.7,
+    471.1,
+    204.7
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 10,
+   "number": 10,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The most common type of breast cancer is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ductal carcinoma in situ",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      172.8,
+      242.9,
+      301.4,
+      253.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Inflammatory breast cancer",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      398.4,
+      240.2,
+      541.9,
+      251.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Invasive ductal carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      139.9,
+      263.3,
+      309.6,
+      286.1
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Lobular carcinoma in situ",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      398.4,
+      263.0,
+      568.6,
+      282.7
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_C_from_orphan_possible_mark",
+    "number_inferred",
+    "low_ocr_confidence",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    58.3,
+    218.2,
+    568.6,
+    286.1
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 11,
+   "number": 11,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which gastrointestinal disorder is characterized by the chronic inflammation of the colon and rectum?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Crohn's disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      175.4,
+      329.5,
+      264.7,
+      339.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Celiac disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      403.4,
+      326.4,
+      484.3,
+      337.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Ulcerative colitis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      175.4,
+      353.0,
+      269.0,
+      363.1
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Irritable bowel syndrome (IBS)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      403.4,
+      347.3,
+      561.1,
+      360.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    79.2,
+    286.6,
+    561.1,
+    363.1
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 12,
+   "number": 12,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which vessel carries oxygenated blood from the lungs to the heart?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pulmonary artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      176.6,
+      399.8,
+      274.8,
+      410.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "B) Pulmonary vein",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      398.9,
+      396.7,
+      492.0,
+      407.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Aorta",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      176.6,
+      423.8,
+      220.3,
+      434.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Superior vena cava",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      402.7,
+      420.7,
+      507.1,
+      430.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_B_from_orphan_possible_mark"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    61.4,
+    373.9,
+    507.1,
+    434.6
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 13,
+   "number": 13,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The primary function of the spleen is to:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Store bile",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      158.9,
+      470.6,
+      216.5,
+      481.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "B) Filter blood and remove damaged blood cells",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      321.1,
+      465.6,
+      529.9,
+      477.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Produce insulin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      158.4,
+      492.2,
+      241.2,
+      503.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Synthesize digestive enzymes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      326.2,
+      489.6,
+      464.2,
+      499.9
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_B_from_orphan_possible_mark"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    83.0,
+    446.6,
+    529.9,
+    503.5
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 14,
+   "number": 14,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A patient with a biliary obstruction may present with:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Jaundice",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      177.4,
+      539.8,
+      235.4,
+      551.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      407.0,
+      535.2,
+      486.2,
+      546.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hyperglycemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      176.6,
+      563.8,
+      264.0,
+      576.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Anemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      407.8,
+      559.9,
+      461.0,
+      571.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    83.5,
+    512.4,
+    486.2,
+    576.5
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 15,
+   "number": 15,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The primary function of the pancreas in digestion is to produce:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Bile",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      176.6,
+      615.1,
+      211.0,
+      625.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Gastric acid",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      408.5,
+      608.2,
+      473.5,
+      619.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Insulin and digestive enzymes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      176.6,
+      628.6,
+      572.4,
+      648.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Red blood cells",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      176.6,
+      628.6,
+      572.4,
+      648.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "options_start_at_B",
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    81.6,
+    585.8,
+    572.4,
+    648.0
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 16,
+   "number": 16,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which part of the intestine is responsible for the absorption of most nutrients and water? =",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Duodenum",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      177.8,
+      678.5,
+      466.6,
+      694.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Jejunum",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      177.8,
+      678.5,
+      466.6,
+      694.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "G) 'leum D) Cecum",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      178.6,
+      703.0,
+      459.1,
+      718.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Cecum",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_C_from_tail_possible_mark",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    83.0,
+    651.1,
+    571.2,
+    718.8
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 17,
+   "number": 17,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Which of the following is a common surgical hyperplasia (BPH)? Procedure for the treatment of benign prostatic",
+   "options": [],
+   "after": "",
+   "exp": "Transurethral resection of the prostate (TURP) is the standard common surgical procedure used to relieve bladder outlet obstruction from benign prostatic hyperplasia.",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    56.9,
+    25.0,
+    530.6,
+    52.1
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null,
+   "exp_source": "derived"
+  },
+  {
+   "i": 18,
+   "number": 18,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A patient with a blood clot in the lower extremity may be diagnosed with:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pulmonary embolism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      160.1,
+      145.2,
+      286.8,
+      157.9
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Deep vein thrombosis (DVT)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      407.8,
+      149.8,
+      558.5,
+      164.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Atherosclerosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      160.1,
+      172.6,
+      256.6,
+      183.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypertension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      407.8,
+      175.7,
+      490.1,
+      187.7
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    56.9,
+    66.7,
+    558.5,
+    187.7
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 19,
+   "number": 19,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the most common form of skin cancer, often associated with Sun exposure?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Basal cell carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      157.7,
+      222.5,
+      281.0,
+      238.3
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Melanoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      405.4,
+      227.0,
+      475.4,
+      238.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Squamous cell carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      162.0,
+      251.0,
+      306.5,
+      265.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Kaposi's sarcoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      404.6,
+      252.2,
+      505.2,
+      263.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    58.8,
+    197.5,
+    505.2,
+    265.7
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 20,
+   "number": 20,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The surgical procedure to remove a portion of the lung is known as:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pneumonectomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      163.4,
+      302.9,
+      267.1,
+      314.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Lobectomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      405.8,
+      302.9,
+      480.5,
+      315.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Thoracotomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      163.4,
+      328.3,
+      248.2,
+      339.1
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Tracheostomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      408.5,
+      326.9,
+      494.6,
+      338.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    60.7,
+    277.0,
+    494.6,
+    339.1
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  },
+  {
+   "i": 21,
+   "number": 21,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the most common cause of hyperthyroidism?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Graves' disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      143.8,
+      385.2,
+      238.8,
+      396.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hashimoto's thyroiditis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      381.1,
+      383.3,
+      511.0,
+      394.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Thyroid nodules",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      143.8,
+      400.6,
+      242.4,
+      412.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypothyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      380.6,
+      398.6,
+      476.9,
+      409.9
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    62.2,
+    366.2,
+    511.0,
+    412.6
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "key"
+  },
+  {
+   "i": 22,
+   "number": 22,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the primary treatment for a solitary thyroid nodule that is found to be malignant",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Thyroid hormone replaceme nt",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      143.0,
+      428.9,
+      538.8,
+      444.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Radioactive iodine therapy therapy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      143.0,
+      428.9,
+      538.8,
+      444.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Total thyroidectomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      142.6,
+      461.8,
+      261.6,
+      475.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Fine-needle aspiration (FNA)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      390.7,
+      458.6,
+      548.4,
+      471.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    60.7,
+    413.0,
+    548.4,
+    475.2
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 23,
+   "number": 23,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In which thyroid surgery technique Is the parathyroid gland at higher risk of injury? -tx) Total thyroidectomy",
+   "options": [
+    {
+     "letter": "B",
+     "text": "Hemithyroidectomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      383.0,
+      491.5,
+      499.7,
+      503.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Lobectomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      142.6,
+      511.2,
+      218.4,
+      523.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Isthmectomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      383.0,
+      507.4,
+      466.1,
+      518.9
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    60.7,
+    474.5,
+    499.7,
+    523.2
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 24,
+   "number": 24,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The thyroid gland primarily produces two hormones, T3 and T4, that regulate:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Blood pressure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      162.7,
+      551.0,
+      257.0,
+      563.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Metabolism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      404.6,
+      547.4,
+      481.9,
+      559.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Blood sugar levels",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      162.7,
+      575.8,
+      271.7,
+      589.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Calcium levels",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      404.6,
+      571.9,
+      492.0,
+      584.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_out_of_order_C",
+    "option_out_of_order_D",
+    "low_ocr_confidence",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    60.7,
+    522.7,
+    492.0,
+    649.0
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": null,
+   "number": null,
+   "section": null,
+   "type": "QCS",
+   "stem": "Which salivary gland is most commonly affected by salivary gland tumors?",
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "options": [
+    {
+     "letter": "A",
+     "text": "Parotid gland",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "B",
+     "text": "Sublingual gland",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "C",
+     "text": "Submandibular gland",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "D",
+     "text": "Palatine glands",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "flags": [
+    "added_from_page_image"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": null,
+   "pages": [
+    2
+   ],
+   "candidates": {},
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 25,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "xB) Sublingual gland C) Submandibular gland D) Palatine glands ) fi - 26) What is the most common endocrine disorder requiring surgery?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Diabetes mellitus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      163.4,
+      706.3,
+      269.0,
+      720.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hyperthyroldism a/P",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      403.4,
+      698.4,
+      503.3,
+      716.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "C) Hypothyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      92.2,
+      29.5,
+      247.2,
+      54.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Cushing's syndrome",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      379.7,
+      32.6,
+      489.4,
+      44.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "option_marker_repaired_C_from_orphan_possible_mark",
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    398.9,
+    620.2,
+    509.0,
+    720.2
+   ],
+   "pages": [
+    2,
+    3
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 26,
+   "number": 27,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In vascular surgery, what is the gold standard for diagnosing arterial stenosis?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Doppler ultrasound",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      105.8,
+      81.8,
+      213.1,
+      92.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Angiography '3",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      322.3,
+      82.6,
+      397.2,
+      93.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Magnetic resonance imaging (MRI)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      105.4,
+      105.8,
+      283.7,
+      116.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Computed tomography (CT) angiography",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      321.6,
+      106.6,
+      525.8,
+      119.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "numbering_gap_before",
+    "orphan_rows_joined_to_option",
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    63.6,
+    54.7,
+    525.8,
+    119.0
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  },
+  {
+   "i": 27,
+   "number": 28,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Acommon complication of gastroesophageal reflux disease (GERD) is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Peptic ulcer disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      153.8,
+      156.2,
+      263.5,
+      167.0
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Ay Esophageal cancer",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      381.6,
+      160.1,
+      484.3,
+      170.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Crohn's disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      153.1,
+      180.2,
+      244.1,
+      191.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Appendicitis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      380.9,
+      183.4,
+      456.0,
+      194.2
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_B_from_orphan_possible_mark",
+    "low_ocr_confidence"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    41.0,
+    132.2,
+    484.3,
+    194.2
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 28,
+   "number": 29,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In pancreatic surgery, which procedure involves removal of the head of the pancreas, the duodenum, and part of the common bile duct? -A)- Whipple procedure",
+   "options": [
+    {
+     "letter": "B",
+     "text": "Distal pancreatectomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      380.9,
+      245.8,
+      503.3,
+      256.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Total pancreatectomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      151.4,
+      266.6,
+      271.2,
+      279.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Enucleation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      380.2,
+      269.8,
+      453.4,
+      279.8
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    58.6,
+    203.5,
+    503.3,
+    279.8
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 29,
+   "number": 30,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The most common site for intestinal obstruction Is: -A)}- Small intestine",
+   "options": [
+    {
+     "letter": "B",
+     "text": "Large intestine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      382.1,
+      317.8,
+      468.5,
+      327.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Stomach",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      150.0,
+      338.6,
+      209.3,
+      349.2
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Rectum",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      381.6,
+      341.0,
+      435.6,
+      352.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    56.2,
+    289.4,
+    468.5,
+    352.3
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 30,
+   "number": 31,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In pediatric surgery, what is the most common congenital anomaly of the gastrointestinal tract?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hirschsprung's disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      149.5,
+      386.4,
+      273.6,
+      397.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Meckel's diverticulum",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      380.9,
+      389.0,
+      502.6,
+      399.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pyloric stenosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      148.8,
+      410.4,
+      240.2,
+      420.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Imperforate anus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      382.1,
+      412.3,
+      481.2,
+      423.1
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    53.5,
+    361.2,
+    518.9,
+    423.1
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 31,
+   "number": 32,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which bone fracture is known as a \"complete\" fracture where the bone is broken into two separate pieces?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Greenstick fracture",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      147.6,
+      474.0,
+      497.5,
+      486.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Comminuted fracture",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      147.6,
+      474.0,
+      497.5,
+      486.7
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Oblique fracture",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "D",
+     "text": "Transverse fracture",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    53.5,
+    433.7,
+    535.9,
+    519.6
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  },
+  {
+   "i": 32,
+   "number": 33,
+   "section": 1,
+   "type": "QCS",
+   "stem": "During a minor surgical procedure, the patient experiences syncope. What is the most appropriate initial management?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Administer epinephrine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      142.6,
+      564.2,
+      274.3,
+      575.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Administer oxygen",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      379.7,
+      566.2,
+      486.2,
+      577.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "1- C) Elevate the patient's legs",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      73.2,
+      590.2,
+      280.1,
+      601.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Perform a tracheostomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      379.7,
+      591.4,
+      513.4,
+      602.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_C_from_orphan_possible_mark"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    37.2,
+    523.2,
+    532.1,
+    602.6
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 33,
+   "number": 34,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In anesthesia, which drug is commonly used to induce and maintain general anesthesia?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Fentanyl",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      140.6,
+      640.6,
+      200.4,
+      651.8
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Propofol",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      372.0,
+      639.4,
+      439.4,
+      656.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Epinephrine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      139.9,
+      664.6,
+      217.4,
+      675.8
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Lidocaine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      380.2,
+      667.7,
+      444.0,
+      678.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_B_from_orphan_possible_mark",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    32.2,
+    614.6,
+    484.8,
+    678.5
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 34,
+   "number": 35,
+   "section": 1,
+   "type": "QROC",
+   "stem": "In cardiothoracic surgery, what procedure is performed to treat coronary artery disease?",
+   "options": [],
+   "after": "",
+   "exp": "Coronary artery bypass grafting (CABG).",
+   "inline_answer": null,
+   "flags": [
+    "no_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    48.5,
+    687.8,
+    537.1,
+    0
+   ],
+   "pages": [
+    3,
+    4
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "derived"
+  },
+  {
+   "i": 35,
+   "number": 36,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In pediatric surgery, what is the most common congenital anomaly of the urinary tract?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Vesicoureteral reflux",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      145.7,
+      115.4,
+      263.5,
+      127.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hydronephrosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      384.0,
+      115.4,
+      477.4,
+      127.2
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Wilms tumor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      146.4,
+      141.1,
+      228.2,
+      152.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Cryptorchidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      383.3,
+      141.1,
+      474.7,
+      152.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    23.3,
+    90.7,
+    490.6,
+    152.6
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 36,
+   "number": 37,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Osteoporosis is a condition that primarily affects which part of the musculoskeletal system?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Muscles",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      147.6,
+      191.5,
+      201.1,
+      201.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Bones",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      384.7,
+      191.0,
+      428.9,
+      200.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Tendons",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      147.6,
+      215.0,
+      202.3,
+      225.1
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Ligaments",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      384.7,
+      214.3,
+      446.4,
+      224.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    54.2,
+    165.1,
+    510.2,
+    225.1
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 37,
+   "number": 38,
+   "section": 1,
+   "type": "QCS",
+   "stem": "During a laparoscopic procedure, what gas is commonly used to insufflate the abdominal cavity for better visualization?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Nitrogen",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      148.8,
+      279.8,
+      205.0,
+      289.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Carbon dioxide",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      379.7,
+      277.4,
+      469.7,
+      288.0
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Oxygen",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      148.8,
+      303.1,
+      199.2,
+      313.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Helium",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      385.9,
+      301.4,
+      435.1,
+      311.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_B_from_orphan_possible_mark",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    55.4,
+    236.4,
+    544.8,
+    313.4
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 38,
+   "number": 39,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the most commonly used local anesthetic in surgical procedures?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Bupivacaine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      149.5,
+      351.1,
+      220.1,
+      360.7
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Lidocaine",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      381.6,
+      348.7,
+      445.9,
+      358.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Propofol",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      150.0,
+      373.9,
+      205.0,
+      384.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Fentanyl",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      386.6,
+      371.3,
+      441.4,
+      381.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_B_from_orphan_possible_mark",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    56.6,
+    324.7,
+    445.9,
+    384.0
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 39,
+   "number": 40,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the primary goal of antibiotic prophylaxis in surgery?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "To treat existing infections",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      131.0,
+      421.2,
+      273.6,
+      433.2
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "To prevent postoperative pain",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      358.8,
+      418.6,
+      520.8,
+      430.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "To prevent surgical site infections",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      131.0,
+      445.2,
+      307.2,
+      457.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "To promote wound healing",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      359.5,
+      443.3,
+      507.6,
+      455.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_C_from_orphan_possible_mark",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    56.6,
+    395.3,
+    520.8,
+    457.7
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 40,
+   "number": 41,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which type of hernia occurs through the Hasselbach's triangle and Is often called an inguinal hernia?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Direct inguinal hernia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      116.6,
+      502.6,
+      237.1,
+      514.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Indirect inguinal hernia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      348.0,
+      499.9,
+      479.3,
+      511.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Femoral hernia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      115.9,
+      517.7,
+      206.9,
+      529.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Incisional hernia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      343.7,
+      515.0,
+      440.9,
+      527.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    56.6,
+    467.3,
+    517.7,
+    529.7
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 41,
+   "number": 42,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following hernia is the most liable to strangulate:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Femoral",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "B",
+     "text": "Inguinal",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "C",
+     "text": "Umbilical",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      111.6,
+      568.1,
+      407.3,
+      582.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Incisional",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      111.6,
+      568.1,
+      407.3,
+      582.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    56.6,
+    537.8,
+    407.3,
+    582.5
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 42,
+   "number": 43,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The structure that lies between the two components of pantaloon hernia is?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Spermatic cord",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      100.8,
+      607.7,
+      192.2,
+      621.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Conjoint tendon",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      332.9,
+      605.3,
+      429.4,
+      617.3
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Femoral artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      100.8,
+      624.2,
+      191.8,
+      636.7
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Inferior epigastric artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "(D4 Inferior epigastric artery",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_after_options",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    57.4,
+    589.4,
+    442.1,
+    636.7
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "D",
+   "answer_source": "marked"
+  },
+  {
+   "i": 43,
+   "number": 44,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which surgical technique involves suturing the posterior wall of the inguinal canal during hernia repair? fd Bassini repair",
+   "options": [
+    {
+     "letter": "B",
+     "text": "Shouldice repair",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      364.6,
+      669.6,
+      461.5,
+      680.9
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Lichtenstein repair",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      130.6,
+      687.4,
+      238.3,
+      698.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "McVay repair",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      364.6,
+      685.4,
+      450.2,
+      697.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "low_ocr_confidence",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    30.2,
+    634.8,
+    530.4,
+    698.6
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 44,
+   "number": 45,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the classic presentation of Richter's hernia?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Obstruction and ischemia of the entire bowel loop",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "B",
+     "text": "Reducible hernia with no symptoms",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      389.8,
+      717.6,
+      530.4,
+      730.8
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pain and swelling at the hernia site",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      161.5,
+      48.5,
+      498.2,
+      62.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Fever and sepsis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      161.5,
+      48.5,
+      498.2,
+      62.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    37.2,
+    702.5,
+    530.4,
+    753.4
+   ],
+   "pages": [
+    4,
+    5
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 45,
+   "number": 46,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Which type of hernia occurs at the site of a previous surgical incision? D) Direct inguinal hernia E) Indirect inguinal hernia F) Femoral hernia",
+   "options": [],
+   "after": "",
+   "exp": "An incisional hernia is a protrusion of abdominal contents through a weakness or defect at the site of a previous surgical incision.",
+   "inline_answer": null,
+   "flags": [
+    "option_out_of_order_D",
+    "option_out_of_order_E",
+    "option_out_of_order_F"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    89.3,
+    63.6,
+    492.0,
+    108.0
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null,
+   "exp_source": "derived"
+  },
+  {
+   "i": 46,
+   "number": 47,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the term of a hernia that cannot be pushed back to the abdominal cavity?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Reducible hernia AB) Incarcerated hernia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      162.7,
+      122.4,
+      490.1,
+      135.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Strangulated hernia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      162.7,
+      137.0,
+      466.1,
+      149.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Ventral hernia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      162.7,
+      137.0,
+      466.1,
+      149.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    89.3,
+    105.8,
+    490.1,
+    149.0
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 47,
+   "number": 48,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In patients with a strangulated hernia, what is the primary concern?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Infection",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      163.4,
+      173.3,
+      563.5,
+      186.5
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Reduced blood flow to the herniated tissue",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      163.4,
+      173.3,
+      563.5,
+      186.5
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Nausea and vomiting",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      162.7,
+      196.6,
+      505.2,
+      210.5
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Allergic reaction to anesthesia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      162.7,
+      196.6,
+      505.2,
+      210.5
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    88.6,
+    151.7,
+    563.5,
+    210.5
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": "B",
+   "answer_source": "marked"
+  },
+  {
+   "i": 48,
+   "number": 49,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which phase of wound healing Involves the formation of new blood vessels?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "a) Inflammatory phase _B) Proliferative phase",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      154.6,
+      241.4,
+      483.8,
+      255.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Maturation phase",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      154.6,
+      256.1,
+      463.0,
+      271.9
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Epithelialization",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      154.6,
+      256.1,
+      463.0,
+      271.9
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    88.6,
+    226.3,
+    483.8,
+    271.9
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 49,
+   "number": 50,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the most common cause of major trauma?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Motor vehicle accidents",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "B",
+     "text": "Falls",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "C",
+     "text": "Sports injuries",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      163.9,
+      309.8,
+      445.7,
+      323.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Assaults",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      163.9,
+      309.8,
+      445.7,
+      323.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    89.3,
+    282.7,
+    445.7,
+    323.3
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 50,
+   "number": 51,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following is a key electrolyte involved in nerve and muscle function?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Potassium",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      183.6,
+      356.9,
+      463.4,
+      370.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Sodium",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      183.6,
+      356.9,
+      463.4,
+      370.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Calcium",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      182.4,
+      379.4,
+      467.3,
+      396.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Chloride",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      182.4,
+      379.4,
+      467.3,
+      396.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    88.6,
+    332.6,
+    480.5,
+    396.0
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 51,
+   "number": 52,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the primary determinant of a patient's overall health status and the response to shock?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Blood pressure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "B",
+     "text": "Heart rate",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "C",
+     "text": "Tissue perfusion",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      184.3,
+      451.2,
+      499.0,
+      464.4
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Respiratory rate",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      184.3,
+      451.2,
+      499.0,
+      464.4
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    90.0,
+    402.2,
+    545.8,
+    464.4
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 52,
+   "number": 53,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The leading cause of surgical site infections is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Gram-negative bacteria",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "B",
+     "text": "Staphylococcus aureus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "C",
+     "text": "Fungal infections",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      182.9,
+      522.7,
+      494.6,
+      537.1
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Viral infections",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      182.9,
+      522.7,
+      494.6,
+      537.1
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    90.0,
+    474.7,
+    529.9,
+    537.1
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 53,
+   "number": 54,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Superficial burns involve which layer of the skin?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Epidermis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      181.7,
+      572.6,
+      469.9,
+      590.4
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Dermis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      181.7,
+      572.6,
+      469.9,
+      590.4
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Subcutaneous tissue",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      181.7,
+      596.6,
+      471.1,
+      611.3
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Muscle",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      181.7,
+      596.6,
+      471.1,
+      611.3
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    88.1,
+    548.6,
+    471.1,
+    611.3
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 54,
+   "number": 55,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which nutrient is essential for collagen synthesis and wound healing?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Vitamin C",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "B",
+     "text": "Vitamin D",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "C",
+     "text": "Iron",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      182.9,
+      669.1,
+      480.0,
+      684.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Vitamin K",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      182.9,
+      669.1,
+      480.0,
+      684.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "number_corrected_from_5",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    87.4,
+    622.1,
+    582.2,
+    684.0
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 55,
+   "number": 56,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the most common benign tumor of the breast?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Fibroadenoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "B",
+     "text": "Invasive ductal carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "C",
+     "text": "Lobular carcinoma in situ",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      124.8,
+      97.7,
+      511.9,
+      116.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Phyllodes tumor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      124.8,
+      97.7,
+      511.9,
+      116.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    17.0,
+    46.8,
+    561.8,
+    116.6
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [],
+   "correct": "A",
+   "answer_source": "marked"
+  },
+  {
+   "i": 56,
+   "number": 57,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In which group is breast cancer most commonly diagnosed?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Under 30 years",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      104.2,
+      147.6,
+      461.5,
+      166.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "30-40 years",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      104.2,
+      147.6,
+      461.5,
+      166.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "40-50 years",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      101.5,
+      165.4,
+      473.5,
+      183.6
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Over 50 years",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      101.5,
+      165.4,
+      473.5,
+      183.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    0.0,
+    128.6,
+    473.5,
+    183.6
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 57,
+   "number": 58,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the gold standard imaging modality for breast cancer screening?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Mammography",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "B",
+     "text": "ultrasonography",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
+     "letter": "C",
+     "text": "MRI",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      105.8,
+      220.8,
+      148.8,
+      237.1
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "CT scan",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "single_option",
+    "written_without_model_answer",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    18.2,
+    181.9,
+    488.2,
+    237.1
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null,
+   "exp_source": null
+  },
+  {
+   "i": 58,
+   "number": 59,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which histological type of breast cancer is characterized by a \"triple -negative \"status?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ductal carcinoma in situ",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      107.3,
+      254.9,
+      546.7,
+      274.1
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Invasive lobular carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      107.3,
+      254.9,
+      546.7,
+      274.1
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Invasive ductal carcinoma D) Invasive papillary carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      107.3,
+      270.2,
+      556.1,
+      290.6
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "option_marker_repaired_C"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    19.4,
+    235.2,
+    556.1,
+    290.6
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  },
+  {
+   "i": 59,
+   "number": 60,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the recommended first line treatment for early-stage breast cancer?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Chemotherapy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      108.5,
+      309.1,
+      496.8,
+      326.6
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hormone therapy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      108.5,
+      309.1,
+      496.8,
+      326.6
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Surgery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      102.2,
+      326.6,
+      472.3,
+      347.0
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Radiotherapy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      102.2,
+      326.6,
+      472.3,
+      347.0
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    20.9,
+    290.2,
+    496.8,
+    347.0
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [],
+   "correct": "C",
+   "answer_source": "marked"
+  }
+ ]
+}

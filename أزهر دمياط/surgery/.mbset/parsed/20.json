@@ -1,0 +1,2778 @@
+{
+ "nn": "20",
+ "source": "Raw_PDF_Questions/surgery final  2024 MCQ.pdf",
+ "sha256": "2b1544bd6b98a1a7fde3c79cfbeccd02910f77ac1def445af11d5396770bb823",
+ "at": "2026-09-26T05:37:09Z",
+ "layout": {
+  "method": "native",
+  "splits": {
+   "1": null,
+   "2": null,
+   "3": null,
+   "4": null,
+   "5": null,
+   "6": null,
+   "7": null
+  }
+ },
+ "counters": {
+  "source_numbering": 30,
+  "sections": [
+   "1-30"
+  ],
+  "option_a_lines": 30,
+  "parsed_questions": 30,
+  "parsed_numbered": 30,
+  "declared_total": null
+ },
+ "gaps": [],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [],
+  "grid_hits": 0,
+  "style_stats": {
+   "bold": 0.0,
+   "color": 0.0,
+   "tick": 0.0,
+   "highlight": 0.0,
+   "fill": 0.13,
+   "tint": 0.0,
+   "ink": 0.0,
+   "circle": 0.0,
+   "box": 0.0,
+   "underline": 0.0
+  },
+  "marked_hits": 16,
+  "answered": 16,
+  "mcq": 30,
+  "at": "2026-09-26T05:37:09Z"
+ },
+ "distribution": {
+  "A": 0.312,
+  "B": 0.25,
+  "C": 0.312,
+  "E": 0.125
+ },
+ "dropped_lines": [
+  "surgery final exam 2024"
+ ],
+ "dropped_count": 1,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 0,
+  "dropped": [],
+  "stale": []
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": 1,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which one of the following cases is considered a clean contaminated wound?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Herniorrhaphy with mesh repair",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      54.0,
+      93.48529815673828,
+      280.7093811035156,
+      114.82640075683594
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Appendectomy with walled-off abscess",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      54.0,
+      112.92529296875,
+      325.5545959472656,
+      134.26638793945312
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Gunshot wound to the abdomen with injuries to the small bowel and",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      54.0,
+      132.4853057861328,
+      519.6934204101562,
+      153.82640075683594
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "sigmoid colon Open",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      54.0,
+      152.04429626464844,
+      200.8527069091797,
+      173.38539123535156
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "cholecystectomy for cholelithiasis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 0,
+     "bbox": [
+      54.0,
+      171.6053009033203,
+      290.1532287597656,
+      192.94639587402344
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    33.0,
+    73.92530059814453,
+    556.2648315429688,
+    192.94639587402344
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "E",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 2,
+   "number": 2,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The most common type of shock in penetrating trauma is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Septic shock",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      48.0,
+      233.28529357910156,
+      146.08070373535156,
+      254.6263885498047
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Neurogenic shock",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      48.0,
+      254.28529357910156,
+      181.24069213867188,
+      275.62640380859375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hemorrhagic shock",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 0,
+     "bbox": [
+      48.0,
+      275.4052734375,
+      190.95968627929688,
+      296.74639892578125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Cardiogenic shock",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      48.0,
+      296.52532958984375,
+      182.80068969726562,
+      317.8664245605469
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    33.0,
+    212.16529846191406,
+    426.41802978515625,
+    317.8664245605469
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 3,
+   "number": 3,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which one of the following statements with regard to epigastric hernia is INCORRECT?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The majority are symptomatic.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      54.0,
+      380.76531982421875,
+      276.8948974609375,
+      402.1064147949219
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "It is more common in males.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      54.0,
+      401.88531494140625,
+      262.0176086425781,
+      423.2264099121094
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Incarceration of intra-abdominal viscera is extremely rare.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      54.0,
+      423.00531005859375,
+      452.9383544921875,
+      444.3464050292969
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Spontaneous resolution occurs in children under 10 years of age.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      54.0,
+      444.00531005859375,
+      497.6985168457031,
+      465.3464050292969
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    33.0,
+    338.644287109375,
+    522.9559936523438,
+    465.3464050292969
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 4,
+   "number": 4,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which one of the following statements with regard to infantile umbilical hernia is INCORRECT?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "90% disappear by 2 years of age.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      54.0,
+      528.3652954101562,
+      289.8584899902344,
+      549.7063598632812
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "The majority require surgical repair.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      54.0,
+      549.4852905273438,
+      308.81939697265625,
+      570.8263549804688
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Hernias with a defect of >1.5 cm are unlikely to heal spontaneously.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      54.0,
+      570.4852905273438,
+      515.8165893554688,
+      591.8263549804688
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Complications are rare",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      54.0,
+      591.6043090820312,
+      224.52655029296875,
+      612.9453735351562
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    33.0,
+    486.12530517578125,
+    575.875,
+    612.9453735351562
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 5,
+   "number": 5,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Rectus sheath is formed by splitting of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "External oblique aponeurosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      61.439998626708984,
+      654.8442993164062,
+      268.195068359375,
+      676.1853637695312
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Internal oblique aponeurosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 0,
+     "bbox": [
+      61.439998626708984,
+      675.8442993164062,
+      265.6750793457031,
+      697.1853637695312
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Transversus abdominis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      61.439998626708984,
+      696.96533203125,
+      226.19476318359375,
+      718.306396484375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Rectus abdominis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      61.439998626708984,
+      718.0853271484375,
+      193.9147491455078,
+      739.4263916015625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    33.0,
+    633.725341796875,
+    302.57818603515625,
+    739.4263916015625
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 6,
+   "number": 6,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which statement is INCORRECT concerning Buerger's disease",
+   "options": [
+    {
+     "letter": "A",
+     "text": "is a segmental occlusive disease of both arteries and veins",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      54.0,
+      98.04429626464844,
+      454.43524169921875,
+      119.3853988647461
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Affects large arteries only",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      54.0,
+      119.16529846191406,
+      243.48793029785156,
+      140.5063934326172
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Occurs most often in young males",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      54.0,
+      140.28529357910156,
+      298.07476806640625,
+      161.6263885498047
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "is particularly common in heavy smokers",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      54.0,
+      161.28529357910156,
+      341.634521484375,
+      182.6263885498047
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    33.0,
+    76.83694458007812,
+    454.43524169921875,
+    182.6263885498047
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 7,
+   "number": 7,
+   "section": 1,
+   "type": "QCS",
+   "stem": "35-year-old patient presented to emergency room with a stap wound at right upper thigh with active bleeding and cold, pale right lower limb, the next step is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Duplex ultrasonography",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      54.0,
+      245.64430236816406,
+      226.8063507080078,
+      266.98541259765625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Computerized Tomography with Angiography",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      54.0,
+      266.76531982421875,
+      364.80633544921875,
+      288.1064147949219
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Exploration",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 1,
+     "bbox": [
+      54.0,
+      287.76531982421875,
+      145.8917999267578,
+      309.1064147949219
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Amputation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      54.0,
+      308.88531494140625,
+      149.37225341796875,
+      330.2264099121094
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    33.0,
+    203.52529907226562,
+    572.3380737304688,
+    330.2264099121094
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 8,
+   "number": 8,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the treatment of choice for 1. 8 CM, N0, M0 invasive breast cancer?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lumpectomy alone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      54.0,
+      372.12530517578125,
+      202.32638549804688,
+      393.4664001464844
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Lumpectomy, Sentinel LN biopsy, and radiation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      54.0,
+      393.12530517578125,
+      380.97174072265625,
+      414.4664001464844
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Mastectomy, Sentinel LN biopsy, and radiation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      54.0,
+      414.24432373046875,
+      377.37030029296875,
+      435.5854187011719
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Mastectomy with LN dissection and radiation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      54.0,
+      435.36529541015625,
+      371.01129150390625,
+      456.7064208984375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    33.0,
+    351.00531005859375,
+    541.8626708984375,
+    456.7064208984375
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 9,
+   "number": 9,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following increases the risk of breast cancer?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Multiple pregnancies",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      54.0,
+      498.60430908203125,
+      215.03372192382812,
+      519.9453735351562
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Late menarche",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      54.0,
+      519.6043090820312,
+      174.4850311279297,
+      540.9453735351562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Late menopause",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 1,
+     "bbox": [
+      54.0,
+      540.725341796875,
+      185.40533447265625,
+      562.06640625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Prolonged and multiple episodes of lactation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      54.0,
+      561.725341796875,
+      368.2513122558594,
+      583.06640625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    33.0,
+    477.48529052734375,
+    429.1835021972656,
+    583.06640625
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 10,
+   "number": 10,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following breast biopsy findings has the greatest risk for later carcinoma?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Apocrine metaplasia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      54.0,
+      646.0853271484375,
+      211.15733337402344,
+      667.4263916015625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Atypical lobular hyperplasia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      54.0,
+      667.2042846679688,
+      257.3561706542969,
+      688.5453491210938
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Ductectasia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      54.0,
+      688.3253173828125,
+      153.6770477294922,
+      709.6663818359375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Sclerosing adenoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      54.0,
+      709.3253173828125,
+      208.39883422851562,
+      730.6663818359375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    33.0,
+    603.96533203125,
+    554.0682373046875,
+    730.6663818359375
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 11,
+   "number": 11,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Severe hemorrhage is most likely to follow which of the following injuries in previously healthy young adults?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Closed fracture of the femur",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      54.0,
+      77.04429626464844,
+      261.7498474121094,
+      98.3853988647461
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Open fracture of the tibia and fibula",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      54.0,
+      98.04429626464844,
+      311.9591369628906,
+      119.3853988647461
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Partial transection of the artery from a sharp injury",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      54.0,
+      119.16529846191406,
+      409.0883483886719,
+      140.5063934326172
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Severe crush injury of the foot",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      54.0,
+      140.28529357910156,
+      274.3659973144531,
+      161.6263885498047
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    33.0,
+    34.92530059814453,
+    565.413330078125,
+    161.6263885498047
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 12,
+   "number": 12,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Which of the following patients should be transferred to a burn center?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A 5-year-old child with an 18% partial thickness burn",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      48.0,
+      203.52529907226562,
+      407.4932861328125,
+      224.86639404296875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "A 25-year-old with an 18% partial thickness burn",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      48.0,
+      224.52529907226562,
+      380.9732971191406,
+      245.86639404296875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "A 42-year-old with an 8% deep partial thickness burn",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      48.0,
+      245.64430236816406,
+      409.2933044433594,
+      266.98541259765625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "A 36-year-old with hypertension and a 16% deep partial thickness burn",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      48.0,
+      266.76531982421875,
+      526.2933349609375,
+      288.1064147949219
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    33.0,
+    182.40530395507812,
+    534.542724609375,
+    288.1064147949219
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 13,
+   "number": 13,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Diabetic patients are more prone to develop foot ulcers. All the following are important contributing causes EXCEPT:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Diabetic patients usually have peripheral neuropathy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      54.0,
+      351.00531005859375,
+      420.8480224609375,
+      372.3464050292969
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Diabetic foot deformities render the foot more susceptible to trauma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      54.0,
+      372.12530517578125,
+      525.7987060546875,
+      393.4664001464844
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Diabetic patients have an exaggerated inflammatory response to infection",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      54.0,
+      393.12530517578125,
+      557.0115356445312,
+      414.4664001464844
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Diabetic patients may have concomitant chronic ischemia.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      54.0,
+      414.24432373046875,
+      454.615966796875,
+      435.5854187011719
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    33.0,
+    308.88531494140625,
+    569.286865234375,
+    435.5854187011719
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 14,
+   "number": 14,
+   "section": 1,
+   "type": "QCS",
+   "stem": "If a diabetic patient presents with gangrene of one of his toes, the first thing that should be done is to:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Amputate the gangrenous toe to prevent the spread of gangrene",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      54.0,
+      498.60430908203125,
+      498.0057678222656,
+      519.9453735351562
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Ask for fasting blood sugar to control blood sugar levels",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      54.0,
+      519.6043090820312,
+      436.6748046875,
+      540.9453735351562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Ask for serum lipid profile to correct possible hyperlipidemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      54.0,
+      540.725341796875,
+      469.6358337402344,
+      562.06640625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Look for pedal pulses to evaluate foot circulation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      54.0,
+      561.725341796875,
+      393.8105163574219,
+      583.06640625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    33.0,
+    456.36529541015625,
+    564.8961181640625,
+    583.06640625
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 15,
+   "number": 15,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The spermatic cord contains all of the following EXCEPT:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Autonomic nerve fibers",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      54.0,
+      625.0853271484375,
+      224.27508544921875,
+      646.4263916015625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Genital nerve",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 2,
+     "bbox": [
+      54.0,
+      646.0853271484375,
+      159.36654663085938,
+      667.4263916015625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Lymphatics",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      54.0,
+      667.2042846679688,
+      144.4748077392578,
+      688.5453491210938
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Testicular artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      54.0,
+      688.3253173828125,
+      176.28773498535156,
+      709.6663818359375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    33.0,
+    603.7579956054688,
+    435.53863525390625,
+    709.6663818359375
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 16,
+   "number": 16,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All of the following are risk factors for Incisional hernia, EXCEPT:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Advanced age",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      54.0,
+      730.4443359375,
+      162.48670959472656,
+      751.785400390625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hyperthyroidism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 3,
+     "bbox": [
+      54.0,
+      34.92530059814453,
+      180.3656768798828,
+      56.26639938354492
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Morbid obesity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      54.0,
+      55.92530059814453,
+      171.00833129882812,
+      77.26640319824219
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Wound infection",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      54.0,
+      77.04429626464844,
+      179.8507843017578,
+      98.3853988647461
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    33.0,
+    709.1179809570312,
+    485.6986389160156,
+    751.785400390625
+   ],
+   "pages": [
+    2,
+    3
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 17,
+   "number": 17,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 30-year-old female presents with a 2-month history of a painful right breast lump. Pain is mainly during menstruation. Clinical examination reveals a diffuse lump in her right breast. The investigation of choice for further evaluation of the lump is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ultrasound",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 3,
+     "bbox": [
+      54.0,
+      203.52529907226562,
+      150.33255004882812,
+      224.86639404296875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Mammogram",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      54.0,
+      224.52529907226562,
+      166.80496215820312,
+      245.86639404296875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Magnetic resonance imaging (MRI)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      54.0,
+      245.64430236816406,
+      304.47210693359375,
+      266.98541259765625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Ultrasound Doppler",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      54.0,
+      266.76531982421875,
+      206.1885223388672,
+      288.1064147949219
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    33.0,
+    119.16529846191406,
+    574.4861450195312,
+    288.1064147949219
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 18,
+   "number": 18,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 25-year-old female presents with a painless lump in her right breast. On examination, there is a 2 cm mobile, firm, well-defined mass present in the lower outer quadrant. The most likely diagnosis is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Fibroadenoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 3,
+     "bbox": [
+      54.0,
+      372.12530517578125,
+      172.637939453125,
+      393.4664001464844
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Fat necrosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      54.0,
+      393.12530517578125,
+      154.79449462890625,
+      414.4664001464844
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Phyllodes tumor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      54.0,
+      414.24432373046875,
+      184.35012817382812,
+      435.5854187011719
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hamartoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      54.0,
+      435.36529541015625,
+      155.95748901367188,
+      456.7064208984375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    33.0,
+    308.88531494140625,
+    550.0531616210938,
+    456.7064208984375
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 19,
+   "number": 19,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The common cause of bloody nipple discharge is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Intraductal papilloma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 3,
+     "bbox": [
+      54.0,
+      498.60430908203125,
+      216.79837036132812,
+      519.9453735351562
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Nipple adenoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      54.0,
+      519.6043090820312,
+      185.47882080078125,
+      540.9453735351562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Ductal carcinoma in situ",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      54.0,
+      540.725341796875,
+      233.73313903808594,
+      562.06640625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Duct ectasia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      54.0,
+      561.725341796875,
+      157.39793395996094,
+      583.06640625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    33.0,
+    477.48529052734375,
+    390.41802978515625,
+    583.06640625
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 20,
+   "number": 20,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 20-year-old woman undergoes an incisional biopsy of a pigmented lesion on her thigh with a malignant melanoma with a thickness of 2 mm. Examination of the groin are normal. What is the most appropriate next step in her management?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Wide local excision of the melanoma with 1cm safety margin& a sentinel lymph node biopsy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      54.0,
+      688.3253173828125,
+      542.9307861328125,
+      709.6663818359375
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Wide local excision of the melanoma1cmsafety margin followed by radiation to the groin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      54.0,
+      34.92530059814453,
+      566.9703979492188,
+      56.26639938354492
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Wide local excision of the melanoma with 2cm safety margin a sentinel lymph node biopsy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      54.0,
+      77.04429626464844,
+      532.0107421875,
+      98.3853988647461
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Total sentinel excision of the melanoma 2cm safety margin &with a groin lymph node dissection",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      54.0,
+      119.16529846191406,
+      543.2131958007812,
+      140.5063934326172
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    33.0,
+    603.7579956054688,
+    569.3707885742188,
+    730.6663818359375
+   ],
+   "pages": [
+    3,
+    4
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 21,
+   "number": 21,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A sliding hernia:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Is easily reducible",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      54.0,
+      203.52529907226562,
+      192.84532165527344,
+      224.86639404296875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Is apparent only with increased intra-abdominal pressure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      54.0,
+      224.52529907226562,
+      448.5663757324219,
+      245.86639404296875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Occurs in more than one orifice",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      54.0,
+      245.64430236816406,
+      460.7117614746094,
+      266.98541259765625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Has a viscus contained in the wall of the sac",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      54.0,
+      266.76531982421875,
+      361.3304138183594,
+      288.1064147949219
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "g., inguinal and femoral)",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      54.0,
+      245.64430236816406,
+      460.7117614746094,
+      266.98541259765625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    33.0,
+    182.40530395507812,
+    460.7117614746094,
+    288.1064147949219
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 22,
+   "number": 22,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 60-year-old woman presents with the skin lesion shown here. She reports a history of a burn injury to the hand while cooking a few years ago. She reports the wound has never healed completely. You are concerned about the skin lesion and perform a punch biopsy. Which of the following is the most accurate diagnosis given the patient's history?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Basal cell carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      54.0,
+      414.24432373046875,
+      208.75836181640625,
+      435.5854187011719
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Malignant melanoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      54.0,
+      435.36529541015625,
+      217.03822326660156,
+      456.7064208984375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Erythroplasia of Queyrat",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      54.0,
+      456.36529541015625,
+      236.9259490966797,
+      477.7064208984375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Bowen disease",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      54.0,
+      477.48529052734375,
+      174.7256622314453,
+      498.826416015625
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Marjolin ulcer",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 4,
+     "bbox": [
+      54.0,
+      498.60430908203125,
+      169.10923767089844,
+      519.9453735351562
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "figure_dependent"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    33.0,
+    308.6779479980469,
+    573.799072265625,
+    519.9453735351562
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "E",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill",
+   "image": "Images/20_Q22.png"
+  },
+  {
+   "i": 23,
+   "number": 23,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 54-year-old man sees you because of a growth on his lower lip. He smokes tobacco, has a fair complexion, and works outdoors. The biopsy report confirms a carcinoma. Which of the following is the most common diagnosis for tumors involving the lips?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Squamous cell carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      54.0,
+      625.0853271484375,
+      242.47836303710938,
+      646.4263916015625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Basal cell carcinoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      54.0,
+      646.0853271484375,
+      208.75836181640625,
+      667.4263916015625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Malignant melanoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      54.0,
+      667.2042846679688,
+      217.03822326660156,
+      688.5453491210938
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Keratoacanthoma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      54.0,
+      688.3253173828125,
+      193.3958282470703,
+      709.6663818359375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    33.0,
+    540.5180053710938,
+    566.8748779296875,
+    709.6663818359375
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 24,
+   "number": 24,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 3-year-old boy is brought to the emergency room after spilling bleach onto his lower extremities. He is diagnosed with a chemical burn and all involved clothing are removed. In addition to resuscitation, which of the following is the most appropriate initial management of this patient?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Treatment of the burn wound with antimicrobial agents.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      54.0,
+      140.28529357910156,
+      442.8580322265625,
+      161.6263885498047
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Neutralize the burn wound with weak acids.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      54.0,
+      161.28529357910156,
+      363.41802978515625,
+      182.6263885498047
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Lavage of the burn wound with large volumes of water.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      54.0,
+      182.40530395507812,
+      434.6994323730469,
+      203.74639892578125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Wound debridement in the operating room..",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      54.0,
+      203.52529907226562,
+      367.61865234375,
+      224.86639404296875
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    33.0,
+    55.92530059814453,
+    568.9254150390625,
+    224.86639404296875
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 25,
+   "number": 25,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 28-year-old male comes to his physician because of painless enlargement of the right testis. He began to feel a sensation of heaviness in the right hemiscrotum. Physical examination reveals diffuse enlargement of the right testis, but it is difficult to determine whether this is due to an intratesticular or extratesticular lesion. Which of the following is the most appropriate next step in diagnosis?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "CT scanning",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      54.0,
+      372.12530517578125,
+      148.974853515625,
+      393.4664001464844
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Serum levels of HCG, alpha-fetoprotein, and LDH",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      54.0,
+      393.12530517578125,
+      387.09625244140625,
+      414.4664001464844
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "scrotal ultrasound",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 5,
+     "bbox": [
+      54.0,
+      414.24432373046875,
+      189.092529296875,
+      435.5854187011719
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "inguinal Orchidectomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      54.0,
+      435.36529541015625,
+      218.28565979003906,
+      456.7064208984375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    33.0,
+    245.43695068359375,
+    561.0289306640625,
+    456.7064208984375
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 26,
+   "number": 26,
+   "section": 1,
+   "type": "QCS",
+   "stem": "All of the following are true regarding lipoma, EXCEPT:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is formed of fat cells",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      54.0,
+      498.60430908203125,
+      216.11463928222656,
+      519.9453735351562
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Diagnosed with the presence of punctum,",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      54.0,
+      519.6043090820312,
+      343.69061279296875,
+      540.9453735351562
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Retro-peritoneal lipoma is dangerous,",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      54.0,
+      540.725341796875,
+      316.9304504394531,
+      562.06640625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Characterized by a slippery edge",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      54.0,
+      561.725341796875,
+      281.6455383300781,
+      583.06640625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "no_answer"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    33.0,
+    477.2779541015625,
+    423.77862548828125,
+    583.06640625
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [],
+   "correct": null,
+   "answer_source": null
+  },
+  {
+   "i": 27,
+   "number": 27,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 60-year-old patient undergoes incision and drainage of an infected boil on his trunk. The wound is left open and packed daily. Week by week, the wound becomes smaller and eventually heals. Which of the following terms describes the method of wound closure used by the patient?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Primary intention",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      54.0,
+      688.3253173828125,
+      183.69137573242188,
+      709.6663818359375
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Secondary intention",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 5,
+     "bbox": [
+      54.0,
+      709.3253173828125,
+      205.05191040039062,
+      730.6663818359375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Tertiary intention",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      54.0,
+      730.4443359375,
+      185.1319122314453,
+      751.785400390625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Delayed primary closure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      54.0,
+      34.92530059814453,
+      235.4456329345703,
+      56.26639938354492
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    33.0,
+    603.96533203125,
+    564.2138061523438,
+    751.785400390625
+   ],
+   "pages": [
+    5,
+    6
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 28,
+   "number": 28,
+   "section": 1,
+   "type": "QCS",
+   "stem": "With regard to the healing process, the first infiltrating cells to enter the wound site, peaking at 24 to 48 hours, are:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Macrophages",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 6,
+     "bbox": [
+      54.0,
+      119.16529846191406,
+      166.1945037841797,
+      140.5063934326172
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Neutrophils",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      54.0,
+      140.28529357910156,
+      154.55462646484375,
+      161.6263885498047
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Fibroblasts",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      54.0,
+      161.28529357910156,
+      148.91404724121094,
+      182.6263885498047
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Lymphocytes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      54.0,
+      182.40530395507812,
+      163.07418823242188,
+      203.74639892578125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    33.0,
+    77.04429626464844,
+    586.6538696289062,
+    203.74639892578125
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 29,
+   "number": 29,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The early clinical feature of a mismatched blood transfusion is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pallor",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      54.0,
+      245.64430236816406,
+      115.22895050048828,
+      266.98541259765625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Loin pain with flushing",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      54.0,
+      266.76531982421875,
+      224.575439453125,
+      288.1064147949219
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Oliguria",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 6,
+     "bbox": [
+      54.0,
+      287.76531982421875,
+      129.07705688476562,
+      309.1064147949219
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Cyanosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      54.0,
+      308.88531494140625,
+      134.51480102539062,
+      330.2264099121094
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    33.0,
+    224.3179473876953,
+    478.6180114746094,
+    330.2264099121094
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 30,
+   "number": 30,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 5-year-old girl has a 1.5 cm neck mass to the left of mid-line just above the laryngeal cartilage. Noted during an annual visit with the pediatrician, it moves with swallowing and is non-tender. She denies any difficulty with breathing or swallowing. An ultrasound examination reveals the mass is solid, and the thyroid is not vascularized. What is the most appropriate next step in management?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Thyroid scan",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 6,
+     "bbox": [
+      63.0,
+      456.36529541015625,
+      162.5718536376953,
+      477.7064208984375
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Excision including the hyoid bone",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      63.0,
+      477.48529052734375,
+      296.5271301269531,
+      498.826416015625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Fine needle aspiration of the mass",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      63.0,
+      498.60430908203125,
+      303.35552978515625,
+      519.9453735351562
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Serum calcitonin level",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      63.0,
+      519.6043090820312,
+      223.0113525390625,
+      540.9453735351562
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    33.0,
+    351.00531005859375,
+    572.4922485351562,
+    540.9453735351562
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  }
+ ]
+}

@@ -1,0 +1,3249 @@
+{
+ "nn": "01",
+ "source": "Raw_PDF_Questions/1st formative  2023.pdf",
+ "sha256": "9ecc59ce40ce595b5af36ef3f9a9ae54d0dd8e00cdf1ec58123cbe32cc16ac7e",
+ "at": "2026-09-26T11:20:46Z",
+ "layout": {
+  "method": "native",
+  "splits": {
+   "1": null,
+   "2": null,
+   "3": null,
+   "4": null,
+   "5": null,
+   "6": null,
+   "7": null,
+   "8": null,
+   "9": null,
+   "10": null,
+   "11": null,
+   "12": null
+  }
+ },
+ "counters": {
+  "source_numbering": 1,
+  "sections": [
+   "37-37"
+  ],
+  "option_a_lines": 30,
+  "parsed_questions": 30,
+  "parsed_numbered": 0,
+  "declared_total": null
+ },
+ "gaps": [],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [],
+  "grid_hits": 0,
+  "style_stats": {
+   "bold": 0.0,
+   "color": 0.0,
+   "tick": 0.0,
+   "highlight": 0.0,
+   "fill": 0.218,
+   "tint": 0.0,
+   "ink": 0.232,
+   "circle": 0.0,
+   "box": 0.0,
+   "underline": 0.0
+  },
+  "marked_hits": 30,
+  "answered": 30,
+  "mcq": 30,
+  "at": "2026-09-26T11:20:46Z"
+ },
+ "distribution": {
+  "A": 0.133,
+  "B": 0.167,
+  "C": 0.267,
+  "D": 0.333,
+  "E": 0.067,
+  "F": 0.033
+ },
+ "dropped_lines": [
+  "37:08",
+  "مطلوب *",
+  "القا تمكي",
+  "بي الخاصة للستجابات اللكتروني بالبريد إيصال إرسال",
+  "رجوع",
+  ".مرورك كلمة عن ًأبدا تفصح ل .النموذج هذا مالك ممارسات ذلك في بما ،لعملئها والخصوصية",
+  "Surgery module 22-23 4th year"
+ ],
+ "dropped_count": 7,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 1,
+  "dropped": [],
+  "stale": []
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Steroids impair wound healing by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Decreasing angiogenesis and macrophage migration",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 0,
+     "bbox": [
+      209.26255798339844,
+      207.17897033691406,
+      508.882080078125,
+      221.4786376953125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Decreasing platelet plug integrity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill"
+     ],
+     "page": 0,
+     "bbox": [
+      323.1352233886719,
+      247.1847381591797,
+      508.87713623046875,
+      261.4844055175781
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Increasing release of lysosomal enzymes",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      274.77203369140625,
+      287.1905517578125,
+      508.8768310546875,
+      301.4902038574219
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Increasing fibrinolysis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      386.4881591796875,
+      327.1963195800781,
+      508.87371826171875,
+      341.4959716796875
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "several_options_with_fill"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    274.6396789550781,
+    168.04931640625,
+    547.2717895507812,
+    341.4959716796875
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with ink"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with ink"
+  },
+  {
+   "i": 2,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Factors that make lacerated wounds more liable to infection include the following,except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Presence of foreign bodies",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      353.0145263671875,
+      466.41644287109375,
+      508.8746337890625,
+      480.7160949707031
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Ischaemic or dead tissues",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      357.30889892578125,
+      506.4222106933594,
+      508.87286376953125,
+      520.7218627929688
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Suture of the wound under tension",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      309.5895080566406,
+      546.427978515625,
+      508.8736267089844,
+      560.7276611328125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Leaving the wound open after debridement",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 0,
+     "bbox": [
+      261.9013671875,
+      586.4337158203125,
+      508.8825378417969,
+      600.7333984375
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "The use of internal fixation for accompanying fract",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      225.65867614746094,
+      626.4395141601562,
+      508.8790283203125,
+      640.7391967773438
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    101.0484619140625,
+    392.0816650390625,
+    547.2717895507812,
+    640.7391967773438
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 3,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Postoperative wound infection can produce the following, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Stitch sinus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 0,
+     "bbox": [
+      439.8520812988281,
+      730.4545288085938,
+      508.8697509765625,
+      744.7542114257812
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Reactionary haemorrhage",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 1,
+     "bbox": [
+      357.2964172363281,
+      43.95521926879883,
+      508.8731384277344,
+      58.254886627197266
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Septicaemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      434.8638610839844,
+      83.96102142333984,
+      508.8691101074219,
+      98.26068115234375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Incisional hernia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      416.3549499511719,
+      123.96675872802734,
+      508.8711853027344,
+      138.26641845703125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    87.8626937866211,
+    691.324951171875,
+    547.2717895507812,
+    744.7542114257812
+   ],
+   "pages": [
+    0,
+    1
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 4,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In a bleeding patient, the most important parameter to assess successful fluid replacement is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pulse rate",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      447.6719665527344,
+      263.1869201660156,
+      508.86767578125,
+      277.486572265625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Blood pressure",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      419.2053527832031,
+      303.1926574707031,
+      508.8698425292969,
+      317.4923095703125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Urine output",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 1,
+     "bbox": [
+      435.5701904296875,
+      343.1983947753906,
+      508.87384033203125,
+      357.498046875
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Skin elasticity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      427.7628479003906,
+      383.2042541503906,
+      508.87054443359375,
+      397.50390625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    64.00834655761719,
+    188.85214233398438,
+    547.2717895507812,
+    397.50390625
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 5,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Neurogenic shock is characterized by the presence of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cool, moist skin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      418.5177307128906,
+      487.2192687988281,
+      508.8681335449219,
+      501.5189208984375
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Increased cardiac output",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      368.6730041503906,
+      527.2249755859375,
+      508.8761901855469,
+      541.524658203125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Decreased peripheral vascular resistance",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 1,
+     "bbox": [
+      273.34051513671875,
+      567.2308349609375,
+      508.8766174316406,
+      581.530517578125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Decreased blood volume",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      367.25408935546875,
+      607.236572265625,
+      508.8731994628906,
+      621.5362548828125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    151.40939331054688,
+    448.0896301269531,
+    547.2717895507812,
+    621.5362548828125
+   ],
+   "pages": [
+    1
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 6,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following factors are all involved in the pathogenesis of septic shock and multiple organ failure, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Release of Cytokines by macrophages",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 1,
+     "bbox": [
+      286.14239501953125,
+      746.4566650390625,
+      508.8768310546875,
+      760.75634765625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Damage of vascular endothelium",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      318.15948486328125,
+      59.95741653442383,
+      508.8766174316406,
+      74.257080078125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Defective Oxygen delivery to the cells",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      291.84942626953125,
+      99.9632797241211,
+      508.87445068359375,
+      114.262939453125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Marked anaemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 2,
+     "bbox": [
+      409.96026611328125,
+      139.96900939941406,
+      508.87017822265625,
+      154.2686767578125
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Dysfunction of intestinal mucosa allows more bacteria to enter the blood Stream",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      101.12815856933594,
+      179.97474670410156,
+      508.8686218261719,
+      194.2744140625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": [
+    68.51797485351562,
+    672.1220092773438,
+    547.2717895507812,
+    760.75634765625
+   ],
+   "pages": [
+    1,
+    2
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 7,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "What is the first priority in management of of burn in face due to inhalational injury in closed space:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Covering with silver sulphadiazin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      319.59722900390625,
+      335.1972961425781,
+      508.8753356933594,
+      349.4969482421875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Insertion of canula",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      400.6964416503906,
+      375.2030334472656,
+      508.8698425292969,
+      389.502685546875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "IV antibiotics",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      432.73236083984375,
+      415.2087707519531,
+      508.870361328125,
+      429.5084228515625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Endotracheal intubation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 2,
+     "bbox": [
+      370.7921142578125,
+      455.2146301269531,
+      508.8731384277344,
+      469.5142822265625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    67.02479553222656,
+    260.8624572753906,
+    547.2723999023438,
+    469.5142822265625
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 8,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About the blood vessels of the thyroid gland, all the following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The superior thyroid artery is a branch of the external carotid artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      126.05677032470703,
+      594.4346923828125,
+      508.87847900390625,
+      608.734375
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "The inferior thyroid artery is a branch of the common carotid artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 2,
+     "bbox": [
+      129.6322479248047,
+      634.4405517578125,
+      508.877197265625,
+      648.740234375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "The superior thyroid vein drains into the internal jugular vein",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      165.875,
+      674.4461669921875,
+      508.8802795410156,
+      688.745849609375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "The middle thyroid vein drains into the internal jugular vein",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      174.41375732421875,
+      714.4520263671875,
+      508.8802185058594,
+      728.751708984375
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "The inferior thyroid veins drain into the left innominate vein",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 2,
+     "bbox": [
+      173.70741271972656,
+      754.4578857421875,
+      508.8780212402344,
+      768.757568359375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": [
+    64.98231506347656,
+    520.0999145507812,
+    547.2713012695312,
+    768.757568359375
+   ],
+   "pages": [
+    2
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 9,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following statements about mammography are all true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Indicated for the diagnosis of a breast lump",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      260.5074768066406,
+      131.96778869628906,
+      508.8738708496094,
+      146.2674560546875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Indicated for regular screening of women who are at high-risk of development of breast cancer",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      70.52374267578125,
+      171.97364807128906,
+      508.8749084472656,
+      186.2733154296875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Indicated for follow-up of contralateral breast after mastectomy for breast cancer",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      96.88379669189453,
+      227.98170471191406,
+      508.8721008300781,
+      242.2813720703125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "More informative in young women below the age of 35 years",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 3,
+     "bbox": [
+      163.03082275390625,
+      283.9897766113281,
+      508.88079833984375,
+      298.2894287109375
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Addition of ultrasound improves the diagnosis of breast cancer",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      155.1922607421875,
+      323.9956359863281,
+      508.8817138671875,
+      338.2952880859375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "stem_recovered_from_option_wrap"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    60.69626235961914,
+    92.83817291259766,
+    547.2723999023438,
+    338.2952880859375
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 10,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Breast self-examination:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Is recommended for all women above the age of twenty",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 3,
+     "bbox": [
+      190.7848358154297,
+      428.0105285644531,
+      508.87786865234375,
+      442.3101806640625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Is recommended for women above the age of 40 only",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      202.8678741455078,
+      468.0163879394531,
+      508.87847900390625,
+      482.3160400390625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Is recommended to be done monthly in the immediate premenstrual period",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      82.62548828125,
+      508.0222473144531,
+      508.8683776855469,
+      522.3218994140625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Is recommended to be done twice yearly",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      275.47210693359375,
+      548.02783203125,
+      508.87567138671875,
+      562.3275146484375
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Should be conducted in the presence of a specialist surgeon",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      166.5438232421875,
+      588.03369140625,
+      508.8805236816406,
+      602.3333740234375
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    317.0082702636719,
+    388.8808898925781,
+    547.2723999023438,
+    602.3333740234375
+   ],
+   "pages": [
+    3
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 11,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Risk actors or the development of breast cancer include:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Early menarche",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      419.21783447265625,
+      692.048828125,
+      508.8691101074219,
+      706.3485107421875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Nulliparity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 3,
+     "bbox": [
+      452.66644287109375,
+      732.054443359375,
+      508.87152099609375,
+      746.3541259765625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Late menopause",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      413.4920654296875,
+      45.55543899536133,
+      508.8708190917969,
+      59.855106353759766
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Longer lactation period",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 4,
+     "bbox": [
+      378.6245422363281,
+      85.5613021850586,
+      508.8730163574219,
+      99.8609619140625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": [
+    123.45535278320312,
+    652.9190063476562,
+    547.2723999023438,
+    746.3541259765625
+   ],
+   "pages": [
+    3,
+    4
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 12,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "In a surgical patient, malnutrition causes all the following complications, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Incisional hernia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      412.7981872558594,
+      207.17872619628906,
+      508.8711853027344,
+      221.4783935546875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Disruption of intestinal anastomosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      303.938720703125,
+      247.18458557128906,
+      508.87615966796875,
+      261.4842529296875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Raised incidence of infections",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      335.9433288574219,
+      287.1902160644531,
+      508.87615966796875,
+      301.4898681640625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Reduced tolerance to cancer chemotherapy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      256.95062255859375,
+      327.1960754394531,
+      508.87860107421875,
+      341.4957275390625
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Thrombocytopenia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 4,
+     "bbox": [
+      402.84051513671875,
+      367.2019348144531,
+      508.87042236328125,
+      381.5015869140625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    48.88663101196289,
+    150.44656372070312,
+    547.2723999023438,
+    381.5015869140625
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "E",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 13,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The causes of malnutrition in a surgical patient include all the following, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Carcinoma of the oesophagus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      334.5118408203125,
+      488.8193664550781,
+      508.87579345703125,
+      503.1190185546875
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Carcinoma of the stomach",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      355.88995361328125,
+      528.8251953125,
+      508.869873046875,
+      543.1248779296875
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Extensive small bowel resection",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      323.87286376953125,
+      568.8310546875,
+      508.8727111816406,
+      583.1307373046875
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Chronic duodenal ulcer",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 4,
+     "bbox": [
+      373.655029296875,
+      608.836669921875,
+      508.8760986328125,
+      623.1363525390625
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Chronic empyema",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 4,
+     "bbox": [
+      404.9908142089844,
+      648.842529296875,
+      508.8701171875,
+      663.1422119140625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    50.3809814453125,
+    432.0871887207031,
+    547.2723999023438,
+    663.1422119140625
+   ],
+   "pages": [
+    4
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 14,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The complications and disadvantages of nasogastric tube feeding include all the following except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "highcost",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 5,
+     "bbox": [
+      457.6296081542969,
+      61.55739212036133,
+      508.8731689453125,
+      75.8570556640625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Possibility of aspiration pneumonia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      308.195556640625,
+      101.5630111694336,
+      508.87506103515625,
+      115.8626708984375
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Pharyngitis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      441.9836120605469,
+      141.56886291503906,
+      508.87109375,
+      155.8685302734375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Esophagitis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      439.126953125,
+      181.57472229003906,
+      508.8717041015625,
+      195.8743896484375
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Nasalulce",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      452.6539306640625,
+      221.58033752441406,
+      508.8692932128906,
+      235.8800048828125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": [
+    63.199241638183594,
+    713.7278442382812,
+    547.2723999023438,
+    0
+   ],
+   "pages": [
+    4,
+    5
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 15,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About central venous line infection, all the following statements are true,except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Unexplained fever is the alerting sign",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      295.3812255859375,
+      343.1980285644531,
+      508.8753967285156,
+      357.4976806640625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "The condition causes serious septicaemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      260.52618408203125,
+      383.2038879394531,
+      508.8754577636719,
+      397.5035400390625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Prophylactic antibiotics prevent central venous line infection",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 5,
+     "bbox": [
+      167.3002471923828,
+      423.2095031738281,
+      508.8794860839844,
+      437.5091552734375
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "The venous catheter should be removed and its tip sent for culture and senstivity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      133.13275146484375,
+      463.2153625488281,
+      508.87725830078125,
+      477.5150146484375
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Therapeutic antibiotics should be immediately started without knowing the type of organism",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      91.15796661376953,
+      519.223388671875,
+      508.8614807128906,
+      533.5230712890625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    49.6171989440918,
+    286.4658508300781,
+    547.2723999023438,
+    549.5255126953125
+   ],
+   "pages": [
+    5
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 16,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About Richter's hernia, 0ne statement only is true:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It means a hernia that contains Meckel'sdiverticulum",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      209.00003051757812,
+      639.240966796875,
+      508.877197265625,
+      653.5406494140625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "It means tl1at a viscus makes part of the wall of the sac",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      191.5224609375,
+      679.246337890625,
+      508.8729248046875,
+      693.5460205078125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "It means an irreducible femoral hernia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      290.41802978515625,
+      719.252197265625,
+      508.8741760253906,
+      733.5518798828125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "This is a hernia through tl1e lumbar triangle",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 5,
+     "bbox": [
+      262.65771484375,
+      759.258056640625,
+      508.87554931640625,
+      773.5577392578125
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "This is a hernia through tl1e lumbar triangle",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      259.1009521484375,
+      32.75319290161133,
+      508.87554931640625,
+      47.052860260009766
+     ]
+    },
+    {
+     "letter": "F",
+     "text": "Strangulation does not cause intestinal obstru",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 6,
+     "bbox": [
+      249.81842041015625,
+      72.7590560913086,
+      508.87652587890625,
+      87.0587158203125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "duplicate_option_text"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": [
+    170.7371368408203,
+    600.1111450195312,
+    547.2723999023438,
+    773.5577392578125
+   ],
+   "pages": [
+    5,
+    6
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "F",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "F",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 17,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 30-year old man noticed intermittent appearance of a painless right side scrotal Swelling. On examination it was found to be inguinoscrotal. The most likely diagnosis is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Right femoral hernia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      390.0386657714844,
+      229.58180236816406,
+      508.8708190917969,
+      243.8814697265625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Right direct inguinal hernia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      353.7334289550781,
+      269.5871887207031,
+      508.8741149902344,
+      283.8868408203125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Right oblique inguinal henria",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 6,
+     "bbox": [
+      343.7507019042969,
+      309.5930480957031,
+      508.8768615722656,
+      323.8927001953125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Right vaginal hydrocele",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      372.236083984375,
+      349.5989074707031,
+      508.873046875,
+      363.8985595703125
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Epididymo-orchitis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      400.7277526855469,
+      389.6047668457031,
+      508.8729248046875,
+      403.9044189453125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    78.34205627441406,
+    137.64431762695312,
+    547.2723999023438,
+    403.9044189453125
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 18,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About direct inguinal hernia, all the following are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Commonly bilateral",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      395.7457275390625,
+      493.6199035644531,
+      508.870849609375,
+      507.9195556640625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Commonly affects young males",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 6,
+     "bbox": [
+      326.9544982910156,
+      533.625732421875,
+      508.8741455078125,
+      547.9254150390625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Presents as an inguinal swelling",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      323.1352233886719,
+      573.631103515625,
+      508.8749694824219,
+      587.9307861328125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Less likely to strangulate than an oblique hernia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      234.87249755859375,
+      613.636962890625,
+      508.8783874511719,
+      627.9366455078125
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Neck of the sac is medial to the inferior epigastric vessels",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      180.14578247070312,
+      653.642822265625,
+      508.877197265625,
+      667.9425048828125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    103.75249481201172,
+    454.4900207519531,
+    547.2723999023438,
+    667.9425048828125
+   ],
+   "pages": [
+    6
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 19,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About femoral hernia, one statement only is true:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is more frequent than umbilical hernias in females",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 6,
+     "bbox": [
+      216.41983032226562,
+      757.657958984375,
+      508.87799072265625,
+      771.9576416015625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "It is more frequent than umbilical hernias in females",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      212.86306762695312,
+      31.153095245361328,
+      508.87799072265625,
+      45.452762603759766
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "It is more prone to strangulation than an inguinal hernia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 7,
+     "bbox": [
+      192.17880249023438,
+      71.1589584350586,
+      508.8788146972656,
+      85.4586181640625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "It presents as a swelling above the pubic tubercle",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      225.63987731933594,
+      111.1648178100586,
+      508.8759765625,
+      125.4644775390625
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "The femoral vein lies posterior to its neck",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      265.53314208984375,
+      151.17018127441406,
+      508.87445068359375,
+      165.4698486328125
+     ]
+    },
+    {
+     "letter": "F",
+     "text": "At surgery for strangulation, the femoral ring is enlarged by dividing its lateral ..edge",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      74.09925842285156,
+      191.17604064941406,
+      508.86749267578125,
+      205.4757080078125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "duplicate_option_text"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": [
+    177.86322021484375,
+    718.5281372070312,
+    547.2723999023438,
+    771.9576416015625
+   ],
+   "pages": [
+    6,
+    7
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 20,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A 3-month-old boy presents with a reducible umbilical hernia, which has 1cm defect. This is best managed by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Surgical repair with mesh at the age of one year",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      233.47853088378906,
+      346.3987121582031,
+      508.8773193359375,
+      360.6983642578125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Immediate surgical repair without mesh",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      282.61065673828125,
+      386.4045715332031,
+      508.8735046386719,
+      400.7042236328125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Laparoscopic repair with mesh at the age of one year",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      203.5804443359375,
+      426.4099426269531,
+      508.8792724609375,
+      440.7095947265625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Laparoscopic repair without mesh",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      313.8963928222656,
+      466.4158020019531,
+      508.87408447265625,
+      480.7154541015625
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Periodic observation and evaluation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 7,
+     "bbox": [
+      306.03900146484375,
+      506.4216613769531,
+      508.87652587890625,
+      520.7213134765625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": [
+    61.75137710571289,
+    272.0637512207031,
+    547.2723999023438,
+    520.7213134765625
+   ],
+   "pages": [
+    7
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "E",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "E",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 21,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hemophilia B is due to deficiency of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Factor V",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      456.93585205078125,
+      610.436767578125,
+      508.8682861328125,
+      624.7364501953125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Factor IX",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 7,
+     "bbox": [
+      453.3789978027344,
+      650.442626953125,
+      508.8678894042969,
+      664.7423095703125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Factor XI",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      453.3789978027344,
+      690.448486328125,
+      508.87042236328125,
+      704.7481689453125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Factor VIII",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 7,
+     "bbox": [
+      446.2655029296875,
+      730.453857421875,
+      508.8695983886719,
+      744.7535400390625
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Factor X",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      460.49261474609375,
+      43.95582962036133,
+      508.8682861328125,
+      58.255496978759766
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": [
+    251.96144104003906,
+    571.3069458007812,
+    547.2723999023438,
+    744.7535400390625
+   ],
+   "pages": [
+    7,
+    8
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 22,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "?Which of the following is the best treatment for thromboasthenia",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Factor VII",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      449.8222961425781,
+      147.97096252441406,
+      508.86993408203125,
+      162.2706298828125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "(Fresh frozen plasma (FFP",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      352.36444091796875,
+      187.97682189941406,
+      508.87017822265625,
+      202.2764892578125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Factor V",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      456.93585205078125,
+      227.98268127441406,
+      508.8682861328125,
+      242.2823486328125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Platelet transfusion",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 8,
+     "bbox": [
+      399.9901123046875,
+      267.9885559082031,
+      508.8697814941406,
+      282.2882080078125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    79.58650207519531,
+    108.84110260009766,
+    547.2723999023438,
+    282.2882080078125
+   ],
+   "pages": [
+    8
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 23,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "?Which one of the following is the predominant cation in intracellular fluid",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Chloride",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      457.6359558105469,
+      389.6057434082031,
+      508.8692321777344,
+      403.9053955078125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Calcium",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      459.0736083984375,
+      429.6116027832031,
+      508.8705139160156,
+      443.9112548828125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Sodium",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      465.4620361328125,
+      469.6174621582031,
+      508.8704528808594,
+      483.9171142578125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Potassium",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 8,
+     "bbox": [
+      449.1034240722656,
+      509.6233215332031,
+      508.87005615234375,
+      523.9229736328125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    74.5684585571289,
+    332.8738098144531,
+    547.2723999023438,
+    523.9229736328125
+   ],
+   "pages": [
+    8
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 24,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Regarding hypokalaemia, all the following statements are true, except",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Serum potassium of 2.5 mmol/L is Hypokalaemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      231.14691162109375,
+      631.240966796875,
+      508.87261962890625,
+      645.5406494140625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Hypokalaemia causes acidosis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      330.2674560546875,
+      671.246337890625,
+      508.876708984375,
+      685.5460205078125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Severe diarrhoea may cause Hypokalaemia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 8,
+     "bbox": [
+      256.9694519042969,
+      711.252197265625,
+      508.8768005371094,
+      725.5518798828125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Hypokalaemia causes muscle weakness",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 8,
+     "bbox": [
+      275.4845886230469,
+      751.258056640625,
+      508.87799072265625,
+      765.5577392578125
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "Hypokalaemia causes paralytic ileus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      298.96295166015625,
+      64.7585678100586,
+      508.8778076171875,
+      79.0582275390625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": [
+    89.69564819335938,
+    574.5086059570312,
+    547.2723999023438,
+    765.5577392578125
+   ],
+   "pages": [
+    8,
+    9
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 25,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "Hydrocele is a collection of fluid between:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cremasteric and external spermatic fascia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      266.2519836425781,
+      168.77369689941406,
+      508.87310791015625,
+      183.0733642578125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Cremasteric fascia and internal spermatic fascia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      232.80970764160156,
+      208.77955627441406,
+      508.874267578125,
+      223.0792236328125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "The parietal and visceral layers of tunica vaginalis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 9,
+     "bbox": [
+      222.81451416015625,
+      248.78492736816406,
+      508.8797607421875,
+      263.0845947265625
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "None of the above",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      404.24072265625,
+      288.7908020019531,
+      508.8702087402344,
+      303.0904541015625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    221.7195587158203,
+    129.64382934570312,
+    547.2723999023438,
+    303.0904541015625
+   ],
+   "pages": [
+    9
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 26,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "A hard mass in the testes in a 30-year-old male is best diagnosed by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Core needle biopsy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      395.0018615722656,
+      392.8059387207031,
+      508.87457275390625,
+      407.1055908203125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Fine needle aspiration cytology",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      328.8235778808594,
+      432.8117980957031,
+      508.8768310546875,
+      447.1114501953125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Orchiectomy",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      433.4636535644531,
+      472.8176574707031,
+      508.8695068359375,
+      487.1173095703125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Open biopsy and frozen sect",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 9,
+     "bbox": [
+      345.9010314941406,
+      512.822998046875,
+      508.8762512207031,
+      527.1226806640625
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    55.382999420166016,
+    353.6760559082031,
+    547.2723999023438,
+    527.1226806640625
+   ],
+   "pages": [
+    9
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "D",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "D",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 27,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The axillary lymph nodes are divided into three levels by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The axillary artery",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      403.57806396484375,
+      616.838134765625,
+      508.87109375,
+      631.1378173828125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "The axillary vein",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      412.8169250488281,
+      656.843994140625,
+      508.8694763183594,
+      671.1436767578125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "The pectoralis minor muscle",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 9,
+     "bbox": [
+      345.2322082519531,
+      696.849853515625,
+      508.870849609375,
+      711.1495361328125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "The clavicle",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 9,
+     "bbox": [
+      437.72052001953125,
+      736.855712890625,
+      508.8683776855469,
+      751.1553955078125
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "The nerve to latissmusdorsi",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      352.3394470214844,
+      50.35670852661133,
+      508.87017822265625,
+      64.6563720703125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": [
+    124.95556640625,
+    577.7088012695312,
+    547.2723999023438,
+    751.1553955078125
+   ],
+   "pages": [
+    9,
+    10
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 28,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The following statements about fibrocystic breast are all true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "May be asymptomatic",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      384.36279296875,
+      154.37135314941406,
+      508.8709716796875,
+      168.6710205078125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "May cause nipple retraction",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 10,
+     "bbox": [
+      348.763916015625,
+      194.37721252441406,
+      508.8719787597656,
+      208.6768798828125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Is a cause of breast pain",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 10,
+     "bbox": [
+      369.38568115234375,
+      234.38307189941406,
+      508.869384765625,
+      248.6827392578125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Produces breast nodularity",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 10,
+     "bbox": [
+      353.0270690917969,
+      274.3889465332031,
+      508.87457275390625,
+      288.6885986328125
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "May cause discharge per nipple",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 10,
+     "bbox": [
+      328.11724853515625,
+      314.3948059082031,
+      508.8741149902344,
+      328.6944580078125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    49.36962890625,
+    115.24198150634766,
+    547.2723999023438,
+    328.6944580078125
+   ],
+   "pages": [
+    10
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "B",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "B",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 29,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "The appropriate management of deep partial thickness burn is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Early excision and grafting",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 10,
+     "bbox": [
+      358.7216796875,
+      418.4094543457031,
+      508.8719177246094,
+      432.7091064453125
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "Surgical debridement and dressing",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      311.0334777832031,
+      458.4153137207031,
+      508.875732421875,
+      472.7149658203125
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "Dressing only",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      431.3133544921875,
+      498.4211730957031,
+      508.8719482421875,
+      512.7208251953125
+     ]
+    },
+    {
+     "letter": "D",
+     "text": "Observation",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      439.8458557128906,
+      538.427001953125,
+      508.8682556152344,
+      552.7266845703125
+     ]
+    }
+   ],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered"
+   ],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    93.17596435546875,
+    379.2800598144531,
+    547.2723999023438,
+    552.7266845703125
+   ],
+   "pages": [
+    10
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "A",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "A",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  },
+  {
+   "i": 30,
+   "number": null,
+   "section": 1,
+   "type": "QCS",
+   "stem": "About cardiogenic shock, all the following statements are true, except:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "May be caused by massive myocardial infarction",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      229.95298767089844,
+      642.442138671875,
+      508.8749694824219,
+      656.7418212890625
+     ]
+    },
+    {
+     "letter": "B",
+     "text": "May be caused by ventricular tachycardia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 10,
+     "bbox": [
+      269.78375244140625,
+      682.447998046875,
+      508.8739929199219,
+      696.7476806640625
+     ]
+    },
+    {
+     "letter": "C",
+     "text": "The neck veins are collapsed",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "fill",
+      "ink"
+     ],
+     "page": 10,
+     "bbox": [
+      339.5063171386719,
+      722.453369140625,
+      508.8725280761719,
+      736.7530517578125
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "The blood pressure is low",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      359.4404602050781,
+      35.95387649536133,
+      508.8717041015625,
+      50.253543853759766
+     ]
+    },
+    {
+     "letter": "F",
+     "text": "Traumatic cardiac tamponade is managed initially by pericardiocentesis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 11,
+     "bbox": [
+      104.46614074707031,
+      75.9597396850586,
+      508.87371826171875,
+      90.2593994140625
+     ]
+    }
+   ],
+   "after": "2 2 Microsoft.. | | Microsoft Forms",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "text_after_options",
+    "text_corrected_visual"
+   ],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": [
+    50.08223342895508,
+    603.3123168945312,
+    547.2723999023438,
+    776.7589111328125
+   ],
+   "pages": [
+    10,
+    11
+   ],
+   "candidates": [
+    {
+     "source": "marked",
+     "letter": "C",
+     "evidence": "only option with fill"
+    }
+   ],
+   "correct": "C",
+   "answer_source": "marked",
+   "answer_evidence": "only option with fill"
+  }
+ ]
+}

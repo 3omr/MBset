@@ -1,0 +1,450 @@
+{
+ "nn": "10",
+ "source": "Raw_PDF_Questions/Final written 2022.pdf",
+ "sha256": "0cf16b4f8170bed0899064a217f7fd5097d3150749f02a7b952782c2561a13d3",
+ "at": "2026-09-26T06:13:42Z",
+ "layout": {
+  "method": "ocr",
+  "splits": {
+   "1": null
+  }
+ },
+ "counters": {
+  "source_numbering": 0,
+  "sections": [],
+  "option_a_lines": 0,
+  "parsed_questions": 14,
+  "parsed_numbered": 0,
+  "declared_total": null
+ },
+ "gaps": [],
+ "answers": {
+  "mode": "auto",
+  "grid_sections": [],
+  "grid_hits": 0,
+  "style_stats": {},
+  "marked_hits": 0,
+  "answered": 0,
+  "mcq": 0,
+  "at": "2026-09-26T06:13:42Z"
+ },
+ "distribution": {},
+ "dropped_lines": [
+  "2022 juld Lrxol"
+ ],
+ "dropped_count": 1,
+ "skipped_questions": [],
+ "overrides": {
+  "applied": 0,
+  "dropped": [],
+  "stale": []
+ },
+ "questions": [
+  {
+   "i": 1,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Factors affecting wound healing",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    93.6,
+    36.7,
+    407.0,
+    57.8
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 2,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Summarize ttt of hypovolemic shock",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    93.6,
+    87.3,
+    448.7,
+    108.2
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 3,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "General complications of burn",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    93.6,
+    137.9,
+    385.4,
+    158.8
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 4,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Complications of blood transfusion",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    93.6,
+    188.3,
+    433.6,
+    209.3
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 5,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Compare between subcutaneous lipoma and sebaceous cyst",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    93.6,
+    238.9,
+    487.1,
+    284.9
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 6,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Compare between acute lactitional mastitis & mastitis carcinomatosis",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    93.6,
+    314.6,
+    432.2,
+    356.4
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 7,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "DD of midline neck swellings",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    93.6,
+    390.4,
+    373.0,
+    411.3
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 8,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "DD of acute scrotal swellings",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    93.6,
+    440.8,
+    376.6,
+    461.9
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 9,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "DD of tongue ulcers",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    93.6,
+    491.4,
+    288.5,
+    512.3
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 10,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "CP of DVT",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    93.6,
+    542.0,
+    197.6,
+    558.5
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 11,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Hard signs of vascular injury",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    93.6,
+    592.4,
+    369.4,
+    613.3
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 12,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Importance of preoperative laboratory investigations",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    93.6,
+    643.0,
+    460.4,
+    689.0
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 13,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Boundaries of hasselbach triangle",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    93.6,
+    718.7,
+    424.3,
+    739.6
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  },
+  {
+   "i": 14,
+   "number": null,
+   "section": 1,
+   "type": "QROC",
+   "stem": "Contents of femoral sheath",
+   "options": [],
+   "after": "",
+   "exp": "",
+   "inline_answer": null,
+   "flags": [
+    "unnumbered",
+    "written_without_model_answer"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": [
+    93.6,
+    769.1,
+    359.3,
+    785.9
+   ],
+   "pages": [
+    0
+   ],
+   "candidates": [],
+   "correct": "-",
+   "answer_source": null
+  }
+ ]
+}

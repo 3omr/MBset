@@ -1,0 +1,20 @@
+# Parser profile for 13 — McQ surgery mansoura .pdf
+# class=scanned pages=136 has_text=False columns=None bold_ratio=0.0 mark_rects=0
+# signals={'moodle': 0, 'docreader_quiz': None, 'phone': 0, 'question_numbers': 0, 'option_lines': 0, 'grid_pairs_tail': 0, 'declared_total': None, 'figure_words': 0}
+# Only fields that differ from the template/DEFAULT are needed. Field reference:
+#   .agents/skills/mbset-module-curator/references/profiles.md
+source: Raw_PDF_Questions/McQ surgery mansoura .pdf
+template: scanned
+columns: 2
+ocr:
+  tool: paddle
+  dpi: 200
+  split: 2
+notes:
+- 'PSM 11 best separates facing-page text in sampled crops; PSM 4/6 fused rows and
+  PSM 3 produced fewer headings. Spot-check still fails: lost option labels create
+  QROC records, and adjacent questions merge (e.g. source PDF p14 q3/q4). Do not derive
+  answers from malformed records until parser layout is repaired.'
+- '2026-09-26 coordinator: .mbset/ocr/13.json is a per-page hybrid (Tesseract psm-11
+  pages where it read more question numbers/options, PaddleOCR split-2 pages elsewhere);
+  do not re-run `ocr --force` or the hybrid is lost (backup: scratch/paddle_eval/Surgery_v2_13_hybrid)'
