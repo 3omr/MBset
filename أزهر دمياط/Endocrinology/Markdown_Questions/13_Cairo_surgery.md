@@ -622,10 +622,10 @@
 - **A)** Pathologic fractures of the metacarpals.
 - **B)** Calcium oxalate nephrolithiasis.
 - **C)** Hypercalcemia causing mental status changes.
-- **D)** Atrophy of Type II muscle fibers. The answer is
+- **D)** Atrophy of Type II muscle fibers.
 - **E)** Osteitis fibrosa cystica
 
-**Correct Answer:** D
+**Correct Answer:** E
 **Answer Source:** key
 **Source Pages:** 13
 

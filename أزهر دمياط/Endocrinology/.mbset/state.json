@@ -1653,7 +1653,7 @@
       "key": 52
      },
      "flags": 42,
-     "md_hash": "df90132fee136300f6957a027cec2ab4a0809bd8840182e78e9bd55689aad3d4"
+     "md_hash": "b7e8314c6f41d2547d1262c763b04af55ab5c12383030ebcd59a9355c8908505"
     },
     "review": {
      "spot_check": "6/6 OK",
@@ -2220,6 +2220,11 @@
       }
      },
      "at": "2026-09-26T15:54:52Z"
+    },
+    "whichofthefollowingsignssymptomsarepathognomonicofhyperparathyroidism": {
+     "answer": "Osteitis fibrosa cystica",
+     "source": "key",
+     "at": "2026-09-26T20:36:41Z"
     }
    },
    "count_note": "Source declares Q1–Q66. Profile comparisons at PSM 3, 4, and 6 left Q16 and Q53 without reliable option blocks, misread source Q30 as Q40 and merged it into Q29's explanation, and misread Q29's inline e) option. Logged drops cover malformed option/page-break fragments and out-of-scope surgery questions; no text was reconstructed by hand."
@@ -8391,7 +8396,7 @@
  "duplicate_md_prefix": {},
  "stray_sources": [],
  "inventory_at": "2026-09-26T05:03:30Z",
- "updated": "2026-09-26T19:02:21Z",
+ "updated": "2026-09-26T20:36:41Z",
  "catalog_managed": true,
  "category_id": "DamiettaFa_ENDOCRINOLOGY_2",
  "category_name": "Endocrinology"
