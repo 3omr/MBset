@@ -16,7 +16,7 @@ EXPECTED_HEADERS = [
     'A_EXP', 'B_EXP', 'C_EXP', 'D_EXP', 'E_EXP', 'F_EXP',
     'Correct', 'Hint', 'EXP', 'Note', 'Type',
     'categoryId', 'categoryName', 'subcategoryId', 'subcategoryName',
-    'tagSuggere', 'Year', 'Tag', 'ImageMasks', 'ExplanationImageMasks'
+    'tagSuggere', 'Year', 'Tag', 'ImageMasks', 'ExplanationImageMasks', 'ModelAnswer'
 ]
 
 ARABIC_REGEX = re.compile(r'[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]')
@@ -38,8 +38,8 @@ def validate_excel(filepath: str) -> bool:
     
     # 1. Header Validation
     header_errors = []
-    if len(actual_headers) != 31:
-        header_errors.append(f"Header length is {len(actual_headers)}, expected exactly 31 columns.")
+    if len(actual_headers) != 32:
+        header_errors.append(f"Header length is {len(actual_headers)}, expected exactly 32 columns.")
     for idx, (exp, act) in enumerate(zip(EXPECTED_HEADERS, actual_headers)):
         if exp != act:
             header_errors.append(f"Col {idx}: expected '{exp}', found '{act}'")
@@ -50,7 +50,7 @@ def validate_excel(filepath: str) -> bool:
             print(f"    - {err}")
         return False
     else:
-        print("[+] Header schema: 31/31 columns strictly match.")
+        print("[+] Header schema: 32/32 columns strictly match.")
 
     # 2. Row by row validation
     total_questions = len(rows) - 1
@@ -103,12 +103,14 @@ def validate_excel(filepath: str) -> bool:
                 
         elif qtype == 'QROC':
             written_count += 1
-            if cor != '-':
-                errors.append(f"Row {r_idx}: Written question Correct answer must be '-', found '{cor}'")
-            exp = row[19]
-            if exp is None or not str(exp).strip():
-                errors.append(f"Row {r_idx}: Written question must have model answer in 'EXP' column")
-                
+            if cor not in (None, ''):
+                errors.append(f"Row {r_idx}: Written question Correct must be empty, found '{cor}'")
+            if row[19] is not None and str(row[19]).strip():
+                errors.append(f"Row {r_idx}: Written question EXP must be empty (the answer goes to ModelAnswer)")
+            model = row[31] if len(row) > 31 else None
+            if model is None or not str(model).strip():
+                errors.append(f"Row {r_idx}: Written question must have its answer in 'ModelAnswer'")
+
         # Columns 24 & 25: subcategoryId & subcategoryName should be None
         if row[24] is not None and str(row[24]).strip() != '':
             errors.append(f"Row {r_idx}: 'subcategoryId' should be empty, found '{row[24]}'")
