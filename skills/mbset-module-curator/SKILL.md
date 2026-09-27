@@ -3,7 +3,7 @@ name: mbset-module-curator
 description: >-
   Standard operating procedure and toolkit for curating, formatting, and building
   MBset medical modules. Use it to extract questions from exam PDFs, scans, Word files,
-  slides and screenshots into markdown and the 31-column question bank Excel: the mbset.py
+  slides and screenshots into markdown and the 32-column question bank Excel: the mbset.py
   pipeline (inventory, OCR, per-source parser profiles, automatic answer keys with provenance,
   visual answer sheets, figures, spot checks, forensic check gate, build, report), tagging rules,
   lecture subcategories and PDF management.
@@ -32,9 +32,9 @@ the master Excel, **with the answer the source actually gives**. Both are proven
 3. **Bias gate**: a file with ≥ 15 MCQs and one letter > 45% is investigated, > 60% fails.
 4. **Three counters agree** per file — source numbering, option-A blocks, `### Q` headings; a
    declared source total wins. No Excel work until `check` shows 0 hard failures.
-5. **31-column canonical header**, `id` empty, `subcategoryId` / `subcategoryName` empty, zero
-   Arabic characters, `QCS` → one existing letter `A`-`F`, `QROC` → `-` with the model answer in `EXP`,
-   figure-dependent stems have `Image`. → [`references/schema-31-columns.md`](./references/schema-31-columns.md)
+5. **32-column canonical header** (31 + `ModelAnswer`), `id` empty, `subcategoryId` / `subcategoryName` empty, zero
+   Arabic characters, `QCS` → one existing letter `A`-`F`, `QROC` → `Correct`/`EXP` empty, model answer in `ModelAnswer`,
+   figure-dependent stems have `Image`. → [`references/schema-32-columns.md`](./references/schema-32-columns.md)
 6. **No silent omissions**: `count(sources) == count(markdown) + EXCLUDED — <reason>`.
 
 ## 2. The pipeline — `mbset.py` (parse first, review second)
@@ -119,9 +119,9 @@ re-verifies every packet with `check` / `report` and builds the Excel once.
   one string. `tagSuggere` = discipline for department/professor sources, `None` for exams. A year
   that is not in the filename is never guessed: the suggestion has no year and `check` warns.
   → [`references/tagging-and-naming.md`](./references/tagging-and-naming.md)
-- **Schema** — the canonical 31-column header, column rules and the legacy
+- **Schema** — the canonical 32-column header, column rules and the legacy
   (`Genetics_Questions.xlsx`, `POD_Questions.xlsx`) migration map →
-  [`references/schema-31-columns.md`](./references/schema-31-columns.md). Confirm `categoryId` /
+  [`references/schema-32-columns.md`](./references/schema-32-columns.md). Confirm `categoryId` /
   `categoryName` against the module's platform export; never invent one.
 - **Noise** — the parser strips numbering, invisible unicode, Moodle/LMS chrome, phone status bars,
   answer-key grids, bubble artifacts and OCR gibberish, and repairs notation (`Ca**` → `Ca²⁺`,
@@ -175,7 +175,7 @@ Written questions use `**Correct Answer:** -` with the model answer in `**EXP:**
 ```
 <Module>/
 ├── subcategories_<Module>_<Date>.xlsx      # official platform export (source of truth)
-├── <Module>_Questions.xlsx                 # master 31-column bank (canonical header)
+├── <Module>_Questions.xlsx                 # master 32-column bank (canonical header)
 ├── Lectures/<subcategoryId>.pdf            # one PDF per subcategory, exact 1:1
 ├── Raw_PDF_Questions/                      # every source file, archives expanded
 ├── Markdown_Questions/
@@ -187,12 +187,12 @@ Written questions use `**Correct Answer:** -` with the model answer in `**EXP:**
 ## 7. Scripts and references
 
 * `scripts/mbset.py` — the pipeline CLI (package `scripts/mbset/`)
-* `scripts/build_module_template.py` — markdown → canonical 31-column Excel (dedupe on normalized stems)
+* `scripts/build_module_template.py` — markdown → canonical 32-column Excel (dedupe on normalized stems)
 * `scripts/validate_questions_excel.py` — schema gate · `scripts/audit_question_bank.py` — forensic gate (`--by-tag`)
 * `scripts/clean_markdown_noise.py` — noise cleaner for markdown produced outside the parser (dry run by default, never changes an answer)
 * `legacy/` — `extract_pdf_columns.py`, `ocr_paddle_pages.py`, `smart-ocr-workflow.md` (one-off inspection / PaddleOCR fallback)
 * References: [pipeline-v2](./references/pipeline-v2.md) · [profiles](./references/profiles.md) ·
   [parallel-workflow](./references/parallel-workflow.md) · [model-routing](./references/model-routing.md) ·
   [extraction-playbook](./references/extraction-playbook.md) · [answer-key-verification](./references/answer-key-verification.md) ·
-  [schema-31-columns](./references/schema-31-columns.md) · [noise-removal-and-curation](./references/noise-removal-and-curation.md) ·
+  [schema-32-columns](./references/schema-32-columns.md) · [noise-removal-and-curation](./references/noise-removal-and-curation.md) ·
   [tagging-and-naming](./references/tagging-and-naming.md) · [subcategories-and-lectures](./references/subcategories-and-lectures.md)

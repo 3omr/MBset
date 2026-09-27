@@ -5044,19 +5044,30 @@
 
 ---
 
-### Q376: What is the time needed to achieve adequate anticoagulation in patients who are starting Warfarin?
+### Q376: What is the time needed to achieve adequate anticoagulant in patients who are starting Warfarin?
 
-**Correct Answer:** -
+- **A)** 6 hours
+- **B)** 24 hours
+- **C)** 48 hours
+- **D)** 72 hours
+
+**Correct Answer:** D
+**Answer Source:** key
 **Source Pages:** 43
-**EXP:** C-48 hours d-72 hours [H]OUSE Page | 85 Surgery Incision
 
 ---
 
-### Q377: sis of suspected de thrombosis is:
+### Q377: The imaging study of choice for the diagnosis of suspected deep vein thrombosis is:
 
-**Correct Answer:** -
+- **A)** Ascending venography
+- **B)** Duplex scan
+- **C)** Isotope scan
+- **D)** CT angiography
+- **E)** MR angiography
+
+**Correct Answer:** B
+**Answer Source:** key
 **Source Pages:** 44
-**EXP:** e- MR angiography
 
 ---
 
@@ -5142,9 +5153,14 @@
 
 ### Q384: Injection sclerotherapy for varicose veins is by using:
 
-**Correct Answer:** -
+- **A)** Phenol
+- **B)** Absolute alcohol
+- **C)** 70% alcohol
+- **D)** Ethanolamine oleate
+
+**Correct Answer:** D
+**Answer Source:** key
 **Source Pages:** 44
-**EXP:** C-70% alcohol d-Ethanolamine oleate 17
 
 ---
 
@@ -5476,7 +5492,7 @@
 
 ---
 
-### Q410: The mostu nt aspect in treatment of arterial em lism is:
+### Q410: The most urgent aspect in treatment of arterial embolism is:
 
 - **A)** Digitalis
 - **B)** Heparin
@@ -6238,11 +6254,17 @@
 
 ---
 
-### Q466: best time for repair of congenital inal rnia is
+### Q466: The best time for repair of congenital inguinal hernia is:
 
-**Correct Answer:** -
+- **A)** Once diagnosed
+- **B)** 3 months
+- **C)** 6 months
+- **D)** 9 months
+- **E)** 1 year
+
+**Correct Answer:** B
+**Answer Source:** key
 **Source Pages:** 53
-**EXP:** e-1 year
 
 ---
 
@@ -7920,11 +7942,17 @@
 
 ---
 
-### Q592: Sebaceous cystis 1A followin tth a Is due to obstruction of a sebaceous gland.
+### Q592: Sebaceous cyst is characterized by the following except that it:
 
-**Correct Answer:** -
+- **A)** Is due to obstruction of a sebaceous gland.
+- **B)** Is lined by stratified squamous epithelium.
+- **C)** Contains a yellow pultaceous greasy material known as sebum.
+- **D)** May occur on the palms and soles.
+- **E)** Is always anchored to the overlying skin at the punctum of the obstructed gland.
+
+**Correct Answer:** D
+**Answer Source:** key
 **Source Pages:** 68
-**EXP:** C Contains a yellow pultaceous greasy material knownas sebum d May occur onthe palms and soles. e. Is always anchored to the overlying skin at the punctum ofthe obstructed gland.
 
 ---
 
@@ -10413,9 +10441,14 @@
 
 ### Q775: Which of the following is a precancerous state in the large bowel?
 
-**Correct Answer:** -
+- **A)** Diverticular disease
+- **B)** Bilharzial colitis
+- **C)** Peutz-Jegher's syndrome
+- **D)** Gardner's syndrome
+
+**Correct Answer:** D
+**Answer Source:** key
 **Source Pages:** 89
-**EXP:** C-Peutz- Jegher's syndrome d-Gardner's syndrome
 
 ---
 
@@ -10603,7 +10636,6 @@
 - **B)** Jejunum.
 - **C)** Ileum.
 - **D)** Rectum
-- **E)** Rectum
 
 **Correct Answer:** D
 **Answer Source:** key
@@ -10800,11 +10832,17 @@
 
 ---
 
-### Q804: The most common site for cancer colon is:
+### Q804: The commonest site of colorectal cancer is:
 
-**Correct Answer:** -
+- **A)** Cecum
+- **B)** Transverse colon
+- **C)** Splenic flexure
+- **D)** Descending colon
+- **E)** Rectosigmoid colon
+
+**Correct Answer:** B
+**Answer Source:** key
 **Source Pages:** 92
-**EXP:** 18 Cc c-Transverse colopn d-Descending colon e-Sigmoid and rectum
 
 ---
 
@@ -11627,11 +11665,17 @@
 
 ---
 
-### Q865: Appendectomyis contra-indicated in patients with:
+### Q865: Appendectomy contra-indicated in patients with:
 
-**Correct Answer:** -
+- **A)** Uncomplicated acute appendicitis
+- **B)** Chronic appendicitis
+- **C)** Appendix peritonitis
+- **D)** Appendicular mass
+- **E)** Carcinoid tumor of the appendix
+
+**Correct Answer:** D
+**Answer Source:** key
 **Source Pages:** 98
-**EXP:** e-Carcinoid tumor of the appendix
 
 ---
 
@@ -11871,11 +11915,17 @@
 
 ---
 
-### Q884: The preferred treatment for carcinoma of the gal/bladder is a Radical resection that incudes gallbladder in continuity with the right hepatic lobe and regional lymph node dissection.
+### Q884: The preferred treatment for carcinoma of the gallbladder is
 
-**Correct Answer:** -
+- **A)** Radical resection that includes gallbladder in continuity with the right hepatic lobe and regional lymphnode dissection.
+- **B)** Radiation therapy
+- **C)** Chemotherapy.
+- **D)** Combined treatment involving surgical therapy, chemotherapy. And radiation.
+- **E)** Palliative treatment
+
+**Correct Answer:** E
+**Answer Source:** key
 **Source Pages:** 101
-**EXP:** E.Palliative treatment lIH|OUSE Page | 201 Surgery Incision
 
 ---
 

@@ -2,7 +2,7 @@
  "nn": "01",
  "source": "Raw_PDF_Questions/1st formative  2023.pdf",
  "sha256": "9ecc59ce40ce595b5af36ef3f9a9ae54d0dd8e00cdf1ec58123cbe32cc16ac7e",
- "at": "2026-09-26T11:20:46Z",
+ "at": "2026-09-27T07:23:03Z",
  "layout": {
   "method": "native",
   "splits": {
@@ -50,15 +50,14 @@
   "marked_hits": 30,
   "answered": 30,
   "mcq": 30,
-  "at": "2026-09-26T11:20:46Z"
+  "at": "2026-09-27T07:23:03Z"
  },
  "distribution": {
   "A": 0.133,
-  "B": 0.167,
-  "C": 0.267,
+  "B": 0.2,
+  "C": 0.233,
   "D": 0.333,
-  "E": 0.067,
-  "F": 0.033
+  "E": 0.1
  },
  "dropped_lines": [
   "37:08",
@@ -72,9 +71,10 @@
  "dropped_count": 7,
  "skipped_questions": [],
  "overrides": {
-  "applied": 1,
+  "applied": 4,
   "dropped": [],
-  "stale": []
+  "stale": [],
+  "added": 0
  },
  "questions": [
   {
@@ -1701,7 +1701,7 @@
     },
     {
      "letter": "E",
-     "text": "This is a hernia through tl1e lumbar triangle",
+     "text": "Strangulation does not cause intestinal obstru",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -1712,23 +1712,6 @@
       508.87554931640625,
       47.052860260009766
      ]
-    },
-    {
-     "letter": "F",
-     "text": "Strangulation does not cause intestinal obstru",
-     "bold": 0.0,
-     "color": 0.0,
-     "marks": [
-      "fill",
-      "ink"
-     ],
-     "page": 6,
-     "bbox": [
-      249.81842041015625,
-      72.7590560913086,
-      508.87652587890625,
-      87.0587158203125
-     ]
     }
    ],
    "after": "",
@@ -1736,7 +1719,8 @@
    "inline_answer": null,
    "flags": [
     "unnumbered",
-    "duplicate_option_text"
+    "duplicate_option_text",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 5,
@@ -1757,7 +1741,7 @@
      "evidence": "only option with fill"
     }
    ],
-   "correct": "F",
+   "correct": "E",
    "answer_source": "marked",
    "answer_evidence": "only option with fill"
   },
@@ -2002,7 +1986,7 @@
     },
     {
      "letter": "B",
-     "text": "It is more frequent than umbilical hernias in females",
+     "text": "It is more prone to strangulation than an inguinal hernia",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -2016,7 +2000,7 @@
     },
     {
      "letter": "C",
-     "text": "It is more prone to strangulation than an inguinal hernia",
+     "text": "It presents as a swelling above the pubic tubercle",
      "bold": 0.0,
      "color": 0.0,
      "marks": [
@@ -2033,7 +2017,7 @@
     },
     {
      "letter": "D",
-     "text": "It presents as a swelling above the pubic tubercle",
+     "text": "The femoral vein lies posterior to its neck",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -2047,7 +2031,7 @@
     },
     {
      "letter": "E",
-     "text": "The femoral vein lies posterior to its neck",
+     "text": "At surgery for strangulation, the femoral ring is enlarged by dividing its lateral edge",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -2058,20 +2042,6 @@
       508.87445068359375,
       165.4698486328125
      ]
-    },
-    {
-     "letter": "F",
-     "text": "At surgery for strangulation, the femoral ring is enlarged by dividing its lateral ..edge",
-     "bold": 0.0,
-     "color": 0.0,
-     "marks": [],
-     "page": 7,
-     "bbox": [
-      74.09925842285156,
-      191.17604064941406,
-      508.86749267578125,
-      205.4757080078125
-     ]
     }
    ],
    "after": "",
@@ -2079,7 +2049,8 @@
    "inline_answer": null,
    "flags": [
     "unnumbered",
-    "duplicate_option_text"
+    "duplicate_option_text",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 6,
@@ -2100,7 +2071,7 @@
      "evidence": "only option with fill"
     }
    ],
-   "correct": "C",
+   "correct": "B",
    "answer_source": "marked",
    "answer_evidence": "only option with fill"
   },
@@ -2423,7 +2394,7 @@
    "number": null,
    "section": 1,
    "type": "QCS",
-   "stem": "?Which one of the following is the predominant cation in intracellular fluid",
+   "stem": "Which one of the following is the predominant cation in intracellular fluid?",
    "options": [
     {
      "letter": "A",
@@ -2489,7 +2460,8 @@
    "exp": "",
    "inline_answer": null,
    "flags": [
-    "unnumbered"
+    "unnumbered",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 8,

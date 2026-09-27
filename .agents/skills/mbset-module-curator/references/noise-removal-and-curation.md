@@ -89,7 +89,7 @@ To prevent platform rejection (`Correct answer 'A' doesn't match available optio
    * Old `D` $\to$ New `C`
    * Adjust `Correct` answer letter to match the new key.
 3. If `Correct` is missing or not in `opts`: match against the explanation (`EXP`) text.
-4. If fewer than 2 valid options remain: convert to `QROC` with `Correct = '-'`.
+4. If fewer than 2 valid options remain: convert to `QROC` (markdown `Correct Answer: -`; the Excel leaves `Correct` empty).
 
 ---
 

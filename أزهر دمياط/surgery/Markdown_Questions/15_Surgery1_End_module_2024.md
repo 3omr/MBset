@@ -240,9 +240,14 @@
 
 ### Q19: The earliest sign of hypocalcemia is:
 
-**Correct Answer:** -
+- **A)** Carpo-pedal spasms.
+- **B)** Positive Chovstek's sign.
+- **C)** Tingling of fingers and circumoral region.
+- **D)** Defective blood coagulation
+
+**Correct Answer:** C
+**Answer Source:** marked
 **Source Pages:** 3
-**EXP:** Positive Chovstek's sign. Tingling of fingers and circumoral region. DDefective blood coagulation
 
 ---
 

@@ -285,9 +285,14 @@
 
 ### Q26: Which of the following is the most common cause of a painless scrotal swelling in an adult male?
 
-**Correct Answer:** -
+- **A)** Testicular cancer
+- **B)** Hydrocele
+- **C)** Epididymitis
+- **D)** Inguinal hernia
+
+**Correct Answer:** B
+**Answer Source:** marked
 **Source Pages:** 5
-**EXP:** Hydrocele cEpididymitis ) Inguinal hernia
 
 ---
 

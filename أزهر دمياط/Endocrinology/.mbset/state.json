@@ -33,7 +33,7 @@
      "answered": 0,
      "sources": {},
      "flags": 14,
-     "md_hash": "898cf7e6fccf6601095b94f955c6be1355e1889c958042fe6382f996f268fc37"
+     "md_hash": "69cbc4383276cc40937b06c102fe1eef8ec09e22442511bc50d7de3890a44cb2"
     },
     "review": {
      "spot_check": "1/1 retained QROC verified against p7; sampled p4 fragments are logged drops",
@@ -138,7 +138,13 @@
     "qsradiologicalfindinginthyrotoxicosis": {
      "exp": "Radioiodine uptake is increased in thyrotoxicosis caused by increased hormone synthesis and decreased in thyroiditis. Thyroid scintigraphy distinguishes the pattern: diffuse uptake suggests Graves disease, a solitary hot nodule suggests a toxic adenoma, and multiple areas of uptake suggest toxic multinodular goiter.",
      "exp_source": "key",
-     "at": "2026-09-26T06:25:03Z"
+     "at": "2026-09-27T07:28:59Z",
+     "stem_fix": "Radiological finding in thyrotoxicosis?",
+     "text_note": "strip 'Qs:' prefix",
+     "text_before": {
+      "stem": "Qs: Radiological finding in thyrotoxicosis?",
+      "options": {}
+     }
     }
    },
    "count_note": "This 11-page file is mostly handwritten topic notes. Page 7 contains the retained printed written prompt; page 4 has a related prompt but OCR remained unreliable after PSM 6 at 400 and 110 dpi and PSM 11, so those fragments were dropped. Other pages have no separate question blocks."
@@ -5646,7 +5652,7 @@
       "key": 1
      },
      "flags": 45,
-     "md_hash": "8ed1058af44d8f3e5a7a36006a261ed39550c631fa4fb96c85acc220c53f13fe"
+     "md_hash": "9f9939757fbd00f05ceb0293f0cb683e45163d09e63bebe3924ecbc451489685"
     },
     "review": {
      "spot_check": "5/5 OK",
@@ -5733,21 +5739,24 @@
      "source": "marked"
     },
     "correctanswer": {
-     "stem_fix": "The differential diagnosis of hypercalcaemia includes all the following, except:",
+     "stem_fix": "About thyroid cancer, all the following statements are true, except:",
      "options_fix": {
-      "A": "Primary hyperparathyroidism",
-      "B": "Bone metastases",
-      "C": "Multiple myeloma",
-      "D": "Tuberculosis",
-      "E": "Sarcoidosis"
+      "A": "FNA is enough to diagnose follicular carcinoma.",
+      "B": "Anaplastic carcinoma spreads mainly by local infiltration of surrounding tissues.",
+      "C": "Spread of follicular carcinoma is mainly haematogenous.",
+      "D": "Malignancy appears as a cold nodule on thyroid isotope scan.",
+      "E": "The prognosis of differentiated thyroid cancer is better than the anaplastic type."
      },
-     "text_note": "Restored the five printed options from p. 10 crop; D is marked.",
+     "text_note": "options re-read (were in EXP)",
      "text_before": {
       "stem": "**Correct Answer:** -",
       "options": {}
      },
-     "at": "2026-09-26T15:31:12Z",
-     "drop": "not a question: explanation of Q24 (source Q18) continued across the page break p6-7"
+     "at": "2026-09-27T07:28:58Z",
+     "drop": "not a question: explanation of Q24 (source Q18) continued across the page break p6-7",
+     "answer": "FNA is enough to diagnose follicular carcinoma.",
+     "source": "marked",
+     "exp_clear": true
     },
     "thedifferentialdiagnosesofhypercalcaemiaindudeallthefollowingexceptaprimaryhyperparathyroldism8bonemetastases": {
      "stem_fix": "The differential diagnoses of hypercalcaemia include all the following, except:",
@@ -5966,6 +5975,101 @@
      "at": "2026-09-26T15:56:53Z",
      "answer": "Normal serum calcium and high PTH.",
      "source": "marked"
+    },
+    "abouttheaetiologyofsimplegoitreallthefollowingstatementsaretrueexceptapendredssyndromeischaracterizedbyhypothyroidismgoitreandblindnesspencredssyndromeiscausedb": {
+     "stem_fix": "About the aetiology of simple goitre, all the following statements are true, except:",
+     "options_fix": {
+      "A": "Pendred's syndrome is characterized by hypothyroidism, goitre and blindness.",
+      "B": "Pendred's syndrome is caused by deficiency of peroxidase enzyme.",
+      "C": "Deficiency of iodine causes simple goitre.",
+      "D": "Pregnancy raises the need for iodine.",
+      "E": "Thiocyanates in cabbages are goitrogenic."
+     },
+     "answer": "Pendred's syndrome is characterized by hypothyroidism, goitre and blindness.",
+     "source": "marked",
+     "exp_clear": true,
+     "text_note": "options re-read (were in EXP)",
+     "text_before": {
+      "stem": "About the aetiology of simple goitre, all the following statements are true, except: APendred's syndrome is characterized by hypothyroidism, goitre and blindness. Pencred's syndrome is caused by deficiency of peroxidase enzyme. LC. Deficiency of lodine causes simple goltre. .Pregnancy raises the need for lodine. E.Thiocyanates in cabbages are goitrogenic.",
+      "options": {}
+     },
+     "at": "2026-09-27T07:28:58Z"
+    },
+    "medullarycarcinomaofthethyroldcarcinomaoftheparathyroid": {
+     "stem_fix": "One of the following cancers may be multicentric:",
+     "options_fix": {
+      "A": "Papillary carcinoma of the thyroid.",
+      "B": "Follicular carcinoma of the thyroid.",
+      "C": "Anaplastic carcinoma of the thyroid.",
+      "D": "Medullary carcinoma of the thyroid.",
+      "E": "Carcinoma of the parathyroid."
+     },
+     "answer": "Papillary carcinoma of the thyroid.",
+     "source": "marked",
+     "exp_clear": true,
+     "text_note": "options re-read (were in EXP)",
+     "text_before": {
+      "stem": "Medullary carcinoma of the thyrold. Carcinoma of the parathyroid.",
+      "options": {}
+     },
+     "at": "2026-09-27T07:28:58Z"
+    },
+    "priortosurgery": {
+     "stem_fix": "About treatment of Graves' disease all the following statements are true, except:",
+     "options_fix": {
+      "A": "Thyroidectomy is the first-line treatment.",
+      "B": "Agranulocytosis is a possible complication of anti-thyroid drugs.",
+      "C": "Radioactive iodine therapy is contraindicated during pregnancy.",
+      "D": "Radioactive iodine therapy is better avoided in cases of exophthalmos.",
+      "E": "If thyroidectomy is decided upon, toxicity should be controlled by medications prior to surgery."
+     },
+     "answer": "Thyroidectomy is the first-line treatment.",
+     "source": "marked",
+     "exp_clear": true,
+     "text_note": "options re-read (were in EXP)",
+     "text_before": {
+      "stem": "prior to surgery.",
+      "options": {}
+     },
+     "at": "2026-09-27T07:28:58Z"
+    },
+    "drugstobringthepatienttoaeuthyroldstatusoperatingonuncontrolledthyrotoxicoslscarriestheriskofcausingafatalthyrotoxiccrisls22abouttoxicmultinodulargoitreallthefo": {
+     "stem_fix": "About stridor in the postoperative period after thyroidectomy, all the following statements are true, except:",
+     "options_fix": {
+      "A": "Unilateral recurrent laryngeal nerve injury causes stridor.",
+      "B": "Dyspnoea due to deep neck haematoma should be immediately evacuated.",
+      "C": "Laryngeal oedema is a cause of stridor.",
+      "D": "Tracheal collapse due to tracheomalacia is a rare cause of stridor.",
+      "E": "External laryngeal nerve injury does not cause stridor."
+     },
+     "answer": "Unilateral recurrent laryngeal nerve injury causes stridor.",
+     "source": "marked",
+     "exp_clear": true,
+     "text_note": "options re-read (were in EXP)",
+     "text_before": {
+      "stem": "drugs to bring the patient to a euthyrold status. Operating on uncontrolled thyrotoxicosls carries the risk of causing a fatal thyrotoxic crisls. 22. About toxic multinodular goitre, all the following statements are true, except: AIt usually affects patients at an older age than those with Graves' disease. BExopthalmos is more prominent than In patients with Graves' disease. CHeart failure is more likely to occur than in patlents with Graves' disease. Goitre is usually sizable. E.The first-line treatment is thyroidectomy. B. Usually there is no exopthalmos in these patients. Because It affects patients at an older age than primary thyrotoxicosls, they are more likely to develop heart failure. Goltre Is usually sizable because thyrotoxicity develops on top of a multinodular gland. Anti-thyroid drugs tend to increase the size of the gland because they ralse the level of the suppressed TSH. Radio-iodine therapy can control toxlclty but causes little, If any, reduction In gland size. Thyroidectomy Is the only method that controls both the slze and toxicity of the gland. 2. About stridor in the postoperative perlod after thyroidectomy, all the fofllowing statements are true, except: ① Unilateral recurrent laryngeal nerve injury causes stridor. B. Dyspnoea due to deep neck haematoma should be immediately evacuated. c. Laryngeal oedema is a cause of stridor. D. Tracheal collapse due to tracheomalacia is a rare cause of stridor. E.External laryngeal nerve injury does not cause stridor.",
+      "options": {}
+     },
+     "at": "2026-09-27T07:28:58Z"
+    },
+    "aboutthyrotoxiccrisisallthefollowingstatementsaretrueexceptitfollowssurgeryonuncontrolledthyrotoxicosisifuntreateditcanbefatalcitiscausedbymarkedelevationofseru": {
+     "stem_fix": "About thyrotoxic crisis, all the following statements are true, except:",
+     "options_fix": {
+      "A": "It follows surgery on uncontrolled thyrotoxicosis.",
+      "B": "If untreated it can be fatal.",
+      "C": "It is caused by marked elevation of serum thyroid stimulating hormone (TSH).",
+      "D": "Hyperthermia and tachycardia are present.",
+      "E": "Treatment should be carried out in ICU."
+     },
+     "answer": "It is caused by marked elevation of serum thyroid stimulating hormone (TSH).",
+     "source": "marked",
+     "exp_clear": true,
+     "text_note": "options re-read (were in EXP)",
+     "text_before": {
+      "stem": "About thyrotoxic crisis, all the following statements are true, except: It follows surgery on uncontrolled thyrotoxicosis. If untreated it can be fatal. CIt is caused by marked elevation of serum thyroid stimulating hormone (TSH). LD. Hyperthermia and tachycardia are present. Treatment should be carried out in ICU.",
+      "options": {}
+     },
+     "at": "2026-09-27T07:28:58Z"
     }
    },
    "count_note": "45 question blocks counted across pages 1-13; 38 numbered blocks and 8 unnumbered blocks are represented, with one duplicate overlap logged as dropped."
@@ -8396,7 +8500,7 @@
  "duplicate_md_prefix": {},
  "stray_sources": [],
  "inventory_at": "2026-09-26T05:03:30Z",
- "updated": "2026-09-26T20:49:53Z",
+ "updated": "2026-09-27T07:32:48Z",
  "catalog_managed": true,
  "category_id": "DamiettaFa_ENDOCRINOLOGY_2",
  "category_name": "Endocrinology"

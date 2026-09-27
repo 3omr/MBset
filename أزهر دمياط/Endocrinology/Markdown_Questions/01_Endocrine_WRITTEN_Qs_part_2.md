@@ -3,7 +3,7 @@
 > Source: `Endocrine WRITTEN Qs part.2.pdf` · index 01 · parsed 2026-09-26 by mbset.py
 > Questions: 14 (0 MCQ / 14 written) · answers: 
 
-### Q1: Qs: Radiological finding in thyrotoxicosis?
+### Q1: Radiological finding in thyrotoxicosis?
 
 **Correct Answer:** -
 **Answer Source:** key

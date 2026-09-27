@@ -1,6 +1,6 @@
-# Question bank report — Endocrinology_v2
+# Question bank report — Endocrinology
 
-Generated 2026-09-26T19:01:30Z · mode: state + markdown
+Generated 2026-09-26T20:50:18Z · mode: state + markdown
 
 ## Totals
 

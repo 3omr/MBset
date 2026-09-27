@@ -16,7 +16,7 @@ All standard workflows, scripts, and specifications are packaged in the workspac
 
 ## 2. Core Constraints & Rules
 
-### A. Question Bank Schema (31 Columns)
+### A. Question Bank Schema (32 Columns)
 
 The canonical, platform-accepted header is exactly:
 
@@ -24,14 +24,15 @@ The canonical, platform-accepted header is exactly:
 id, Cas, Text, Image, explanationImage, A, B, C, D, E, F,
 A_EXP, B_EXP, C_EXP, D_EXP, E_EXP, F_EXP, Correct, Hint, EXP, Note, Type,
 categoryId, categoryName, subcategoryId, subcategoryName,
-tagSuggere, Year, Tag, ImageMasks, ExplanationImageMasks
+tagSuggere, Year, Tag, ImageMasks, ExplanationImageMasks, ModelAnswer
 ```
 
 1. **`id` (Col 0)**: MUST be empty (`None`). The platform generates IDs on upload.
 2. **`subcategoryId` & `subcategoryName` (Cols 24-25)**: MUST be empty (`None`) for question banks.
 3. **`Type` (Col 21)**: `QCS` (MCQ) or `QROC` (written/short answer).
-4. **`Correct` (Col 17)**: `QCS` → one uppercase `A`-`F` that exists among the populated options. `QROC` → strict hyphen `-`.
-5. **`EXP` (Col 19)**: `QCS` → explanation. `QROC` → **full model answer**.
+4. **`Correct` (Col 17)**: `QCS` → one uppercase `A`-`F` that exists among the populated options. `QROC` → empty (platform import format).
+5. **`EXP` (Col 19)**: `QCS` → explanation. `QROC` → empty.
+5b. **`ModelAnswer` (Col 31)**: `QROC` → **full model answer** (platform import format); empty for `QCS`.
 6. **`Image` (Col 3)**: MUST be filled for figure-dependent questions (`Images/<NN>_<Qn>.png`). A stem that refers to a figure with an empty `Image` is a defect, not an acceptable compromise.
 7. **`tagSuggere` (Col 26)**: discipline name for department/professor sources; `None` for general exams.
 8. **`Year` (Col 27)**: exact integer from the source file/filename.
@@ -66,7 +67,7 @@ tagSuggere, Year, Tag, ImageMasks, ExplanationImageMasks
 ```
 <Module>/
 ├── subcategories_<Module>_<Date>.xlsx   # official platform export
-├── <Module>_Questions.xlsx              # master 31-column bank (canonical header)
+├── <Module>_Questions.xlsx              # master 32-column bank (canonical header)
 ├── Lectures/<subcategoryId>.pdf         # one PDF per subcategory
 ├── Raw_PDF_Questions/                   # every source, archives expanded
 ├── Markdown_Questions/00_CATALOG_OF_ALL_FILES.md + <NN>_<Source>.md

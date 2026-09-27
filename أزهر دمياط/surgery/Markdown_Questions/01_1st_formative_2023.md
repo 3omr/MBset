@@ -1,6 +1,6 @@
 # 1st formative  2023 — extracted questions
 
-> Source: `1st formative  2023.pdf` · index 01 · parsed 2026-09-26 by mbset.py
+> Source: `1st formative  2023.pdf` · index 01 · parsed 2026-09-27 by mbset.py
 > Questions: 30 (30 MCQ / 0 written) · answers: marked 30
 
 ### Q1: Steroids impair wound healing by:
@@ -213,10 +213,9 @@
 - **B)** It means tl1at a viscus makes part of the wall of the sac
 - **C)** It means an irreducible femoral hernia
 - **D)** This is a hernia through tl1e lumbar triangle
-- **E)** This is a hernia through tl1e lumbar triangle
-- **F)** Strangulation does not cause intestinal obstru
+- **E)** Strangulation does not cause intestinal obstru
 
-**Correct Answer:** F
+**Correct Answer:** E
 **Answer Source:** marked
 **Source Pages:** 6, 7
 
@@ -253,13 +252,12 @@
 ### Q19: About femoral hernia, one statement only is true:
 
 - **A)** It is more frequent than umbilical hernias in females
-- **B)** It is more frequent than umbilical hernias in females
-- **C)** It is more prone to strangulation than an inguinal hernia
-- **D)** It presents as a swelling above the pubic tubercle
-- **E)** The femoral vein lies posterior to its neck
-- **F)** At surgery for strangulation, the femoral ring is enlarged by dividing its lateral ..edge
+- **B)** It is more prone to strangulation than an inguinal hernia
+- **C)** It presents as a swelling above the pubic tubercle
+- **D)** The femoral vein lies posterior to its neck
+- **E)** At surgery for strangulation, the femoral ring is enlarged by dividing its lateral edge
 
-**Correct Answer:** C
+**Correct Answer:** B
 **Answer Source:** marked
 **Source Pages:** 7, 8
 
@@ -306,7 +304,7 @@
 
 ---
 
-### Q23: ?Which one of the following is the predominant cation in intracellular fluid
+### Q23: Which one of the following is the predominant cation in intracellular fluid?
 
 - **A)** Chloride
 - **B)** Calcium

@@ -134,11 +134,17 @@
 
 ---
 
-### Q11: About the aetiology of simple goitre, all the following statements are true, except: APendred's syndrome is characterized by hypothyroidism, goitre and blindness. Pencred's syndrome is caused by deficiency of peroxidase enzyme. LC. Deficiency of lodine causes simple goltre. .Pregnancy raises the need for lodine. E.Thiocyanates in cabbages are goitrogenic.
+### Q11: About the aetiology of simple goitre, all the following statements are true, except:
 
-**Correct Answer:** -
+- **A)** Pendred's syndrome is characterized by hypothyroidism, goitre and blindness.
+- **B)** Pendred's syndrome is caused by deficiency of peroxidase enzyme.
+- **C)** Deficiency of iodine causes simple goitre.
+- **D)** Pregnancy raises the need for iodine.
+- **E)** Thiocyanates in cabbages are goitrogenic.
+
+**Correct Answer:** A
+**Answer Source:** marked
 **Source Pages:** 4
-**EXP:** blind. The commonest cause of a simple gaitre, however, is deficlency of lodine. Simple goltre Is endemic in regions with low lodide content of water and food as in mountains and desert areas away from seas. Relative deficiency of lodine occurs during periods of stress. Females t during the menarche, pregnancy and lactation are susceptible to this problem.
 
 ---
 
@@ -274,11 +280,17 @@
 
 ---
 
-### Q22: Medullary carcinoma of the thyrold. Carcinoma of the parathyroid.
+### Q22: One of the following cancers may be multicentric:
 
-**Correct Answer:** -
+- **A)** Papillary carcinoma of the thyroid.
+- **B)** Follicular carcinoma of the thyroid.
+- **C)** Anaplastic carcinoma of the thyroid.
+- **D)** Medullary carcinoma of the thyroid.
+- **E)** Carcinoma of the parathyroid.
+
+**Correct Answer:** A
+**Answer Source:** marked
 **Source Pages:** 6
-**EXP:** total thyroidectomy.
 
 ---
 
@@ -311,11 +323,17 @@
 
 ---
 
-### Q25: 
+### Q25: About thyroid cancer, all the following statements are true, except:
 
-**Correct Answer:** -
+- **A)** FNA is enough to diagnose follicular carcinoma.
+- **B)** Anaplastic carcinoma spreads mainly by local infiltration of surrounding tissues.
+- **C)** Spread of follicular carcinoma is mainly haematogenous.
+- **D)** Malignancy appears as a cold nodule on thyroid isotope scan.
+- **E)** The prognosis of differentiated thyroid cancer is better than the anaplastic type.
+
+**Correct Answer:** A
+**Answer Source:** marked
 **Source Pages:** 6
-**EXP:** Follicular cells can be also obtained from a follicular adenoma. The dlagnosls of follicular carclnoma depends upon the demonstration of capsular o: blood vessel invasion on histopathological examination of excised tissue. If a follcular carcinoma Is suspected a hemithyroidectomy is the minimum excision biopsy that Is done. COPYRIGHT 2O11- FrOf. AHMED EL-BISHEY & PrOf. AMR MOHSEN Page 46 Chapter (7 ) ENDOCRINE SURGERY On the other hand, the fInding of papllary structures on FNA is dlagnostic of papillary carclnoma because there is no such thing as papillary adenoma
 
 ---
 
@@ -347,11 +365,17 @@
 
 ---
 
-### Q28: prior to surgery.
+### Q28: About treatment of Graves' disease all the following statements are true, except:
 
-**Correct Answer:** -
+- **A)** Thyroidectomy is the first-line treatment.
+- **B)** Agranulocytosis is a possible complication of anti-thyroid drugs.
+- **C)** Radioactive iodine therapy is contraindicated during pregnancy.
+- **D)** Radioactive iodine therapy is better avoided in cases of exophthalmos.
+- **E)** If thyroidectomy is decided upon, toxicity should be controlled by medications prior to surgery.
+
+**Correct Answer:** A
+**Answer Source:** marked
 **Source Pages:** 7
-**EXP:** during pregnancy. It also tends to worsen exopthalmos. The indications for surgery Include: Failure or complications of conservative measures. Suspicion of malignancy. Large goitre, which Is unusual in cases of Graves' disease. Whether to do total or subtotal thyroidectomy is still a matter of debate among surgeons. Whatever the operation, thyrotoxicity should be controlled prior to surgery, by antl-thyroid COPYRIGHT 2011- Prof. AHMED EL-BISHRY & Prnf asAD AAr SURGERY drugs to bring the patient to a euthyroid status. Operating on uncontrolled thyrotoxicosis carrles the risk of causing a fatal thyrotoxic crisls.
 
 ---
 
@@ -369,19 +393,31 @@
 
 ---
 
-### Q30: drugs to bring the patient to a euthyrold status. Operating on uncontrolled thyrotoxicosls carries the risk of causing a fatal thyrotoxic crisls. 22. About toxic multinodular goitre, all the following statements are true, except: AIt usually affects patients at an older age than those with Graves' disease. BExopthalmos is more prominent than In patients with Graves' disease. CHeart failure is more likely to occur than in patlents with Graves' disease. Goitre is usually sizable. E.The first-line treatment is thyroidectomy. B. Usually there is no exopthalmos in these patients. Because It affects patients at an older age than primary thyrotoxicosls, they are more likely to develop heart failure. Goltre Is usually sizable because thyrotoxicity develops on top of a multinodular gland. Anti-thyroid drugs tend to increase the size of the gland because they ralse the level of the suppressed TSH. Radio-iodine therapy can control toxlclty but causes little, If any, reduction In gland size. Thyroidectomy Is the only method that controls both the slze and toxicity of the gland. 2. About stridor in the postoperative perlod after thyroidectomy, all the fofllowing statements are true, except: ① Unilateral recurrent laryngeal nerve injury causes stridor. B. Dyspnoea due to deep neck haematoma should be immediately evacuated. c. Laryngeal oedema is a cause of stridor. D. Tracheal collapse due to tracheomalacia is a rare cause of stridor. E.External laryngeal nerve injury does not cause stridor.
+### Q30: About stridor in the postoperative period after thyroidectomy, all the following statements are true, except:
 
-**Correct Answer:** -
+- **A)** Unilateral recurrent laryngeal nerve injury causes stridor.
+- **B)** Dyspnoea due to deep neck haematoma should be immediately evacuated.
+- **C)** Laryngeal oedema is a cause of stridor.
+- **D)** Tracheal collapse due to tracheomalacia is a rare cause of stridor.
+- **E)** External laryngeal nerve injury does not cause stridor.
+
+**Correct Answer:** A
+**Answer Source:** marked
 **Source Pages:** 8
-**EXP:** A deep neck haematoma that causes stridor should be evacuated Immediately, even as a bed- side procedure. The sutures are removed to evacuate the compressing haematoma. The patient is then taken to the operating theatre for proper haemostasls. Injury of the external branch of superior laryngeal nerve causes loss of high pitched voice.
 
 ---
 
-### Q31: About thyrotoxic crisis, all the following statements are true, except: It follows surgery on uncontrolled thyrotoxicosis. If untreated it can be fatal. CIt is caused by marked elevation of serum thyroid stimulating hormone (TSH). LD. Hyperthermia and tachycardia are present. Treatment should be carried out in ICU.
+### Q31: About thyrotoxic crisis, all the following statements are true, except:
 
-**Correct Answer:** -
+- **A)** It follows surgery on uncontrolled thyrotoxicosis.
+- **B)** If untreated it can be fatal.
+- **C)** It is caused by marked elevation of serum thyroid stimulating hormone (TSH).
+- **D)** Hyperthermia and tachycardia are present.
+- **E)** Treatment should be carried out in ICU.
+
+**Correct Answer:** C
+**Answer Source:** marked
 **Source Pages:** 8
-**EXP:** The conditlon Is highly fatal. It should be urgently managed In ICU. Treatment Includes: Intravenous flulds. COPYRIGHT 2011- Prof. AHMED EL-BISHRY & Prof. AMR MOHSEN Page 48 Chapter (7 ) ENDOCRINE SURGERY Cooling the patient, e.g. Ice packs. Oxygen. Digoxin for heart failure. Sedation. Intravenous hydrocortisone. Carbimazole 15-20 mg/6 hours. Lugot's lodine 10 drops/8 hours or Na- or K-lodide Intravenously as a drip. Propranolol 40 mg/6 hours orally or I mg intravenously as a drip to be repeated If needed. Chapter (7 ) ENDOCRINE SURGERY Cooling the patient, e.g. Ice packs. Oxygen. Digoadn for heart fallure. Sedation. Intravenous hydrocortIsone. Carbimazole 15-20 mg/6 hours. Lugof's lodine 10 drops/8 hours or Na- or K-lodide intravenously as a drip. Propranolol 40 mg/6 hours orally or 1 mg Intravenousty as a drlp to be repeated If needed.
 
 ---
 

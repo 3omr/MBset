@@ -1,4 +1,4 @@
-# 31-Column Question Bank Schema Specification
+# 32-Column Question Bank Schema Specification
 
 The exact schema required by the MBset platform for importing questions, plus the migration map for the legacy layout found in older modules.
 
@@ -8,7 +8,7 @@ The exact schema required by the MBset platform for importing questions, plus th
 id, Cas, Text, Image, explanationImage, A, B, C, D, E, F,
 A_EXP, B_EXP, C_EXP, D_EXP, E_EXP, F_EXP, Correct, Hint, EXP, Note, Type,
 categoryId, categoryName, subcategoryId, subcategoryName,
-tagSuggere, Year, Tag, ImageMasks, ExplanationImageMasks
+tagSuggere, Year, Tag, ImageMasks, ExplanationImageMasks, ModelAnswer
 ```
 
 In use by `CVS_Questions.xlsx`, `CNS_Questions.xlsx`, `NHB_Questions.xlsx`, `Behavioral_science_Questions.xlsx`.
@@ -24,9 +24,9 @@ In use by `CVS_Questions.xlsx`, `CNS_Questions.xlsx`, `NHB_Questions.xlsx`, `Beh
 | **6** | `B` | String | COND | `None` | Option B. Mandatory for `QCS`. |
 | **7-10** | `C`-`F` | String | NO | `None` | Options C-F, filled sequentially with no gaps. |
 | **11-16** | `A_EXP`-`F_EXP` | String | NO | `None` | Per-option explanations. |
-| **17** | `Correct` | String | **YES** | `'-'` | `QCS`: one uppercase `A`-`F` that exists among populated options. `QROC`: `'-'`. |
+| **17** | `Correct` | String | COND | `None` | `QCS`: one uppercase `A`-`F` that exists among populated options. `QROC`: empty. |
 | **18** | `Hint` | String | NO | `None` | Hint. |
-| **19** | `EXP` | String | NO | `None` | Explanation; for `QROC` the complete model answer. |
+| **19** | `EXP` | String | NO | `None` | Explanation for `QCS`; empty for `QROC`. |
 | **20** | `Note` | String | NO | `None` | Internal note. |
 | **21** | `Type` | String | **YES** | - | `'QCS'` or `'QROC'`. |
 | **22** | `categoryId` | String | **YES** | - | e.g. `'DamiettaFa_CVS'`. |
@@ -38,6 +38,7 @@ In use by `CVS_Questions.xlsx`, `CNS_Questions.xlsx`, `NHB_Questions.xlsx`, `Beh
 | **28** | `Tag` | String | **YES** | - | Comma-separated taxonomy tags. |
 | **29** | `ImageMasks` | String | NO | `None` | Mask coordinates. |
 | **30** | `ExplanationImageMasks` | String | NO | `None` | Mask coordinates for explanations. |
+| **31** | `ModelAnswer` | String | COND | `None` | `QROC`: the complete model answer (platform import format). Empty for `QCS`. |
 
 ---
 
@@ -47,7 +48,7 @@ In use by `CVS_Questions.xlsx`, `CNS_Questions.xlsx`, `NHB_Questions.xlsx`, `Beh
 2. **`id`** — always empty; numeric IDs collide with existing database records.
 3. **`Type` discrimination**
    - `QCS`: at least `A` and `B` populated, `Correct` ∈ `{A..F}` and present among the populated options.
-   - `QROC`: options `A`-`F` all `None`, `Correct` = `'-'`, `EXP` holds the model answer.
+   - `QROC`: options `A`-`F` all `None`, `Correct` and `EXP` empty, `ModelAnswer` holds the model answer. (In the markdown a written item still carries `**Correct Answer:** -` and its model answer as `**EXP:**`; the builder moves it.)
 4. **Sequential options** — `A` first, no letter gaps. After repacking, move `Correct` with the options.
 5. **No duplicate normalized stems** in the finished file.
 6. **`Image`** — populated for every figure-dependent question; a figure-dependent question with an empty `Image` is a defect.

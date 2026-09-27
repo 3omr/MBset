@@ -149,8 +149,8 @@ def check_source(module: Module, src: dict[str, Any]) -> dict[str, Any]:
             if any(len(str(q[L]).strip()) < 2 for L in filled) and not re.search(r"^\s*-\s*\*\*[A-F]\)\*\*\s*\w\s*$", block, re.M):
                 review.append(f"Q{n}: option shorter than 2 chars")
         else:
-            if q["Correct"] != "-":
-                hard.append(f"Q{n}: written question must have Correct '-'")
+            if q["Correct"] not in (None, "", "-"):
+                hard.append(f"Q{n}: written question must not carry an answer letter")
             if not q.get("EXP"):
                 hard.append(f"Q{n}: written question without model answer (EXP) — `fix --exp-file`")
         if AUDIT.FIGURE.search(q["Text"] or "") and not q.get("Image"):

@@ -53,7 +53,7 @@ HEADERS = [
     'A_EXP', 'B_EXP', 'C_EXP', 'D_EXP', 'E_EXP', 'F_EXP',
     'Correct', 'Hint', 'EXP', 'Note', 'Type',
     'categoryId', 'categoryName', 'subcategoryId', 'subcategoryName',
-    'tagSuggere', 'Year', 'Tag', 'ImageMasks', 'ExplanationImageMasks'
+    'tagSuggere', 'Year', 'Tag', 'ImageMasks', 'ExplanationImageMasks', 'ModelAnswer'
 ]
 
 ARABIC = re.compile(r'[؀-ۿݐ-ݿࢠ-ࣿﭐ-﷿ﹰ-﻿]')
@@ -137,7 +137,7 @@ def parse_question(filename, number, heading_stem, body):
     question['Type'] = 'QCS' if sum(bool(question[L]) for L in 'ABCDEF') >= 2 else 'QROC'
     if question['Type'] == 'QROC':
         question.update({letter: None for letter in 'ABCDEF'})
-        question['Correct'] = '-'
+        question['Correct'] = None   # platform import: QROC leaves Correct empty
     return question
 
 
@@ -237,9 +237,9 @@ def build(md_dir, meta, category_id, category_name, out_path, strict=True):
             None,                       # explanationImage
             q.get('A'), q.get('B'), q.get('C'), q.get('D'), q.get('E'), q.get('F'),
             None, None, None, None, None, None,           # A_EXP - F_EXP
-            q.get('Correct') or '-',
+            q.get('Correct') if q['Type'] == 'QCS' else None,
             None,                       # Hint
-            q.get('EXP'),
+            q.get('EXP') if q['Type'] == 'QCS' else None,   # QROC: the model answer goes to ModelAnswer
             None,                       # Note
             q['Type'],
             category_id, category_name,
@@ -248,6 +248,7 @@ def build(md_dir, meta, category_id, category_name, out_path, strict=True):
             q.get('Year'),
             q.get('Tag'),
             None, None,                 # ImageMasks / ExplanationImageMasks
+            q.get('EXP') if q['Type'] == 'QROC' else None,  # ModelAnswer
         ])
     out_dir = os.path.dirname(os.path.abspath(out_path))
     os.makedirs(out_dir, exist_ok=True)

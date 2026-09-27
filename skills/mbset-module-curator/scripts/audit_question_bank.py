@@ -52,7 +52,7 @@ BIAS_FAIL = 0.60
 CANON = ['id', 'Cas', 'Text', 'Image', 'explanationImage', 'A', 'B', 'C', 'D', 'E', 'F',
          'A_EXP', 'B_EXP', 'C_EXP', 'D_EXP', 'E_EXP', 'F_EXP', 'Correct', 'Hint', 'EXP',
          'Note', 'Type', 'categoryId', 'categoryName', 'subcategoryId', 'subcategoryName',
-         'tagSuggere', 'Year', 'Tag', 'ImageMasks', 'ExplanationImageMasks']
+         'tagSuggere', 'Year', 'Tag', 'ImageMasks', 'ExplanationImageMasks', 'ModelAnswer']
 
 
 def norm_stem(s):
@@ -116,14 +116,14 @@ def audit_excel(path, by_tag):
     if hdr[:len(CANON)] != CANON:
         diff = [f"col {i}: '{hdr[i] if i < len(hdr) else ''}' != '{CANON[i]}'"
                 for i in range(len(CANON)) if i >= len(hdr) or hdr[i] != CANON[i]]
-        hard.append("header is not the canonical 31-column layout")
+        hard.append("header is not the canonical 32-column layout")
         print("  [-] HEADER MISMATCH (legacy layout?):")
         for d in diff[:6]:
             print(f"        {d}")
         if len(diff) > 6:
             print(f"        ... and {len(diff)-6} more")
     else:
-        print("  [+] canonical 31-column header")
+        print("  [+] canonical 32-column header")
 
     types = collections.Counter(g(r, "Type") for r in data)
     print(f"  Type: {dict(types)}")
@@ -193,9 +193,11 @@ def audit_excel(path, by_tag):
         elif t == "QROC":
             if filled:
                 note("QROC carries options", i, text)
-            if str(g(r, "Correct") or "") != "-":
-                note("QROC Correct is not '-'", i, text)
-            if not str(g(r, "EXP") or "").strip():
+            if str(g(r, "Correct") or "").strip():
+                note("QROC Correct is not empty", i, text)
+            if str(g(r, "EXP") or "").strip():
+                note("QROC EXP is not empty", i, text)
+            if not str(g(r, "ModelAnswer") or "").strip():
                 note("QROC without model answer", i, text)
         else:
             note("invalid Type", i, text)
@@ -214,7 +216,7 @@ def audit_excel(path, by_tag):
         probs["duplicate normalized stems"] = ndup
 
     HARD_KEYS = {"Arabic characters", "Correct not among options", "option letter gap",
-                 "MCQ with fewer than 2 options", "QROC Correct is not '-'", "invalid Type",
+                 "MCQ with fewer than 2 options", "QROC Correct is not empty", "QROC EXP is not empty", "invalid Type",
                  "id not empty", "duplicate normalized stems",
                  "figure-dependent question without Image", "empty Tag"}
     print("  Row defects:" if probs else "  Row defects: none")
@@ -248,7 +250,7 @@ def audit_markdown(dirpath):
         nums = [int(n) for n in Q_RE.findall(txt)]
         answers = CORRECT_RE.findall(txt)
         sources = collections.Counter(SRC_RE.findall(txt))
-        mcq = [a for a in answers if a != "-"]
+        mcq = [a for a in answers if a not in ("-", "", "None")]
         name = os.path.basename(fp)
         issues, warnings = [], []
         if nums and nums != list(range(1, len(nums) + 1)):
