@@ -2,7 +2,7 @@
  "nn": "01",
  "source": "Raw_PDF_Questions/Endocrine WRITTEN Qs part.2.pdf",
  "sha256": "e9836d29cdf34a6137b7ec810c1d811229071814b98d6e18e9107d6a5d79a6eb",
- "at": "2026-09-26T06:24:10Z",
+ "at": "2026-09-27T08:11:28Z",
  "layout": {
   "method": "ocr",
   "splits": {
@@ -17,7 +17,7 @@
    "1-2"
   ],
   "option_a_lines": 0,
-  "parsed_questions": 14,
+  "parsed_questions": 15,
   "parsed_numbered": 0,
   "declared_total": null
  },
@@ -30,7 +30,7 @@
   "marked_hits": 0,
   "answered": 0,
   "mcq": 0,
-  "at": "2026-09-26T06:24:10Z"
+  "at": "2026-09-27T08:11:28Z"
  },
  "distribution": {},
  "dropped_lines": [
@@ -55,7 +55,7 @@
  "dropped_count": 17,
  "skipped_questions": [],
  "overrides": {
-  "applied": 0,
+  "applied": 28,
   "dropped": [
    {
     "stem": "ab el \"Pi atime mm) 1NU0 stiGotion f vas ig =",
@@ -110,410 +110,23 @@
     "reason": "Page 4 is a handwritten primary-hyperaldosteronism study note; PSM 6 at 400 dpi and 110 dpi plus a PSM 11 trial did not recover a reliable stem, so the fragment set was omitted rather than reconstructed."
    }
   ],
-  "stale": []
+  "stale": [],
+  "added": 14
  },
  "questions": [
-  {
-   "i": 1,
-   "number": null,
-   "section": 1,
-   "type": "QROC",
-   "stem": "ab el \"Pi atime mm) 1NU0 stiGotion f vas ig =",
-   "options": [],
-   "after": "",
-   "exp": "",
-   "inline_answer": null,
-   "flags": [
-    "unnumbered",
-    "low_ocr_confidence",
-    "written_without_model_answer"
-   ],
-   "cut_prefix": "",
-   "page": 3,
-   "bbox": [
-    121.1,
-    62.8,
-    2002.3,
-    421.5
-   ],
-   "pages": [
-    3
-   ],
-   "candidates": [],
-   "correct": "-",
-   "answer_source": null
-  },
-  {
-   "i": 2,
-   "number": null,
-   "section": 1,
-   "type": "QROC",
-   "stem": "Plasm PAC.",
-   "options": [],
-   "after": "",
-   "exp": "",
-   "inline_answer": null,
-   "flags": [
-    "unnumbered",
-    "written_without_model_answer"
-   ],
-   "cut_prefix": "",
-   "page": 3,
-   "bbox": [
-    245.5,
-    382.3,
-    581.9,
-    627.1
-   ],
-   "pages": [
-    3
-   ],
-   "candidates": [],
-   "correct": "-",
-   "answer_source": null
-  },
-  {
-   "i": 3,
-   "number": null,
-   "section": 1,
-   "type": "QROC",
-   "stem": "la (7 20) feonin",
-   "options": [],
-   "after": "",
-   "exp": "",
-   "inline_answer": null,
-   "flags": [
-    "unnumbered",
-    "low_ocr_confidence",
-    "written_without_model_answer"
-   ],
-   "cut_prefix": "",
-   "page": 3,
-   "bbox": [
-    246.8,
-    575.3,
-    940.6,
-    871.2
-   ],
-   "pages": [
-    3
-   ],
-   "candidates": [],
-   "correct": "-",
-   "answer_source": null
-  },
-  {
-   "i": 4,
-   "number": null,
-   "section": 1,
-   "type": "QROC",
-   "stem": "Pee PRA: PAc w) Couf-innetory fests. Da (inet in Fuso -» 492 rf S JonGgld!",
-   "options": [],
-   "after": "",
-   "exp": "",
-   "inline_answer": null,
-   "flags": [
-    "unnumbered",
-    "low_ocr_confidence",
-    "written_without_model_answer"
-   ],
-   "cut_prefix": "",
-   "page": 3,
-   "bbox": [
-    224.5,
-    848.9,
-    2024.5,
-    1303.2
-   ],
-   "pages": [
-    3
-   ],
-   "candidates": [],
-   "correct": "-",
-   "answer_source": null
-  },
-  {
-   "i": 5,
-   "number": null,
-   "section": 1,
-   "type": "QROC",
-   "stem": "[fudo Covtisone 3 yPPression t2St",
-   "options": [],
-   "after": "",
-   "exp": "",
-   "inline_answer": null,
-   "flags": [
-    "unnumbered",
-    "low_ocr_confidence",
-    "written_without_model_answer"
-   ],
-   "cut_prefix": "",
-   "page": 3,
-   "bbox": [
-    462.1,
-    1241.7,
-    1771.9,
-    1369.3
-   ],
-   "pages": [
-    3
-   ],
-   "candidates": [],
-   "correct": "-",
-   "answer_source": null
-  },
-  {
-   "i": 6,
-   "number": null,
-   "section": 1,
-   "type": "QROC",
-   "stem": "Cite Pril",
-   "options": [],
-   "after": "",
-   "exp": "",
-   "inline_answer": null,
-   "flags": [
-    "unnumbered",
-    "low_ocr_confidence",
-    "written_without_model_answer"
-   ],
-   "cut_prefix": "",
-   "page": 3,
-   "bbox": [
-    454.3,
-    1339.9,
-    864.7,
-    1466.8
-   ],
-   "pages": [
-    3
-   ],
-   "candidates": [],
-   "correct": "-",
-   "answer_source": null
-  },
-  {
-   "i": 7,
-   "number": null,
-   "section": 1,
-   "type": "QROC",
-   "stem": "er, MRT ye wnat reind of Petiants wil You ce",
-   "options": [],
-   "after": "",
-   "exp": "",
-   "inline_answer": null,
-   "flags": [
-    "unnumbered",
-    "low_ocr_confidence",
-    "written_without_model_answer"
-   ],
-   "cut_prefix": "",
-   "page": 3,
-   "bbox": [
-    252.0,
-    1438.0,
-    1546.7,
-    1944.7
-   ],
-   "pages": [
-    3
-   ],
-   "candidates": [],
-   "correct": "-",
-   "answer_source": null
-  },
-  {
-   "i": 8,
-   "number": null,
-   "section": 1,
-   "type": "QROC",
-   "stem": "Dhyfertensten and hytonaloma",
-   "options": [],
-   "after": "",
-   "exp": "",
-   "inline_answer": null,
-   "flags": [
-    "unnumbered",
-    "low_ocr_confidence",
-    "written_without_model_answer"
-   ],
-   "cut_prefix": "",
-   "page": 3,
-   "bbox": [
-    180.7,
-    1855.0,
-    1468.8,
-    2089.3
-   ],
-   "pages": [
-    3
-   ],
-   "candidates": [],
-   "correct": "-",
-   "answer_source": null
-  },
-  {
-   "i": 9,
-   "number": null,
-   "section": 1,
-   "type": "QROC",
-   "stem": "Dug yosiytant ITN a ele » [Ga matty / Mocvate ov p20dd HTWV ays",
-   "options": [],
-   "after": "",
-   "exp": "",
-   "inline_answer": null,
-   "flags": [
-    "unnumbered",
-    "low_ocr_confidence",
-    "written_without_model_answer"
-   ],
-   "cut_prefix": "",
-   "page": 3,
-   "bbox": [
-    172.1,
-    2007.5,
-    2138.4,
-    2388.4
-   ],
-   "pages": [
-    3
-   ],
-   "candidates": [],
-   "correct": "-",
-   "answer_source": null
-  },
-  {
-   "i": 10,
-   "number": null,
-   "section": 1,
-   "type": "QROC",
-   "stem": "HyPotens!o\" with adrenal mcrdentaloma",
-   "options": [],
-   "after": "",
-   "exp": "",
-   "inline_answer": null,
-   "flags": [
-    "unnumbered",
-    "low_ocr_confidence",
-    "written_without_model_answer"
-   ],
-   "cut_prefix": "",
-   "page": 3,
-   "bbox": [
-    151.9,
-    2302.0,
-    1920.4,
-    2555.3
-   ],
-   "pages": [
-    3
-   ],
-   "candidates": [],
-   "correct": "-",
-   "answer_source": null
-  },
-  {
-   "i": 11,
-   "number": null,
-   "section": 1,
-   "type": "QROC",
-   "stem": "Family histo af. Conn syndrav&",
-   "options": [],
-   "after": "",
-   "exp": "",
-   "inline_answer": null,
-   "flags": [
-    "unnumbered",
-    "low_ocr_confidence",
-    "written_without_model_answer"
-   ],
-   "cut_prefix": "",
-   "page": 3,
-   "bbox": [
-    156.4,
-    2481.4,
-    1688.1,
-    2700.7
-   ],
-   "pages": [
-    3
-   ],
-   "candidates": [],
-   "correct": "-",
-   "answer_source": null
-  },
-  {
-   "i": 12,
-   "number": null,
-   "section": 1,
-   "type": "QROC",
-   "stem": "bo early CQvebro vascular; wt",
-   "options": [],
-   "after": "",
-   "exp": "",
-   "inline_answer": null,
-   "flags": [
-    "unnumbered",
-    "low_ocr_confidence",
-    "written_without_model_answer"
-   ],
-   "cut_prefix": "",
-   "page": 3,
-   "bbox": [
-    1004.1,
-    2593.3,
-    2089.3,
-    2888.5
-   ],
-   "pages": [
-    3
-   ],
-   "candidates": [],
-   "correct": "-",
-   "answer_source": null
-  },
-  {
-   "i": 13,
-   "number": null,
-   "section": 1,
-   "type": "QROC",
-   "stem": "ma (ound \"Ge < Ug tn",
-   "options": [],
-   "after": "",
-   "exp": "",
-   "inline_answer": null,
-   "flags": [
-    "unnumbered",
-    "low_ocr_confidence",
-    "written_without_model_answer"
-   ],
-   "cut_prefix": "",
-   "page": 3,
-   "bbox": [
-    1167.1,
-    2842.7,
-    2070.3,
-    3020.1
-   ],
-   "pages": [
-    3
-   ],
-   "candidates": [],
-   "correct": "-",
-   "answer_source": null
-  },
   {
    "i": 14,
    "number": null,
    "section": 1,
    "type": "QROC",
-   "stem": "Qs: Radiological finding in thyrotoxicosis?",
+   "stem": "Radiological finding in thyrotoxicosis?",
    "options": [],
    "after": "",
-   "exp": "1) do radioactive iodine uptake: if increase that suspect Thyrotoxicosis and hyperthyroidism and if decreased that suspect Thyroiditis 2) do thyroid scanning: to confirm site of uptake of iodine: if diffuse it mean Graves and if solitary nodule uptake it means Toxic Solitary (Adenoma and if multiple uptakes sites it means toxic Multinodular Goiter",
+   "exp": "Radioiodine uptake is increased in thyrotoxicosis caused by increased hormone synthesis and decreased in thyroiditis. Thyroid scintigraphy distinguishes the pattern: diffuse uptake suggests Graves disease, a solitary hot nodule suggests a toxic adenoma, and multiple areas of uptake suggest toxic multinodular goiter.",
    "inline_answer": null,
    "flags": [
-    "unnumbered"
+    "unnumbered",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 6,
@@ -528,7 +141,344 @@
    ],
    "candidates": [],
    "correct": "-",
-   "answer_source": null
+   "answer_source": null,
+   "exp_source": "key"
+  },
+  {
+   "i": null,
+   "number": null,
+   "section": null,
+   "type": "QROC",
+   "stem": "Pituitary diseases: causes and clinical types of hypopituitarism.",
+   "after": "",
+   "exp": "Presentation\n- Hormone excess.\n- Hormone deficit.\n- Mass effect.\n\nCauses of hypopituitarism\n- Pituitary causes: infarction, inflammation, autoimmune, iatrogenic, injury, irradiation, idiopathic, infiltration, inherited.\n- Extra-pituitary causes: compression of the stalk; hypothalamic disease (weight loss, heavy exercise, chronic illness, steroid use).\n\nPatterns of hypopituitarism\n- Panhypopituitarism: Sheehan syndrome (no lactation, 2ry amenorrhea, weakness/fatigue, hair loss).\n- Selective deficiency: GH deficiency; hypogonadism.\n  - In female: amenorrhea, vaginal dryness, loss of 2ry sex characteristics, loss of libido.\n  - In male: testes atrophy, erectile dysfunction, loss of 2ry sex characteristics, gynecomastia, loss of libido.\n\nDiagnosis\n- Suspicion: hypothyroid manifestation except no weight gain, alabaster skin, fine wrinkling hair, hypotension.\n- Screening: TSH, FSH, LH, ACTH, GH and prolactin.\n- Confirmation: insulin stimulation test and synACTH, TRH and GnRH (clomid).\n- Identify cause and complications.\n\nTreatment\n- Cortisone.\n- Thyroxin.\n- Gonads hormone (estrogen or testosterone).",
+   "inline_answer": null,
+   "options": [],
+   "flags": [
+    "added_from_page_image"
+   ],
+   "cut_prefix": "",
+   "page": 10,
+   "bbox": null,
+   "pages": [
+    10
+   ],
+   "candidates": {},
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "key"
+  },
+  {
+   "i": null,
+   "number": null,
+   "section": null,
+   "type": "QROC",
+   "stem": "Manifest tetany.",
+   "after": "",
+   "exp": "- Muscle spasm: facial (risus sardonicus), jaw (trismus), larynx (laryngismus stridulus), diaphragm (hiccough), wall of urinary bladder (enuresis), sphincter (retention), back (opisthotonus).\n- Carpopedal spasm, twitches, convulsions.\n- Nails → loss of luster, brittle.\n- Skin → desquamation, atrophy, alopecia.\n- Hair → premature loss.\n- Lens → cataract.\n- Teeth → hypoplastic, transverse furrows, punctate holes.\n\nTreatment\n- In acute attacks → calcium gluconate 10 ml slowly over 10 min.\n- Treat the cause:\n  - Hypocalcemia → oral calcium lactate 2 gm TDS; active vitamin D (1-25 D3); thiazide diuretics to decrease calcium excretion in urine.\n  - Hypomagnesemia → oral Mg.\n  - In alkalosis → treat the cause.",
+   "inline_answer": null,
+   "options": [],
+   "flags": [
+    "added_from_page_image"
+   ],
+   "cut_prefix": "",
+   "page": 9,
+   "bbox": null,
+   "pages": [
+    9
+   ],
+   "candidates": {},
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "key"
+  },
+  {
+   "i": null,
+   "number": null,
+   "section": null,
+   "type": "QROC",
+   "stem": "Hypocalcemia: causes, clinical picture and provocative tests.",
+   "after": "",
+   "exp": "Causes\n1. Decreased calcium intake: starvation, dysphagia.\n2. Decreased calcium absorption: hypoparathyroidism, decreased vitamin D, myxedema, panhypopituitarism, gastrectomy, malabsorption.\n3. Increased loss in urine: loop diuretics, renal rickets, CRF.\n4. Calcium precipitation in tissue: acute pancreatitis, hungry bone, overtreatment with calcitonin, phosphate.\n\nClinical picture\nIn latent cases: Ca 7–9 mg%.\n\nProvocative tests\n1. Chvostek: tapping of facial nerve → facial muscle contraction.\n2. Trousseau: inflation of sphygmomanometer above systolic pressure for 5 min → carpal spasm.\n3. Erb's: current <4 mA → muscle contraction.",
+   "inline_answer": null,
+   "options": [],
+   "flags": [
+    "added_from_page_image"
+   ],
+   "cut_prefix": "",
+   "page": 8,
+   "bbox": null,
+   "pages": [
+    8
+   ],
+   "candidates": {},
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "key"
+  },
+  {
+   "i": null,
+   "number": null,
+   "section": null,
+   "type": "QROC",
+   "stem": "Hypoglycemia: causes, clinical picture and treatment.",
+   "after": "",
+   "exp": "Cause\nGlucose <50 mg/dL due to overdose of insulin or some oral antidiabetic (OAD) drugs, or a missed meal.\n\nClinical picture\n1. Adrenergic manifestations (sympathetic overactivity): rapid onset of irritability, tremors, shaking, pallor, sweating and palpitation. Signs: dilated pupils, pallor, coldness, moist skin, strong rapid pulse and increased BP.\n2. Neuroglycopenic manifestations (decreased brain energy): dizziness, lack of concentration, cognitive impairment, inappropriate behavior; convulsions, coma, brain damage → death.\n\nTreatment\n- Mild (conscious) → oral glucose.\n- Severe (unconscious) → I.V. glucose, I.M. glucagon.",
+   "inline_answer": null,
+   "options": [],
+   "flags": [
+    "added_from_page_image"
+   ],
+   "cut_prefix": "",
+   "page": 7,
+   "bbox": null,
+   "pages": [
+    7
+   ],
+   "candidates": {},
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "key"
+  },
+  {
+   "i": null,
+   "number": null,
+   "section": null,
+   "type": "QROC",
+   "stem": "Approaches to diagnosis of solitary thyroid nodule.",
+   "after": "",
+   "exp": "1. Suspicion: neuropsychiatric irritability (insomnia, anxiety and tremors) in a patient with cardiac manifestations (dyspnea and palpitation), especially if metabolic symptoms are present. Note: thyroid function test is mandatory in atrial fibrillation (A.F.).\n2. Screening: mainly suppressed TSH.\n3. Confirmatory: elevated free T4 and/or T3.\n4. Identify cause:\n   - Graves: TSH receptor antibodies.\n   - Thyrotoxicosis with hyperthyroidism: increased radioactive iodine uptake (RIU) (does not confirm the site of uptake).\n   - Thyroiditis: decreased RIU.\n   - Isotope scanning: confirms the site of uptake.",
+   "inline_answer": null,
+   "options": [],
+   "flags": [
+    "added_from_page_image"
+   ],
+   "cut_prefix": "",
+   "page": 6,
+   "bbox": null,
+   "pages": [
+    6
+   ],
+   "candidates": {},
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "key"
+  },
+  {
+   "i": null,
+   "number": null,
+   "section": null,
+   "type": "QROC",
+   "stem": "Prediabetes: definition, diagnostic criteria, importance, prognosis, included groups and management.",
+   "after": "",
+   "exp": "Definition\nA condition in which blood glucose is higher than normal but not high enough to be classified as DM. This condition is sometimes called impaired glucose tolerance (IGT) or impaired fasting glucose (IFG), depending on the test used to diagnose it.\n\nCriteria for diagnosis\n1. Fasting blood glucose: 100–125 mg%.\n2. Postprandial blood glucose: 140–199 mg%.\n3. Hb-A1c: 5.7–6.4.\n\nImportance (manifestation)\n1. Increased risk for macrovascular complications due to insulin resistance (I.R.) → cardiovascular system (CVS) diseases.\n2. Predictor for subsequent type 2 DM.\n3. Stressful conditions (pregnancy) → blood glucose reaches the diabetic range.\n\nPrognosis\nGood prognosis and may return to normal glucose level.\n- IGT leads to type 2 DM in about 34% of cases over 5 years.\n- IGT and IFG together lead to type 2 DM in 65% of cases.\n- Prediabetics are at high risk for cardiovascular complications.\n\nThis group includes\n1. Positive family history.\n2. Obesity.\n3. Renal glucosuria.\n4. Female with bad obstetric history → macrosomia.\n\nManagement\n1. Lifestyle modifications: increase exercise, decrease weight.\n2. Diet: decrease fat and simple carbohydrate; increase fibers and fruits.\n3. Drugs: insulin sensitizer (metformin), statins, ACE/ARB (for HTN).",
+   "inline_answer": null,
+   "options": [],
+   "flags": [
+    "added_from_page_image"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": null,
+   "pages": [
+    5
+   ],
+   "candidates": {},
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "key"
+  },
+  {
+   "i": null,
+   "number": null,
+   "section": null,
+   "type": "QROC",
+   "stem": "Treatment of adrenal crisis.",
+   "after": "",
+   "exp": "1. Symptomatic treatment: fluids (1.5 L glucose; 0.9% saline, 1.5 L).\n2. Hormone replacement: hydrocortisone I.V.; desoxycorticosteroid.\n3. Treatment of the cause, e.g. infection.",
+   "inline_answer": null,
+   "options": [],
+   "flags": [
+    "added_from_page_image"
+   ],
+   "cut_prefix": "",
+   "page": 5,
+   "bbox": null,
+   "pages": [
+    5
+   ],
+   "candidates": {},
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "key"
+  },
+  {
+   "i": null,
+   "number": null,
+   "section": null,
+   "type": "QROC",
+   "stem": "Adrenal crisis: causes and clinical picture.",
+   "after": "",
+   "exp": "Causes\n1. Primary:\n   - Acute from the start: meningococcal septicemia.\n   - Sudden withdrawal of chronic steroid treatment.\n   - Hemorrhage in the gland.\n   - Acute event on top of chronic Addison disease when exposed to stress: trauma, infection, surgery.\n2. Secondary: pituitary apoplexy; surgical removal.\n\nClinical picture\n- Severe hypotension (shock).\n- Hypoglycemia → coma.\n- Severe weakness → confusion.\n- Skin desquamation.\n- Acute abdomen: severe nausea, vomiting, diarrhea.",
+   "inline_answer": null,
+   "options": [],
+   "flags": [
+    "added_from_page_image"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": null,
+   "pages": [
+    4
+   ],
+   "candidates": {},
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "key"
+  },
+  {
+   "i": null,
+   "number": null,
+   "section": null,
+   "type": "QROC",
+   "stem": "Pituitary causes of hypogonadism.",
+   "after": "",
+   "exp": "- Infarction.\n- Inflammation.\n- Autoimmune.\n- Iatrogenic.\n- Injury.\n- Irradiation.\n- Idiopathic.\n- Infiltration.\n- Inherited.",
+   "inline_answer": null,
+   "options": [],
+   "flags": [
+    "added_from_page_image"
+   ],
+   "cut_prefix": "",
+   "page": 4,
+   "bbox": null,
+   "pages": [
+    4
+   ],
+   "candidates": {},
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "key"
+  },
+  {
+   "i": null,
+   "number": null,
+   "section": null,
+   "type": "QROC",
+   "stem": "Primary hyperaldosteronism: investigations. What kind of patients will you investigate?",
+   "after": "",
+   "exp": "Investigations\n1. Plasma aldosterone concentration (PAC) ↑ (normal 3–15 ng%).\n2. Plasma renin concentration (PRC) ↓.\n3. PRA:PAC ratio >20 → suspect the case.\n4. Confirmatory tests (aldosterone suppression):\n   - Saline infusion → positive if >10 ng/dl.\n   - Fludrocortisone suppression test.\n   - Captopril suppression test.\n5. CT, MRI of adrenal gland.\n\nPatients to investigate\n1. Hypertension and hypokalemia.\n2. Moderate or severe hypertension: systolic >160 mmHg, diastolic >100 mmHg.\n3. Drug-resistant hypertension.\n4. Hypertension with adrenal incidentaloma.\n5. Family history of Conn's syndrome, or early hypertension/cerebrovascular accident at a young age <40 years.",
+   "inline_answer": null,
+   "options": [],
+   "flags": [
+    "added_from_page_image"
+   ],
+   "cut_prefix": "",
+   "page": 3,
+   "bbox": null,
+   "pages": [
+    3
+   ],
+   "candidates": {},
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "key"
+  },
+  {
+   "i": null,
+   "number": null,
+   "section": null,
+   "type": "QROC",
+   "stem": "Subacute thyroiditis: clinical picture, investigations and treatment.",
+   "after": "",
+   "exp": "Clinical picture\n- Thyroid pain (the most common cause).\n- Painful swallowing, sore throat.\n- Fever, fatigue, malaise.\n- Usually self-limited and resolves in 6–8 weeks, with only 1% having permanent hypothyroidism.\n- May be transient hypothyroidism for 2–8 weeks.\n\nInvestigations\n- Diminished radioiodine uptake.\n- Elevated ESR.\n- High T3/T4.\n\nTreatment\n- Mild cases → none or aspirin.\n- Severe cases → prednisone.\n- Thyrotoxicosis → propranolol.",
+   "inline_answer": null,
+   "options": [],
+   "flags": [
+    "added_from_page_image"
+   ],
+   "cut_prefix": "",
+   "page": 2,
+   "bbox": null,
+   "pages": [
+    2
+   ],
+   "candidates": {},
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "key"
+  },
+  {
+   "i": null,
+   "number": null,
+   "section": null,
+   "type": "QROC",
+   "stem": "Subclinical hypothyroidism: define.",
+   "after": "",
+   "exp": "High TSH with normal T3 and T4.",
+   "inline_answer": null,
+   "options": [],
+   "flags": [
+    "added_from_page_image"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": null,
+   "pages": [
+    1
+   ],
+   "candidates": {},
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "key"
+  },
+  {
+   "i": null,
+   "number": null,
+   "section": null,
+   "type": "QROC",
+   "stem": "Management of diabetic ketoacidosis.",
+   "after": "",
+   "exp": "1. Hospitalization in an intensive care unit (ICU).\n2. Correct hyperglycemia with short-acting insulin: intravenous (I.V.) during ketosis; subcutaneous (S.C.) after ketosis.\n3. Correct dehydration with I.V. fluids: first normal saline, then 5% glucose.\n4. Correct acidosis with I.V. sodium bicarbonate infusion.\n5. Correct hypokalemia → potassium (K).\n6. Treat the cause → antibiotics for infection.\n7. Monitor the patient: clinically, level of consciousness, dehydration and blood pressure (BP); in the laboratory, glucose, pH, HCO3 and K; urine ketones and glucose.",
+   "inline_answer": null,
+   "options": [],
+   "flags": [
+    "added_from_page_image"
+   ],
+   "cut_prefix": "",
+   "page": 1,
+   "bbox": null,
+   "pages": [
+    1
+   ],
+   "candidates": {},
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "key"
+  },
+  {
+   "i": null,
+   "number": null,
+   "section": null,
+   "type": "QROC",
+   "stem": "Diabetic ketoacidosis: causes, clinical picture and diagnostic criteria.",
+   "after": "",
+   "exp": "Causes\n1. Absolute insulin deficiency: missed insulin.\n2. Relative insulin deficiency: psychological distress; pregnancy and labour; stroke; acute myocardial infarction (AMI); surgery; trauma; infections (pneumonia, urinary tract infection); drugs (corticosteroids, thiazides).\n\nClinical picture\n1. Hyperglycemia → severe polyuria and polydipsia.\n2. Dehydration → dry skin, sunken eyes, dry tongue, weak rapid pulse.\n3. Acidosis → gastrointestinal symptoms (acute abdominal pain, nausea, vomiting) and respiratory signs (acetone odour, Kussmaul breathing).\n4. Disturbed consciousness: mild disorientation → frank coma.\n5. Other findings: clinical picture of the cause (e.g. infection) and complications (e.g. atrial fibrillation).\n\nDiagnostic criteria\n1. Plasma glucose (PG) >300 mg/dl with glucosuria.\n2. Ketonemia with ketonuria.\n3. Metabolic acidosis: HCO3 <15 mEq/L, pH <7.3.\n4. Anion gap >12 mEq/L.",
+   "inline_answer": null,
+   "options": [],
+   "flags": [
+    "added_from_page_image"
+   ],
+   "cut_prefix": "",
+   "page": 0,
+   "bbox": null,
+   "pages": [
+    0
+   ],
+   "candidates": {},
+   "correct": null,
+   "answer_source": null,
+   "exp_source": "key"
   }
  ]
 }

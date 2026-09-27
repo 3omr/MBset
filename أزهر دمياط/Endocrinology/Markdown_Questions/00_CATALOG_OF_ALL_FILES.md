@@ -7,9 +7,9 @@
 
 | # | Source | Type | Markdown | Q | MCQ | QROC | Answer sources | Tag | tagSuggere | Year | Status |
 |---|---|---|---|---:|---:|---:|---|---|---|---|---|
-| 01 | `Endocrine WRITTEN Qs part.2.pdf` | scanned · 11 p | `01_Endocrine_WRITTEN_Qs_part_2.md` | 1 | 0 | 1 |  | Department, IMP Written 2026 | None | 2026 | REVIEWED — spot-check 1/1 retained QROC verified against p7; sampled p4 fragments are logged drops |
+| 01 | `Endocrine WRITTEN Qs part.2.pdf` | scanned · 11 p | `01_Endocrine_WRITTEN_Qs_part_2.md` | 15 | 0 | 15 |  | External, IMP Written 2026 | None | 2026 | REVIEWED — spot-check 2/2 OK (Q15 DKA p1, Q5 hypoglycemia p8 compared with the page images) |
 | 02 | `Endocrine WRITTEN Qs part.3.pdf` | scanned · 15 p | `02_Endocrine_WRITTEN_Qs_part_3.md` |  |  |  | none 2 | External, Endocrine WRITTEN Qs part | None |  | EXCLUDED — EXCLUDED — pages 1–15 are lecture notes and diagrams (hypothyroidism, short stature, pheochromocytoma, metformin); no exam question block. The parsed fragments are note headings and facts, not questions. |
-| 03 | `Endocrine mcq الحسين.pdf` | digital_single · 24 p | `03_Endocrine_mcq_Hussein.md` | 224 | 200 | 24 | key 191 / marked 9 | External, Blue book | None |  | REVIEWED — spot-check 23/23 OK |
+| 03 | `Endocrine mcq الحسين.pdf` | digital_single · 24 p | `03_Endocrine_mcq_Hussein.md` | 224 | 200 | 24 | key 191 / marked 9 | External, El Hussein | None |  | REVIEWED — spot-check 23/23 OK |
 | 04 | `Metabolic syndrome questions.pdf` | digital_single · 2 p | `04_Metabolic_syndrome_questions.md` | 10 | 8 | 2 | marked 8 | Department, Endocrinology 2026, Metabolic Syndrome | Internal Medicine | 2026 | REVIEWED — spot-check 5/5 OK |
 | 05 | `adrenal questions منير.pdf` | digital_two_column · 6 p | `05_Adrenal_questions.md` | 70 | 70 | 0 | key 70 | External, Dr Moneer | None |  | REVIEWED — spot-check 7/7 OK |
 | 06 | `introduction questions منير.pdf` | digital_two_column · 3 p | `06_Introduction_questions.md` | 30 | 30 | 0 | key 30 | External, Dr Moneer | None |  | REVIEWED — spot-check 5/5 OK |
