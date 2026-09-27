@@ -311,7 +311,7 @@
 
 ### Q23: The earliest sign of hypocalcaemia is:
 
-- **A)** Carpo-pedal spasrs
+- **A)** Carpo-pedal spasms
 - **B)** Defective blood coagulation
 - **C)** Positive Chovstek's sign
 - **D)** Positive Trausseou's sign

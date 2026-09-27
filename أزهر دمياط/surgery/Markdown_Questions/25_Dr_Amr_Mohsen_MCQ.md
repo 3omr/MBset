@@ -2267,7 +2267,7 @@
 
 - **A)** Choledochal cyst predisposes to cholangiocarcinoma.
 - **B)** The possible extracolonic complications of ulcerative colitis include cholangiocarcinoma.
-- **C)** Bile duct infestation with the Ascaris parasite predisposes to cholangio- carcinoma.
+- **C)** Bile duct infestation with the Ascaris parasite predisposes to cholangiocarcinoma.
 - **D)** Hilar (at liver hilum) cholangiocarcinoma is known as Klatskin tumour.
 - **E)** Percutaneous transhepatic cholangiography (PTC) is useful in showing the upper limit of the tumour.
 
@@ -9617,7 +9617,7 @@
 
 ---
 
-### Q697: 2 Whatis the most common spinal cord tumour in adults?
+### Q697: What is the most common spinal cord tumour in adults?
 
 - **A)** Ependymoma.
 - **B)** Astrocytoma.
@@ -11169,7 +11169,7 @@
 
 ---
 
-### Q810: 57 A trauma victim, two weeks after the accident. He is asked to hold this sheet of paper firmly by adducting his thumbs. The appearance points at
+### Q810: A trauma victim, two weeks after the accident. He is asked to hold this sheet of paper firmly by adducting his thumbs. The appearance points at
 
 - **A)** Left median nerve injury.
 - **B)** Right ulnar nerve injury.
@@ -11621,7 +11621,7 @@
 ### Q842: A 60-year-old woman complains of jaundice, mild upper abdominal pain and generalized itching. All the following statements are true, except
 
 - **A)** This is abdominal CT with IV contrast.
-- **B)** The white arrow points at a thick- walled gallbladder.
+- **B)** The white arrow points at a thick-walled gallbladder.
 - **C)** The red arrow points at the inferior vena cava.
 - **D)** Alkaline phosphatase is expected to be elevated.
 - **E)** Gamma-glutamyl transferase (GGT) is expected to be elevated.

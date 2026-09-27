@@ -2,7 +2,7 @@
  "nn": "24",
  "source": "Raw_PDF_Questions/امتحان قديم.pdf",
  "sha256": "22858369b1e7db4aaaf38356f9f46915067c02267b72ce49468230ff84dad309",
- "at": "2026-09-26T15:56:51Z",
+ "at": "2026-09-27T07:42:24Z",
  "layout": {
   "method": "ocr",
   "splits": {
@@ -46,15 +46,15 @@
    "underline": 0.0
   },
   "marked_hits": 43,
-  "answered": 58,
+  "answered": 60,
   "mcq": 60,
-  "at": "2026-09-26T15:56:51Z"
+  "at": "2026-09-27T07:42:24Z"
  },
  "distribution": {
-  "A": 0.155,
-  "B": 0.328,
-  "C": 0.293,
-  "D": 0.224
+  "A": 0.15,
+  "B": 0.333,
+  "C": 0.3,
+  "D": 0.217
  },
  "dropped_lines": [
   "CamScannerg",
@@ -73,7 +73,7 @@
  "dropped_count": 12,
  "skipped_questions": [],
  "overrides": {
-  "applied": 19,
+  "applied": 21,
   "dropped": [],
   "stale": [],
   "added": 2
@@ -3024,7 +3024,7 @@
     },
     {
      "letter": "B",
-     "text": "Mostly select iliac arteries. select distal arteris",
+     "text": "Mostly select iliac arteries.",
      "bold": 0.0,
      "color": 0.41,
      "marks": [
@@ -3076,7 +3076,8 @@
    "inline_answer": null,
    "flags": [
     "number_corrected_from_31",
-    "several_options_with_tint"
+    "several_options_with_tint",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 4,
@@ -3490,7 +3491,7 @@
      "evidence": "only option with tint"
     }
    ],
-   "correct": "B",
+   "correct": "C",
    "answer_source": "marked",
    "answer_evidence": "only option with tint"
   },
@@ -3543,8 +3544,8 @@
     5
    ],
    "candidates": {},
-   "correct": null,
-   "answer_source": null
+   "correct": "B",
+   "answer_source": "marked"
   },
   {
    "i": 36,
@@ -4734,8 +4735,8 @@
     6
    ],
    "candidates": {},
-   "correct": null,
-   "answer_source": null
+   "correct": "B",
+   "answer_source": "marked"
   },
   {
    "i": 48,

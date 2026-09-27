@@ -53,7 +53,7 @@
 
 ---
 
-### Q5: Whatis the tis the originof Ameloblastoma?
+### Q5: What is the origin of Ameloblastoma?
 
 - **A)** Osteoclasts
 - **B)** Osteoblasts
@@ -661,8 +661,8 @@
 ### Q49: One of the following criteria can support the diagnosis of chronic submandibular calcular sialadenitis.
 
 - **A)** usually multiple swellings
-- **B)** can berolled around the mandible
-- **C)** Cc) by Bidigital palpation itis best fll from outside
+- **B)** can be rolled around the mandible
+- **C)** by Bidigital palpation it is best felt from outside
 - **D)** positive lemon test
 - **E)** usually there no any discharge in the mouth
 
@@ -727,13 +727,13 @@
 
 ---
 
-### Q54: entlye tered si lip cancer is:
+### Q54: The frequently encountered site for lip cancer is:
 
 - **A)** Angle of the mouth
 - **B)** Lower lip at junction of middle and outer thirds
-- **C)** upper lipcentral pat
+- **C)** upper lip central part
 - **D)** upper lip at junction of middle and outer thirds
-- **E)** central part of lower lip
+- **E)** central part of the lower lip
 
 **Correct Answer:** B
 **Answer Source:** key
@@ -865,7 +865,7 @@
 
 ---
 
-### Q64: i f the followi is a midili eck swelling?
+### Q64: Which of the following is a midline neck swelling?
 
 - **A)** Laryngocele
 - **B)** Branchial cyst
@@ -1014,7 +1014,7 @@
 
 ---
 
-### Q75: of th Itrat iblei
+### Q75: Carcinoma of the tongue infiltrating the mandible is best treated by:
 
 - **A)** Radiotherapy of both primary and regional gland
 - **B)** Two-stage excision of primary and regional glands
@@ -1267,7 +1267,7 @@
 
 ---
 
-### Q94: leo cadenom edsaliva Hlowi ments i m st sali mor
+### Q94: Concerning pleomorphic adenoma (mixed salivary tumor), Which of the following statements is correct Is the commonest salivary tumor
 
 - **A)** Has a very heterogenous histological structure
 - **B)** Is well-encapsulated
@@ -1293,11 +1293,11 @@
 
 ---
 
-### Q96: is fr ndrome followi roti
+### Q96: What is Frey's syndrome following parotidectomy?
 
 - **A)** Gustatory sweating
-- **B)** Dry mouth due to reductionin salivary flow
-- **C)** Development ofa sialocele over the parotid bed
+- **B)** Dry mouth due to reduction in salivary flow
+- **C)** Development of a sialocele over the parotid bed
 - **D)** Cosmetic deformity due to loss of parotid bulk
 - **E)** Hyperplasia of the contralateral parotid gland
 
@@ -1307,13 +1307,13 @@
 
 ---
 
-### Q97: The comm discrete lu f the paroti landis:
+### Q97: The commonest discrete lump of the parotid gland is:
 
-- **A)** Pleomorphicadenoma
+- **A)** Pleomorphic adenoma
 - **B)** Mucoepidermoid carcinoma
 - **C)** Mumps
-- **D)** Parotid glandstone
-- **E)** Tuberculosis of the parotidlymph node
+- **D)** Parotid gland stone
+- **E)** Tuberculosis of the parotid lymph node
 
 **Correct Answer:** A
 **Answer Source:** key
@@ -1334,7 +1334,7 @@
 
 ---
 
-### Q99: racic outlet ments are true, exce
+### Q99: About thoracic outlet syndrome, all statements are true, except
 
 - **A)** In all cases a cervical rib is present
 - **B)** The commonest manifestations are caused by compression of the lower trunk of the brachial plexus
@@ -1388,10 +1388,10 @@
 
 ---
 
-### Q103: Lymph niti ffects
+### Q103: Tuberculous cervical lymphadenitis commonly affects:
 
 - **A)** Posterior triangle nodes
-- **B)** Upper deep.cervical nodes 1
+- **B)** Upper deep cervical nodes
 - **C)** Lower deep cervical nodes
 - **D)** Preauricular nodes
 
@@ -1777,7 +1777,7 @@
 
 ---
 
-### Q131: Whict the follow! iti hypothyroidism?
+### Q131: Which one of the following conditions are usually associated with hypothyroidism?
 
 - **A)** Grave's disease
 - **B)** Hashimoto's thyroiditis
@@ -1805,12 +1805,12 @@
 
 ---
 
-### Q133: the tumour marker for medullary thyro id cancer is.
+### Q133: the tumour marker for medullary thyroid cancer is.
 
-- **A)** thyroglobulin C
-- **B)** calcitonin B
-- **C)** CA19-9 C
-- **D)** CA125 A
+- **A)** thyroglobulin
+- **B)** calcitonin
+- **C)** CA 19-9
+- **D)** CA125
 - **E)** alpha feto protein
 
 **Correct Answer:** B
@@ -1819,13 +1819,13 @@
 
 ---
 
-### Q134: B tient rund total thyroi resented withca spasm, this is usually due to:
+### Q134: A patient after undergoing total thyroidectomy presented with carpopedal spasm, this is usually due to:
 
 - **A)** decrease level of T3
 - **B)** decrease level of THS
 - **C)** decrease calcium level
 - **D)** decreased level of potassium
-- **E)** increasedlevel of T3 and T4 as a result of excessive manipulation
+- **E)** increased level of T3 and T4 as a result of excessive manipulation
 
 **Correct Answer:** C
 **Answer Source:** key
@@ -1888,10 +1888,10 @@
 
 ---
 
-### Q139: The cri roi le gains motor ly from:
+### Q139: The cricothyroid muscle gains motor nerve supply from:
 
 - **A)** Recurrent laryngeal
-- **B)** Externallaryngeal
+- **B)** External laryngeal
 - **C)** Internal laryngeal
 - **D)** Cervical sympathetic ganglia
 
@@ -2225,7 +2225,7 @@
 
 ---
 
-### Q164: followi of thyrol tis mimics mali an
+### Q164: The following type of thyroiditis mimics malignancy:
 
 - **A)** Hashimoto thyroiditis
 - **B)** Riedle thyroiditis
@@ -3153,10 +3153,10 @@
 
 ---
 
-### Q231: tht neumot and circulato colla he first
+### Q231: In a patient with tension pneumothorax and circulatory collapse the first action should be:
 
 - **A)** chest physiotherapy
-- **B)** oxygeninhalation
+- **B)** oxygen inhalation
 - **C)** insertion of chest drain/needle
 - **D)** tracheostomy
 - **E)** putting the patent on ventilator
@@ -3344,10 +3344,10 @@
 
 ---
 
-### Q245: The most val ment of ition t
+### Q245: The most valuable laboratory assessment of nutrition is:
 
 - **A)** Serum Urea
-- **B)** Nonproteinnitrogen
+- **B)** Non protein nitrogen
 - **C)** Serum albumin
 - **D)** Serum plasma proteins
 - **E)** Serum calcium
@@ -3412,13 +3412,12 @@
 
 ---
 
-### Q250: li/ 2016 ) not wait for fluct esst itin all positions, except
+### Q250: Do not wait for fluctuation of an abscess to drain it in all the following positions, except:
 
 - **A)** Distal pulp space infection of a finger
 - **B)** Parotid abscess
 - **C)** Subeutancous abscess of forearm
 - **D)** Perianal abscess
-- **E)** unt trauma to the
 
 **Correct Answer:** B
 **Answer Source:** key
@@ -3426,7 +3425,7 @@
 
 ---
 
-### Q251: stc monlyi ures which of t foll organs:
+### Q251: Blunt trauma to the abdomen most commonly injures which of the following organs?
 
 - **A)** Liver
 - **B)** Like
@@ -3650,7 +3649,7 @@
 
 ---
 
-### Q273: e most f uent GIT lication anexten burnis
+### Q273: The most frequent GIT complication of an extensive burn is
 
 - **A)** Acute gastritis.
 - **B)** Acute dilatation of the stomach.
@@ -3732,7 +3731,7 @@
 
 ---
 
-### Q279: litis i hefa is dan
+### Q279: Cellulitis in the face is dangerous because of
 
 - **A)** Rapid local spread
 - **B)** Early toxemia
@@ -3787,7 +3786,7 @@
 
 ---
 
-### Q283: mic in inal tionm tot followin
+### Q283: Dynamic intestinal obstruction may be due to the following except:
 
 - **A)** Adhesions
 - **B)** Paralytic ileus
@@ -3842,12 +3841,13 @@
 
 ---
 
-### Q287: ich state S Incorrect conce ing electrical b
+### Q287: Which statement is incorrect concerning electrical burns
 
 - **A)** Usually have a small surface area
 - **B)** Are always superficial
-- **C)** Are often associated with massive muscle necrosis 11
+- **C)** Are often associated with massive muscle necrosis
 - **D)** May cause reddish discoloration of the urine
+- **E)** Are best treated by immediate excision and grafting
 
 **Correct Answer:** B
 **Answer Source:** key
@@ -3855,13 +3855,13 @@
 
 ---
 
-### Q288: ids are chara he foll LP)
+### Q288: Keloids are characterized by the following, except:
 
-- **A)** Consist of dense overgrowth of scar tissue 16
-- **B)** Develop after wounds, burns and vaccination marks
-- **C)** Are particularly common in negroes and pregnant females
-- **D)** Occur most often on the face, neck and front of the chest
-- **E)** May turn malignant
+- **A)** Consist of dense overgrowth of scar tissue.
+- **B)** Develop after wounds, burns and vaccination marks.
+- **C)** Are particularly common in negroes and pregnant females.
+- **D)** Occur most often on the face, neck and front of the chest.
+- **E)** May turn malignant.
 
 **Correct Answer:** E
 **Answer Source:** key
@@ -3896,10 +3896,10 @@
 
 ---
 
-### Q291: fort foll ase is corr
+### Q291: the most common site for the following disease is correctly matched except
 
-- **A)** Keloids: face, neckand skin over sternum
-- **B)** Hypertrophic scars; Extensor surfaces
+- **A)** Keloids: face, neck and skin over sternum
+- **B)** Hypertrophic scars: Extensor surfaces
 - **C)** Hemangiomas: head and neck
 - **D)** Basal cell carcinoma: face
 
@@ -3954,7 +3954,7 @@
 - **A)** is an encysted empyema
 - **B)** Gives an expansile impulse on cough
 - **C)** Can perforate skin loading to skin sinus
-- **D)** Ils asubcutaneous abscess communicating with empyemic pleura
+- **D)** Is a subcutaneous abscess communicating with empyemic pleura
 
 **Correct Answer:** D
 **Answer Source:** key
@@ -4111,7 +4111,7 @@
 
 ---
 
-### Q307: Isease Mm e transmitted durin ion exce
+### Q307: The following disease may be transmitted during blood transfusion except
 
 - **A)** CMV
 - **B)** Malaria
@@ -4261,13 +4261,13 @@
 
 ---
 
-### Q318: ing condi Imost always associ edawi inless ematochezia?
+### Q318: Which of the following conditions is almost always associated with painless hematochezia?
 
 - **A)** Bleeding from crohn's colitis
 - **B)** Ischemic colitis
 - **C)** Bleeding duodenal ulcer
 - **D)** Superior mesenteric artery embolism
-- **E)** Aortic fistula developing1 year after an abdominal aortic aneurysm repair
+- **E)** Aortic fistula developing 1 year after an abdominal aortic aneurysm repair
 
 **Correct Answer:** B
 **Answer Source:** key
@@ -5294,7 +5294,7 @@
 
 ---
 
-### Q395: throm sis (DVT) the mostsi ifi long te equale is:
+### Q395: In patients who develop deep venous thrombosis (DVT) the most significant long term sequelae is:
 
 - **A)** Claudication
 - **B)** Recurrent foot infections s
@@ -5519,11 +5519,11 @@
 
 ---
 
-### Q412: tcrush drome ther illbe:
+### Q412: About crush syndrome there will be:
 
 - **A)** Alkaline urine
-- **B)** Small Zof patient develops acute renal failure
-- **C)** Small % of the developedrenal failure will need dialysis
+- **B)** Small % of patient develops acute renal failure
+- **C)** Small % of the developed renal failure will need a-dialysis
 - **D)** Hypovolemic shock
 
 **Correct Answer:** D
@@ -5997,11 +5997,11 @@
 
 ---
 
-### Q447: Clinically what a saphena varix is most likely to be confused with? tres wert
+### Q447: Clinically what a saphena varix is most likely to be confused with?
 
 - **A)** Baker's cyst
 - **B)** Uncomplicated femoral hernia
-- **C)** Spermatoual henia
+- **C)** Spermatoual hernia
 - **D)** direct inguinal hernia
 - **E)** Varicocele
 
@@ -6122,13 +6122,13 @@
 
 ---
 
-### Q456: the Followin nnot be fo within the herni
+### Q456: Which of the Following organs cannot be found within the hernia sac?
 
-- **A)** Colon
-- **B)** Ovary
-- **C)** Urinary Bladder
-- **D)** Pancreas
-- **E)** ileum
+- **A)** Colon.
+- **B)** Ovary.
+- **C)** Urinary Bladder.
+- **D)** pancreas
+- **E)** ileum.
 
 **Correct Answer:** D
 **Answer Source:** key
@@ -6162,12 +6162,13 @@
 
 ---
 
-### Q459: ury oft "in inal rve dur emia r ircan
+### Q459: Injury of the ilio-inguinal nerve during hernia repair, what it can cause?
 
 - **A)** loss of erectile function
-- **B)** numbnessof the scrotum and medial aspect of the upper thigh
+- **B)** numbness of the scrotum and medial aspect of the upper thigh
 - **C)** Testicular dragging pain
 - **D)** Direct inguinal hernia due to paralysis of the conjoint tendon
+- **E)** incisional hernia
 
 **Correct Answer:** B
 **Answer Source:** key
@@ -6388,12 +6389,12 @@
 
 ---
 
-### Q476: The llowi is the most co of ias:
+### Q476: The following is the most common of hernias:
 
 - **A)** Femoral
 - **B)** Umbilical
 - **C)** Inguinal
-- **D)** incisional
+- **D)** Incisional
 
 **Correct Answer:** C
 **Answer Source:** key
@@ -6466,11 +6467,11 @@
 
 ---
 
-### Q482: are false? testi lar t ich of the following statement a ANSE
+### Q482: In testicular tumors, which of the following statements are false?
 
-- **A)** A scrotal ump that is inseparable from the testis is likely to be a tumour 10 Cc
-- **B)** Lymphatic spreadis usually to the inguinal lymph nodes 12 Cc
-- **C)** Teratom as occur in the third decade and seminomas in the fourth decade
+- **A)** A scrotal lump that is inseparable from the testis is likely to be a tumour
+- **B)** Lymphatic spread is usually to the inguinal lymph nodes
+- **C)** Teratomas occur in the third decade and seminomas in the fourth decade
 - **D)** Seminomas usually spread via the lymphatics
 
 **Correct Answer:** B
@@ -6492,7 +6493,7 @@
 
 ---
 
-### Q484: synth mate lused in herni lastyis
+### Q484: The synthetic material used in hernioplasty is
 
 - **A)** Prolene mesh
 - **B)** Skin graft
@@ -6637,7 +6638,7 @@
 
 ---
 
-### Q495: Testicular cancer first metastasizes to which group of lymph nodes (LN):
+### Q495: Testicular cancer first metastasizes to which group of LN:
 
 - **A)** Inguinal
 - **B)** Femoral
@@ -6830,13 +6831,13 @@
 
 ---
 
-### Q509: rs ol leh testicular tumour wit elevated alpha feto-protein the most likely diagnosis:
+### Q509: A 60 years old male have testicular tumour with elevated alpha feto-protein the most likely diagnosis is:
 
-- **A)** Taratoma
+- **A)** Teratoma
 - **B)** Seminoma
 - **C)** embryonal carcinoma
-- **D)** Lympnoma 1 Cc
-- **E)** Corio carcinoma
+- **D)** Lymphoma
+- **E)** chorio carcinoma
 
 **Correct Answer:** C
 **Answer Source:** key
@@ -6849,7 +6850,7 @@
 - **A)** Abdominal cavity
 - **B)** Inguinal canal
 - **C)** Pelvis
-- **D)** Superficial inguinal pouch icular ncer firstm stasiz
+- **D)** Superficial inguinal pouch
 
 **Correct Answer:** D
 **Answer Source:** key
@@ -6857,7 +6858,7 @@
 
 ---
 
-### Q511: Which group of lymph nodes does the testis primarily drain into?
+### Q511: Testicular cancer first metastasizes to which group of lymph nodes (LN)
 
 - **A)** Inguinal
 - **B)** Femoral
@@ -6938,7 +6939,7 @@
 
 ---
 
-### Q517: Testicular cancer first metastasizes to which group of lymph nodes:
+### Q517: Testicular cancer first metastasizes to which group of lymph nodes
 
 - **A)** Inguinal
 - **B)** Femoral
@@ -7018,12 +7019,12 @@
 
 ---
 
-### Q523: lowi statement ectopic testis ar e except tha
+### Q523: The following statements about ectopic testis are true except that it:
 
-- **A)** s probably due to rupture of
+- **A)** Is probably due to rupture of
 - **B)** May lie in the groin or pubic region
 - **C)** Does not develop normally
-- **D)** Has normaiiong spermatic cord
+- **D)** Has normal long spermatic cord
 - **E)** Can be easily
 
 **Correct Answer:** C
@@ -7394,13 +7395,13 @@
 
 ---
 
-### Q551: The following breast cancer lesion can be treated conservatively:
+### Q551: The following breast cancer lesion can be treated by conservative breast surgery
 
-- **A)** tumour less than 4 cm with N2 axilkary lymph nodes
-- **B)** tumour less than 4 cm witha history of treatment from collagen vascular disease
+- **A)** tumour less than 4 cm with N2 axillary lymph nodes
+- **B)** tumour less than 4 cm with a history of treatment from collagen vascular disease
 - **C)** tumour less than 4 cm with extensive insitu component
-- **D)** muiticentric tumour
-- **E)** tumour less than 4 cm and the axiliary lymph nodes are not palpable.
+- **D)** multicentric tumour
+- **E)** tumour less than 4 cm and the axillary lymph nodes are not palpable.
 
 **Correct Answer:** E
 **Answer Source:** key
@@ -7642,12 +7643,12 @@
 
 ---
 
-### Q570: i "ill amma rapni nen p Eb
+### Q570: All of the following are mammographic criteria of benign breast mass except..
 
 - **A)** Macro calcifications.
 - **B)** Smooth borders.
 - **C)** Homogenous.
-- **D)** Perifocalhaziness.
+- **D)** Perifocal haziness.
 
 **Correct Answer:** D
 **Answer Source:** key
@@ -7723,13 +7724,13 @@
 
 ---
 
-### Q576: "all tem oj Aenea except:
+### Q576: The following statements about lymphatic drainage of the breast are all true, except:
 
-- **A)** Lymph from medial half of the breast may drainin internal mammary nodes
-- **B)** from anywhere inthe breast lymphatic's drain mostly to axillary nodes
-- **C)** Division of axillary nodes into levels 1, 11 and Ill depends uponthe anatomical relationship with the pectoralis minor
+- **A)** Lymph from medial half of the breast may drain in internal mammary nodes
+- **B)** From anywhere in the breast lymphatic's drain mostly to axillary nodes
+- **C)** Division of axillary nodes into levels 1, 11 and III depends upon the anatomical relationship with the pectoralis minor
 - **D)** Level one axillary nodes is the highest in the axilla
-- **E)** The sentinel nodeis the earliest axillary node to be involved with cancer spread
+- **E)** The sentinel node is the earliest axillary node to be involved with cancer spread
 
 **Correct Answer:** B
 **Answer Source:** key
@@ -7791,7 +7792,7 @@
 
 ---
 
-### Q581: Massive swe oft astinclu foll é€xce
+### Q581: Massive swellings of the breast include all the following except:
 
 - **A)** Phylloides tumor
 - **B)** Atrophic scirrhous carcinoma
@@ -8179,13 +8180,13 @@
 
 ---
 
-### Q609: Theh inf carri he hi stris f osteom 15
+### Q609: The hand infection which carries the highest risk of osteomyelitis is:
 
 - **A)** Paronychia
-- **B)** web space infection
-- **C)** thenar space infection
-- **D)** pulp space infection
-- **E)** intrathecal whitlow
+- **B)** Web space infection
+- **C)** Thenar space infection
+- **D)** Pulp space infection
+- **E)** Intrathecal whitlow
 
 **Correct Answer:** B
 **Answer Source:** key
@@ -8450,13 +8451,12 @@
 
 ---
 
-### Q629: Contra indicatio to irr: 10 skin an the followin except:
+### Q629: Contra indications to irradiation in skin malignancies include the following except:
 
 - **A)** Recurrent tumors (after irradiation)
 - **B)** Deeply invasive tumors
 - **C)** Lesions in upper half of the face
-- **D)** old age group
-- **E)** Plain films of the abdomen
+- **D)** Old age group
 
 **Correct Answer:** D
 **Answer Source:** key
@@ -8492,11 +8492,11 @@
 
 ---
 
-### Q632: congenital oid sts are characterized by the llowi eatures except:
+### Q632: Congenital dermoid cysts are characterized by the following features except:
 
 - **A)** Occur at lines of embryological fusion
-- **B)** Are commonest onthe face
-- **C)** Are oftenattached to the overlying skin
+- **B)** Are commonest on the face
+- **C)** Are often attached to the overlying skin
 - **D)** May cause hollowing of subjacent bone
 - **E)** Are lined by stratified squamous epithelium
 
@@ -8506,12 +8506,12 @@
 
 ---
 
-### Q633: eo0us C is cha rized he following exce
+### Q633: Sebaceous cyst is characterized by the following except that it:
 
 - **A)** Is due to obstruction of a sebaceous gland
-- **B)** s lined by stratified squamous epithelium
-- **C)** Contains a yellow greasy material knownas sebum
-- **D)** May occur onthe palms and soles
+- **B)** Is lined by stratified squamous epithelium
+- **C)** Contains a yellow greasy material known as sebum
+- **D)** May occur on the palms and soles
 - **E)** Is always anchored to the overlying skin of the punctum of the obstructed gland
 
 **Correct Answer:** D
@@ -8656,7 +8656,7 @@
 
 ---
 
-### Q644: late dumping syndrome after gastric surgery is due to:
+### Q644: Late dumping syndrome after gastric surgery is due to:
 
 - **A)** release of serotonin
 - **B)** food bolus inthe jejunum
@@ -8864,11 +8864,11 @@
 
 ---
 
-### Q659: rforated duod Lul ris best treate
+### Q659: Perforated duodenal ulcer is best treated by:
 
-- **A)** Gastroduodenal suction and antibiotics 10
-- **B)** Simple closure over an omental patch
-- **C)** Truncal vagotomy
+- **A)** Gastroduodenal suction and antibiotics.
+- **B)** Simple closure over an omental patch.
+- **C)** Truncal vagotomy.
 - **D)** Partial gastrectomy
 
 **Correct Answer:** B
@@ -8890,12 +8890,12 @@
 
 ---
 
-### Q661: Al bout lintis lastica one statement is true:
+### Q661: About linitis plastica one statement is true:
 
-- **A)** it is alymphomaofthe stomach
-- **B)** the stomachis dilated and filled with large mass
-- **C)** it is a gastro-esophageal tumour
-- **D)** narrowed starf stomach and The tumour may benot visible onthe mucosa
+- **A)** It is a lymphoma of the stomach
+- **B)** The stomach is dilated and filled with large mass
+- **C)** It is a gastro-esophageal tumour
+- **D)** Narrowed starf stomach and The tumour may be not visible on the mucosa
 
 **Correct Answer:** D
 **Answer Source:** key
@@ -8903,13 +8903,12 @@
 
 ---
 
-### Q662: About linitis plastica, one statement is true:
+### Q662: About linitis plastica one statement is true:
 
 - **A)** It is a lymphoma of the stomach
 - **B)** The stomach is dilated and filled with large mass
 - **C)** It is a gastro-esophageal tumour
-- **D)** Narrowed rigid stomach and the tumour may be not visible on the mucosa
-- **E)** commonHepatic artery
+- **D)** Narrowed starf stomach and The tumour may be not visible on the mucosa
 
 **Correct Answer:** D
 **Answer Source:** key
@@ -9049,7 +9048,7 @@
 
 ---
 
-### Q673: ost mmon sit ric ulcer is:
+### Q673: Most common site of gastric ulcer is:
 
 - **A)** Incisura
 - **B)** Greater curvature stomach
@@ -9235,12 +9234,13 @@
 
 ---
 
-### Q687: 10 ema tric aden rcinom ril o the
+### Q687: Haematogenous spread of gastric adenocarcinoma goes primarily to the:
 
 - **A)** Lungs
-- **B)** Liver
-- **C)** Brain
-- **D)** Cocliac nodes
+- **B)** Bones
+- **C)** Liver
+- **D)** Brain
+- **E)** Coeliac nodes
 
 **Correct Answer:** B
 **Answer Source:** key
@@ -9248,7 +9248,7 @@
 
 ---
 
-### Q688: The most common nign rof the st is:
+### Q688: The most common benign tumor of the stomach is:
 
 - **A)** Leiomyoma
 - **B)** Fibroma
@@ -9357,7 +9357,7 @@
 
 ---
 
-### Q696: About complications of chronic gastro-duodenal peptic thi Bt Icer il wing statemen except:
+### Q696: About complications of chronic gastro-duodenal peptic ulcers, all the following statements are true, except:
 
 - **A)** Anterior duodenal ulcers tend to perforate.
 - **B)** Posterior duodenal ulcers tend to cause substantial bleeding.
@@ -10029,13 +10029,13 @@
 
 ---
 
-### Q745: ati onest e paralyticileus?
+### Q745: What is the commonest cause of paralytic ileus?
 
 - **A)** Diabetic ketoacidosis.
 - **B)** Drugs.
-- **C)** Peritonealirritation.
+- **C)** Peritoneal irritation.
 - **D)** Postoperative.
-- **E)** left side cancer colon
+- **E)** Left side cancer colon
 
 **Correct Answer:** C
 **Answer Source:** key
@@ -10085,13 +10085,13 @@
 
 ---
 
-### Q749: which of the followings is a Morphological features of Crofin's dise ase?
+### Q749: Which of the followings is a Morphological features of Crohn's disease?
 
-- **A)** right sided disease
-- **B)** Left-sided disease O ik 10
-- **C)** Broad-basedulcers 11
-- **D)** Pseudopolyps. 12
-- **E)** skip lesions
+- **A)** Right sided disease
+- **B)** Left-sided disease
+- **C)** Broad-based ulcers
+- **D)** Pseudopolyps.
+- **E)** Skip lesions
 
 **Correct Answer:** E
 **Answer Source:** key
@@ -10127,13 +10127,13 @@
 
 ---
 
-### Q752: is th sttrea ntof nium il
+### Q752: What is the best treatment of uncomplicated meconium ileus?
 
-- **A)** laparotomy and evacuation
-- **B)** transverse colostomy
-- **C)** pyloromyotomy
+- **A)** Laparotomy and evacuation
+- **B)** Transverse colostomy
+- **C)** Pyloromyotomy
 - **D)** N-acetyl cysteine barium enema
-- **E)** wait and watch
+- **E)** Wait and watch
 
 **Correct Answer:** D
 **Answer Source:** key
@@ -10332,7 +10332,7 @@
 
 ---
 
-### Q767: "A ore ' ari mais a diagnostic feature o
+### Q767: Apple core sign is a diagnostic feature of:
 
 - **A)** Familial polyposis coli
 - **B)** colonic diverticulum
@@ -10452,11 +10452,11 @@
 
 ---
 
-### Q776: te of intestinal allst ileus:
+### Q776: The most common site of intestinal obstruction in gallstone ileus:
 
 - **A)** Duodenum
 - **B)** Jejunum
-- **C)** ileum
+- **C)** Ileum
 - **D)** Sigmoid colon
 - **E)** Anorectal junction
 
@@ -10480,12 +10480,13 @@
 
 ---
 
-### Q778: A 62 years old female sented ith foul eructation, fecal iting an severe diarrhea; you wil suspect
+### Q778: A 62 years old female presented with foul eructation, fecal vomiting and severe diarrhea, you will suspect:
 
-- **A)** Acute pancreatitis
-- **B)** Gastric cancer
-- **C)** Pseudomembranous colitis
-- **D)** Gastro-colic fistula
+- **A)** Acute pancreatitis.
+- **B)** Gastric cancer.
+- **C)** Pseudomembranous colitis.
+- **D)** Gastro-colic fistula.
+- **E)** Acute gastritis
 
 **Correct Answer:** D
 **Answer Source:** key
@@ -10806,7 +10807,7 @@
 
 ---
 
-### Q802: ive of UC cept:
+### Q802: Barium enema findings suggestive of UC are all except:
 
 - **A)** Loss of haustrations.
 - **B)** Granular mucosa.
@@ -10819,7 +10820,7 @@
 
 ---
 
-### Q803: The following inherited disorder ts autosomal recessive:
+### Q803: The following inherited disorder is autosomal recessive:
 
 - **A)** Peutz-jeger's syndrome
 - **B)** Familial polyposis coli
@@ -10900,12 +10901,12 @@
 
 ---
 
-### Q809: All he following is true regarding Hirs ng disease (co enita megacolon) except
+### Q809: All of the following are true regarding Hirschsprung disease (congenital megacolon) except:
 
 - **A)** Due to aganlionosis of the caecum
 - **B)** Associated with delayed passage of meconium
 - **C)** Rectal biopsy is mandatory for diagnosis
-- **D)** Anorectalmanometry plays a role in diagnosis
+- **D)** Anorectal manometry plays a role in diagnosis
 - **E)** Decompresion colostomy is done to neonates presenting with obstruction, and later definitive surgery is performed
 
 **Correct Answer:** A
@@ -11095,12 +11096,12 @@
 
 ---
 
-### Q823: An ac lesolu haemorrhoids is oid k
+### Q823: An acceptable solution for the injection of haemorrhoids is:
 
-- **A)** 5% sodium tetradecyi sulphate. 35 36
-- **B)** 5% phenol in almond or arachis oil. 37
-- **C)** 59% phenolin water. 38
-- **D)** Pure almond or arachis oil. 39
+- **A)** 5% sodium tetradecyl sulphate.
+- **B)** 5% phenol in almond or arachis oil.
+- **C)** 59% phenol in water.
+- **D)** Pure almond or arachis oil.
 - **E)** 10% dextrose solution.
 
 **Correct Answer:** B
@@ -11550,7 +11551,7 @@
 - **A)** Retrocaecal appendix.
 - **B)** Pelvic appendix.
 - **C)** Pre-ileal appendix.
-- **D)** Fosi-iieai appendix.
+- **D)** Post-ileal appendix.
 
 **Correct Answer:** A
 **Answer Source:** key
@@ -11598,11 +11599,11 @@
 
 ---
 
-### Q860: foll is th e the mmon appendicitis?
+### Q860: Which of the following is thought to be the most common cause of appendicitis?
 
-- **A)** bowel kinking
-- **B)** internal bowel occlusion
-- **C)** bowel swelling
+- **A)** Bowel kinking
+- **B)** Internal bowel occlusion
+- **C)** Bowel swelling
 - **D)** A fecalith
 
 **Correct Answer:** D
@@ -11943,10 +11944,10 @@
 
 ---
 
-### Q886: oris kely toi ibit wound Factl
+### Q886: Which factor is least likely to inhibit wound contraction?
 
-- **A)** Radiation (By Cytotytic arug
-- **B)** 11
+- **A)** Radiation
+- **B)** Cytolytic drug
 - **C)** Transformation growth factor b
 - **D)** Full-thickness skin graft
 - **E)** External splints.
@@ -12024,13 +12025,13 @@
 
 ---
 
-### Q892: e pancreatic udo-cystis so lled because:
+### Q892: The pancreatic pseudocyst is so called because:
 
 - **A)** It has no epithelial lining.
 - **B)** It may contain necrotic material.
 - **C)** It is not embedded in the pancreas.
 - **D)** It may be caused by diseases of organs other than the pancreas.
-- **E)** It is, infact, aneoplasm
+- **E)** It is, in fact, a neoplasm
 
 **Correct Answer:** A
 **Answer Source:** key
@@ -12504,7 +12505,7 @@
 
 ---
 
-### Q927: One follo arker hepatocellular carcinoma
+### Q927: One of the following is the tumour marker for hepatocellular carcinoma:
 
 - **A)** CA125
 - **B)** Carcinoembryonic antigen (CEA)
@@ -12613,12 +12614,12 @@
 
 ---
 
-### Q935: What is the most likely cause of persistent bleeding after Pringle maneuver?
+### Q935: In liver laceration if there is uncontrolled bleeding after Pringle's maneuver, what is the likely cause
 
-- **A)** Hepatic arterial bleeding
-- **B)** Portal vein bleeding
-- **C)** Hepatic vein or inferior vena cava injury
-- **D)** Capillary oozing
+- **A)** Arterial bleeding
+- **B)** Capillary bleed
+- **C)** Hepatic vein bleed
+- **D)** Portal vein bleed
 
 **Correct Answer:** A
 **Answer Source:** key
@@ -12708,12 +12709,12 @@
 
 ---
 
-### Q942: of liv bscess include
+### Q942: Causes of liver abscess include all the following, except
 
 - **A)** Spread by lymphatic's from acute appendicitis
 - **B)** Spread by the portal vine from colonic diverticulitis
 - **C)** Spread through the biliary tree from cholangitis
-- **D)** Spread by the arterial system from aremote pyogenic focus
+- **D)** Spread by the arterial system from a remote pyogenic focus
 
 **Correct Answer:** A
 **Answer Source:** key
@@ -12721,10 +12722,10 @@
 
 ---
 
-### Q943: Thec cause of acute creatitis is:
+### Q943: The commonest cause of acute pancreatitis is:
 
 - **A)** Biliary stones
-- **B)** D uw Cyurace LAR I ™ 1 Wt consul L) ipucon
+- **B)** Excess alcohol consumption
 - **C)** Hyperlipidemia
 - **D)** Steroid therapy
 
@@ -12897,7 +12898,7 @@
 
 ---
 
-### Q956: e foll Is nota co compilicati hydatidosis
+### Q956: The following is not a common complication(s) of hydatidosis:
 
 - **A)** Anaphylactic shock.
 - **B)** Obstructive jaundice.
@@ -12950,9 +12951,9 @@
 
 ---
 
-### Q960: Angiograph det eine nepatom ale age On 14 5 through
+### Q960: Angiography for detection of hepatoma should be done through
 
-- **A)** Portal vein. 7
+- **A)** Portal vein.
 - **B)** Hepatic artery.
 - **C)** Retrograde through hepatic veins.
 - **D)** Any of the above.
@@ -13029,7 +13030,7 @@
 
 ---
 
-### Q966: Aboute lis ll of the followi true cept:
+### Q966: About embolism, all of the following are true except:
 
 - **A)** Young age
 - **B)** No collaterals
@@ -13121,7 +13122,7 @@
 
 ---
 
-### Q973: icial thr ebi complicate
+### Q973: Superficial thrombophlebitis may complicate
 
 - **A)** Varicose vein
 - **B)** Trauma
@@ -13186,7 +13187,7 @@
 
 ---
 
-### Q978: Gas in bilia na lain X-ray is dia sti
+### Q978: Gas in biliary system in a plain X-ray is diagnostic of:
 
 - **A)** Choledochuodenal fistula
 - **B)** Intestinal obstruction
@@ -13226,7 +13227,7 @@
 
 ---
 
-### Q981: Indicati fiiol fero-oratel
+### Q981: Indications of alpha feto-protein measuring include:
 
 - **A)** Sudden deterioration of hepatic patient
 - **B)** Hepatic focal lesion by abdominal us
@@ -13429,7 +13430,7 @@
 
 ---
 
-### Q996: The blood supply of the Rectus abdominis myo-cut edicl
+### Q996: The blood supply of the Rectus abdominis myo-cutaneous pedicled flap is:
 
 - **A)** Acromio-thoracic artery
 - **B)** Lateral circumflex femoral artery
@@ -13852,12 +13853,12 @@
 
 ---
 
-### Q1027: The unner lin eycant the nhiltrum davealaned fram:
+### Q1027: The upper lip except the philtrum developed from:
 
-- **A)** the fronto nasal prominence
-- **B)** the Maxillary prominence
-- **C)** the Mandibular prominence
-- **D)** the Lip prominence
+- **A)** The fronto nasal prominence
+- **B)** The Maxillary prominence
+- **C)** The Mandibular prominence
+- **D)** The Lip prominence
 
 **Correct Answer:** B
 **Answer Source:** key
@@ -14252,7 +14253,7 @@
 
 ---
 
-### Q1057: tlife thre chest waill onis:
+### Q1057: The most life threatening chest wall lesion is:
 
 - **A)** Emphysema
 - **B)** Tension pneumothorax
@@ -14265,13 +14266,13 @@
 
 ---
 
-### Q1058: Allare causes of hemothorax except:
+### Q1058: All are causes of hemothorax except:
 
 - **A)** Trauma
 - **B)** Bronchogenic carcinoma
 - **C)** Rupture of emphysematous bullae
 - **D)** Anticoagulant therapy
-- **E)** Hemophilia ards empye necessitans
+- **E)** Hemophilia
 
 **Correct Answer:** C
 **Answer Source:** derived
@@ -14331,7 +14332,7 @@
 
 ---
 
-### Q1063: t st fri ent complicati onal ileitis is
+### Q1063: The most frequent complication of regional ileitis is:
 
 - **A)** Abscess formation
 - **B)** Internal fistulae
@@ -15127,9 +15128,9 @@
 
 ---
 
-### Q1120: ommon pr ncer ionint skini
+### Q1120: The most common precancerous lesion in the skin is:
 
-- **A)** roadman pigmentosurn.
+- **A)** Xeroderma pigmentosum.
 - **B)** Seborrhoeic keratosis.
 - **C)** Actinic (senile) keratosis.
 - **D)** Chronic radiodermatitis.
@@ -15575,9 +15576,9 @@
 
 ---
 
-### Q1152: Widening ofthe C-loop of the duodenum in X-ray is diagnostic of
+### Q1152: Widening of the C-loop of the duodenum in X-ray is diagnostic of
 
-- **A)** Acalcuius in the ampula of Vater
+- **A)** A calculus in the ampulla of Vater
 - **B)** Carcinoma of the head of the pancreas
 - **C)** Chronic pancreatitis
 - **D)** Periampullary carcinoma
@@ -15645,10 +15646,10 @@
 
 ---
 
-### Q1157: 91 ivi int VE iti ele i) 4 true?
+### Q1157: Which of the following statements about pyogenic abscess of the liver are true?
 
 - **A)** The right lobe is more commonly involved than the left lobe.
-- **B)** Appendicitis with perforation and abscess is the most common underlying cause of hepatic abscess. a
+- **B)** Appendicitis with perforation and abscess is the most common underlying cause of hepatic abscess.
 - **C)** Biliary obstruction has no role.
 - **D)** Mortality from hepatic abscess is currently greater than 40%.
 - **E)** Aspiration is the treatment of choice.
@@ -15687,13 +15688,13 @@
 
 ---
 
-### Q1160: ich of lowi t r rdi ost splenectom I true?
+### Q1160: Which of the following statements regarding post splenectomy sepsis is true?
 
 - **A)** The incidence in children is generally reported as 1%
-- **B)** Haemophilus influenzae, Streptococcus pneumoniae and Neiseria meningitidis are the most common causative organisms
+- **B)** Haemophilus influenzae, Streptococcus pneumoniae and Neisseria meningitidis are the most common causative organisms
 - **C)** Autotransplantation has no role
-- **D)** The mortality ratelS very low
-- **E)** The incidence in adults in approximately 507%
+- **D)** The mortality rate is very low
+- **E)** The incidence in adults is approximately 50%
 
 **Correct Answer:** B
 **Answer Source:** derived
@@ -15701,11 +15702,11 @@
 
 ---
 
-### Q1161: 95-The treat bar cisice of hweatid cust ot lweri&
+### Q1161: The treatment of choice of hydatid cyst of liver is:
 
 - **A)** Medical.
 - **B)** Surgical excision
-- **C)** needle aspiration
+- **C)** Needle aspiration
 - **D)** Chemotherapy
 - **E)** Radiation.
 

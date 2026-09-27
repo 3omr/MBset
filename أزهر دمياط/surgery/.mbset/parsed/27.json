@@ -2,7 +2,7 @@
  "nn": "27",
  "source": "Raw_PDF_Questions/بنك اسئلة.pdf",
  "sha256": "febab0fca3f26b49ba80c0f0d54f994f60fd45343585544c9093db835e8471de",
- "at": "2026-09-26T16:39:14Z",
+ "at": "2026-09-27T07:42:57Z",
  "layout": {
   "method": "ocr",
   "splits": {
@@ -75,7 +75,7 @@
   "marked_hits": 66,
   "answered": 132,
   "mcq": 132,
-  "at": "2026-09-26T16:39:14Z"
+  "at": "2026-09-27T07:42:57Z"
  },
  "distribution": {
   "A": 0.159,
@@ -142,7 +142,7 @@
  "dropped_count": 54,
  "skipped_questions": [],
  "overrides": {
-  "applied": 84,
+  "applied": 88,
   "dropped": [
    {
     "stem": "DM Aaol> blow yay ob als *a ole] 4>D2J] poud",
@@ -1777,7 +1777,7 @@
    "options": [
     {
      "letter": "A",
-     "text": "Vitamin A supplementation 7",
+     "text": "Vitamin A supplementation",
      "bold": 0.0,
      "color": 0.81,
      "marks": [
@@ -1795,7 +1795,7 @@
     },
     {
      "letter": "B",
-     "text": "Vitamin'C supplementation",
+     "text": "Vitamin C supplementation",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -1823,7 +1823,7 @@
     },
     {
      "letter": "D",
-     "text": "Chemotherapy dyes Wabi! Als 2018 dussliall 45_pill gobs Lal Sac! lois.",
+     "text": "Chemotherapy",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -1841,7 +1841,8 @@
    "inline_answer": null,
    "flags": [
     "text_after_options",
-    "low_ocr_confidence"
+    "low_ocr_confidence",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 3,
@@ -2239,7 +2240,7 @@
     },
     {
      "letter": "C",
-     "text": "Median nerve ene ae -- 7 - r =e",
+     "text": "Median nerve",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -2257,7 +2258,8 @@
    "inline_answer": null,
    "flags": [
     "text_after_options",
-    "low_ocr_confidence"
+    "low_ocr_confidence",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 4,
@@ -3725,7 +3727,7 @@
    "number": null,
    "section": 2,
    "type": "QCS",
-   "stem": "716.The common differential diagnoses cf acute appendicitis include all the following, except:",
+   "stem": "The common differential diagnoses of acute appendicitis include all the following, except:",
    "options": [
     {
      "letter": "A",
@@ -3743,7 +3745,7 @@
     },
     {
      "letter": "B",
-     "text": "Right ureter stone. ee M -Meckel's diverticulitis.:. Vs k",
+     "text": "Right ureter stone.",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -3757,7 +3759,7 @@
     },
     {
      "letter": "C",
-     "text": "5 ew",
+     "text": "Meckel's diverticulitis.",
      "bold": 0.0,
      "color": 0.29,
      "marks": [
@@ -3795,7 +3797,8 @@
     "option_out_of_order_C",
     "option_out_of_order_D",
     "option_out_of_order_B",
-    "low_ocr_confidence"
+    "low_ocr_confidence",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 8,
@@ -8611,11 +8614,11 @@
    "number": 40,
    "section": 3,
    "type": "QCS",
-   "stem": "The clinical manifestations of thyrotoxicosis include all th 'lo ' D. - thyroglossal cyst moves up with protrusion of the ton",
+   "stem": "The clinical manifestations of thyrotoxicosis include all the following, except:",
    "options": [
     {
      "letter": "A",
-     "text": "Palpitations. except:",
+     "text": "Palpitations.",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -8643,7 +8646,7 @@
     },
     {
      "letter": "C",
-     "text": "Exophthalmos. zB. Cyanosis. Sood luck 7;",
+     "text": "Exophthalmos.",
      "bold": 0.0,
      "color": 0.03,
      "marks": [
@@ -8656,6 +8659,13 @@
       194.4,
       618.8
      ]
+    },
+    {
+     "letter": "D",
+     "text": "Cyanosis.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
     }
    ],
    "after": "",
@@ -8665,7 +8675,8 @@
     "numbering_gap_before",
     "orphan_rows_joined_to_option",
     "option_marker_repaired_C",
-    "low_ocr_confidence"
+    "low_ocr_confidence",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 19,
@@ -10225,7 +10236,7 @@
    "number": 58,
    "section": 3,
    "type": "QCS",
-   "stem": "26-Etiologies of perisinusoidal portal hypertension include",
+   "stem": "Etiologies of perisinusoidal portal hypertension include:",
    "options": [
     {
      "letter": "A",
@@ -10257,7 +10268,7 @@
     },
     {
      "letter": "C",
-     "text": "JY C) Hepatitis C",
+     "text": "Hepatitis C",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -10291,7 +10302,8 @@
     "stem_recovered_from_option_wrap",
     "option_marker_repaired_C_from_orphan_possible_mark",
     "number_inferred",
-    "low_ocr_confidence"
+    "low_ocr_confidence",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 24,

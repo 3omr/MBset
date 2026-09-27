@@ -174,12 +174,12 @@
 
 ---
 
-### Q14: Steps in the synthesis of thyro Except: id hormone include all of the following
+### Q14: Steps in the synthesis of thyroid hormone include all of the following Except:
 
-- **A)** Coupling of iodo-tyrosines,
+- **A)** Coupling of iodo-tyrosines.
 - **B)** Ingestion of potassium iodide.
-- **C)** Form active thyroxine b y coupling iodo-tyrosines.
-- **D)** Von Hippel-Lindau syndrome.
+- **C)** Linkage of iodine with tyrosine residues.
+- **D)** Oxidation of iodide to iodine.
 
 **Correct Answer:** D
 **Answer Source:** key
@@ -280,13 +280,13 @@
 
 ---
 
-### Q22: The diagn osis of primary hyperparathyroidism is most strongly su ggested by:
+### Q22: The diagnosis of primary hyperparathyroidism is most strongly suggested by:
 
 - **A)** Serum acid phosphatase > 120 IU/L.
-- **B)** Serum alkaline phosphatase > 120 IU/L,
-- **C)** Serum calcium > 11 mg/dL,
-- **D)** Urinary calcium <100 mg/day
-- **E)** Parathyroid hormone levels < 5 pmol/L,
+- **B)** Serum alkaline phosphatase > 120 IU/L.
+- **C)** Serum calcium > 11 mg/dL.
+- **D)** Urinary calcium <100 mg/day.
+- **E)** Parathyroid hormone levels < 5 pmol/L.
 
 **Correct Answer:** C
 **Answer Source:** key
@@ -591,12 +591,12 @@
 
 ---
 
-### Q45: A 40-year-old male undergoes an aed ene r '. thyroidectomy for follicular carcinoma of develops circum-oral numbness, followed by laryngospasm, and then a generalized seizure. Of the following, which is the first priority 'or ex. operative site.
+### Q45: A 40-year-old male undergoes an apparently uneventful total thyroidectomy for follicular carcinoma of the thyroid. 48 hours later he develops circum-oral numbness, followed by laryngospasm, and then has a generalized seizure. Of the following, which is the first priority?
 
-- **A)** Proceed to OR for exploration of the of
-- **B)** Administer 25 ml of 10 calcium g 10% calet Jucon
-- **C)** Obtain a serum 1; and administer intravenous. jagnesium measurement chlonde STAT.
-- **D)** Obtain a CT scan of the head to ev
+- **A)** Proceed to OR for exploration of the operative site.
+- **B)** Administer 25 ml of 10% calcium gluconate intravenously.
+- **C)** Obtain a serum magnesium measurement and administer intravenous magnesium chloride STAT.
+- **D)** Obtain a CT scan of the head to evaluate the possibility of brain metastases.
 
 **Correct Answer:** B
 **Answer Source:** key

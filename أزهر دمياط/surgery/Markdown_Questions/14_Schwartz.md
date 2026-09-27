@@ -43,12 +43,12 @@
 
 ---
 
-### Q4: Which is FALSE regarding modern conf ict resolution techniques?
+### Q4: Which is FALSE regarding modern conflict resolution techniques?
 
 - **A)** Based upon objectivity and willingness to listen.
 - **B)** Should seek a solution that benefits all involved and which is based upon core values of the organization.
-- **C)** Traditional command-and-control technique based on ear and intimidation can lead to sanctions and lawsuits.
-- **D)** Conf ict resolution is more successful when both sides can admit they share some fault.
+- **C)** Traditional command-and-control technique based on fear and intimidation can lead to sanctions and lawsuits.
+- **D)** Conflict resolution is more successful when both sides can admit they share some fault.
 
 **Correct Answer:** D
 **Answer Source:** key
@@ -147,9 +147,9 @@
 
 ---
 
-### Q12: Metab li acid sis withca normal anion gap (AG) urs with
+### Q12: Metabolic acidosis with a normal anion gap (AG) occurs with
 
-- **A)** Diabetic acid sis
+- **A)** Diabetic acidosis
 - **B)** Renal failure
 - **C)** Severe diarrhea
 - **D)** Starvation
@@ -160,11 +160,11 @@
 
 ---
 
-### Q13: All are possible causes postoperative hyponatremia EXCEP
+### Q13: All are possible causes of postoperative hyponatremia EXCEPT
 
-- **A)** Excess in usion normal saline intraoperatively.
-- **B)** Administration antipsy h ti medi ation.
-- **C)** Transient decrease in antidiuretic h rm ne (ADH) se reti n.
+- **A)** Excess infusion of normal saline intraoperatively.
+- **B)** Administration of antipsychotic medication.
+- **C)** Transient decrease in antidiuretic hormone (ADH) secretion.
 - **D)** Excess oral water intake.
 
 **Correct Answer:** C
@@ -212,12 +212,12 @@
 
 ---
 
-### Q17: Which the ll wing is FALSE regarding hypert ni saline?
+### Q17: Which of the following is FALSE regarding hypertonic saline?
 
-- **A)** Is an arteriolar vas dilator and may increase bleeding
-- **B)** Should be avoided in losed head injury
-- **C)** Should not be used r initial resus itati n
-- **D)** Increases cerebral per usion
+- **A)** Is an arteriolar vasodilator and may increase bleeding
+- **B)** Should be avoided in closed head injury
+- **C)** Should not be used for initial resuscitation
+- **D)** Increases cerebral perfusion
 
 **Correct Answer:** B
 **Answer Source:** key
@@ -238,12 +238,12 @@
 
 ---
 
-### Q19: Fluid resus itati n using albumin
+### Q19: Fluid resuscitation using albumin
 
-- **A)** Is ass iated with agul pathy
-- **B)** Is available as 1% r 5% s luti ns
-- **C)** Can lead t pulmonary edema
-- **D)** Decreased aft r XIII
+- **A)** Is associated with coagulopathy
+- **B)** Is available as 1% or 5% solutions
+- **C)** Can lead to pulmonary edema
+- **D)** Decreased factor XIII
 
 **Correct Answer:** C
 **Answer Source:** key
@@ -303,7 +303,7 @@
 
 ---
 
-### Q24: A patient with serum al ium 6.8 and albumin 1.2 has a rre ted al ium
+### Q24: A patient with serum calcium 6.8 and albumin 1.2 has a corrected calcium
 
 - **A)** 7.7
 - **B)** 8.0
@@ -316,11 +316,11 @@
 
 ---
 
-### Q25: All the ll wing treatments r hyperkalemia reduce serum potassium EXCEP
+### Q25: All the following treatments for hyperkalemia reduce serum potassium EXCEPT
 
-- **A)** Bicarb nate
+- **A)** Bicarbonate
 - **B)** Kayexalate
-- **C)** Glu se in usion with insulin
+- **C)** Glucose infusion with insulin
 - **D)** Calcium
 
 **Correct Answer:** D
@@ -420,12 +420,12 @@
 
 ---
 
-### Q33: Aol w urinary [NH4 +] withca hyper hl remi acid sis findi ates what cause?
+### Q33: A low urinary [NH4+] with a hyperchloremic acidosis indicates what cause?
 
 - **A)** Excessive vomiting
-- **B)** Enter utane us fistula
-- **C)** Chr ni diarrhea
-- **D)** Renal tubular acid sis
+- **B)** Enterocutaneous fistula
+- **C)** Chronic diarrhea
+- **D)** Renal tubular acidosis
 
 **Correct Answer:** D
 **Answer Source:** key
@@ -433,12 +433,12 @@
 
 ---
 
-### Q34: When la ti acid is pr duffed in response t injury, the body minimizes pH change by
+### Q34: When lactic acid is produced in response to injury, the body minimizes pH change by
 
-- **A)** Decreasing pr du tionf sodium bicarb nate in tissues
-- **B)** Excreting arb n dioxide through the lungs
-- **C)** Excreting la ti acid through the kidneys
-- **D)** Metabolizing the la ti acid in the liver
+- **A)** Decreasing production of sodium bicarbonate in tissues
+- **B)** Excreting carbon dioxide through the lungs
+- **C)** Excreting lactic acid through the kidneys
+- **D)** Metabolizing the lactic acid in the liver
 
 **Correct Answer:** B
 **Answer Source:** key
@@ -486,12 +486,12 @@
 
 ---
 
-### Q38: An elderly diabetic patient who has acute hole ystitis is und t have a serum sodium level 122 mEq/L and a bl d glu se 600 mg/dL. Af er rre ting the glu se n entrati not 100 mg/dL with insulin, the serum sodium n entrati now uld
+### Q38: An elderly diabetic patient who has acute cholecystitis is found to have a serum sodium level 122 mEq/L and a blood glucose 600 mg/dL. After correcting the glucose concentration to 100 mg/dL with insulin, the serum sodium concentration would
 
-- **A)** Decrease signif antly unless the patient also received 3% saline
-- **B)** Decrease transiently but return t approximately 122 mEq/L with ut specif therapy
-- **C)** Remain essentially un hanged
-- **D)** Increase t the normal range with ut specif therapy
+- **A)** Decrease significantly unless the patient also received 3% saline
+- **B)** Decrease transiently but return to approximately 122 mEq/L without specific therapy
+- **C)** Remain essentially unchanged
+- **D)** Increase to the normal range without specific therapy
 
 **Correct Answer:** D
 **Answer Source:** key
@@ -512,12 +512,12 @@
 
 ---
 
-### Q40: The first step in the management acute hyper al emia should be
+### Q40: The first step in the management of acute hypercalcemia should be
 
-- **A)** C rre tionf de it extracellular fluid volume
-- **B)** Hem dialysis.
-- **C)** Administration ur semide.
-- **D)** Administration mithramycin.
+- **A)** Correction of deficit extracellular fluid volume
+- **B)** Hemodialysis.
+- **C)** Administration of furosemide.
+- **D)** Administration of mithramycin.
 
 **Correct Answer:** A
 **Answer Source:** key
@@ -538,12 +538,12 @@
 
 ---
 
-### Q42: Three days af er surgery r gastric ar in ma, a 50-year- old al h li male exhibits delirium, mus le tremors, and hyperactive tendon re exes. Magnesium de ciency is suspected. All the ll wing statements regarding this situation are true EXCEP
+### Q42: Three days after surgery for gastric carcinoma, a 50-year-old alcoholic male exhibits delirium, muscle tremors, and hyperactive tendon reflexes. Magnesium deficiency is suspected. All the following statements regarding this situation are true EXCEPT
 
-- **A)** Aide ision t administer magnesium should be based n the serum magnesium level.
-- **B)** Adequate cellular replacement magnesium will require 1 t 3 weeks.
-- **C)** A n mitant al ium de ciency should be suspected.
-- **D)** Calcium is a specif antagonist the my ardial effie ts magnesium.
+- **A)** A decision to administer magnesium should be based on the serum magnesium level.
+- **B)** Adequate cellular replacement of magnesium will require 1 to 3 weeks.
+- **C)** A concomitant calcium deficiency should be suspected.
+- **D)** Calcium is a specific antagonist of the myocardial effects of magnesium.
 
 **Correct Answer:** A
 **Answer Source:** key
@@ -577,12 +577,12 @@
 
 ---
 
-### Q45: Which is required or platelet adherence to injured endothelium?
+### Q45: Which is required for platelet adherence to injured endothelium?
 
 - **A)** Thromboxane A2
 - **B)** Glycoprotein (GP) IIb/IIIa
 - **C)** Adenosine diphosphate (ADP)
-- **D)** Von Willebrand actor (vWF)
+- **D)** Von Willebrand factor (vWF)
 
 **Correct Answer:** D
 **Answer Source:** key
@@ -1855,12 +1855,12 @@
 
 ---
 
-### Q143: A 40-year- ld woman s admitted t the burn unit after an ndustr al re atca plast s manu a turing plant with burns t the ace and arms. Her ele tr card gram (ECG) shows S- elevat n, and not al hem stry panel and arterial bl d gas reveal an an n gap metab l a dos sow thin r- imal arterial arb xyhem globin. What s the most appr - pr ate next step?
+### Q143: A 40-year-old woman is admitted to the burn unit after an industrial fire at a plastics manufacturing plant with burns to the face and arms. Her electrocardiogram (ECG) shows S-T elevation, and initial chemistry panel and arterial blood gas reveal an anion gap metabolic acidosis with normal arterial carboxyhemoglobin. What is the most appropriate next step?
 
-- **A)** C rrect n a dos s by adding sod um b arb nate t IV u ds.
-- **B)** Admin strati n 100% oxygen and hydr x balam n.
-- **C)** ransth ra e h card gram.
-- **D)** Bl d culture with IV ant b t s.
+- **A)** Correction of acidosis by adding sodium bicarbonate to IV fluids.
+- **B)** Administration of 100% oxygen and hydroxocobalamin.
+- **C)** Transthoracic echocardiogram.
+- **D)** Blood culture with IV antibiotics.
 
 **Correct Answer:** B
 **Answer Source:** key
@@ -1868,7 +1868,7 @@
 
 ---
 
-### Q144: Who h the llowing soa mmon sequelae ele tr al injury?
+### Q144: Which of the following is a common sequela of electrical injury?
 
 - **A)** Cardiac arrhythmias
 - **B)** Paralysis
@@ -1920,12 +1920,12 @@
 
 ---
 
-### Q148: A patient withca 90% burn en mpass ng the entire tors develops an n reas ng P 2 and peak nsp rat ry pressure. Who h the llowing sim stol kely t resolve this problem?
+### Q148: A patient with a 90% burn encompassing the entire torso develops an increasing PCO2 and peak inspiratory pressure. Which of the following is most likely to resolve this problem?
 
 - **A)** Increase the delivered tidal volume.
-- **B)** Increase the resp rat ry rate.
-- **C)** Increase the Fio2.
-- **D)** Per rm acth ra eschar tomy.
+- **B)** Increase the respiratory rate.
+- **C)** Increase the FiO2.
+- **D)** Perform an escharotomy.
 
 **Correct Answer:** D
 **Answer Source:** key
@@ -1946,12 +1946,12 @@
 
 ---
 
-### Q150: Sui ess ul ant b t penetrat n a burn eschar an be aoh eved with
+### Q150: Successful antibiotic penetration of a burn eschar can be achieved with
 
-- **A)** Ma en de acetate
-- **B)** Ne my n
-- **C)** Solver nitrate
-- **D)** Solver sul ad az ne
+- **A)** Ma(fenide) acetate
+- **B)** Neomycin
+- **C)** Silver nitrate
+- **D)** Silver sulfadiazine
 
 **Correct Answer:** A
 **Answer Source:** key
@@ -1959,12 +1959,12 @@
 
 ---
 
-### Q151: Who h the llowing s true regarding nutr t final needs burn patients?
+### Q151: Which of the following is true regarding nutritional needs of burn patients?
 
-- **A)** The hypermetab l response t burn wounds typ - ally raises the basi metab l rate by 120%.
-- **B)** Oxandr lone, an anab l ster d, an mpr ve lean body mass but an be ass ated with hypergly emia and lon ally sign ant rose n hepato transam not s.
-- **C)** Early enteral feeding sosa e when burns are less than 20% BSA, therw se enteral feeding should await return bowel unit not av d feeding a patient with gastro leus.
-- **D)** For patients with greater than 40% BSA, al r needs are est mated t be 25 k al/kg/day plus 40 kcal/% BSA/day.
+- **A)** The hypermetabolic response to burn wounds typically raises the basal metabolic rate by 120%.
+- **B)** Oxandrolone, an anabolic steroid, can improve lean body mass but can be associated with hyperglycemia and occasionally significant rises in hepatic transaminases.
+- **C)** Early enteral feeding is safe when burns are less than 20% BSA; otherwise enteral feeding should await return of bowel function to avoid feeding a patient with gastroileus.
+- **D)** For patients with greater than 40% BSA, caloric needs are estimated to be 25 kcal/kg/day plus 40 kcal/% BSA/day.
 
 **Correct Answer:** D
 **Answer Source:** key
@@ -1985,12 +1985,12 @@
 
 ---
 
-### Q153: Who h s FALSE n ern ng surgi al treatment burn wounds?
+### Q153: Which is FALSE concerning surgical treatment of burn wounds?
 
-- **A)** Tangent al ex s n ns sts tangent al slc es burn tissue until bleeding tissue scen untered. Thus, ex s n an be ass ated with potent ally sign ant bl d loss.
-- **B)** Human cadaver all gra soa permanent alternative t spl t-th kness skin gra s when there are insuff - ent donor sites.
-- **C)** Bleeding rom tangent al ex s n an be helped with nje t n ep nephrine tumes ence s luti n, pneu- mat t urn quets, ep nephrine soaked mpresses, and br n gen and thr mb n spray sealant.
-- **D)** Meshed split th kness skin gra s allow ser sangu - nous drainage t prevent gra loss and prov de a greater area wound verage.
+- **A)** Tangential excision consists of tangential slices of burn tissue until bleeding tissue is encountered. Thus, excision can be associated with potentially significant blood loss.
+- **B)** Human cadaver allografts are a permanent alternative to split-thickness skin grafts when there are insufficient donor sites.
+- **C)** Bleeding from tangential excision can be helped with injection of epinephrine tumescent solution, pneumatic tourniquets, epinephrine-soaked compresses, and fibrinogen and thrombin spray sealant.
+- **D)** Meshed split-thickness skin grafts allow serosanguinous drainage to prevent graft loss and provide a greater area of wound coverage.
 
 **Correct Answer:** B
 **Answer Source:** key
@@ -2011,12 +2011,12 @@
 
 ---
 
-### Q155: Fourteen days after adm ss not the hospital rca 30% part al th kness burn and hem dynamo nstab l ty requ ring central venous a fess, a patient develops a sp k- ing temperature curve. On phys al exam nat n, the en- tral venous catheter insert nos te was red, tender, and warm. The best treatment roth s mpl at n sot
+### Q155: Fourteen days after admission to the hospital for a 30% partial-thickness burn and hemodynamic instability requiring central venous access, a patient develops a spiking temperature curve. On physical examination, the central venous catheter insertion site was red, tender, and warm. The best treatment for this complication is
 
-- **A)** Exchange entral venous catheter over gu dew re, culture top previ us catheter.
-- **B)** Treat patient with IV ant b t s until bl d cultures drawn rom catheter are negative.
-- **C)** Rem val entral venous catheter, culture top, and placement new catheter n ntralateral site.
-- **D)** Rem val atheter and treat patient with oral ant b - t s and pain med at n as needed.
+- **A)** Exchange central venous catheter over guidewire, culture tip of previous catheter.
+- **B)** Treat patient with IV antibiotics until blood cultures drawn from catheter are negative.
+- **C)** Removal of central venous catheter, culture tip, and placement of new catheter on contralateral site.
+- **D)** Removal of catheter and treat patient with oral antibiotics and pain medication as needed.
 
 **Correct Answer:** C
 **Answer Source:** key
@@ -2417,12 +2417,12 @@
 
 ---
 
-### Q186: Approved strategies or cancer chemoprevention include all of the following EXCEP
+### Q186: Approved strategies for cancer chemoprevention include all of the following EXCEPT
 
-- **A)** Neurontin or malignant peripheral nerve sheath tumor
-- **B)** amoxi en or breast cancer
-- **C)** Celecoxib or FlAP syndrome
-- **D)** 13-cis-retinoic acid or oral leukoplakia
+- **A)** Neurontin for malignant peripheral nerve sheath tumor
+- **B)** Tamoxifen for breast cancer
+- **C)** Celecoxib for FAP syndrome
+- **D)** 13-cis-retinoic acid for oral leukoplakia
 
 **Correct Answer:** A
 **Answer Source:** key
@@ -3210,10 +3210,10 @@
 
 ---
 
-### Q247: Which of the following are true regarding safe laparoscopic surgery in pregnancy.
+### Q247: Which of the following are true regarding safe laparoscopic surgery in pregnancy?
 
-- **A)** The patient should be position in the lefi lateral position.
-- **B)** Open abdominal access (Hasson) is recommended versus direct puncture laparoscopy (Veress neelde).
+- **A)** The patient should be positioned in the left lateral position.
+- **B)** Open abdominal access (Hasson) is recommended versus direct puncture laparoscopy (Veress needle).
 - **C)** The surgery should be performed during the second trimester if possible.
 - **D)** All of the above.
 
@@ -3890,7 +3890,7 @@
 ### Q299: Drugs useful in breast cancer prevention include
 
 - **A)** Raloxifene
-- **B)** amoxi en
+- **B)** Tamoxifen
 - **C)** Aspirin
 - **D)** Aromatase inhibitors
 
@@ -4498,11 +4498,11 @@
 
 ---
 
-### Q346: Hypoplastic le heart syndrome is surgically treated with
+### Q346: Hypoplastic left heart syndrome is surgically treated with
 
 - **A)** Bilateral pulmonary artery banding and stent placement in the patent ductus arteriosus.
-- **B)** Norwood procedure withca Blalock- aussig (B- ) shunt.
-- **C)** Norwood procedure withca right ventricle (RV) to pulmonary artery conduit (Sano shunt).
+- **B)** Norwood procedure with Blalock-Taussig (B-T) shunt.
+- **C)** Norwood procedure with right ventricle (RV) to pulmonary artery conduit (Sano shunt).
 - **D)** All of the above.
 
 **Correct Answer:** D
@@ -4813,7 +4813,7 @@
 ### Q370: The most common cause of acquired mitral stenosis is
 
 - **A)** Rheumatic disease
-- **B)** Le atrial myxoma
+- **B)** Left atrial myxoma
 - **C)** Ball valve thrombus
 - **D)** Previous chest radiation
 
@@ -4940,10 +4940,10 @@
 
 ---
 
-### Q380: A patient presents withca history of fatigue and dyspnea. He is found to have hepatomegaly, ascites, and an elevated jugular venous pulse. Heart sounds are normal, no murmurs are present, and the heart is of normal size. The pulse pressure is decreased by palpation. Electrocardiography (ECG) is normal except or low voltage. The most likely diagnosis is
+### Q380: A patient presents with a history of fatigue and dyspnea. He is found to have hepatomegaly, ascites, and an elevated jugular venous pulse. Heart sounds are normal, no murmurs are present, and the heart is of normal size. The pulse pressure is decreased by palpation. Electrocardiography (ECG) is normal except for low voltage. The most likely diagnosis is
 
 - **A)** Right atrial myxoma
-- **B)** V disease
+- **B)** TV disease
 - **C)** Constrictive pericarditis
 - **D)** Primary pulmonary artery hypertension
 
@@ -5538,11 +5538,11 @@
 
 ---
 
-### Q426: Angiograph indications or renal artery revascularization include all of the following EXCEP
+### Q426: Angiographic indications for renal artery revascularization include all of the following EXCEPT
 
 - **A)** Documented renal artery stenosis
 - **B)** FMD lesion
-- **C)** A ected/una ected kidney renin ration >1.5 to 1
+- **C)** Affected/unaffected kidney renin ratio >1.5 to 1
 - **D)** Pressure gradient >10 mm Hg
 
 **Correct Answer:** D
@@ -5759,12 +5759,12 @@
 
 ---
 
-### Q443: All of the following regarding venous anatomy is true EXCEP
+### Q443: All of the following regarding venous anatomy are true EXCEPT
 
-- **A)** Veins are thin-walled, collapsible, and highly distensi- ible to a diameter several times greater than that in the supine position.
-- **B)** The venous intima is composed of a nonthrombogenic endothelium that produces endothelium-derived relaxing actors such as nitric oxide and prostacyclin.
-- **C)** Venous valves close in response to caudal-to-cephalad blood ow atca velocity of at least 30 cm/s2.
-- **D)** The inferior vena cava (IVC), common iliac veins, por- ital venous system, and cranial sinuses are valveless.
+- **A)** Veins are thin-walled, collapsible, and highly distensible to a diameter several times greater than that in the supine position.
+- **B)** The venous intima is composed of a nonthrombogenic endothelium that produces endothelium-derived relaxing factors such as nitric oxide and prostacyclin.
+- **C)** Venous valves close in response to caudal-to-cephalad blood flow at a velocity of at least 30 cm/s2.
+- **D)** The inferior vena cava (IVC), common iliac veins, portal venous system, and cranial sinuses are valveless.
 
 **Correct Answer:** C
 **Answer Source:** key
@@ -5876,11 +5876,11 @@
 
 ---
 
-### Q452: All of the following are indications or placement of IVC filters EXCEP
+### Q452: All of the following are indications for placement of IVC filters EXCEPT
 
 - **A)** Septic thromboembolism.
-- **B)** Bleeding complication rom anticoagulation therapy of acute ViE.
-- **C)** Recurrent DVi or PE despite adequate anticoagula- ction therapy.
+- **B)** Bleeding complication from anticoagulation therapy of acute VTE.
+- **C)** Recurrent DVT or PE despite adequate anticoagulation therapy.
 - **D)** Severe pulmonary hypertension.
 
 **Correct Answer:** A
@@ -6049,12 +6049,12 @@
 
 ---
 
-### Q465: The most common cause of aide cient LES is
+### Q465: The most common cause of an inefficient LES is
 
-- **A)** Inadequate overa ength
-- **B)** Mean resting pressure >6 mm Hg
-- **C)** Inadequate intra-abdomina ength
-- **D)** Fai ure of receptive re axation
+- **A)** Inadequate overall length
+- **B)** Mean resting pressure <6 mm Hg
+- **C)** Inadequate intra-abdominal length
+- **D)** Failure of receptive relaxation
 
 **Correct Answer:** C
 **Answer Source:** key
@@ -6062,13 +6062,13 @@
 
 ---
 
-### Q466: Maxima esophagea mucosa damage is caused by expo- sure to
+### Q466: Maximal esophageal mucosal damage is caused by exposure to
 
-- **A)** Acidic fluid a one
+- **A)** Acidic fluid alone
 - **B)** Acidic fluid, food contents, and pepsin
 - **C)** Acidic fluid, trypsin, and food contents
-- **D)** Acidic fluid, pepsin, and bi e sa ts
-- **E)** Neutra uid, pepsin, and trypsin
+- **D)** Acidic fluid, pepsin, and bile salts
+- **E)** Neutral fluid, pepsin, and trypsin
 
 **Correct Answer:** D
 **Answer Source:** key
@@ -6090,12 +6090,12 @@
 
 ---
 
-### Q468: The histo ogic ha mark of BE is
+### Q468: The histologic hallmark of BE is
 
-- **A)** Co umnar epithe ium
-- **B)** Gob et ceo s
-- **C)** Parietai ceo s
-- **D)** Cuboida epithe ium
+- **A)** Columnar epithelium
+- **B)** Goblet cells
+- **C)** Parietal cells
+- **D)** Cuboidal epithelium
 
 **Correct Answer:** B
 **Answer Source:** key
@@ -6488,7 +6488,7 @@
 
 ---
 
-### Q498: Which of the following options is the least preferable reconstruction or patients undergoing antrectomy or PUD?
+### Q498: Which of the following options is the least preferable reconstruction for patients undergoing antrectomy for PUD?
 
 - **A)** Billroth I.
 - **B)** Billroth II.
@@ -6592,10 +6592,10 @@
 
 ---
 
-### Q506: Treatment or severe early dumping after gastrectomy that is persistent despite an antidumping diet and fiber is
+### Q506: Treatment for severe early dumping after gastrectomy that is persistent despite an antidumping diet and fiber is
 
 - **A)** Expectant management
-- **B)** Oral glucose or symptoms
+- **B)** Oral glucose for symptoms
 - **C)** Octreotide
 - **D)** Surgical conversion to a Roux-en-Y drainage
 
@@ -6972,7 +6972,7 @@
 ### Q535: Adenocarcinoma of the duodenum is associated with what hereditary oncologic syndrome?
 
 - **A)** Hereditary nonpolyposis colorectal cancer (HNPCC)
-- **B)** Familial adenomatous polyposis (FlAP)
+- **B)** Familial adenomatous polyposis (FAP)
 - **C)** Peutz-Jeghers syndrome
 - **D)** Von Hippel-Lindau (VHL) syndrome
 
@@ -7073,9 +7073,9 @@
 
 ---
 
-### Q543: A 74-year-old man with biopsy-proven rectal adenocarci- onoma is undergoing a low anterior resection. Which layers must be stapled through when resecting the distal portion of resection specimen?
+### Q543: A 74-year-old man with biopsy-proven rectal adenocarcinoma is undergoing a low anterior resection. Which layers must be stapled through when resecting the distal portion of resection specimen?
 
-- **A)** Mucosa, submucosa, circular muscle layer, longitudi- final muscle layer, and serosa
+- **A)** Mucosa, submucosa, circular muscle layer, longitudinal muscle layer, and serosa
 - **B)** Mucosa, submucosa, longitudinal muscle layer, circular muscle layer, and serosa
 - **C)** Mucosa, submucosa, longitudinal muscle layer, and circular muscle layer
 - **D)** Mucosa, submucosa, circular muscle layer, and serosa
@@ -7216,7 +7216,7 @@
 
 ---
 
-### Q554: A 75-year-old woman undergoes a right hemicolectomy and end ileostomy or right-sided per orated diverticuli- otis. What is the most concerning adverse outcome in the short term of this procedure and will require revision?
+### Q554: A 75-year-old woman undergoes a right hemicolectomy and end ileostomy for right-sided perforated diverticulitis. What is the most concerning adverse outcome in the short term of this procedure and will require revision?
 
 - **A)** Skin breakdown caused by succus entericus.
 - **B)** Stoma necrosis above the level of the fascia.
@@ -7543,11 +7543,11 @@
 
 ---
 
-### Q579: A 30-year-old man presents to the ED after a witnessed syncopal episode. He has been having bloody diarrhea and intermittent crampy abdominal pain or the past 3 months. A week later he has a colonoscopy and is found to have ulcerative colitis based on colonoscopy findings and mucosal biopsies. Which feature of listed below is NO seen in ulcerative colitis?
+### Q579: A 30-year-old man presents to the ED after a witnessed syncopal episode. He has been having bloody diarrhea and intermittent crampy abdominal pain for the past 3 months. A week later he has a colonoscopy and is found to have ulcerative colitis based on colonoscopy findings and mucosal biopsies. Which feature of listed below is NOT seen in ulcerative colitis?
 
-- **A)** The terminal ileum shows inf ammatory changes.
+- **A)** The terminal ileum shows inflammatory changes.
 - **B)** The colon is shortened and mucosa is replaced by scars.
-- **C)** Rectal sparing with inf ammation seen in the trans- verse and descending colon.
+- **C)** Rectal sparing with inflammation seen in the transverse and descending colon.
 - **D)** Atrophic mucosa with crypt abscesses.
 
 **Correct Answer:** C
@@ -7571,10 +7571,10 @@
 
 ### Q581: What imaging finding would exclude appendicitis?
 
-- **A)** A computed tomographic (C ) scan withca nonvisual- ized appendix.
+- **A)** A computed tomographic (CT) scan with a nonvisualized appendix.
 - **B)** A barium enema where a short (2 cm) appendix was clearly identified.
-- **C)** An ultrasound study withca compressible appendix that is <5 mm in diameter.
-- **D)** AfC scan showing an edematous but retrocecal appendix.
+- **C)** An ultrasound study with a compressible appendix that is <5 mm in diameter.
+- **D)** A CT scan showing an edematous but retrocecal appendix.
 
 **Correct Answer:** C
 **Answer Source:** key
@@ -8621,7 +8621,7 @@
 
 ---
 
-### Q660: Which of the following is NO a location where accessory spleens can be found?
+### Q660: Which of the following is NOT a location where accessory spleens can be found?
 
 - **A)** Gastrocolic ligament
 - **B)** Gerota's fascia
@@ -9758,7 +9758,7 @@
 - **A)** Constipation and abdominal distention are classic symptoms.
 - **B)** Approximately 20% of cases are diagnosed beyond the newborn period.
 - **C)** The underlying pathology is characterized by an absence of ganglion cells in Auerbach plexus.
-- **D)** Decompressive ostomy should involve distal, nondi- clated bowel.
+- **D)** Decompressive ostomy should involve distal, nondilated bowel.
 
 **Correct Answer:** D
 **Answer Source:** key

@@ -233,10 +233,10 @@
 
 ### Q19: Which of the following factors have been demonstrated to delayed wound healing in normal individuals:
 
-- **A)** Vitamin A supplementation 7
-- **B)** Vitamin'C supplementation
+- **A)** Vitamin A supplementation
+- **B)** Vitamin C supplementation
 - **C)** Zinc supplementation
-- **D)** Chemotherapy dyes Wabi! Als 2018 dussliall 45_pill gobs Lal Sac! lois.
+- **D)** Chemotherapy
 
 **Correct Answer:** A
 **Answer Source:** marked
@@ -299,7 +299,7 @@
 
 - **A)** Ulnar artery
 - **B)** Extensor policies longus
-- **C)** Median nerve ene ae -- 7 - r =e
+- **C)** Median nerve
 
 **Correct Answer:** B
 **Answer Source:** marked
@@ -526,11 +526,11 @@
 
 ---
 
-### Q42: 716.The common differential diagnoses cf acute appendicitis include all the following, except:
+### Q42: The common differential diagnoses of acute appendicitis include all the following, except:
 
 - **A)** Right tubo-ovarian causes.
-- **B)** Right ureter stone. ee M -Meckel's diverticulitis.:. Vs k
-- **C)** 5 ew
+- **B)** Right ureter stone.
+- **C)** Meckel's diverticulitis.
 - **D)** Mesenteric adenitis.
 
 **Correct Answer:** C
@@ -1252,11 +1252,12 @@
 
 ---
 
-### Q98: The clinical manifestations of thyrotoxicosis include all th 'lo ' D. - thyroglossal cyst moves up with protrusion of the ton
+### Q98: The clinical manifestations of thyrotoxicosis include all the following, except:
 
-- **A)** Palpitations. except:
+- **A)** Palpitations.
 - **B)** Weight loss.
-- **C)** Exophthalmos. zB. Cyanosis. Sood luck 7;
+- **C)** Exophthalmos.
+- **D)** Cyanosis.
 
 **Correct Answer:** C
 **Answer Source:** marked
@@ -1484,11 +1485,11 @@
 
 ---
 
-### Q116: 26-Etiologies of perisinusoidal portal hypertension include
+### Q116: Etiologies of perisinusoidal portal hypertension include:
 
 - **A)** Alcoholism
 - **B)** Budd-Chiari syndrome
-- **C)** JY C) Hepatitis C
+- **C)** Hepatitis C
 - **D)** Schisomiasis
 
 **Correct Answer:** D

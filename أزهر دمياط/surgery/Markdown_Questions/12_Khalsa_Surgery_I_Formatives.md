@@ -752,7 +752,7 @@
 - **B)** The axillary vein
 - **C)** The pectoralis minor muscle
 - **D)** The clavicle
-- **E)** The nerve to latissmus dorsi Emad Ahmed
+- **E)** The nerve to latissmus dorsi
 
 **Correct Answer:** C
 **Answer Source:** marked

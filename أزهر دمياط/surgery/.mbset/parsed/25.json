@@ -2,7 +2,7 @@
  "nn": "25",
  "source": "Raw_PDF_Questions/بنك Dr. Amr Mohsen MCQ.pdf",
  "sha256": "37fcaecb6b9cb0fdaf11ef85bcf7089cb4159aa210044cc6e551b355445efc8f",
- "at": "2026-09-26T14:54:56Z",
+ "at": "2026-09-27T07:42:40Z",
  "layout": {
   "method": "ocr",
   "splits": {
@@ -213,14 +213,14 @@
   "marked_hits": 836,
   "answered": 869,
   "mcq": 869,
-  "at": "2026-09-26T14:54:55Z"
+  "at": "2026-09-27T07:42:40Z"
  },
  "distribution": {
   "A": 0.234,
   "B": 0.222,
   "C": 0.198,
-  "D": 0.198,
-  "E": 0.148
+  "D": 0.199,
+  "E": 0.147
  },
  "dropped_lines": [
   "Chapter 1. Safety of the Surgical Patient",
@@ -427,7 +427,7 @@
  "dropped_count": 355,
  "skipped_questions": [],
  "overrides": {
-  "applied": 80,
+  "applied": 84,
   "dropped": [
    {
     "stem": "Recent surgery.",
@@ -481,7 +481,8 @@
    "surgicalinfectionseintraabdominalabscessescanbeaspiratedunderimagecontrolultrasoundorctafinecathetercanbeinsertedtoensurecontinuationofdrainageeatuberculousabsc",
    "whatisthemostcommonparaneoplasticsyndromeoccurringinpatientswithmalignantlunglesionespeciallysmallcellcarcinomaawhypertrophicpulmonaryosteoarthropathy",
    "widelocalexcisionwitha1cmsafetymargin"
-  ]
+  ],
+  "added": 0
  },
  "questions": [
   {
@@ -17970,7 +17971,7 @@
     },
     {
      "letter": "C",
-     "text": "Bile duct infestation with the Ascaris parasite predisposes to cholangio- carcinoma.",
+     "text": "Bile duct infestation with the Ascaris parasite predisposes to cholangiocarcinoma.",
      "bold": 0.0,
      "color": 0.17,
      "marks": [
@@ -18017,7 +18018,8 @@
    "exp": "",
    "inline_answer": null,
    "flags": [
-    "number_corrected_from_25"
+    "number_corrected_from_25",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 62,
@@ -18670,8 +18672,7 @@
    "exp": "",
    "inline_answer": null,
    "flags": [
-    "number_corrected_from_31",
-    "figure_dependent"
+    "number_corrected_from_31"
    ],
    "cut_prefix": "",
    "page": 63,
@@ -73355,7 +73356,7 @@
     235
    ],
    "candidates": [],
-   "correct": "E",
+   "correct": "D",
    "answer_source": "marked"
   },
   {
@@ -73895,7 +73896,7 @@
    "number": 416,
    "section": 8,
    "type": "QCS",
-   "stem": "2 Whatis the most common spinal cord tumour in adults?",
+   "stem": "What is the most common spinal cord tumour in adults?",
    "options": [
     {
      "letter": "A",
@@ -73961,7 +73962,8 @@
    "exp": "",
    "inline_answer": null,
    "flags": [
-    "number_inferred"
+    "number_inferred",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 240,
@@ -77817,7 +77819,6 @@
    "inline_answer": null,
    "flags": [
     "number_inferred",
-    "figure_dependent",
     "text_corrected_visual"
    ],
    "cut_prefix": "",
@@ -85745,7 +85746,7 @@
    "number": 92,
    "section": 9,
    "type": "QCS",
-   "stem": "57 A trauma victim, two weeks after the accident. He is asked to hold this sheet of paper firmly by adducting his thumbs. The appearance points at",
+   "stem": "A trauma victim, two weeks after the accident. He is asked to hold this sheet of paper firmly by adducting his thumbs. The appearance points at",
    "options": [
     {
      "letter": "A",
@@ -85825,7 +85826,8 @@
    "exp": "",
    "inline_answer": null,
    "flags": [
-    "number_inferred"
+    "number_inferred",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 273,
@@ -89250,7 +89252,7 @@
     },
     {
      "letter": "B",
-     "text": "The white arrow points at a thick- walled gallbladder.",
+     "text": "The white arrow points at a thick-walled gallbladder.",
      "bold": 0.0,
      "color": 0.21,
      "marks": [
@@ -89312,7 +89314,8 @@
    "exp": "",
    "inline_answer": null,
    "flags": [
-    "number_corrected_from_26"
+    "number_corrected_from_26",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 294,

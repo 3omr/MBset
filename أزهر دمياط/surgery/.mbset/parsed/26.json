@@ -2,7 +2,7 @@
  "nn": "26",
  "source": "Raw_PDF_Questions/بنك أزهر القاهرة .pdf",
  "sha256": "c5ddb1745f4320235e814db73326507271a835ee5a7baa68021cd31a7e172b9b",
- "at": "2026-09-26T16:42:39Z",
+ "at": "2026-09-27T07:42:52Z",
  "layout": {
   "method": "ocr",
   "splits": {
@@ -144,15 +144,15 @@
    "underline": 0.0
   },
   "marked_hits": 240,
-  "answered": 437,
+  "answered": 438,
   "mcq": 438,
-  "at": "2026-09-26T16:42:39Z"
+  "at": "2026-09-27T07:42:52Z"
  },
  "distribution": {
-  "A": 0.206,
-  "B": 0.238,
-  "C": 0.284,
-  "D": 0.243,
+  "A": 0.208,
+  "B": 0.235,
+  "C": 0.283,
+  "D": 0.244,
   "E": 0.03
  },
  "dropped_lines": [
@@ -182,7 +182,7 @@
  "dropped_count": 22,
  "skipped_questions": [],
  "overrides": {
-  "applied": 281,
+  "applied": 290,
   "dropped": [],
   "stale": [],
   "added": 5
@@ -834,7 +834,7 @@
    "number": 7,
    "section": 1,
    "type": "QCS",
-   "stem": "'. g ven\" a won A 30-vear old Win the last trimester of pregnancy suddenly develops massive swe rof = Tene oe thee lower extremity from the inguinal ligament to the, sequence of work up and treatment should be",
+   "stem": "A 30-year-old woman in the last trimester of pregnancy suddenly develops massive swelling of the left lower extremity from the inguinal ligament to the ankle. The correct sequence of work up and treatment should be:",
    "options": [
     {
      "letter": "A",
@@ -854,7 +854,7 @@
     },
     {
      "letter": "B",
-     "text": "Impedance plethysmography, bed rest, heparin",
+     "text": "Impedance plethysmography, bed rest, heparin.",
      "bold": 0.0,
      "color": 0.72,
      "marks": [
@@ -871,7 +871,7 @@
     },
     {
      "letter": "C",
-     "text": "Impedance plethysmography, bed rest, vena caval filter",
+     "text": "Impedance plethysmography, bed rest, vena caval filter.",
      "bold": 0.0,
      "color": 0.0,
      "marks": [
@@ -887,7 +887,7 @@
     },
     {
      "letter": "D",
-     "text": "Impedance plethysmography, bed rest, heparin, warfarin",
+     "text": "Impedance plethysmography, bed rest, heparin, warfarin.",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -901,7 +901,7 @@
     },
     {
      "letter": "E",
-     "text": "Clinical evaluation, bed rest, warfarin,",
+     "text": "Clinical evaluation, bed rest, warfarin.",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -920,7 +920,8 @@
    "flags": [
     "option_marker_repaired_C",
     "option_marker_repaired_E",
-    "low_ocr_confidence"
+    "low_ocr_confidence",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 2,
@@ -2199,11 +2200,11 @@
    "number": 20,
    "section": 1,
    "type": "QCS",
-   "stem": "A 23 year old woman undergoes total thyroidectomy for cancer gree On the second post-operative day; she begins to complain on ) ad 8 sensation on her hands. She appears quite anxious and later complains of muscle cramps. Initial therapy should consists of:",
+   "stem": "A 23 year old woman undergoes total thyroidectomy for cancer thyroid gland. On the second post-operative day; she begins to complain on tingling sensation on her hands. She appears quite anxious and later complains of muscle cramps. Initial therapy should consists of:",
    "options": [
     {
      "letter": "A",
-     "text": "10mL of 10% magnesium sulfate intra-venously, _ luc",
+     "text": "10mL of 10% magnesium sulfate intra-venously.",
      "bold": 0.0,
      "color": 0.0,
      "marks": [
@@ -2219,7 +2220,7 @@
     },
     {
      "letter": "B",
-     "text": "Oral vitamin D",
+     "text": "Oral vitamin D.",
      "bold": 0.0,
      "color": 0.19,
      "marks": [
@@ -2236,7 +2237,7 @@
     },
     {
      "letter": "C",
-     "text": "10mg of oral synthroid",
+     "text": "10mg of oral synthroid.",
      "bold": 0.0,
      "color": 0.0,
      "marks": [
@@ -2252,7 +2253,7 @@
     },
     {
      "letter": "D",
-     "text": "Infusion of calcium gluconate,",
+     "text": "Infusion of calcium gluconate.",
      "bold": 0.0,
      "color": 0.19,
      "marks": [
@@ -2269,7 +2270,7 @@
     },
     {
      "letter": "E",
-     "text": "Oral calcium gluconate, 5 The answer: is (d).",
+     "text": "Oral calcium gluconate.",
      "bold": 0.0,
      "color": 0.0,
      "marks": [
@@ -2288,7 +2289,8 @@
    "exp": "",
    "inline_answer": null,
    "flags": [
-    "several_options_with_tint"
+    "several_options_with_tint",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 5,
@@ -3704,11 +3706,11 @@
    "number": 8,
    "section": 2,
    "type": "QCS",
-   "stem": "Albot the following may be u: veful in the treatment of cardiogenic shock except:",
+   "stem": "All of the following may be useful in the treatment of cardiogenic shock except:",
    "options": [
     {
      "letter": "A",
-     "text": "Dobutanine,",
+     "text": "Dobutamine.",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -3722,7 +3724,7 @@
     },
     {
      "letter": "B",
-     "text": "Sodium nitroprusside,",
+     "text": "Sodium nitroprusside.",
      "bold": 0.0,
      "color": 0.0,
      "marks": [
@@ -3738,7 +3740,7 @@
     },
     {
      "letter": "C",
-     "text": "Pneumatic anti-shock garment,",
+     "text": "Pneumatic anti-shock garment.",
      "bold": 0.0,
      "color": 0.67,
      "marks": [
@@ -3776,7 +3778,8 @@
    "flags": [
     "numbering_gap_before",
     "text_after_options",
-    "low_ocr_confidence"
+    "low_ocr_confidence",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 9,
@@ -6547,22 +6550,6 @@
       468.0,
       363.4
      ]
-    },
-    {
-     "letter": "E",
-     "text": "The answer: is (qd).",
-     "bold": 0.0,
-     "color": 0.0,
-     "marks": [
-      "ink"
-     ],
-     "page": 14,
-     "bbox": [
-      86.9,
-      383.5,
-      222.7,
-      398.6
-     ]
     }
    ],
    "after": "",
@@ -6570,7 +6557,8 @@
    "inline_answer": null,
    "flags": [
     "option_marker_repaired_E_from_tail_possible_mark",
-    "several_options_with_tint"
+    "several_options_with_tint",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 14,
@@ -11701,7 +11689,7 @@
     },
     {
      "letter": "D",
-     "text": "Widened mediastinum and effusions,",
+     "text": "Widened mediastinum and effusions.",
      "bold": 0.0,
      "color": 0.67,
      "marks": [
@@ -11714,6 +11702,22 @@
       181.9,
       298.1,
       199.4
+     ]
+    },
+    {
+     "letter": "E",
+     "text": "The answer: is (d).",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [
+      "ink"
+     ],
+     "page": 25,
+     "bbox": [
+      96.7,
+      200.6,
+      215.5,
+      215.3
      ]
     }
    ],
@@ -12255,7 +12259,7 @@
    "number": 47,
    "section": 3,
    "type": "QCS",
-   "stem": "Staphylococcus aureus produces each of the following EB xcept:",
+   "stem": "Staphylococcus aureus produces each of the following Except:",
    "options": [
     {
      "letter": "A",
@@ -12275,7 +12279,7 @@
     },
     {
      "letter": "B",
-     "text": "Enterotoxin.",
+     "text": "Entero-toxin.",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -12289,7 +12293,7 @@
     },
     {
      "letter": "C",
-     "text": "Epidermolytic toxin.",
+     "text": "Epidermolytic-toxin.",
      "bold": 0.0,
      "color": 0.0,
      "marks": []
@@ -12897,7 +12901,7 @@
     },
     {
      "letter": "B",
-     "text": "Lesions are rubbery blue nodules that res emble hemangiomas.",
+     "text": "Lesions are rubbery blue nodules that resemble hemangiomas.",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -12927,7 +12931,7 @@
     },
     {
      "letter": "D",
-     "text": "Intra-venous drug abusers are frequently affected. af tt",
+     "text": "Intra-venous drug abusers are frequently affected.",
      "bold": 0.0,
      "color": 0.57,
      "marks": [
@@ -12948,7 +12952,8 @@
    "inline_answer": null,
    "flags": [
     "option_out_of_order_C",
-    "low_ocr_confidence"
+    "low_ocr_confidence",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 26,
@@ -13659,7 +13664,7 @@
     },
     {
      "letter": "C",
-     "text": "Over-turned wound edges, d) Distal oedema",
+     "text": "Over-turned wound edges.",
      "bold": 0.0,
      "color": 0.27,
      "marks": [
@@ -13673,6 +13678,13 @@
       422.9,
       223.0
      ]
+    },
+    {
+     "letter": "D",
+     "text": "Distal oedema.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
     }
    ],
    "after": "The answer: is (c).",
@@ -13681,7 +13693,7 @@
    "flags": [
     "option_marker_repaired_C",
     "text_after_options",
-    "override_answer_text_not_found"
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 28,
@@ -16781,7 +16793,7 @@
     },
     {
      "letter": "C",
-     "text": "148 mEq NaCVL.",
+     "text": "148 mEq NaCl/L.",
      "bold": 0.0,
      "color": 0.0,
      "marks": [
@@ -16817,7 +16829,8 @@
    "exp": "",
    "inline_answer": null,
    "flags": [
-    "text_after_options"
+    "text_after_options",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 33,
@@ -20522,7 +20535,7 @@
     },
     {
      "letter": "B",
-     "text": "Non-healing after 2 weeks of therapy,",
+     "text": "Non-healing after 2 weeks of therapy.",
      "bold": 0.0,
      "color": 0.0,
      "marks": [
@@ -20538,7 +20551,7 @@
     },
     {
      "letter": "C",
-     "text": "Over-turned wound edges,",
+     "text": "Over-turned wound edges.",
      "bold": 0.0,
      "color": 0.4,
      "marks": [
@@ -20592,7 +20605,8 @@
    "inline_answer": null,
    "flags": [
     "option_marker_repaired_E_from_tail_possible_mark",
-    "several_options_with_tint"
+    "several_options_with_tint",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 40,
@@ -22177,7 +22191,7 @@
    "number": 67,
    "section": 4,
    "type": "QCS",
-   "stem": "A 30 year old man is stabbed in the arm. There is no evidence of vasculer injury, but he cannot flex his three radial digits. He has injured the:",
+   "stem": "A 30 year old man is stabbed in the arm. There is no evidence of vascular injury, but he cannot flex his three radial digits. He has injured the:",
    "options": [
     {
      "letter": "A",
@@ -22241,29 +22255,14 @@
       423.1,
       270.0
      ]
-    },
-    {
-     "letter": "E",
-     "text": "The answer: is (Cc).",
-     "bold": 0.0,
-     "color": 0.0,
-     "marks": [
-      "ink"
-     ],
-     "page": 43,
-     "bbox": [
-      92.2,
-      291.1,
-      211.2,
-      305.8
-     ]
     }
    ],
    "after": "",
    "exp": "",
    "inline_answer": null,
    "flags": [
-    "option_marker_repaired_E_from_tail_possible_mark"
+    "option_marker_repaired_E_from_tail_possible_mark",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 43,
@@ -22460,11 +22459,11 @@
    "number": 70,
    "section": 4,
    "type": "QCS",
-   "stem": "A patient is brought to the emergency room after a motor car accident. He is unconscious, deep scalp laceration, one dilated pupil, heart rate is 129 beats/min, blood pressure is 80/40 mmHg, and Tespiratory rate is 35 breaths/min.; 2 change significantly. The injury likely to",
+   "stem": "A patient is brought to the emergency room after a motor car accident. He is unconscious, deep scalp laceration, one dilated pupil, heart rate is 120 beats/min, blood pressure is 80/40 mmHg, and respiratory rate is 35 breaths/min. Despite rapid administration of 2L normal saline, the patient's vital signs do not change significantly. The injury likely to explain this patient's hypotension is:",
    "options": [
     {
      "letter": "A",
-     "text": "Epidural or Subdural hematoma,",
+     "text": "Epidural or Subdural hematoma.",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -22478,7 +22477,7 @@
     },
     {
      "letter": "B",
-     "text": "Parenchymal brain hemorrhage. ) Basilar skull fracture. Cc) Basil",
+     "text": "Parenchymal brain hemorrhage.",
      "bold": 0.0,
      "color": 0.0,
      "marks": [
@@ -22493,8 +22492,15 @@
      ]
     },
     {
+     "letter": "C",
+     "text": "Basilar skull fracture.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
      "letter": "D",
-     "text": "None of the above. a oe ee ig se",
+     "text": "None of the above.",
      "bold": 0.0,
      "color": 0.63,
      "marks": [
@@ -22514,8 +22520,8 @@
    "exp": "",
    "inline_answer": null,
    "flags": [
-    "letters_not_sequential",
-    "low_ocr_confidence"
+    "low_ocr_confidence",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 43,
@@ -24238,11 +24244,18 @@
    "number": 89,
    "section": 4,
    "type": "QCS",
-   "stem": "Which of the following statement(s) is/are true co a) The physiology of these injuries; g inhalation injury? progressive oedema, reactive broncho-spasm from aerosolized irritants, and micro- roeressi m y obstruction 2ry to. ncludes upper airway ob i; ncerning inhalation injury? atelectasis from loss of surfactant and alveolar oedema",
+   "stem": "Which of the following statement(s) is/are true concerning inhalation injury?",
    "options": [
     {
+     "letter": "A",
+     "text": "The physiology of these injuries includes upper airway obstruction 2ry to progressive oedema, reactive broncho-spasm from aerosolized irritants, and micro-atelectasis from loss of surfactant and alveolar oedema.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
      "letter": "B",
-     "text": "Endo-tracheal intubation js indicated inhalation injury ediately in all patients with suspected; a. ated imm",
+     "text": "Endo-tracheal intubation is indicated immediately in all patients with suspected inhalation injury.",
      "bold": 0.0,
      "color": 0.0,
      "marks": [
@@ -24272,7 +24285,7 @@
     },
     {
      "letter": "D",
-     "text": "Peak inspiratory pressures of > 40 cm of water are indicated to maintain functional",
+     "text": "Peak inspiratory pressures of > 40 cm of water are indicated to maintain functional residual capacity.",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -24289,10 +24302,9 @@
    "exp": "",
    "inline_answer": null,
    "flags": [
-    "options_start_at_B",
-    "letters_not_sequential",
     "text_after_options",
-    "low_ocr_confidence"
+    "low_ocr_confidence",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 48,
@@ -24306,7 +24318,7 @@
     48
    ],
    "candidates": [],
-   "correct": "B",
+   "correct": "A",
    "answer_source": "marked"
   },
   {
@@ -29702,7 +29714,7 @@
    "number": 46,
    "section": 5,
    "type": "QCS",
-   "stem": "The classic chest X-ray finding in anthrax ts:",
+   "stem": "The classic chest X-ray finding in anthrax is:",
    "options": [
     {
      "letter": "A",
@@ -29790,7 +29802,8 @@
    "inline_answer": null,
    "flags": [
     "option_marker_repaired_E_from_tail_possible_mark",
-    "several_options_with_tint"
+    "several_options_with_tint",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 58,
@@ -33053,7 +33066,7 @@
    "number": 23,
    "section": 6,
    "type": "QCS",
-   "stem": "A 14-year-old black girl had he r right breast removed because of a large mass. The tumor weighed 1400 g a lobulated surface with a whorl-like pattern, nd was found to have a bulging, very firm, This neoplasm is most likely: Tate mot ae ae",
+   "stem": "A 14-year-old black girl had her right breast removed because of a large mass. The tumor weighed 1400 g and was found to have a bulging, very firm, lobulated surface with a whorl-like pattern; This neoplasm is most likely:",
    "options": [
     {
      "letter": "A",
@@ -33121,7 +33134,8 @@
    "exp": "",
    "inline_answer": null,
    "flags": [
-    "low_ocr_confidence"
+    "low_ocr_confidence",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 64,
@@ -34313,7 +34327,7 @@
    "number": null,
    "section": 6,
    "type": "QCS",
-   "stem": "A breast cancer that is > 5 cm with no positive nodes or metastases is:",
+   "stem": "Which of the following statement(s) is/are correct concerning cysto-sarcoma phyllodes?",
    "options": [
     {
      "letter": "A",
@@ -34350,7 +34364,7 @@
     },
     {
      "letter": "C",
-     "text": "Axillary lymph node disse phyllodes, ction is not necessary for malignant cysto-sarcoma",
+     "text": "Axillary lymph node dissection is not necessary for malignant cysto-sarcoma phyllodes.",
      "bold": 0.0,
      "color": 0.5,
      "marks": [
@@ -34380,6 +34394,20 @@
       551.3,
       570.0
      ]
+    },
+    {
+     "letter": "E",
+     "text": "The answer: is (c).",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": [],
+     "page": 67,
+     "bbox": [
+      102.7,
+      572.2,
+      228.7,
+      591.4
+     ]
     }
    ],
    "after": "",
@@ -34392,9 +34420,7 @@
     "very_long_stem",
     "low_ocr_confidence",
     "several_options_with_tint",
-    "no_answer",
-    "text_corrected_visual",
-    "override_answer_text_not_found"
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 67,
@@ -34408,8 +34434,8 @@
     67
    ],
    "candidates": [],
-   "correct": null,
-   "answer_source": null
+   "correct": "D",
+   "answer_source": "marked"
   },
   {
    "i": 338,
@@ -37974,11 +38000,11 @@
    "number": 11,
    "section": 8,
    "type": "QCS",
-   "stem": "The most common type of ane urysm Is:",
+   "stem": "The most common type of aneurysm is:",
    "options": [
     {
      "letter": "A",
-     "text": "Degenerative,",
+     "text": "Degenerative.",
      "bold": 0.0,
      "color": 0.4,
      "marks": [
@@ -38010,8 +38036,15 @@
      ]
     },
     {
+     "letter": "C",
+     "text": "Post-stenotic.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
+    },
+    {
      "letter": "D",
-     "text": "Traumatic,",
+     "text": "Traumatic.",
      "bold": 0.0,
      "color": 0.0,
      "marks": [
@@ -38030,8 +38063,8 @@
    "exp": "",
    "inline_answer": null,
    "flags": [
-    "letters_not_sequential",
-    "text_after_options"
+    "text_after_options",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 75,
@@ -38710,7 +38743,7 @@
    "number": 19,
    "section": 8,
    "type": "QCS",
-   "stem": "The most common form of primary lymphoedema iS: c) Lymph-oedema intermedius.",
+   "stem": "The most common form of primary lymphoedema is:",
    "options": [
     {
      "letter": "A",
@@ -39208,7 +39241,7 @@
    "number": 24,
    "section": 8,
    "type": "QCS",
-   "stem": "The answer: is (d). The best initial therapy for deep venous thrombosis (DVT) of the common femoral veins:",
+   "stem": "The best initial therapy for deep venous thrombosis (DVT) of the common femoral veins:",
    "options": [
     {
      "letter": "A",
@@ -39276,7 +39309,8 @@
    "exp": "",
    "inline_answer": null,
    "flags": [
-    "number_inferred"
+    "number_inferred",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 77,

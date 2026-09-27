@@ -378,10 +378,10 @@
 
 ### Q29: Which statement is not correct regarding prediabetes
 
-- **A)** HbAIC 5.7-6.4 gm/dl
+- **A)** HbA1C 5.7-6.4 gm/dl
 - **B)** Insulin resistance is the main pathophysiology
 - **C)** Treatment by lifestyle modification and metformin is essential
-- **D)** It is not associated witty increased risk of macrovascular complications
+- **D)** It is not associated with increased risk of macrovascular complications
 - **E)** Microvascular complications are unusual
 
 **Correct Answer:** D

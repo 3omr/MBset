@@ -2,7 +2,7 @@
  "nn": "10",
  "source": "Raw_PDF_Questions/اسئلة DM منير.pdf",
  "sha256": "38e010c5118b07fc2e55aca302e54364510be191f5faa67bfbd12466aac07fea",
- "at": "2026-09-26T05:21:10Z",
+ "at": "2026-09-27T07:42:59Z",
  "layout": {
   "method": "native",
   "splits": {
@@ -48,7 +48,7 @@
   "marked_hits": 0,
   "answered": 90,
   "mcq": 90,
-  "at": "2026-09-26T05:21:10Z"
+  "at": "2026-09-27T07:42:59Z"
  },
  "distribution": {
   "A": 0.222,
@@ -80,9 +80,10 @@
  "dropped_count": 18,
  "skipped_questions": [],
  "overrides": {
-  "applied": 0,
+  "applied": 1,
   "dropped": [],
-  "stale": []
+  "stale": [],
+  "added": 0
  },
  "questions": [
   {
@@ -2741,7 +2742,7 @@
    "options": [
     {
      "letter": "A",
-     "text": "HbAIC 5.7-6.4 gm/dl",
+     "text": "HbA1C 5.7-6.4 gm/dl",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -2783,7 +2784,7 @@
     },
     {
      "letter": "D",
-     "text": "It is not associated witty increased risk of macrovascular complications",
+     "text": "It is not associated with increased risk of macrovascular complications",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -2813,7 +2814,9 @@
    "after": "",
    "exp": "",
    "inline_answer": null,
-   "flags": [],
+   "flags": [
+    "text_corrected_visual"
+   ],
    "cut_prefix": "",
    "page": 2,
    "bbox": [

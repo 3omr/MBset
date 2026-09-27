@@ -1368,22 +1368,21 @@
    "nn": "10",
    "rel": "Raw_PDF_Questions/اسئلة DM منير.pdf",
    "md": "10_Diabetes_questions.md",
-   "status": "reviewed",
+   "status": "parsed",
    "stages": {
     "parse": {
-     "at": "2026-09-26T05:21:10Z",
+     "at": "2026-09-27T07:42:59Z",
      "questions": 90,
      "mcq": 90,
      "answered": 90,
      "sources": {
       "key": 90
      },
-     "flags": 0,
-     "md_hash": "0c61a8602579825282e13e39f9bfc30eab33e5025a0ed664cd5834a76074ddda"
+     "flags": 1,
+     "md_hash": "2748c9fea212a9a8964e78eb53484efd01a69b7f535aecbd8f59a08909e7b654"
     },
     "review": {
-     "spot_check": "9/9 OK",
-     "at": "2026-09-26T06:20:41Z"
+     "spot_check": "9/9 OK"
     }
    },
    "added": "2026-09-26T05:03:30Z",
@@ -1421,6 +1420,30 @@
     "confidence": "confirmed",
     "needs_year": true,
     "confirmed": true
+   },
+   "overrides": {
+    "whichstatementisnotcorrectregardingprediabetes": {
+     "stem_fix": "Which statement is not correct regarding prediabetes",
+     "options_fix": {
+      "A": "HbA1C 5.7-6.4 gm/dl",
+      "B": "Insulin resistance is the main pathophysiology",
+      "C": "Treatment by lifestyle modification and metformin is essential",
+      "D": "It is not associated with increased risk of macrovascular complications",
+      "E": "Microvascular complications are unusual"
+     },
+     "text_note": "re-read from page: OCR changed HbA1C and inserted a typo in option D.",
+     "text_before": {
+      "stem": "Which statement is not correct regarding prediabetes",
+      "options": {
+       "A": "HbAIC 5.7-6.4 gm/dl",
+       "B": "Insulin resistance is the main pathophysiology",
+       "C": "Treatment by lifestyle modification and metformin is essential",
+       "D": "It is not associated witty increased risk of macrovascular complications",
+       "E": "Microvascular complications are unusual"
+      }
+     },
+     "at": "2026-09-27T07:43:51Z"
+    }
    }
   },
   {
@@ -1659,7 +1682,7 @@
       "key": 52
      },
      "flags": 42,
-     "md_hash": "b7e8314c6f41d2547d1262c763b04af55ab5c12383030ebcd59a9355c8908505"
+     "md_hash": "f24f5bd919f2f3f9637e33fcca7a85399db71d1b312381cf30086e1e9ade8f59"
     },
     "review": {
      "spot_check": "6/6 OK",
@@ -2231,6 +2254,68 @@
      "answer": "Osteitis fibrosa cystica",
      "source": "key",
      "at": "2026-09-26T20:36:41Z"
+    },
+    "stepsinthesynthesisofthyroexceptidhormoneincludeallofthefollowing": {
+     "stem_fix": "Steps in the synthesis of thyroid hormone include all of the following Except:",
+     "options_fix": {
+      "A": "Coupling of iodo-tyrosines.",
+      "B": "Ingestion of potassium iodide.",
+      "C": "Linkage of iodine with tyrosine residues.",
+      "D": "Oxidation of iodide to iodine."
+     },
+     "text_note": "re-read from page: The stem was split and options C/D were replaced with unrelated text.",
+     "text_before": {
+      "stem": "Steps in the synthesis of thyro Except: id hormone include all of the following",
+      "options": {
+       "A": "Coupling of iodo-tyrosines,",
+       "B": "Ingestion of potassium iodide.",
+       "C": "Form active thyroxine b y coupling iodo-tyrosines.",
+       "D": "Von Hippel-Lindau syndrome."
+      }
+     },
+     "at": "2026-09-27T07:42:59Z"
+    },
+    "thediagnosisofprimaryhyperparathyroidismismoststronglysuggestedby": {
+     "stem_fix": "The diagnosis of primary hyperparathyroidism is most strongly suggested by:",
+     "options_fix": {
+      "A": "Serum acid phosphatase > 120 IU/L.",
+      "B": "Serum alkaline phosphatase > 120 IU/L.",
+      "C": "Serum calcium > 11 mg/dL.",
+      "D": "Urinary calcium <100 mg/day.",
+      "E": "Parathyroid hormone levels < 5 pmol/L."
+     },
+     "text_note": "re-read from page: Split words and OCR symbols corrupted the stem and options.",
+     "text_before": {
+      "stem": "The diagn osis of primary hyperparathyroidism is most strongly su ggested by:",
+      "options": {
+       "A": "Serum acid phosphatase > 120 IU/L.",
+       "B": "Serum alkaline phosphatase > 120 IU/L,",
+       "C": "Serum calcium > 11 mg/dL,",
+       "D": "Urinary calcium <100 mg/day",
+       "E": "Parathyroid hormone levels < 5 pmol/L,"
+      }
+     },
+     "at": "2026-09-27T07:42:59Z"
+    },
+    "a40yearoldmaleundergoesanaedenerthyroidectomyforfollicularcarcinomaofdevelopscircumoralnumbnessfollowedbylaryngospasmandthenageneralizedseizureofthefollowingwhi": {
+     "stem_fix": "A 40-year-old male undergoes an apparently uneventful total thyroidectomy for follicular carcinoma of the thyroid. 48 hours later he develops circum-oral numbness, followed by laryngospasm, and then has a generalized seizure. Of the following, which is the first priority?",
+     "options_fix": {
+      "A": "Proceed to OR for exploration of the operative site.",
+      "B": "Administer 25 ml of 10% calcium gluconate intravenously.",
+      "C": "Obtain a serum magnesium measurement and administer intravenous magnesium chloride STAT.",
+      "D": "Obtain a CT scan of the head to evaluate the possibility of brain metastases."
+     },
+     "text_note": "re-read from page: The stem and all four options were heavily garbled by OCR.",
+     "text_before": {
+      "stem": "A 40-year-old male undergoes an aed ene r '. thyroidectomy for follicular carcinoma of develops circum-oral numbness, followed by laryngospasm, and then a generalized seizure. Of the following, which is the first priority 'or ex. operative site.",
+      "options": {
+       "A": "Proceed to OR for exploration of the of",
+       "B": "Administer 25 ml of 10 calcium g 10% calet Jucon",
+       "C": "Obtain a serum 1; and administer intravenous. jagnesium measurement chlonde STAT.",
+       "D": "Obtain a CT scan of the head to ev"
+      }
+     },
+     "at": "2026-09-27T07:42:59Z"
     }
    },
    "count_note": "Source declares Q1–Q66. Profile comparisons at PSM 3, 4, and 6 left Q16 and Q53 without reliable option blocks, misread source Q30 as Q40 and merged it into Q29's explanation, and misread Q29's inline e) option. Logged drops cover malformed option/page-break fragments and out-of-scope surgery questions; no text was reconstructed by hand."
@@ -8500,7 +8585,7 @@
  "duplicate_md_prefix": {},
  "stray_sources": [],
  "inventory_at": "2026-09-26T05:03:30Z",
- "updated": "2026-09-27T07:32:48Z",
+ "updated": "2026-09-27T07:44:52Z",
  "catalog_managed": true,
  "category_id": "DamiettaFa_ENDOCRINOLOGY_2",
  "category_name": "Endocrinology"

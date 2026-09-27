@@ -84,13 +84,13 @@
 
 ---
 
-### Q7: '. g ven" a won A 30-vear old Win the last trimester of pregnancy suddenly develops massive swe rof = Tene oe thee lower extremity from the inguinal ligament to the, sequence of work up and treatment should be
+### Q7: A 30-year-old woman in the last trimester of pregnancy suddenly develops massive swelling of the left lower extremity from the inguinal ligament to the ankle. The correct sequence of work up and treatment should be:
 
 - **A)** Venogram, bed rest, heparin.
-- **B)** Impedance plethysmography, bed rest, heparin
-- **C)** Impedance plethysmography, bed rest, vena caval filter
-- **D)** Impedance plethysmography, bed rest, heparin, warfarin
-- **E)** Clinical evaluation, bed rest, warfarin,
+- **B)** Impedance plethysmography, bed rest, heparin.
+- **C)** Impedance plethysmography, bed rest, vena caval filter.
+- **D)** Impedance plethysmography, bed rest, heparin, warfarin.
+- **E)** Clinical evaluation, bed rest, warfarin.
 
 **Correct Answer:** B
 **Answer Source:** marked
@@ -263,13 +263,13 @@
 
 ---
 
-### Q20: A 23 year old woman undergoes total thyroidectomy for cancer gree On the second post-operative day; she begins to complain on ) ad 8 sensation on her hands. She appears quite anxious and later complains of muscle cramps. Initial therapy should consists of:
+### Q20: A 23 year old woman undergoes total thyroidectomy for cancer thyroid gland. On the second post-operative day; she begins to complain on tingling sensation on her hands. She appears quite anxious and later complains of muscle cramps. Initial therapy should consists of:
 
-- **A)** 10mL of 10% magnesium sulfate intra-venously, _ luc
-- **B)** Oral vitamin D
-- **C)** 10mg of oral synthroid
-- **D)** Infusion of calcium gluconate,
-- **E)** Oral calcium gluconate
+- **A)** 10mL of 10% magnesium sulfate intra-venously.
+- **B)** Oral vitamin D.
+- **C)** 10mg of oral synthroid.
+- **D)** Infusion of calcium gluconate.
+- **E)** Oral calcium gluconate.
 
 **Correct Answer:** D
 **Answer Source:** key
@@ -466,11 +466,11 @@
 
 ---
 
-### Q35: Albot the following may be u: veful in the treatment of cardiogenic shock except:
+### Q35: All of the following may be useful in the treatment of cardiogenic shock except:
 
-- **A)** Dobutanine,
-- **B)** Sodium nitroprusside,
-- **C)** Pneumatic anti-shock garment,
+- **A)** Dobutamine.
+- **B)** Sodium nitroprusside.
+- **C)** Pneumatic anti-shock garment.
 - **D)** Intra-aortic balloon pump.
 
 **Correct Answer:** C
@@ -838,7 +838,6 @@
 - **B)** Cyto-megalo-virus.
 - **C)** Malaria.
 - **D)** Viral hepatitis.
-- **E)** The answer: is (qd).
 
 **Correct Answer:** D
 **Answer Source:** marked
@@ -1514,7 +1513,7 @@
 - **A)** Bilateral apical pneumo-thorax.
 - **B)** Basilar pneumonia.
 - **C)** Pulmonary oedema.
-- **D)** Widened mediastinum and effusions,
+- **D)** Widened mediastinum and effusions.
 
 **Correct Answer:** D
 **Answer Source:** marked
@@ -1587,11 +1586,11 @@
 
 ---
 
-### Q119: Staphylococcus aureus produces each of the following EB xcept:
+### Q119: Staphylococcus aureus produces each of the following Except:
 
 - **A)** Cell wall peptidoglycan.
-- **B)** Enterotoxin.
-- **C)** Epidermolytic toxin.
+- **B)** Entero-toxin.
+- **C)** Epidermolytic-toxin.
 - **D)** Neuro-exotoxin.
 
 **Correct Answer:** D
@@ -1669,9 +1668,9 @@
 ### Q125: All of the following statements about Kaposi's sarcoma in patients with acquired immune-deficiency syndrome (AIDS) are correct Except:
 
 - **A)** The lesions are usually multi-focal.
-- **B)** Lesions are rubbery blue nodules that res emble hemangiomas.
+- **B)** Lesions are rubbery blue nodules that resemble hemangiomas.
 - **C)** The gastro-intestinal tract is often involved.
-- **D)** Intra-venous drug abusers are frequently affected. af tt
+- **D)** Intra-venous drug abusers are frequently affected.
 
 **Correct Answer:** D
 **Answer Source:** marked
@@ -1775,7 +1774,8 @@
 
 - **A)** Persistent granulation tissue with bleeding.
 - **B)** Non-healing after 2 weeks of therapy.
-- **C)** Over-turned wound edges, d) Distal oedema
+- **C)** Over-turned wound edges.
+- **D)** Distal oedema.
 
 **Correct Answer:** C
 **Answer Source:** marked
@@ -2170,7 +2170,7 @@
 
 - **A)** 135 mEq NaCL/L.
 - **B)** 145 mEq NaCL/L.
-- **C)** 148 mEq NaCVL.
+- **C)** 148 mEq NaCl/L.
 - **D)** 154 mEq NaCL/L.
 
 **Correct Answer:** D
@@ -2870,13 +2870,12 @@
 
 ---
 
-### Q217: A 30 year old man is stabbed in the arm. There is no evidence of vasculer injury, but he cannot flex his three radial digits. He has injured the:
+### Q217: A 30 year old man is stabbed in the arm. There is no evidence of vascular injury, but he cannot flex his three radial digits. He has injured the:
 
 - **A)** Flexor pollicis longus and flexor digitus medius tendons.
 - **B)** Radial nerve.
 - **C)** Median nerve.
 - **D)** Ulnar nerve.
-- **E)** The answer: is (Cc).
 
 **Correct Answer:** C
 **Answer Source:** marked
@@ -2910,11 +2909,12 @@
 
 ---
 
-### Q220: A patient is brought to the emergency room after a motor car accident. He is unconscious, deep scalp laceration, one dilated pupil, heart rate is 129 beats/min, blood pressure is 80/40 mmHg, and Tespiratory rate is 35 breaths/min.; 2 change significantly. The injury likely to
+### Q220: A patient is brought to the emergency room after a motor car accident. He is unconscious, deep scalp laceration, one dilated pupil, heart rate is 120 beats/min, blood pressure is 80/40 mmHg, and respiratory rate is 35 breaths/min. Despite rapid administration of 2L normal saline, the patient's vital signs do not change significantly. The injury likely to explain this patient's hypotension is:
 
-- **A)** Epidural or Subdural hematoma,
-- **B)** Parenchymal brain hemorrhage. ) Basilar skull fracture. Cc) Basil
-- **C)** None of the above. a oe ee ig se
+- **A)** Epidural or Subdural hematoma.
+- **B)** Parenchymal brain hemorrhage.
+- **C)** Basilar skull fracture.
+- **D)** None of the above.
 
 **Correct Answer:** C
 **Answer Source:** marked
@@ -3145,11 +3145,12 @@
 
 ---
 
-### Q238: Which of the following statement(s) is/are true co a) The physiology of these injuries; g inhalation injury? progressive oedema, reactive broncho-spasm from aerosolized irritants, and micro- roeressi m y obstruction 2ry to. ncludes upper airway ob i; ncerning inhalation injury? atelectasis from loss of surfactant and alveolar oedema
+### Q238: Which of the following statement(s) is/are true concerning inhalation injury?
 
-- **A)** Endo-tracheal intubation js indicated inhalation injury ediately in all patients with suspected; a. ated imm
-- **B)** Distal airway injuries are usually caused by heat injury.
-- **C)** Peak inspiratory pressures of > 40 cm of water are indicated to maintain functional
+- **A)** The physiology of these injuries includes upper airway obstruction 2ry to progressive oedema, reactive broncho-spasm from aerosolized irritants, and micro-atelectasis from loss of surfactant and alveolar oedema.
+- **B)** Endo-tracheal intubation is indicated immediately in all patients with suspected inhalation injury.
+- **C)** Distal airway injuries are usually caused by heat injury.
+- **D)** Peak inspiratory pressures of > 40 cm of water are indicated to maintain functional residual capacity.
 
 **Correct Answer:** A
 **Answer Source:** marked
@@ -3890,7 +3891,7 @@
 
 ---
 
-### Q295: The classic chest X-ray finding in anthrax ts:
+### Q295: The classic chest X-ray finding in anthrax is:
 
 - **A)** Bilateral apical pneumo-thorax.
 - **B)** Widened mediastinum and effusions.
@@ -4322,7 +4323,7 @@
 
 ---
 
-### Q328: A 14-year-old black girl had he r right breast removed because of a large mass. The tumor weighed 1400 g a lobulated surface with a whorl-like pattern, nd was found to have a bulging, very firm, This neoplasm is most likely: Tate mot ae ae
+### Q328: A 14-year-old black girl had her right breast removed because of a large mass. The tumor weighed 1400 g and was found to have a bulging, very firm, lobulated surface with a whorl-like pattern; This neoplasm is most likely:
 
 - **A)** Cysto-sarcoma phylloides.
 - **B)** Intra-ductal carcinoma.
@@ -4504,11 +4505,11 @@
 
 ---
 
-### Q342: A breast cancer that is > 5 cm with no positive nodes or metastases is:
+### Q342: Which of the following statement(s) is/are correct concerning cysto-sarcoma phyllodes?
 
 - **A)** The tumor is most commonly seen in post-menopausal women.
 - **B)** Total mastectomy is necessary for all patients with this diagnosis.
-- **C)** Axillary lymph node disse phyllodes, ction is not necessary for malignant cysto-sarcoma
+- **C)** Axillary lymph node dissection is not necessary for malignant cysto-sarcoma phyllodes.
 - **D)** Most patients with the malignant variant of cysto-sarcoma phyllodes die of metastatic disease.
 
 **Correct Answer:** D
@@ -4993,11 +4994,12 @@
 
 ---
 
-### Q379: The most common type of ane urysm Is:
+### Q379: The most common type of aneurysm is:
 
-- **A)** Degenerative,
+- **A)** Degenerative.
 - **B)** Dissecting.
-- **C)** Traumatic,
+- **C)** Post-stenotic.
+- **D)** Traumatic.
 
 **Correct Answer:** A
 **Answer Source:** marked
@@ -5097,7 +5099,7 @@
 
 ---
 
-### Q387: The most common form of primary lymphoedema iS: c) Lymph-oedema intermedius.
+### Q387: The most common form of primary lymphoedema is:
 
 - **A)** Congenital lymph-oedema.
 - **B)** Lymph-oedema praecox.
@@ -5162,7 +5164,7 @@
 
 ---
 
-### Q392: The answer: is (d). The best initial therapy for deep venous thrombosis (DVT) of the common femoral veins:
+### Q392: The best initial therapy for deep venous thrombosis (DVT) of the common femoral veins:
 
 - **A)** Heparin.
 - **B)** Placement of a vena caval filter.

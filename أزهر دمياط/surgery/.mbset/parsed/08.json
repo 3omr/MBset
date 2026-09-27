@@ -2,7 +2,7 @@
  "nn": "08",
  "source": "Raw_PDF_Questions/Final surgery 2023 “2nd integrated”.pdf",
  "sha256": "33e261cb6116e8c6071abf3726e9285038316c86e16efdcca6fc0f215c149c7f",
- "at": "2026-09-26T12:02:39Z",
+ "at": "2026-09-27T07:41:43Z",
  "layout": {
   "method": "ocr",
   "splits": {
@@ -50,16 +50,16 @@
    "underline": 0.0
   },
   "marked_hits": 0,
-  "answered": 57,
+  "answered": 58,
   "mcq": 60,
-  "at": "2026-09-26T12:02:39Z"
+  "at": "2026-09-27T07:41:43Z"
  },
  "distribution": {
-  "A": 0.211,
-  "B": 0.175,
-  "C": 0.246,
-  "D": 0.193,
-  "E": 0.175
+  "A": 0.207,
+  "B": 0.19,
+  "C": 0.259,
+  "D": 0.19,
+  "E": 0.155
  },
  "dropped_lines": [
   "End Semester exam",
@@ -96,19 +96,18 @@
  "dropped_count": 30,
  "skipped_questions": [],
  "overrides": {
-  "applied": 58,
+  "applied": 60,
   "dropped": [],
   "stale": [
    "10303203043040540505theplateletshaveanimportantroleinhemostasistheirhalflifeis",
    "11scarformationispartofthenormalhealingprocessfollowinginjurywhichofthefollowingtissueshastheabilitytohealwithoutsearformation",
    "19thecarliestfindingintetanusinfectionis",
    "21a68yearoldwomanunderwentanamputationofherrightlegfollowingseverecrushinjurythreedayspostoperativelyshehaspyrexiaandtachyeardiaandlookstoxictheamputationsitelo",
+   "23theearliestsignofhypocalcaemiais",
    "53fullthicknessburnsarecharacterizedbythefollowingexcept",
    "a35yearoldmalecomingwithsubmandibulartheductthetreatmentisalculuslyingwithin",
-   "abreastabscess",
    "adjuvantchemotherapythemostcommonsitefordistantmetastasiswouldbe",
    "aintralesionalsteroidinjection34pagetsdiseaseofthenipplewhatistheappropriatetherapy",
-   "aitisasuresignofarterialinjury",
    "apostoperativeserumalbumin20gl",
    "concerningthedesmoidtumorsoftheabdominalwallallofthefollowingaretrueexceptthey",
    "drainageofdistalpulpspaceinfectionisdonethroughbilateralincisionofeachsideofthelingerctransverseincisiononthelingertipddshortlongitudinalskinincisiononareinterp",
@@ -122,7 +121,8 @@
    "topicalantisepticsapavharuniverendsemesterexamfor4yearstudentsf4asurgerymodulejagfacullyomevn2023shoursallowedeeabgirlssiics7i8a58yearoldcattlefarmersufferingfr",
    "treatedwith17apatientwithinfectedwoundcolleetionaftersurgeryshouldbe",
    "treatmedically30an18yearoldfemalepresentswithawellcircumscribed2inherrightbreastthemassispainlessandhasarubbemmassryconsistencyooendsemestereramalacharuniversit"
-  ]
+  ],
+  "added": 0
  },
  "questions": [
   {
@@ -1201,23 +1201,38 @@
    "options": [
     {
      "letter": "A",
-     "text": "Constricting chest pain"
+     "text": "Constricting chest pain",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
     },
     {
      "letter": "B",
-     "text": "Cold clammy skin"
+     "text": "Cold clammy skin",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
     },
     {
      "letter": "C",
-     "text": "Polyuria"
+     "text": "Polyuria",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
     },
     {
      "letter": "D",
-     "text": "Upper abdominal pain"
+     "text": "Upper abdominal pain",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
     },
     {
      "letter": "E",
-     "text": "Syncope"
+     "text": "Syncope",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
     }
    ],
    "after": "",
@@ -1353,23 +1368,38 @@
    "options": [
     {
      "letter": "A",
-     "text": "5-10%"
+     "text": "5-10%",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
     },
     {
      "letter": "B",
-     "text": "10 -30%"
+     "text": "10 -30%",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
     },
     {
      "letter": "C",
-     "text": "20 -30%"
+     "text": "20 -30%",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
     },
     {
      "letter": "D",
-     "text": "30 -40%"
+     "text": "30 -40%",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
     },
     {
      "letter": "E",
-     "text": "40-50%"
+     "text": "40-50%",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
     }
    ],
    "after": "",
@@ -2180,7 +2210,7 @@
    "options": [
     {
      "letter": "A",
-     "text": "Carpo-pedal spasrs",
+     "text": "Carpo-pedal spasms",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -2253,7 +2283,8 @@
    "exp": "",
    "inline_answer": null,
    "flags": [
-    "decision_matched_fuzzy"
+    "no_answer",
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 5,
@@ -2267,8 +2298,8 @@
     5
    ],
    "candidates": [],
-   "correct": "E",
-   "answer_source": "marked"
+   "correct": null,
+   "answer_source": null
   },
   {
    "i": 24,
@@ -2978,7 +3009,10 @@
     },
     {
      "letter": "C",
-     "text": "Lung"
+     "text": "Lung",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
     },
     {
      "letter": "D",
@@ -3318,7 +3352,7 @@
    "number": 35,
    "section": 1,
    "type": "QCS",
-   "stem": "",
+   "stem": "Bleeding discharge on areolar pressure is highly suggestive of:",
    "options": [
     {
      "letter": "A",
@@ -3396,8 +3430,7 @@
    "inline_answer": null,
    "flags": [
     "number_inferred",
-    "empty_stem",
-    "no_answer"
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 0,
@@ -3406,8 +3439,8 @@
     8
    ],
    "candidates": [],
-   "correct": null,
-   "answer_source": null
+   "correct": "C",
+   "answer_source": "marked"
   },
   {
    "i": 36,
@@ -3833,19 +3866,31 @@
     },
     {
      "letter": "B",
-     "text": "Pilonidal sinus"
+     "text": "Pilonidal sinus",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
     },
     {
      "letter": "C",
-     "text": "Umbilical metastasis"
+     "text": "Umbilical metastasis",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
     },
     {
      "letter": "D",
-     "text": "Umbilical hernia"
+     "text": "Umbilical hernia",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
     },
     {
      "letter": "E",
-     "text": "Umbilical granuloma"
+     "text": "Umbilical granuloma",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
     }
    ],
    "after": "Pilonidal sinus CUmbilical metastasis Umbilical hernia E) Umbilical granuloma",
@@ -4585,7 +4630,7 @@
    "number": 49,
    "section": 1,
    "type": "QCS",
-   "stem": "",
+   "stem": "Proximity of penetrating wound to a major vascular structure:",
    "options": [
     {
      "letter": "A",
@@ -4663,8 +4708,7 @@
    "inline_answer": null,
    "flags": [
     "number_inferred",
-    "empty_stem",
-    "no_answer"
+    "text_corrected_visual"
    ],
    "cut_prefix": "",
    "page": 0,
@@ -4673,8 +4717,8 @@
     11
    ],
    "candidates": [],
-   "correct": null,
-   "answer_source": null
+   "correct": "B",
+   "answer_source": "marked"
   },
   {
    "i": 50,
@@ -5524,11 +5568,17 @@
    "options": [
     {
      "letter": "A",
-     "text": "High cost"
+     "text": "High cost",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
     },
     {
      "letter": "B",
-     "text": "Possibility of aspiration pneumonia."
+     "text": "Possibility of aspiration pneumonia.",
+     "bold": 0.0,
+     "color": 0.0,
+     "marks": []
     },
     {
      "letter": "C",

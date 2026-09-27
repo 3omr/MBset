@@ -2,7 +2,7 @@
  "nn": "28",
  "source": "Raw_PDF_Questions/جراحة 20٪.pdf",
  "sha256": "846749ec69a557ba746c85b32f50c07733fadfdcf953ef5f092bd88e934fd1f7",
- "at": "2026-09-26T15:57:00Z",
+ "at": "2026-09-27T07:42:58Z",
  "layout": {
   "method": "ocr",
   "splits": {
@@ -45,15 +45,15 @@
    "underline": 0.0
   },
   "marked_hits": 0,
-  "answered": 50,
+  "answered": 57,
   "mcq": 57,
-  "at": "2026-09-26T15:57:00Z"
+  "at": "2026-09-27T07:42:58Z"
  },
  "distribution": {
-  "A": 0.3,
-  "B": 0.32,
-  "C": 0.26,
-  "D": 0.12
+  "A": 0.333,
+  "B": 0.316,
+  "C": 0.263,
+  "D": 0.088
  },
  "dropped_lines": [
   "CamScanner",
@@ -76,7 +76,7 @@
  "dropped_count": 16,
  "skipped_questions": [],
  "overrides": {
-  "applied": 54,
+  "applied": 60,
   "dropped": [],
   "stale": [],
   "added": 1
@@ -527,9 +527,7 @@
    "after": "",
    "exp": "",
    "inline_answer": null,
-   "flags": [
-    "no_answer"
-   ],
+   "flags": [],
    "cut_prefix": "",
    "page": 0,
    "bbox": [
@@ -542,8 +540,8 @@
     0
    ],
    "candidates": [],
-   "correct": null,
-   "answer_source": null
+   "correct": "A",
+   "answer_source": "derived"
   },
   {
    "i": 7,
@@ -1193,9 +1191,7 @@
    "after": "",
    "exp": "",
    "inline_answer": null,
-   "flags": [
-    "no_answer"
-   ],
+   "flags": [],
    "cut_prefix": "",
    "page": 1,
    "bbox": [
@@ -1208,8 +1204,8 @@
     1
    ],
    "candidates": [],
-   "correct": null,
-   "answer_source": null
+   "correct": "A",
+   "answer_source": "derived"
   },
   {
    "i": 15,
@@ -1279,8 +1275,7 @@
    "exp": "",
    "inline_answer": null,
    "flags": [
-    "options_start_at_B",
-    "no_answer"
+    "options_start_at_B"
    ],
    "cut_prefix": "",
    "page": 1,
@@ -1294,15 +1289,15 @@
     1
    ],
    "candidates": [],
-   "correct": null,
-   "answer_source": null
+   "correct": "C",
+   "answer_source": "derived"
   },
   {
    "i": 16,
    "number": 16,
    "section": 1,
    "type": "QCS",
-   "stem": "Which part of the intestine is responsible for the absorption of most nutrients and water? =",
+   "stem": "Which part of the intestine is responsible for the absorption of most nutrients and water?",
    "options": [
     {
      "letter": "A",
@@ -1334,7 +1329,7 @@
     },
     {
      "letter": "C",
-     "text": "G) 'leum D) Cecum",
+     "text": "Ileum",
      "bold": 0.0,
      "color": 0.0,
      "marks": [],
@@ -1651,7 +1646,7 @@
     2
    ],
    "candidates": [],
-   "correct": "D",
+   "correct": "B",
    "answer_source": "marked"
   },
   {
@@ -1819,7 +1814,7 @@
     2
    ],
    "candidates": [],
-   "correct": "A",
+   "correct": "C",
    "answer_source": "marked"
   },
   {
@@ -2861,9 +2856,7 @@
    "after": "",
    "exp": "",
    "inline_answer": null,
-   "flags": [
-    "no_answer"
-   ],
+   "flags": [],
    "cut_prefix": "",
    "page": 4,
    "bbox": [
@@ -2876,8 +2869,8 @@
     4
    ],
    "candidates": [],
-   "correct": null,
-   "answer_source": null
+   "correct": "A",
+   "answer_source": "derived"
   },
   {
    "i": 36,
@@ -2946,9 +2939,7 @@
    "after": "",
    "exp": "",
    "inline_answer": null,
-   "flags": [
-    "no_answer"
-   ],
+   "flags": [],
    "cut_prefix": "",
    "page": 4,
    "bbox": [
@@ -2961,8 +2952,8 @@
     4
    ],
    "candidates": [],
-   "correct": null,
-   "answer_source": null
+   "correct": "B",
+   "answer_source": "derived"
   },
   {
    "i": 37,
@@ -3289,9 +3280,7 @@
    "after": "",
    "exp": "",
    "inline_answer": null,
-   "flags": [
-    "no_answer"
-   ],
+   "flags": [],
    "cut_prefix": "",
    "page": 4,
    "bbox": [
@@ -3304,8 +3293,8 @@
     4
    ],
    "candidates": [],
-   "correct": null,
-   "answer_source": null
+   "correct": "A",
+   "answer_source": "derived"
   },
   {
    "i": 41,
@@ -4532,8 +4521,8 @@
     6
    ],
    "candidates": [],
-   "correct": null,
-   "answer_source": null,
+   "correct": "A",
+   "answer_source": "marked",
    "exp_source": null
   },
   {

@@ -395,7 +395,7 @@
 ### Q31: About Buerger's disease, all the following statements are true, EXCEPT:
 
 - **A)** Usually presented in male.
-- **B)** Mostly select iliac arteries. select distal arteris
+- **B)** Mostly select iliac arteries.
 - **C)** Affects smokers.
 - **D)** Pain is an early symptom.
 

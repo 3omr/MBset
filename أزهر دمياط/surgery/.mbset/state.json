@@ -2198,7 +2198,7 @@
    "nn": "08",
    "rel": "Raw_PDF_Questions/Final surgery 2023 “2nd integrated”.pdf",
    "md": "08_Final_surgery_2023_2nd_integrated.md",
-   "status": "reviewed",
+   "status": "parsed",
    "stages": {
     "ocr": {
      "status": "done",
@@ -2208,20 +2208,19 @@
      "mean_conf": 0.979
     },
     "parse": {
-     "at": "2026-09-26T12:02:39Z",
+     "at": "2026-09-27T07:41:43Z",
      "questions": 60,
      "mcq": 60,
-     "answered": 57,
+     "answered": 58,
      "sources": {
-      "marked": 57,
-      "none": 3
+      "marked": 58,
+      "none": 2
      },
      "flags": 34,
-     "md_hash": "f1b19c58ca205e2ff9479cfdd07a2ca56d90e4c35d38461bd876830b11f6eef2"
+     "md_hash": "73f0a07264993b895e194261ed5fcc18afd7b0140a651e4f623658996679c3e4"
     },
     "review": {
-     "spot_check": "6/6 OK",
-     "at": "2026-09-26T12:03:35Z"
+     "spot_check": "6/6 OK"
     }
    },
    "added": "2026-09-26T05:25:00Z",
@@ -2992,6 +2991,28 @@
      "answer": "May cause nipple retraction.",
      "source": "marked",
      "at": "2026-09-26T11:35:29Z"
+    },
+    "theearliestsignofhypocalcaemiais": {
+     "stem_fix": "The earliest sign of hypocalcaemia is:",
+     "options_fix": {
+      "A": "Carpo-pedal spasms",
+      "B": "Defective blood coagulation",
+      "C": "Positive Chovstek's sign",
+      "D": "Positive Trausseou's sign",
+      "E": "Tingling of fingers and circum-oral region"
+     },
+     "text_note": "re-read from page: Corrected OCR in option A; retained printed spellings.",
+     "text_before": {
+      "stem": "The earliest sign of hypocalcaemia is:",
+      "options": {
+       "A": "Carpo-pedal spasrs",
+       "B": "Defective blood coagulation",
+       "C": "Positive Chovstek's sign",
+       "D": "Positive Trausseou's sign",
+       "E": "Tingling of fingers and circum-oral region"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
     }
    },
    "count_note": "The source contains 60 numbered MCQs across 14 pages. The parser emitted 55 headings (53 MCQs and two mixed blocks) and several source items/options were merged or omitted; the numbering mismatch is unresolved and completeness is not certified."
@@ -3556,20 +3577,20 @@
    "nn": "12",
    "rel": "Raw_PDF_Questions/Khalsa Surgery I Formatives.pdf",
    "md": "12_Khalsa_Surgery_I_Formatives.md",
-   "status": "reviewed",
+   "status": "parsed",
    "stages": {
     "parse": {
-     "at": "2026-09-26T15:56:01Z",
+     "at": "2026-09-27T07:41:45Z",
      "questions": 60,
      "mcq": 60,
-     "answered": 57,
+     "answered": 58,
      "sources": {
-      "marked": 55,
-      "none": 3,
-      "key": 2
+      "marked": 53,
+      "key": 5,
+      "none": 2
      },
      "flags": 6,
-     "md_hash": "9cf334aad2cd43cc346d5eca6198323bddd07f147eeb8a86ddc5c97e29b97f27"
+     "md_hash": "3c60c4441794f51bbc8f137ffc1b22eb536db3b8516e07e00afc1f8759259691"
     },
     "ocr": {
      "status": "done",
@@ -3581,14 +3602,7 @@
      "mean_conf": 0.92
     },
     "review": {
-     "spot_check": "6/6 OK",
-     "at": "2026-09-26T16:05:35Z",
-     "notes": [
-      {
-       "note": "Sampled questions, choices, and red source answer markings match.",
-       "at": "2026-09-26T16:05:35Z"
-      }
-     ]
+     "spot_check": "6/6 OK"
     }
    },
    "added": "2026-09-26T05:25:00Z",
@@ -3856,7 +3870,26 @@
     "theaxillarylymphnodesaredividedintothreelevelsby": {
      "answer": "The pectoralis minor muscle",
      "source": "marked",
-     "at": "2026-09-26T14:03:14Z"
+     "at": "2026-09-27T07:43:49Z",
+     "stem_fix": "The axillary lymph nodes are divided into three levels by:",
+     "options_fix": {
+      "A": "The axillary artery",
+      "B": "The axillary vein",
+      "C": "The pectoralis minor muscle",
+      "D": "The clavicle",
+      "E": "The nerve to latissmus dorsi"
+     },
+     "text_note": "re-read from page: Removed appended name from option E; restored the complete printed option.",
+     "text_before": {
+      "stem": "The axillary lymph nodes are divided into three levels by:",
+      "options": {
+       "A": "The axillary artery",
+       "B": "The axillary vein",
+       "C": "The pectoralis minor muscle",
+       "D": "The clavicle",
+       "E": "The nerve to latissmus dorsi Emad Ahmed"
+      }
+     }
     },
     "aboutcardiogenicshockallthefollowingstatementsaretrueexcept": {
      "answer": "The neck veins are collapsed",
@@ -4061,7 +4094,7 @@
       "none": 20
      },
      "flags": 910,
-     "md_hash": "4dd2681eb58790bdf55631f4708c1657eab059e97062486fe019c81bb69bbb59"
+     "md_hash": "57117051e922b73d2769e25c854eb9e11e827adc33197efb284956cadacaf295"
     },
     "review": {
      "spot_check": "15/15 answers OK",
@@ -4147,7 +4180,26 @@
     "whatisthetistheoriginofameloblastoma": {
      "answer": "Malassez cells",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "What is the origin of Ameloblastoma?",
+     "options_fix": {
+      "A": "Osteoclasts",
+      "B": "Osteoblasts",
+      "C": "Malassez cells",
+      "D": "Hurthle cells",
+      "E": "Giant cells"
+     },
+     "text_note": "re-read from page: Re-read garbled stem from page image.",
+     "text_before": {
+      "stem": "Whatis the tis the originof Ameloblastoma?",
+      "options": {
+       "A": "Osteoclasts",
+       "B": "Osteoblasts",
+       "C": "Malassez cells",
+       "D": "Hurthle cells",
+       "E": "Giant cells"
+      }
+     }
     },
     "whichofthefollowingneckswellingsgivestranslucenceontransillumination": {
      "answer": "Cystic hygroma",
@@ -4287,7 +4339,26 @@
     "entlyeteredsilipcanceris": {
      "answer": "Lower lip at junction of middle and outer thirds",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "The frequently encountered site for lip cancer is:",
+     "options_fix": {
+      "A": "Angle of the mouth",
+      "B": "Lower lip at junction of middle and outer thirds",
+      "C": "upper lip central part",
+      "D": "upper lip at junction of middle and outer thirds",
+      "E": "central part of the lower lip"
+     },
+     "text_note": "re-read from page: Restored garbled stem and option wording from page image.",
+     "text_before": {
+      "stem": "entlye tered si lip cancer is:",
+      "options": {
+       "A": "Angle of the mouth",
+       "B": "Lower lip at junction of middle and outer thirds",
+       "C": "upper lipcentral pat",
+       "D": "upper lip at junction of middle and outer thirds",
+       "E": "central part of lower lip"
+      }
+     }
     },
     "oldfeepresentcmnonhealinieulcersince4monthonthelateralborderofthetonguewhichfinvionwuertforher": {
      "answer": "incision biopsy",
@@ -4605,7 +4676,26 @@
     "thtneumotandcirculatocollahefirst": {
      "answer": "insertion of chest drain/needle",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "In a patient with tension pneumothorax and circulatory collapse the first action should be:",
+     "options_fix": {
+      "A": "chest physiotherapy",
+      "B": "oxygen inhalation",
+      "C": "insertion of chest drain/needle",
+      "D": "tracheostomy",
+      "E": "putting the patent on ventilator"
+     },
+     "text_note": "re-read from page: Restored garbled stem and OCR spacing; retained printed 'patent'.",
+     "text_before": {
+      "stem": "tht neumot and circulato colla he first",
+      "options": {
+       "A": "chest physiotherapy",
+       "B": "oxygeninhalation",
+       "C": "insertion of chest drain/needle",
+       "D": "tracheostomy",
+       "E": "putting the patent on ventilator"
+      }
+     }
     },
     "ofthtionofealni": {
      "answer": "severe dysphagia due to advanced esophageal cancer",
@@ -4669,7 +4759,24 @@
     "fortfollaseiscorr": {
      "answer": "Hypertrophic scars; Extensor surfaces",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "the most common site for the following disease is correctly matched except",
+     "options_fix": {
+      "A": "Keloids: face, neck and skin over sternum",
+      "B": "Hypertrophic scars: Extensor surfaces",
+      "C": "Hemangiomas: head and neck",
+      "D": "Basal cell carcinoma: face"
+     },
+     "text_note": "re-read from page: Restored garbled stem and spacing in option A.",
+     "text_before": {
+      "stem": "fort foll ase is corr",
+      "options": {
+       "A": "Keloids: face, neckand skin over sternum",
+       "B": "Hypertrophic scars; Extensor surfaces",
+       "C": "Hemangiomas: head and neck",
+       "D": "Basal cell carcinoma: face"
+      }
+     }
     },
     "cancerencuirassesis": {
      "answer": "Both",
@@ -4679,7 +4786,26 @@
     "allarecausesofhemothoraxexcept": {
      "answer": "Rupture of emphysematous bullae",
      "source": "derived",
-     "at": "2026-09-26T20:25:18Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "All are causes of hemothorax except:",
+     "options_fix": {
+      "A": "Trauma",
+      "B": "Bronchogenic carcinoma",
+      "C": "Rupture of emphysematous bullae",
+      "D": "Anticoagulant therapy",
+      "E": "Hemophilia"
+     },
+     "text_note": "re-read from page: Garbled stem and option E.",
+     "text_before": {
+      "stem": "Allare causes of hemothorax except:",
+      "options": {
+       "A": "Trauma",
+       "B": "Bronchogenic carcinoma",
+       "C": "Rupture of emphysematous bullae",
+       "D": "Anticoagulant therapy",
+       "E": "Hemophilia ards empye necessitans"
+      }
+     }
     },
     "inthmentofayearsoldwomanstruckacarannitolisgiven": {
      "answer": "Lower raised ICP",
@@ -5399,8 +5525,8 @@
      "answer": "Para-aortic",
      "source": "derived",
      "note": "key grid read by PaddleOCR (split pages), matched by stem+option",
-     "at": "2026-09-26T20:25:18Z",
-     "stem_fix": "Testicular cancer first metastasizes to which group of lymph nodes:",
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "Testicular cancer first metastasizes to which group of lymph nodes",
      "options_fix": {
       "A": "Inguinal",
       "B": "Femoral",
@@ -5408,7 +5534,7 @@
       "D": "Para-aortic",
       "E": "Supraclavicular"
      },
-     "text_note": "reconstructed from page 134",
+     "text_note": "re-read from page: Restored garbled stem and option D from page image.",
      "text_before": {
       "stem": "Testicular cancer first metastasizes to which group of lymph nodes:",
       "options": {
@@ -5524,7 +5650,26 @@
      "answer": "Carcinoma of the head of the pancreas",
      "source": "derived",
      "note": "key grid read by PaddleOCR (split pages), matched by stem+option",
-     "at": "2026-09-26T20:25:18Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "Widening of the C-loop of the duodenum in X-ray is diagnostic of",
+     "options_fix": {
+      "A": "A calculus in the ampulla of Vater",
+      "B": "Carcinoma of the head of the pancreas",
+      "C": "Chronic pancreatitis",
+      "D": "Periampullary carcinoma",
+      "E": "Cholangiocarcinoma"
+     },
+     "text_note": "re-read from page: Corrected garbled option A; retained complete set.",
+     "text_before": {
+      "stem": "Widening ofthe C-loop of the duodenum in X-ray is diagnostic of",
+      "options": {
+       "A": "Acalcuius in the ampula of Vater",
+       "B": "Carcinoma of the head of the pancreas",
+       "C": "Chronic pancreatitis",
+       "D": "Periampullary carcinoma",
+       "E": "Cholangiocarcinoma"
+      }
+     }
     },
     "whichtypeisanindicationforhighlyselectivevagotomy": {
      "answer": "Fundic peptic ulceration.",
@@ -5924,7 +6069,25 @@
      "answer": "Gastro-colic fistula",
      "source": "key",
      "note": "key grid read by PaddleOCR (split pages), matched by stem+option",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "A 62 years old female presented with foul eructation, fecal vomiting and severe diarrhea, you will suspect:",
+     "options_fix": {
+      "A": "Acute pancreatitis.",
+      "B": "Gastric cancer.",
+      "C": "Pseudomembranous colitis.",
+      "D": "Gastro-colic fistula.",
+      "E": "Acute gastritis"
+     },
+     "text_note": "re-read from page: Stem and choices were garbled; restored from page 74.",
+     "text_before": {
+      "stem": "A 62 years old female sented ith foul eructation, fecal iting an severe diarrhea; you wil suspect",
+      "options": {
+       "A": "Acute pancreatitis",
+       "B": "Gastric cancer",
+       "C": "Pseudomembranous colitis",
+       "D": "Gastro-colic fistula"
+      }
+     }
     },
     "applecoresignisadiagnosticfeatureof": {
      "answer": "Colonic malignant carcinoma",
@@ -6223,7 +6386,26 @@
      "answer": "It has no epithelial lining.",
      "source": "key",
      "note": "key grid read by PaddleOCR (split pages), matched by stem+option",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "The pancreatic pseudocyst is so called because:",
+     "options_fix": {
+      "A": "It has no epithelial lining.",
+      "B": "It may contain necrotic material.",
+      "C": "It is not embedded in the pancreas.",
+      "D": "It may be caused by diseases of organs other than the pancreas.",
+      "E": "It is, in fact, a neoplasm"
+     },
+     "text_note": "re-read from page: Stem was garbled; restored from page 107.",
+     "text_before": {
+      "stem": "e pancreatic udo-cystis so lled because:",
+      "options": {
+       "A": "It has no epithelial lining.",
+       "B": "It may contain necrotic material.",
+       "C": "It is not embedded in the pancreas.",
+       "D": "It may be caused by diseases of organs other than the pancreas.",
+       "E": "It is, infact, aneoplasm"
+      }
+     }
     },
     "apatientwithnecrotizingpancreatitiswhatisthemostappropriatetreatmentbiliary": {
      "answer": "Endoscopic retrograde cholangio-pancreatography with sphincterotomy",
@@ -7753,13 +7935,13 @@
      "source": "key"
     },
     "ihousepage22surgeryincisionleocadenomedsalivahlowimentsimstsalimor": {
-     "stem_fix": "leo cadenom edsaliva Hlowi ments i m st sali mor",
+     "stem_fix": "Concerning pleomorphic adenoma (mixed salivary tumor), Which of the following statements is correct Is the commonest salivary tumor",
      "options_fix": {
       "A": "Has a very heterogenous histological structure",
       "B": "Is well-encapsulated",
       "C": "Presents as a slow-growing firm swelling just below the lobule of the ear tends to recur after inadequate excision"
      },
-     "text_note": "clean OCR noise",
+     "text_note": "re-read from page: Restored garbled text; retained the source's unusual stem wording and spelling.",
      "text_before": {
       "stem": "leo cadenom edsaliva Hlowi ments i m st sali mor",
       "options": {
@@ -7768,7 +7950,7 @@
        "C": "Presents as a slow-growing firm swelling just below the lobule of the ear tends to recur after inadequate excision"
       }
      },
-     "at": "2026-09-26T19:42:32Z",
+     "at": "2026-09-27T07:41:45Z",
      "answer": "Is well-encapsulated",
      "source": "key"
     },
@@ -8946,7 +9128,7 @@
      "source": "key"
     },
     "ihousepage109surgeryincisionmale122020testicularcancerfirstmetastasizestowhichgroupofln": {
-     "stem_fix": "Testicular cancer first metastasizes to which group of lymph nodes (LN):",
+     "stem_fix": "Testicular cancer first metastasizes to which group of LN:",
      "options_fix": {
       "A": "Inguinal",
       "B": "Femoral",
@@ -8954,18 +9136,18 @@
       "D": "Para-aortic",
       "E": "Supraclavicular"
      },
-     "text_note": "final visual pass",
+     "text_note": "re-read from page: Corrected OCR in option D.",
      "text_before": {
-      "stem": "Male 12/2020 Testicular cancer first metastasizes to which group of LN:",
+      "stem": "Testicular cancer first metastasizes to which group of lymph nodes (LN):",
       "options": {
        "A": "Inguinal",
        "B": "Femoral",
        "C": "Iliac",
-       "D": "Para-dorlic",
+       "D": "Para-aortic",
        "E": "Supraclavicular"
       }
      },
-     "at": "2026-09-26T20:25:18Z",
+     "at": "2026-09-27T07:41:45Z",
      "answer": "Para-aortic",
      "source": "key"
     },
@@ -9016,7 +9198,7 @@
      "source": "key"
     },
     "whioupof": {
-     "stem_fix": "Which group of lymph nodes does the testis primarily drain into?",
+     "stem_fix": "Testicular cancer first metastasizes to which group of lymph nodes (LN)",
      "options_fix": {
       "A": "Inguinal",
       "B": "Femoral",
@@ -9024,7 +9206,7 @@
       "D": "Para-aortic",
       "E": "Supraclavicular"
      },
-     "text_note": "reconstructed stem from page 58",
+     "text_note": "re-read from page: Restored garbled stem and option D from page image.",
      "text_before": {
       "stem": "Which group of lymph nodes does the testis primarily drain into?",
       "options": {
@@ -9035,7 +9217,7 @@
        "E": "Supraclavicular"
       }
      },
-     "at": "2026-09-26T19:42:32Z",
+     "at": "2026-09-27T07:41:45Z",
      "answer": "Para-aortic",
      "source": "key"
     },
@@ -9181,15 +9363,15 @@
      "source": "key"
     },
     "thefollowinreastcerioncantreatedservatlyvreastsurgery": {
-     "stem_fix": "The following breast cancer lesion can be treated conservatively:",
+     "stem_fix": "The following breast cancer lesion can be treated by conservative breast surgery",
      "options_fix": {
-      "A": "tumour less than 4 cm with N2 axilkary lymph nodes",
-      "B": "tumour less than 4 cm witha history of treatment from collagen vascular disease",
+      "A": "tumour less than 4 cm with N2 axillary lymph nodes",
+      "B": "tumour less than 4 cm with a history of treatment from collagen vascular disease",
       "C": "tumour less than 4 cm with extensive insitu component",
-      "D": "muiticentric tumour",
-      "E": "tumour less than 4 cm and the axiliary lymph nodes are not palpable."
+      "D": "multicentric tumour",
+      "E": "tumour less than 4 cm and the axillary lymph nodes are not palpable."
      },
-     "text_note": "clean stem from page 62",
+     "text_note": "re-read from page: Restored garbled stem and OCR spelling in option D.",
      "text_before": {
       "stem": "The following breast cancer lesion can be treated conservatively:",
       "options": {
@@ -9200,7 +9382,7 @@
        "E": "tumour less than 4 cm and the axiliary lymph nodes are not palpable."
       }
      },
-     "at": "2026-09-26T19:42:33Z",
+     "at": "2026-09-27T07:41:46Z",
      "answer": "tumour less than 4 cm and the axiliary lymph nodes are not palpable.",
      "source": "key"
     },
@@ -9320,15 +9502,15 @@
      "source": "key"
     },
     "alltemojaeneaexcept": {
-     "stem_fix": "\"all tem oj Aenea except:",
+     "stem_fix": "The following statements about lymphatic drainage of the breast are all true, except:",
      "options_fix": {
-      "A": "Lymph from medial half of the breast may drainin internal mammary nodes",
-      "B": "from anywhere inthe breast lymphatic's drain mostly to axillary nodes",
-      "C": "Division of axillary nodes into levels 1, 11 and Ill depends uponthe anatomical relationship with the pectoralis minor",
+      "A": "Lymph from medial half of the breast may drain in internal mammary nodes",
+      "B": "From anywhere in the breast lymphatic's drain mostly to axillary nodes",
+      "C": "Division of axillary nodes into levels 1, 11 and III depends upon the anatomical relationship with the pectoralis minor",
       "D": "Level one axillary nodes is the highest in the axilla",
-      "E": "The sentinel nodeis the earliest axillary node to be involved with cancer spread"
+      "E": "The sentinel node is the earliest axillary node to be involved with cancer spread"
      },
-     "text_note": "clean OCR noise",
+     "text_note": "re-read from page: Stem and choices were garbled; restored from page 65.",
      "text_before": {
       "stem": "\"all tem oj Aenea except:",
       "options": {
@@ -9339,7 +9521,7 @@
        "E": "The sentinel nodeis the earliest axillary node to be involved with cancer spread"
       }
      },
-     "at": "2026-09-26T19:42:33Z",
+     "at": "2026-09-27T07:41:46Z",
      "answer": "from anywhere inthe breast lymphatic's drain mostly to axillary nodes",
      "source": "key"
     },
@@ -9645,15 +9827,15 @@
      "source": "key"
     },
     "contraindicatiotoirr10skinanthefollowinexcept": {
-     "stem_fix": "Contra indicatio to irr: 10 skin an the followin except:",
+     "stem_fix": "Contra indications to irradiation in skin malignancies include the following except:",
      "options_fix": {
       "A": "Recurrent tumors (after irradiation)",
       "B": "Deeply invasive tumors",
       "C": "Lesions in upper half of the face",
-      "D": "old age group",
-      "E": "Plain films of the abdomen"
+      "D": "Old age group",
+      "E": null
      },
-     "text_note": "clean OCR noise",
+     "text_note": "re-read from page: Stem was garbled; restored from page 71.",
      "text_before": {
       "stem": "Contra indicatio to irr: 10 skin an the followin except:",
       "options": {
@@ -9664,18 +9846,18 @@
        "E": "Plain films of the abdomen"
       }
      },
-     "at": "2026-09-26T19:42:33Z",
+     "at": "2026-09-27T07:41:46Z",
      "answer": "old age group",
      "source": "key"
     },
     "housepage146surgeryincision6latedumpingsyndromeaftergastricsurgeryisdueto": {
-     "stem_fix": "late dumping syndrome after gastric surgery is due to:",
+     "stem_fix": "Late dumping syndrome after gastric surgery is due to:",
      "options_fix": {
       "A": "release of serotonin",
       "B": "food bolus inthe jejunum",
       "C": "excessive release ofinsulin"
      },
-     "text_note": "clean OCR noise",
+     "text_note": "re-read from page: Stem was garbled; restored from page 74.",
      "text_before": {
       "stem": "late dumping syndrome after gastric surgery is due to:",
       "options": {
@@ -9684,7 +9866,7 @@
        "C": "excessive release ofinsulin"
       }
      },
-     "at": "2026-09-26T20:25:18Z",
+     "at": "2026-09-27T07:41:46Z",
      "answer": "Excessive release of insulin",
      "source": "key"
     },
@@ -9737,14 +9919,15 @@
      "source": "key"
     },
     "housepage150ncisionsurgeryseverebieeapostorquoalulceris": {
-     "stem_fix": "About linitis plastica, one statement is true:",
+     "stem_fix": "About linitis plastica one statement is true:",
      "options_fix": {
       "A": "It is a lymphoma of the stomach",
       "B": "The stomach is dilated and filled with large mass",
       "C": "It is a gastro-esophageal tumour",
-      "D": "Narrowed rigid stomach and the tumour may be not visible on the mucosa"
+      "D": "Narrowed starf stomach and The tumour may be not visible on the mucosa",
+      "E": null
      },
-     "text_note": "reconstructed from page 75",
+     "text_note": "re-read from page: Choice E was stray text; restored the printed four-choice set from page 76.",
      "text_before": {
       "stem": "About linitis plastica, one statement is true:",
       "options": {
@@ -9755,7 +9938,7 @@
        "E": "commonHepatic artery"
       }
      },
-     "at": "2026-09-26T19:42:33Z",
+     "at": "2026-09-27T07:41:46Z",
      "answer": "Narrowed rigid stomach and the tumour may be not visible on the mucosa",
      "source": "key"
     },
@@ -10173,15 +10356,15 @@
      "source": "key"
     },
     "oriskelytoiibitwoundfactl": {
-     "stem_fix": "oris kely toi ibit wound Factl",
+     "stem_fix": "Which factor is least likely to inhibit wound contraction?",
      "options_fix": {
-      "A": "Radiation (By Cytotytic arug",
-      "B": "11",
+      "A": "Radiation",
+      "B": "Cytolytic drug",
       "C": "Transformation growth factor b",
       "D": "Full-thickness skin graft",
       "E": "External splints."
      },
-     "text_note": "clean OCR noise",
+     "text_note": "re-read from page: Stem and choice A were garbled; restored from page 102.",
      "text_before": {
       "stem": "oris kely toi ibit wound Factl",
       "options": {
@@ -10192,7 +10375,7 @@
        "E": "External splints."
       }
      },
-     "at": "2026-09-26T19:42:33Z",
+     "at": "2026-09-27T07:41:46Z",
      "answer": "Full-thickness skin graft",
      "source": "key"
     },
@@ -10387,14 +10570,14 @@
      "source": "key"
     },
     "whatistheycauselikel1lisicotesapeifterpriniattee": {
-     "stem_fix": "What is the most likely cause of persistent bleeding after Pringle maneuver?",
+     "stem_fix": "In liver laceration if there is uncontrolled bleeding after Pringle's maneuver, what is the likely cause",
      "options_fix": {
-      "A": "Hepatic arterial bleeding",
-      "B": "Portal vein bleeding",
-      "C": "Hepatic vein or inferior vena cava injury",
-      "D": "Capillary oozing"
+      "A": "Arterial bleeding",
+      "B": "Capillary bleed",
+      "C": "Hepatic vein bleed",
+      "D": "Portal vein bleed"
      },
-     "text_note": "reconstructed from page 107",
+     "text_note": "re-read from page: Stem and options were garbled; restored from page 107.",
      "text_before": {
       "stem": "What is the most likely cause of persistent bleeding after Pringle maneuver?",
       "options": {
@@ -10404,7 +10587,7 @@
        "D": "Capillary oozing"
       }
      },
-     "at": "2026-09-26T19:42:33Z",
+     "at": "2026-09-27T07:41:46Z",
      "answer": "Hepatic arterial bleeding",
      "source": "key"
     },
@@ -10940,15 +11123,15 @@
      "source": "derived"
     },
     "91iviintveitielei4true": {
-     "stem_fix": "91 ivi int VE iti ele i) 4 true?",
+     "stem_fix": "Which of the following statements about pyogenic abscess of the liver are true?",
      "options_fix": {
       "A": "The right lobe is more commonly involved than the left lobe.",
-      "B": "Appendicitis with perforation and abscess is the most common underlying cause of hepatic abscess. a",
+      "B": "Appendicitis with perforation and abscess is the most common underlying cause of hepatic abscess.",
       "C": "Biliary obstruction has no role.",
       "D": "Mortality from hepatic abscess is currently greater than 40%.",
       "E": "Aspiration is the treatment of choice."
      },
-     "text_note": "clean OCR noise",
+     "text_note": "re-read from page: Garbled stem and option B artifact.",
      "text_before": {
       "stem": "91 ivi int VE iti ele i) 4 true?",
       "options": {
@@ -10959,7 +11142,7 @@
        "E": "Aspiration is the treatment of choice."
       }
      },
-     "at": "2026-09-26T20:25:18Z",
+     "at": "2026-09-27T07:41:46Z",
      "answer": "The right lobe is more commonly involved than the left lobe.",
      "source": "derived"
     },
@@ -11688,12 +11871,50 @@
     "isfrndromefollowiroti": {
      "answer": "Gustatory sweating",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "What is Frey's syndrome following parotidectomy?",
+     "options_fix": {
+      "A": "Gustatory sweating",
+      "B": "Dry mouth due to reduction in salivary flow",
+      "C": "Development of a sialocele over the parotid bed",
+      "D": "Cosmetic deformity due to loss of parotid bulk",
+      "E": "Hyperplasia of the contralateral parotid gland"
+     },
+     "text_note": "re-read from page: Restored garbled stem and corrected OCR spacing in option B.",
+     "text_before": {
+      "stem": "is fr ndrome followi roti",
+      "options": {
+       "A": "Gustatory sweating",
+       "B": "Dry mouth due to reductionin salivary flow",
+       "C": "Development ofa sialocele over the parotid bed",
+       "D": "Cosmetic deformity due to loss of parotid bulk",
+       "E": "Hyperplasia of the contralateral parotid gland"
+      }
+     }
     },
     "racicoutletmentsaretrueexce": {
      "answer": "In all cases a cervical rib is present",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "About thoracic outlet syndrome, all statements are true, except",
+     "options_fix": {
+      "A": "In all cases a cervical rib is present",
+      "B": "The commonest manifestations are caused by compression of the lower trunk of the brachial plexus",
+      "C": "There may be hyposthesia of medial side of forearm",
+      "D": "It is one cause of Reynaud's phenomenon",
+      "E": "There may be chronic heaviness and edema of the upper limb"
+     },
+     "text_note": "re-read from page: Restored garbled stem and OCR errors; retained printed spellings.",
+     "text_before": {
+      "stem": "racic outlet ments are true, exce",
+      "options": {
+       "A": "In all cases a cervical rib is present",
+       "B": "The commonest manifestations are caused by compression of the lower trunk of the brachial plexus",
+       "C": "There may be hyposthesia of medial side of forearm",
+       "D": "It is one cause of Reynaud's phenomenon",
+       "E": "There may be chronic heaviness and edema of the upper limb"
+      }
+     }
     },
     "whichofthefollowingstatementsregardingpilonidalsinusisfalse": {
      "answer": "Usually congenital",
@@ -12008,7 +12229,26 @@
     "themostvalmentofitiont": {
      "answer": "Nonproteinnitrogen",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "The most valuable laboratory assessment of nutrition is:",
+     "options_fix": {
+      "A": "Serum Urea",
+      "B": "Non protein nitrogen",
+      "C": "Serum albumin",
+      "D": "Serum plasma proteins",
+      "E": "Serum calcium"
+     },
+     "text_note": "re-read from page: Restored garbled stem and option B spacing.",
+     "text_before": {
+      "stem": "The most val ment of ition t",
+      "options": {
+       "A": "Serum Urea",
+       "B": "Nonproteinnitrogen",
+       "C": "Serum albumin",
+       "D": "Serum plasma proteins",
+       "E": "Serum calcium"
+      }
+     }
     },
     "napatientwithacutethermalburnswhichofthe13followingmeasurements14mosteffectivelymonitorsadequatefluidresuscitation5aserumbloodcalciumlevel1": {
      "answer": "Urine output",
@@ -12034,12 +12274,48 @@
     "li2016notwaitforfluctesstitinallpositionsexcept": {
      "answer": "Parotid abscess",
      "source": "key",
-     "at": "2026-09-26T19:51:25Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "Do not wait for fluctuation of an abscess to drain it in all the following positions, except:",
+     "options_fix": {
+      "A": "Distal pulp space infection of a finger",
+      "B": "Parotid abscess",
+      "C": "Subeutancous abscess of forearm",
+      "D": "Perianal abscess",
+      "E": null
+     },
+     "text_note": "re-read from page: Restored stem and removed spurious fifth option; the source has four options.",
+     "text_before": {
+      "stem": "li/ 2016 ) not wait for fluct esst itin all positions, except",
+      "options": {
+       "A": "Distal pulp space infection of a finger",
+       "B": "Parotid abscess",
+       "C": "Subeutancous abscess of forearm",
+       "D": "Perianal abscess",
+       "E": "unt trauma to the"
+      }
+     }
     },
     "stcmonlyiureswhichoftfollorgans": {
      "answer": "Liver",
      "source": "key",
-     "at": "2026-09-26T19:51:25Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "Blunt trauma to the abdomen most commonly injures which of the following organs?",
+     "options_fix": {
+      "A": "Liver",
+      "B": "Like",
+      "C": "Kidney",
+      "D": "brain"
+     },
+     "text_note": "re-read from page: Restored garbled stem; retained the printed option typo 'Like'.",
+     "text_before": {
+      "stem": "stc monlyi ures which of t foll organs:",
+      "options": {
+       "A": "Liver",
+       "B": "Like",
+       "C": "Kidney",
+       "D": "brain"
+      }
+     }
     },
     "themosteffectivetreatmentofanaphylacticshockis": {
      "answer": "IV corticosteroids",
@@ -12049,7 +12325,26 @@
     "emostfuentgitlicationanextenburnis": {
      "answer": "Acute dilatation of the stomach.",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "The most frequent GIT complication of an extensive burn is",
+     "options_fix": {
+      "A": "Acute gastritis.",
+      "B": "Acute dilatation of the stomach.",
+      "C": "Curling's ulcer.",
+      "D": "Paralytic ileus.",
+      "E": "Diarrhea."
+     },
+     "text_note": "re-read from page: Restored garbled stem from page image.",
+     "text_before": {
+      "stem": "e most f uent GIT lication anexten burnis",
+      "options": {
+       "A": "Acute gastritis.",
+       "B": "Acute dilatation of the stomach.",
+       "C": "Curling's ulcer.",
+       "D": "Paralytic ileus.",
+       "E": "Diarrhea."
+      }
+     }
     },
     "thecommonestpresentationnephroblastoma": {
      "answer": "Hematuria",
@@ -12059,7 +12354,26 @@
     "ingcondiimostalwaysassociedawiinlessematochezia": {
      "answer": "Ischemic colitis",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "Which of the following conditions is almost always associated with painless hematochezia?",
+     "options_fix": {
+      "A": "Bleeding from crohn's colitis",
+      "B": "Ischemic colitis",
+      "C": "Bleeding duodenal ulcer",
+      "D": "Superior mesenteric artery embolism",
+      "E": "Aortic fistula developing 1 year after an abdominal aortic aneurysm repair"
+     },
+     "text_note": "re-read from page: Restored garbled stem and removed OCR debris from option E.",
+     "text_before": {
+      "stem": "ing condi Imost always associ edawi inless ematochezia?",
+      "options": {
+       "A": "Bleeding from crohn's colitis",
+       "B": "Ischemic colitis",
+       "C": "Bleeding duodenal ulcer",
+       "D": "Superior mesenteric artery embolism",
+       "E": "Aortic fistula developing1 year after an abdominal aortic aneurysm repair"
+      }
+     }
     },
     "injectionsclerotherapyforvaricoseveinsisbyusing": {
      "answer": "Ethanolamine oleate",
@@ -12328,7 +12642,26 @@
     "clinicallywhatasaphenavarixismostlikelytobeconfusedwithtreswert": {
      "answer": "Uncomplicated femoral hernia",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "Clinically what a saphena varix is most likely to be confused with?",
+     "options_fix": {
+      "A": "Baker's cyst",
+      "B": "Uncomplicated femoral hernia",
+      "C": "Spermatoual hernia",
+      "D": "direct inguinal hernia",
+      "E": "Varicocele"
+     },
+     "text_note": "re-read from page: Removed trailing OCR debris and restored garbled option C; retained printed spel",
+     "text_before": {
+      "stem": "Clinically what a saphena varix is most likely to be confused with? tres wert",
+      "options": {
+       "A": "Baker's cyst",
+       "B": "Uncomplicated femoral hernia",
+       "C": "Spermatoual henia",
+       "D": "direct inguinal hernia",
+       "E": "Varicocele"
+      }
+     }
     },
     "wwsimrrepairofconnalhernia": {
      "answer": "3 months",
@@ -12362,7 +12695,26 @@
     "thefollowinnnotbefowithintheherni": {
      "answer": "Pancreas",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "Which of the Following organs cannot be found within the hernia sac?",
+     "options_fix": {
+      "A": "Colon.",
+      "B": "Ovary.",
+      "C": "Urinary Bladder.",
+      "D": "pancreas",
+      "E": "ileum."
+     },
+     "text_note": "re-read from page: Restored garbled stem and option E; retained printed capitalization.",
+     "text_before": {
+      "stem": "the Followin nnot be fo within the herni",
+      "options": {
+       "A": "Colon",
+       "B": "Ovary",
+       "C": "Urinary Bladder",
+       "D": "Pancreas",
+       "E": "ileum"
+      }
+     }
     },
     "richtersherniaisatypeofherniawhichcontains": {
      "answer": "Portion of the circumference of the intestine",
@@ -12382,7 +12734,24 @@
     "thellowiisthemostcoofias": {
      "answer": "Inguinal",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "The following is the most common of hernias:",
+     "options_fix": {
+      "A": "Femoral",
+      "B": "Umbilical",
+      "C": "Inguinal",
+      "D": "Incisional"
+     },
+     "text_note": "re-read from page: Restored garbled stem and option D capitalization.",
+     "text_before": {
+      "stem": "The llowi is the most co of ias:",
+      "options": {
+       "A": "Femoral",
+       "B": "Umbilical",
+       "C": "Inguinal",
+       "D": "incisional"
+      }
+     }
     },
     "richtersherniaisatypeofherniawith": {
      "answer": "Portion of the circumference of the intestine in the sac",
@@ -12419,12 +12788,46 @@
     "arefalsetestilartichofthefollowingstatementaanse": {
      "answer": "Lymphatic spreadis usually to the inguinal lymph nodes 12 Cc",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "In testicular tumors, which of the following statements are false?",
+     "options_fix": {
+      "A": "A scrotal lump that is inseparable from the testis is likely to be a tumour",
+      "B": "Lymphatic spread is usually to the inguinal lymph nodes",
+      "C": "Teratomas occur in the third decade and seminomas in the fourth decade",
+      "D": "Seminomas usually spread via the lymphatics"
+     },
+     "text_note": "re-read from page: Restored garbled stem and removed OCR debris from options A and B.",
+     "text_before": {
+      "stem": "are false? testi lar t ich of the following statement a ANSE",
+      "options": {
+       "A": "A scrotal ump that is inseparable from the testis is likely to be a tumour 10 Cc",
+       "B": "Lymphatic spreadis usually to the inguinal lymph nodes 12 Cc",
+       "C": "Teratom as occur in the third decade and seminomas in the fourth decade",
+       "D": "Seminomas usually spread via the lymphatics"
+      }
+     }
     },
     "synthmatelusedinhernilastyis": {
      "answer": "Prolene mesh",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "The synthetic material used in hernioplasty is",
+     "options_fix": {
+      "A": "Prolene mesh",
+      "B": "Skin graft",
+      "C": "Deep fascia",
+      "D": "Rectus muscle"
+     },
+     "text_note": "re-read from page: Restored garbled stem from page image.",
+     "text_before": {
+      "stem": "synth mate lused in herni lastyis",
+      "options": {
+       "A": "Prolene mesh",
+       "B": "Skin graft",
+       "C": "Deep fascia",
+       "D": "Rectus muscle"
+      }
+     }
     },
     "littresherniais": {
      "answer": "Hernia passing through lineasemilunaris line",
@@ -12604,7 +13007,26 @@
     "rsollehtesticulartumourwitelevatedalphafetoproteinthemostlikelydiagnosis": {
      "answer": "embryonal carcinoma",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "A 60 years old male have testicular tumour with elevated alpha feto-protein the most likely diagnosis is:",
+     "options_fix": {
+      "A": "Teratoma",
+      "B": "Seminoma",
+      "C": "embryonal carcinoma",
+      "D": "Lymphoma",
+      "E": "chorio carcinoma"
+     },
+     "text_note": "re-read from page: Restored garbled stem and corrected OCR in options A, D and E.",
+     "text_before": {
+      "stem": "rs ol leh testicular tumour wit elevated alpha feto-protein the most likely diagnosis:",
+      "options": {
+       "A": "Taratoma",
+       "B": "Seminoma",
+       "C": "embryonal carcinoma",
+       "D": "Lympnoma 1 Cc",
+       "E": "Corio carcinoma"
+      }
+     }
     },
     "gastroschisisis": {
      "answer": "A genetic defect resulting in an abdominal wall defect",
@@ -12660,7 +13082,26 @@
     "lowistatementectopictestisareexcepttha": {
      "answer": "Does not develop normally",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "The following statements about ectopic testis are true except that it:",
+     "options_fix": {
+      "A": "Is probably due to rupture of",
+      "B": "May lie in the groin or pubic region",
+      "C": "Does not develop normally",
+      "D": "Has normal long spermatic cord",
+      "E": "Can be easily"
+     },
+     "text_note": "re-read from page: Restored garbled stem; preserved the source's visibly incomplete options A and E",
+     "text_before": {
+      "stem": "lowi statement ectopic testis ar e except tha",
+      "options": {
+       "A": "s probably due to rupture of",
+       "B": "May lie in the groin or pubic region",
+       "C": "Does not develop normally",
+       "D": "Has normaiiong spermatic cord",
+       "E": "Can be easily"
+      }
+     }
     },
     "testicularagenesis": {
      "answer": "All of the above",
@@ -12782,7 +13223,24 @@
     "massivesweoftastinclufollxce": {
      "answer": "Atrophic scirrhous carcinoma",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "Massive swellings of the breast include all the following except:",
+     "options_fix": {
+      "A": "Phylloides tumor",
+      "B": "Atrophic scirrhous carcinoma",
+      "C": "Diffuse hypertrophy",
+      "D": "Giant fibroadenoma"
+     },
+     "text_note": "re-read from page: Stem was garbled; restored from page 66.",
+     "text_before": {
+      "stem": "Massive swe oft astinclu foll é€xce",
+      "options": {
+       "A": "Phylloides tumor",
+       "B": "Atrophic scirrhous carcinoma",
+       "C": "Diffuse hypertrophy",
+       "D": "Giant fibroadenoma"
+      }
+     }
     },
     "signsofpusformationarethefollowingexceptpqanswer10b": {
      "answer": "Fluctuation occurs early in breast abscess",
@@ -12945,7 +13403,26 @@
     "thehinfcarrihehistrisfosteom15": {
      "answer": "web space infection",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "The hand infection which carries the highest risk of osteomyelitis is:",
+     "options_fix": {
+      "A": "Paronychia",
+      "B": "Web space infection",
+      "C": "Thenar space infection",
+      "D": "Pulp space infection",
+      "E": "Intrathecal whitlow"
+     },
+     "text_note": "re-read from page: Stem was garbled; restored from page 70.",
+     "text_before": {
+      "stem": "Theh inf carri he hi stris f osteom 15",
+      "options": {
+       "A": "Paronychia",
+       "B": "web space infection",
+       "C": "thenar space infection",
+       "D": "pulp space infection",
+       "E": "intrathecal whitlow"
+      }
+     }
     },
     "tuberculouscervicallymphadenitiscommonlyaffects": {
      "answer": "Lower deep cervical lymph node",
@@ -13078,12 +13555,50 @@
     "congenitaloidstsarecharacterizedbythellowieaturesexcept": {
      "answer": "Are oftenattached to the overlying skin",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "Congenital dermoid cysts are characterized by the following features except:",
+     "options_fix": {
+      "A": "Occur at lines of embryological fusion",
+      "B": "Are commonest on the face",
+      "C": "Are often attached to the overlying skin",
+      "D": "May cause hollowing of subjacent bone",
+      "E": "Are lined by stratified squamous epithelium"
+     },
+     "text_note": "re-read from page: Stem was garbled; restored from page 72.",
+     "text_before": {
+      "stem": "congenital oid sts are characterized by the llowi eatures except:",
+      "options": {
+       "A": "Occur at lines of embryological fusion",
+       "B": "Are commonest onthe face",
+       "C": "Are oftenattached to the overlying skin",
+       "D": "May cause hollowing of subjacent bone",
+       "E": "Are lined by stratified squamous epithelium"
+      }
+     }
     },
     "eo0uscischarizedhefollowingexce": {
      "answer": "May occur onthe palms and soles",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "Sebaceous cyst is characterized by the following except that it:",
+     "options_fix": {
+      "A": "Is due to obstruction of a sebaceous gland",
+      "B": "Is lined by stratified squamous epithelium",
+      "C": "Contains a yellow greasy material known as sebum",
+      "D": "May occur on the palms and soles",
+      "E": "Is always anchored to the overlying skin of the punctum of the obstructed gland"
+     },
+     "text_note": "re-read from page: Stem and choice B were garbled; restored from page 72.",
+     "text_before": {
+      "stem": "eo0us C is cha rized he following exce",
+      "options": {
+       "A": "Is due to obstruction of a sebaceous gland",
+       "B": "s lined by stratified squamous epithelium",
+       "C": "Contains a yellow greasy material knownas sebum",
+       "D": "May occur onthe palms and soles",
+       "E": "Is always anchored to the overlying skin of the punctum of the obstructed gland"
+      }
+     }
     },
     "differentdrainageproceduresthatshouldbeaddedtotruncalvagotomyincludethefollowingsexcept": {
      "answer": "Slective gastrectomy.",
@@ -13209,7 +13724,24 @@
     "rforatedduodlulrisbesttreate": {
      "answer": "Simple closure over an omental patch",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "Perforated duodenal ulcer is best treated by:",
+     "options_fix": {
+      "A": "Gastroduodenal suction and antibiotics.",
+      "B": "Simple closure over an omental patch.",
+      "C": "Truncal vagotomy.",
+      "D": "Partial gastrectomy"
+     },
+     "text_note": "re-read from page: Stem and stray answer-key text in choice A were garbled; restored from page 74.",
+     "text_before": {
+      "stem": "rforated duod Lul ris best treate",
+      "options": {
+       "A": "Gastroduodenal suction and antibiotics 10",
+       "B": "Simple closure over an omental patch",
+       "C": "Truncal vagotomy",
+       "D": "Partial gastrectomy"
+      }
+     }
     },
     "thecommonestaffectedarteryinmesentericvascularocclusionis": {
      "answer": "superior mesenteric artery",
@@ -13219,7 +13751,24 @@
     "alboutlintislasticaonestatementistrue": {
      "answer": "narrowed starf stomach and The tumour may benot visible onthe mucosa",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "About linitis plastica one statement is true:",
+     "options_fix": {
+      "A": "It is a lymphoma of the stomach",
+      "B": "The stomach is dilated and filled with large mass",
+      "C": "It is a gastro-esophageal tumour",
+      "D": "Narrowed starf stomach and The tumour may be not visible on the mucosa"
+     },
+     "text_note": "re-read from page: Stem and choice D were garbled; restored from page 76.",
+     "text_before": {
+      "stem": "Al bout lintis lastica one statement is true:",
+      "options": {
+       "A": "it is alymphomaofthe stomach",
+       "B": "the stomachis dilated and filled with large mass",
+       "C": "it is a gastro-esophageal tumour",
+       "D": "narrowed starf stomach and The tumour may benot visible onthe mucosa"
+      }
+     }
     },
     "mostcommonsiteofgastriculcerisaincisura": {
      "answer": "Incisura",
@@ -13308,7 +13857,18 @@
     "ostmmonsitriculceris": {
      "answer": "Incisura",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "Most common site of gastric ulcer is:",
+     "text_note": "re-read from page: Stem was garbled; restored from page 76.",
+     "text_before": {
+      "stem": "ost mmon sit ric ulcer is:",
+      "options": {
+       "A": "Incisura",
+       "B": "Greater curvature stomach",
+       "C": "Fundus ofstomach",
+       "D": "Antrum"
+      }
+     }
     },
     "allofthefolloweinthestomedexcept": {
      "answer": "b-Liver",
@@ -13406,12 +13966,41 @@
     "10ematricadenrcinomrilothe": {
      "answer": "Liver",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "Haematogenous spread of gastric adenocarcinoma goes primarily to the:",
+     "options_fix": {
+      "A": "Lungs",
+      "B": "Bones",
+      "C": "Liver",
+      "D": "Brain",
+      "E": "Coeliac nodes"
+     },
+     "text_note": "re-read from page: Stem was garbled and the printed option Bones was missing; restored from page 77",
+     "text_before": {
+      "stem": "10 ema tric aden rcinom ril o the",
+      "options": {
+       "A": "Lungs",
+       "B": "Liver",
+       "C": "Brain",
+       "D": "Cocliac nodes"
+      }
+     }
     },
     "themostcommonnignrofthestis": {
      "answer": "Leiomyoma",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "The most common benign tumor of the stomach is:",
+     "text_note": "re-read from page: Stem was garbled; restored from page 78.",
+     "text_before": {
+      "stem": "The most common nign rof the st is:",
+      "options": {
+       "A": "Leiomyoma",
+       "B": "Fibroma",
+       "C": "Angioma",
+       "D": "Lipoma"
+      }
+     }
     },
     "allthefollowingaretreatmentoptionsforachalasiaofthecardiaexcept": {
      "answer": "Nissen's fundoplication",
@@ -13474,7 +14063,19 @@
     "aboutcomplicationsofchronicgastroduodenalpepticthibticerilwingstatemenexcept": {
      "answer": "Benign gastric ulcers have a 5% tendency to malignant transformation.",
      "source": "derived",
-     "at": "2026-09-26T20:25:18Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "About complications of chronic gastro-duodenal peptic ulcers, all the following statements are true, except:",
+     "text_note": "re-read from page: Stem was garbled; restored from page 79.",
+     "text_before": {
+      "stem": "About complications of chronic gastro-duodenal peptic thi Bt Icer il wing statemen except:",
+      "options": {
+       "A": "Anterior duodenal ulcers tend to perforate.",
+       "B": "Posterior duodenal ulcers tend to cause substantial bleeding.",
+       "C": "Benign gastric ulcers have a 5% tendency to malignant transformation.",
+       "D": "Fibrosis of a chronic duodenal ulcer can cause pyloric obstruction.",
+       "E": "The primary treatment of bleeding ulcers is usually non-surgical."
+      }
+     }
     },
     "afollowiriskofgastriccancer": {
      "answer": "Main diet of a community is made of smoked food.",
@@ -13641,7 +14242,26 @@
     "ationesteparalyticileus": {
      "answer": "Peritonealirritation.",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "What is the commonest cause of paralytic ileus?",
+     "options_fix": {
+      "A": "Diabetic ketoacidosis.",
+      "B": "Drugs.",
+      "C": "Peritoneal irritation.",
+      "D": "Postoperative.",
+      "E": "Left side cancer colon"
+     },
+     "text_note": "re-read from page: Stem was garbled; restored from page 86.",
+     "text_before": {
+      "stem": "ati onest e paralyticileus?",
+      "options": {
+       "A": "Diabetic ketoacidosis.",
+       "B": "Drugs.",
+       "C": "Peritonealirritation.",
+       "D": "Postoperative.",
+       "E": "left side cancer colon"
+      }
+     }
     },
     "a62yearsoldfemalepresentedwithfouleructationfelvitinsrwhill6ccsuspect": {
      "answer": "Gastro-colic fistula.",
@@ -13670,7 +14290,26 @@
     "whichofthefollowingsisamorphologicalfeaturesofcrofinsdisease": {
      "answer": "skip lesions",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "Which of the followings is a Morphological features of Crohn's disease?",
+     "options_fix": {
+      "A": "Right sided disease",
+      "B": "Left-sided disease",
+      "C": "Broad-based ulcers",
+      "D": "Pseudopolyps.",
+      "E": "Skip lesions"
+     },
+     "text_note": "re-read from page: Stem and choices had OCR debris; restored from page 86.",
+     "text_before": {
+      "stem": "which of the followings is a Morphological features of Crofin's dise ase?",
+      "options": {
+       "A": "right sided disease",
+       "B": "Left-sided disease O ik 10",
+       "C": "Broad-basedulcers 11",
+       "D": "Pseudopolyps. 12",
+       "E": "skip lesions"
+      }
+     }
     },
     "resentswitha2istashinesincrasin1f4adenundabdomnalacaiwithfeveroiigaainibicwitsdhsnasriherestsrisedwhitcellcoandcreactiveproteinftwiisthemostlikeldiagnosis": {
      "answer": "Diverticulitis",
@@ -13704,7 +14343,26 @@
     "isthsttreantofniumil": {
      "answer": "N-acetyl cysteine barium enema",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "What is the best treatment of uncomplicated meconium ileus?",
+     "options_fix": {
+      "A": "Laparotomy and evacuation",
+      "B": "Transverse colostomy",
+      "C": "Pyloromyotomy",
+      "D": "N-acetyl cysteine barium enema",
+      "E": "Wait and watch"
+     },
+     "text_note": "re-read from page: Stem was garbled; restored from page 86.",
+     "text_before": {
+      "stem": "is th sttrea ntof nium il",
+      "options": {
+       "A": "laparotomy and evacuation",
+       "B": "transverse colostomy",
+       "C": "pyloromyotomy",
+       "D": "N-acetyl cysteine barium enema",
+       "E": "wait and watch"
+      }
+     }
     },
     "a34yearoldmanpresentswithpiaattributabletoafistulainanoheisexaminedinthelithotomntifiedintheclitionacbhiaftiegallerescationsistheeosititheexternalopeningoistula": {
      "answer": "6 o'clock",
@@ -13790,7 +14448,19 @@
     "aorearimaisadiagnosticfeatureo": {
      "answer": "colonic malignant carcinoma",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "Apple core sign is a diagnostic feature of:",
+     "text_note": "re-read from page: Stem was garbled; restored from page 88.",
+     "text_before": {
+      "stem": "\"A ore ' ari mais a diagnostic feature o",
+      "options": {
+       "A": "Familial polyposis coli",
+       "B": "colonic diverticulum",
+       "C": "colonic malignant carcinoma",
+       "D": "Benign colonic stricture",
+       "E": "Colonic obstruction."
+      }
+     }
     },
     "thetinthetnmclassifiionofrescripes": {
      "answer": "Depth",
@@ -13834,7 +14504,26 @@
     "teofintestinalallstileus": {
      "answer": "ileum",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "The most common site of intestinal obstruction in gallstone ileus:",
+     "options_fix": {
+      "A": "Duodenum",
+      "B": "Jejunum",
+      "C": "Ileum",
+      "D": "Sigmoid colon",
+      "E": "Anorectal junction"
+     },
+     "text_note": "re-read from page: Stem was garbled; restored from page 89.",
+     "text_before": {
+      "stem": "te of intestinal allst ileus:",
+      "options": {
+       "A": "Duodenum",
+       "B": "Jejunum",
+       "C": "ileum",
+       "D": "Sigmoid colon",
+       "E": "Anorectal junction"
+      }
+     }
     },
     "ecommttnorlabssesis": {
      "answer": "Ischiorectal",
@@ -13943,12 +14632,40 @@
     "iveofuccept": {
      "answer": "Sow tooth appearance",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "Barium enema findings suggestive of UC are all except:",
+     "options_fix": {
+      "A": "Loss of haustrations.",
+      "B": "Granular mucosa.",
+      "C": "Sow tooth appearance",
+      "D": "Pseud polyps."
+     },
+     "text_note": "re-read from page: Stem and choice C were garbled; restored from page 91.",
+     "text_before": {
+      "stem": "ive of UC cept:",
+      "options": {
+       "A": "Loss of haustrations.",
+       "B": "Granular mucosa.",
+       "C": "Sow tooth appearance",
+       "D": "Pseud polyps."
+      }
+     }
     },
     "thefollowinginheriteddisordertsautosomalrecessive": {
      "answer": "Turcot's syndrome",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "The following inherited disorder is autosomal recessive:",
+     "text_note": "re-read from page: Stem was garbled; restored from page 92.",
+     "text_before": {
+      "stem": "The following inherited disorder ts autosomal recessive:",
+      "options": {
+       "A": "Peutz-jeger's syndrome",
+       "B": "Familial polyposis coli",
+       "C": "Turcot's syndrome",
+       "D": "Gardner syndrome"
+      }
+     }
     },
     "dukesclassification": {
      "answer": "Duke's C means nodal involvement",
@@ -13983,7 +14700,26 @@
     "allhefollowingistrueregardinghirsngdiseasecoenitamegacolonexcept": {
      "answer": "Due to aganlionosis of the caecum",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "All of the following are true regarding Hirschsprung disease (congenital megacolon) except:",
+     "options_fix": {
+      "A": "Due to aganlionosis of the caecum",
+      "B": "Associated with delayed passage of meconium",
+      "C": "Rectal biopsy is mandatory for diagnosis",
+      "D": "Anorectal manometry plays a role in diagnosis",
+      "E": "Decompresion colostomy is done to neonates presenting with obstruction, and later definitive surgery is performed"
+     },
+     "text_note": "re-read from page: Stem and choices were garbled; restored from page 92.",
+     "text_before": {
+      "stem": "All he following is true regarding Hirs ng disease (co enita megacolon) except",
+      "options": {
+       "A": "Due to aganlionosis of the caecum",
+       "B": "Associated with delayed passage of meconium",
+       "C": "Rectal biopsy is mandatory for diagnosis",
+       "D": "Anorectalmanometry plays a role in diagnosis",
+       "E": "Decompresion colostomy is done to neonates presenting with obstruction, and later definitive surgery is performed"
+      }
+     }
     },
     "carcinomaofthecolonismostlikelytoobstructiffoundinthe": {
      "answer": "Descending colon",
@@ -14013,7 +14749,26 @@
     "anaclesoluhaemorrhoidsisoidk": {
      "answer": "5% phenol in almond or arachis oil. 37",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "An acceptable solution for the injection of haemorrhoids is:",
+     "options_fix": {
+      "A": "5% sodium tetradecyl sulphate.",
+      "B": "5% phenol in almond or arachis oil.",
+      "C": "59% phenol in water.",
+      "D": "Pure almond or arachis oil.",
+      "E": "10% dextrose solution."
+     },
+     "text_note": "re-read from page: Stem and option A were garbled; restored from page 94.",
+     "text_before": {
+      "stem": "An ac lesolu haemorrhoids is oid k",
+      "options": {
+       "A": "5% sodium tetradecyi sulphate. 35 36",
+       "B": "5% phenol in almond or arachis oil. 37",
+       "C": "59% phenolin water. 38",
+       "D": "Pure almond or arachis oil. 39",
+       "E": "10% dextrose solution."
+      }
+     }
     },
     "wochtheovwittaitadthiilepproptmntfoanalfissure": {
      "answer": "Infrared. Coagulation and fissurectomy",
@@ -14259,7 +15014,24 @@
     "follisthethemmonappendicitis": {
      "answer": "A fecalith",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "Which of the following is thought to be the most common cause of appendicitis?",
+     "options_fix": {
+      "A": "Bowel kinking",
+      "B": "Internal bowel occlusion",
+      "C": "Bowel swelling",
+      "D": "A fecalith"
+     },
+     "text_note": "re-read from page: Stem was garbled; restored from page 98.",
+     "text_before": {
+      "stem": "foll is th e the mmon appendicitis?",
+      "options": {
+       "A": "bowel kinking",
+       "B": "internal bowel occlusion",
+       "C": "bowel swelling",
+       "D": "A fecalith"
+      }
+     }
     },
     "duringexaminatiofpatientithaendicitiswhiofthefollowingispositiverovsingsign": {
      "answer": "Pain in the right lower quadrant with compression of the left lower quadrant",
@@ -14295,7 +15067,7 @@
     "tisthesiificanceofpositivsoassduriclinicaleofpatientwithacuteappendicitis": {
      "answer": "Retrocecal appendix",
      "source": "key",
-     "at": "2026-09-26T20:25:17Z",
+     "at": "2026-09-27T07:41:46Z",
      "stem_fix": "What is the significance of positive psoas sign during clinical examination of patient with acute appendicitis?",
      "options_fix": {
       "A": "Retrocaecal appendix.",
@@ -14303,14 +15075,14 @@
       "C": "Pre-ileal appendix.",
       "D": "Post-ileal appendix."
      },
-     "text_note": "final visual pass",
+     "text_note": "re-read from page: Choice D was garbled; restored from page 97.",
      "text_before": {
-      "stem": "tis the si ificance of positiv soas S$ duri clinical e of patient with acute appendicitis?",
+      "stem": "What is the significance of positive psoas sign during clinical examination of patient with acute appendicitis?",
       "options": {
-       "A": "Retrocecal appendix",
-       "B": "Pelvic append ix",
-       "C": "c-Pre-ileal appendix",
-       "D": "Post-ileal appendix"
+       "A": "Retrocaecal appendix.",
+       "B": "Pelvic appendix.",
+       "C": "Pre-ileal appendix.",
+       "D": "Fosi-iieai appendix."
       }
      }
     },
@@ -14567,7 +15339,18 @@
     "onefolloarkerhepatocellularcarcinoma": {
      "answer": "Alpha feto protein",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "One of the following is the tumour marker for hepatocellular carcinoma:",
+     "text_note": "re-read from page: Stem was garbled; restored from page 107.",
+     "text_before": {
+      "stem": "One follo arker hepatocellular carcinoma",
+      "options": {
+       "A": "CA125",
+       "B": "Carcinoembryonic antigen (CEA)",
+       "C": "Alpha feto protein",
+       "D": "CA19-9"
+      }
+     }
     },
     "fthefollowiaybeossiblfbenilive": {
      "answer": "Oral contraceptive pills",
@@ -14606,12 +15389,46 @@
     "oflivbscessinclude": {
      "answer": "Spread by lymphatic's from acute appendicitis",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "Causes of liver abscess include all the following, except",
+     "options_fix": {
+      "A": "Spread by lymphatic's from acute appendicitis",
+      "B": "Spread by the portal vine from colonic diverticulitis",
+      "C": "Spread through the biliary tree from cholangitis",
+      "D": "Spread by the arterial system from a remote pyogenic focus"
+     },
+     "text_note": "re-read from page: Stem was garbled; restored from page 108.",
+     "text_before": {
+      "stem": "of liv bscess include",
+      "options": {
+       "A": "Spread by lymphatic's from acute appendicitis",
+       "B": "Spread by the portal vine from colonic diverticulitis",
+       "C": "Spread through the biliary tree from cholangitis",
+       "D": "Spread by the arterial system from aremote pyogenic focus"
+      }
+     }
     },
     "theccauseofacutecreatitisis": {
      "answer": "Biliary stones",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "The commonest cause of acute pancreatitis is:",
+     "options_fix": {
+      "A": "Biliary stones",
+      "B": "Excess alcohol consumption",
+      "C": "Hyperlipidemia",
+      "D": "Steroid therapy"
+     },
+     "text_note": "re-read from page: Stem and choice B were garbled; restored from page 108.",
+     "text_before": {
+      "stem": "Thec cause of acute creatitis is:",
+      "options": {
+       "A": "Biliary stones",
+       "B": "D uw Cyurace LAR I ™ 1 Wt consul L) ipucon",
+       "C": "Hyperlipidemia",
+       "D": "Steroid therapy"
+      }
+     }
     },
     "themostcommonsiteforcarcinomaofthepancreasisthe": {
      "answer": "Head",
@@ -14646,7 +15463,18 @@
     "efollisnotacocompilicatihydatidosis": {
      "answer": "Malignant transformation of surrounding tissue",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "The following is not a common complication(s) of hydatidosis:",
+     "text_note": "re-read from page: Stem was garbled; restored from page 109.",
+     "text_before": {
+      "stem": "e foll Is nota co compilicati hydatidosis",
+      "options": {
+       "A": "Anaphylactic shock.",
+       "B": "Obstructive jaundice.",
+       "C": "Malignant transformation of surrounding tissue",
+       "D": "Multi-system spread."
+      }
+     }
     },
     "highfeverinamoebichepatitisindicates": {
      "answer": "All of the above.",
@@ -14679,7 +15507,24 @@
     "angiographdeteinenepatomaleageon145through": {
      "answer": "Hepatic artery.",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "Angiography for detection of hepatoma should be done through",
+     "options_fix": {
+      "A": "Portal vein.",
+      "B": "Hepatic artery.",
+      "C": "Retrograde through hepatic veins.",
+      "D": "Any of the above."
+     },
+     "text_note": "re-read from page: Stem and stray OCR characters in choice A were removed; restored from page 110.",
+     "text_before": {
+      "stem": "Angiograph det eine nepatom ale age On 14 5 through",
+      "options": {
+       "A": "Portal vein. 7",
+       "B": "Hepatic artery.",
+       "C": "Retrograde through hepatic veins.",
+       "D": "Any of the above."
+      }
+     }
     },
     "mostcommonpredisposingfactorforhepatomais": {
      "answer": "chronic irritation.",
@@ -14721,12 +15566,34 @@
     "aboutelisllofthefollowitruecept": {
      "answer": "Trophic changes",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "About embolism, all of the following are true except:",
+     "text_note": "re-read from page: Stem was garbled; restored from page 110.",
+     "text_before": {
+      "stem": "Aboute lis ll of the followi true cept:",
+      "options": {
+       "A": "Young age",
+       "B": "No collaterals",
+       "C": "Trophic changes",
+       "D": "The source of emboli may be undetectable"
+      }
+     }
     },
     "icialthrebicomplicate": {
      "answer": "All of the above",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "Superficial thrombophlebitis may complicate",
+     "text_note": "re-read from page: Stem was garbled; restored from page 111.",
+     "text_before": {
+      "stem": "icial thr ebi complicate",
+      "options": {
+       "A": "Varicose vein",
+       "B": "Trauma",
+       "C": "Abscess",
+       "D": "All of the above"
+      }
+     }
     },
     "ofgallstsisradio": {
      "answer": "10%",
@@ -14747,12 +15614,50 @@
     "gasinbilianalainxrayisdiasti": {
      "answer": "A and C",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "Gas in biliary system in a plain X-ray is diagnostic of:",
+     "options_fix": {
+      "A": "Choledochuodenal fistula",
+      "B": "Intestinal obstruction",
+      "C": "Emphysematous cholecystitis",
+      "D": "Viral hepatitis",
+      "E": "A and C"
+     },
+     "text_note": "re-read from page: Stem was garbled; restored from page 111.",
+     "text_before": {
+      "stem": "Gas in bilia na lain X-ray is dia sti",
+      "options": {
+       "A": "Choledochuodenal fistula",
+       "B": "Intestinal obstruction",
+       "C": "Emphysematous cholecystitis",
+       "D": "Viral hepatitis",
+       "E": "A and C"
+      }
+     }
     },
     "indicatifiiolferooratel": {
      "answer": "All of the above",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "Indications of alpha feto-protein measuring include:",
+     "options_fix": {
+      "A": "Sudden deterioration of hepatic patient",
+      "B": "Hepatic focal lesion by abdominal us",
+      "C": "Follow up after surgical removal of hematoma",
+      "D": "All of the above",
+      "E": "B and C only"
+     },
+     "text_note": "re-read from page: Stem was garbled; restored from page 111.",
+     "text_before": {
+      "stem": "Indicati fiiol fero-oratel",
+      "options": {
+       "A": "Sudden deterioration of hepatic patient",
+       "B": "Hepatic focal lesion by abdominal us",
+       "C": "Follow up after surgical removal of hematoma",
+       "D": "All of the above",
+       "E": "B and C only"
+      }
+     }
     },
     "asmallcirrhoticliverwithgrosslyenlargedcaudatelobedemandsexclusionof": {
      "answer": "Primary sclerosing cholangitis",
@@ -14795,7 +15700,19 @@
     "thebloodsupplyoftherectusabdominismyocutedicl": {
      "answer": "Superior epigastricartery",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "The blood supply of the Rectus abdominis myo-cutaneous pedicled flap is:",
+     "text_note": "re-read from page: Stem was garbled; restored from page 113.",
+     "text_before": {
+      "stem": "The blood supply of the Rectus abdominis myo-cut edicl",
+      "options": {
+       "A": "Acromio-thoracic artery",
+       "B": "Lateral circumflex femoral artery",
+       "C": "Superior epigastricartery",
+       "D": "Thoraco-dorsal artery",
+       "E": "Inferior epigastric artery"
+      }
+     }
     },
     "ahypertrophicscaris": {
      "answer": "Is raised red scar which persist for about 6 months before regression",
@@ -14868,7 +15785,24 @@
     "themostcommonsiteofectopictestisis": {
      "answer": "Superficial inguinal pouch",
      "source": "key",
-     "at": "2026-09-26T20:25:18Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "The most common site of ectopic testis Is:",
+     "options_fix": {
+      "A": "Abdominal cavity",
+      "B": "Inguinal canal",
+      "C": "Pelvis",
+      "D": "Superficial inguinal pouch"
+     },
+     "text_note": "re-read from page: Restored option D and removed following-question OCR spill from option E.",
+     "text_before": {
+      "stem": "The most common site of ectopic testis Is:",
+      "options": {
+       "A": "Abdominal cavity",
+       "B": "Inguinal canal",
+       "C": "Pelvis",
+       "D": "Superficial inguinal pouch icular ncer firstm stasiz"
+      }
+     }
     },
     "phymosismeans": {
      "answer": "the prepuce becomes contracted & will not retract over the glans resulting in a pin hole meatus & lower urinary tract obstruction",
@@ -14957,7 +15891,24 @@
     "theunnerlineycantthenhiltrumdavealanedfram": {
      "answer": "the Maxillary prominence",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "The upper lip except the philtrum developed from:",
+     "options_fix": {
+      "A": "The fronto nasal prominence",
+      "B": "The Maxillary prominence",
+      "C": "The Mandibular prominence",
+      "D": "The Lip prominence"
+     },
+     "text_note": "re-read from page: Stem was garbled; restored from page 117.",
+     "text_before": {
+      "stem": "The unner lin eycant the nhiltrum davealaned fram:",
+      "options": {
+       "A": "the fronto nasal prominence",
+       "B": "the Maxillary prominence",
+       "C": "the Mandibular prominence",
+       "D": "the Lip prominence"
+      }
+     }
     },
     "thicknnedfromtfollowinthedonorsite": {
      "answer": "anterior surface of the thigh",
@@ -15146,7 +16097,18 @@
     "tlifethrechestwaillonis": {
      "answer": "Tension pneumothorax",
      "source": "derived",
-     "at": "2026-09-26T20:25:18Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "The most life threatening chest wall lesion is:",
+     "text_note": "re-read from page: Stem was garbled; restored from page 120.",
+     "text_before": {
+      "stem": "tlife thre chest waill onis:",
+      "options": {
+       "A": "Emphysema",
+       "B": "Tension pneumothorax",
+       "C": "Flail chest",
+       "D": "Hemothorax"
+      }
+     }
     },
     "recorrectexcept": {
      "answer": "Gives expansible impulse on cough",
@@ -15166,7 +16128,26 @@
     "tstfrientcomplicationalileitisis": {
      "answer": "Intestinal obstruction",
      "source": "derived",
-     "at": "2026-09-26T20:25:18Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "The most frequent complication of regional ileitis is:",
+     "options_fix": {
+      "A": "Abscess formation",
+      "B": "Internal fistulae",
+      "C": "Hemorrhage",
+      "D": "Perforation",
+      "E": "Intestinal obstruction"
+     },
+     "text_note": "re-read from page: Garbled stem.",
+     "text_before": {
+      "stem": "t st fri ent complicati onal ileitis is",
+      "options": {
+       "A": "Abscess formation",
+       "B": "Internal fistulae",
+       "C": "Hemorrhage",
+       "D": "Perforation",
+       "E": "Intestinal obstruction"
+      }
+     }
     },
     "101ymphnodesareenlargedanddiscretein": {
      "answer": "Both Aand D",
@@ -15294,7 +16275,26 @@
     "ommonprncerionintskini": {
      "answer": "Actinic (senile) keratosis.",
      "source": "derived",
-     "at": "2026-09-26T20:25:18Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "The most common precancerous lesion in the skin is:",
+     "options_fix": {
+      "A": "Xeroderma pigmentosum.",
+      "B": "Seborrhoeic keratosis.",
+      "C": "Actinic (senile) keratosis.",
+      "D": "Chronic radiodermatitis.",
+      "E": "Bowen's disease."
+     },
+     "text_note": "re-read from page: Garbled stem and option A.",
+     "text_before": {
+      "stem": "ommon pr ncer ionint skini",
+      "options": {
+       "A": "roadman pigmentosurn.",
+       "B": "Seborrhoeic keratosis.",
+       "C": "Actinic (senile) keratosis.",
+       "D": "Chronic radiodermatitis.",
+       "E": "Bowen's disease."
+      }
+     }
     },
     "55a40yearoldfemalepresentedwithrecentulcerationofaplantarmolewhichshadsincechildhoodexcisionalbiopsyprovedthevecthlesiontobeclarksilbieiatinpionnphoaiiadequated": {
      "answer": "Wide local excision alone.",
@@ -15352,7 +16352,26 @@
     "breastconservativesurgeryisnotsuitablefor": {
      "answer": "Mastitis carcinomatosa.",
      "source": "derived",
-     "at": "2026-09-26T20:25:18Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "Breast conservative surgery is not suitable for:",
+     "options_fix": {
+      "A": "Mastitis carcinomatosa.",
+      "B": "1-cm. infiltrating lobular carcinoma.",
+      "C": "8-mm. infiltrating ductal carcinoma.",
+      "D": "Ductal carcinoma in situ.",
+      "E": "Non-comedo ductal carcinoma"
+     },
+     "text_note": "re-read from page: Corrected garbled option E transcription; retained complete set.",
+     "text_before": {
+      "stem": "Breast conservative surgery is not suitable for:",
+      "options": {
+       "A": "Mastitis carcinomatosa.",
+       "B": "1-cm. infiltrating lobular carcinoma.",
+       "C": "8-mm. infiltrating ductal carcinoma.",
+       "D": "Ductal carcinoma in situ.",
+       "E": "Non-comedo ductal carcinoma"
+      }
+     }
     },
     "regardingaiwithacuteabdomenwithgeneraliiiifunderdihrofthefollotrue": {
      "answer": "No further radiologic work-up is required.",
@@ -15367,12 +16386,50 @@
     "ichoflowitrrdiostsplenectomitrue": {
      "answer": "Haemophilus influenzae, Streptococcus pneumoniae and Neiseria meningitidis are the most common causative organisms",
      "source": "derived",
-     "at": "2026-09-26T20:25:18Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "Which of the following statements regarding post splenectomy sepsis is true?",
+     "options_fix": {
+      "A": "The incidence in children is generally reported as 1%",
+      "B": "Haemophilus influenzae, Streptococcus pneumoniae and Neisseria meningitidis are the most common causative organisms",
+      "C": "Autotransplantation has no role",
+      "D": "The mortality rate is very low",
+      "E": "The incidence in adults is approximately 50%"
+     },
+     "text_note": "re-read from page: Garbled stem and options D-E; repaired OCR characters.",
+     "text_before": {
+      "stem": "ich of lowi t r rdi ost splenectom I true?",
+      "options": {
+       "A": "The incidence in children is generally reported as 1%",
+       "B": "Haemophilus influenzae, Streptococcus pneumoniae and Neiseria meningitidis are the most common causative organisms",
+       "C": "Autotransplantation has no role",
+       "D": "The mortality ratelS very low",
+       "E": "The incidence in adults in approximately 507%"
+      }
+     }
     },
     "95thetreatbarcisiceofhweatidcustotlweri": {
      "answer": "Surgical excision",
      "source": "derived",
-     "at": "2026-09-26T20:25:18Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "The treatment of choice of hydatid cyst of liver is:",
+     "options_fix": {
+      "A": "Medical.",
+      "B": "Surgical excision",
+      "C": "Needle aspiration",
+      "D": "Chemotherapy",
+      "E": "Radiation."
+     },
+     "text_note": "re-read from page: Garbled stem and option letters in OCR.",
+     "text_before": {
+      "stem": "95-The treat bar cisice of hweatid cust ot lweri&",
+      "options": {
+       "A": "Medical.",
+       "B": "Surgical excision",
+       "C": "needle aspiration",
+       "D": "Chemotherapy",
+       "E": "Radiation."
+      }
+     }
     },
     "thestablidcomplimpleistalsmweltructiousualhavethefollowingfindisonplainandupritabinalradiographs": {
      "answer": "Distended small bowel identifiable by the valvulae conniventes.",
@@ -15553,7 +16610,26 @@
     "oneofthefollowingcriteriacansupportthediagnosisofchronicsubmandibularcalcularsialadenitis": {
      "answer": "positive lemon test",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "One of the following criteria can support the diagnosis of chronic submandibular calcular sialadenitis.",
+     "options_fix": {
+      "A": "usually multiple swellings",
+      "B": "can be rolled around the mandible",
+      "C": "by Bidigital palpation it is best felt from outside",
+      "D": "positive lemon test",
+      "E": "usually there no any discharge in the mouth"
+     },
+     "text_note": "re-read from page: Restored stem and options from page image; retained printed wording and errors.",
+     "text_before": {
+      "stem": "One of the following criteria can support the diagnosis of chronic submandibular calcular sialadenitis.",
+      "options": {
+       "A": "usually multiple swellings",
+       "B": "can berolled around the mandible",
+       "C": "Cc) by Bidigital palpation itis best fll from outside",
+       "D": "positive lemon test",
+       "E": "usually there no any discharge in the mouth"
+      }
+     }
     },
     "ababyisbornwithaleftposteriortriangleswellingtheswellingissubcutaneouspartiallycompressibleandbrillianttranslucenceontransilluminationtheclinicaldiagnosisis": {
      "answer": "Cystic hygroma",
@@ -15597,7 +16673,26 @@
     "ifthefollowiisamidilieckswelling": {
      "answer": "Laryngocele",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "Which of the following is a midline neck swelling?",
+     "options_fix": {
+      "A": "Laryngocele",
+      "B": "Branchial cyst",
+      "C": "Sternomastoid tumor",
+      "D": "Carotid artery aneurysm",
+      "E": "Thyroid lobe swelling"
+     },
+     "text_note": "re-read from page: Restored garbled stem; copied complete options from page image.",
+     "text_before": {
+      "stem": "i f the followi is a midili eck swelling?",
+      "options": {
+       "A": "Laryngocele",
+       "B": "Branchial cyst",
+       "C": "Sternomastoid tumor",
+       "D": "Carotid artery aneurysm",
+       "E": "Thyroid lobe swelling"
+      }
+     }
     },
     "thefrequenttypeofthetonguecanceris": {
      "answer": "Squamous cell carcinoma",
@@ -15617,7 +16712,24 @@
     "ofthitratiblei": {
      "answer": "On block excision of primary and whole lymphatic area (Commando operation)",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "Carcinoma of the tongue infiltrating the mandible is best treated by:",
+     "options_fix": {
+      "A": "Radiotherapy of both primary and regional gland",
+      "B": "Two-stage excision of primary and regional glands",
+      "C": "On block excision of primary and whole lymphatic area (Commando operation)",
+      "D": "Radiotherapy for primary followed by radical neck dissection"
+     },
+     "text_note": "re-read from page: Restored garbled stem and option wording from page image.",
+     "text_before": {
+      "stem": "of th Itrat iblei",
+      "options": {
+       "A": "Radiotherapy of both primary and regional gland",
+       "B": "Two-stage excision of primary and regional glands",
+       "C": "On block excision of primary and whole lymphatic area (Commando operation)",
+       "D": "Radiotherapy for primary followed by radical neck dissection"
+      }
+     }
     },
     "truestatementsaboutludwigsanginadonotincludethatis": {
      "answer": "Usually results from infection with staphylococci",
@@ -15627,7 +16739,26 @@
     "thecommdiscreteluftheparotilandis": {
      "answer": "Pleomorphicadenoma",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "The commonest discrete lump of the parotid gland is:",
+     "options_fix": {
+      "A": "Pleomorphic adenoma",
+      "B": "Mucoepidermoid carcinoma",
+      "C": "Mumps",
+      "D": "Parotid gland stone",
+      "E": "Tuberculosis of the parotid lymph node"
+     },
+     "text_note": "re-read from page: Restored garbled stem and spacing in options.",
+     "text_before": {
+      "stem": "The comm discrete lu f the paroti landis:",
+      "options": {
+       "A": "Pleomorphicadenoma",
+       "B": "Mucoepidermoid carcinoma",
+       "C": "Mumps",
+       "D": "Parotid glandstone",
+       "E": "Tuberculosis of the parotidlymph node"
+      }
+     }
     },
     "aboutcoldabscessoftheneckallthefollowingstatementsaretrueexcept": {
      "answer": "The conditionis mildly painful with low-grade fever",
@@ -15647,7 +16778,24 @@
     "lymphnitiffects": {
      "answer": "Upper deep.cervical nodes 1",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "Tuberculous cervical lymphadenitis commonly affects:",
+     "options_fix": {
+      "A": "Posterior triangle nodes",
+      "B": "Upper deep cervical nodes",
+      "C": "Lower deep cervical nodes",
+      "D": "Preauricular nodes"
+     },
+     "text_note": "re-read from page: Restored garbled stem and removed OCR debris from option B.",
+     "text_before": {
+      "stem": "Lymph niti ffects",
+      "options": {
+       "A": "Posterior triangle nodes",
+       "B": "Upper deep.cervical nodes 1",
+       "C": "Lower deep cervical nodes",
+       "D": "Preauricular nodes"
+      }
+     }
     },
     "externalcarotidarteryehighlyvariable7calcitoninmaybeusedasatumormarkerforthyroidcancer": {
      "answer": "Medullary",
@@ -15730,17 +16878,74 @@
     "whictthefollowitihypothyroidism": {
      "answer": "Grave's disease",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "Which one of the following conditions are usually associated with hypothyroidism?",
+     "options_fix": {
+      "A": "Grave's disease",
+      "B": "Hashimoto's thyroiditis",
+      "C": "multinodular goiter",
+      "D": "Struma ovary",
+      "E": "Papillary cancer thyroid"
+     },
+     "text_note": "re-read from page: Restored garbled stem from page image.",
+     "text_before": {
+      "stem": "Whict the follow! iti hypothyroidism?",
+      "options": {
+       "A": "Grave's disease",
+       "B": "Hashimoto's thyroiditis",
+       "C": "multinodular goiter",
+       "D": "Struma ovary",
+       "E": "Papillary cancer thyroid"
+      }
+     }
     },
     "thetumourmarkerformedullarythyroidcanceris": {
      "answer": "calcitonin B",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "the tumour marker for medullary thyroid cancer is.",
+     "options_fix": {
+      "A": "thyroglobulin",
+      "B": "calcitonin",
+      "C": "CA 19-9",
+      "D": "CA125",
+      "E": "alpha feto protein"
+     },
+     "text_note": "re-read from page: Restored garbled stem and removed answer-key letters from options.",
+     "text_before": {
+      "stem": "the tumour marker for medullary thyro id cancer is.",
+      "options": {
+       "A": "thyroglobulin C",
+       "B": "calcitonin B",
+       "C": "CA19-9 C",
+       "D": "CA125 A",
+       "E": "alpha feto protein"
+      }
+     }
     },
     "btientrundtotalthyroiresentedwithcaspasmthisisusuallydueto": {
      "answer": "decrease calcium level",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "A patient after undergoing total thyroidectomy presented with carpopedal spasm, this is usually due to:",
+     "options_fix": {
+      "A": "decrease level of T3",
+      "B": "decrease level of THS",
+      "C": "decrease calcium level",
+      "D": "decreased level of potassium",
+      "E": "increased level of T3 and T4 as a result of excessive manipulation"
+     },
+     "text_note": "re-read from page: Restored garbled stem and spacing in option E.",
+     "text_before": {
+      "stem": "B tient rund total thyroi resented withca spasm, this is usually due to:",
+      "options": {
+       "A": "decrease level of T3",
+       "B": "decrease level of THS",
+       "C": "decrease calcium level",
+       "D": "decreased level of potassium",
+       "E": "increasedlevel of T3 and T4 as a result of excessive manipulation"
+      }
+     }
     },
     "individualswithhypothyroidismmostlikelyhaveoneofthefollowingconditions": {
      "answer": "Growthretardation if occurs during the perinatal period",
@@ -15760,7 +16965,24 @@
     "thecriroilegainsmotorlyfrom": {
      "answer": "Externallaryngeal",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "The cricothyroid muscle gains motor nerve supply from:",
+     "options_fix": {
+      "A": "Recurrent laryngeal",
+      "B": "External laryngeal",
+      "C": "Internal laryngeal",
+      "D": "Cervical sympathetic ganglia"
+     },
+     "text_note": "re-read from page: Restored garbled stem and option B spacing.",
+     "text_before": {
+      "stem": "The cri roi le gains motor ly from:",
+      "options": {
+       "A": "Recurrent laryngeal",
+       "B": "Externallaryngeal",
+       "C": "Internal laryngeal",
+       "D": "Cervical sympathetic ganglia"
+      }
+     }
     },
     "thyroidstormafteroperationisdueto": {
      "answer": "Inadequate control of hyperthyroidism",
@@ -16046,7 +17268,24 @@
     "litisihefaisdan": {
      "answer": "Rapid local spread",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "Cellulitis in the face is dangerous because of",
+     "options_fix": {
+      "A": "Rapid local spread",
+      "B": "Early toxemia",
+      "C": "Early bacteremia",
+      "D": "Cavernous sinus thrombosis"
+     },
+     "text_note": "re-read from page: Restored garbled stem from page image.",
+     "text_before": {
+      "stem": "litis i hefa is dan",
+      "options": {
+       "A": "Rapid local spread",
+       "B": "Early toxemia",
+       "C": "Early bacteremia",
+       "D": "Cavernous sinus thrombosis"
+      }
+     }
     },
     "shockisastateof": {
      "answer": "Inadequate tissus perfusion",
@@ -16061,7 +17300,26 @@
     "micininaltionmtotfollowin": {
      "answer": "Paralytic ileus",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "Dynamic intestinal obstruction may be due to the following except:",
+     "options_fix": {
+      "A": "Adhesions",
+      "B": "Paralytic ileus",
+      "C": "Gall stone",
+      "D": "Strangulated inguinal hernia",
+      "E": "Intussusception"
+     },
+     "text_note": "re-read from page: Restored garbled stem from page image.",
+     "text_before": {
+      "stem": "mic in inal tionm tot followin",
+      "options": {
+       "A": "Adhesions",
+       "B": "Paralytic ileus",
+       "C": "Gall stone",
+       "D": "Strangulated inguinal hernia",
+       "E": "Intussusception"
+      }
+     }
     },
     "ingeneralizedperitonitis": {
      "answer": "The peritoneum should be drained",
@@ -16076,12 +17334,49 @@
     "ichstatesincorrectconceingelectricalb": {
      "answer": "Are always superficial",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "Which statement is incorrect concerning electrical burns",
+     "options_fix": {
+      "A": "Usually have a small surface area",
+      "B": "Are always superficial",
+      "C": "Are often associated with massive muscle necrosis",
+      "D": "May cause reddish discoloration of the urine",
+      "E": "Are best treated by immediate excision and grafting"
+     },
+     "text_note": "re-read from page: Restored stem and added the missing printed option E.",
+     "text_before": {
+      "stem": "ich state S Incorrect conce ing electrical b",
+      "options": {
+       "A": "Usually have a small surface area",
+       "B": "Are always superficial",
+       "C": "Are often associated with massive muscle necrosis 11",
+       "D": "May cause reddish discoloration of the urine"
+      }
+     }
     },
     "idsarecharahefolllp": {
      "answer": "May turn malignant",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "Keloids are characterized by the following, except:",
+     "options_fix": {
+      "A": "Consist of dense overgrowth of scar tissue.",
+      "B": "Develop after wounds, burns and vaccination marks.",
+      "C": "Are particularly common in negroes and pregnant females.",
+      "D": "Occur most often on the face, neck and front of the chest.",
+      "E": "May turn malignant."
+     },
+     "text_note": "re-read from page: Restored garbled stem and OCR artifacts in options.",
+     "text_before": {
+      "stem": "ids are chara he foll LP)",
+      "options": {
+       "A": "Consist of dense overgrowth of scar tissue 16",
+       "B": "Develop after wounds, burns and vaccination marks",
+       "C": "Are particularly common in negroes and pregnant females",
+       "D": "Occur most often on the face, neck and front of the chest",
+       "E": "May turn malignant"
+      }
+     }
     },
     "congenitaldermoidcystsarecharacterizedbythefollowingfeaturesexcepts": {
      "answer": "Arc often attachedto the overlying skin",
@@ -16135,7 +17430,24 @@
     "iseasemmetransmitteddurinionexce": {
      "answer": "Hepatitis A",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "The following disease may be transmitted during blood transfusion except",
+     "options_fix": {
+      "A": "CMV",
+      "B": "Malaria",
+      "C": "Hepatitis A",
+      "D": "Brucellosis"
+     },
+     "text_note": "re-read from page: Restored garbled stem from page image.",
+     "text_before": {
+      "stem": "Isease Mm e transmitted durin ion exce",
+      "options": {
+       "A": "CMV",
+       "B": "Malaria",
+       "C": "Hepatitis A",
+       "D": "Brucellosis"
+      }
+     }
     },
     "theantidoteofheparinisqanswer": {
      "answer": "Protamine sulphate.",
@@ -16339,7 +17651,24 @@
     "thromsisdvtthemostsiifilongteequaleis": {
      "answer": "Development of stasis ulcer",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "In patients who develop deep venous thrombosis (DVT) the most significant long term sequelae is:",
+     "options_fix": {
+      "A": "Claudication",
+      "B": "Recurrent foot infections s",
+      "C": "Development of stasis ulcer",
+      "D": "Pulmonary embolization"
+     },
+     "text_note": "re-read from page: Restored garbled stem and removed trailing OCR artifact from option B.",
+     "text_before": {
+      "stem": "throm sis (DVT) the mostsi ifi long te equale is:",
+      "options": {
+       "A": "Claudication",
+       "B": "Recurrent foot infections s",
+       "C": "Development of stasis ulcer",
+       "D": "Pulmonary embolization"
+      }
+     }
     },
     "whichofthefollowingisanindicationforlerinition1211": {
      "answer": "Major abdominal operations",
@@ -16379,7 +17708,24 @@
     "tcrushdrometherillbe": {
      "answer": "Hypovolemic shock",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "About crush syndrome there will be:",
+     "options_fix": {
+      "A": "Alkaline urine",
+      "B": "Small % of patient develops acute renal failure",
+      "C": "Small % of the developed renal failure will need a-dialysis",
+      "D": "Hypovolemic shock"
+     },
+     "text_note": "re-read from page: Restored garbled stem and option wording from page image.",
+     "text_before": {
+      "stem": "tcrush drome ther illbe:",
+      "options": {
+       "A": "Alkaline urine",
+       "B": "Small Zof patient develops acute renal failure",
+       "C": "Small % of the developedrenal failure will need dialysis",
+       "D": "Hypovolemic shock"
+      }
+     }
     },
     "thecauseofsubclavianarterialaneurysmsismostoften": {
      "answer": "Atherosclerosis 10",
@@ -16472,7 +17818,25 @@
     "uryoftininalrveduremiarircan": {
      "answer": "numbnessof the scrotum and medial aspect of the upper thigh",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "Injury of the ilio-inguinal nerve during hernia repair, what it can cause?",
+     "options_fix": {
+      "A": "loss of erectile function",
+      "B": "numbness of the scrotum and medial aspect of the upper thigh",
+      "C": "Testicular dragging pain",
+      "D": "Direct inguinal hernia due to paralysis of the conjoint tendon",
+      "E": "incisional hernia"
+     },
+     "text_note": "re-read from page: Restored garbled stem and added the printed option E.",
+     "text_before": {
+      "stem": "ury oft \"in inal rve dur emia r ircan",
+      "options": {
+       "A": "loss of erectile function",
+       "B": "numbnessof the scrotum and medial aspect of the upper thigh",
+       "C": "Testicular dragging pain",
+       "D": "Direct inguinal hernia due to paralysis of the conjoint tendon"
+      }
+     }
     },
     "femoralharniaislocated": {
      "answer": "below and lateral to the pubic tubercle",
@@ -16543,7 +17907,26 @@
     "testicularcancerfirstmetastasizestowhichgroupoflymphnodesln": {
      "answer": "Para-aortic",
      "source": "key",
-     "at": "2026-09-26T19:42:32Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "Testicular cancer first metastasizes to which group of lymph nodes (LN):",
+     "options_fix": {
+      "A": "Inguinal",
+      "B": "Femoral",
+      "C": "Iliac",
+      "D": "Para-aortic",
+      "E": "Supraclavicular"
+     },
+     "text_note": "re-read from page: Corrected OCR in option D.",
+     "text_before": {
+      "stem": "Testicular cancer first metastasizes to which group of lymph nodes (LN):",
+      "options": {
+       "A": "Inguinal",
+       "B": "Femoral",
+       "C": "Iliac",
+       "D": "Para-aortic",
+       "E": "Supraclavicular"
+      }
+     }
     },
     "mnpresenifticulartumig": {
      "answer": "Choriocarcinoma",
@@ -16692,7 +18075,24 @@
     "iillammarapninenpeb": {
      "answer": "Perifocalhaziness.",
      "source": "key",
-     "at": "2026-09-26T19:42:33Z"
+     "at": "2026-09-27T07:41:46Z",
+     "stem_fix": "All of the following are mammographic criteria of benign breast mass except..",
+     "options_fix": {
+      "A": "Macro calcifications.",
+      "B": "Smooth borders.",
+      "C": "Homogenous.",
+      "D": "Perifocal haziness."
+     },
+     "text_note": "re-read from page: Restored garbled stem and spacing in option D; source has four options.",
+     "text_before": {
+      "stem": "i \"ill amma rapni nen p Eb",
+      "options": {
+       "A": "Macro calcifications.",
+       "B": "Smooth borders.",
+       "C": "Homogenous.",
+       "D": "Perifocalhaziness."
+      }
+     }
     },
     "thefollowingisabadprognosticfactorinbreastcancer": {
      "answer": "Pregnancy.",
@@ -16809,7 +18209,24 @@
     "followiofthyroltismimicsmalian": {
      "answer": "All of above",
      "source": "key",
-     "at": "2026-09-26T19:51:25Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "The following type of thyroiditis mimics malignancy:",
+     "options_fix": {
+      "A": "Hashimoto thyroiditis",
+      "B": "Riedle thyroiditis",
+      "C": "De Quervain's thyroiditis",
+      "D": "All of above"
+     },
+     "text_note": "re-read from page: Restored garbled stem; retained printed spelling 'Riedle'.",
+     "text_before": {
+      "stem": "followi of thyrol tis mimics mali an",
+      "options": {
+       "A": "Hashimoto thyroiditis",
+       "B": "Riedle thyroiditis",
+       "C": "De Quervain's thyroiditis",
+       "D": "All of above"
+      }
+     }
     },
     "clinicalpictureofthyroidcarcinomainclude": {
      "answer": "Referred otallogia",
@@ -16824,7 +18241,24 @@
     "asregardsempyemanecessitansallarecorrectexcept": {
      "answer": "Ils asubcutaneous abscess communicating with empyemic pleura",
      "source": "key",
-     "at": "2026-09-26T19:51:25Z"
+     "at": "2026-09-27T07:41:45Z",
+     "stem_fix": "As regards empyema necessitans all are correct except:",
+     "options_fix": {
+      "A": "is an encysted empyema",
+      "B": "Gives an expansile impulse on cough",
+      "C": "Can perforate skin loading to skin sinus",
+      "D": "Is a subcutaneous abscess communicating with empyemic pleura"
+     },
+     "text_note": "re-read from page: Corrected OCR in options; retained the source's printed 'loading'.",
+     "text_before": {
+      "stem": "As regards empyema necessitans all are correct except:",
+      "options": {
+       "A": "is an encysted empyema",
+       "B": "Gives an expansile impulse on cough",
+       "C": "Can perforate skin loading to skin sinus",
+       "D": "Ils asubcutaneous abscess communicating with empyemic pleura"
+      }
+     }
     },
     "17aaeaofthefollowingthegastricrestrictiveprocedureswillleadtoweightloss": {
      "answer": "Increasing the basal metabolic rate",
@@ -17056,19 +18490,19 @@
    "nn": "14",
    "rel": "Raw_PDF_Questions/Schwartz.pdf",
    "md": "14_Schwartz.md",
-   "status": "reviewed",
+   "status": "parsed",
    "stages": {
     "parse": {
-     "at": "2026-09-26T16:02:28Z",
+     "at": "2026-09-27T07:42:20Z",
      "questions": 857,
      "mcq": 857,
-     "answered": 846,
+     "answered": 822,
      "sources": {
-      "key": 846,
-      "none": 11
+      "key": 822,
+      "none": 35
      },
-     "flags": 800,
-     "md_hash": "4031e02bf9e8d37d0fab7ac53f45f416fcd06bcad588f4053df827594f94f6c6"
+     "flags": 805,
+     "md_hash": "f9a272da34807f73b8921741abd060dfda45c7ae0f29b580d2f53ebd81b85700"
     },
     "ocr": {
      "status": "done",
@@ -17151,14 +18585,7 @@
      "mean_conf": 0.906
     },
     "review": {
-     "spot_check": "86/86 OK",
-     "at": "2026-09-26T16:05:36Z",
-     "notes": [
-      {
-       "note": "Sampled stems, options, and source answer keys verified; corrected sampled OCR errors with logged fixes.",
-       "at": "2026-09-26T16:05:36Z"
-      }
-     ]
+     "spot_check": "86/86 OK"
     }
    },
    "added": "2026-09-26T05:25:01Z",
@@ -17216,7 +18643,24 @@
     "whichisfalseregardingmodernconfictresolutiontechniques": {
      "answer": "Conf ict resolution is more success ul when both sides can admit they share some ault.",
      "source": "key",
-     "at": "2026-09-26T06:03:34Z"
+     "at": "2026-09-27T07:43:49Z",
+     "stem_fix": "Which is FALSE regarding modern conflict resolution techniques?",
+     "options_fix": {
+      "A": "Based upon objectivity and willingness to listen.",
+      "B": "Should seek a solution that benefits all involved and which is based upon core values of the organization.",
+      "C": "Traditional command-and-control technique based on fear and intimidation can lead to sanctions and lawsuits.",
+      "D": "Conflict resolution is more successful when both sides can admit they share some fault."
+     },
+     "text_note": "re-read from page: Garbled stem and options.",
+     "text_before": {
+      "stem": "Which is FALSE regarding modern conf ict resolution techniques?",
+      "options": {
+       "A": "Based upon objectivity and willingness to listen.",
+       "B": "Should seek a solution that benefits all involved and which is based upon core values of the organization.",
+       "C": "Traditional command-and-control technique based on ear and intimidation can lead to sanctions and lawsuits.",
+       "D": "Conf ict resolution is more successful when both sides can admit they share some fault."
+      }
+     }
     },
     "creactiveproteincrp": {
      "answer": "Does not increase in response to stress in patients with liver ailure",
@@ -17291,7 +18735,24 @@
     "fluidresusitatinusingalbumin": {
      "answer": "Can lead t pulm nary edema",
      "source": "key",
-     "at": "2026-09-26T06:03:34Z"
+     "at": "2026-09-27T07:43:49Z",
+     "stem_fix": "Fluid resuscitation using albumin",
+     "options_fix": {
+      "A": "Is associated with coagulopathy",
+      "B": "Is available as 1% or 5% solutions",
+      "C": "Can lead to pulmonary edema",
+      "D": "Decreased factor XIII"
+     },
+     "text_note": "re-read from page: Garbled options A-D.",
+     "text_before": {
+      "stem": "Fluid resus itati n using albumin",
+      "options": {
+       "A": "Is ass iated with agul pathy",
+       "B": "Is available as 1% r 5% s luti ns",
+       "C": "Can lead t pulmonary edema",
+       "D": "Decreased aft r XIII"
+      }
+     }
     },
     "waternstituteswhatperentagettalbdyweight": {
      "answer": "50-60%",
@@ -17316,7 +18777,24 @@
     "apatientwithserumalium68andalbumin12hasarretedalium": {
      "answer": "9.2",
      "source": "key",
-     "at": "2026-09-26T06:03:34Z"
+     "at": "2026-09-27T07:43:49Z",
+     "stem_fix": "A patient with serum calcium 6.8 and albumin 1.2 has a corrected calcium",
+     "options_fix": {
+      "A": "7.7",
+      "B": "8.0",
+      "C": "8.6",
+      "D": "9.2"
+     },
+     "text_note": "re-read from page: Garbled stem and options.",
+     "text_before": {
+      "stem": "A patient with serum al ium 6.8 and albumin 1.2 has a rre ted al ium",
+      "options": {
+       "A": "7.7",
+       "B": "8.0",
+       "C": "8.6",
+       "D": "9.2"
+      }
+     }
     },
     "allthellwingtreatmentsrhyperkalemiaredueserumptassiumexcep": {
      "answer": "Cal ium",
@@ -17419,9 +18897,26 @@
      "at": "2026-09-26T06:03:34Z"
     },
     "whichisrequiredorplateletadherencetoinjuredendothelium": {
-     "answer": "Von Willebrand actor (vWF)",
+     "answer": "Von Willebrand factor (vWF)",
      "source": "key",
-     "at": "2026-09-26T06:03:34Z"
+     "at": "2026-09-27T07:43:49Z",
+     "stem_fix": "Which is required for platelet adherence to injured endothelium?",
+     "options_fix": {
+      "A": "Thromboxane A2",
+      "B": "Glycoprotein (GP) IIb/IIIa",
+      "C": "Adenosine diphosphate (ADP)",
+      "D": "Von Willebrand factor (vWF)"
+     },
+     "text_note": "re-read from page: Garbled stem and option D.",
+     "text_before": {
+      "stem": "Which is required or platelet adherence to injured endothelium?",
+      "options": {
+       "A": "Thromboxane A2",
+       "B": "Glycoprotein (GP) IIb/IIIa",
+       "C": "Adenosine diphosphate (ADP)",
+       "D": "Von Willebrand actor (vWF)"
+      }
+     }
     },
     "whichotheollowingclottingactorsistherstactorcommontobothintrinsicandextrinsicpathways": {
      "answer": "Factor X (Stuart-Prower actor)",
@@ -18940,7 +20435,24 @@
     "hypoplasticleheartsyndromeissurgicallytreatedwith": {
      "answer": "All o the above.",
      "source": "key",
-     "at": "2026-09-26T06:03:34Z"
+     "at": "2026-09-27T07:43:49Z",
+     "stem_fix": "Hypoplastic left heart syndrome is surgically treated with",
+     "options_fix": {
+      "A": "Bilateral pulmonary artery banding and stent placement in the patent ductus arteriosus.",
+      "B": "Norwood procedure with Blalock-Taussig (B-T) shunt.",
+      "C": "Norwood procedure with right ventricle (RV) to pulmonary artery conduit (Sano shunt).",
+      "D": "All of the above."
+     },
+     "text_note": "re-read from page: Garbled stem and options B-C.",
+     "text_before": {
+      "stem": "Hypoplastic le heart syndrome is surgically treated with",
+      "options": {
+       "A": "Bilateral pulmonary artery banding and stent placement in the patent ductus arteriosus.",
+       "B": "Norwood procedure withca Blalock- aussig (B- ) shunt.",
+       "C": "Norwood procedure withca right ventricle (RV) to pulmonary artery conduit (Sano shunt).",
+       "D": "All of the above."
+      }
+     }
     },
     "tearterialswitchoperationortranspositionothegreatvesselsisbestperormed": {
      "answer": "Within 2 weeks o birth",
@@ -19538,7 +21050,26 @@
     "maximaesophageamucosadamageiscausedbyexposureto": {
      "answer": "Acidic uid, pepsin, and bi e sa ts",
      "source": "key",
-     "at": "2026-09-26T06:03:34Z"
+     "at": "2026-09-27T07:43:49Z",
+     "stem_fix": "Maximal esophageal mucosal damage is caused by exposure to",
+     "options_fix": {
+      "A": "Acidic fluid alone",
+      "B": "Acidic fluid, food contents, and pepsin",
+      "C": "Acidic fluid, trypsin, and food contents",
+      "D": "Acidic fluid, pepsin, and bile salts",
+      "E": "Neutral fluid, pepsin, and trypsin"
+     },
+     "text_note": "re-read from page: Garbled stem and options.",
+     "text_before": {
+      "stem": "Maxima esophagea mucosa damage is caused by expo- sure to",
+      "options": {
+       "A": "Acidic fluid a one",
+       "B": "Acidic fluid, food contents, and pepsin",
+       "C": "Acidic fluid, trypsin, and food contents",
+       "D": "Acidic fluid, pepsin, and bi e sa ts",
+       "E": "Neutra uid, pepsin, and trypsin"
+      }
+     }
     },
     "teincidenceometapasticbarrettesophagusbeprogressingtoadenocarcinomais": {
      "answer": "0.2 to 0.5% per year",
@@ -23401,6 +24932,706 @@
      "at": "2026-09-26T16:04:05Z",
      "answer": "Is influenced by respiratory cycle due to changes in blood temperature and Q_T",
      "source": "key"
+    },
+    "metabliacidsiswithcanormalaniongapagurswith": {
+     "stem_fix": "Metabolic acidosis with a normal anion gap (AG) occurs with",
+     "options_fix": {
+      "A": "Diabetic acidosis",
+      "B": "Renal failure",
+      "C": "Severe diarrhea",
+      "D": "Starvation"
+     },
+     "text_note": "re-read from page: Garbled stem and options.",
+     "text_before": {
+      "stem": "Metab li acid sis withca normal anion gap (AG) urs with",
+      "options": {
+       "A": "Diabetic acid sis",
+       "B": "Renal failure",
+       "C": "Severe diarrhea",
+       "D": "Starvation"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "allarepossiblecausespostoperativehyponatremiaexcep": {
+     "stem_fix": "All are possible causes of postoperative hyponatremia EXCEPT",
+     "options_fix": {
+      "A": "Excess infusion of normal saline intraoperatively.",
+      "B": "Administration of antipsychotic medication.",
+      "C": "Transient decrease in antidiuretic hormone (ADH) secretion.",
+      "D": "Excess oral water intake."
+     },
+     "text_note": "re-read from page: Garbled stem and options.",
+     "text_before": {
+      "stem": "All are possible causes postoperative hyponatremia EXCEP",
+      "options": {
+       "A": "Excess in usion normal saline intraoperatively.",
+       "B": "Administration antipsy h ti medi ation.",
+       "C": "Transient decrease in antidiuretic h rm ne (ADH) se reti n.",
+       "D": "Excess oral water intake."
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "whichthellwingisfalseregardinghypertnisaline": {
+     "stem_fix": "Which of the following is FALSE regarding hypertonic saline?",
+     "options_fix": {
+      "A": "Is an arteriolar vasodilator and may increase bleeding",
+      "B": "Should be avoided in closed head injury",
+      "C": "Should not be used for initial resuscitation",
+      "D": "Increases cerebral perfusion"
+     },
+     "text_note": "re-read from page: Garbled stem and options.",
+     "text_before": {
+      "stem": "Which the ll wing is FALSE regarding hypert ni saline?",
+      "options": {
+       "A": "Is an arteriolar vas dilator and may increase bleeding",
+       "B": "Should be avoided in losed head injury",
+       "C": "Should not be used r initial resus itati n",
+       "D": "Increases cerebral per usion"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "allthellwingtreatmentsrhyperkalemiareduceserumpotassiumexcep": {
+     "stem_fix": "All the following treatments for hyperkalemia reduce serum potassium EXCEPT",
+     "options_fix": {
+      "A": "Bicarbonate",
+      "B": "Kayexalate",
+      "C": "Glucose infusion with insulin",
+      "D": "Calcium"
+     },
+     "text_note": "re-read from page: Garbled stem and options.",
+     "text_before": {
+      "stem": "All the ll wing treatments r hyperkalemia reduce serum potassium EXCEP",
+      "options": {
+       "A": "Bicarb nate",
+       "B": "Kayexalate",
+       "C": "Glu se in usion with insulin",
+       "D": "Calcium"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "aolwurinarynh4withcahyperhlremiacidsisfindiateswhatcause": {
+     "stem_fix": "A low urinary [NH4+] with a hyperchloremic acidosis indicates what cause?",
+     "options_fix": {
+      "A": "Excessive vomiting",
+      "B": "Enterocutaneous fistula",
+      "C": "Chronic diarrhea",
+      "D": "Renal tubular acidosis"
+     },
+     "text_note": "re-read from page: Garbled stem and options.",
+     "text_before": {
+      "stem": "Aol w urinary [NH4 +] withca hyper hl remi acid sis findi ates what cause?",
+      "options": {
+       "A": "Excessive vomiting",
+       "B": "Enter utane us fistula",
+       "C": "Chr ni diarrhea",
+       "D": "Renal tubular acid sis"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "whenlatiacidisprduffedinresponsetinjurythebodyminimizesphchangeby": {
+     "stem_fix": "When lactic acid is produced in response to injury, the body minimizes pH change by",
+     "options_fix": {
+      "A": "Decreasing production of sodium bicarbonate in tissues",
+      "B": "Excreting carbon dioxide through the lungs",
+      "C": "Excreting lactic acid through the kidneys",
+      "D": "Metabolizing the lactic acid in the liver"
+     },
+     "text_note": "re-read from page: Garbled stem and options.",
+     "text_before": {
+      "stem": "When la ti acid is pr duffed in response t injury, the body minimizes pH change by",
+      "options": {
+       "A": "Decreasing pr du tionf sodium bicarb nate in tissues",
+       "B": "Excreting arb n dioxide through the lungs",
+       "C": "Excreting la ti acid through the kidneys",
+       "D": "Metabolizing the la ti acid in the liver"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "anelderlydiabeticpatientwhohasacuteholeystitisisundthaveaserumsodiumlevel122meqlandabldgluse600mgdlaferrretingtheglusenentratinot100mgdlwithinsulintheserumsodiu": {
+     "stem_fix": "An elderly diabetic patient who has acute cholecystitis is found to have a serum sodium level 122 mEq/L and a blood glucose 600 mg/dL. After correcting the glucose concentration to 100 mg/dL with insulin, the serum sodium concentration would",
+     "options_fix": {
+      "A": "Decrease significantly unless the patient also received 3% saline",
+      "B": "Decrease transiently but return to approximately 122 mEq/L without specific therapy",
+      "C": "Remain essentially unchanged",
+      "D": "Increase to the normal range without specific therapy"
+     },
+     "text_note": "re-read from page: Garbled stem and options.",
+     "text_before": {
+      "stem": "An elderly diabetic patient who has acute hole ystitis is und t have a serum sodium level 122 mEq/L and a bl d glu se 600 mg/dL. Af er rre ting the glu se n entrati not 100 mg/dL with insulin, the serum sodium n entrati now uld",
+      "options": {
+       "A": "Decrease signif antly unless the patient also received 3% saline",
+       "B": "Decrease transiently but return t approximately 122 mEq/L with ut specif therapy",
+       "C": "Remain essentially un hanged",
+       "D": "Increase t the normal range with ut specif therapy"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "thefirststepinthemanagementacutehyperalemiashouldbe": {
+     "stem_fix": "The first step in the management of acute hypercalcemia should be",
+     "options_fix": {
+      "A": "Correction of deficit extracellular fluid volume",
+      "B": "Hemodialysis.",
+      "C": "Administration of furosemide.",
+      "D": "Administration of mithramycin."
+     },
+     "text_note": "re-read from page: Garbled stem and options.",
+     "text_before": {
+      "stem": "The first step in the management acute hyper al emia should be",
+      "options": {
+       "A": "C rre tionf de it extracellular fluid volume",
+       "B": "Hem dialysis.",
+       "C": "Administration ur semide.",
+       "D": "Administration mithramycin."
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "threedaysafersurgeryrgastricarinmaa50yearoldalhlimaleexhibitsdeliriummusletremorsandhyperactivetendonreexesmagnesiumdeciencyissuspectedallthellwingstatementsreg": {
+     "stem_fix": "Three days after surgery for gastric carcinoma, a 50-year-old alcoholic male exhibits delirium, muscle tremors, and hyperactive tendon reflexes. Magnesium deficiency is suspected. All the following statements regarding this situation are true EXCEPT",
+     "options_fix": {
+      "A": "A decision to administer magnesium should be based on the serum magnesium level.",
+      "B": "Adequate cellular replacement of magnesium will require 1 to 3 weeks.",
+      "C": "A concomitant calcium deficiency should be suspected.",
+      "D": "Calcium is a specific antagonist of the myocardial effects of magnesium."
+     },
+     "text_note": "re-read from page: Garbled stem and options.",
+     "text_before": {
+      "stem": "Three days af er surgery r gastric ar in ma, a 50-year- old al h li male exhibits delirium, mus le tremors, and hyperactive tendon re exes. Magnesium de ciency is suspected. All the ll wing statements regarding this situation are true EXCEP",
+      "options": {
+       "A": "Aide ision t administer magnesium should be based n the serum magnesium level.",
+       "B": "Adequate cellular replacement magnesium will require 1 t 3 weeks.",
+       "C": "A n mitant al ium de ciency should be suspected.",
+       "D": "Calcium is a specif antagonist the my ardial effie ts magnesium."
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "a40yearldwomansadmittedttheburnunitafteranndustralreatcaplastsmanuaturingplantwithburnsttheaceandarmshereletrcardgramecgshowsselevatnandnotalhemstrypanelandarte": {
+     "stem_fix": "A 40-year-old woman is admitted to the burn unit after an industrial fire at a plastics manufacturing plant with burns to the face and arms. Her electrocardiogram (ECG) shows S-T elevation, and initial chemistry panel and arterial blood gas reveal an anion gap metabolic acidosis with normal arterial carboxyhemoglobin. What is the most appropriate next step?",
+     "options_fix": {
+      "A": "Correction of acidosis by adding sodium bicarbonate to IV fluids.",
+      "B": "Administration of 100% oxygen and hydroxocobalamin.",
+      "C": "Transthoracic echocardiogram.",
+      "D": "Blood culture with IV antibiotics."
+     },
+     "text_note": "re-read from page: Garbled stem and options.",
+     "text_before": {
+      "stem": "A 40-year- ld woman s admitted t the burn unit after an ndustr al re atca plast s manu a turing plant with burns t the ace and arms. Her ele tr card gram (ECG) shows S- elevat n, and not al hem stry panel and arterial bl d gas reveal an an n gap metab l a dos sow thin r- imal arterial arb xyhem globin. What s the most appr - pr ate next step?",
+      "options": {
+       "A": "C rrect n a dos s by adding sod um b arb nate t IV u ds.",
+       "B": "Admin strati n 100% oxygen and hydr x balam n.",
+       "C": "ransth ra e h card gram.",
+       "D": "Bl d culture with IV ant b t s."
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "apatientwithca90burnenmpassngtheentiretorsdevelopsannreasngp2andpeaknspratrypressurewhohthellowingsimstolkelytresolvethisproblem": {
+     "stem_fix": "A patient with a 90% burn encompassing the entire torso develops an increasing PCO2 and peak inspiratory pressure. Which of the following is most likely to resolve this problem?",
+     "options_fix": {
+      "A": "Increase the delivered tidal volume.",
+      "B": "Increase the respiratory rate.",
+      "C": "Increase the FiO2.",
+      "D": "Perform an escharotomy."
+     },
+     "text_note": "re-read from page: Garbled stem and option D.",
+     "text_before": {
+      "stem": "A patient withca 90% burn en mpass ng the entire tors develops an n reas ng P 2 and peak nsp rat ry pressure. Who h the llowing sim stol kely t resolve this problem?",
+      "options": {
+       "A": "Increase the delivered tidal volume.",
+       "B": "Increase the resp rat ry rate.",
+       "C": "Increase the Fio2.",
+       "D": "Per rm acth ra eschar tomy."
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "suiessulantbtpenetratnaburnescharanbeaohevedwith": {
+     "stem_fix": "Successful antibiotic penetration of a burn eschar can be achieved with",
+     "options_fix": {
+      "A": "Ma(fenide) acetate",
+      "B": "Neomycin",
+      "C": "Silver nitrate",
+      "D": "Silver sulfadiazine"
+     },
+     "text_note": "re-read from page: Garbled stem and options; A appears as mafenide acetate in source.",
+     "text_before": {
+      "stem": "Sui ess ul ant b t penetrat n a burn eschar an be aoh eved with",
+      "options": {
+       "A": "Ma en de acetate",
+       "B": "Ne my n",
+       "C": "Solver nitrate",
+       "D": "Solver sul ad az ne"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "whohthellowingstrueregardingnutrtfinalneedsburnpatients": {
+     "stem_fix": "Which of the following is true regarding nutritional needs of burn patients?",
+     "options_fix": {
+      "A": "The hypermetabolic response to burn wounds typically raises the basal metabolic rate by 120%.",
+      "B": "Oxandrolone, an anabolic steroid, can improve lean body mass but can be associated with hyperglycemia and occasionally significant rises in hepatic transaminases.",
+      "C": "Early enteral feeding is safe when burns are less than 20% BSA; otherwise enteral feeding should await return of bowel function to avoid feeding a patient with gastroileus.",
+      "D": "For patients with greater than 40% BSA, caloric needs are estimated to be 25 kcal/kg/day plus 40 kcal/% BSA/day."
+     },
+     "text_note": "re-read from page: Garbled stem and options.",
+     "text_before": {
+      "stem": "Who h the llowing s true regarding nutr t final needs burn patients?",
+      "options": {
+       "A": "The hypermetab l response t burn wounds typ - ally raises the basi metab l rate by 120%.",
+       "B": "Oxandr lone, an anab l ster d, an mpr ve lean body mass but an be ass ated with hypergly emia and lon ally sign ant rose n hepato transam not s.",
+       "C": "Early enteral feeding sosa e when burns are less than 20% BSA, therw se enteral feeding should await return bowel unit not av d feeding a patient with gastro leus.",
+       "D": "For patients with greater than 40% BSA, al r needs are est mated t be 25 k al/kg/day plus 40 kcal/% BSA/day."
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "whohsfalsenernngsurgialtreatmentburnwounds": {
+     "stem_fix": "Which is FALSE concerning surgical treatment of burn wounds?",
+     "options_fix": {
+      "A": "Tangential excision consists of tangential slices of burn tissue until bleeding tissue is encountered. Thus, excision can be associated with potentially significant blood loss.",
+      "B": "Human cadaver allografts are a permanent alternative to split-thickness skin grafts when there are insufficient donor sites.",
+      "C": "Bleeding from tangential excision can be helped with injection of epinephrine tumescent solution, pneumatic tourniquets, epinephrine-soaked compresses, and fibrinogen and thrombin spray sealant.",
+      "D": "Meshed split-thickness skin grafts allow serosanguinous drainage to prevent graft loss and provide a greater area of wound coverage."
+     },
+     "text_note": "re-read from page: Garbled stem and options.",
+     "text_before": {
+      "stem": "Who h s FALSE n ern ng surgi al treatment burn wounds?",
+      "options": {
+       "A": "Tangent al ex s n ns sts tangent al slc es burn tissue until bleeding tissue scen untered. Thus, ex s n an be ass ated with potent ally sign ant bl d loss.",
+       "B": "Human cadaver all gra soa permanent alternative t spl t-th kness skin gra s when there are insuff - ent donor sites.",
+       "C": "Bleeding rom tangent al ex s n an be helped with nje t n ep nephrine tumes ence s luti n, pneu- mat t urn quets, ep nephrine soaked mpresses, and br n gen and thr mb n spray sealant.",
+       "D": "Meshed split th kness skin gra s allow ser sangu - nous drainage t prevent gra loss and prov de a greater area wound verage."
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "fourteendaysafteradmssnotthehospitalrca30partalthknessburnandhemdynamonstabltyrequringcentralvenousafessapatientdevelopsaspkingtemperaturecurveonphysalexamnatnt": {
+     "stem_fix": "Fourteen days after admission to the hospital for a 30% partial-thickness burn and hemodynamic instability requiring central venous access, a patient develops a spiking temperature curve. On physical examination, the central venous catheter insertion site was red, tender, and warm. The best treatment for this complication is",
+     "options_fix": {
+      "A": "Exchange central venous catheter over guidewire, culture tip of previous catheter.",
+      "B": "Treat patient with IV antibiotics until blood cultures drawn from catheter are negative.",
+      "C": "Removal of central venous catheter, culture tip, and placement of new catheter on contralateral site.",
+      "D": "Removal of catheter and treat patient with oral antibiotics and pain medication as needed."
+     },
+     "text_note": "re-read from page: Garbled stem and options.",
+     "text_before": {
+      "stem": "Fourteen days after adm ss not the hospital rca 30% part al th kness burn and hem dynamo nstab l ty requ ring central venous a fess, a patient develops a sp k- ing temperature curve. On phys al exam nat n, the en- tral venous catheter insert nos te was red, tender, and warm. The best treatment roth s mpl at n sot",
+      "options": {
+       "A": "Exchange entral venous catheter over gu dew re, culture top previ us catheter.",
+       "B": "Treat patient with IV ant b t s until bl d cultures drawn rom catheter are negative.",
+       "C": "Rem val entral venous catheter, culture top, and placement new catheter n ntralateral site.",
+       "D": "Rem val atheter and treat patient with oral ant b - t s and pain med at n as needed."
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "approvedstrategiesorcancerchemopreventionincludeallofthefollowingexcep": {
+     "stem_fix": "Approved strategies for cancer chemoprevention include all of the following EXCEPT",
+     "options_fix": {
+      "A": "Neurontin for malignant peripheral nerve sheath tumor",
+      "B": "Tamoxifen for breast cancer",
+      "C": "Celecoxib for FAP syndrome",
+      "D": "13-cis-retinoic acid for oral leukoplakia"
+     },
+     "text_note": "re-read from page: Garbled options A-B; spelling read from source context and print.",
+     "text_before": {
+      "stem": "Approved strategies or cancer chemoprevention include all of the following EXCEP",
+      "options": {
+       "A": "Neurontin or malignant peripheral nerve sheath tumor",
+       "B": "amoxi en or breast cancer",
+       "C": "Celecoxib or FlAP syndrome",
+       "D": "13-cis-retinoic acid or oral leukoplakia"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "whichofthefollowingaretrueregardingsafelaparoscopicsurgeryinpregnancy": {
+     "stem_fix": "Which of the following are true regarding safe laparoscopic surgery in pregnancy?",
+     "options_fix": {
+      "A": "The patient should be positioned in the left lateral position.",
+      "B": "Open abdominal access (Hasson) is recommended versus direct puncture laparoscopy (Veress needle).",
+      "C": "The surgery should be performed during the second trimester if possible.",
+      "D": "All of the above."
+     },
+     "text_note": "re-read from page: Garbled options A-B.",
+     "text_before": {
+      "stem": "Which of the following are true regarding safe laparoscopic surgery in pregnancy.",
+      "options": {
+       "A": "The patient should be position in the lefi lateral position.",
+       "B": "Open abdominal access (Hasson) is recommended versus direct puncture laparoscopy (Veress neelde).",
+       "C": "The surgery should be performed during the second trimester if possible.",
+       "D": "All of the above."
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "drugsusefulinbreastcancerpreventioninclude": {
+     "stem_fix": "Drugs useful in breast cancer prevention include",
+     "options_fix": {
+      "A": "Raloxifene",
+      "B": "Tamoxifen",
+      "C": "Aspirin",
+      "D": "Aromatase inhibitors"
+     },
+     "text_note": "re-read from page: Garbled option B.",
+     "text_before": {
+      "stem": "Drugs useful in breast cancer prevention include",
+      "options": {
+       "A": "Raloxifene",
+       "B": "amoxi en",
+       "C": "Aspirin",
+       "D": "Aromatase inhibitors"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "themostcommoncauseofacquiredmitralstenosisis": {
+     "stem_fix": "The most common cause of acquired mitral stenosis is",
+     "options_fix": {
+      "A": "Rheumatic disease",
+      "B": "Left atrial myxoma",
+      "C": "Ball valve thrombus",
+      "D": "Previous chest radiation"
+     },
+     "text_note": "re-read from page: Garbled option B.",
+     "text_before": {
+      "stem": "The most common cause of acquired mitral stenosis is",
+      "options": {
+       "A": "Rheumatic disease",
+       "B": "Le atrial myxoma",
+       "C": "Ball valve thrombus",
+       "D": "Previous chest radiation"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "apatientpresentswithcahistoryoffatigueanddyspneaheisfoundtohavehepatomegalyascitesandanelevatedjugularvenouspulseheartsoundsarenormalnomurmursarepresentandthehe": {
+     "stem_fix": "A patient presents with a history of fatigue and dyspnea. He is found to have hepatomegaly, ascites, and an elevated jugular venous pulse. Heart sounds are normal, no murmurs are present, and the heart is of normal size. The pulse pressure is decreased by palpation. Electrocardiography (ECG) is normal except for low voltage. The most likely diagnosis is",
+     "options_fix": {
+      "A": "Right atrial myxoma",
+      "B": "TV disease",
+      "C": "Constrictive pericarditis",
+      "D": "Primary pulmonary artery hypertension"
+     },
+     "text_note": "re-read from page: Garbled stem and option B; the source reads TV disease.",
+     "text_before": {
+      "stem": "A patient presents withca history of fatigue and dyspnea. He is found to have hepatomegaly, ascites, and an elevated jugular venous pulse. Heart sounds are normal, no murmurs are present, and the heart is of normal size. The pulse pressure is decreased by palpation. Electrocardiography (ECG) is normal except or low voltage. The most likely diagnosis is",
+      "options": {
+       "A": "Right atrial myxoma",
+       "B": "V disease",
+       "C": "Constrictive pericarditis",
+       "D": "Primary pulmonary artery hypertension"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "angiographindicationsorrenalarteryrevascularizationincludeallofthefollowingexcep": {
+     "stem_fix": "Angiographic indications for renal artery revascularization include all of the following EXCEPT",
+     "options_fix": {
+      "A": "Documented renal artery stenosis",
+      "B": "FMD lesion",
+      "C": "Affected/unaffected kidney renin ratio >1.5 to 1",
+      "D": "Pressure gradient >10 mm Hg"
+     },
+     "text_note": "re-read from page: Garbled stem and option C.",
+     "text_before": {
+      "stem": "Angiograph indications or renal artery revascularization include all of the following EXCEP",
+      "options": {
+       "A": "Documented renal artery stenosis",
+       "B": "FMD lesion",
+       "C": "A ected/una ected kidney renin ration >1.5 to 1",
+       "D": "Pressure gradient >10 mm Hg"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "allofthefollowingregardingvenousanatomyistrueexcep": {
+     "stem_fix": "All of the following regarding venous anatomy are true EXCEPT",
+     "options_fix": {
+      "A": "Veins are thin-walled, collapsible, and highly distensible to a diameter several times greater than that in the supine position.",
+      "B": "The venous intima is composed of a nonthrombogenic endothelium that produces endothelium-derived relaxing factors such as nitric oxide and prostacyclin.",
+      "C": "Venous valves close in response to caudal-to-cephalad blood flow at a velocity of at least 30 cm/s2.",
+      "D": "The inferior vena cava (IVC), common iliac veins, portal venous system, and cranial sinuses are valveless."
+     },
+     "text_note": "re-read from page: Garbled options A-D.",
+     "text_before": {
+      "stem": "All of the following regarding venous anatomy is true EXCEP",
+      "options": {
+       "A": "Veins are thin-walled, collapsible, and highly distensi- ible to a diameter several times greater than that in the supine position.",
+       "B": "The venous intima is composed of a nonthrombogenic endothelium that produces endothelium-derived relaxing actors such as nitric oxide and prostacyclin.",
+       "C": "Venous valves close in response to caudal-to-cephalad blood ow atca velocity of at least 30 cm/s2.",
+       "D": "The inferior vena cava (IVC), common iliac veins, por- ital venous system, and cranial sinuses are valveless."
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "allofthefollowingareindicationsorplacementofivcfiltersexcep": {
+     "stem_fix": "All of the following are indications for placement of IVC filters EXCEPT",
+     "options_fix": {
+      "A": "Septic thromboembolism.",
+      "B": "Bleeding complication from anticoagulation therapy of acute VTE.",
+      "C": "Recurrent DVT or PE despite adequate anticoagulation therapy.",
+      "D": "Severe pulmonary hypertension."
+     },
+     "text_note": "re-read from page: Garbled stem and options B-C.",
+     "text_before": {
+      "stem": "All of the following are indications or placement of IVC filters EXCEP",
+      "options": {
+       "A": "Septic thromboembolism.",
+       "B": "Bleeding complication rom anticoagulation therapy of acute ViE.",
+       "C": "Recurrent DVi or PE despite adequate anticoagula- ction therapy.",
+       "D": "Severe pulmonary hypertension."
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "themostcommoncauseofaidecientlesis": {
+     "stem_fix": "The most common cause of an inefficient LES is",
+     "options_fix": {
+      "A": "Inadequate overall length",
+      "B": "Mean resting pressure <6 mm Hg",
+      "C": "Inadequate intra-abdominal length",
+      "D": "Failure of receptive relaxation"
+     },
+     "text_note": "re-read from page: Garbled stem and options A-B.",
+     "text_before": {
+      "stem": "The most common cause of aide cient LES is",
+      "options": {
+       "A": "Inadequate overa ength",
+       "B": "Mean resting pressure >6 mm Hg",
+       "C": "Inadequate intra-abdomina ength",
+       "D": "Fai ure of receptive re axation"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "thehistoogichamarkofbeis": {
+     "stem_fix": "The histologic hallmark of BE is",
+     "options_fix": {
+      "A": "Columnar epithelium",
+      "B": "Goblet cells",
+      "C": "Parietal cells",
+      "D": "Cuboidal epithelium"
+     },
+     "text_note": "re-read from page: Garbled stem and options.",
+     "text_before": {
+      "stem": "The histo ogic ha mark of BE is",
+      "options": {
+       "A": "Co umnar epithe ium",
+       "B": "Gob et ceo s",
+       "C": "Parietai ceo s",
+       "D": "Cuboida epithe ium"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "whichofthefollowingoptionsistheleastpreferablereconstructionorpatientsundergoingantrectomyorpud": {
+     "stem_fix": "Which of the following options is the least preferable reconstruction for patients undergoing antrectomy for PUD?",
+     "options_fix": {
+      "A": "Billroth I.",
+      "B": "Billroth II.",
+      "C": "Roux-en-Y gastrojejunostomy.",
+      "D": "All are equally preferable."
+     },
+     "text_note": "re-read from page: Garbled stem.",
+     "text_before": {
+      "stem": "Which of the following options is the least preferable reconstruction or patients undergoing antrectomy or PUD?",
+      "options": {
+       "A": "Billroth I.",
+       "B": "Billroth II.",
+       "C": "Roux-en-Y gastrojejunostomy.",
+       "D": "All are equally preferable."
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "treatmentorsevereearlydumpingaftergastrectomythatispersistentdespiteanantidumpingdietandfiberis": {
+     "stem_fix": "Treatment for severe early dumping after gastrectomy that is persistent despite an antidumping diet and fiber is",
+     "options_fix": {
+      "A": "Expectant management",
+      "B": "Oral glucose for symptoms",
+      "C": "Octreotide",
+      "D": "Surgical conversion to a Roux-en-Y drainage"
+     },
+     "text_note": "re-read from page: Garbled stem and option B.",
+     "text_before": {
+      "stem": "Treatment or severe early dumping after gastrectomy that is persistent despite an antidumping diet and fiber is",
+      "options": {
+       "A": "Expectant management",
+       "B": "Oral glucose or symptoms",
+       "C": "Octreotide",
+       "D": "Surgical conversion to a Roux-en-Y drainage"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "adenocarcinomaoftheduodenumisassociatedwithwhathereditaryoncologicsyndrome": {
+     "stem_fix": "Adenocarcinoma of the duodenum is associated with what hereditary oncologic syndrome?",
+     "options_fix": {
+      "A": "Hereditary nonpolyposis colorectal cancer (HNPCC)",
+      "B": "Familial adenomatous polyposis (FAP)",
+      "C": "Peutz-Jeghers syndrome",
+      "D": "Von Hippel-Lindau (VHL) syndrome"
+     },
+     "text_note": "re-read from page: Garbled option B.",
+     "text_before": {
+      "stem": "Adenocarcinoma of the duodenum is associated with what hereditary oncologic syndrome?",
+      "options": {
+       "A": "Hereditary nonpolyposis colorectal cancer (HNPCC)",
+       "B": "Familial adenomatous polyposis (FlAP)",
+       "C": "Peutz-Jeghers syndrome",
+       "D": "Von Hippel-Lindau (VHL) syndrome"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "whohthellowingsoammonsequelaeeletralinjury": {
+     "stem_fix": "Which of the following is a common sequela of electrical injury?",
+     "options_fix": {
+      "A": "Cardiac arrhythmias",
+      "B": "Paralysis",
+      "C": "Brain damage",
+      "D": "Cataracts"
+     },
+     "text_note": "re-read from page: Garbled stem; transcribed from page image.",
+     "text_before": {
+      "stem": "Who h the llowing soa mmon sequelae ele tr al injury?",
+      "options": {
+       "A": "Cardiac arrhythmias",
+       "B": "Paralysis",
+       "C": "Brain damage",
+       "D": "Cataracts"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "a74yearoldmanwithbiopsyprovenrectaladenocarcionomaisundergoingalowanteriorresectionwhichlayersmustbestapledthroughwhenresectingthedistalportionofresectionspecim": {
+     "stem_fix": "A 74-year-old man with biopsy-proven rectal adenocarcinoma is undergoing a low anterior resection. Which layers must be stapled through when resecting the distal portion of resection specimen?",
+     "options_fix": {
+      "A": "Mucosa, submucosa, circular muscle layer, longitudinal muscle layer, and serosa",
+      "B": "Mucosa, submucosa, longitudinal muscle layer, circular muscle layer, and serosa",
+      "C": "Mucosa, submucosa, longitudinal muscle layer, and circular muscle layer",
+      "D": "Mucosa, submucosa, circular muscle layer, and serosa"
+     },
+     "text_note": "re-read from page: Rejoined words split by OCR.",
+     "text_before": {
+      "stem": "A 74-year-old man with biopsy-proven rectal adenocarci- onoma is undergoing a low anterior resection. Which layers must be stapled through when resecting the distal portion of resection specimen?",
+      "options": {
+       "A": "Mucosa, submucosa, circular muscle layer, longitudi- final muscle layer, and serosa",
+       "B": "Mucosa, submucosa, longitudinal muscle layer, circular muscle layer, and serosa",
+       "C": "Mucosa, submucosa, longitudinal muscle layer, and circular muscle layer",
+       "D": "Mucosa, submucosa, circular muscle layer, and serosa"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "a75yearoldwomanundergoesarighthemicolectomyandendileostomyorrightsidedperorateddiverticuliotiswhatisthemostconcerningadverseoutcomeintheshorttermofthisprocedure": {
+     "stem_fix": "A 75-year-old woman undergoes a right hemicolectomy and end ileostomy for right-sided perforated diverticulitis. What is the most concerning adverse outcome in the short term of this procedure and will require revision?",
+     "options_fix": {
+      "A": "Skin breakdown caused by succus entericus.",
+      "B": "Stoma necrosis above the level of the fascia.",
+      "C": "Stoma necrosis below the level of the fascia.",
+      "D": "Stomal retraction below the level of the fascia."
+     },
+     "text_note": "re-read from page: Repaired OCR corruption in stem.",
+     "text_before": {
+      "stem": "A 75-year-old woman undergoes a right hemicolectomy and end ileostomy or right-sided per orated diverticuli- otis. What is the most concerning adverse outcome in the short term of this procedure and will require revision?",
+      "options": {
+       "A": "Skin breakdown caused by succus entericus.",
+       "B": "Stoma necrosis above the level of the fascia.",
+       "C": "Stoma necrosis below the level of the fascia.",
+       "D": "Stomal retraction below the level of the fascia."
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "a30yearoldmanpresentstotheedafterawitnessedsyncopalepisodehehasbeenhavingbloodydiarrheaandintermittentcrampyabdominalpainorthepast3monthsaweeklaterhehasacolonos": {
+     "stem_fix": "A 30-year-old man presents to the ED after a witnessed syncopal episode. He has been having bloody diarrhea and intermittent crampy abdominal pain for the past 3 months. A week later he has a colonoscopy and is found to have ulcerative colitis based on colonoscopy findings and mucosal biopsies. Which feature of listed below is NOT seen in ulcerative colitis?",
+     "options_fix": {
+      "A": "The terminal ileum shows inflammatory changes.",
+      "B": "The colon is shortened and mucosa is replaced by scars.",
+      "C": "Rectal sparing with inflammation seen in the transverse and descending colon.",
+      "D": "Atrophic mucosa with crypt abscesses."
+     },
+     "text_note": "re-read from page: Restored dropped letters and split words.",
+     "text_before": {
+      "stem": "A 30-year-old man presents to the ED after a witnessed syncopal episode. He has been having bloody diarrhea and intermittent crampy abdominal pain or the past 3 months. A week later he has a colonoscopy and is found to have ulcerative colitis based on colonoscopy findings and mucosal biopsies. Which feature of listed below is NO seen in ulcerative colitis?",
+      "options": {
+       "A": "The terminal ileum shows inf ammatory changes.",
+       "B": "The colon is shortened and mucosa is replaced by scars.",
+       "C": "Rectal sparing with inf ammation seen in the trans- verse and descending colon.",
+       "D": "Atrophic mucosa with crypt abscesses."
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "whatimagingfindingwouldexcludeappendicitis": {
+     "stem_fix": "What imaging finding would exclude appendicitis?",
+     "options_fix": {
+      "A": "A computed tomographic (CT) scan with a nonvisualized appendix.",
+      "B": "A barium enema where a short (2 cm) appendix was clearly identified.",
+      "C": "An ultrasound study with a compressible appendix that is <5 mm in diameter.",
+      "D": "A CT scan showing an edematous but retrocecal appendix."
+     },
+     "text_note": "re-read from page: Repaired OCR symbols and dropped letters.",
+     "text_before": {
+      "stem": "What imaging finding would exclude appendicitis?",
+      "options": {
+       "A": "A computed tomographic (C ) scan withca nonvisual- ized appendix.",
+       "B": "A barium enema where a short (2 cm) appendix was clearly identified.",
+       "C": "An ultrasound study withca compressible appendix that is <5 mm in diameter.",
+       "D": "AfC scan showing an edematous but retrocecal appendix."
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "whichofthefollowingisnoalocationwhereaccessoryspleenscanbefound": {
+     "stem_fix": "Which of the following is NOT a location where accessory spleens can be found?",
+     "options_fix": {
+      "A": "Gastrocolic ligament",
+      "B": "Gerota's fascia",
+      "C": "Large bowel mesentery",
+      "D": "Broad ligament"
+     },
+     "text_note": "re-read from page: Restored dropped letters.",
+     "text_before": {
+      "stem": "Which of the following is NO a location where accessory spleens can be found?",
+      "options": {
+       "A": "Gastrocolic ligament",
+       "B": "Gerota's fascia",
+       "C": "Large bowel mesentery",
+       "D": "Broad ligament"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "whichofthefollowingstatementsregardinghirschsprungdiseaseisfalse": {
+     "stem_fix": "Which of the following statements regarding Hirschsprung disease is FALSE?",
+     "options_fix": {
+      "A": "Constipation and abdominal distention are classic symptoms.",
+      "B": "Approximately 20% of cases are diagnosed beyond the newborn period.",
+      "C": "The underlying pathology is characterized by an absence of ganglion cells in Auerbach plexus.",
+      "D": "Decompressive ostomy should involve distal, nondilated bowel."
+     },
+     "text_note": "re-read from page: Rejoined word split by OCR.",
+     "text_before": {
+      "stem": "Which of the following statements regarding Hirschsprung disease is FALSE?",
+      "options": {
+       "A": "Constipation and abdominal distention are classic symptoms.",
+       "B": "Approximately 20% of cases are diagnosed beyond the newborn period.",
+       "C": "The underlying pathology is characterized by an absence of ganglion cells in Auerbach plexus.",
+       "D": "Decompressive ostomy should involve distal, nondi- clated bowel."
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
     }
    },
    "count_note": "Schwartz.pdf is a 386-page two-column Q&A book; the raw source-number counter reads numbered answer explanations, tables, and figure captions as question starts. We reconciled 857 source MCQs against all 857 printed Answer: labels (848 geometrically aligned in batch plus 9 read on their source-page crops). The 860 option-A blocks include three false parser candidates, dropped as non-questions: Q474 (explanation list), Q716 (figure labels), Q835 (anesthesia-stage explanation); Q207-208 were also dropped as continuation fragments. After five logged drops the bank has 857 keyed MCQs. The raw counter remains 23 above the reconciled question count and is unreliable for this layout."
@@ -25775,7 +28006,7 @@
    "nn": "22",
    "rel": "Raw_PDF_Questions/امتحان دور تاني 2024.pdf",
    "md": "22_2024.md",
-   "status": "reviewed",
+   "status": "parsed",
    "stages": {
     "ocr": {
      "status": "done",
@@ -25791,25 +28022,19 @@
      "mean_conf": 0.77
     },
     "parse": {
-     "at": "2026-09-26T16:00:22Z",
+     "at": "2026-09-27T07:42:22Z",
      "questions": 30,
      "mcq": 30,
-     "answered": 30,
+     "answered": 29,
      "sources": {
-      "marked": 30
+      "marked": 29,
+      "none": 1
      },
-     "flags": 28,
-     "md_hash": "2ab6e3e3dc0036c9b3725bfc5ee24a6a52695593eb3044ba3b8fdfdf6adbfd30"
+     "flags": 29,
+     "md_hash": "da1ead640bc269840ef47c3ec7b339c455645f072f036d0985f374cbaa660d62"
     },
     "review": {
-     "spot_check": "5/5 OK",
-     "at": "2026-09-26T16:05:36Z",
-     "notes": [
-      {
-       "note": "Reviewed sampled source comparisons and restored pages manually. spotcheck CLI cannot sort added questions because their internal sample index is None.",
-       "at": "2026-09-26T16:05:36Z"
-      }
-     ]
+     "spot_check": "5/5 OK"
     }
    },
    "added": "2026-09-26T05:25:19Z",
@@ -26100,6 +28325,46 @@
      "at": "2026-09-26T16:00:27Z",
      "answer": "Level of umbilicus",
      "source": "marked"
+    },
+    "regardingtesticulartumorstruestatementare": {
+     "stem_fix": "Regarding Testicular tumors – True statement are:",
+     "options_fix": {
+      "A": "Seminomas spread early via Blood",
+      "B": "Lymphatic drainage is to Para aortic nodes.",
+      "C": "Inguinal nodes are involved.",
+      "D": "Trans-scrotal orchiectomy is done"
+     },
+     "text_note": "re-read from page: Repaired OCR typos in stem and options.",
+     "text_before": {
+      "stem": "RegardingTesticular tumors - True statement are:",
+      "options": {
+       "A": "Seminomas spread early via Bload",
+       "B": "Lymphatic drainage is to Para aortic nodes.",
+       "C": "Inguinal nodes are involved.",
+       "D": "Trans-scrotal orchiectomy is done"
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
+    },
+    "whichofthefollowingstatementsregardingpagetsdiseaseofnipplearecorrectlexcept": {
+     "stem_fix": "Which of the following statements regarding Paget's disease of nipple are correct EXCEPT:",
+     "options_fix": {
+      "A": "It represents benign pathology of nipple areola complex",
+      "B": "It is eczema like condition of nipple and areola",
+      "C": "Erosion of nipple is seen",
+      "D": "Nipple biopsy is required for definitive diagnosis."
+     },
+     "text_note": "re-read from page: Restored dropped characters in stem and option A.",
+     "text_before": {
+      "stem": "Which of the following statements regarding Paget's disease of nipple are correctlEXCEPT:",
+      "options": {
+       "A": "It represents benign pathology pf nipple areola complex",
+       "B": "It is eczema like condition of nipple and areola",
+       "C": "Erosion of nipple is seen",
+       "D": "Nipple biopsy is required for definitive diagnosis."
+      }
+     },
+     "at": "2026-09-27T07:43:49Z"
     }
    },
    "count_note": "30 questions counted on pages 1-5",
@@ -26231,7 +28496,7 @@
    "nn": "24",
    "rel": "Raw_PDF_Questions/امتحان قديم.pdf",
    "md": "24_source.md",
-   "status": "reviewed",
+   "status": "parsed",
    "stages": {
     "ocr": {
      "status": "done",
@@ -26241,20 +28506,18 @@
      "mean_conf": 0.976
     },
     "parse": {
-     "at": "2026-09-26T15:56:51Z",
+     "at": "2026-09-27T07:42:24Z",
      "questions": 60,
      "mcq": 60,
-     "answered": 58,
+     "answered": 60,
      "sources": {
-      "marked": 58,
-      "none": 2
+      "marked": 60
      },
      "flags": 54,
-     "md_hash": "be3b513b561076d698f2c82eda688d5b345f892d45d838965f3e9693cabda861"
+     "md_hash": "c480075aaf37350d6bd2603452474416ab9b35a17d4865ca37f609ded5e4a984"
     },
     "review": {
-     "spot_check": "6/6 OK; manually rechecked corrected Q35 and restored Q36/Q49 against source p5-8; CLI spotcheck failed on added records with null indices",
-     "at": "2026-09-26T16:00:10Z"
+     "spot_check": "6/6 OK; manually rechecked corrected Q35 and restored Q36/Q49 against source p5-8; CLI spotcheck failed on added records with null indices"
     }
    },
    "added": "2026-09-26T05:25:19Z",
@@ -26478,9 +28741,26 @@
      "at": "2026-09-26T14:53:21Z"
     },
     "aboutbuergersdiseaseallthefollowingstatementsaretrueexcept": {
-     "answer": "Mostly select iliac arteries. select distal arteris",
+     "answer": "Mostly select iliac arteries.",
      "source": "marked",
-     "at": "2026-09-26T14:53:21Z"
+     "at": "2026-09-27T07:43:50Z",
+     "stem_fix": "About Buerger's disease, all the following statements are true, EXCEPT:",
+     "options_fix": {
+      "A": "Usually presented in male.",
+      "B": "Mostly select iliac arteries.",
+      "C": "Affects smokers.",
+      "D": "Pain is an early symptom."
+     },
+     "text_note": "re-read from page: Removed unrelated marginal text from option B.",
+     "text_before": {
+      "stem": "About Buerger's disease, all the following statements are true, EXCEPT:",
+      "options": {
+       "A": "Usually presented in male.",
+       "B": "Mostly select iliac arteries. select distal arteris",
+       "C": "Affects smokers.",
+       "D": "Pain is an early symptom."
+      }
+     }
     },
     "thefollowingsexcept": {
      "answer": "Decrease in size.",
@@ -26564,7 +28844,7 @@
    "nn": "25",
    "rel": "Raw_PDF_Questions/بنك Dr. Amr Mohsen MCQ.pdf",
    "md": "25_Dr_Amr_Mohsen_MCQ.md",
-   "status": "reviewed",
+   "status": "parsed",
    "stages": {
     "ocr": {
      "status": "done",
@@ -26577,7 +28857,7 @@
      "mean_conf": 0.939
     },
     "parse": {
-     "at": "2026-09-26T14:54:56Z",
+     "at": "2026-09-27T07:42:40Z",
      "questions": 870,
      "mcq": 869,
      "answered": 869,
@@ -26586,11 +28866,10 @@
       "key": 1
      },
      "flags": 734,
-     "md_hash": "15143ef60130d002b2356ee85a0a5f1b2bb7041dc4338259e947550804d4d231"
+     "md_hash": "09af33633709a2fde346c61a10f3f9c923dae97f1d56444a55c44881a78130dd"
     },
     "review": {
-     "spot_check": "87/87 OK (all generated sheets viewed)",
-     "at": "2026-09-26T16:01:05Z"
+     "spot_check": "87/87 OK (all generated sheets viewed)"
     }
    },
    "added": "2026-09-26T05:25:20Z",
@@ -27350,6 +29629,92 @@
       }
      },
      "at": "2026-09-26T14:54:39Z"
+    },
+    "aboutbileductcholangiocarcinomaallthefollowingstatementsaretrueexcept": {
+     "stem_fix": "About bile duct cholangiocarcinoma, all the following statements are true, except",
+     "options_fix": {
+      "A": "Choledochal cyst predisposes to cholangiocarcinoma.",
+      "B": "The possible extracolonic complications of ulcerative colitis include cholangiocarcinoma.",
+      "C": "Bile duct infestation with the Ascaris parasite predisposes to cholangiocarcinoma.",
+      "D": "Hilar (at liver hilum) cholangiocarcinoma is known as Klatskin tumour.",
+      "E": "Percutaneous transhepatic cholangiography (PTC) is useful in showing the upper limit of the tumour."
+     },
+     "text_note": "re-read from page: Rejoined a word split at the printed line break.",
+     "text_before": {
+      "stem": "About bile duct cholangiocarcinoma, all the following statements are true, except",
+      "options": {
+       "A": "Choledochal cyst predisposes to cholangiocarcinoma.",
+       "B": "The possible extracolonic complications of ulcerative colitis include cholangiocarcinoma.",
+       "C": "Bile duct infestation with the Ascaris parasite predisposes to cholangio- carcinoma.",
+       "D": "Hilar (at liver hilum) cholangiocarcinoma is known as Klatskin tumour.",
+       "E": "Percutaneous transhepatic cholangiography (PTC) is useful in showing the upper limit of the tumour."
+      }
+     },
+     "at": "2026-09-27T07:43:50Z"
+    },
+    "2whatisthemostcommonspinalcordtumourinadults": {
+     "stem_fix": "What is the most common spinal cord tumour in adults?",
+     "options_fix": {
+      "A": "Ependymoma.",
+      "B": "Astrocytoma.",
+      "C": "Ganglioneuroma.",
+      "D": "Osteoblastoma."
+     },
+     "text_note": "re-read from page: Removed a stray question number from the stem.",
+     "text_before": {
+      "stem": "2 Whatis the most common spinal cord tumour in adults?",
+      "options": {
+       "A": "Ependymoma.",
+       "B": "Astrocytoma.",
+       "C": "Ganglioneuroma.",
+       "D": "Osteoblastoma."
+      }
+     },
+     "at": "2026-09-27T07:43:50Z"
+    },
+    "57atraumavictimtwoweeksaftertheaccidentheisaskedtoholdthissheetofpaperfirmlybyadductinghisthumbstheappearancepointsat": {
+     "stem_fix": "A trauma victim, two weeks after the accident. He is asked to hold this sheet of paper firmly by adducting his thumbs. The appearance points at",
+     "options_fix": {
+      "A": "Left median nerve injury.",
+      "B": "Right ulnar nerve injury.",
+      "C": "Left radial nerve injury.",
+      "D": "Right flexor pollicis longus tendon injury.",
+      "E": "Left flexor digitorum longus tendon injury."
+     },
+     "text_note": "re-read from page: Removed stray question number from the stem.",
+     "text_before": {
+      "stem": "57 A trauma victim, two weeks after the accident. He is asked to hold this sheet of paper firmly by adducting his thumbs. The appearance points at",
+      "options": {
+       "A": "Left median nerve injury.",
+       "B": "Right ulnar nerve injury.",
+       "C": "Left radial nerve injury.",
+       "D": "Right flexor pollicis longus tendon injury.",
+       "E": "Left flexor digitorum longus tendon injury."
+      }
+     },
+     "at": "2026-09-27T07:43:50Z"
+    },
+    "a60yearoldwomancomplainsofjaundicemildupperabdominalpainandgeneralizeditchingallthefollowingstatementsaretrueexcept": {
+     "stem_fix": "A 60-year-old woman complains of jaundice, mild upper abdominal pain and generalized itching. All the following statements are true, except",
+     "options_fix": {
+      "A": "This is abdominal CT with IV contrast.",
+      "B": "The white arrow points at a thick-walled gallbladder.",
+      "C": "The red arrow points at the inferior vena cava.",
+      "D": "Alkaline phosphatase is expected to be elevated.",
+      "E": "Gamma-glutamyl transferase (GGT) is expected to be elevated."
+     },
+     "text_note": "re-read from page: Rejoined a word split at the printed line break.",
+     "text_before": {
+      "stem": "A 60-year-old woman complains of jaundice, mild upper abdominal pain and generalized itching. All the following statements are true, except",
+      "options": {
+       "A": "This is abdominal CT with IV contrast.",
+       "B": "The white arrow points at a thick- walled gallbladder.",
+       "C": "The red arrow points at the inferior vena cava.",
+       "D": "Alkaline phosphatase is expected to be elevated.",
+       "E": "Gamma-glutamyl transferase (GGT) is expected to be elevated."
+      }
+     },
+     "at": "2026-09-27T07:43:50Z"
     }
    },
    "count_note": "PDF p3 preface declares 870 MCQs (753 plain + 117 image-based). Question-page parse yields 869 records: 868 QCS plus QROC Q208. Q208 is source Q21 on PDF p79, a numbered-choice MCQ (1-4) with a visible mark at choice 2; the parser cannot map numeric options to A-F, so choices 1-3 were logged as fragments and choice 4 is fused into Q209. One declared item remains unaccounted for; reconcile before build."
@@ -27358,7 +29723,7 @@
    "nn": "26",
    "rel": "Raw_PDF_Questions/بنك أزهر القاهرة .pdf",
    "md": "26_source.md",
-   "status": "reviewed",
+   "status": "parsed",
    "stages": {
     "ocr": {
      "status": "done",
@@ -27419,21 +29784,19 @@
      "mean_conf": 0.853
     },
     "parse": {
-     "at": "2026-09-26T16:42:39Z",
+     "at": "2026-09-27T07:42:52Z",
      "questions": 438,
      "mcq": 438,
-     "answered": 437,
+     "answered": 438,
      "sources": {
-      "marked": 418,
-      "key": 19,
-      "none": 1
+      "marked": 419,
+      "key": 19
      },
      "flags": 424,
-     "md_hash": "ff8a5b939fa9c1bfe7353e0755aa7328b793800bd1f8dabebac09764bcc9f798"
+     "md_hash": "78491afebf9e8a976bc83791df3b18c39f38110b4c976ef9dd3e8bf47dbf6d31"
     },
     "review": {
-     "spot_check": "44/44 OK",
-     "at": "2026-09-26T16:43:18Z"
+     "spot_check": "44/44 OK"
     }
    },
    "added": "2026-09-26T05:25:22Z",
@@ -27515,9 +29878,28 @@
      "at": "2026-09-26T11:24:37Z"
     },
     "a23yearoldwomanundergoestotalthyroidectomyforcancergreeonthesecondpostoperativedayshebeginstocomplainonad8sensationonherhandssheappearsquiteanxiousandlatercompl": {
-     "answer": "Infusion of calcium gluconate,",
+     "answer": "Infusion of calcium gluconate.",
      "source": "marked",
-     "at": "2026-09-26T11:24:37Z"
+     "at": "2026-09-27T07:43:50Z",
+     "stem_fix": "A 23 year old woman undergoes total thyroidectomy for cancer thyroid gland. On the second post-operative day; she begins to complain on tingling sensation on her hands. She appears quite anxious and later complains of muscle cramps. Initial therapy should consists of:",
+     "options_fix": {
+      "A": "10mL of 10% magnesium sulfate intra-venously.",
+      "B": "Oral vitamin D.",
+      "C": "10mg of oral synthroid.",
+      "D": "Infusion of calcium gluconate.",
+      "E": "Oral calcium gluconate."
+     },
+     "text_note": "re-read from page: Reconstructed OCR-corrupted stem and options.",
+     "text_before": {
+      "stem": "A 23 year old woman undergoes total thyroidectomy for cancer gree On the second post-operative day; she begins to complain on ) ad 8 sensation on her hands. She appears quite anxious and later complains of muscle cramps. Initial therapy should consists of:",
+      "options": {
+       "A": "10mL of 10% magnesium sulfate intra-venously, _ luc",
+       "B": "Oral vitamin D",
+       "C": "10mg of oral synthroid",
+       "D": "Infusion of calcium gluconate,",
+       "E": "Oral calcium gluconate"
+      }
+     }
     },
     "theriskofdevelopingadenocarcinomaafter10yearsofulcerativecolitisis": {
      "answer": "<10%.",
@@ -27653,7 +30035,26 @@
     "themostcommonfatalinfectioncomplicationofabloodtransfusionis": {
      "answer": "Viral hepatitis.",
      "source": "marked",
-     "at": "2026-09-26T11:24:37Z"
+     "at": "2026-09-27T07:43:50Z",
+     "stem_fix": "The most common fatal infection complication of a blood transfusion is:",
+     "options_fix": {
+      "A": "Acquired immune-deficiency syndrome.",
+      "B": "Cyto-megalo-virus.",
+      "C": "Malaria.",
+      "D": "Viral hepatitis.",
+      "E": null
+     },
+     "text_note": "re-read from page: Restored option text and removed an answer-key line misread as option E.",
+     "text_before": {
+      "stem": "The most common fatal infection complication of a blood transfusion is:",
+      "options": {
+       "A": "Acquired immune-deficiency syndrome.",
+       "B": "Cyto-megalo-virus.",
+       "C": "Malaria.",
+       "D": "Viral hepatitis.",
+       "E": "The answer: is (qd)."
+      }
+     }
     },
     "whichofthefollowingifpresentisadistinguishingfeatureofneurogenicshock": {
      "answer": "Bradycardia.",
@@ -28166,9 +30567,25 @@
      "at": "2026-09-26T11:24:37Z"
     },
     "whichofthefollowingstatementsisaretruecoathephysiologyoftheseinjuriesginhalationinjuryprogressiveoedemareactivebronchospasmfromaerosolizedirritantsandmicroroere": {
-     "answer": "Endo-tracheal intubation js indicated inhalation injury ediately in all patients with suspected; a. ated imm",
+     "answer": "The physiology of these injuries includes upper airway obstruction 2ry to progressive oedema, reactive broncho-spasm from aerosolized irritants, and micro-atelectasis from loss of surfactant and alveolar oedema.",
      "source": "marked",
-     "at": "2026-09-26T11:24:37Z"
+     "at": "2026-09-27T07:43:50Z",
+     "stem_fix": "Which of the following statement(s) is/are true concerning inhalation injury?",
+     "options_fix": {
+      "A": "The physiology of these injuries includes upper airway obstruction 2ry to progressive oedema, reactive broncho-spasm from aerosolized irritants, and micro-atelectasis from loss of surfactant and alveolar oedema.",
+      "B": "Endo-tracheal intubation is indicated immediately in all patients with suspected inhalation injury.",
+      "C": "Distal airway injuries are usually caused by heat injury.",
+      "D": "Peak inspiratory pressures of > 40 cm of water are indicated to maintain functional residual capacity."
+     },
+     "text_note": "re-read from page: Separated the stem from merged option A and restored the complete option set.",
+     "text_before": {
+      "stem": "Which of the following statement(s) is/are true co a) The physiology of these injuries; g inhalation injury? progressive oedema, reactive broncho-spasm from aerosolized irritants, and micro- roeressi m y obstruction 2ry to. ncludes upper airway ob i; ncerning inhalation injury? atelectasis from loss of surfactant and alveolar oedema",
+      "options": {
+       "A": "Endo-tracheal intubation js indicated inhalation injury ediately in all patients with suspected; a. ated imm",
+       "B": "Distal airway injuries are usually caused by heat injury.",
+       "C": "Peak inspiratory pressures of > 40 cm of water are indicated to maintain functional"
+      }
+     }
     },
     "waterconstituteswhatpercentageoftotalbodyweight": {
      "at": "2026-09-26T16:25:45Z",
@@ -28301,7 +30718,24 @@
     "theclassicchestxrayfindinginanthraxts": {
      "answer": "Widened mediastinum and effusions.",
      "source": "marked",
-     "at": "2026-09-26T11:24:37Z"
+     "at": "2026-09-27T07:43:50Z",
+     "stem_fix": "The classic chest X-ray finding in anthrax is:",
+     "options_fix": {
+      "A": "Bilateral apical pneumo-thorax.",
+      "B": "Widened mediastinum and effusions.",
+      "C": "Basilar pneumonia.",
+      "D": "Pulmonary oedema."
+     },
+     "text_note": "re-read from page: Stem typo and option ordering were garbled.",
+     "text_before": {
+      "stem": "The classic chest X-ray finding in anthrax ts:",
+      "options": {
+       "A": "Bilateral apical pneumo-thorax.",
+       "B": "Widened mediastinum and effusions.",
+       "C": "Basilar pneumonia.",
+       "D": "Pulmonary oedema."
+      }
+     }
     },
     "anexotoxinplaysinimportantpartinthepathogeniceachofthefollowingexceptpathogenicityofinfectionwth": {
      "answer": "Escherichia coli.",
@@ -28536,21 +30970,24 @@
     "themostcommonformofprimarylymphoedemaisclymphoedemaintermedius": {
      "answer": "Lymph-oedema praecox.",
      "source": "marked",
-     "at": "2026-09-26T14:06:16Z",
+     "at": "2026-09-27T07:43:50Z",
      "options_fix": {
       "A": "Congenital lymph-oedema.",
       "B": "Lymph-oedema praecox.",
       "C": "Lymph-oedema intermedius.",
       "D": "Lymph-oedema tarda."
      },
-     "text_note": "Repacked the options in source order.",
+     "text_note": "re-read from page: A duplicate option fragment was attached to the stem.",
      "text_before": {
       "stem": "The most common form of primary lymphoedema iS: c) Lymph-oedema intermedius.",
       "options": {
-       "A": "Lymph-oedema praccox.",
-       "B": "Lymph-oedema tarda. a) Congenital lymph-oedema."
+       "A": "Congenital lymph-oedema.",
+       "B": "Lymph-oedema praecox.",
+       "C": "Lymph-oedema intermedius.",
+       "D": "Lymph-oedema tarda."
       }
-     }
+     },
+     "stem_fix": "The most common form of primary lymphoedema is:"
     },
     "themostcommonsymptomaftermajorpulmonaryembolism1s": {
      "answer": "Dyspnea.",
@@ -28979,7 +31416,23 @@
     "signsofmalignanttransformationinachronicwoundinclude": {
      "answer": "Over-turned wound edges,",
      "source": "marked",
-     "at": "2026-09-26T12:16:35Z"
+     "at": "2026-09-27T07:43:50Z",
+     "stem_fix": "Signs of malignant transformation in a chronic wound include:",
+     "options_fix": {
+      "A": "Persistent granulation tissue with bleeding.",
+      "B": "Non-healing after 2 weeks of therapy.",
+      "C": "Over-turned wound edges.",
+      "D": "Distal oedema."
+     },
+     "text_note": "re-read from page: Separated merged options C and D.",
+     "text_before": {
+      "stem": "Signs of malignant transformation in a chronic wound include:",
+      "options": {
+       "A": "Persistent granulation tissue with bleeding.",
+       "B": "Non-healing after 2 weeks of therapy.",
+       "C": "Over-turned wound edges, d) Distal oedema"
+      }
+     }
     },
     "whenalongbonefractureisrepairedbyinternalfixationwithplatesandscrews": {
      "answer": "Direct bone-to-bone healing occurs without soft callus formation.",
@@ -29333,22 +31786,24 @@
     "staphylococcusaureusproduceseachofthefollowingebxcept": {
      "options_fix": {
       "A": "Cell wall peptidoglycan.",
-      "B": "Enterotoxin.",
-      "C": "Epidermolytic toxin.",
+      "B": "Entero-toxin.",
+      "C": "Epidermolytic-toxin.",
       "D": "Neuro-exotoxin."
      },
-     "text_note": "Restored option order and repaired the labels.",
+     "text_note": "re-read from page: Restored the stem and option text from the page.",
      "text_before": {
       "stem": "Staphylococcus aureus produces each of the following EB xcept:",
       "options": {
-       "A": "Cell wall peptidoglycan, ¢) Epidermolytic-toxia,",
-       "B": "Entero-toxin,",
-       "C": "Neuro-exotoxin,"
+       "A": "Cell wall peptidoglycan.",
+       "B": "Enterotoxin.",
+       "C": "Epidermolytic toxin.",
+       "D": "Neuro-exotoxin."
       }
      },
-     "at": "2026-09-26T14:04:57Z",
+     "at": "2026-09-27T07:43:50Z",
      "answer": "Neuro-exotoxin.",
-     "source": "marked"
+     "source": "marked",
+     "stem_fix": "Staphylococcus aureus produces each of the following Except:"
     },
     "a65yearoldfarmerpresentswitha15cmulceratedpsooantlthirdofhislowerlipthelesionhasbeenprexenforaianisnotpainfulnopalpablelymphnodesintheneckthemostlikelydiagnosis": {
      "options_fix": {
@@ -29600,23 +32055,24 @@
      }
     },
     "percutaneousdrainageandantibioticboperativeexplorationopendrainageoftheabscessandantibiotictherapyalibiotictherapytheansweris4theclassicchestxrayfindinginanthra": {
-     "answer": "Widened mediastinum and effusions,",
+     "answer": "Widened mediastinum and effusions.",
      "source": "marked",
-     "at": "2026-09-26T15:36:38Z",
+     "at": "2026-09-27T07:42:41Z",
      "stem_fix": "The classic chest X-ray finding in anthrax is:",
      "options_fix": {
+      "A": "Bilateral apical pneumo-thorax.",
       "B": "Basilar pneumonia.",
-      "E": null
+      "C": "Pulmonary oedema.",
+      "D": "Widened mediastinum and effusions."
      },
-     "text_note": "p26: previous question tail and answer line removed",
+     "text_note": "re-read from page: Corrected option D punctuation.",
      "text_before": {
-      "stem": "Per-cutaneous drainage and anti biotic b Operative exploration, open drainage of the abscess and anti-biotic therapy. 'al i-biotic therapy. The answer: is (¢). 4]. The classic chest X-ray finding in anthrax 1s:",
+      "stem": "The classic chest X-ray finding in anthrax is:",
       "options": {
        "A": "Bilateral apical pneumo-thorax.",
-       "B": "Basilar pneumonia.; bumon",
+       "B": "Basilar pneumonia.",
        "C": "Pulmonary oedema.",
-       "D": "Widened mediastinum and effusions,",
-       "E": "The answer: is (d)."
+       "D": "Widened mediastinum and effusions,"
       }
      }
     },
@@ -30171,22 +32627,24 @@
      "source": "marked"
     },
     "theansweriseoshta2tyearsoldwomanpresentswithanasymptomaticbreastmmwlicbreastmasswhyjethefollowingstatementsisarerueconcerningherdiaynosisandtreatmeny8mammogriph": {
-     "stem_fix": "A breast cancer that is > 5 cm with no positive nodes or metastases is:",
+     "stem_fix": "Which of the following statement(s) is/are correct concerning cysto-sarcoma phyllodes?",
      "options_fix": {
-      "E": null
+      "A": "The tumor is most commonly seen in post-menopausal women.",
+      "B": "Total mastectomy is necessary for all patients with this diagnosis.",
+      "C": "Axillary lymph node dissection is not necessary for malignant cysto-sarcoma phyllodes.",
+      "D": "Most patients with the malignant variant of cysto-sarcoma phyllodes die of metastatic disease."
      },
-     "text_note": "p68: two preceding questions merged into stem removed",
+     "text_note": "re-read from page: Stem and options were replaced by unrelated OCR text.",
      "text_before": {
       "stem": "A breast cancer that is > 5 cm with no positive nodes or metastases is:",
       "options": {
-       "A": "Stage I.",
-       "B": "Stage II.",
-       "C": "Stage III.",
-       "D": "Stage IV.",
-       "E": "The answer: is (c)."
+       "A": "The tumor is most commonly seen in post-menopausal women.",
+       "B": "Total mastectomy is necessary for all patients with this diagnosis.",
+       "C": "Axillary lymph node disse phyllodes, ction is not necessary for malignant cysto-sarcoma",
+       "D": "Most patients with the malignant variant of cysto-sarcoma phyllodes die of metastatic disease."
       }
      },
-     "at": "2026-09-26T16:43:24Z",
+     "at": "2026-09-27T07:42:41Z",
      "answer": "Most patients with the malignant variant of cysto-sarcoma phyllodes die of metastatic disease.",
      "source": "marked"
     },
@@ -30487,6 +32945,196 @@
      "answer": "The answer: is (e).",
      "source": "marked",
      "at": "2026-09-26T16:41:08Z"
+    },
+    "gvenawona30vearoldwinthelasttrimesterofpregnancysuddenlydevelopsmassiveswerofteneoetheelowerextremityfromtheinguinalligamenttothesequenceofworkupandtreatmentsho": {
+     "stem_fix": "A 30-year-old woman in the last trimester of pregnancy suddenly develops massive swelling of the left lower extremity from the inguinal ligament to the ankle. The correct sequence of work up and treatment should be:",
+     "options_fix": {
+      "A": "Venogram, bed rest, heparin.",
+      "B": "Impedance plethysmography, bed rest, heparin.",
+      "C": "Impedance plethysmography, bed rest, vena caval filter.",
+      "D": "Impedance plethysmography, bed rest, heparin, warfarin.",
+      "E": "Clinical evaluation, bed rest, warfarin."
+     },
+     "text_note": "re-read from page: Reconstructed OCR-corrupted stem and complete options; excluded printed answer k",
+     "text_before": {
+      "stem": "'. g ven\" a won A 30-vear old Win the last trimester of pregnancy suddenly develops massive swe rof = Tene oe thee lower extremity from the inguinal ligament to the, sequence of work up and treatment should be",
+      "options": {
+       "A": "Venogram, bed rest, heparin.",
+       "B": "Impedance plethysmography, bed rest, heparin",
+       "C": "Impedance plethysmography, bed rest, vena caval filter",
+       "D": "Impedance plethysmography, bed rest, heparin, warfarin",
+       "E": "Clinical evaluation, bed rest, warfarin,"
+      }
+     },
+     "at": "2026-09-27T07:43:50Z"
+    },
+    "albotthefollowingmaybeuvefulinthetreatmentofcardiogenicshockexcept": {
+     "stem_fix": "All of the following may be useful in the treatment of cardiogenic shock except:",
+     "options_fix": {
+      "A": "Dobutamine.",
+      "B": "Sodium nitroprusside.",
+      "C": "Pneumatic anti-shock garment.",
+      "D": "Intra-aortic balloon pump."
+     },
+     "text_note": "re-read from page: Restored OCR-corrupted stem and option A.",
+     "text_before": {
+      "stem": "Albot the following may be u: veful in the treatment of cardiogenic shock except:",
+      "options": {
+       "A": "Dobutanine,",
+       "B": "Sodium nitroprusside,",
+       "C": "Pneumatic anti-shock garment,",
+       "D": "Intra-aortic balloon pump."
+      }
+     },
+     "at": "2026-09-27T07:43:50Z"
+    },
+    "allofthefollowingstatementsaboutkaposissarcomainpatientswithacquiredimmunedeficiencysyndromeaidsarecorrectexcept": {
+     "stem_fix": "All of the following statements about Kaposi's sarcoma in patients with acquired immune-deficiency syndrome (AIDS) are correct Except:",
+     "options_fix": {
+      "A": "The lesions are usually multi-focal.",
+      "B": "Lesions are rubbery blue nodules that resemble hemangiomas.",
+      "C": "The gastro-intestinal tract is often involved.",
+      "D": "Intra-venous drug abusers are frequently affected."
+     },
+     "text_note": "re-read from page: Rejoined a split word and removed stray OCR text.",
+     "text_before": {
+      "stem": "All of the following statements about Kaposi's sarcoma in patients with acquired immune-deficiency syndrome (AIDS) are correct Except:",
+      "options": {
+       "A": "The lesions are usually multi-focal.",
+       "B": "Lesions are rubbery blue nodules that res emble hemangiomas.",
+       "C": "The gastro-intestinal tract is often involved.",
+       "D": "Intra-venous drug abusers are frequently affected. af tt"
+      }
+     },
+     "at": "2026-09-27T07:43:50Z"
+    },
+    "normalsalineis": {
+     "stem_fix": "Normal saline is:",
+     "options_fix": {
+      "A": "135 mEq NaCL/L.",
+      "B": "145 mEq NaCL/L.",
+      "C": "148 mEq NaCl/L.",
+      "D": "154 mEq NaCL/L."
+     },
+     "text_note": "re-read from page: Corrected option C OCR substitution.",
+     "text_before": {
+      "stem": "Normal saline is:",
+      "options": {
+       "A": "135 mEq NaCL/L.",
+       "B": "145 mEq NaCL/L.",
+       "C": "148 mEq NaCVL.",
+       "D": "154 mEq NaCL/L."
+      }
+     },
+     "at": "2026-09-27T07:43:50Z"
+    },
+    "a30yearoldmanisstabbedinthearmthereisnoevidenceofvasculerinjurybuthecannotflexhisthreeradialdigitshehasinjuredthe": {
+     "stem_fix": "A 30 year old man is stabbed in the arm. There is no evidence of vascular injury, but he cannot flex his three radial digits. He has injured the:",
+     "options_fix": {
+      "A": "Flexor pollicis longus and flexor digitus medius tendons.",
+      "B": "Radial nerve.",
+      "C": "Median nerve.",
+      "D": "Ulnar nerve.",
+      "E": null
+     },
+     "text_note": "re-read from page: Restored the stem, corrected OCR, and removed answer-key text misread as option ",
+     "text_before": {
+      "stem": "A 30 year old man is stabbed in the arm. There is no evidence of vasculer injury, but he cannot flex his three radial digits. He has injured the:",
+      "options": {
+       "A": "Flexor pollicis longus and flexor digitus medius tendons.",
+       "B": "Radial nerve.",
+       "C": "Median nerve.",
+       "D": "Ulnar nerve.",
+       "E": "The answer: is (Cc)."
+      }
+     },
+     "at": "2026-09-27T07:43:50Z"
+    },
+    "apatientisbroughttotheemergencyroomafteramotorcaraccidentheisunconsciousdeepscalplacerationonedilatedpupilheartrateis129beatsminbloodpressureis8040mmhgandtespir": {
+     "stem_fix": "A patient is brought to the emergency room after a motor car accident. He is unconscious, deep scalp laceration, one dilated pupil, heart rate is 120 beats/min, blood pressure is 80/40 mmHg, and respiratory rate is 35 breaths/min. Despite rapid administration of 2L normal saline, the patient's vital signs do not change significantly. The injury likely to explain this patient's hypotension is:",
+     "options_fix": {
+      "A": "Epidural or Subdural hematoma.",
+      "B": "Parenchymal brain hemorrhage.",
+      "C": "Basilar skull fracture.",
+      "D": "None of the above."
+     },
+     "text_note": "re-read from page: Reconstructed stem and complete four-option set from the page.",
+     "text_before": {
+      "stem": "A patient is brought to the emergency room after a motor car accident. He is unconscious, deep scalp laceration, one dilated pupil, heart rate is 129 beats/min, blood pressure is 80/40 mmHg, and Tespiratory rate is 35 breaths/min.; 2 change significantly. The injury likely to",
+      "options": {
+       "A": "Epidural or Subdural hematoma,",
+       "B": "Parenchymal brain hemorrhage. ) Basilar skull fracture. Cc) Basil",
+       "C": "None of the above. a oe ee ig se"
+      }
+     },
+     "at": "2026-09-27T07:43:50Z"
+    },
+    "a14yearoldblackgirlhadherrightbreastremovedbecauseofalargemassthetumorweighed1400galobulatedsurfacewithawhorllikepatternndwasfoundtohaveabulgingveryfirmthisneop": {
+     "stem_fix": "A 14-year-old black girl had her right breast removed because of a large mass. The tumor weighed 1400 g and was found to have a bulging, very firm, lobulated surface with a whorl-like pattern; This neoplasm is most likely:",
+     "text_note": "re-read from page: Split words and OCR debris corrupted the stem.",
+     "text_before": {
+      "stem": "A 14-year-old black girl had he r right breast removed because of a large mass. The tumor weighed 1400 g a lobulated surface with a whorl-like pattern, nd was found to have a bulging, very firm, This neoplasm is most likely: Tate mot ae ae",
+      "options": {
+       "A": "Cysto-sarcoma phylloides.",
+       "B": "Intra-ductal carcinoma.",
+       "C": "Malignant lymphoma.",
+       "D": "Fibro-adenoma."
+      }
+     },
+     "at": "2026-09-27T07:43:50Z"
+    },
+    "themostcommontypeofaneurysmis": {
+     "stem_fix": "The most common type of aneurysm is:",
+     "options_fix": {
+      "A": "Degenerative.",
+      "B": "Dissecting.",
+      "C": "Post-stenotic.",
+      "D": "Traumatic."
+     },
+     "text_note": "re-read from page: Option C and D were missing from the markdown.",
+     "text_before": {
+      "stem": "The most common type of ane urysm Is:",
+      "options": {
+       "A": "Degenerative,",
+       "B": "Dissecting.",
+       "C": "Traumatic,"
+      }
+     },
+     "at": "2026-09-27T07:43:50Z"
+    },
+    "theanswerisdthebestinitialtherapyfordeepvenousthrombosisdvtofthecommonfemoralveins": {
+     "stem_fix": "The best initial therapy for deep venous thrombosis (DVT) of the common femoral veins:",
+     "text_note": "re-read from page: An answer-key fragment was attached before the stem.",
+     "text_before": {
+      "stem": "The answer: is (d). The best initial therapy for deep venous thrombosis (DVT) of the common femoral veins:",
+      "options": {
+       "A": "Heparin.",
+       "B": "Placement of a vena caval filter.",
+       "C": "Streptokinase.",
+       "D": "Venous thrombectomy."
+      }
+     },
+     "at": "2026-09-27T07:43:50Z"
+    },
+    "abreastcancerthatis5cmwithnopositivenodesormetastasesis": {
+     "stem_fix": "Which of the following statement(s) is/are correct concerning cysto-sarcoma phyllodes?",
+     "options_fix": {
+      "A": "The tumor is most commonly seen in post-menopausal women.",
+      "B": "Total mastectomy is necessary for all patients with this diagnosis.",
+      "C": "Axillary lymph node dissection is not necessary for malignant cysto-sarcoma phyllodes.",
+      "D": "Most patients with the malignant variant of cysto-sarcoma phyllodes die of metastatic disease."
+     },
+     "text_note": "re-read from page: Stem and options were replaced by unrelated OCR text.",
+     "text_before": {
+      "stem": "A breast cancer that is > 5 cm with no positive nodes or metastases is:",
+      "options": {
+       "A": "The tumor is most commonly seen in post-menopausal women.",
+       "B": "Total mastectomy is necessary for all patients with this diagnosis.",
+       "C": "Axillary lymph node disse phyllodes, ction is not necessary for malignant cysto-sarcoma",
+       "D": "Most patients with the malignant variant of cysto-sarcoma phyllodes die of metastatic disease."
+      }
+     },
+     "at": "2026-09-27T07:43:50Z"
     }
    },
    "additions": [
@@ -30563,7 +33211,7 @@
    "nn": "27",
    "rel": "Raw_PDF_Questions/بنك اسئلة.pdf",
    "md": "27_source.md",
-   "status": "reviewed",
+   "status": "parsed",
    "stages": {
     "ocr": {
      "status": "done",
@@ -30589,7 +33237,7 @@
      "mean_conf": 0.809
     },
     "parse": {
-     "at": "2026-09-26T16:39:14Z",
+     "at": "2026-09-27T07:42:57Z",
      "questions": 132,
      "mcq": 132,
      "answered": 132,
@@ -30598,21 +33246,10 @@
       "derived": 2
      },
      "flags": 118,
-     "md_hash": "1a9252dc44207cd3c2d8f6a7e370e3892b65f73c70d478392cd1f5d85c95bacd"
+     "md_hash": "a61cb46de9e265cdce1a647c243648d21190b02e9fc55122f22a74ae5840465e"
     },
     "review": {
-     "spot_check": "14/14 OK",
-     "at": "2026-09-26T16:48:34Z",
-     "notes": [
-      {
-       "note": "Q102 crop offset manually verified against the matching question on source PDF page 22; Q122 stem and choices transcribed from page 26.",
-       "at": "2026-09-26T16:39:16Z"
-      },
-      {
-       "note": "Q102 crop offset manually verified against the matching question on source PDF page 22; Q122 stem and choices transcribed from page 26.",
-       "at": "2026-09-26T16:48:34Z"
-      }
-     ]
+     "spot_check": "14/14 OK"
     }
    },
    "added": "2026-09-26T05:25:23Z",
@@ -30703,7 +33340,24 @@
     "26etiologiesofperisinusoidalportalhypertensioninclude": {
      "answer": "Schisomiasis",
      "source": "marked",
-     "at": "2026-09-26T06:54:05Z"
+     "at": "2026-09-27T07:43:50Z",
+     "stem_fix": "Etiologies of perisinusoidal portal hypertension include:",
+     "options_fix": {
+      "A": "Alcoholism",
+      "B": "Budd-Chiari syndrome",
+      "C": "Hepatitis C",
+      "D": "Schisomiasis"
+     },
+     "text_note": "re-read from page: OCR debris was attached to option C.",
+     "text_before": {
+      "stem": "26-Etiologies of perisinusoidal portal hypertension include",
+      "options": {
+       "A": "Alcoholism",
+       "B": "Budd-Chiari syndrome",
+       "C": "JY C) Hepatitis C",
+       "D": "Schisomiasis"
+      }
+     }
     },
     "28thetriangleofcalotisdefinedbythe": {
      "answer": "Cystic duct, common hepatic duct and liver",
@@ -32096,6 +34750,83 @@
      },
      "answer": "2nd branchial cleft",
      "source": "marked"
+    },
+    "whichofthefollowingfactorshavebeendemonstratedtodelayedwoundhealinginnormalindividuals": {
+     "stem_fix": "Which of the following factors have been demonstrated to delayed wound healing in normal individuals:",
+     "options_fix": {
+      "A": "Vitamin A supplementation",
+      "B": "Vitamin C supplementation",
+      "C": "Zinc supplementation",
+      "D": "Chemotherapy"
+     },
+     "text_note": "re-read from page: OCR debris corrupted the options, especially option D.",
+     "text_before": {
+      "stem": "Which of the following factors have been demonstrated to delayed wound healing in normal individuals:",
+      "options": {
+       "A": "Vitamin A supplementation 7",
+       "B": "Vitamin'C supplementation",
+       "C": "Zinc supplementation",
+       "D": "Chemotherapy dyes Wabi! Als 2018 dussliall 45_pill gobs Lal Sac! lois."
+      }
+     },
+     "at": "2026-09-27T07:43:50Z"
+    },
+    "structurepassunderflexorreticuluminclude": {
+     "stem_fix": "Structure pass under flexor reticulum include:",
+     "options_fix": {
+      "A": "Ulnar artery",
+      "B": "Extensor policies longus",
+      "C": "Median nerve"
+     },
+     "text_note": "re-read from page: OCR debris followed option C; restored the printed three-option set.",
+     "text_before": {
+      "stem": "Structure pass under flexor reticulum include:",
+      "options": {
+       "A": "Ulnar artery",
+       "B": "Extensor policies longus",
+       "C": "Median nerve ene ae -- 7 - r =e"
+      }
+     },
+     "at": "2026-09-27T07:43:50Z"
+    },
+    "716thecommondifferentialdiagnosescfacuteappendicitisincludeallthefollowingexcept": {
+     "stem_fix": "The common differential diagnoses of acute appendicitis include all the following, except:",
+     "options_fix": {
+      "A": "Right tubo-ovarian causes.",
+      "B": "Right ureter stone.",
+      "C": "Meckel's diverticulitis.",
+      "D": "Mesenteric adenitis."
+     },
+     "text_note": "re-read from page: Stem numbering and options B/C were merged with OCR noise.",
+     "text_before": {
+      "stem": "716.The common differential diagnoses cf acute appendicitis include all the following, except:",
+      "options": {
+       "A": "Right tubo-ovarian causes.",
+       "B": "Right ureter stone. ee M -Meckel's diverticulitis.:. Vs k",
+       "C": "5 ew",
+       "D": "Mesenteric adenitis."
+      }
+     },
+     "at": "2026-09-27T07:43:50Z"
+    },
+    "theclinicalmanifestationsofthyrotoxicosisincludeallthlodthyroglossalcystmovesupwithprotrusionoftheton": {
+     "stem_fix": "The clinical manifestations of thyrotoxicosis include all the following, except:",
+     "options_fix": {
+      "A": "Palpitations.",
+      "B": "Weight loss.",
+      "C": "Exophthalmos.",
+      "D": "Cyanosis."
+     },
+     "text_note": "re-read from page: Two questions and footer text were merged into the stem and options.",
+     "text_before": {
+      "stem": "The clinical manifestations of thyrotoxicosis include all th 'lo ' D. - thyroglossal cyst moves up with protrusion of the ton",
+      "options": {
+       "A": "Palpitations. except:",
+       "B": "Weight loss.",
+       "C": "Exophthalmos. zB. Cyanosis. Sood luck 7;"
+      }
+     },
+     "at": "2026-09-27T07:43:50Z"
     }
    },
    "count_note": "The 28-page source has multiple exam sections with numbering restarts. The parser now emits 132 headings (131 MCQs and one misclassified written block) after dropping one page-7 timing/header capture. OCR merges neighboring questions and options; section totals remain unreconciled and many marked choices are missing from the populated options, so completeness is not certified."
@@ -32104,7 +34835,7 @@
    "nn": "28",
    "rel": "Raw_PDF_Questions/جراحة 20٪.pdf",
    "md": "28_20.md",
-   "status": "reviewed",
+   "status": "parsed",
    "stages": {
     "ocr": {
      "status": "done",
@@ -32118,27 +34849,20 @@
      "mean_conf": 0.878
     },
     "parse": {
-     "at": "2026-09-26T15:57:00Z",
+     "at": "2026-09-27T07:42:58Z",
      "questions": 60,
      "mcq": 57,
-     "answered": 50,
+     "answered": 57,
      "sources": {
-      "marked": 49,
-      "none": 7,
+      "marked": 50,
+      "derived": 6,
       "key": 1
      },
-     "flags": 49,
-     "md_hash": "1e31e746e13684c461a4c8e88bb76183cdb1856be68d2b5e88672b7c8f43db57"
+     "flags": 44,
+     "md_hash": "84d92b76a82ac1a96e0c847cd581864efea6c206124dc025ee152dea8444eefa"
     },
     "review": {
-     "spot_check": "6/6 OK",
-     "at": "2026-09-26T15:57:19Z",
-     "notes": [
-      {
-       "note": "Default sampler raises TypeError sorting None and integer source indexes; manually compared Q1, Q13, Q25, Q36, Q48, and Q60 against source pages.",
-       "at": "2026-09-26T15:57:19Z"
-      }
-     ]
+     "spot_check": "6/6 OK"
     }
    },
    "added": "2026-09-26T05:25:23Z",
@@ -32496,20 +35220,25 @@
     },
     "whichpartoftheintestineisresponsiblefortheabsorptionofmostnutrientsandwater": {
      "options_fix": {
+      "A": "Duodenum",
+      "B": "Jejunum",
+      "C": "Ileum",
       "D": "Cecum"
      },
-     "text_note": "Restored printed option D from p2 answer crop.",
+     "text_note": "re-read from page: Option C was corrupted and duplicated in the OCR text.",
      "text_before": {
       "stem": "Which part of the intestine is responsible for the absorption of most nutrients and water? =",
       "options": {
        "A": "Duodenum",
        "B": "Jejunum",
-       "C": "G) 'leum D) Cecum"
+       "C": "G) 'leum D) Cecum",
+       "D": "Cecum"
       }
      },
-     "at": "2026-09-26T14:00:19Z",
-     "answer": "G) 'leum D) Cecum",
-     "source": "marked"
+     "at": "2026-09-27T07:43:50Z",
+     "answer": "Ileum",
+     "source": "marked",
+     "stem_fix": "Which part of the intestine is responsible for the absorption of most nutrients and water?"
     },
     "inwhichthyroidsurgerytechniqueistheparathyroidglandathigherriskofinjurytxtotalthyroidectomy": {
      "options_fix": {
@@ -33032,7 +35761,7 @@
  "duplicate_md_prefix": {},
  "stray_sources": [],
  "inventory_at": "2026-09-26T05:25:24Z",
- "updated": "2026-09-27T07:32:51Z",
+ "updated": "2026-09-27T07:44:55Z",
  "catalog_managed": true,
  "category_id": "DamiettaFa_SURGERY",
  "category_name": "Surgery 1"
