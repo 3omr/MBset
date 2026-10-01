@@ -1,0 +1,23 @@
+# Al-Azhar Faculty of Medicine, Damietta — tag families (details: ../tagging-and-naming.md)
+name: Damietta
+description: "Al-Azhar University, Faculty of Medicine, Damietta"
+category_prefix: DamiettaFa_
+category_ids:          # known platform categoryId values; the module's platform export always wins
+  Normal Human Body: DamiettaFa_NORMAL_HUMAN_BODY
+  Biomedical: DamiettaFa_BIOMEDICAL
+  Blood: DamiettaFa_BLOOD
+  Respiratory: DamiettaFa_RESPIRATORY
+  CVS: DamiettaFa_CVS
+  CNS: DamiettaFa_CNS
+  POD: DamiettaFa_POD
+  Genetics: DamiettaFa_GENETICS
+  Behavioral Science: DamiettaFa_BEHAVIORAL_SCIENCE
+multidisciplinary: [Exams]
+year_free: []
+rules:
+  - {match: 'formative', tag: 'Exams, Formative'}           # Formative 1 and 2 of a year share one tag
+  - {match: 'final', tag: 'Exams, Final'}
+  - {match: '\bend\b|summ?a?tive', tag: 'Exams, End'}
+  - {has: professor, tag: 'Professor, Dr {professor}', confidence: low}   # one spelling per professor
+  - {has: subject, tag: 'Department, {subject}'}
+default: {tag: 'External, {label}', confidence: low}

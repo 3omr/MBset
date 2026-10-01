@@ -80,13 +80,24 @@ python3 <skill>/scripts/mbset.py inventory "$M"
 To disconnect: delete `~/.config/mbset/telegram*` and, optionally, end the session in Telegram →
 Settings → Devices.
 
-## 4. Choose who does the heavy work
+## 4. First run — the agent sets the skill up with you
+
+The first time you use the skill, the agent runs a short setup and saves your answers in
+`~/.config/mbset/config.yaml` (it never asks again; change them any time with `mbset.py init`):
+1. **Your faculty**: Damietta and Assiut tag systems are built in. For any other faculty the agent asks how
+   your sources are named (finals, midterms, formatives, quizzes, department books, professors…) and builds
+   your faculty's tag system with you, previewing it on your real filenames.
+2. **Who does the heavy work** (below).
+3. **Telegram**: yes / no (if yes, step 3 above).
+4. **Reply language.**
+
+## 5. Choose who does the heavy work
 
 Transcription and review are split into small briefs. The first time, the agent asks you who runs them:
 **Claude subagents** (nothing to install), a delegate CLI you have (Codex, Antigravity, Cursor,
 OpenCode…), or the main agent alone. See `model-routing.md`.
 
-## 5. First module
+## 6. First module
 
 ```bash
 S=<skill>/scripts/mbset.py
@@ -139,5 +150,12 @@ python3 <skill>/scripts/mbset.py telegram download "<فولدر الموديول
 - اللي نزل قبل كده مش بينزل تاني.
 - لو القناة أو الجروب برايفت وإنت عضو فيه: انسخ لينك البوست من "Copy Post Link" (هيبقى شكله `t.me/c/...`) واستخدمه عادي.
 
-**5. ابدأ:** قول للـ agent: «استخدم سكيل mbset-module-curator على فولدر الموديول ده». أول مرة هيسألك مين يشتغل:
-Claude subagents، أو Codex/Antigravity لو عندك، أو هو لوحده.
+**5. أول تشغيل:** قول للـ agent: «استخدم سكيل mbset-module-curator على فولدر الموديول ده». أول مرة هيعمل تهيئة
+ويسألك أسئلة قليلة، والإجابات بتتحفظ فما بيسألش تاني:
+- **كليتك:** نظام تاجز دمياط وأسيوط جاهز. لو كليتك تانية، هيسألك ملفاتكم بتتسمّى إزاي (فاينال، ميدترم، فورماتيف،
+  كويزات، كتب الأقسام، الدكاترة...)، ويعمل نظام التاجز بتاع كليتك معاك ويجرّبه على أسامي ملفاتك الحقيقية لحد ما توافق.
+- **مين يشتغل:** Claude subagents، أو Codex أو Antigravity لو عندك، أو هو لوحده.
+- **تليجرام:** هتستخدمه ولا لأ.
+- **لغة الرد:** عربي ولا إنجليزي.
+
+ولو حبيت تغيّر أي حاجة بعد كده: `python3 <skill>/scripts/mbset.py init`.

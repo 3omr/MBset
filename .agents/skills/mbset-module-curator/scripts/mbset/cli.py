@@ -38,6 +38,10 @@ def cmd_inventory(args) -> int:
         module.save(st)
     state = inventory.run(module)
     print(inventory.summary(state))
+    from .common import load_config
+    if not load_config() and not state.get("university"):
+        print(f"[!] first-run setup not done: tags were suggested with the {module.taxonomy['name']} taxonomy — "
+              f"ask the user for their faculty (SKILL.md §0), `mbset.py init`, then re-run inventory")
     if not state.get("catalog_managed") and not (module.markdown / "00_CATALOG_OF_ALL_FILES.md").exists():
         from . import catalog
         print(f"[+] catalog skeleton: {catalog.write(module, state)}")
@@ -756,8 +760,8 @@ def build_parser() -> argparse.ArgumentParser:
     add("status", cmd_status, "one line per source", only=False)
     p = add("run", cmd_run, "inventory → OCR → parse → check in one go", only=False)
     p.add_argument("--jobs", type=int, default=2); p.add_argument("--workers", type=int, default=4)
-    from . import crossdup, doctor, lectures, report, telegram, tidy, transcribe, worklist
-    for extra in (tidy, report, doctor, crossdup, lectures, worklist, transcribe, telegram):
+    from . import crossdup, doctor, init, lectures, report, telegram, tidy, transcribe, worklist
+    for extra in (init, tidy, report, doctor, crossdup, lectures, worklist, transcribe, telegram):
         extra.register(sub)
     return ap
 

@@ -31,6 +31,25 @@ IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".webp", ".tif", ".tiff", ".bmp"}
 ARCHIVE_SUFFIXES = {".zip", ".7z", ".rar"}
 LETTERS = "ABCDEF"
 
+# per-person settings written by first-run setup (`mbset.py init`) — never inside a module or the repo
+CONFIG_DIR = Path(os.environ.get("MBSET_CONFIG_DIR") or Path.home() / ".config" / "mbset")
+CONFIG_FILE = CONFIG_DIR / "config.yaml"
+
+
+def load_config() -> dict[str, Any]:
+    """{} until `mbset.py init` has run (the agent then runs first-run setup, SKILL.md §0)."""
+    if not CONFIG_FILE.exists():
+        return {}
+    import yaml
+    return yaml.safe_load(CONFIG_FILE.read_text(encoding="utf-8")) or {}
+
+
+def save_config(cfg: dict[str, Any]) -> None:
+    import yaml
+    CONFIG_DIR.mkdir(parents=True, exist_ok=True)
+    CONFIG_FILE.write_text("# mbset settings — written by `mbset.py init`; edit or re-run init to change\n"
+                           + yaml.safe_dump(cfg, allow_unicode=True, sort_keys=False), encoding="utf-8")
+
 # Flags that record what already happened (a reviewer's re-read, a renumbering, a decision re-matched) or
 # that another gate already covers (counters cover unnumbered items, `check` covers unanswered MCQs and
 # figure stems). They stay in the evidence but never put a question on the review list.
@@ -44,7 +63,7 @@ def dispatch_lines(briefs: list[str], repo: Path | str, effort: str, template: s
     worker") — nothing is assumed installed. `template` (or env MBSET_DISPATCH) is a shell command with
     {brief}, {repo} and {effort}, e.g. a Codex / Antigravity relay; without one only the briefs are
     listed, for Claude subagents (one Agent call per brief) or any other worker the user named."""
-    template = template or os.environ.get("MBSET_DISPATCH")
+    template = template or os.environ.get("MBSET_DISPATCH") or load_config().get("dispatch")
     if not briefs:
         return []
     if not template:
@@ -166,14 +185,21 @@ class Module:
 
     @property
     def university(self) -> str:
-        """Tag taxonomy of the module: `inventory --university` (stored in state) wins; otherwise guessed
-        from the folder path (an Assiut folder → Assiut, anything else → Damietta)."""
+        """Tag taxonomy of the module: `inventory --university` (stored in state) wins; then an Assiut folder
+        path; then the faculty chosen at first-run setup (`mbset.py init`); Damietta when nothing is set."""
         if self.state_path.exists():
             saved = json.loads(self.state_path.read_text(encoding="utf-8")).get("university")
             if saved:
                 return saved
         path = str(self.root)
-        return "Assiut" if "اسيوط" in path or "assiut" in path.lower() else "Damietta"
+        if "اسيوط" in path or "assiut" in path.lower():
+            return "Assiut"
+        return load_config().get("university") or "Damietta"
+
+    @property
+    def taxonomy(self) -> dict[str, Any]:
+        from .taxonomy import load
+        return load(self.university)
 
     # ---- state -----------------------------------------------------------------
     def load(self) -> dict[str, Any]:

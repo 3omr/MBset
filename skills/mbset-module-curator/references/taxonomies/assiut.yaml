@@ -1,0 +1,13 @@
+# Assiut Faculty of Medicine — tag families (details: ../tagging-and-naming.md)
+name: Assiut
+description: "Assiut University, Faculty of Medicine"
+category_prefix: AssiutUniv_
+multidisciplinary: [Exams]
+year_free: ['Department, Quizzes', 'Department, Formative']   # no year unless it is in the filename
+rules:
+  - {match: 'quiz', tag: 'Department, Quizzes[, Week {week}]'}
+  - {match: 'formative', tag: 'Department, Formative[, Week {week}]'}
+  - {match: 'midterm|mid term', tag: 'Exams, Midterm'}
+  - {match: 'final', tag: 'Exams, Final'}
+  - {match: '\bgd\b', tag: 'Department, GDs, {subject} GD {gd}', confidence: low}
+default: {tag: 'Department, QBank, {subject}', confidence: low}
