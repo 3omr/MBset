@@ -181,11 +181,12 @@ def check_source(module: Module, src: dict[str, Any]) -> dict[str, Any]:
 
 
 YEAR_IN_TAG = re.compile(r"(?<!\d)(?:19|20)\d{2}(?!\d)")
-# Assiut Quizzes / Formatives carry no year unless the filename has one (AGENTS.md §2.A.9)
+# default year-free families (Assiut); the module's taxonomy (taxonomy.py) supplies its own
 YEAR_FREE_FAMILIES = ("Department, Quizzes", "Department, Formative")
 
 
-def check_tags(src: dict[str, Any]) -> tuple[list[str], list[str]]:
+def check_tags(src: dict[str, Any], year_free: tuple[str, ...] | list[str] = YEAR_FREE_FAMILIES
+               ) -> tuple[list[str], list[str]]:
     """Hard: unconfirmed tag, or any placeholder (`<Year>`, `<Subject>`, `<N>`) that would leak into
     the Excel. Review (WARN): an unconfirmed tag without a year that its family needs."""
     hard: list[str] = []
@@ -196,8 +197,8 @@ def check_tags(src: dict[str, Any]) -> tuple[list[str], list[str]]:
         hard.append(f"{src['nn']}: tag contains a placeholder ({tag}) — `mbset.py set {src['nn']} --tag … --year …`")
     if not tags.get("confirmed"):
         hard.append(f"{src['nn']}: tag not confirmed ({tag or None}) — `mbset.py set`")
-        year_free = tag.startswith(YEAR_FREE_FAMILIES)
-        if tags.get("needs_year") or (tag and not year_free and not YEAR_IN_TAG.search(tag)):
+        free = bool(year_free) and tag.startswith(tuple(year_free))
+        if tags.get("needs_year") or (tag and not free and not YEAR_IN_TAG.search(tag)):
             review.append(f"{src['nn']}: WARN tag has no year ({tag}) — find it in the source header and "
                           f"`mbset.py set {src['nn']} --tag \"{tag} <year>\" --year <year>`")
     return hard, review
@@ -214,7 +215,7 @@ def check_module(module: Module, state: dict[str, Any], selector: str | None = N
         hard += [f"{src['nn']} {src['md']}: {h}" for h in res["hard"]]
         review += [f"{src['nn']} {src['md']}: {r}" for r in res["review"]]
         if src.get("status") != "excluded":
-            t_hard, t_review = check_tags(src)
+            t_hard, t_review = check_tags(src, module.taxonomy["year_free"] or ())
             hard += t_hard
             review += t_review
     if not selector:

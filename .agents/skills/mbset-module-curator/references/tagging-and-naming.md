@@ -2,6 +2,12 @@
 
 Tagging rules and merge strategies across all MBset modules. Tags are how students filter by source, so a tag that does not match one of these families is a defect.
 
+**Per faculty, as data.** The families below are the built-in taxonomies `references/taxonomies/damietta.yaml`
+and `assiut.yaml`; `inventory` suggests tags from the faculty chosen at first-run setup (`mbset.py init`,
+SKILL.md §0). A faculty that is not built in gets its own `~/.config/mbset/taxonomies/<name>.yaml`, written
+with the user during setup (start from `generic.yaml`, preview with `init --test <filenames>`). A module of
+another faculty than the user's takes `inventory --university <name>`. Keep the YAML and this page in step.
+
 ---
 
 ## Damietta taxonomy

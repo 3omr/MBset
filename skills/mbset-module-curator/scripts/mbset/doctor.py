@@ -68,6 +68,12 @@ def check_env(say: Report) -> None:
         if unchecked:
             say("WARN", f"requirements.txt lists packages doctor does not check: {sorted(unchecked)}")
     check_sync(say)
+    from .common import load_config
+    cfg = load_config()
+    if cfg:
+        say("OK", f"first-run setup done: faculty {cfg.get('university')}, worker {cfg.get('worker') or '-'}")
+    else:
+        say("WARN", "first-run setup not done — ask the user (SKILL.md §0), then `mbset.py init …`")
     # optional Telegram downloader (mbset.py telegram) — nothing secret is printed
     try:
         import telethon  # noqa: F401
