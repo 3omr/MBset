@@ -166,6 +166,12 @@ class Module:
 
     @property
     def university(self) -> str:
+        """Tag taxonomy of the module: `inventory --university` (stored in state) wins; otherwise guessed
+        from the folder path (an Assiut folder → Assiut, anything else → Damietta)."""
+        if self.state_path.exists():
+            saved = json.loads(self.state_path.read_text(encoding="utf-8")).get("university")
+            if saved:
+                return saved
         path = str(self.root)
         return "Assiut" if "اسيوط" in path or "assiut" in path.lower() else "Damietta"
 
