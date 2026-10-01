@@ -30,9 +30,8 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
 
-from .common import Module, now
+from .common import CONFIG_DIR as CONFIG, Module, now
 
-CONFIG = Path(os.environ.get("MBSET_CONFIG_DIR") or Path.home() / ".config" / "mbset")
 ENV_FILE = CONFIG / "telegram.env"
 SESSION = CONFIG / "telegram"            # Telethon adds .session
 HOSTS = {"t.me", "www.t.me", "telegram.me", "www.telegram.me"}

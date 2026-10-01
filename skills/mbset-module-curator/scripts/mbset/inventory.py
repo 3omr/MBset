@@ -204,77 +204,14 @@ def _classify(path: Path, t: dict[str, Any]) -> str:
 
 
 # --------------------------------------------------------------------------- tags
-# "Dr X" / "د. خالد" / "د/خالد" — the Arabic "د" only as its own token followed by "." or "/",
-# never the letter inside a word ("الاندوكرين" is not "Dr وكرين").
-_PROF = re.compile(r"(?:\bdr\.?\s*|(?<![؀-ۿ])د\s*[./]\s*)([A-Za-z؀-ۿ]+)", re.I)
-
-
 def suggest_tags(module: Module, rel: str) -> dict[str, Any]:
-    """Filename/folder heuristics. The agent confirms with `mbset.py set`.
-
-    A year that is not in the filename is never guessed and never written as a placeholder: the
-    tag is suggested without it (`Professor, Dr X`), with `year: None`, `confidence: low` and
-    `needs_year: True`, and `check` reports it until the agent sets the year. Assiut Quizzes and
-    Formatives legitimately carry no year (AGENTS.md), so they never need one.
-    """
-    name = Path(rel).stem
-    low = f"{Path(rel).parent} {name}".lower()
-    years = re.findall(r"(?<!\d)(20\d{2})(?!\d)", name)
-    short = re.search(r"(?<!\d)(\d{2})\s*[-_/ ]\s*(\d{2})(?!\d)", name)
-    exam_yy = re.search(r"\b(?:final|end|formative|summ?a?tive|midterm)\s*(\d{2})(?!\d)", name, re.I)
-    year = int(years[-1]) if years else (2000 + int(short.group(2)) if short
-                                         else 2000 + int(exam_yy.group(1)) if exam_yy else None)
-    subject = next((s for s in SUBJECTS if s.lower()[:5] in low), None)
-    confidence = "medium"
-    year_free = False                     # families that carry no year unless the filename has one
-    if module.university == "Assiut":
-        if "quiz" in low or "formative" in low:
-            family = "Quizzes" if "quiz" in low else "Formative"
-            m = re.search(r"week\s*(\d+)", low)
-            tag = f"Department, {family}, Week {m.group(1)}" if m else f"Department, {family}"
-            year = int(years[-1]) if years else None
-            year_free = True
-            if year:
-                tag = f"{tag} {year}"
-        elif "midterm" in low or "mid term" in low:
-            tag = "Exams, Midterm"
-        elif "final" in low:
-            tag = "Exams, Final"
-        elif re.search(r"\bgd\b", low):
-            m = re.search(r"\bgd\s*[-_ ]?\s*(\d+)", low)
-            tag = f"Department, GDs, {subject or '<Subject>'} GD {m.group(1) if m else '<N>'}"
-            confidence = "low"
-        else:
-            tag = f"Department, QBank, {subject or '<Subject>'}"
-            confidence = "low"
-    else:
-        prof = _PROF.search(name)
-        if "formative" in low:
-            tag = "Exams, Formative"
-        elif "final" in low:
-            tag = "Exams, Final"
-        elif re.search(r"\bend\b|summ?a?tive", low):
-            tag = "Exams, End"
-        elif prof:
-            who = prof.group(1)
-            # tags are English only: an Arabic name is left for the agent to transliterate
-            tag = f"Professor, Dr {who.title()}" if not ARABIC.search(who) else "Professor, Dr <Name>"
-            confidence = "low"
-        elif subject:
-            tag = f"Department, {subject}"
-        else:
-            label = re.sub(r"(?<!\d)(?:20)?\d{2}(?!\d)", "", safe_name(name, 40)).replace("_", " ")
-            tag = f"External, {' '.join(label.split())[:30].strip() or 'source'}"
-            confidence = "low"
-    needs_year = False
-    if not year_free:
-        if year is None:
-            confidence, needs_year = "low", True
-        else:
-            tag = f"{tag} {year}"
-    exam = tag.startswith("Exams")
-    return {"tag": tag, "tagSuggere": None if exam else subject, "year": year, "confidence": confidence,
-            "needs_year": needs_year, "confirmed": False}
+    """Filename/folder heuristics from the module's taxonomy (`taxonomy.py`; chosen at `mbset.py init`).
+    The agent confirms with `mbset.py set`. A year that is not in the filename is never guessed: the tag
+    comes without it, `needs_year: True`, and `check` reports it until the year is set; year-free families
+    (Assiut Quizzes / Formatives) never need one."""
+    from .taxonomy import load, suggest
+    tax = getattr(module, "taxonomy", None) or load(getattr(module, "university", None))
+    return suggest(tax, rel)
 
 
 # --------------------------------------------------------------------------- catalog import

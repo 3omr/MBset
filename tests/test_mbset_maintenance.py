@@ -9,6 +9,7 @@ from __future__ import annotations
 import contextlib
 import importlib.util
 import io
+import os
 import json
 import sys
 import tempfile
@@ -249,6 +250,64 @@ class UniversityTests(unittest.TestCase):
             self.assertEqual(mod.university, "Assiut")
             mod.state_path.write_text(json.dumps({"sources": [], "university": "Damietta"}), encoding="utf-8")
             self.assertEqual(mod.university, "Damietta")
+
+
+class TaxonomyTests(unittest.TestCase):
+    CASES = {
+        "Damietta": {"Raw_PDF_Questions/Final 2023.pdf": "Exams, Final 2023",
+                     "Raw_PDF_Questions/formative 2 2025.pdf": "Exams, Formative 2025",
+                     "Raw_PDF_Questions/end 24.pdf": "Exams, End 2024",
+                     "Raw_PDF_Questions/Dr elmorshdy questions(MCQ) 2025.pdf": "Professor, Dr Elmorshdy 2025",
+                     "Raw_PDF_Questions/Physiology book 2026.pdf": "Department, Physiology 2026"},
+        "Assiut": {"Raw_PDF_Questions/quiz week 3.pdf": "Department, Quizzes, Week 3",
+                   "Raw_PDF_Questions/mid term 2022.pdf": "Exams, Midterm 2022",
+                   "Raw_PDF_Questions/CBF GD 2 2023.pdf": "Department, GDs, <Subject> GD 2 2023"},
+    }
+
+    def test_builtin_taxonomies_keep_the_known_tags(self):
+        from mbset import taxonomy
+        for uni, cases in self.CASES.items():
+            tax = taxonomy.load(uni)
+            self.assertEqual(taxonomy.validate(tax), [])
+            for rel, tag in cases.items():
+                self.assertEqual(taxonomy.suggest(tax, rel)["tag"], tag, rel)
+        s = taxonomy.suggest(taxonomy.load("Damietta"), "Raw_PDF_Questions/random notes.pdf")
+        self.assertTrue(s["needs_year"])                                   # a year is never guessed
+        self.assertIsNone(taxonomy.suggest(taxonomy.load("Assiut"), "Raw_PDF_Questions/quiz.pdf")["year"])
+
+    def test_first_run_init_saves_settings_and_a_new_faculty(self):
+        import importlib
+        from unittest import mock
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.dict(os.environ, {"MBSET_CONFIG_DIR": tmp}):
+            from mbset import common, taxonomy, init
+            for mod in (common, taxonomy, init):
+                importlib.reload(mod)
+            try:
+                f = Path(tmp) / "new.yaml"
+                f.write_text("name: Tanta\nrules:\n  - {match: 'final', tag: 'Exams, Final'}\n"
+                             "default: {tag: 'Bank, {label}'}\n", encoding="utf-8")
+                out = io.StringIO()
+                with contextlib.redirect_stdout(out):
+                    init.cmd_init(init_args(taxonomy_file=str(f), worker="Claude subagents", telegram="no"))
+                cfg = common.load_config()
+                self.assertEqual((cfg["university"], cfg["worker"], cfg["telegram"]), ("tanta", "Claude subagents", False))
+                self.assertEqual(taxonomy.suggest(taxonomy.load("tanta"), "Raw_PDF_Questions/Final 2020.pdf")["tag"],
+                                 "Exams, Final 2020")
+                bad = Path(tmp) / "bad.yaml"
+                bad.write_text("name: X\nrules:\n  - {match: '(', tag: 'Y'}\n", encoding="utf-8")
+                with self.assertRaises(SystemExit):
+                    init.cmd_init(init_args(taxonomy_file=str(bad)))
+            finally:
+                os.environ.pop("MBSET_CONFIG_DIR", None)
+                for mod in (common, taxonomy, init):
+                    importlib.reload(mod)
+
+
+def init_args(**kw):
+    import argparse
+    base = dict(show=False, list=False, test=None, university=None, taxonomy_file=None, worker=None,
+                dispatch=None, telegram=None, language=None)
+    return argparse.Namespace(**{**base, **kw})
 
 
 if __name__ == "__main__":
