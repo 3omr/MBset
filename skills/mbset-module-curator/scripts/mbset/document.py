@@ -564,7 +564,12 @@ def load_lines(module: Module, src: dict[str, Any], profile: dict[str, Any]) -> 
     pages = parse_pages(profile.get("pages"), total)
     columns = profile.get("columns", "auto")
     forced_split = profile.get("split")
-    if mode == "best":
+    if mode == "ocrpdf":
+        # the text layer of the `ocrmypdf --redo-ocr` copy (ocr --searchable), read like a digital PDF
+        from .ocr import searchable_pdf
+        iterator = native_pdf_pages(searchable_pdf(module, src, profile), pages,
+                                    profile.get("glyph_swap") or profile.get("glyph_repair"))
+    elif mode == "best":
         iterator = best_pages(module, src, path, pages, profile.get("glyph_repair"), info)
     else:
         iterator = (native_pdf_pages(path, pages, profile.get("glyph_swap") or profile.get("glyph_repair")) if mode == "native"

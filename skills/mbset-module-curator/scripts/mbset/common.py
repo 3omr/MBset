@@ -71,7 +71,14 @@ def dispatch_lines(briefs: list[str], repo: Path | str, effort: str, template: s
             f"    (worker not set: ask the user which worker runs these {len(briefs)} brief(s) — see SKILL.md "
             f"'Choosing the worker' — then pass --dispatch '<cmd with {{brief}}>' or set MBSET_DISPATCH; "
             f"suggested effort: {effort})"]
-    return [f"    {template.format(brief=b, repo=repo, effort=effort)}" for b in briefs]
+    return [f"    {fill_template(template, brief=b, repo=repo, effort=effort)}" for b in briefs]
+
+
+def fill_template(template: str, **values: Any) -> str:
+    """Replace only {brief} / {repo} / {effort}: worker commands are shell, where other braces are common."""
+    for k, v in values.items():
+        template = template.replace("{" + k + "}", str(v))
+    return template
 
 
 def review_flags(flags: list[str] | None) -> list[str]:

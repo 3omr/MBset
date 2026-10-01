@@ -19,7 +19,7 @@ TEMPLATES_DIR = Path(__file__).resolve().parents[2] / "references" / "profiles"
 
 DEFAULT: dict[str, Any] = {
     "template": None,
-    "text": "auto",            # auto | native | ocr | docx | pptx | plain
+    "text": "auto",            # auto | native | ocr | ocrpdf (ocrmypdf --redo-ocr text layer) | docx | pptx | plain
     "columns": "auto",         # auto | 1 | 2
     "split": None,             # force the gutter x (points)
     "pages": None,             # "1-12" (1-based); None = all
