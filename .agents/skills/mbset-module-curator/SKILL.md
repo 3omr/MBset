@@ -4,9 +4,9 @@ description: >-
   Standard operating procedure and toolkit for curating, formatting, and building
   MBset medical modules. Use it to extract questions from exam PDFs, scans, Word files,
   slides and screenshots into markdown and the 32-column question bank Excel: the mbset.py
-  pipeline (inventory, OCR, per-source parser profiles, automatic answer keys with provenance,
-  visual answer sheets, figures, spot checks, forensic check gate, build, report), tagging rules,
-  lecture subcategories and PDF management.
+  pipeline (inventory, OCR, route, per-source parser profiles or parallel page-image transcription,
+  automatic answer keys with provenance, worklists split across parallel reviewers, figures, spot
+  checks, forensic check gate, build, report), tagging rules, lecture subcategories and PDF management.
 ---
 
 # MBset Medical Module Curator Skill
@@ -24,7 +24,9 @@ the master Excel, **with the answer the source actually gives**. Both are proven
    option; a misread *file* is fixed through its profile (`.mbset/profiles/NN.yaml`) and a re-parse.
    A misread *question* (missing option, OCR symbols like `¢ © |`, words out of order, glued stem and
    option) is corrected by **re-reading the page image** and writing exactly what is printed with
-   `fix NN --text-file` — every fix is logged with the original text and reviewed. Never paraphrase,
+   `fix NN --text-file` — every fix is logged with the original text and reviewed. A file whose OCR is
+   bad as a whole is not repaired question by question: it goes to the **transcribe** route (§2), where
+   workers copy every question verbatim from the page images. Never paraphrase,
    shorten, reword, complete or "improve" a question, and never type one from memory or another bank.
 2. **Never invent an answer.** Every MCQ carries `**Answer Source:**` `key` / `marked` / `online` /
    `derived`. An unreadable mark stays `?`. `derived` (the agent's knowledge, only when the source
@@ -33,11 +35,31 @@ the master Excel, **with the answer the source actually gives**. Both are proven
 4. **Three counters agree** per file — source numbering, option-A blocks, `### Q` headings; a
    declared source total wins. No Excel work until `check` shows 0 hard failures.
 5. **32-column canonical header** (31 + `ModelAnswer`), `id` empty, `subcategoryId` / `subcategoryName` empty, zero
-   Arabic characters, `QCS` → one existing letter `A`-`F`, `QROC` → `Correct`/`EXP` empty, model answer in `ModelAnswer`,
-   figure-dependent stems have `Image`. → [`references/schema-32-columns.md`](./references/schema-32-columns.md)
+   Arabic characters, `QCS` → one existing letter `A`-`F`, `QROC` → `Correct`/`EXP` empty, model answer in
+   `ModelAnswer` (markdown field `**Model Answer:**`),
+   figure-dependent stems have `Image`. Arabic is allowed only in sources whose profile has `keep_arabic: true`
+   (questions written in Arabic, kept in Arabic by user decision). → [`references/schema-31-columns.md`](./references/schema-31-columns.md)
 6. **No silent omissions**: `count(sources) == count(markdown) + EXCLUDED — <reason>`.
 
-## 2. The pipeline — `mbset.py` (parse first, review second)
+## 2. The pipeline — `mbset.py` (measure, route, then one pass per source)
+
+**Where the time goes, and the rules that remove it** (measured on Cell biology / Ethics / Endocrinology):
+Tesseract garbles scans and phone screenshots, the parser then splits or loses questions, and reviewers
+re-read the page anyway — 1 364 questions re-added from page images and 821 re-read in one module, over
+three review rounds, plus separate passes for answers and model answers. So:
+
+1. **Route every source by measurement** (`route`): a good text layer / clean OCR → **parse**; scanned with
+   OCR confidence < 0.80, screenshots/photos, or > 30 % of parsed questions needing review → **transcribe**.
+   Never run the parse → fix → re-add loop on a file the route sends to transcribe.
+2. **Big files are always split**: transcription in chunks of 6 pages (`--pages-per`), review worklists in
+   question ranges (`--max-items`). One worker per chunk/part, all dispatched at once; no worker holds a
+   long session (long sessions died of timeouts and lost hours).
+3. **One pass per question**: the transcriber writes stem, options, answer + provenance and the model
+   answer together; the reviewer writes text fixes, answers and model answers together.
+4. **Workers write JSON only**; the coordinator ingests (`parse`) or applies (`worklist --apply`) and runs
+   the gates. No state backups, no OCR/profile experiments by workers.
+5. Only flags that need eyes count: informational flags (`added_from_page_image`, `text_corrected_visual`,
+   `unnumbered`, `number_inferred`, `decision_matched_fuzzy`, `transcribed`, …) never reach the review list.
 
 All state lives in `<Module>/.mbset/` (state.json, profiles, OCR cache, parsed evidence, reports).
 Every command is idempotent and resumable. Full reference with flags:
@@ -50,8 +72,12 @@ python $S tidy "$M"                 # dry-run plan to standardize the folder lay
 python $S inventory "$M"            # Stage 0: expand archives, hash-dedupe, triage, suggest tags
 python $S ocr "$M"                  # Tesseract for every scanned source, parallel, cached per page
 python $S parse "$M"                # Stage 1+2: profile → markdown, answers with provenance, flags, counters
+python $S route "$M"                # per source: parse or transcribe (measured) — prints the transcribe command
+python $S transcribe "$M" --only 07,09,12   # page images → chunk briefs; dispatch every brief in parallel
+python $S transcribe "$M" --status  # chunks done / left → then `parse --only …` ingests the JSON
+python $S worklist "$M"             # what is left (text / answers / model answers), big files split in parts
+python $S worklist "$M" --apply     # after the reviewers: apply all their JSON in one go
 python $S check "$M"                # Stages 2+3 gate: problems only, grouped per file
-# … review loop (below) until check prints 0 hard failures …
 python $S catalog "$M"              # 00_CATALOG_OF_ALL_FILES.md + tag map, generated from state
 python $S build "$M"                # check → build_module_template → validate → audit (all must pass)
 python $S report "$M"               # final per-file counts, answer sources, derived list → give it to the user
@@ -60,24 +86,37 @@ python $S report "$M"               # final per-file counts, answer sources, der
 | Command | One line |
 | :--- | :--- |
 | `inventory` / `ocr` / `parse` | sources → triage → OCR cache → markdown with answers and flags |
+| `route` | per source `parse` or `transcribe`, with the measurement behind it |
+| `transcribe --only NN [--pages-per 6] [--key-pages 12]` / `--status` | render pages, cut into chunks, one self-contained brief per chunk (`.mbset/transcripts/NN/`); sets profile `transcribe: true`; `parse` ingests the chunk JSONs |
+| `worklist [--n K] [--max-items 60]` / `--apply` | closed review lists with crops; big files split into question ranges; reviewers write JSON, `--apply` runs `fix` |
 | `show NN --flags` / `--dropped` | only the flagged questions with evidence / lines discarded as noise |
 | `profile --only NN --print` | the effective profile; edit the YAML, then `parse --only NN` |
 | `answersheet --only NN` | crops of unanswered MCQs, 6 per PNG, for a visual pass over pen marks |
-| `fix NN --answers "2=B 3=C" --source marked` | batch answers; also `--exp-file`, `--image`, `--drop … --reason` |
+| `fix NN --answers "2=B 3=C" --source marked` | batch answers; also `--model-file` (= `--exp-file`), `--image`, `--drop … --reason` |
 | `figures --only NN` | crop figures for figure-dependent stems → `Images/NN_Qi.png`, linked |
 | `spotcheck --only NN` / `review NN --spot "7/7 OK"` | max(5, 10%) source-vs-markdown sheets / record the verdict |
 | `set NN --tag … --year … --confirm` | confirm tags; `--exclude REASON`, `--count-note` |
 | `renumber` | resolve duplicate NN (markdown, evidence and `Images/<NN>_*` move together) |
 | `check [--only NN]` | the gate; exit 1 on hard failures |
 | `catalog` / `build` / `report` | catalog + tag map / gated Excel / final user report |
-| `packets --n 4` / `lock NN --owner X` | parallel work packets with self-contained Codex briefs / claim sources |
+| `packets --n 4` / `lock NN --owner X` | parallel work packets with self-contained worker briefs / claim sources |
 | `status` / `run` | one line per source / inventory → ocr → parse → check in one go |
 | `doctor [module]` | environment and module health check (OK / WARN / FAIL) |
 | `tidy` | standardize the module folder to the deliverables layout (dry run; `--apply`, `--restore`) |
 | `crossdup <roots…>` | report sources byte-identical across modules (nothing is moved) |
 | `lectures plan` / `match` / `apply` / `check` | the two-phase lecture / subcategory workflow (§4) |
 
-### The review loop for one source
+### The transcribe route for one source
+1. `transcribe --only NN` (add `--key-pages P` when the answer key is printed apart, e.g. on the last page,
+   so every chunk reads it). Dispatch every printed brief at once to the worker **the user chose**
+   (§ Choosing the worker), effort high; each worker writes only its `chunk_KK.json`.
+2. `transcribe --status` until all chunks are in, then `parse --only NN`: missing chunks, numbering gaps,
+   keys not among the options and stems absent from the page's OCR/text (`transcript_not_in_page_text` —
+   a paraphrase warning) are reported by `check`.
+3. Single problems → `fix` as usual (decisions survive a re-ingest). Then `figures`, `spotcheck` (crops show
+   the whole page once), `review --spot`, `set --confirm`, `check --only NN`.
+
+### The review loop for one parsed source
 1. `parse --only NN` → counters equal? answered = MCQ? distribution sane?
 2. `show NN --flags` → profile problem (fix YAML, re-parse) or single question (`fix`). Every field
    and recipe: [`references/profiles.md`](./references/profiles.md). A hand-edited markdown is never
@@ -98,17 +137,33 @@ similar question in another file. → [`references/answer-key-verification.md`](
 `check` hard-fails on: missing markdown, non-continuous numbering, disagreeing counters, declared
 total mismatch, numbering gaps, Arabic, noise signatures, non-sequential options, unanswered MCQs,
 invalid Answer Source, written questions without a model answer, figure stems without an image,
-bias > 60%, no spot check, unconfirmed tags, tag placeholders (`<…>`), duplicate NN, missing sources.
+bias > 60%, no spot check, unconfirmed tags, tag placeholders (`<…>`), duplicate NN, missing sources,
+untranscribed chunks.
 It warns on unconfirmed tags without a year.
 
 ### Parallel work and delegation
-`packets "$M" --n 4` splits the sources into balanced packets and writes, per packet,
-`.mbset/packets/packet_k.md` and a self-contained Codex brief `packet_k_brief.txt`. The judgement
-steps (pen-mark answer sheets, flag triage, spot-check sheets, QROC model answers / derived answers)
-run one Codex **gpt-6-luna** worker at effort **max** per packet, in parallel; the orchestrator
-re-verifies every packet with `check` / `report` and builds the Excel once.
-→ [`references/parallel-workflow.md`](./references/parallel-workflow.md),
-[`references/model-routing.md`](./references/model-routing.md)
+The default parallel units are **transcription chunks** and **worklist parts**: both split big files and
+need no locks, because workers write JSON only and the coordinator ingests/applies it. Dispatch every
+brief at once, one worker per brief (effort high for transcription and mark reading, max for derived /
+model answers); the coordinator re-verifies with `check` / `report` and builds once. `packets "$M" --n 4`
+(whole sources per worker, workers call `fix` themselves) remains only for parse-route modules made of
+small files. → [`references/parallel-workflow.md`](./references/parallel-workflow.md)
+
+### Choosing the worker (ask — never assume)
+Not everyone has the same tools, so the **user picks who runs the briefs**. Before the first dispatch of a
+module, ask once (AskUserQuestion), offering only what this machine has (`mbset.py doctor` lists the worker
+CLIs found) plus the two options that always exist:
+
+- **Claude subagents** — always available: one `Agent` call per brief ("Read <brief> and do exactly what
+  it says"), run in the background, all at once. No `--dispatch` needed.
+- **An installed delegate** — e.g. Codex (`codex-delegate`), Antigravity/Gemini (`agy-delegate`), Cursor,
+  OpenCode… — ask which model too. Pass its command as `--dispatch '<cmd with {brief} {repo} {effort}>'`
+  (or `export MBSET_DISPATCH=…`) and the scripts print one ready line per brief.
+- **No workers** — the main agent works through the briefs itself, one after another (slowest).
+
+Keep the answer for the rest of the session; if a worker runs out of credits or fails, ask again instead of
+switching silently. Whatever the worker, its output is re-verified (`check`, `report`, spot checks).
+→ [`references/model-routing.md`](./references/model-routing.md)
 
 ## 3. Tags, schema and text cleaning (summaries — details in the references)
 
@@ -121,7 +176,7 @@ re-verifies every packet with `check` / `report` and builds the Excel once.
   → [`references/tagging-and-naming.md`](./references/tagging-and-naming.md)
 - **Schema** — the canonical 32-column header, column rules and the legacy
   (`Genetics_Questions.xlsx`, `POD_Questions.xlsx`) migration map →
-  [`references/schema-32-columns.md`](./references/schema-32-columns.md). Confirm `categoryId` /
+  [`references/schema-31-columns.md`](./references/schema-31-columns.md). Confirm `categoryId` /
   `categoryName` against the module's platform export; never invent one.
 - **Noise** — the parser strips numbering, invisible unicode, Moodle/LMS chrome, phone status bars,
   answer-key grids, bubble artifacts and OCR gibberish, and repairs notation (`Ca**` → `Ca²⁺`,
@@ -164,11 +219,22 @@ merge unless the user says otherwise. `mbset.py lectures` runs both phases.
 **Answer Source:** key            <!-- key | marked | online | derived -->
 **Image:** Images/05_Q1.png       <!-- only when figure-dependent -->
 **Source Pages:** 3
-**EXP:** <explanation / model answer>
+**EXP:** <explanation>            <!-- MCQ only -->
+
+---
+
+### Q2: <written question>
+
+**Correct Answer:** -
+**Answer Source:** key            <!-- key (printed) | derived (written from knowledge) -->
+**Source Pages:** 4
+**Model Answer:** <full model answer> <!-- → ModelAnswer column; Correct and EXP stay empty -->
 
 ---
 ```
-Written questions use `**Correct Answer:** -` with the model answer in `**EXP:**` and no options.
+Written questions have no options, `**Correct Answer:** -` and the model answer in `**Model Answer:**`.
+Older markdown files carry it as `**EXP:**`; the builder reads both, so they are never rewritten for this —
+a re-parse or `fix --model-file` writes the new label.
 
 ## 6. Deliverables per module
 
@@ -186,7 +252,8 @@ Written questions use `**Correct Answer:** -` with the model answer in `**EXP:**
 
 ## 7. Scripts and references
 
-* `scripts/mbset.py` — the pipeline CLI (package `scripts/mbset/`)
+* `scripts/mbset.py` — the pipeline CLI (package `scripts/mbset/`; `transcribe.py` = route + visual route,
+  `worklist.py` = split review lists + apply)
 * `scripts/build_module_template.py` — markdown → canonical 32-column Excel (dedupe on normalized stems)
 * `scripts/validate_questions_excel.py` — schema gate · `scripts/audit_question_bank.py` — forensic gate (`--by-tag`)
 * `scripts/clean_markdown_noise.py` — noise cleaner for markdown produced outside the parser (dry run by default, never changes an answer)
@@ -194,5 +261,5 @@ Written questions use `**Correct Answer:** -` with the model answer in `**EXP:**
 * References: [pipeline-v2](./references/pipeline-v2.md) · [profiles](./references/profiles.md) ·
   [parallel-workflow](./references/parallel-workflow.md) · [model-routing](./references/model-routing.md) ·
   [extraction-playbook](./references/extraction-playbook.md) · [answer-key-verification](./references/answer-key-verification.md) ·
-  [schema-32-columns](./references/schema-32-columns.md) · [noise-removal-and-curation](./references/noise-removal-and-curation.md) ·
+  [schema-31-columns](./references/schema-31-columns.md) · [noise-removal-and-curation](./references/noise-removal-and-curation.md) ·
   [tagging-and-naming](./references/tagging-and-naming.md) · [subcategories-and-lectures](./references/subcategories-and-lectures.md)

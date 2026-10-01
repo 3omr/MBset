@@ -168,9 +168,9 @@ def category(module: Module, state: dict[str, Any]) -> tuple[str | None, str | N
     return None, None
 
 
-# --------------------------------------------------------------------------- Codex briefs
+# --------------------------------------------------------------------------- worker briefs
 def repo_root(path: Path) -> Path:
-    """The git work tree that holds the module (Codex's --cd); the module itself if there is none."""
+    """The git work tree that holds the module (a relay's --cd); the module itself if there is none."""
     for p in [path, *path.parents]:
         if (p / ".git").exists():
             return p
@@ -179,7 +179,7 @@ def repo_root(path: Path) -> Path:
 
 def packet_brief(module: Module, k: int, total: int, group: list[dict[str, Any]], pages: int,
                  script: str, repo: Path | None = None) -> str:
-    """A self-contained brief for one Codex worker: it sees nothing but this text."""
+    """A self-contained brief for one worker (whichever the user chose): it sees nothing but this text."""
     repo = repo or repo_root(module.root)
     nns = ",".join(s["nn"] for s in sorted(group, key=lambda s: s["nn"]))
     M, S, owner = str(module.root), script, f"packet_{k}"

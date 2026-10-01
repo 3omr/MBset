@@ -18,7 +18,7 @@ from typing import Any
 from .common import LETTERS, Module, dump_json, load_json, now
 from .document import Line
 
-MARK_KINDS = ("tick", "highlight", "fill", "tint", "ink", "circle", "box", "underline")
+MARK_KINDS = ("tick", "highlight", "fill", "tint", "ink", "circle", "box", "underline", "bold_marker")
 
 
 # --------------------------------------------------------------------------- grid keys
@@ -216,6 +216,36 @@ def apply_online(records: list[dict[str, Any]], online: list[dict[str, Any]]) ->
 ORDER = {"key": 0, "online": 1, "marked": 2}
 
 
+def apply_answer_text(records: list[dict[str, Any]]) -> int:
+    """'The correct answer is: <option text>' → the one option whose text it is (profile answers.text_pattern)."""
+    from rapidfuzz import fuzz
+
+    norm = lambda t: re.sub(r"[^a-z0-9]", "", (t or "").lower())  # noqa: E731
+    hits = 0
+    for r in records:
+        ans = norm(r.get("answer_text"))
+        if r["type"] != "QCS" or not ans:
+            continue
+        scores = []
+        for o in r["options"]:
+            ot = norm(o["text"])
+            if not ot:
+                continue
+            # the answer line may run on into an explanation: compare with its start as well
+            # the answer line may run on into an explanation, and the option may carry a stray margin
+            # label ("Riboflavin 1.00"): compare the full texts and each one's start with the other
+            n = min(len(ot), len(ans))
+            scores.append((max(fuzz.ratio(ot, ans), fuzz.ratio(ot[:n], ans[:n]) if n >= 4 else 0), o["letter"]))
+        scores.sort(reverse=True)
+        if scores and scores[0][0] >= 88 and (len(scores) == 1 or scores[0][0] - scores[1][0] >= 6):
+            r["candidates"].append({"source": "key", "letter": scores[0][1],
+                                    "evidence": f"correct-answer text matches option {scores[0][1]}"})
+            hits += 1
+        else:
+            r["flags"].append("answer_text_not_matched")
+    return hits
+
+
 def resolve(records: list[dict[str, Any]]) -> None:
     for r in records:
         if r["type"] == "QROC":
@@ -266,6 +296,7 @@ def attach(module: Module, src: dict[str, Any], records: list[dict[str, Any]], l
             report["online_hits"] = apply_online(records, online)
         except Exception as exc:
             report["online_error"] = f"{type(exc).__name__}: {exc}"
+    report["text_hits"] = apply_answer_text(records)
     if mode in ("marked", "auto"):
         stats = file_style_stats(records)
         report["style_stats"] = stats

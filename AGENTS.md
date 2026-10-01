@@ -45,6 +45,7 @@ tagSuggere, Year, Tag, ImageMasks, ExplanationImageMasks, ModelAnswer
 
 ### B. Text Cleaning & Deep Noise Removal
 - **Zero Arabic characters** (`[؀-ۿ]`) anywhere in stems, options or explanations.
+  - Exception (user decision, 2026-09-28): questions *written in Arabic* in the Assiut **Medical Ethics, Law and Professionalism & Behavioral Medicine** module are kept in Arabic, never translated — per-source profile `keep_arabic: true` (OCR `ara+eng`); every other source stays Arabic-free.
 - Strip leading numbering (`1.`, `25-`, `Q1:`, `### Q10:`, `[MCQ]`) and invisible unicode (`​`, `﻿`, `\xa0`).
 - Purge Moodle chrome and footers, mobile screenshot status bars and LMS buttons, trailing chapter answer-key grids, `TABLE n A B` headers, bubble artifacts (`@©`, `®@`), and Franco-Arab OCR gibberish.
 - Convert inline `Select one: a. … b. …` runs into structured options; decouple the preceding question's explanation from the next stem.

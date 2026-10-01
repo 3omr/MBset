@@ -21,9 +21,9 @@ import re
 from dataclasses import dataclass, field
 from typing import Any
 
-from .common import ARABIC, LETTERS
+from .common import AR_LETTERS, ARABIC, LETTERS, arabic_markers
 from .document import Line
-from .noise import clean_text, is_noise_line
+from .noise import clean_text as _clean_text, is_noise_line
 
 FIGURE = re.compile(r"(?i)\b(figure|fig\.|diagram|shown (?:below|above|here)|this slide|arrows?|labell?ed|"
                     r"photomicrograph|following image|(?<!clinical )(?<!blood )picture|the image|micrograph|X-ray shown|ECG shown)\b")
@@ -53,8 +53,18 @@ class Question:
     after: list[Line] = field(default_factory=list)       # text after the options (explanation/answer)
     exp_parts: list[Line] = field(default_factory=list)
     inline_answer: str | None = None
+    answer_text: str | None = None                        # 'The correct answer is: Arginine'
     flags: list[str] = field(default_factory=list)
     stem_prefix: str = ""
+
+
+RTL_CHARS = re.compile(r"[\u0600-\u06ff]")
+
+
+def _edge_gap(a: Line, b: Line) -> float:
+    """Distance between the starting edges of two lines: left for LTR text, right for Arabic (RTL)."""
+    rtl = len(RTL_CHARS.findall(a.text + b.text)) > len(re.findall(r"[A-Za-z]", a.text + b.text))
+    return abs(a.bbox[2] - b.bbox[2]) if rtl else abs(a.bbox[0] - b.bbox[0])
 
 
 def qnum(match: re.Match) -> int:
@@ -143,9 +153,13 @@ class Parser:
         self.q_rx = re.compile(profile["question_start"], re.I)
         self.o_rx = re.compile(profile["option_pattern"])
         self.ans_rx = re.compile(profile["answers"]["inline_pattern"], re.I)
+        tp = profile["answers"].get("text_pattern")
+        self.ans_text_rx = re.compile(tp, re.I) if tp else None
         self.written_ans = re.compile(profile["written"]["answer_marker"], re.I)
         self.skip = _compile(profile.get("skip_patterns"))
         self.stop = _compile(profile.get("stop_patterns"))
+        self.keep_ar = bool(profile.get("keep_arabic"))
+        self.q_end = re.compile(profile["question_end"]) if profile.get("question_end") else None
         self.questions: list[Question] = []
         self.sections: list[int] = []        # highest number seen per section
         self.starts: list[int] = []          # first number of each section
@@ -170,8 +184,35 @@ class Parser:
                 pages.setdefault(k, set()).add(ln.page)
         return {k for k, pg in pages.items() if len(pg) >= max(3, 0.4 * n_pages)}
 
+    def _key_column(self, lines: list[Line]) -> list[Line]:
+        """`answers.key_column: 520` — a lone letter at x >= 520 is the key of the question whose stem
+        shares its row ("Which … proteins?   C"); it is attached to that row and removed."""
+        col = self.p.get("answers", {}).get("key_column")
+        if not col:
+            return lines
+        keep: list[Line] = []
+        for ln in lines:
+            m = re.fullmatch(r"\s*\(?([A-Fa-f])\)?\s*", ln.text)
+            mt = re.search(r"\s([A-F])\s*$", ln.text)
+            if not m and mt and ln.bbox[2] >= col and ln.bbox[0] < col and len(ln.text) > 12:
+                # the key letter merged onto the end of its stem row ("… surgical intervention   E")
+                ln.text = ln.text[:mt.start()].rstrip()
+                ln.key = mt.group(1)
+                keep.append(ln)
+                continue
+            if m and ln.bbox[0] >= col:
+                h = ln.bbox[3] - ln.bbox[1]
+                row = [x for x in keep if x.page == ln.page and x.bbox[0] < col
+                       and min(x.bbox[3], ln.bbox[3]) - max(x.bbox[1], ln.bbox[1]) > 0.5 * h]
+                if row:
+                    row[-1].key = m.group(1).upper()
+                    continue
+            keep.append(ln)
+        return keep
+
     def _expand(self, lines: list[Line]) -> list[Line]:
         """Drop noise lines and split inline option runs into separate lines."""
+        lines = self._key_column(lines)
         out: list[Line] = []
         by_page: dict[int, list[int]] = {}
         for i, ln in enumerate(lines):
@@ -186,11 +227,16 @@ class Parser:
                                                                   and _running_key(ln.text) in running):
                 self.dropped.append(ln.text)
                 continue
-            text = ARABIC.sub("", ln.text).strip()
+            if self.keep_ar and len(re.findall(r"[A-Za-z]", ln.text)) > 3 * len(ARABIC.findall(ln.text)):
+                text = re.sub(r"[\u0660-\u0669]", "", ARABIC.sub("", ln.text)).strip()   # English line: OCR strays
+            elif self.keep_ar:
+                text = arabic_markers(ln.text).strip()
+            else:
+                text = ARABIC.sub("", ln.text).strip()
             if is_grid_line(text):
                 self.dropped.append(ln.text)
                 continue
-            if not re.search(r"[A-Za-z0-9]", text):
+            if not re.search(rf"[A-Za-z0-9{AR_LETTERS if self.keep_ar else ''}]", text):
                 if ln.text.strip():
                     self.dropped.append(ln.text)
                 continue
@@ -253,6 +299,8 @@ class Parser:
         if rest.strip():
             q.stem_parts.append(Line(text=rest, page=line.page, col=line.col, bbox=line.bbox, bold=line.bold,
                                      color=line.color, marks=line.marks, conf=line.conf))
+            if getattr(line, "key", None):
+                q.stem_parts[-1].key = line.key
         else:
             q.stem_parts.append(Line(text="", page=line.page, col=line.col, bbox=line.bbox))
         self.questions.append(q)
@@ -273,6 +321,8 @@ class Parser:
         if abs(ln.bold - last.bold) > 0.5:
             return False                       # bold stem after plain options (or the reverse)
         first = ln.text.lstrip()[:1]
+        if ln.page != last.page and not first.islower():
+            return False                       # a new page starts a new block unless the sentence runs on
         if first.islower() or first in "(,-/&" or first.isdigit():
             return True
         if ln.bbox[0] > last.bbox[0] + 6:
@@ -349,20 +399,43 @@ class Parser:
         q: Question | None = None
         pending: list[Line] = []          # lines before the first question
         in_exp = False
-        for ln in lines:
+        NUMOPT = re.compile(r"^\s*[(]?\s*([1-6])\s*[)(.\-]\s*(?=\S)")
+        for li, ln in enumerate(lines):
             text = ln.text
+            mnum = NUMOPT.match(text) if self.p.get("numeric_options") and q is not None else None
+            if mnum and int(mnum.group(1)) == len(q.options) + 1 and not (self.q_end and self.q_end.search(text)):
+                # numbered options "1) صح" / "2( خطأ": an option unless a stem ending ("؟", ":") follows
+                # before the next numbered line (then it is a multi-line question stem)
+                stem_like = False
+                for nxt in lines[li + 1:li + 6]:
+                    if NUMOPT.match(nxt.text) or self.o_rx.match(nxt.text):
+                        break
+                    if self.q_end and self.q_end.search(nxt.text):
+                        stem_like = True
+                        break
+                if not stem_like:
+                    text = ln.text = f"{'abcdef'[int(mnum.group(1)) - 1]}) {text[mnum.end():]}"
             num = self._number(text)
+            if self.q_end and q is not None and len(q.options) >= 2 and self.q_end.search(text) \
+                    and not self.o_rx.match(text) and not (num and self._accept_number(num[0]) == "next"):
+                # profile question_end: a stem line ("…:" / "…؟") after an option run opens the next
+                # question even when OCR destroyed its number ('"- من أمثلة …:')
+                ln.text = re.sub(r"^(?:[^\u0600-\u06ffA-Za-z(]+|[VvIl]{1,2}\s)+", "", text).strip() or text
+                q = Question(number=None, section=q.section, stem_parts=[ln], flags=["unnumbered", "stem_by_question_end"])
+                self.questions.append(q)
+                in_exp = False
+                continue
             if num and self.lenient and q is not None and q.options and len(q.options) < 6 \
                     and self._accept_number(num[0]) == "gap":
                 first = q.options[0].parts[0]
-                if first.page == ln.page and first.col == ln.col and abs(ln.bbox[0] - first.bbox[0]) <= 8:
+                if first.page == ln.page and first.col == ln.col and _edge_gap(ln, first) <= 8:
                     letter = LETTERS[len(q.options)]
                     q.options.append(self._opt(letter, num[1], ln))
                     q.flags.append(f"option_marker_repaired_{letter}")
                     continue
             if num and self.lenient and q is not None and len(q.options) >= 2 and not self._accept_number(num[0]):
                 stems = [x.stem_parts[0] for x in self.questions[-4:] if x.stem_parts]
-                if stems and all(abs(ln.bbox[0] - st.bbox[0]) <= 10 for st in stems[-2:]):
+                if stems and all(_edge_gap(ln, st) <= 10 for st in stems[-2:]):
                     fixed = self.sections[-1] + self._unnumbered_since() + 1
                     q = self._new_question(fixed, "next", ln, num[1])
                     q.flags.append(f"number_corrected_from_{num[0]}")
@@ -395,20 +468,27 @@ class Parser:
                         q.exp_parts.append(Line(text=tail, page=ln.page, col=ln.col, bbox=ln.bbox))
                     in_exp = True
                     continue
+                mt = self.ans_text_rx.match(text) if self.ans_text_rx else None
+                if mt and q is not None and q.options and q.answer_text is None:
+                    # the key given as the option's text; continuation rows follow in exp_parts
+                    q.answer_text = mt.group(1).strip()
+                    q.exp_parts.append(Line(text=mt.group(1).strip(), page=ln.page, col=ln.col, bbox=ln.bbox))
+                    in_exp = True
+                    continue
                 mo = self.o_rx.match(text) or (TIGHT_DASH_OPT.match(text) if ln.split_option else None)
                 if not mo and self.lenient and q is not None and q.options and len(q.options) < 6:
                     first = q.options[0].parts[0]
                     mg = OCR_MARKER.match(text)
                     letter = LETTERS[len(q.options)]
                     aligned = first.page == ln.page and first.col == ln.col and not q.after
-                    if mg and aligned and abs(ln.bbox[0] - first.bbox[0]) <= 8:
+                    if mg and aligned and _edge_gap(ln, first) <= 8:
                         q.options.append(self._opt(letter, text[mg.end():], ln))
                         q.flags.append(f"option_marker_repaired_{letter}")
                         continue
                     # "D Incision and drainage": the expected letter with its "." eaten by a pen tick —
                     # the option is real, and the tick is a strong hint that it is the marked answer
                     bare = BARE_MARKER(letter).match(text)
-                    if bare and aligned and abs(ln.bbox[0] - first.bbox[0]) <= 14:
+                    if bare and aligned and _edge_gap(ln, first) <= 14:
                         q.options.append(self._opt(letter, text[bare.end():], ln))
                         q.flags.append(f"option_marker_repaired_{letter}_bare_possible_mark")
                         continue
@@ -488,7 +568,8 @@ class Parser:
         keep = []
         for x in self.questions:
             raw = " ".join(p.text for p in x.stem_parts) + " " + " ".join(p.text for o in x.options for p in o.parts)
-            if not re.search(r"[A-Za-z]{3,}", ARABIC.sub("", raw)):
+            if not re.search(rf"[A-Za-z{AR_LETTERS if self.keep_ar else ''}]{{3,}}",
+                             raw if self.keep_ar else ARABIC.sub("", raw)):
                 self.skipped.append({"number": x.number, "reason": "no English text (form field or Arabic-only item)"})
                 continue
             keep.append(x)
@@ -571,10 +652,18 @@ def finish(questions: list[Question], profile: dict[str, Any]) -> list[dict[str,
     """Clean texts, compute type and flags, and return JSON-able records."""
     out = []
     dehy = (lambda t: t)
+    ar = bool(profile.get("keep_arabic"))
+    clean_text = (lambda t, stem=False: _clean_text(t, stem=stem, keep_arabic=ar))
     if profile.get("glyph_repair"):
         from .glyphs import GlyphRepair
         dehy = GlyphRepair.dehyphenate
     for i, q in enumerate(questions, 1):
+        if not q.inline_answer:                  # answers.key_column: the key printed beside the stem
+            keys = [getattr(p, "key", None) for p in q.stem_parts if getattr(p, "key", None)]
+            if len(keys) == 1:
+                q.inline_answer = keys[0]
+            elif len(set(keys)) > 1:
+                q.flags.append("several_key_column_letters")
         _repair_lost_marker(q)                  # before the stem text: it may take the stem's last row
         stem = dehy(clean_text(" ".join(p.text for p in q.stem_parts if p.text), stem=True))
         cut = ""
@@ -644,7 +733,7 @@ def finish(questions: list[Question], profile: dict[str, Any]) -> list[dict[str,
         out.append({
             "i": i, "number": q.number, "section": q.section, "type": qtype, "stem": stem,
             "options": options, "after": after, "exp": exp or (after if qtype == "QROC" else ""),
-            "inline_answer": q.inline_answer, "flags": flags, "cut_prefix": cut,
+            "inline_answer": q.inline_answer, "answer_text": exp if q.answer_text else None, "flags": flags, "cut_prefix": cut,
             "page": first.page if first else 0,
             "bbox": [first.bbox[0], first.bbox[1], max(x.bbox[2] for x in q.stem_parts + last_parts), y1]
             if first else None,

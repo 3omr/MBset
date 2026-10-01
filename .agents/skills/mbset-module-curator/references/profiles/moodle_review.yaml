@@ -8,4 +8,6 @@ skip_patterns:
   - '^\s*Question text\s*$'
 answers:
   mode: inline
-  inline_pattern: '^\s*The correct answer is:?\s*\(?([A-Fa-f])\)?[.)\s]'
+  inline_pattern: '^\s*The correct answer is:?\s*\(?([A-Fa-f])(?:[.)]|\s*$)'
+  # the key as option text: "The correct answer is: Arginine" (matched to exactly one option)
+  text_pattern: '^\s*The correct answers? (?:is|are):?\s*(.+)$'

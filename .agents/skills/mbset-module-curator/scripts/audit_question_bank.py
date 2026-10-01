@@ -56,7 +56,7 @@ CANON = ['id', 'Cas', 'Text', 'Image', 'explanationImage', 'A', 'B', 'C', 'D', '
 
 
 def norm_stem(s):
-    return re.sub(r"[^a-z0-9]", "", str(s or "").lower())
+    return re.sub(r"[^a-z0-9\u0621-\u064a]", "", str(s or "").lower())
 
 
 # --------------------------------------------------------------------------- Excel
@@ -103,7 +103,7 @@ def report_bias(per, min_n=15):
     return lines, hard, soft
 
 
-def audit_excel(path, by_tag):
+def audit_excel(path, by_tag, allow_arabic=False):
     hdr, data = read_excel(path)
     H = {h: i for i, h in enumerate(hdr) if h}
     g = lambda r, k: (r[H[k]] if k in H and H[k] < len(r) else None)
@@ -160,7 +160,7 @@ def audit_excel(path, by_tag):
         filled = [L for L in "ABCDEF" if opts[L]]
         blob = " ".join(str(g(r, c) or "") for c in ("Text", "A", "B", "C", "D", "E", "F", "EXP") if c in H)
 
-        if ARABIC.search(blob):
+        if ARABIC.search(blob) and not allow_arabic:
             note("Arabic characters", i, text)
         if len(text.strip()) < 10:
             note("stem under 10 chars", i, text)
@@ -259,7 +259,7 @@ def audit_markdown(dirpath):
         if len(answers) != len(nums):
             issues.append(f"{len(nums)} questions but {len(answers)} answers")
             hard.append(f"{name}: questions/answers mismatch")
-        if ARABIC.search(txt):
+        if ARABIC.search(txt) and not re.search(r"^> Arabic: kept\b", txt.split("### Q", 1)[0], re.M):
             issues.append("Arabic characters")
             hard.append(f"{name}: Arabic characters")
         missing_src = len(mcq) - sum(sources.values())
@@ -298,6 +298,8 @@ def main():
     ap.add_argument("--by-tag", action="store_true",
                     help="break the answer distribution down by source tag (recommended)")
     ap.add_argument("--json", help="write a machine-readable report here")
+    ap.add_argument("--allow-arabic", action="store_true",
+                    help="modules whose Arabic-language sources are kept in Arabic (profile keep_arabic)")
     args = ap.parse_args()
     if not args.excel and not args.markdown:
         ap.error("give --excel and/or --markdown")
@@ -307,7 +309,7 @@ def main():
         h, s, p = audit_markdown(args.markdown)
         hard += h; soft += s; payload["markdown"] = p
     if args.excel:
-        h, s, p = audit_excel(args.excel, args.by_tag or True)
+        h, s, p = audit_excel(args.excel, args.by_tag or True, args.allow_arabic)
         hard += h; soft += s; payload["excel"] = p
 
     print("=" * 78)
