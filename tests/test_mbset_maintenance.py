@@ -171,7 +171,11 @@ class PacketBriefTests(unittest.TestCase):
             srcs.append({"nn": "05", "rel": "Raw_PDF_Questions/x.pdf", "md": "05_X.md", "status": "excluded"})
             (root / ".mbset/state.json").write_text(json.dumps({"sources": srcs}), encoding="utf-8")
             out = run_cli("packets", str(root), "--n", "2")
-            self.assertIn("--model gpt-6-luna --effort max", out)
+            self.assertIn("worker not set: ask the user", out)          # the worker is the user's choice
+            self.assertNotIn("gpt-6-luna", out)
+            out = run_cli("packets", str(root), "--n", "2", "--dispatch", 'wk --brief "{brief}" --effort {effort}')
+            self.assertIn('wk --brief "', out)
+            self.assertIn("--effort max", out)
             briefs = sorted((root / ".mbset/packets").glob("packet_*_brief.txt"))
             self.assertEqual([b.name for b in briefs], ["packet_1_brief.txt", "packet_2_brief.txt"])
             texts = [b.read_text(encoding="utf-8") for b in briefs]

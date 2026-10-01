@@ -14,7 +14,7 @@ import textwrap
 from pathlib import Path
 from typing import Any
 
-from .common import Module, load_json
+from .common import Module, load_json, review_flags
 
 FONT_CANDIDATES = ["/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
                    "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"]
@@ -36,7 +36,7 @@ def sample(records: list[dict[str, Any]], flagged_first: bool = False, n: int | 
     k = min(k, len(records))
     picked: list[dict[str, Any]] = []
     if flagged_first:
-        picked = [r for r in records if r["flags"]][: k // 2]
+        picked = [r for r in records if review_flags(r["flags"])][: k // 2]
     step = (len(records) - 1) / max(k - 1, 1)
     for j in range(k):
         r = records[round(j * step)]
@@ -44,7 +44,7 @@ def sample(records: list[dict[str, Any]], flagged_first: bool = False, n: int | 
             picked.append(r)
         if len(picked) >= k:
             break
-    return sorted(picked, key=lambda r: r["i"])
+    return sorted(picked, key=lambda r: (0, r["i"]) if r.get("i") is not None else (1, 0))
 
 
 def _md_blocks(path: Path) -> dict[str, str]:
@@ -83,6 +83,7 @@ def render(module: Module, src: dict[str, Any], flagged_first: bool = False, n: 
     doc = fitz.open(path) if is_pdf else None
     font = _font(15)
     outs: list[Path] = []
+    shown: set[int] = set()
     try:
         for chunk_no in range(0, len(picks), 5):
             chunk = picks[chunk_no:chunk_no + 5]
@@ -97,6 +98,13 @@ def render(module: Module, src: dict[str, Any], flagged_first: bool = False, n: 
                     pix = page.get_pixmap(dpi=110, clip=rect, annots=True)
                     left = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
                     if left.width > 620:
+                        left = left.resize((620, int(left.height * 620 / left.width)))
+                        shown.add(r["page"])                   # once per page; later rows compare against it
+                elif r.get("page") is not None and "transcribed" in r.get("flags", []) and r["page"] not in shown:
+                    # transcribed questions have no box: show their whole page (rendered for the workers)
+                    png = module.meta / "transcripts" / src["nn"] / "pages" / f"p{r['page'] + 1:03d}.png"
+                    if png.exists():
+                        left = Image.open(png).convert("RGB")
                         left = left.resize((620, int(left.height * 620 / left.width)))
                 block = blocks.get(r["stem"]) or f"(not found in markdown) Q{r['i']}: {r['stem']}"
                 text_lines = [f"[parsed #{r['i']} · source no. {r['number']} · page {r['page'] + 1}"

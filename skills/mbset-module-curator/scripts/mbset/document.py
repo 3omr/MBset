@@ -105,6 +105,9 @@ def order_page(lines: list[Line], width: float, height: float, columns: Any = "a
     return ordered, split
 
 
+ARABIC_CHARS = re.compile(r"[\u0600-\u06ff]")
+
+
 def _merge_visual_lines(group: list[Line]) -> list[Line]:
     group = sorted(group, key=lambda ln: ((ln.bbox[1] + ln.bbox[3]) / 2, ln.bbox[0]))
     merged: list[list[Line]] = []
@@ -128,10 +131,16 @@ def _merge_visual_lines(group: list[Line]) -> list[Line]:
             h = max(prev.bbox[3] - prev.bbox[1], 6)
             gap = ln.bbox[0] - prev.bbox[2]
             short = len(prev.text.strip()) <= 4 and len(ln.text.strip()) <= 4
-            if gap > 2.5 * h and not short:
+            # a lone key letter printed in a right-hand column beside a long stem ("… proteins?   C")
+            lone_key = re.fullmatch(r"[A-F]", ln.text.strip()) is not None and len(prev.text.strip()) > 12
+            if (gap > 2.5 * h and not short) or (lone_key and gap > 1.0 * h):
                 segments.append([ln])
             else:
                 segments[-1].append(ln)
+        text = " ".join(ln.text for ln in group_parts)
+        if len(ARABIC_CHARS.findall(text)) > len(re.findall(r"[A-Za-z]", text)):
+            # right-to-left line: fragments and side-by-side segments read from the right
+            segments = [list(reversed(parts)) for parts in reversed(segments)]
         for parts in segments:
             out.append(_join(parts))
     return out
@@ -220,6 +229,10 @@ def page_mark_rects(page) -> list[tuple[Any, str]]:
         if not fill or d.get("rect") is None:
             continue
         r, g, b = fill[:3]
+        rect = d["rect"]
+        if max(r, g, b) < 0.15 and rect.height < 2.5 and 4 <= rect.width < page.rect.width * 0.6:
+            rects.append((rect, "underline_rule"))    # a drawn underline under the answer (Word underline)
+            continue
         if min(r, g, b) > 0.93 or max(r, g, b) < 0.15 or (max(r, g, b) - min(r, g, b)) < 0.12:
             continue  # white, black or grey
         rect = d["rect"]
@@ -235,6 +248,11 @@ def _marks_for(bbox, rects) -> list[str]:
     area = max(box.get_area(), 1)
     kinds = set()
     for rect, kind in rects:
+        if kind == "underline_rule":
+            # the rule sits just below the baseline of the text it underlines
+            if min(box.x1, rect.x1) - max(box.x0, rect.x0) > 2 and box.y1 - 4 <= rect.y0 <= box.y1 + 4:
+                kinds.add("underline")
+            continue
         inter = fitz.Rect(box) & rect
         if inter.is_empty:
             continue
@@ -258,12 +276,19 @@ def _is_colored(rgb: int) -> bool:
     return max(r, g, b) - min(r, g, b) > 60 and max(r, g, b) > 90
 
 
+def _is_bold(span: dict[str, Any]) -> bool:
+    return bool(span["flags"] & 16 or re.search(r"bold|black|heavy", span["font"], re.I))
+
+
 def native_pdf_pages(path: Path, pages: list[int] | None = None, glyph_repair: list[str] | None = None):
     """Yield (page_index, width, height, [Line]) from the PDF text layer."""
     import fitz
 
     fixer = None
-    if glyph_repair:
+    if isinstance(glyph_repair, dict):          # profile glyph_swap
+        from .glyphs import GlyphSwap
+        fixer = GlyphSwap(glyph_repair)
+    elif glyph_repair:
         from .glyphs import GlyphRepair
         fixer = GlyphRepair(glyph_repair)
 
@@ -286,9 +311,13 @@ def native_pdf_pages(path: Path, pages: list[int] | None = None, glyph_repair: l
                                if s["flags"] & 16 or re.search(r"bold|black|heavy", s["font"], re.I)) / n
                     color = sum(len(s["text"].strip()) for s in spans if _is_colored(s["color"])) / n
                     bbox = tuple(raw["bbox"])
+                    marks = set(_marks_for(bbox, rects)) | set(_near_marks(bbox, rects))
+                    # only the option letter is bold ("**d)** Catalysis"): the key of many department MCQ files
+                    if bold < 0.5 and _is_bold(spans[0]) and re.fullmatch(r"\(?[a-fA-F]\s*[.)\-]?", spans[0]["text"].strip()):
+                        marks.add("bold_marker")
                     lines.append(Line(text=text, page=pno, bbox=bbox, bold=round(bold, 2),
                                       color=round(color, 2),
-                                      marks=sorted(set(_marks_for(bbox, rects)) | set(_near_marks(bbox, rects))),
+                                      marks=sorted(marks),
                                       size=round(max(s["size"] for s in spans), 1)))
             yield pno, page.rect.width, page.rect.height, lines
 
@@ -538,7 +567,7 @@ def load_lines(module: Module, src: dict[str, Any], profile: dict[str, Any]) -> 
     if mode == "best":
         iterator = best_pages(module, src, path, pages, profile.get("glyph_repair"), info)
     else:
-        iterator = (native_pdf_pages(path, pages, profile.get("glyph_repair")) if mode == "native"
+        iterator = (native_pdf_pages(path, pages, profile.get("glyph_swap") or profile.get("glyph_repair")) if mode == "native"
                     else ocr_pages(module, src, pages))
     out: list[Line] = []
     for pno, width, height, lines in iterator:

@@ -39,7 +39,7 @@ DEFAULT: dict[str, Any] = {
         "grid_pages": None,    # pages holding the key grid, e.g. "12" or "-1" (last)
         "grid_pattern": r"(?<!\d)(\d{1,3})\s*[-.:)=]?\s*\(?([A-Fa-f])\)?(?![A-Za-z])",
         "inline_pattern": r"^\s*(?:correct\s+)?(?:answer|ans|key)\s*(?:is)?\s*[:\-=.]?\s*\(?([A-Fa-f])\)?\b",
-        "marked_by": ["tick", "highlight", "fill", "tint", "ink", "circle", "box", "bold", "color", "underline"],
+        "marked_by": ["tick", "highlight", "fill", "tint", "ink", "circle", "box", "bold", "bold_marker", "color", "underline"],
         "tint": True,
         "docreader_quiz": None,
     },
@@ -47,6 +47,12 @@ DEFAULT: dict[str, Any] = {
         "answer_marker": r"^\s*(?:model\s+)?(?:answer|ans)\s*[:\-]",
     },
     "ocr": {"dpi": 300, "psm": 3, "lang": "eng", "rotate": 0},
+    # questions written in Arabic are kept in Arabic (user decision per module); OCR with ocr.lang: ara+eng
+    "keep_arabic": False,
+    "markdown": "parser",      # parser | keep (a reconciled markdown is kept; fix edits it in place)
+    "transcribe": False,       # true: questions come from page-image transcripts (`mbset.py transcribe`)
+    "question_end": None,
+    "numeric_options": False,  # options numbered 1) 2) 3) (needs question_end to tell stems apart)      # regex, e.g. '[:؟?]\s*$': such a line after an option run starts a new question
     "notes": "",
 }
 
