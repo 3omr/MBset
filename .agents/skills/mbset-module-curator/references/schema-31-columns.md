@@ -48,7 +48,7 @@ In use by `CVS_Questions.xlsx`, `CNS_Questions.xlsx`, `NHB_Questions.xlsx`, `Beh
 2. **`id`** — always empty; numeric IDs collide with existing database records.
 3. **`Type` discrimination**
    - `QCS`: at least `A` and `B` populated, `Correct` ∈ `{A..F}` and present among the populated options.
-   - `QROC`: options `A`-`F` all `None`, `Correct` and `EXP` empty, `ModelAnswer` holds the model answer. (In the markdown a written item still carries `**Correct Answer:** -` and its model answer as `**EXP:**`; the builder moves it.)
+   - `QROC`: options `A`-`F` all `None`, `Correct` and `EXP` empty, `ModelAnswer` holds the model answer. (In the markdown a written item carries `**Correct Answer:** -` and its model answer as `**Model Answer:**` — older files as `**EXP:**`, which the builder still reads.)
 4. **Sequential options** — `A` first, no letter gaps. After repacking, move `Correct` with the options.
 5. **No duplicate normalized stems** in the finished file.
 6. **`Image`** — populated for every figure-dependent question; a figure-dependent question with an empty `Image` is a defect.

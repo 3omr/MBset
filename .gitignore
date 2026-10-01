@@ -2,7 +2,6 @@
 /*
 !/.gitignore
 !/AGENTS.md
-!/SKILL_UPGRADE_PLAN.md
 !requirements*.txt
 !/skills-lock.json
 !/scripts/

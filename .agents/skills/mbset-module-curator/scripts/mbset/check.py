@@ -16,7 +16,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
-from .common import ARABIC, LETTERS, Module, load_json, now
+from .common import ARABIC, LETTERS, Module, load_json, now, review_flags
 
 SCRIPTS = Path(__file__).resolve().parents[1]
 VALID_SOURCES = {"key", "marked", "online", "derived"}
@@ -53,6 +53,7 @@ def check_source(module: Module, src: dict[str, Any]) -> dict[str, Any]:
         return {"hard": [f"no markdown ({src['md']})"], "review": [], "info": {}}
     text = path.read_text(encoding="utf-8")
     qs = BUILD.parse_markdown(str(path))
+    keep_ar = bool(BUILD.ARABIC_KEPT.search(text.split("### Q", 1)[0]))   # profile keep_arabic (user decision)
     raw_blocks = re.split(r"^### Q\d+", text, flags=re.M)[1:]
     nums = [int(n) for n in re.findall(r"^###\s*Q(\d+)", text, re.M)]
     mcq = [q for q in qs if q["Type"] == "QCS"]
@@ -82,22 +83,24 @@ def check_source(module: Module, src: dict[str, Any]) -> dict[str, Any]:
             review.append(f"option-A lines {c['option_a_lines']} vs {len(mcq)} MCQs (± dropped {dropped})")
         if c.get("declared_total") and c["declared_total"] != len(qs) + dropped and not note:
             hard.append(f"declared total {c['declared_total']} ≠ {len(qs)} questions (+{dropped} dropped)")
+        for m in c.get("missing_chunks") or []:
+            hard.append(f"transcript incomplete: {m} — dispatch its brief (`mbset.py transcribe --status`)")
         for g in parsed.get("gaps", []):
+            if g.startswith("not transcribed yet"):
+                continue
             if note:
                 continue
             if complete:        # the count covers the whole numbering range: the gap was filled
                 review.append(f"numbering gap filled (count matches the range): {g}")
             else:
                 hard.append(f"numbering gap in source: {g}")
-        flagged = [(r["i"], r["flags"]) for r in parsed["questions"] if r["flags"]]
-        stems = {BUILD.scrub(r["stem"]) for r in parsed["questions"]}
+        flagged = [(r["i"], review_flags(r["flags"])) for r in parsed["questions"] if review_flags(r["flags"])]
+        stems = {BUILD.scrub(r["stem"], keep_arabic=keep_ar) for r in parsed["questions"]}
         stale = (parsed.get("overrides") or {}).get("stale")
         if stale:
             review.append(f"{len(stale)} reviewed decisions no longer match any stem — re-review them")
         for i, flags in flagged:
-            soft = [f for f in flags if f not in ("figure_dependent", "no_answer")]
-            if soft:
-                review.append(f"Q{i}: {', '.join(soft)}")
+            review.append(f"Q{i}: {', '.join(flags)}")
         if not {q["Text"] for q in qs} & stems and qs:
             review.append("markdown no longer matches the parser output (hand-edited?)")
     else:
@@ -119,8 +122,8 @@ def check_source(module: Module, src: dict[str, Any]) -> dict[str, Any]:
     # ---- per question
     letters = Counter()
     for n, (q, block) in enumerate(zip(qs, raw_blocks), 1):
-        text_all = " ".join(str(q.get(k) or "") for k in ("Text", "EXP", *LETTERS))
-        if ARABIC.search(text_all):
+        text_all = " ".join(str(q.get(k) or "") for k in ("Text", "EXP", *LETTERS))   # EXP holds the model answer too
+        if ARABIC.search(text_all) and not keep_ar:
             hard.append(f"Q{n}: Arabic characters")
         odd = ODD.findall(text_all)
         if odd:
@@ -152,7 +155,7 @@ def check_source(module: Module, src: dict[str, Any]) -> dict[str, Any]:
             if q["Correct"] not in (None, "", "-"):
                 hard.append(f"Q{n}: written question must not carry an answer letter")
             if not q.get("EXP"):
-                hard.append(f"Q{n}: written question without model answer (EXP) — `fix --exp-file`")
+                hard.append(f"Q{n}: written question without a model answer (`**Model Answer:**`) — `fix --model-file`")
         if AUDIT.FIGURE.search(q["Text"] or "") and not q.get("Image"):
             hard.append(f"Q{n}: figure-dependent stem without Image")
         if q.get("Image") and not (module.root / q["Image"]).exists():

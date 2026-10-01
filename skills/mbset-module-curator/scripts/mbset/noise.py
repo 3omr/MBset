@@ -80,9 +80,10 @@ def repair_notation(text: str) -> str:
     return text
 
 
-def clean_text(text: str, stem: bool = False) -> str:
+def clean_text(text: str, stem: bool = False, keep_arabic: bool = False) -> str:
     text = clean_inline(text).translate(QUOTES)
-    text = ARABIC.sub("", text)
+    if not keep_arabic:
+        text = ARABIC.sub("", text)
     text = GRID_DUMP.sub("", text)
     text = TABLE_HDR.sub("", text)
     text = BUBBLES.sub(" ", text)

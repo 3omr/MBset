@@ -1,9 +1,34 @@
-# Parallel workflow — packets, Codex workers, locks
+# Parallel workflow — chunks, worklist parts, packets
+
+## Default: JSON-only workers, big files always split
+Two kinds of parallel unit, both safe without locks because the worker writes **only JSON** and the
+coordinator ingests/applies it:
+
+| Unit | Made by | Worker writes | Coordinator |
+| :--- | :--- | :--- | :--- |
+| transcription chunk (6 pages) | `transcribe "$M" --only NN` | `.mbset/transcripts/NN/chunk_KK.json` | `transcribe --status` → `parse --only NN` → `check` |
+| worklist part (≤ 60 cost, question range) | `worklist "$M"` | `.mbset/packets/worklist/out/<NN[_pK]>/{text,answers,model,drop,add}.json` | `worklist --apply` → `check` |
+
+```bash
+python $S route "$M"                                # which sources go to transcribe
+python $S transcribe "$M" --only 07,09,12 [--dispatch '<worker cmd with {brief}>']
+#   → one brief (or one ready command) per chunk; dispatch them all at once to the worker the user chose
+python $S transcribe "$M" --status && python $S parse "$M" --only 07,09,12
+python $S worklist "$M" [--dispatch …]              # what is left anywhere, big files in parts
+#   → one brief per worklist; dispatch them all at once
+python $S worklist "$M" --apply && python $S check "$M"
+```
+With Claude subagents: one background `Agent` call per brief ("Read <brief> and do exactly what it says").
+With a delegate CLI: `--dispatch` (or `MBSET_DISPATCH`) makes the scripts print one ready line per brief.
+A chunk whose worker died is simply re-dispatched (its JSON is missing; `--status` lists it). The split is
+stable once made, so a re-run of `transcribe` never moves pages between chunks.
+
+## Legacy: whole-source packets (small parse-route files only)
 
 Large modules (40+ sources, 1 000+ pages) are split into packets. The deterministic steps
 (inventory, OCR, parse) are already fast and run once, by the orchestrator; parallelism pays off for
 the **judgement loop** — flag triage, answer sheets of pen-marked scans, spot checks and QROC /
-derived answers — which is delegated to Codex **gpt-6-luna** at effort **max**, one run per packet
+derived answers — which is delegated to the worker the user chose, effort **max**, one run per packet
 (see [`model-routing.md`](./model-routing.md)).
 
 ## Orchestrator (main agent)
@@ -15,18 +40,13 @@ python $S parse "$M"
 python $S packets "$M" --n 4                   # .mbset/packets/packet_k.md + packet_k_brief.txt
 ```
 `packets` writes, per packet, `packet_k.md` (human-readable) and `packet_k_brief.txt`: a
-**self-contained** Codex brief. Codex sees only that text — no chat history, no skill, no AGENTS.md —
+**self-contained** worker brief. The worker sees only that text — no chat history, no skill, no AGENTS.md —
 so the brief carries the module path, the script path, its NN list, the lock/review loop below
 verbatim, the rules and the report contract. Dispatch every packet at once, each in the background:
 
-```bash
-for k in 1 2 3 4; do
-  node ~/.agents/skills/codex-delegate/scripts/relay.mjs \
-    --brief "$M/.mbset/packets/packet_${k}_brief.txt" --cd /home/omar/MBset \
-    --model gpt-6-luna --effort max &
-done; wait
-```
-Never `gpt-5.6`; never one Codex run for several packets.
+`packets` prints one ready line per packet when `--dispatch` / `MBSET_DISPATCH` is set; otherwise
+dispatch each `packet_k_brief.txt` to the chosen worker (Claude subagent: one `Agent` call each).
+Never one worker run for several packets.
 
 ## Each worker (the loop in the brief)
 ```bash

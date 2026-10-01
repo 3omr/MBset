@@ -8,7 +8,7 @@ from typing import Any
 
 from . import answers as answers_mod
 from . import overrides
-from .common import Module, dump_json, load_json, now, text_hash
+from .common import Module, dump_json, load_json, now, review_flags, text_hash
 from .document import load_lines
 from .parser import Parser, finish, qnum
 from .profiles import effective_profile, write_profile
@@ -54,11 +54,22 @@ def parse_source(module: Module, state: dict[str, Any], src: dict[str, Any], for
     if not module.profile_path(src).exists():
         write_profile(module, src)
     profile = effective_profile(module, src)
-    lines, info = load_lines(module, src, profile)
-    parser = Parser(profile, lenient=info.get("method") == "ocr")
-    questions = parser.parse(lines)
-    records = finish(questions, profile)
-    report = answers_mod.attach(module, src, records, lines, profile)
+    if profile.get("transcribe"):
+        # visual route: the questions come from the workers' chunk JSONs (mbset.py transcribe)
+        from . import transcribe
+        t = transcribe.load(module, src, profile)
+        records, info, counters, gaps = t["records"], t["info"], t["counters"], t["gaps"]
+        dropped_lines: list[str] = []
+        skipped: list[Any] = []
+        report: dict[str, Any] = {"method": "transcribe"}
+    else:
+        lines, info = load_lines(module, src, profile)
+        parser = Parser(profile, lenient=info.get("method") == "ocr")
+        questions = parser.parse(lines)
+        records = finish(questions, profile)
+        report = answers_mod.attach(module, src, records, lines, profile)
+        counters = raw_counters(lines, profile)
+        gaps, dropped_lines, skipped = parser.gaps, parser.dropped, parser.skipped
     applied = overrides.apply(src, records)
     report["answered"] = sum(1 for r in records if r["type"] == "QCS" and r.get("correct"))
     report["mcq"] = sum(1 for r in records if r["type"] == "QCS")
@@ -67,28 +78,31 @@ def parse_source(module: Module, state: dict[str, Any], src: dict[str, Any], for
     for r in records:
         if r["stem"] in old_images and not r.get("image_removed"):
             r["image"] = old_images[r["stem"]]
-    counters = raw_counters(lines, profile)
     counters["parsed_questions"] = len(records)
     counters["parsed_numbered"] = sum(1 for r in records if r["number"] is not None)
     counters["declared_total"] = profile.get("declared_total")
     parsed = {
         "nn": src["nn"], "source": src["rel"], "sha256": src.get("sha256"), "at": now(),
-        "layout": info, "counters": counters, "gaps": parser.gaps, "answers": report,
+        "layout": info, "counters": counters, "gaps": gaps, "answers": report,
         "distribution": answers_mod.distribution(records),
-        "dropped_lines": parser.dropped[:200], "dropped_count": len(parser.dropped),
-        "skipped_questions": parser.skipped, "overrides": applied,
+        "dropped_lines": dropped_lines[:200], "dropped_count": len(dropped_lines),
+        "skipped_questions": skipped, "overrides": applied,
         "questions": records,
     }
     result = {"nn": src["nn"], "questions": len(records), "overrides": applied,
               "mcq": report["mcq"], "answered": report["answered"],
-              "flags": sum(1 for r in records if r["flags"]), "counters": counters, "gaps": parser.gaps,
+              "flags": sum(1 for r in records if review_flags(r["flags"])), "counters": counters, "gaps": gaps,
               "distribution": parsed["distribution"]}
     if dry_run:
         result["dry_run"] = True
         return result
     dump_json(module.parsed_path(src), parsed)
-    text = render(src, records)
-    ok, msg = write(module, src, text, force=force)
+    text = render(src, records, keep_arabic=bool(profile.get("keep_arabic")))
+    if profile.get("markdown") == "keep":
+        # a visually reconciled markdown is the deliverable; the parser output is evidence only
+        ok, msg = False, f"{src['md']} kept (profile markdown: keep) — parser output stored as evidence only"
+    else:
+        ok, msg = write(module, src, text, force=force)
     result["written"] = ok
     result["message"] = msg
     stage = src.setdefault("stages", {}).setdefault("parse", {})

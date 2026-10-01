@@ -306,5 +306,78 @@ class TextFixTests(unittest.TestCase):
         self.assertEqual(len(src["overrides"]), 1)
 
 
+class ModelAnswerAndFlagTests(unittest.TestCase):
+    def test_written_question_gets_model_answer_field(self):
+        recs = [{"type": "QROC", "stem": "Define: ketolysis", "options": [], "exp": "Breakdown of ketone bodies",
+                 "exp_source": "key", "pages": [0]},
+                {"type": "QCS", "stem": "Pick one", "options": [{"letter": "A", "text": "x"}, {"letter": "B", "text": "y"}],
+                 "correct": "B", "answer_source": "key", "exp": "because", "pages": [0]}]
+        text = render({"rel": "Raw_PDF_Questions/s.pdf", "nn": "01"}, recs)
+        self.assertIn("**Model Answer:** Breakdown of ketone bodies", text)
+        self.assertIn("**EXP:** because", text)
+        import build_module_template as b
+        with tempfile.TemporaryDirectory() as tmp:
+            for name, body in (("new.md", text), ("old.md", text.replace("**Model Answer:**", "**EXP:**"))):
+                (Path(tmp) / name).write_text(body, encoding="utf-8")
+                qs = b.parse_markdown(str(Path(tmp) / name))
+                self.assertEqual(qs[0]["Type"], "QROC")
+                self.assertEqual(qs[0]["EXP"], "Breakdown of ketone bodies")   # → ModelAnswer column
+
+    def test_info_flags_do_not_need_review(self):
+        from mbset.common import review_flags
+        self.assertEqual(review_flags(["added_from_page_image", "unnumbered", "number_corrected_from_3",
+                                       "text_corrected_visual", "letters_not_sequential"]),
+                         ["letters_not_sequential"])
+
+
+class TranscribeTests(unittest.TestCase):
+    def test_chunks_split_big_files(self):
+        from mbset.transcribe import chunks_for
+        self.assertEqual(chunks_for(14, 6), [[1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11, 12, 13, 14]])
+        self.assertEqual(len(chunks_for(60, 6)), 10)
+        self.assertEqual(chunks_for(3, 6), [[1, 2, 3]])
+
+    def test_ingest_checks_keys_gaps_and_missing_chunks(self):
+        import json
+        from mbset import transcribe
+        with tempfile.TemporaryDirectory() as tmp:
+            module = Module(tmp)
+            src = {"nn": "01", "rel": "Raw_PDF_Questions/s.pdf", "md": "01_S.md", "triage": {}}
+            d = transcribe.tdir(module, src)
+            d.mkdir(parents=True)
+            chunks = [{"k": 1, "pages": [1, 2], "out": str(d / "chunk_01.json")},
+                      {"k": 2, "pages": [3, 4], "out": str(d / "chunk_02.json")}]
+            (d / "manifest.json").write_text(json.dumps({"pages": 4, "chunks": chunks}), encoding="utf-8")
+            (d / "chunk_01.json").write_text(json.dumps({"questions": [
+                {"page": 1, "number": 1, "stem": "First stem here", "options": {"A": "a", "B": "b"},
+                 "answer": "B", "answer_source": "marked"},
+                {"page": 2, "number": 2, "stem": "Second stem", "options": {"A": "a", "B": "b"},
+                 "answer": "E", "answer_source": "key"},
+                {"page": 2, "number": 5, "stem": "Define: x", "options": {},
+                 "model_answer": "y", "model_answer_source": "key"}],
+                "skipped_numbers": [4]}), encoding="utf-8")
+            t = transcribe.load(module, src, copy.deepcopy(DEFAULT))
+            r = t["records"]
+            self.assertEqual([x["correct"] for x in r], ["B", None, None])
+            self.assertIn("key_letter_not_among_options", r[1]["flags"])
+            self.assertEqual((r[2]["type"], r[2]["exp"], r[2]["exp_source"]), ("QROC", "y", "key"))
+            self.assertTrue(any("missing 3" in g for g in t["gaps"]))           # 4 is declared skipped
+            self.assertFalse(any("missing 4" in g for g in t["gaps"]))
+            self.assertEqual(len(t["counters"]["missing_chunks"]), 1)
+
+
+class WorklistSplitTests(unittest.TestCase):
+    def test_big_file_is_split_into_question_ranges(self):
+        from mbset import worklist
+        w = {"nn": "01", "file": "f.pdf", "md": "m.md", "gaps": ["g"],
+             "text": [(n, "x") for n in range(1, 21)], "answer": list(range(1, 41)), "model": []}
+        parts = worklist.split(w, 30)
+        self.assertGreater(len(parts), 1)
+        self.assertTrue(all(worklist.cost(p) <= 30 for p in parts))
+        self.assertEqual(sum(len(p["answer"]) for p in parts), 40)
+        self.assertEqual([p["gaps"] for p in parts][1:], [[]] * (len(parts) - 1))
+        self.assertEqual(worklist.split(dict(w, text=[], answer=[1]), 30)[0]["part"], None)
+
+
 if __name__ == "__main__":
     unittest.main()

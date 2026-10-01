@@ -65,7 +65,7 @@ def key_for(src: dict[str, Any], md_stem: str, md_options: dict[str, str] | None
     ov = src.get("overrides") or {}
     k = key(md_stem)
     cands = [k] if k in ov else []
-    cands += [pk for pk, o in ov.items() if o.get("stem_fix") and key(o["stem_fix"]) == k and pk != k]
+    cands += [pk for pk, o in ov.items() if not o.get("drop") and o.get("stem_fix") and key(o["stem_fix"]) == k and pk != k]
     if not cands:
         return k
     if len(cands) == 1 or not md_options:
@@ -171,6 +171,7 @@ def add_missing(src: dict[str, Any], records: list[dict[str, Any]]) -> int:
     page by a reviewer: `src["additions"]` = [{"after": <stem key or "">, "stem", "options", "page", …}].
     Inserted after the question whose stem key is `after` (at the start when empty)."""
     n = 0
+    last: dict[str, dict[str, Any]] = {}             # several additions after one question keep their order
     for add in src.get("additions") or []:
         rec = {"i": None, "number": None, "section": None, "type": "QCS" if add.get("options") else "QROC",
                "stem": add["stem"], "after": "", "exp": "", "inline_answer": None,
@@ -182,10 +183,14 @@ def add_missing(src: dict[str, Any], records: list[dict[str, Any]]) -> int:
         if any(rkey(r) == key(rec["stem"]) for r in records):
             continue                                   # the parser finds it now: nothing to add
         at = 0
-        if add.get("after"):
-            at = next((i + 1 for i, r in enumerate(records) if rkey(r) == add["after"]
-                       or key(ov_stem(src, r)) == add["after"]), len(records))
+        anchor = add.get("after") or ""
+        if anchor in last and any(r is last[anchor] for r in records):
+            at = next(i for i, r in enumerate(records) if r is last[anchor]) + 1
+        elif anchor:
+            at = next((i + 1 for i, r in enumerate(records) if rkey(r) == anchor
+                       or key(ov_stem(src, r)) == anchor), len(records))
         records.insert(at, rec)
+        last[anchor] = rec
         n += 1
     return n
 

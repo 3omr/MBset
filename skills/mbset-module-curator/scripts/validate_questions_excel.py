@@ -21,7 +21,7 @@ EXPECTED_HEADERS = [
 
 ARABIC_REGEX = re.compile(r'[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]')
 
-def validate_excel(filepath: str) -> bool:
+def validate_excel(filepath: str, allow_arabic: bool = False) -> bool:
     if not os.path.exists(filepath):
         print(f"Error: File not found: {filepath}")
         return False
@@ -67,7 +67,7 @@ def validate_excel(filepath: str) -> bool:
         text = str(row[2]) if row[2] is not None else ''
         if not text or len(text.strip()) < 5:
             errors.append(f"Row {r_idx}: Question stem 'Text' is missing or too short: '{text}'")
-        if ARABIC_REGEX.search(text):
+        if ARABIC_REGEX.search(text) and not allow_arabic:
             errors.append(f"Row {r_idx}: Arabic characters found in stem 'Text'")
             
         # Column 21: Type
@@ -84,7 +84,7 @@ def validate_excel(filepath: str) -> bool:
             val = row[col_i]
             if val is not None and str(val).strip():
                 options[let] = str(val).strip()
-                if ARABIC_REGEX.search(str(val)):
+                if ARABIC_REGEX.search(str(val)) and not allow_arabic:
                     errors.append(f"Row {r_idx}: Arabic characters in option {let}")
                     
         if qtype == 'QCS':
@@ -133,9 +133,11 @@ def validate_excel(filepath: str) -> bool:
 def main():
     parser = argparse.ArgumentParser(description="Validate MBset 31-Column Question Bank Excel File")
     parser.add_argument("excel_path", help="Path to Excel question bank (.xlsx)")
+    parser.add_argument("--allow-arabic", action="store_true",
+                        help="modules whose Arabic-language sources are kept in Arabic (profile keep_arabic)")
     args = parser.parse_args()
-    
-    success = validate_excel(args.excel_path)
+
+    success = validate_excel(args.excel_path, args.allow_arabic)
     sys.exit(0 if success else 1)
 
 if __name__ == '__main__':
