@@ -33,7 +33,7 @@ derived answers — which is delegated to the worker the user chose, effort **ma
 
 ## Orchestrator (main agent)
 ```bash
-S=.agents/skills/mbset-module-curator/scripts/mbset.py
+S=<skill>/scripts/mbset.py
 python $S inventory "$M"
 python $S ocr "$M" --jobs 3 --workers 4        # once, before splitting: the cache is shared
 python $S parse "$M"

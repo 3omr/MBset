@@ -68,6 +68,18 @@ def check_env(say: Report) -> None:
         if unchecked:
             say("WARN", f"requirements.txt lists packages doctor does not check: {sorted(unchecked)}")
     check_sync(say)
+    # optional Telegram downloader (mbset.py telegram) — nothing secret is printed
+    try:
+        import telethon  # noqa: F401
+        from .telegram import ENV_FILE, SESSION
+        creds = ENV_FILE.exists()
+        session = any(SESSION.parent.glob(SESSION.name + ".session*"))
+        say("OK" if creds and session else "WARN",
+            f"telegram: Telethon installed, credentials {'saved' if creds else 'missing'}, "
+            f"login {'saved' if session else 'missing'}"
+            + ("" if creds and session else " — the user runs `mbset.py telegram setup` (optional)"))
+    except ImportError:
+        say("WARN", "telegram: Telethon not installed (optional: pip install -r scripts/requirements-telegram.txt)")
     # optional external workers — the user picks one (or Claude subagents, which need nothing installed)
     found = [name for name in ("codex", "agy", "claude", "gemini", "cursor-agent", "opencode", "aider", "kimi")
              if shutil.which(name)]
@@ -77,7 +89,7 @@ def check_env(say: Report) -> None:
 
 def check_sync(say: Report) -> None:
     if REPO is None:
-        say("WARN", f"skill mirror check skipped (skill not under <repo>/.agents/skills: {SKILL})")
+        say("OK", f"standalone install at {SKILL} (no repo mirror to check)")
         return
     mirror = REPO / "skills" / SKILL.name
     script = REPO / "scripts" / "sync_skill.sh"
@@ -128,8 +140,50 @@ def check_module(say: Report, path: str) -> None:
     say("OK" if (root / "Markdown_Questions").is_dir() else "WARN", "Markdown_Questions/ exists")
 
 
+def system_install_command() -> list[str] | None:
+    """The package-manager command for the OCR / PDF / archive tools on this OS (None: unknown OS)."""
+    import platform
+    if platform.system() == "Darwin" and shutil.which("brew"):
+        return ["brew", "install", "tesseract", "tesseract-lang", "poppler", "p7zip"]
+    if platform.system() == "Linux" and shutil.which("apt-get"):
+        return ["sudo", "apt-get", "install", "-y", "tesseract-ocr", "tesseract-ocr-ara", "tesseract-ocr-eng",
+                "poppler-utils", "p7zip-full", "python3-venv"]
+    if platform.system() == "Linux" and shutil.which("dnf"):
+        return ["sudo", "dnf", "install", "-y", "tesseract", "tesseract-langpack-ara", "poppler-utils", "p7zip"]
+    return None
+
+
+def fix_system() -> None:
+    """Install missing system tools when that needs no password; otherwise print the one command the user
+    must run (an agent shows it and asks — it never types a sudo password)."""
+    missing = [t for t in ("tesseract", "pdftotext", "pdftoppm") if not shutil.which(t)]
+    if shutil.which("tesseract"):
+        _, langs = _run(["tesseract", "--list-langs"])
+        if "ara" not in langs.split():
+            missing.append("tesseract-ara")
+    if not missing:
+        print("[+] system tools present")
+        return
+    cmd = system_install_command()
+    if not cmd:
+        print(f"[!] install manually: Tesseract (eng + ara) and Poppler — missing: {missing}. Windows: use WSL.")
+        return
+    import sys
+    if cmd[0] == "sudo" and _run(["sudo", "-n", "true"], timeout=5)[0] != 0 and not sys.stdin.isatty():
+        print(f"[!] needs administrator rights — ask the user to run, in their own terminal:\n    {' '.join(cmd)}")
+        return
+    print(f"[*] {' '.join(cmd)}")
+    subprocess.run(cmd, check=False)
+
+
 def cmd_doctor(args) -> int:
     say = Report()
+    if getattr(args, "fix", False):
+        print("fix:")
+        fix_system()                     # Python packages were already installed by mbset.py's bootstrap
+        if getattr(args, "telegram", False):
+            print("[+] Telegram downloader installed — next, the user runs `mbset.py telegram setup` once")
+        print()
     print("environment:")
     check_env(say)
     if args.module:
@@ -142,4 +196,7 @@ def cmd_doctor(args) -> int:
 def register(sub) -> None:
     p = sub.add_parser("doctor", help="check tools, python modules, skill mirror sync (and a module's state/locks)")
     p.add_argument("module", nargs="?", help="optional module folder")
+    p.add_argument("--fix", action="store_true", help="install what is missing (Python packages automatically; "
+                                                      "system tools when no password is needed)")
+    p.add_argument("--telegram", action="store_true", help="with --fix: also install the Telegram downloader")
     p.set_defaults(fn=cmd_doctor)

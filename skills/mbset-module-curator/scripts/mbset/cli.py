@@ -32,6 +32,10 @@ def cmd_inventory(args) -> int:
     from . import inventory
 
     module = Module(args.module)
+    if getattr(args, "university", None):
+        st = module.load()
+        st["university"] = args.university            # tag taxonomy for this module (SKILL.md §3)
+        module.save(st)
     state = inventory.run(module)
     print(inventory.summary(state))
     if not state.get("catalog_managed") and not (module.markdown / "00_CATALOG_OF_ALL_FILES.md").exists():
@@ -674,13 +678,15 @@ def build_parser() -> argparse.ArgumentParser:
 
     def add(name, fn, help_, only=True):
         p = sub.add_parser(name, help=help_)
-        p.add_argument("module", help="module folder, e.g. 'أزهر دمياط/Endocrinology'")
+        p.add_argument("module", help="module folder, e.g. 'My University/Endocrinology'")
         if only:
             p.add_argument("--only", help="comma-separated NN / filenames")
         p.set_defaults(fn=fn)
         return p
 
-    add("inventory", cmd_inventory, "Stage 0: archives, hashes, dedupe, triage, catalog skeleton", only=False)
+    p = add("inventory", cmd_inventory, "Stage 0: archives, hashes, dedupe, triage, catalog skeleton", only=False)
+    p.add_argument("--university", choices=["Damietta", "Assiut"],
+                   help="tag taxonomy of this module (default: guessed from the folder path)")
     p = add("ocr", cmd_ocr, "Stage 0.5: OCR every scanned source (cached)")
     p.add_argument("--jobs", type=int, default=2, help="files in parallel")
     p.add_argument("--workers", type=int, default=4, help="pages in parallel per file")
@@ -750,8 +756,8 @@ def build_parser() -> argparse.ArgumentParser:
     add("status", cmd_status, "one line per source", only=False)
     p = add("run", cmd_run, "inventory → OCR → parse → check in one go", only=False)
     p.add_argument("--jobs", type=int, default=2); p.add_argument("--workers", type=int, default=4)
-    from . import crossdup, doctor, lectures, report, tidy, transcribe, worklist
-    for extra in (tidy, report, doctor, crossdup, lectures, worklist, transcribe):
+    from . import crossdup, doctor, lectures, report, telegram, tidy, transcribe, worklist
+    for extra in (tidy, report, doctor, crossdup, lectures, worklist, transcribe, telegram):
         extra.register(sub)
     return ap
 

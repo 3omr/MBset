@@ -1,15 +1,18 @@
 # Pipeline v2 — `mbset.py` command reference
 
 ```bash
-S=.agents/skills/mbset-module-curator/scripts/mbset.py
-M="أزهر دمياط/Endocrinology"
+S=<skill>/scripts/mbset.py          # wherever the skill folder is installed
+M="My University/Endocrinology"     # any module folder with Raw_PDF_Questions/
 ```
 `--only` accepts NN (`3`, `03`), ranges (`10-14`), comma lists and file names. All state is in
 `$M/.mbset/`; deleting that folder resets the pipeline but never touches sources or markdown.
 
 | Command | What it does | Output |
 | :--- | :--- | :--- |
-| `inventory "$M"` | expand archives, SHA-256 + near-duplicate detection, triage, NN assignment (keeps an existing catalog's NN), tag suggestions | `state.json`, summary table |
+| `telegram setup` | once per person, **run by the user** in their own terminal: API id/hash from my.telegram.org + login; saved in `~/.config/mbset/` (mode 600) | — |
+| `telegram status` | Telethon installed? credentials saved? session logged in? (no secrets printed) | terminal |
+| `telegram download "$M" URL… [--links-file f] [--offset] [--limit] [--dry-run]` | post files → `$M/Raw_PDF_Questions/` (public posts, ranges `…/120-160`, private `t.me/c/…`); resumable, sha-deduplicated | `.mbset/telegram_downloads.json` |
+| `inventory "$M" [--university Damietta\|Assiut]` | expand archives, SHA-256 + near-duplicate detection, triage, NN assignment (keeps an existing catalog's NN), tag suggestions | `state.json`, summary table |
 | `ocr "$M" [--jobs 2 --workers 4] [--force] [--all]` | Tesseract TSV per page for scanned sources, in parallel, cached by hash + settings | `.mbset/ocr/NN.json`; pages with low confidence listed |
 | `profile "$M" [--only] [--force] [--print]` | write / show the per-source profile | `.mbset/profiles/NN.yaml` |
 | `parse "$M" [--only] [--force] [--dry-run]` | lines → questions → answers → markdown; OCRs first when needed; re-applies `fix` decisions | `Markdown_Questions/NN_*.md`, `.mbset/parsed/NN.json` |

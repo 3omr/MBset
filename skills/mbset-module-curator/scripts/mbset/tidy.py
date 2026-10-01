@@ -462,7 +462,7 @@ def cmd_tidy(args) -> int:
 
 def register(sub) -> None:
     p = sub.add_parser("tidy", help="standardize the module folder layout (dry run; --apply moves to _trash)")
-    p.add_argument("module", help="module folder, e.g. 'أزهر دمياط/Endocrinology'")
+    p.add_argument("module", help="module folder, e.g. 'My University/Endocrinology'")
     p.add_argument("--apply", action="store_true", help="move items (never deletes; writes _trash/<date>/MANIFEST.json)")
     p.add_argument("--lectures-from", metavar="DIR", help="folder holding the official uploaded lecture set")
     p.add_argument("--placeholders", action="store_true",

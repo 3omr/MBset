@@ -4,15 +4,33 @@ description: >-
   Standard operating procedure and toolkit for curating, formatting, and building
   MBset medical modules. Use it to extract questions from exam PDFs, scans, Word files,
   slides and screenshots into markdown and the 32-column question bank Excel: the mbset.py
-  pipeline (inventory, OCR, route, per-source parser profiles or parallel page-image transcription,
+  pipeline (Telegram download with the user's own account, inventory, OCR, route, per-source parser profiles or parallel page-image transcription,
   automatic answer keys with provenance, worklists split across parallel reviewers, figures, spot
   checks, forensic check gate, build, report), tagging rules, lecture subcategories and PDF management.
 ---
 
 # MBset Medical Module Curator Skill
 
-SOP for building MBset modules (Faculty of Medicine, Al-Azhar University, Damietta; Assiut-sourced
-material is also supported).
+SOP for building MBset modules, usable by anyone who has this folder. Tag taxonomies are included for
+Damietta (Al-Azhar, Faculty of Medicine) and Assiut curricula (`inventory --university`).
+
+In every command below `$S` is `<this skill folder>/scripts/mbset.py` and `$M` the module folder (any path).
+
+## 0. Automatic setup (do this first, every new machine or user)
+Run `python3 $S doctor --fix` (add `--telegram` when sources come from Telegram) before any module work.
+The skill sets itself up: missing Python packages go into `<skill>/.venv` automatically (every later
+`mbset.py` call uses it), and missing OCR/PDF tools are installed with apt/brew/dnf when that needs no
+password. Then:
+- `[!] needs administrator rights` → show the user the printed command and ask them to run it in their own
+  terminal (never type a sudo password).
+- Telegram needed and `doctor` says credentials/login missing → the user connects **their own account**
+  once with `mbset.py telegram setup`. If the host lets you start a command in the user's own terminal
+  (e.g. the Terminal panel of the Claude desktop app), start `python3 $S telegram setup` there and tell them
+  to type the answers there; otherwise give them the command and
+  [`references/setup-guide.md`](./references/setup-guide.md). Never ask for, read back, type or store their
+  api_hash, phone number, login code or password, and do not read that terminal while they type.
+- Re-run `doctor` until it shows 0 FAIL, then continue.
+
 
 **Prime directive**: a module is finished only when **every question in every source file** is in
 the master Excel, **with the answer the source actually gives**. Both are proven by measurement
@@ -66,8 +84,9 @@ Every command is idempotent and resumable. Full reference with flags:
 [`references/pipeline-v2.md`](./references/pipeline-v2.md).
 
 ```bash
-S=.agents/skills/mbset-module-curator/scripts/mbset.py      # M="أزهر دمياط/<Module>"
-python $S doctor "$M"               # environment (+ module) health: tools, packages, stale locks
+S=<skill>/scripts/mbset.py           # M="<University>/<Module>" — any folder with Raw_PDF_Questions/
+python $S doctor "$M"               # environment (+ module) health: tools, packages, Telegram, workers
+python $S telegram download "$M" <t.me links…> | --links-file f.md   # optional: sources from Telegram
 python $S tidy "$M"                 # dry-run plan to standardize the folder layout (--apply moves to _trash/)
 python $S inventory "$M"            # Stage 0: expand archives, hash-dedupe, triage, suggest tags
 python $S ocr "$M"                  # Tesseract for every scanned source, parallel, cached per page
@@ -85,7 +104,8 @@ python $S report "$M"               # final per-file counts, answer sources, der
 
 | Command | One line |
 | :--- | :--- |
-| `inventory` / `ocr` / `parse` | sources → triage → OCR cache → markdown with answers and flags |
+| `telegram setup` / `status` / `download "$M" …` | the user's own Telegram account (setup is run BY THE USER) → files into `Raw_PDF_Questions/` (§2.1) |
+| `inventory [--university Damietta\|Assiut]` / `ocr` / `parse` | sources → triage → OCR cache → markdown with answers and flags |
 | `route` | per source `parse` or `transcribe`, with the measurement behind it |
 | `transcribe --only NN [--pages-per 6] [--key-pages 12]` / `--status` | render pages, cut into chunks, one self-contained brief per chunk (`.mbset/transcripts/NN/`); sets profile `transcribe: true`; `parse` ingests the chunk JSONs |
 | `worklist [--n K] [--max-items 60]` / `--apply` | closed review lists with crops; big files split into question ranges; reviewers write JSON, `--apply` runs `fix` |
@@ -105,6 +125,15 @@ python $S report "$M"               # final per-file counts, answer sources, der
 | `tidy` | standardize the module folder to the deliverables layout (dry run; `--apply`, `--restore`) |
 | `crossdup <roots…>` | report sources byte-identical across modules (nothing is moved) |
 | `lectures plan` / `match` / `apply` / `check` | the two-phase lecture / subcategory workflow (§4) |
+
+### 2.1 Sources from Telegram (optional)
+Course files usually sit in Telegram channels/groups. `mbset.py telegram download "$M" <links>` fetches them
+with the **user's own account** into `$M/Raw_PDF_Questions/` (single posts, ranges `…/120-160`, private
+`t.me/c/…` posts of joined chats, or every link in a `--links-file`); resumable, duplicates kept once, then
+`inventory`. If `telegram status` says credentials or login are missing, tell the user to run
+`mbset.py telegram setup` **themselves** in their own terminal and point them to
+[`references/setup-guide.md`](./references/setup-guide.md). Never ask for, type or store their api_hash,
+phone number, login code or password, and never run `setup` for them.
 
 ### The transcribe route for one source
 1. `transcribe --only NN` (add `--key-pages P` when the answer key is printed apart, e.g. on the last page,
@@ -195,6 +224,9 @@ lecture breakdown, then **STOP & WAIT** for the user to upload it. Phase 2: the 
 merge unless the user says otherwise. `mbset.py lectures` runs both phases.
 → [`references/subcategories-and-lectures.md`](./references/subcategories-and-lectures.md)
 
+Known Damietta platform IDs (examples — the module's platform export is always the source of truth, and
+other universities have their own):
+
 | Module | `categoryId` |
 | :--- | :--- |
 | Normal Human Body | `DamiettaFa_NORMAL_HUMAN_BODY` |
@@ -253,12 +285,13 @@ a re-parse or `fix --model-file` writes the new label.
 ## 7. Scripts and references
 
 * `scripts/mbset.py` — the pipeline CLI (package `scripts/mbset/`; `transcribe.py` = route + visual route,
-  `worklist.py` = split review lists + apply)
+  `worklist.py` = split review lists + apply, `telegram.py` = Telegram setup/download)
+* `scripts/install.sh` — optional ahead-of-time setup (same as `doctor --fix`; `--telegram`) · `requirements*.txt`
 * `scripts/build_module_template.py` — markdown → canonical 32-column Excel (dedupe on normalized stems)
 * `scripts/validate_questions_excel.py` — schema gate · `scripts/audit_question_bank.py` — forensic gate (`--by-tag`)
 * `scripts/clean_markdown_noise.py` — noise cleaner for markdown produced outside the parser (dry run by default, never changes an answer)
 * `legacy/` — `extract_pdf_columns.py`, `ocr_paddle_pages.py`, `smart-ocr-workflow.md` (one-off inspection / PaddleOCR fallback)
-* References: [pipeline-v2](./references/pipeline-v2.md) · [profiles](./references/profiles.md) ·
+* References: [setup-guide](./references/setup-guide.md) · [pipeline-v2](./references/pipeline-v2.md) · [profiles](./references/profiles.md) ·
   [parallel-workflow](./references/parallel-workflow.md) · [model-routing](./references/model-routing.md) ·
   [extraction-playbook](./references/extraction-playbook.md) · [answer-key-verification](./references/answer-key-verification.md) ·
   [schema-31-columns](./references/schema-31-columns.md) · [noise-removal-and-curation](./references/noise-removal-and-curation.md) ·

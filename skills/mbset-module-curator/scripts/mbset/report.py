@@ -228,6 +228,6 @@ def cmd_report(args) -> int:
 
 def register(sub) -> None:
     p = sub.add_parser("report", help="final user report: counts, answer provenance, derived, exclusions, bias")
-    p.add_argument("module", help="module folder, e.g. 'أزهر دمياط/Endocrinology'")
+    p.add_argument("module", help="module folder, e.g. 'My University/Endocrinology'")
     p.add_argument("--out", help="markdown file (default .mbset/reports/report_<date>.md)")
     p.set_defaults(fn=cmd_report)
