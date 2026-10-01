@@ -6,8 +6,8 @@ cd "$(dirname "$0")/.."
 SRC=.agents/skills/mbset-module-curator/
 DST=skills/mbset-module-curator/
 if [[ "${1:-}" == "--check" ]]; then
-  if diff -rq --exclude=__pycache__ "$SRC" "$DST"; then echo "[+] skill mirror in sync"; else echo "[-] run scripts/sync_skill.sh"; exit 1; fi
+  if diff -rq --exclude=__pycache__ --exclude=.venv "$SRC" "$DST"; then echo "[+] skill mirror in sync"; else echo "[-] run scripts/sync_skill.sh"; exit 1; fi
   exit 0
 fi
-rsync -a --delete --exclude=__pycache__ "$SRC" "$DST"
+rsync -a --delete --exclude=__pycache__ --exclude=.venv "$SRC" "$DST"
 echo "[+] synced $SRC → $DST"

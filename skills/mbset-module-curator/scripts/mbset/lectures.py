@@ -766,7 +766,7 @@ def run(args) -> int:
 
 def register(sub) -> None:
     p = sub.add_parser("lectures", help="Phase 1/2 lectures: plan subcategories, match sources, apply, check")
-    p.add_argument("module", help="module folder, e.g. 'أزهر دمياط/Endocrinology'")
+    p.add_argument("module", help="module folder, e.g. 'My University/Endocrinology'")
     acts = p.add_subparsers(dest="lectures_cmd", required=True)
 
     def common(q, export=True):

@@ -214,6 +214,43 @@ class DocReaderAnswerTests(unittest.TestCase):
         self.assertEqual(mod.answer_letter(["one", "", "three"], 1), "?")
 
 
+class TelegramLinkTests(unittest.TestCase):
+    def test_public_private_and_range_links(self):
+        from mbset.telegram import collect, parse_url
+        self.assertEqual(parse_url("https://t.me/somechan/12"), [("somechan", 12)])
+        self.assertEqual(parse_url("https://t.me/somechan/10-12"), [("somechan", 10), ("somechan", 11), ("somechan", 12)])
+        self.assertEqual(parse_url("https://t.me/c/123456/7"), [(-100123456, 7)])
+        self.assertEqual(parse_url("https://t.me/s/somechan/5"), [("somechan", 5)])
+        for bad in ("https://example.com/x/1", "https://t.me/somechan", "https://t.me/c/abc/1", "https://t.me/ch/9-3"):
+            with self.assertRaises(ValueError, msg=bad):
+                parse_url(bad)
+        with tempfile.TemporaryDirectory() as tmp:
+            f = Path(tmp) / "links.md"
+            f.write_text("1. **Lec 1**: [x](https://t.me/somechan/3)\nsee https://t.me/somechan/3, https://t.me/c/99/1.",
+                         encoding="utf-8")
+            self.assertEqual([(c, m) for _, c, m in collect([], f)], [("somechan", 3), (-10099, 1)])
+
+    def test_setup_refuses_without_a_terminal(self):
+        from unittest import mock
+        with mock.patch("sys.stdin") as stdin:              # an agent's shell: no terminal to type into
+            stdin.isatty.return_value = False
+            with self.assertRaises(SystemExit) as ctx:
+                main(["telegram", "setup"])
+        self.assertIn("interactive", str(ctx.exception))
+
+
+class UniversityTests(unittest.TestCase):
+    def test_saved_university_wins_over_the_path(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp) / "Assiut" / "Mod"
+            root.mkdir(parents=True)
+            from mbset.common import Module as M
+            mod = M(root)
+            self.assertEqual(mod.university, "Assiut")
+            mod.state_path.write_text(json.dumps({"sources": [], "university": "Damietta"}), encoding="utf-8")
+            self.assertEqual(mod.university, "Damietta")
+
+
 if __name__ == "__main__":
     unittest.main()
 
