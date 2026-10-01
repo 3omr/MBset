@@ -27,6 +27,8 @@ DEFAULTS = {"dpi": 300, "psm": 3, "lang": "eng", "rotate": 0}
 #   ocr.split: 2        two book pages per scan: cut at the gutter (found automatically) and OCR each half
 #   ocr.threshold: 190  binarize before OCR (0-255): highlighter / shaded backgrounds hide text from Tesseract
 #   ocr.normalize: true divide by the blurred background: phone photos / uneven lighting (Tesseract only)
+# `ocr --searchable` also writes an `ocrmypdf --redo-ocr -O 3` PDF per source (.mbset/ocrpdf/NN.pdf); profile
+# `text: ocrpdf` parses its text layer, and `transcribe --format pdf` hands it to PDF-reading workers.
 #   ocr.tool: paddle    PaddleOCR instead of Tesseract (photos, curved pages, bold headings); needs the
 #                       PaddleOCR venv (`.venv-smart-ocr` next to the repo root, or $MBSET_PADDLE_PYTHON)
 
@@ -219,12 +221,46 @@ def ocr_source(module: Module, src: dict[str, Any], profile: dict[str, Any] | No
     return data
 
 
+def searchable_path(module: Module, src: dict[str, Any]) -> Path:
+    return module.meta / "ocrpdf" / f"{src['nn']}.pdf"
+
+
+def searchable_pdf(module: Module, src: dict[str, Any], profile: dict[str, Any] | None = None,
+                   jobs: int = 4, force: bool = False) -> Path:
+    """`ocrmypdf --redo-ocr -O 3` copy of the source: a compact PDF whose text layer is fresh Tesseract OCR
+    (existing OCR text is replaced, real digital text kept). Workers that read PDFs (e.g. Gemini) get it for
+    transcription — page image and text together, smaller files — and the verbatim check reads its text.
+    Cached in .mbset/ocrpdf/NN.pdf by source sha256 + languages."""
+    import shutil
+    import json as _json
+
+    out = searchable_path(module, src)
+    lang = ((profile or {}).get("ocr") or {}).get("lang") or "eng"
+    stamp = out.with_suffix(".json")
+    key = {"sha256": src.get("sha256"), "lang": lang}
+    if out.exists() and not force and stamp.exists() and _json.loads(stamp.read_text()) == key:
+        return out
+    if not shutil.which("ocrmypdf"):
+        raise RuntimeError("ocrmypdf is not installed (apt install ocrmypdf / brew install ocrmypdf)")
+    out.parent.mkdir(parents=True, exist_ok=True)
+    srcpath = module.source_path(src)
+    cmd = ["ocrmypdf", "--redo-ocr", "-O", "3", "-l", lang, "--jobs", str(jobs), "--output-type", "pdf",
+           "-q", str(srcpath), str(out)]
+    if srcpath.suffix.lower() in IMAGE_SUFFIXES:
+        cmd[1:2] = ["--image-dpi", "200"]            # a photo has no text to redo; give it a resolution
+    r = subprocess.run(cmd, capture_output=True, text=True)
+    if r.returncode not in (0, 10) or not out.exists():   # 10 = PDF/A conversion warning, output is fine
+        raise RuntimeError(f"ocrmypdf failed ({r.returncode}): {(r.stderr or r.stdout).strip()[-300:]}")
+    stamp.write_text(_json.dumps(key))
+    return out
+
+
 def needs_ocr(src: dict[str, Any]) -> bool:
     return src.get("kind") == "image" or (src.get("kind") == "pdf" and not src.get("triage", {}).get("has_text"))
 
 
 def run(module: Module, state: dict[str, Any], selector: str | None, jobs: int, workers: int,
-        force: bool, include_text: bool) -> int:
+        force: bool, include_text: bool, searchable: bool = False) -> int:
     from .profiles import load_profile
 
     todo = [s for s in module.sources(state, selector)
@@ -257,6 +293,11 @@ def run(module: Module, state: dict[str, Any], selector: str | None, jobs: int, 
             flag = f"  review pages {low}" if low else ""
             print(f"[+] {src['nn']} {Path(src['rel']).name}: {len(data['pages'])} page(s), "
                   f"mean conf {src['stages']['ocr']['mean_conf']}{flag}")
+            if searchable and module.source_path(src).suffix.lower() in (".pdf", *IMAGE_SUFFIXES):
+                try:
+                    print(f"    searchable PDF: {searchable_pdf(module, src, load_profile(module, src), workers, force)}")
+                except RuntimeError as exc:
+                    print(f"[-] {src['nn']} searchable PDF: {exc}")
             module.save(state)
     module.save(state)
     return 1 if failed else 0

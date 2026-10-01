@@ -72,162 +72,82 @@ the master Excel, **with the answer the source actually gives**. Both are proven
 
 ## 1. Hard rules (never relaxed)
 
-1. **Question text comes from the source, never from memory.** The parser writes every stem and
-   option; a misread *file* is fixed through its profile (`.mbset/profiles/NN.yaml`) and a re-parse.
-   A misread *question* (missing option, OCR symbols like `¢ © |`, words out of order, glued stem and
-   option) is corrected by **re-reading the page image** and writing exactly what is printed with
-   `fix NN --text-file` — every fix is logged with the original text and reviewed. A file whose OCR is
-   bad as a whole is not repaired question by question: it goes to the **transcribe** route (§2), where
-   workers copy every question verbatim from the page images. Never paraphrase,
-   shorten, reword, complete or "improve" a question, and never type one from memory or another bank.
+1. **Question text comes from the source, never from memory.** Scripts or workers copy every stem and
+   option verbatim from the page; never paraphrase, shorten, reword, complete or "improve", never type a
+   question from memory or another bank. Corrections are re-reads of the page, logged with the original.
 2. **Never invent an answer.** Every MCQ carries `**Answer Source:**` `key` / `marked` / `online` /
-   `derived`. An unreadable mark stays `?`. `derived` (the agent's knowledge, only when the source
-   has no answer) is reported to the user with counts.
-3. **Bias gate**: a file with ≥ 15 MCQs and one letter > 45% is investigated, > 60% fails.
-4. **Three counters agree** per file — source numbering, option-A blocks, `### Q` headings; a
-   declared source total wins. No Excel work until `check` shows 0 hard failures.
-5. **32-column canonical header** (31 + `ModelAnswer`), `id` empty, `subcategoryId` / `subcategoryName` empty, zero
-   Arabic characters, `QCS` → one existing letter `A`-`F`, `QROC` → `Correct`/`EXP` empty, model answer in
-   `ModelAnswer` (markdown field `**Model Answer:**`),
-   figure-dependent stems have `Image`. Arabic is allowed only in sources whose profile has `keep_arabic: true`
-   (questions written in Arabic, kept in Arabic by user decision). → [`references/schema-31-columns.md`](./references/schema-31-columns.md)
+   `derived` (priority in that order). `derived` = knowledge, only when the source gives no answer; it is
+   reported to the user with counts. Never copy an answer from a similar question in another file.
+3. **Bias gate**: a file with ≥ 15 MCQs and one letter > 45 % is investigated, > 60 % fails.
+4. **Counters agree** per file (source numbering, questions, a declared total, each chunk's own count).
+   No Excel until `check` shows 0 hard failures.
+5. **32-column canonical header** (31 + `ModelAnswer`): `id`, `subcategoryId`, `subcategoryName` empty;
+   zero Arabic (except sources with `keep_arabic: true`); `QCS` → one existing letter `A`-`F`; `QROC` →
+   `Correct`/`EXP` empty, model answer in `ModelAnswer`; a shared scenario in `Cas`; figure-dependent
+   stems have `Image`. → [`references/schema-31-columns.md`](./references/schema-31-columns.md)
 6. **No silent omissions**: `count(sources) == count(markdown) + EXCLUDED — <reason>`.
 
-## 2. The pipeline — `mbset.py` (measure, route, then one pass per source)
+## 2. Extracting questions — the one procedure
 
-**Where the time goes, and the rules that remove it** (measured on Cell biology / Ethics / Endocrinology):
-Tesseract garbles scans and phone screenshots, the parser then splits or loses questions, and reviewers
-re-read the page anyway — 1 364 questions re-added from page images and 821 re-read in one module, over
-three review rounds, plus separate passes for answers and model answers. So:
-
-1. **Route every source by measurement** (`route`): a good text layer / clean OCR → **parse**; scanned with
-   OCR confidence < 0.80, screenshots/photos, or > 30 % of parsed questions needing review → **transcribe**.
-   Never run the parse → fix → re-add loop on a file the route sends to transcribe.
-2. **Big files are always split**: transcription in chunks of 6 pages (`--pages-per`), review worklists in
-   question ranges (`--max-items`). One worker per chunk/part, all dispatched at once; no worker holds a
-   long session (long sessions died of timeouts and lost hours).
-3. **One pass per question**: the transcriber writes stem, options, answer + provenance and the model
-   answer together; the reviewer writes text fixes, answers and model answers together.
-4. **Workers write JSON only**; the coordinator ingests (`parse`) or applies (`worklist --apply`) and runs
-   the gates. No state backups, no OCR/profile experiments by workers.
-5. Only flags that need eyes count: informational flags (`added_from_page_image`, `text_corrected_visual`,
-   `unnumbered`, `number_inferred`, `decision_matched_fuzzy`, `transcribed`, …) never reach the review list.
-
-All state lives in `<Module>/.mbset/` (state.json, profiles, OCR cache, parsed evidence, reports).
-Every command is idempotent and resumable. Full reference with flags:
-[`references/pipeline-v2.md`](./references/pipeline-v2.md).
+Principles: **scripts first** (they read most pages for free), **models only for pages scripts cannot
+read**, **one pass per question** (text + answer + model answer together), **big files always split**,
+**workers write JSON only**, **gates decide**, not re-reading. All state is in `<Module>/.mbset/`; every
+command is resumable. Every flag: [`references/commands.md`](./references/commands.md).
 
 ```bash
-S=<skill>/scripts/mbset.py           # M="<University>/<Module>" — any folder with Raw_PDF_Questions/
-python $S doctor "$M"               # environment (+ module) health: tools, packages, Telegram, workers
-python $S telegram download "$M" <t.me links…> | --links-file f.md   # optional: sources from Telegram
-python $S tidy "$M"                 # dry-run plan to standardize the folder layout (--apply moves to _trash/)
-python $S inventory "$M"            # Stage 0: expand archives, hash-dedupe, triage, suggest tags
-python $S ocr "$M"                  # Tesseract for every scanned source, parallel, cached per page
-python $S parse "$M"                # Stage 1+2: profile → markdown, answers with provenance, flags, counters
-python $S route "$M"                # per source: parse or transcribe (measured) — prints the transcribe command
-python $S transcribe "$M" --only 07,09,12   # page images → chunk briefs; dispatch every brief in parallel
-python $S transcribe "$M" --status  # chunks done / left → then `parse --only …` ingests the JSON
-python $S worklist "$M"             # what is left (text / answers / model answers), big files split in parts
-python $S worklist "$M" --apply     # after the reviewers: apply all their JSON in one go
-python $S check "$M"                # Stages 2+3 gate: problems only, grouped per file
-python $S catalog "$M"              # 00_CATALOG_OF_ALL_FILES.md + tag map, generated from state
-python $S build "$M"                # check → build_module_template → validate → audit (all must pass)
-python $S report "$M"               # final per-file counts, answer sources, derived list → give it to the user
+S=<skill>/scripts/mbset.py ; M="<University>/<Module>"   # any folder with Raw_PDF_Questions/
 ```
 
-| Command | One line |
-| :--- | :--- |
-| `init [--show] [--list] [--test FILES] [--university …] [--taxonomy-file f.yaml] [--worker …] [--telegram] [--language]` | first-run setup: faculty & tag taxonomy, worker, Telegram, language (§0) |
-| `telegram setup` / `status` / `download "$M" …` | the user's own Telegram account (setup is run BY THE USER) → files into `Raw_PDF_Questions/` (§2.1) |
-| `inventory [--university Damietta\|Assiut]` / `ocr` / `parse` | sources → triage → OCR cache → markdown with answers and flags |
-| `route` | per source `parse` or `transcribe`, with the measurement behind it |
-| `transcribe --only NN [--pages-per 6] [--key-pages 12]` / `--status` | render pages, cut into chunks, one self-contained brief per chunk (`.mbset/transcripts/NN/`); sets profile `transcribe: true`; `parse` ingests the chunk JSONs |
-| `worklist [--n K] [--max-items 60]` / `--apply` | closed review lists with crops; big files split into question ranges; reviewers write JSON, `--apply` runs `fix` |
-| `show NN --flags` / `--dropped` | only the flagged questions with evidence / lines discarded as noise |
-| `profile --only NN --print` | the effective profile; edit the YAML, then `parse --only NN` |
-| `answersheet --only NN` | crops of unanswered MCQs, 6 per PNG, for a visual pass over pen marks |
-| `fix NN --answers "2=B 3=C" --source marked` | batch answers; also `--model-file` (= `--exp-file`), `--image`, `--drop … --reason` |
-| `figures --only NN` | crop figures for figure-dependent stems → `Images/NN_Qi.png`, linked |
-| `spotcheck --only NN` / `review NN --spot "7/7 OK"` | max(5, 10%) source-vs-markdown sheets / record the verdict |
-| `set NN --tag … --year … --confirm` | confirm tags; `--exclude REASON`, `--count-note` |
-| `renumber` | resolve duplicate NN (markdown, evidence and `Images/<NN>_*` move together) |
-| `check [--only NN]` | the gate; exit 1 on hard failures |
-| `catalog` / `build` / `report` | catalog + tag map / gated Excel / final user report |
-| `packets --n 4` / `lock NN --owner X` | parallel work packets with self-contained worker briefs / claim sources |
-| `status` / `run` | one line per source / inventory → ocr → parse → check in one go |
-| `doctor [module]` | environment and module health check (OK / WARN / FAIL) |
-| `tidy` | standardize the module folder to the deliverables layout (dry run; `--apply`, `--restore`) |
-| `crossdup <roots…>` | report sources byte-identical across modules (nothing is moved) |
-| `lectures plan` / `match` / `apply` / `check` | the two-phase lecture / subcategory workflow (§4) |
+**Step 1 — sources.** Put every source in `$M/Raw_PDF_Questions/` (`telegram download "$M" <links>` fetches
+them with the user's own account, §0). `python3 $S inventory "$M"` expands archives, drops byte-identical
+copies, triages every file and suggests its tag.
 
-### 2.1 Sources from Telegram (optional)
-Course files usually sit in Telegram channels/groups. `mbset.py telegram download "$M" <links>` fetches them
-with the **user's own account** into `$M/Raw_PDF_Questions/` (single posts, ranges `…/120-160`, private
-`t.me/c/…` posts of joined chats, or every link in a `--links-file`); resumable, duplicates kept once, then
-`inventory`. If `telegram status` says credentials or login are missing, tell the user to run
-`mbset.py telegram setup` **themselves** in their own terminal and point them to
-[`references/setup-guide.md`](./references/setup-guide.md). Never ask for, type or store their api_hash,
-phone number, login code or password, and never run `setup` for them.
+**Step 2 — machine reading (no model tokens).**
+`python3 $S ocr "$M" --searchable` (Tesseract per page, cached, plus an `ocrmypdf --redo-ocr -O 3` copy of
+every scanned PDF) → `python3 $S parse "$M"`. Text-layer and clean-OCR pages come out complete, with
+answers from printed keys.
 
-### The transcribe route for one source
-1. `transcribe --only NN` (add `--key-pages P` when the answer key is printed apart, e.g. on the last page,
-   so every chunk reads it). Dispatch every printed brief at once to the worker **the user chose**
-   (§ Choosing the worker), effort high; each worker writes only its `chunk_KK.json`.
-2. `transcribe --status` until all chunks are in, then `parse --only NN`: missing chunks, numbering gaps,
-   keys not among the options and stems absent from the page's OCR/text (`transcript_not_in_page_text` —
-   a paraphrase warning) are reported by `check`.
-3. Single problems → `fix` as usual (decisions survive a re-ingest). Then `figures`, `spotcheck` (crops show
-   the whole page once), `review --spot`, `set --confirm`, `check --only NN`.
+**Step 3 — route.** `python3 $S route "$M"` prints, per source: `parse` (done), `transcribe` (whole file:
+screenshots, OCR < 0.80, > 30 % of questions need review) or `transcribe pages …` (only the bad pages; the
+rest stays parsed). Run the printed commands. Never repair a transcribe-route file question by question.
 
-### The review loop for one parsed source
-1. `parse --only NN` → counters equal? answered = MCQ? distribution sane?
-2. `show NN --flags` → profile problem (fix YAML, re-parse) or single question (`fix`). Every field
-   and recipe: [`references/profiles.md`](./references/profiles.md). A hand-edited markdown is never
-   overwritten without `--force` (backup kept).
-3. `show NN --dropped` once per file — the noise filter must not have eaten a question.
-4. Unanswered MCQs → `answersheet`, read the marks, `fix --answers … --source marked`. No visible mark
-   → leave `?`; only when the source truly has no answer, `--source derived` and report the count.
-5. `figures --only NN` when figure-dependent stems exist; view the contact sheet.
-6. `spotcheck --only NN`, view the sheets, `review NN --spot "k/k OK"`.
-7. `set NN --confirm` (or `--tag …`), then `check --only NN` → 0 hard failures.
+**Step 4 — transcription by workers.** `python3 $S transcribe "$M" --only NN [--pages …] [--key-pages P]
+[--format pdf]` cuts the pages into 6-page chunks with one self-contained brief each: `png` (default) gives
+page images plus each page's OCR text as a draft to correct; `pdf` gives chunks of the ocrmypdf copy, only
+for workers whose file tool reads PDFs (Antigravity reads images only — use png); `--key-pages` sends a
+key printed apart to one small key job instead of every chunk. Dispatch the briefs to the worker the user
+chose (§0, [`references/workers.md`](./references/workers.md)), effort high: Claude subagents — one background
+`Agent` call per brief, all at once; a delegate CLI — `python3 $S dispatch "$M" --only NN` (3 at a time,
+retries briefs whose JSON is missing; shared logins drop at high parallelism). Workers write
+verbatim questions, `case` for shared scenarios, answers with provenance, model answers and a
+`printed_count`. Then `transcribe "$M" --status` → `parse "$M" --only NN`.
 
-Answer provenance, in priority order: `key` (answer grid / `Ans:` lines, section-aware) → `online`
-(DocReader quiz; never defaults when the site has no answer) → `marked` (exactly one option carries
-a mark) → `derived`. Disagreeing sources, keys not among the options and multi-letter keys are
-flagged. Every `fix` is stored by stem, so a re-parse re-applies it. Never copy an answer from a
-similar question in another file. → [`references/answer-key-verification.md`](./references/answer-key-verification.md)
+**Step 5 — what is left.** `python3 $S worklist "$M"` lists only what still needs eyes (unclean text,
+unanswered MCQs, written questions without a model answer) with crops; big files are split into question
+ranges. Dispatch all worklists at once (effort high; max for parts with model answers), then
+`worklist "$M" --apply`. Figures: `figures "$M" --only NN`.
 
-`check` hard-fails on: missing markdown, non-continuous numbering, disagreeing counters, declared
-total mismatch, numbering gaps, Arabic, noise signatures, non-sequential options, unanswered MCQs,
-invalid Answer Source, written questions without a model answer, figure stems without an image,
-bias > 60%, no spot check, unconfirmed tags, tag placeholders (`<…>`), duplicate NN, missing sources,
-untranscribed chunks.
-It warns on unconfirmed tags without a year.
+**Step 6 — gates.** `python3 $S check "$M"` until 0 hard failures. It fails on: missing markdown or chunk,
+a chunk count mismatch, disagreeing counters, numbering gaps, Arabic, noise, non-sequential options,
+unanswered MCQs, invalid Answer Source, written questions without a model answer, figure stems without an
+image, bias > 60 %, no spot check, unconfirmed tags or placeholders, duplicate NN. Review items include
+`transcript_not_in_page_text` (a paraphrase warning — compare with the page). Spot check every file:
+`spotcheck "$M" --only NN` → view → `review "$M" NN --spot "k/k OK"`; confirm tags with `set NN --confirm`.
 
-### Parallel work and delegation
-The default parallel units are **transcription chunks** and **worklist parts**: both split big files and
-need no locks, because workers write JSON only and the coordinator ingests/applies it. Dispatch every
-brief at once, one worker per brief (effort high for transcription and mark reading, max for derived /
-model answers); the coordinator re-verifies with `check` / `report` and builds once. `packets "$M" --n 4`
-(whole sources per worker, workers call `fix` themselves) remains only for parse-route modules made of
-small files. → [`references/parallel-workflow.md`](./references/parallel-workflow.md)
+**Step 7 — deliver.** `catalog "$M"` → `build "$M"` (check → Excel → validate → audit) → `report "$M"`;
+give the user the per-file counts and every `derived` count.
 
-### Choosing the worker (ask — never assume)
-Not everyone has the same tools, so the **user picks who runs the briefs** — asked once at first-run setup
-(§0) and saved by `init` (`init --show`). If nothing is saved, ask before the first dispatch, offering only
-what this machine has (`mbset.py doctor` lists the worker CLIs found) plus the two options that always exist:
+Single fixes at any point: `fix "$M" NN --text-file / --answers "3=B" --source marked / --model-file /
+--drop N --reason … / --image N=…` (decisions survive re-parses). A file read wrongly as a whole by the
+parser: edit its profile ([`references/profiles.md`](./references/profiles.md)) and `parse --only NN`.
 
-- **Claude subagents** — always available: one `Agent` call per brief ("Read <brief> and do exactly what
-  it says"), run in the background, all at once. No `--dispatch` needed.
-- **An installed delegate** — e.g. Codex (`codex-delegate`), Antigravity/Gemini (`agy-delegate`), Cursor,
-  OpenCode… — ask which model too. Pass its command as `--dispatch '<cmd with {brief} {repo} {effort}>'`
-  (or `export MBSET_DISPATCH=…`) and the scripts print one ready line per brief.
-- **No workers** — the main agent works through the briefs itself, one after another (slowest).
-
-Keep the answer for the rest of the session; if a worker runs out of credits or fails, ask again instead of
-switching silently. Whatever the worker, its output is re-verified (`check`, `report`, spot checks).
-→ [`references/model-routing.md`](./references/model-routing.md)
+### Choosing the worker
+Asked once at first-run setup (§0) and saved (`init --show`); if nothing is saved, ask before the first
+dispatch. Options: **Claude subagents** (always available — one background `Agent` call per brief: "Read
+<brief> and do exactly what it says"), an installed delegate CLI (`doctor` lists them; pass
+`--dispatch '<cmd with {brief} {repo} {effort}>'`), or **none** (the main agent works the briefs itself).
+If a worker fails or runs out of credits, ask again. Whatever the worker, its output is re-verified by the
+gates. → [`references/workers.md`](./references/workers.md)
 
 ## 3. Tags, schema and text cleaning (summaries — details in the references)
 
@@ -245,11 +165,8 @@ switching silently. Whatever the worker, its output is re-verified (`check`, `re
   `categoryName` against the module's platform export; never invent one.
 - **Noise** — the parser strips numbering, invisible unicode, Moodle/LMS chrome, phone status bars,
   answer-key grids, bubble artifacts and OCR gibberish, and repairs notation (`Ca**` → `Ca²⁺`,
-  `B1` → `β1`, `->` → `→`) instead of deleting it; recurring junk goes in the profile's
-  `skip_patterns`. → [`references/noise-removal-and-curation.md`](./references/noise-removal-and-curation.md)
-- **Extraction by format** (columns, scans, Moodle, screenshots, figures) →
-  [`references/extraction-playbook.md`](./references/extraction-playbook.md). PaddleOCR is a fallback
-  for pages with low Tesseract confidence only — see `legacy/`.
+  `B1` → `β1`, `->` → `→`) instead of deleting it; recurring junk goes in the profile's `skip_patterns`.
+  Never strip numbered lists inside a model answer or a trailing `...` of a fill-in-the-blank stem.
 
 ## 4. Lectures and subcategories (two phases)
 
@@ -285,6 +202,7 @@ other universities have their own):
 
 **Correct Answer:** B
 **Answer Source:** key            <!-- key | marked | online | derived -->
+**Case:** <shared scenario>       <!-- only when several questions share it → Cas column -->
 **Image:** Images/05_Q1.png       <!-- only when figure-dependent -->
 **Source Pages:** 3
 **EXP:** <explanation>            <!-- MCQ only -->
@@ -320,15 +238,12 @@ a re-parse or `fix --model-file` writes the new label.
 
 ## 7. Scripts and references
 
-* `scripts/mbset.py` — the pipeline CLI (package `scripts/mbset/`; `transcribe.py` = route + visual route,
-  `worklist.py` = split review lists + apply, `telegram.py` = Telegram setup/download)
-* `scripts/install.sh` — optional ahead-of-time setup (same as `doctor --fix`; `--telegram`) · `requirements*.txt`
-* `scripts/build_module_template.py` — markdown → canonical 32-column Excel (dedupe on normalized stems)
-* `scripts/validate_questions_excel.py` — schema gate · `scripts/audit_question_bank.py` — forensic gate (`--by-tag`)
-* `scripts/clean_markdown_noise.py` — noise cleaner for markdown produced outside the parser (dry run by default, never changes an answer)
-* `legacy/` — `extract_pdf_columns.py`, `ocr_paddle_pages.py`, `smart-ocr-workflow.md` (one-off inspection / PaddleOCR fallback)
-* References: [setup-guide](./references/setup-guide.md) · [pipeline-v2](./references/pipeline-v2.md) · [profiles](./references/profiles.md) ·
-  [parallel-workflow](./references/parallel-workflow.md) · [model-routing](./references/model-routing.md) ·
-  [extraction-playbook](./references/extraction-playbook.md) · [answer-key-verification](./references/answer-key-verification.md) ·
-  [schema-31-columns](./references/schema-31-columns.md) · [noise-removal-and-curation](./references/noise-removal-and-curation.md) ·
-  [tagging-and-naming](./references/tagging-and-naming.md) · [subcategories-and-lectures](./references/subcategories-and-lectures.md)
+* `scripts/mbset.py` — the CLI (package `scripts/mbset/`): `init` first-run setup · `telegram` · `inventory`
+  · `ocr` · `parse` · `route` / `transcribe` · `worklist` · `fix` · `check` · `build` · `report` · `lectures`
+* `scripts/install.sh` — optional ahead-of-time setup (same as `doctor --fix`) · `requirements*.txt`
+* `scripts/build_module_template.py` (markdown → 32-column Excel) · `validate_questions_excel.py` (schema gate)
+  · `audit_question_bank.py` (forensic gate) · `clean_markdown_noise.py` (markdown made outside the pipeline)
+* References: [setup-guide](./references/setup-guide.md) · [commands](./references/commands.md) ·
+  [workers](./references/workers.md) · [profiles](./references/profiles.md) ·
+  [schema-31-columns](./references/schema-31-columns.md) · [tagging-and-naming](./references/tagging-and-naming.md) ·
+  [subcategories-and-lectures](./references/subcategories-and-lectures.md) · `references/taxonomies/`

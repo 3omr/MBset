@@ -75,6 +75,7 @@ def field_value(match):
 
 
 CORRECT, SOURCE, IMAGE = field('Correct Answer'), field('Answer Source'), field('Image')
+CASE = field('Case')                    # shared clinical scenario → Cas column
 QUESTION_TAG, QUESTION_SUBJECT = field('Tag'), field('tagSuggere')
 QUESTION_YEAR = re.compile(r'^\*\*Year:\*\*\s*((?:19|20)\d{2})\s*$', re.M)
 EXPL = re.compile(
@@ -125,6 +126,7 @@ def question_metadata(body, keep_arabic=False):
         'Correct': correct.group(1).strip().upper() if correct else '',
         'source': source.group(1).strip().lower() if source else None,
         'Image': image.group(1).strip() if image else None,
+        'Cas': scrub(field_value(CASE.search(body)), strip_numbering=False, keep_arabic=keep_arabic),
         'EXP': scrub(explanation.group(1), keep_arabic=keep_arabic) if explanation else None,
         'Tag': field_value(tag),
         'tagSuggere': field_value(subject),
@@ -211,7 +213,8 @@ def build(md_dir, meta, category_id, category_name, out_path, strict=True):
     # ---- deduplicate on the normalized stem
     seen, deduped = {}, []
     for q in questions:
-        key = re.sub(r'[^a-z0-9\u0621-\u064a]', '', (q['Text'] or '').lower())
+        # the case is part of the identity: "What is the diagnosis?" under two scenarios is two questions
+        key = re.sub(r'[^a-z0-9\u0621-\u064a]', '', ((q.get('Cas') or '') + (q['Text'] or '')).lower())
         if not key:
             continue
         if key in seen:
@@ -237,7 +240,7 @@ def build(md_dir, meta, category_id, category_name, out_path, strict=True):
     for q in deduped:
         ws.append([
             None,                       # id — platform assigns
-            None,                       # Cas
+            q.get('Cas'),               # Cas — shared scenario
             q['Text'],
             q.get('Image'),
             None,                       # explanationImage

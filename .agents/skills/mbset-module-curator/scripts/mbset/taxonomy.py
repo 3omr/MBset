@@ -15,6 +15,7 @@ taxonomy's year rules.
       - {has: subject, tag: 'Department, {subject}'}
     default: {tag: 'External, {label}', confidence: low}
 
+`from_path: true` takes tags from the user's folder names instead (see `from_path`; rules are the fallback).
 Placeholders: {subject} {professor} {week} {gd} {label}. `[ … ]` is an optional segment, dropped when a
 placeholder inside it is unknown (`Department, Quizzes[, Week {week}]`); an unknown placeholder outside
 one becomes `<Subject>` / `<Name>` / `<N>` so `check` flags it. The year is appended to the tag unless the
@@ -116,7 +117,46 @@ def facts_for(rel: str) -> dict[str, Any]:
     }
 
 
+def from_path(rel: str) -> dict[str, Any] | None:
+    """Folder-naming convention (`from_path: true`): sources sorted by the user into folders such as
+    `Raw_PDF_Questions/Exams, Final/{2023}/[Physiology] paper.pdf`. Bare folder/file names → the tag (joined
+    with ", "), the first `[...]` → subject (tagSuggere), `{YYYY}` → year; a file named `_…` adds nothing.
+    None when the path carries no convention (the rules apply instead)."""
+    parts = [x for x in Path(rel).parent.parts if x and x != "Raw_PDF_Questions"]
+    name = Path(rel).stem
+    if not parts and not re.search(r"\[.+?\]|\{\d{4}\}", name):
+        return None
+    if not name.startswith("_"):
+        parts.append(name)
+    subject, year, tags = None, None, []
+    for part in parts:
+        for b in re.findall(r"\[(.+?)\]", part):
+            subject = subject or b.strip()               # a second [...] (lecture) is not used for banks
+        y = re.search(r"\{(\d{4})\}", part)
+        if y:
+            year = int(y.group(1))
+            part = re.sub(r"\s*\{\d{4}\}\s*", " ", part)
+        part = re.sub(r"\[(.+?)\]", "", part).strip(" ,")
+        if part:
+            tags.append(part)
+    if year is None:
+        for t in tags:
+            m = re.findall(r"(?<!\d)((?:19|20)\d{2})(?!\d)", t)
+            if m:
+                year = int(m[-1])
+                break
+    tag = ", ".join(re.sub(r"\s*(?<!\d)(?:19|20)\d{2}(?!\d)\s*", " ", t).strip() for t in tags if t)
+    return {"tag": tag, "subject": subject, "year": year}
+
+
 def suggest(tax: dict[str, Any], rel: str) -> dict[str, Any]:
+    if tax.get("from_path"):
+        p = from_path(rel)
+        if p and p["tag"]:
+            tag = f"{p['tag']} {p['year']}" if p["year"] and tax.get("append_year", True) else p["tag"]
+            mixed = tag.startswith(tuple(tax["multidisciplinary"]))
+            return {"tag": tag, "tagSuggere": None if mixed else p["subject"], "year": p["year"],
+                    "confidence": "medium", "needs_year": False, "confirmed": False}
     f = facts_for(rel)
     rule = None
     for r in tax["rules"]:

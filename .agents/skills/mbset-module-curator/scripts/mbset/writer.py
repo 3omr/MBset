@@ -9,6 +9,7 @@ The written format is exactly what `build_module_template.py` parses:
 
     **Correct Answer:** B
     **Answer Source:** key
+    **Case:** shared scenario                (only when several questions share it → Cas column)
     **Image:** Images/05_Q1.png
     **Source Pages:** 3
     **EXP:** explanation                     (MCQ)
@@ -76,6 +77,9 @@ def render(src: dict[str, Any], records: list[dict[str, Any]], title: str | None
             out.append("**Correct Answer:** -")
             if r.get("exp_source"):
                 out.append(f"**Answer Source:** {r['exp_source']}")
+        if r.get("case"):
+            # a scenario shared by several questions (→ Cas column); each question repeats it verbatim
+            out.append(f"**Case:** {' '.join(r['case'].split())}")
         if r.get("image"):
             out.append(f"**Image:** {r['image']}")
         pages = ", ".join(str(p + 1) for p in r.get("pages", []))

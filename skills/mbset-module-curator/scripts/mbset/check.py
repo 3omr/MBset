@@ -83,6 +83,9 @@ def check_source(module: Module, src: dict[str, Any]) -> dict[str, Any]:
             review.append(f"option-A lines {c['option_a_lines']} vs {len(mcq)} MCQs (± dropped {dropped})")
         if c.get("declared_total") and c["declared_total"] != len(qs) + dropped and not note:
             hard.append(f"declared total {c['declared_total']} ≠ {len(qs)} questions (+{dropped} dropped)")
+        for m in c.get("chunk_count_mismatch") or []:
+            if not note:
+                hard.append(f"transcript count: {m} — re-dispatch that chunk or `set --count-note`")
         for m in c.get("missing_chunks") or []:
             hard.append(f"transcript incomplete: {m} — dispatch its brief (`mbset.py transcribe --status`)")
         for g in parsed.get("gaps", []):
@@ -122,7 +125,7 @@ def check_source(module: Module, src: dict[str, Any]) -> dict[str, Any]:
     # ---- per question
     letters = Counter()
     for n, (q, block) in enumerate(zip(qs, raw_blocks), 1):
-        text_all = " ".join(str(q.get(k) or "") for k in ("Text", "EXP", *LETTERS))   # EXP holds the model answer too
+        text_all = " ".join(str(q.get(k) or "") for k in ("Cas", "Text", "EXP", *LETTERS))   # EXP: model answer too
         if ARABIC.search(text_all) and not keep_ar:
             hard.append(f"Q{n}: Arabic characters")
         odd = ODD.findall(text_all)

@@ -95,7 +95,7 @@ The first time you use the skill, the agent runs a short setup and saves your an
 
 Transcription and review are split into small briefs. The first time, the agent asks you who runs them:
 **Claude subagents** (nothing to install), a delegate CLI you have (Codex, Antigravity, Cursor,
-OpenCode…), or the main agent alone. See `model-routing.md`.
+OpenCode…), or the main agent alone. See `workers.md`.
 
 ## 6. First module
 

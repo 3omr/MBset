@@ -53,12 +53,12 @@ tagSuggere, Year, Tag, ImageMasks, ExplanationImageMasks, ModelAnswer
 - Options must start at `A` and run sequentially with no gaps; when repacking, move `Correct` with them.
 - Do **not** strip numbered lists inside a `QROC` model answer, or trailing `...` in fill-in-the-blank stems.
 
-### C. Question Bank Pipeline (Stage 0 → Stage 4)
-1. **Stage 0 — Source inventory & reconciliation**: expand every archive; list every source with its page count; `count(sources) == count(markdown files)`; an intentionally skipped source is logged `EXCLUDED — <reason>`. No silent omissions.
-2. **Stage 1 — Format-aware 1-to-1 markdown extraction**: run the pipeline `scripts/mbset.py` (`inventory` → `ocr` → `parse`). Triage is automatic and every source gets its own parser profile (`.mbset/profiles/NN.yaml`) matching its format (digital single/multi-column, scanned, Moodle, screenshots, DocReader, slides, docx); the parser, not the model, writes the markdown. **Never type question text from memory or paraphrase it** — when a file is misread, fix its profile and re-parse; when single questions are misread (missing option, OCR symbols, disordered words), re-read the page image and write exactly what is printed with `mbset.py fix NN --text-file` (logged with the original text). Multi-column pages are split per column automatically (`pdftotext -layout` merges columns and destroys stems). Section-restarting numbering, figures (`mbset.py figures`) and inline options are handled by the parser. No placeholder answers, no invented options.
-3. **Stage 2 — Answer-key provenance & verification**: keys, marks and online quizzes are read automatically; pen-marked scans are answered visually in batches (`mbset.py answersheet` → `mbset.py fix --answers … --source marked`). Every MCQ carries `**Answer Source:**` (`key` / `marked` / `online` / `derived`); `derived` is reported to the user with counts. **Statistical bias gate**: for any file with ≥15 MCQs, a single answer letter above 45% is investigated and above 60% fails — that is how ~1,100 CNS questions ended up keyed 84-100% `A`. Spot-check `max(5, 10%)` answers per file against the source (`mbset.py spotcheck` → `mbset.py review --spot`).
-4. **Stage 3 — Forensic completeness audit (pre-Excel gate)**: maintain `Markdown_Questions/00_CATALOG_OF_ALL_FILES.md`; three independent counters (source numbering, option-A blocks, `### Q` headings) must agree; declared source totals win. **STOP** — no Excel work until every markdown file passes; `mbset.py check` is this gate (0 hard failures).
-5. **Stage 4 — Master Excel compilation & validation**: `mbset.py build` runs the chain below and refuses while `check` fails. Compile with `scripts/build_module_template.py`, deduplicate normalized stems (zero may remain), then gate with `scripts/validate_questions_excel.py` **and** `scripts/audit_question_bank.py --by-tag`. Both must exit clean.
+### C. Question Bank Extraction — one procedure
+Follow **SKILL.md §2** exactly (it is the only extraction procedure; do not improvise another):
+sources → `inventory` → `ocr --searchable` → `parse` → `route` → `transcribe` (whole file or only the bad
+pages, chunked, dispatched in parallel to the worker the user chose) → `worklist` / `--apply` → `check`
+(0 hard failures) + spot checks → `build` → `report`. The hard rules (verbatim text, answer provenance with
+`derived` reported, bias gate, counters, no silent omissions) are in SKILL.md §1.
 
 ### D. Two-Phase Workflow for New Modules
 1. **Phase 1 — `subcategories_<Module>.xlsx`**: scan the schedule, build the lectures file with `categoryId` & `subcategoryId` empty, present the lecture breakdown, then **STOP & WAIT** for the user to upload it so the platform generates IDs.

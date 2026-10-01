@@ -95,10 +95,15 @@ def run(module: Module, src: dict[str, Any], questions: list[int] | None = None,
     items, links = [], {}
     with fitz.open(path) as doc:
         for r in records:
-            if r["i"] not in wanted or r["i"] not in regions:
+            if r["i"] not in wanted:
                 continue
-            page_no, region = regions[r["i"]]
-            rect = crop_for(doc, page_no, region, scanned)
+            if r["i"] in regions:
+                page_no, region = regions[r["i"]]
+                rect = crop_for(doc, page_no, region, scanned)
+            elif r.get("page") is not None:
+                page_no, rect = r["page"], None        # transcribed: no box — the whole page carries the figure
+            else:
+                continue
             pix = doc[page_no].get_pixmap(dpi=200, clip=rect)
             out = module.images / f"{src['nn']}_Q{r['i']}.png"
             pix.save(out)
