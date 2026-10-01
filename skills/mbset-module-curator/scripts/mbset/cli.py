@@ -11,7 +11,7 @@ import sys
 from pathlib import Path
 from typing import Any
 
-from .common import ARABIC, Module, dump_json, load_json, now, safe_name
+from .common import ARABIC, Module, dispatch_lines, dump_json, load_json, now, review_flags, safe_name
 
 SCRIPT = "scripts/mbset.py"
 SKILL_SCRIPTS = Path(__file__).resolve().parents[1]
@@ -111,7 +111,7 @@ def cmd_show(args) -> int:
         n = numbers.get(r["stem"], r["i"])
         if wanted is not None and n not in wanted:
             continue
-        if args.flags and not r["flags"]:
+        if args.flags and not review_flags(r["flags"]):
             continue
         block = _show_block(text, n) or f"### Q{n}: (not in markdown) {r['stem']}"
         opts = " ".join(f"{o['letter']}[b{o.get('bold', 0)} c{o.get('color', 0)} {','.join(o.get('marks', []))}]"
@@ -166,6 +166,9 @@ def cmd_fix(args) -> int:
 
     module, state = _mod(args)
     src = module.sources(state, args.nn)[0]
+    from .profiles import effective_profile
+    keep_ar = bool(effective_profile(module, src).get("keep_arabic"))   # Arabic sources kept by user decision
+    kept_md = effective_profile(module, src).get("markdown") == "keep"  # never re-render a kept markdown
     if args.clear_drops:
         # after a better OCR / profile: drops made only because the old text was garbled must go, so the
         # questions come back on the next parse; content drops (not a question, other subject) stay
@@ -200,7 +203,7 @@ def cmd_fix(args) -> int:
     if args.exp_file:
         data = json.loads(Path(args.exp_file).read_text(encoding="utf-8"))
         for n, text in data.items():
-            if text is not None and ARABIC.search(text):
+            if text is not None and ARABIC.search(text) and not keep_ar:
                 raise SystemExit(f"[-] exp Q{n}: Arabic characters")
             exps[int(n)] = (text, args.exp_source)          # null clears a wrong explanation
     texts: dict[int, dict[str, Any]] = {}
@@ -208,7 +211,7 @@ def cmd_fix(args) -> int:
         # {"7": {"stem": "…", "options": {"C": "…", "E": "…"}, "note": "C was lost under a pen mark"}}
         for n, fixd in json.loads(Path(args.text_file).read_text(encoding="utf-8")).items():
             blob = " ".join([fixd.get("stem") or "", *[t or "" for t in (fixd.get("options") or {}).values()]])
-            if ARABIC.search(blob):
+            if ARABIC.search(blob) and not keep_ar:
                 raise SystemExit(f"[-] text Q{n}: Arabic characters")
             bad = [L for L in (fixd.get("options") or {}) if L not in "ABCDEF"]
             if bad:
@@ -231,7 +234,7 @@ def cmd_fix(args) -> int:
         adds = json.loads(Path(args.add_file).read_text(encoding="utf-8"))
         for a in adds:
             blob = " ".join([a.get("stem") or "", *(a.get("options") or {}).values()])
-            if ARABIC.search(blob) or not a.get("stem"):
+            if (ARABIC.search(blob) and not keep_ar) or not a.get("stem"):
                 raise SystemExit(f"[-] add after Q{a.get('after')}: stem missing or Arabic characters")
             after = int(a.get("after") or 0)
             anchor = overrides.key_for(src, qs[after]["stem"], qs[after]["options"]) if after else ""
@@ -239,7 +242,11 @@ def cmd_fix(args) -> int:
                                                    "options": a.get("options") or {}, "page": a.get("page"),
                                                    "note": a.get("note"), "at": now()})
         module.save(state)
-        parse_source(module, state, src, force=True)
+        if kept_md:
+            from .writer import edit_kept
+            edit_kept(path, adds=adds)
+        else:
+            parse_source(module, state, src, force=True)
         qs = overrides.md_questions(path)
         print(f"[+] {src['nn']}: {len(adds)} question(s) added — markdown renumbered; re-read numbers before "
               f"answering")
@@ -258,7 +265,11 @@ def cmd_fix(args) -> int:
             overrides.record(src, q["stem"], q["options"], stem_fix=fixd.get("stem"), options_fix=fixd.get("options"),
                              text_note=fixd.get("note"), text_before={"stem": q["stem"], "options": q["options"]})
         module.save(state)
-        parse_source(module, state, src, force=True)
+        if kept_md:
+            from .writer import edit_kept
+            edit_kept(path, texts=texts)
+        else:
+            parse_source(module, state, src, force=True)
         qs = overrides.md_questions(path)
     for n, (letter, source) in answers.items():
         if letter not in qs[n]["options"]:
@@ -273,8 +284,8 @@ def cmd_fix(args) -> int:
         overrides.record(src, qs[n]["stem"], qs[n]["options"], image=img)
     for n in drop:
         overrides.record(src, qs[n]["stem"], qs[n]["options"], drop=args.reason)
-    edit(path, answers=answers, images=images, drop=drop)
-    if exps:
+    edit(path, answers=answers, images=images, drop=drop, exps=exps if kept_md else None)
+    if exps and not kept_md:
         # re-render from the stored decisions: an MCQ explanation must not touch its Answer Source, and a
         # cleared explanation disappears
         from .pipeline import parse_source
@@ -289,7 +300,7 @@ def cmd_fix(args) -> int:
             ov["dropped"] += [{"stem": qs[n]["stem"][:120], "reason": args.reason} for n in sorted(drop)]
             dump_json(parsed_path, parsed)
     refresh_hash(module, state, src)
-    derived = sum(1 for _, s_ in answers.values() if s_ == "derived") + len(exps)
+    derived = sum(1 for _, s_ in answers.values() if s_ == "derived") + sum(1 for t_, s_ in exps.values() if t_ and s_ == "derived")
     print(f"[+] {src['md']}: {len(texts)} text fix(es), {len(answers)} answer(s), {len(exps)} model answer(s), {len(images)} image(s), "
           f"{len(drop)} dropped{f' · {derived} derived (report to the user)' if derived else ''}")
     return 0
@@ -523,7 +534,7 @@ def cmd_catalog(args) -> int:
 
 
 def cmd_packets(args) -> int:
-    """Work packets for parallel workers, plus one self-contained Codex brief per packet
+    """Work packets for parallel workers, plus one self-contained worker brief per packet
     (`.mbset/packets/packet_k_brief.txt`; dispatch: references/parallel-workflow.md)."""
     from . import catalog
 
@@ -538,8 +549,8 @@ def cmd_packets(args) -> int:
             continue
         brief = module.meta / "packets" / f"packet_{k}_brief.txt"
         brief.write_text(catalog.packet_brief(module, k, len(bins), group, pages, script, repo), encoding="utf-8")
-        print(f"[+] {brief}\n    node ~/.agents/skills/codex-delegate/scripts/relay.mjs --brief \"{brief}\" "
-              f"--cd \"{repo}\" --model gpt-6-luna --effort max")
+        print(f"[+] {brief}")
+        print("\n".join(dispatch_lines([str(brief)], repo, "max", getattr(args, "dispatch", None))[-1:]))
     return 0
 
 
@@ -587,6 +598,9 @@ def cmd_build(args) -> int:
     import shutil
     import tempfile
     stage = Path(tempfile.mkdtemp(prefix="mbset_build_"))
+    from .profiles import effective_profile
+    keep_ar = any(effective_profile(module, s).get("keep_arabic") for s in state["sources"]
+                  if s.get("status") not in ("excluded", "missing"))
     for src in state["sources"]:
         md = module.md_path(src)
         if src.get("status") not in ("excluded", "missing") and md.exists():
@@ -597,6 +611,9 @@ def cmd_build(args) -> int:
         [py, str(SKILL_SCRIPTS / "validate_questions_excel.py"), out],
         [py, str(SKILL_SCRIPTS / "audit_question_bank.py"), "--excel", out, "--by-tag"],
     ]
+    if keep_ar:      # Arabic sources kept in Arabic by user decision; `check` still gates every other source
+        steps[1].append("--allow-arabic")
+        steps[2].append("--allow-arabic")
     for step in steps:
         print(f"[*] {' '.join(Path(step[1]).name if i == 1 else s for i, s in enumerate(step[1:], 1))}")
         rc = subprocess.run(step).returncode
@@ -687,7 +704,8 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--answer", action="append", help="N=LETTER:source (source: key|marked|online|derived)")
     p.add_argument("--answers", help='batch: "1=A 2=C 7=B" (use with --source, or N=L:source each)')
     p.add_argument("--source", choices=["key", "marked", "online", "derived"], help="provenance for --answers")
-    p.add_argument("--exp-file", help="JSON {\"N\": \"model answer\"} for written questions")
+    p.add_argument("--exp-file", "--model-file", dest="exp_file",
+                   help="JSON {\"N\": \"model answer\"} for written questions (→ **Model Answer:** / ModelAnswer column)")
     p.add_argument("--exp-source", default="derived", choices=["key", "derived"],
                    help="where the model answers came from (default derived → reported to the user)")
     p.add_argument("--image", action="append", help="N=Images/NN_QN.png")
@@ -722,6 +740,7 @@ def build_parser() -> argparse.ArgumentParser:
     add("catalog", cmd_catalog, "regenerate 00_CATALOG_OF_ALL_FILES.md and tag_map.json from state", only=False)
     p = add("packets", cmd_packets, "split pending sources into N balanced packets for parallel agents", only=False)
     p.add_argument("--n", type=int, default=4)
+    p.add_argument("--dispatch", help="worker command chosen by the user, with {brief} {repo} {effort}")
     p = sub.add_parser("lock", help="claim (or --release) sources for one agent")
     p.add_argument("module"); p.add_argument("nns"); p.add_argument("--owner"); p.add_argument("--release", action="store_true")
     p.set_defaults(fn=cmd_lock)
@@ -731,8 +750,8 @@ def build_parser() -> argparse.ArgumentParser:
     add("status", cmd_status, "one line per source", only=False)
     p = add("run", cmd_run, "inventory → OCR → parse → check in one go", only=False)
     p.add_argument("--jobs", type=int, default=2); p.add_argument("--workers", type=int, default=4)
-    from . import crossdup, doctor, lectures, report, tidy, worklist
-    for extra in (tidy, report, doctor, crossdup, lectures, worklist):
+    from . import crossdup, doctor, lectures, report, tidy, transcribe, worklist
+    for extra in (tidy, report, doctor, crossdup, lectures, worklist, transcribe):
         extra.register(sub)
     return ap
 

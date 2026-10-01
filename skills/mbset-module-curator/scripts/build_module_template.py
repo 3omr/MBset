@@ -4,7 +4,7 @@ MBset Module Questions Builder
 ==============================
 
 Stage 4 of the pipeline: compiles the verified `Markdown_Questions/*.md` files into
-the canonical 31-column `<Module>_Questions.xlsx`.
+the canonical 32-column `<Module>_Questions.xlsx`.
 
 It parses the Stage-1 markdown format directly, so the Excel can always be rebuilt
 from the markdown — the markdown is the source of truth, the Excel is a build artifact.
@@ -19,7 +19,8 @@ Markdown block format
     **Correct Answer:** B
     **Answer Source:** key
     **Image:** Images/05_Q1.png
-    **EXP:** explanation / model answer
+    **EXP:** explanation                  (MCQ)
+    **Model Answer:** model answer        (written question; legacy files use **EXP:**)
 
     ---
 
@@ -77,17 +78,21 @@ CORRECT, SOURCE, IMAGE = field('Correct Answer'), field('Answer Source'), field(
 QUESTION_TAG, QUESTION_SUBJECT = field('Tag'), field('tagSuggere')
 QUESTION_YEAR = re.compile(r'^\*\*Year:\*\*\s*((?:19|20)\d{2})\s*$', re.M)
 EXPL = re.compile(
-    r'^\*\*EXP:\*\*\s*(.*?)(?=^\*\*(?:Source Pages|Year|Tag|tagSuggere|Note):\*\*|^---\s*$|\Z)',
+    # `**Model Answer:**` (written questions) and the legacy `**EXP:**` both land here; QROC → ModelAnswer column
+    r'^\*\*(?:EXP|Model Answer):\*\*\s*(.*?)(?=^\*\*(?:Source Pages|Year|Tag|tagSuggere|Note):\*\*|^---\s*$|\Z)',
     re.S | re.M,
 )
 SUBJECTS = ('Anatomy', 'Physiology', 'Histology', 'Biochemistry', 'Microbiology',
             'Parasitology', 'Pathology', 'Pharmacology')
 
 
-def scrub(text, strip_numbering=True):
+ARABIC_KEPT = re.compile(r'^> Arabic: kept\b', re.M)   # written by mbset.py for keep_arabic sources
+
+
+def scrub(text, strip_numbering=True, keep_arabic=False):
     if text is None:
         return None
-    t = ARABIC.sub('', str(text))
+    t = str(text) if keep_arabic else ARABIC.sub('', str(text))
     # OCR/PDF extraction can leak ASCII control characters (notably backspace)
     # into cells; openpyxl rejects them and they are never meaningful medical
     # content.
@@ -108,7 +113,7 @@ def question_blocks(markdown):
         yield int(header.group(1)), header.group(2), body
 
 
-def question_metadata(body):
+def question_metadata(body, keep_arabic=False):
     correct = CORRECT.search(body)
     source = SOURCE.search(body)
     image = IMAGE.search(body)
@@ -120,19 +125,19 @@ def question_metadata(body):
         'Correct': correct.group(1).strip().upper() if correct else '',
         'source': source.group(1).strip().lower() if source else None,
         'Image': image.group(1).strip() if image else None,
-        'EXP': scrub(explanation.group(1)) if explanation else None,
+        'EXP': scrub(explanation.group(1), keep_arabic=keep_arabic) if explanation else None,
         'Tag': field_value(tag),
         'tagSuggere': field_value(subject),
         'Year': int(year.group(1)) if year else None,
     }
 
 
-def parse_question(filename, number, heading_stem, body):
+def parse_question(filename, number, heading_stem, body, keep_arabic=False):
     starts = [match.start() for match in (OPT.search(body), CORRECT.search(body)) if match]
     stem_body = body[:min(starts)] if starts else body
-    options = {letter: scrub(text, strip_numbering=False) for letter, text in OPT.findall(body)}
-    question = {'n': number, 'file': filename, 'Text': scrub(heading_stem + '\n' + stem_body)}
-    question.update(question_metadata(body))
+    options = {letter: scrub(text, strip_numbering=False, keep_arabic=keep_arabic) for letter, text in OPT.findall(body)}
+    question = {'n': number, 'file': filename, 'Text': scrub(heading_stem + '\n' + stem_body, keep_arabic=keep_arabic)}
+    question.update(question_metadata(body, keep_arabic))
     question.update({letter: options.get(letter) for letter in 'ABCDEF'})
     question['Type'] = 'QCS' if sum(bool(question[L]) for L in 'ABCDEF') >= 2 else 'QROC'
     if question['Type'] == 'QROC':
@@ -143,7 +148,8 @@ def parse_question(filename, number, heading_stem, body):
 
 def parse_markdown(path):
     raw = open(path, encoding='utf-8').read()
-    return [parse_question(os.path.basename(path), *block) for block in question_blocks(raw)]
+    keep = bool(ARABIC_KEPT.search(raw.split('### Q', 1)[0]))
+    return [parse_question(os.path.basename(path), *block, keep_arabic=keep) for block in question_blocks(raw)]
 
 
 def repack(q):
@@ -205,7 +211,7 @@ def build(md_dir, meta, category_id, category_name, out_path, strict=True):
     # ---- deduplicate on the normalized stem
     seen, deduped = {}, []
     for q in questions:
-        key = re.sub(r'[^a-z0-9]', '', (q['Text'] or '').lower())
+        key = re.sub(r'[^a-z0-9\u0621-\u064a]', '', (q['Text'] or '').lower())
         if not key:
             continue
         if key in seen:
@@ -269,7 +275,7 @@ def build(md_dir, meta, category_id, category_name, out_path, strict=True):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Compile verified markdown into the master 31-column Excel")
+    ap = argparse.ArgumentParser(description="Compile verified markdown into the master 32-column Excel")
     ap.add_argument('--markdown', required=True, help='<Module>/Markdown_Questions directory')
     ap.add_argument('--catalog', help='00_CATALOG_OF_ALL_FILES.md to read Tag/tagSuggere/Year from')
     ap.add_argument('--tag-map', help='JSON: {"05_End_2021.md": {"Tag": "...", "tagSuggere": null, "Year": 2021}}')

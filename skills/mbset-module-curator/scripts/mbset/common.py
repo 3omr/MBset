@@ -31,6 +31,34 @@ IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".webp", ".tif", ".tiff", ".bmp"}
 ARCHIVE_SUFFIXES = {".zip", ".7z", ".rar"}
 LETTERS = "ABCDEF"
 
+# Flags that record what already happened (a reviewer's re-read, a renumbering, a decision re-matched) or
+# that another gate already covers (counters cover unnumbered items, `check` covers unanswered MCQs and
+# figure stems). They stay in the evidence but never put a question on the review list.
+INFO_FLAGS = {"added_from_page_image", "text_corrected_visual", "decision_matched_fuzzy", "number_inferred",
+              "number_from_stem", "unnumbered", "no_answer", "figure_dependent", "transcribed"}
+INFO_PREFIXES = ("number_corrected_from_",)
+
+
+def dispatch_lines(briefs: list[str], repo: Path | str, effort: str, template: str | None = None) -> list[str]:
+    """How to hand each brief to a worker. The worker is the USER's choice (SKILL.md "Choosing the
+    worker") — nothing is assumed installed. `template` (or env MBSET_DISPATCH) is a shell command with
+    {brief}, {repo} and {effort}, e.g. a Codex / Antigravity relay; without one only the briefs are
+    listed, for Claude subagents (one Agent call per brief) or any other worker the user named."""
+    template = template or os.environ.get("MBSET_DISPATCH")
+    if not briefs:
+        return []
+    if not template:
+        return [f"    {b}" for b in briefs] + [
+            f"    (worker not set: ask the user which worker runs these {len(briefs)} brief(s) — see SKILL.md "
+            f"'Choosing the worker' — then pass --dispatch '<cmd with {{brief}}>' or set MBSET_DISPATCH; "
+            f"suggested effort: {effort})"]
+    return [f"    {template.format(brief=b, repo=repo, effort=effort)}" for b in briefs]
+
+
+def review_flags(flags: list[str] | None) -> list[str]:
+    """The flags that need eyes (everything except INFO_FLAGS)."""
+    return [f for f in flags or [] if f not in INFO_FLAGS and not f.startswith(INFO_PREFIXES)]
+
 SUBJECTS = ("Anatomy", "Physiology", "Histology", "Biochemistry", "Microbiology",
             "Parasitology", "Pathology", "Pharmacology")
 
@@ -51,9 +79,35 @@ def text_hash(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
+AR_LETTERS = "\u0621-\u064a"
+
+
 def norm_stem(text: str | None) -> str:
-    """The Stage-4 dedupe key: lowercase ASCII alphanumerics only."""
-    return re.sub(r"[^a-z0-9]", "", (text or "").lower())
+    """The Stage-4 dedupe key: lowercase ASCII alphanumerics (and Arabic letters, for kept-Arabic stems)."""
+    return re.sub(rf"[^a-z0-9{AR_LETTERS}]", "", (text or "").lower())
+
+
+AR_DIGITS = str.maketrans("٠١٢٣٤٥٦٧٨٩۰۱۲۳۴۵۶۷۸۹", "01234567890123456789")
+# Arabic option letters in abjad order (أ ب ج د هـ و) → a-f, at the start of a line: "أ-", "(ب)", "ج)", "د."
+AR_OPTION = re.compile(r"^\s*[(\[]?\s*(أ|ا|إ|ب|ج|د|هـ|ه|و)\s*[)\].\-/:]\s*(?=\S)"
+                       r"|^\s*(أ|إ|ب|ج|د|هـ)\s+(?=\S{2})")      # bare "أ الخوف …" (not و: it is also "and")
+AR_OPTION_MAP = {"أ": "a", "ا": "a", "إ": "a", "ب": "b", "ج": "c", "د": "d", "هـ": "e", "ه": "e", "و": "f"}
+# a right-to-left number that OCR / the text layer moved behind its separator: "-1 ما هو", ".12 …", "(3 …"
+AR_NUMBER_FLIP = re.compile(r"^\s*[-.)]\s*(\d{1,3})\s+(?=\S)")
+
+
+def arabic_markers(text: str) -> str:
+    """Normalize Arabic question/option markers to the Latin ones the parser reads; the wording is unchanged."""
+    text = text.translate(AR_DIGITS)
+    m = AR_NUMBER_FLIP.match(text)
+    if m:
+        text = f"{m.group(1)}- {text[m.end():]}"
+    if re.match(r"^\s*[2٢]\s*-\s*\S", text) and not re.search(r"[:؟?]\s*$", text) and ARABIC.search(text):
+        text = re.sub(r"^\s*[2٢]\s*-\s*", "د- ", text)      # OCR reads the option letter د as "2"
+    m = AR_OPTION.match(text)
+    if m:
+        text = f"{AR_OPTION_MAP[m.group(1) or m.group(2)]}) {text[m.end():]}"
+    return text
 
 
 def clean_inline(text: str) -> str:

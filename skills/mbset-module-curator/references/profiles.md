@@ -13,6 +13,7 @@ shows the effective result. `profile --only NN --force` rewrites it from the tri
 | Field | Default | Use it when |
 | :--- | :--- | :--- |
 | `template` | from triage | switch recipe: `digital_single`, `digital_two_column`, `scanned`, `moodle_review`, `docreader`, `docx`, `pptx`, `screenshots`, `department_book_sections`, `written_only` |
+| `transcribe` | `false` | set by `mbset.py transcribe`: questions come from the page-image transcripts in `.mbset/transcripts/NN/` instead of the parser (the other text fields are then unused) |
 | `text` | `auto` | force the text source: `native` (PDF text layer), `ocr` (cached Tesseract), `docx`, `pptx`, `plain` |
 | `columns` | `auto` | `2` when the column probe misses a two-column layout (stems interleaved in `show`), `1` to disable splitting |
 | `split` | `null` | force the gutter x in points when auto-detection picks the wrong gutter |
@@ -39,6 +40,12 @@ shows the effective result. `profile --only NN --force` rewrites it from the tri
 | `ocr.split` | 1 | `2` = two book pages per scan: cut at the gutter and OCR each half (stops lines running across the spread) |
 | `ocr.normalize`, `ocr.threshold` | off | Tesseract only: flatten uneven lighting / binarize (0-255) when highlighter or shading hides text |
 | `notes` | `""` | free text for the next agent (what was special about this file) |
+| `keep_arabic` | `false` | the source's questions are written in Arabic and are kept in Arabic (user decision per module): Arabic markers (أ/ب/ج/د, Arabic-Indic digits) are normalized, Arabic text survives cleaning, `check`/build/validate allow it for this source only; mostly-Latin lines still lose stray Arabic. Pair with `ocr.lang: ara+eng` |
+| `question_end` | `null` | regex such as `'[:؟?]\s*$'`: a line matching it after an option run opens a new question even when OCR destroyed its number (Arabic exams) |
+| `numeric_options` | `false` | options numbered `1) 2) 3)` like the questions; a numbered line continuing the option run is an option unless a `question_end` line follows before the next numbered line |
+| `glyph_swap` | `null` | `{"D": "b", "4": "H"}` — a font maps glyphs to wrong characters ("heartDeat", "4allucinations"); a word is changed only when it is not a word and the swapped one is (dictionary-checked) |
+| `answers.key_column` | `null` | x (points) of a right-hand key column: a lone letter at x ≥ it is the key of the question whose stem shares its row |
+| `answers.text_pattern` | Moodle: `The correct answer is: (.+)` | the key given as option text; it becomes `key` only when exactly one option matches |
 
 ## Recipes
 
@@ -65,6 +72,10 @@ source (`written.answer_marker`) or are derived and recorded with `fix --exp-fil
 
 **A counter mismatch that is real** (the source skips number 17) →
 `mbset.py set "$M" NN --count-note "source skips no. 17"`; never pad or renumber the source.
+
+**Marks detected automatically** (`answers.marked_by`): highlight/fill/tint/ink/circle/box annotations and
+colour, `underline` (annotations and drawn underline rules below the text), `bold` (whole option bold) and
+`bold_marker` (only the option letter is bold: "**d)** Catalysis").
 
 ## Pen-marked scans
 A tick or circle often destroys the option marker: `D Incision`, `DIncision`, `By Infected`, a row

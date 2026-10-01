@@ -163,3 +163,43 @@ class GlyphRepair:
             out.append(cur)
             i += 1
         return " ".join(out)
+
+
+class GlyphSwap:
+    """Profile `glyph_swap: {"D": "b", "4": "h"}` — a font that maps some glyphs to the wrong character
+    ("Slow heartDeat", "4allucinations", "Sei9ure"). A word is changed only when it is not a word and
+    one combination of the swaps (case follows the original position) makes it one."""
+
+    def __init__(self, swaps: dict[str, str]):
+        self.swaps = {str(k): str(v) for k, v in swaps.items()}
+        keys = "".join(re.escape(k) for k in self.swaps)
+        self.token = re.compile(rf"[A-Za-z{keys}]*[{keys}][A-Za-z{keys}]*")
+
+    def _fix(self, m: re.Match) -> str:
+        w = m.group(0)
+        if not re.search(r"[A-Za-z]{2}", w) or is_word(w):
+            return w
+        pos = [i for i, c in enumerate(w) if c in self.swaps]
+        if len(pos) > 3:
+            return w
+        from itertools import product
+        for combo in product([False, True], repeat=len(pos)):
+            if not any(combo):
+                continue
+            chars = list(w)
+            for use, i in zip(combo, pos):
+                if use:
+                    rep = self.swaps[chars[i]]
+                    letters = [c for j, c in enumerate(w) if c.isalpha() and j not in pos]
+                    if letters and all(c.isupper() for c in letters) and len(letters) > 1:
+                        rep = rep.upper()                       # "MEC4ANISMS", ",O6Y"
+                    elif i > 0:
+                        rep = rep.lower()
+                    chars[i] = rep
+            cand = "".join(chars)
+            if cand.isalpha() and is_word(cand):
+                return cand
+        return w
+
+    def repair(self, text: str) -> str:
+        return self.token.sub(self._fix, text)

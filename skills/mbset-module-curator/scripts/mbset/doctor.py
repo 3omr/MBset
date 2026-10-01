@@ -68,12 +68,11 @@ def check_env(say: Report) -> None:
         if unchecked:
             say("WARN", f"requirements.txt lists packages doctor does not check: {sorted(unchecked)}")
     check_sync(say)
-    codex = shutil.which("codex")
-    if codex:
-        rc, out = _run([codex, "--version"])
-        say("OK" if rc == 0 else "WARN", f"codex CLI {out.splitlines()[0] if out else ''} (optional)")
-    else:
-        say("WARN", "codex CLI not found (optional)")
+    # optional external workers — the user picks one (or Claude subagents, which need nothing installed)
+    found = [name for name in ("codex", "agy", "claude", "gemini", "cursor-agent", "opencode", "aider", "kimi")
+             if shutil.which(name)]
+    say("OK", f"worker CLIs found: {', '.join(found) or 'none'} — the user chooses the worker; Claude "
+              f"subagents need no CLI")
 
 
 def check_sync(say: Report) -> None:
