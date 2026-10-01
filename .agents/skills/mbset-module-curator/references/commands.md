@@ -1,4 +1,6 @@
-# Pipeline v2 — `mbset.py` command reference
+# `mbset.py` — command reference
+
+The procedure is in SKILL.md §2; this page lists every command and flag.
 
 ```bash
 S=<skill>/scripts/mbset.py          # wherever the skill folder is installed
@@ -14,12 +16,13 @@ M="My University/Endocrinology"     # any module folder with Raw_PDF_Questions/
 | `telegram status` | Telethon installed? credentials saved? session logged in? (no secrets printed) | terminal |
 | `telegram download "$M" URL… [--links-file f] [--offset] [--limit] [--dry-run]` | post files → `$M/Raw_PDF_Questions/` (public posts, ranges `…/120-160`, private `t.me/c/…`); resumable, sha-deduplicated | `.mbset/telegram_downloads.json` |
 | `inventory "$M" [--university Damietta\|Assiut]` | expand archives, SHA-256 + near-duplicate detection, triage, NN assignment (keeps an existing catalog's NN), tag suggestions | `state.json`, summary table |
-| `ocr "$M" [--jobs 2 --workers 4] [--force] [--all]` | Tesseract TSV per page for scanned sources, in parallel, cached by hash + settings | `.mbset/ocr/NN.json`; pages with low confidence listed |
+| `ocr "$M" [--jobs 2 --workers 4] [--force] [--all] [--searchable]` | Tesseract TSV per page for scanned sources, in parallel, cached by hash + settings; `--searchable` also writes an `ocrmypdf --redo-ocr -O 3` copy (`.mbset/ocrpdf/NN.pdf`, parse it with profile `text: ocrpdf`) | `.mbset/ocr/NN.json`; pages with low confidence listed |
 | `profile "$M" [--only] [--force] [--print]` | write / show the per-source profile | `.mbset/profiles/NN.yaml` |
 | `parse "$M" [--only] [--force] [--dry-run]` | lines → questions → answers → markdown; OCRs first when needed; re-applies `fix` decisions | `Markdown_Questions/NN_*.md`, `.mbset/parsed/NN.json` |
-| `route "$M" [--only]` | per source `parse` or `transcribe` from measurements (text layer, OCR confidence < 0.80, screenshots, > 30 % of parsed questions needing review) | terminal + the transcribe command |
-| `transcribe "$M" --only NN [--pages-per 6] [--dpi 150] [--key-pages P]` | render pages, split into chunks, one self-contained worker brief per chunk; profile `transcribe: true` | `.mbset/transcripts/NN/{pages,chunk_KK.brief.txt,manifest.json}` |
+| `route "$M" [--only]` | per source: `parse`, `transcribe` (whole file) or `transcribe pages …` (only the bad pages: OCR < 0.60 or most questions flagged; the rest stays parsed) | terminal + the commands to run |
+| `transcribe "$M" --only NN [--pages 4-9,15] [--format png\|pdf] [--pages-per 6] [--key-pages P] [--dispatch …]` | chunk briefs (6 pages each) for the pages to read; `pdf` = chunks of the ocrmypdf copy for PDF-reading workers; `--key-pages` = one key job instead of the key in every chunk; profile `transcribe: true` | `.mbset/transcripts/NN/{chunk_KK.pdf\|pages/,chunk_KK.brief.txt,key.brief.txt,manifest.json}` |
 | `transcribe "$M" --status [--only]` | chunks transcribed / left | terminal |
+| `dispatch "$M" [--only NN] [--parallel 3] [--retries 2] [--dispatch '<cmd {brief}>']` | run every pending chunk / key brief with the worker command saved at `init` (shell workers; Claude subagents use the Agent tool), N at a time, retrying briefs whose JSON is missing | `.mbset/work/dispatch/*.log` |
 | `worklist "$M" [--only] [--n K] [--max-items 60] [--per 8]` | closed review lists (text / answers / model answers) with crops; files costing more than `--max-items` are split into question ranges, one part per reviewer | `.mbset/packets/worklist/worklist_k.txt`, `out/<NN[_pK]>/` |
 | `worklist "$M" --apply [--only]` | merge every reviewer's JSON per file and apply it with `fix` (text → answers + model answers → drops → additions, numbers resolved through the stems) | markdown + decisions |
 | `show "$M" NN [--flags] [--q 3,7] [--dropped]` | questions with evidence: source number, page, per-option style/marks, answer evidence, flags | terminal |
@@ -37,8 +40,6 @@ M="My University/Endocrinology"     # any module folder with Raw_PDF_Questions/
 | `renumber "$M"` | resolve duplicate NN prefixes: renames the markdown, moves its sha-matched parsed/OCR evidence, renames its `Images/<old>_*` crops to `<new>_*` and rewrites those paths in the markdown, parsed JSON and stored `fix --image` decisions (an image linked by both sources is left in place and reported) | files renamed |
 | `check "$M" [--only] [--all] [--quiet] [--json f]` | the Stage 2+3 gate; exit 1 on hard failures | `.mbset/reports/check_DATE.md` |
 | `catalog "$M"` | `00_CATALOG_OF_ALL_FILES.md` + `tag_map.json` generated from state (old catalog backed up) | markdown |
-| `packets "$M" --n 4` | balanced work packets for parallel agents, each with a self-contained worker brief (see `parallel-workflow.md`) | `.mbset/packets/packet_k.md`, `packet_k_brief.txt` |
-| `lock "$M" 3,7 --owner A [--release]` | claim sources for one agent | `.mbset/locks/NN.lock` |
 | `build "$M" [--category-id --category-name] [--out]` | check → build_module_template → validate → audit | `<Module>_Questions.xlsx` |
 | `status "$M"` | one line per source: stage, class, pages, questions, answered | terminal |
 | `run "$M"` | inventory → ocr → parse → check in one go | terminal |
@@ -52,33 +53,15 @@ M="My University/Endocrinology"     # any module folder with Raw_PDF_Questions/
 A chunk JSON (written by the worker, see the brief for the full rules):
 ```json
 {"pages": [7, 8, 9, 10, 11, 12],
- "questions": [{"page": 7, "number": 12, "stem": "…", "options": {"A": "…", "B": "…"},
+ "printed_count": 9,
+ "questions": [{"page": 7, "number": 12, "case": "", "stem": "…", "options": {"A": "…", "B": "…"},
                 "answer": "B", "answer_source": "marked", "model_answer": null,
                 "model_answer_source": null, "figure": false}],
  "skipped_numbers": [], "notes": ""}
 ```
 `parse --only NN` ingests every chunk in page order: options must run A.. in order, the key must be one of
 the options, `answer_source` must be key / marked / online / derived (written questions: `model_answer`
-with key / derived). Numbering gaps not listed in `skipped_numbers`, missing chunks (hard failure) and stems
+with key / derived). Numbering gaps not listed in `skipped_numbers`, missing chunks and a `printed_count` that differs from the
+chunk's questions (hard failures), and stems
 absent from the page's OCR / text layer (`transcript_not_in_page_text`) are reported. `fix` decisions are
 re-applied on every ingest, exactly as for parsed sources.
-
-## The review loop for one parsed source
-1. `parse --only NN` → read the summary line: counters equal? answered = MCQ? distribution sane?
-2. `show NN --flags` → for each flag, decide: profile problem (fix YAML, re-parse) or single
-   question (`fix`). Typical flags: `unnumbered`, `numbering_gap_before`, `letters_not_sequential`,
-   `option_marker_repaired_*`, `possible_chimera`, `stem_prefix_cut`, `text_after_options`,
-   `low_ocr_confidence`, `answer_sources_disagree`, `several_options_with_*`, `figure_dependent`.
-3. `show NN --dropped` once per file — the noise filter must not have eaten a question.
-4. Unanswered MCQs → `answersheet`, view the PNGs, `fix --answers … --source marked`. If the source
-   truly has no answer: answer from knowledge with `--source derived` and report the count.
-5. `figures --only NN` when figure-dependent stems exist; view the contact sheet.
-6. `spotcheck --only NN`, view the sheets, `review NN --spot "k/k OK"` (or fix and re-check).
-7. `set NN --confirm` (or `--tag …`), then `check --only NN` → 0 hard failures. A suggested tag
-   never carries a guessed year: when the filename has none, the tag comes without it, `check` warns,
-   and the year is read from the source header (`set NN --tag "… 2024" --year 2024`).
-
-## Speed reference (Endocrinology, 41 sources, 1 244 golden questions)
-Inventory 7 s · OCR 283 scanned pages 8 min (2×4 workers, cached afterwards) · parse all 54 s ·
-check 1 s · build 3 s. Digital sources come out complete with answers; scanned exams need the
-visual answer pass (≈ 5 sheets per 30-question exam).

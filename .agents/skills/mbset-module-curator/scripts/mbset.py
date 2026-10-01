@@ -27,7 +27,7 @@ Self-setup: on a machine without the Python packages, the first run creates `<sk
 `requirements.txt` into it (and `requirements-telegram.txt` for `telegram`) and re-runs itself there;
 later runs use that environment automatically. Set MBSET_NO_BOOTSTRAP=1 to turn this off.
 
-See ../SKILL.md, ../references/setup-guide.md and ../references/pipeline-v2.md.
+See ../SKILL.md (§2 is the procedure), ../references/setup-guide.md and ../references/commands.md.
 """
 import importlib.util
 import os

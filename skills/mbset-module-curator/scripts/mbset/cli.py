@@ -53,7 +53,7 @@ def cmd_ocr(args) -> int:
 
     module, state = _mod(args)
     _need_inventory(state)
-    return ocr.run(module, state, args.only, args.jobs, args.workers, args.force, args.all)
+    return ocr.run(module, state, args.only, args.jobs, args.workers, args.force, args.all, args.searchable)
 
 
 def cmd_profile(args) -> int:
@@ -543,7 +543,7 @@ def cmd_catalog(args) -> int:
 
 def cmd_packets(args) -> int:
     """Work packets for parallel workers, plus one self-contained worker brief per packet
-    (`.mbset/packets/packet_k_brief.txt`; dispatch: references/parallel-workflow.md)."""
+    (`.mbset/packets/packet_k_brief.txt`). Legacy: SKILL.md §2 uses transcribe chunks and worklists."""
     from . import catalog
 
     module, state = _mod(args)
@@ -696,6 +696,8 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--workers", type=int, default=4, help="pages in parallel per file")
     p.add_argument("--force", action="store_true")
     p.add_argument("--all", action="store_true", help="OCR sources with a text layer too")
+    p.add_argument("--searchable", action="store_true",
+                   help="also write an `ocrmypdf --redo-ocr -O 3` PDF per source (.mbset/ocrpdf/NN.pdf)")
     p = add("profile", cmd_profile, "write suggested parser profiles")
     p.add_argument("--force", action="store_true")
     p.add_argument("--print", action="store_true")
@@ -760,8 +762,8 @@ def build_parser() -> argparse.ArgumentParser:
     add("status", cmd_status, "one line per source", only=False)
     p = add("run", cmd_run, "inventory → OCR → parse → check in one go", only=False)
     p.add_argument("--jobs", type=int, default=2); p.add_argument("--workers", type=int, default=4)
-    from . import crossdup, doctor, init, lectures, report, telegram, tidy, transcribe, worklist
-    for extra in (init, tidy, report, doctor, crossdup, lectures, worklist, transcribe, telegram):
+    from . import crossdup, dispatch, doctor, init, lectures, report, telegram, tidy, transcribe, worklist
+    for extra in (init, tidy, report, doctor, crossdup, lectures, worklist, transcribe, dispatch, telegram):
         extra.register(sub)
     return ap
 

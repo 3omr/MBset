@@ -1,0 +1,16 @@
+# Tags from your own folder names — no guessing. Sort the sources inside Raw_PDF_Questions/ like:
+#   Raw_PDF_Questions/Exams, Final/{2023}/paper.pdf            → "Exams, Final, paper 2023"
+#   Raw_PDF_Questions/Department/[Physiology] {2024}/_x.pdf     → "Department 2024", tagSuggere Physiology
+# Bare folder/file names become the tag, the first [..] the subject, {YYYY} the year; a file named _…
+# adds nothing. Files outside any folder fall back to the rules below.
+name: Folders
+description: "Tags from your folder names: [Subject], {Year}, bare names = tag"
+from_path: true
+append_year: true
+multidisciplinary: [Exams]
+year_free: []
+rules:
+  - {match: 'final', tag: 'Exams, Final'}
+  - {match: 'midterm|mid term', tag: 'Exams, Midterm'}
+  - {has: subject, tag: 'Department, {subject}'}
+default: {tag: 'External, {label}', confidence: low}
