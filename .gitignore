@@ -41,6 +41,9 @@ Lectures*/
 Lecture_PowerPoint_PDF_Staging/
 **/.mbset/work/
 **/.mbset/ocr/
+**/.mbset/ocrpdf/
+**/.mbset/transcripts/*/pages/
+**/.mbset/transcripts/*/*.pdf
 **/.mbset/cache/
 **/.mbset/locks/
 **/.mbset/state.lock

@@ -57,7 +57,16 @@ def parse_source(module: Module, state: dict[str, Any], src: dict[str, Any], for
     if profile.get("transcribe"):
         # visual route: the questions come from the workers' chunk JSONs (mbset.py transcribe)
         from . import transcribe
-        t = transcribe.load(module, src, profile)
+        manifest = load_json(transcribe.tdir(module, src) / "manifest.json") or {}
+        base = None
+        if manifest.get("pages_only"):
+            # a mix: the listed pages come from the transcript, every other page from the parser
+            lines, _ = load_lines(module, src, profile)
+            parsed_recs = finish(Parser(profile, lenient=True).parse(lines), profile)
+            answers_mod.attach(module, src, parsed_recs, lines, profile)
+            skip = set(manifest["pages_only"]) | set(manifest.get("key_pages") or [])
+            base = [r for r in parsed_recs if (r.get("page") or 0) + 1 not in skip]
+        t = transcribe.load(module, src, profile, base=base)
         records, info, counters, gaps = t["records"], t["info"], t["counters"], t["gaps"]
         dropped_lines: list[str] = []
         skipped: list[Any] = []
@@ -71,6 +80,8 @@ def parse_source(module: Module, state: dict[str, Any], src: dict[str, Any], for
         counters = raw_counters(lines, profile)
         gaps, dropped_lines, skipped = parser.gaps, parser.dropped, parser.skipped
     applied = overrides.apply(src, records)
+    if profile.get("transcribe") and t.get("duplicates"):
+        applied.setdefault("dropped", []).extend(t["duplicates"])
     report["answered"] = sum(1 for r in records if r["type"] == "QCS" and r.get("correct"))
     report["mcq"] = sum(1 for r in records if r["type"] == "QCS")
     old = load_json(module.parsed_path(src)) or {}

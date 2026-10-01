@@ -366,6 +366,107 @@ class TranscribeTests(unittest.TestCase):
             self.assertEqual(len(t["counters"]["missing_chunks"]), 1)
 
 
+class ExtractionV3Tests(unittest.TestCase):
+    def _module(self, tmp, chunks, manifest_extra=None):
+        import json
+        from mbset import transcribe
+        module = Module(tmp)
+        src = {"nn": "01", "rel": "Raw_PDF_Questions/s.pdf", "md": "01_S.md", "triage": {}}
+        d = transcribe.tdir(module, src)
+        d.mkdir(parents=True)
+        man = {"pages": 10, "chunks": []}
+        for k, (pages, data) in enumerate(chunks, 1):
+            out = d / f"chunk_{k:02d}.json"
+            man["chunks"].append({"k": k, "pages": pages, "out": str(out)})
+            if data is not None:
+                out.write_text(json.dumps(data), encoding="utf-8")
+        man.update(manifest_extra or {})
+        (d / "manifest.json").write_text(json.dumps(man), encoding="utf-8")
+        return module, src, d
+
+    def test_chunks_follow_runs_of_pages(self):
+        from mbset.transcribe import chunks_for
+        self.assertEqual(chunks_for([3, 4, 5, 9, 10], 6), [[3, 4, 5], [9, 10]])
+        self.assertEqual(chunks_for(list(range(1, 15)), 6), [[1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11, 12, 13, 14]])
+
+    def test_case_count_mismatch_and_key_job(self):
+        import json
+        from mbset import transcribe
+        q = lambda n, case="": {"page": 1, "number": n, "case": case, "stem": f"Stem number {n} here",
+                                "options": {"A": "x", "B": "y"}, "answer": None, "answer_source": None}
+        with tempfile.TemporaryDirectory() as tmp:
+            module, src, d = self._module(tmp, [([1, 2], {"printed_count": 3, "questions": [q(1, "A man of 40"), q(2, "A man of 40")]})],
+                                          {"key": {"out": str(Path(tmp) / ".mbset/transcripts/01/key.json")}})
+            (d / "key.json").write_text(json.dumps({"sections": [{"1": "B", "2": "Z"}]}), encoding="utf-8")
+            t = transcribe.load(module, src, copy.deepcopy(DEFAULT))
+            r = t["records"]
+            self.assertEqual(r[0]["case"], "A man of 40")
+            self.assertEqual((r[0]["correct"], r[0]["answer_source"]), ("B", "key"))
+            self.assertIn("key_letter_not_among_options", r[1]["flags"])
+            self.assertEqual(len(t["counters"]["chunk_count_mismatch"]), 1)
+
+    def test_mix_keeps_parsed_pages_in_page_order(self):
+        from mbset import transcribe
+        base = [{"i": 1, "number": 1, "page": 0, "type": "QCS", "stem": "parsed one", "options": [], "flags": []},
+                {"i": 2, "number": 3, "page": 2, "type": "QCS", "stem": "parsed three", "options": [], "flags": []}]
+        tq = {"page": 2, "number": 2, "stem": "transcribed two", "options": {"A": "x", "B": "y"},
+              "answer": "A", "answer_source": "marked"}
+        with tempfile.TemporaryDirectory() as tmp:
+            module, src, _ = self._module(tmp, [([2], {"printed_count": 1, "questions": [tq]})], {"pages_only": [2]})
+            t = transcribe.load(module, src, copy.deepcopy(DEFAULT), base=base)
+            self.assertEqual([x["number"] for x in t["records"]], [1, 2, 3])
+            self.assertEqual(t["gaps"], [])
+
+    def test_case_reaches_the_cas_column_and_dedupe_keeps_both(self):
+        import build_module_template as b
+        recs = [{"type": "QCS", "stem": "What is the diagnosis?", "case": case, "pages": [0],
+                 "options": [{"letter": "A", "text": "x"}, {"letter": "B", "text": "y"}], "correct": "A",
+                 "answer_source": "key"} for case in ("A child with fever", "An old man with chest pain")]
+        text = render({"rel": "Raw_PDF_Questions/s.pdf", "nn": "01"}, recs)
+        self.assertIn("**Case:** A child with fever", text)
+        with tempfile.TemporaryDirectory() as tmp:
+            (Path(tmp) / "a.md").write_text(text, encoding="utf-8")
+            qs = b.parse_markdown(str(Path(tmp) / "a.md"))
+            self.assertEqual([q["Cas"] for q in qs], ["A child with fever", "An old man with chest pain"])
+            self.assertEqual(qs[0]["Text"], "What is the diagnosis?")
+
+    def test_folder_convention_tags(self):
+        from mbset import taxonomy
+        tax = taxonomy.load("folders")
+        s = taxonomy.suggest(tax, "Raw_PDF_Questions/Department/[Physiology] {2024}/_x.pdf")
+        self.assertEqual((s["tag"], s["tagSuggere"], s["year"]), ("Department 2024", "Physiology", 2024))
+        self.assertEqual(taxonomy.suggest(tax, "Raw_PDF_Questions/Final 2022.pdf")["tag"], "Exams, Final 2022")
+
+
+class DispatchTests(unittest.TestCase):
+    def test_runs_pending_briefs_and_retries_missing_ones(self):
+        import argparse, io, contextlib, json
+        from mbset import dispatch, transcribe
+        with tempfile.TemporaryDirectory() as tmp:
+            module = Module(tmp)
+            module.save({"sources": [{"nn": "01", "rel": "Raw_PDF_Questions/s.pdf", "md": "01_S.md"}]})
+            d = transcribe.tdir(module, {"nn": "01"})
+            d.mkdir(parents=True)
+            chunks = []
+            for k in (1, 2):
+                b = d / f"chunk_0{k}.brief.txt"
+                b.write_text("brief", encoding="utf-8")
+                chunks.append({"k": k, "pages": [k], "brief": str(b), "out": str(d / f"chunk_0{k}.json")})
+            (d / "chunk_01.json").write_text("{}", encoding="utf-8")            # chunk 1 already done
+            (d / "manifest.json").write_text(json.dumps({"pages": 2, "chunks": chunks}), encoding="utf-8")
+            # a fake worker: fails the first time (no JSON), succeeds on the retry
+            flag = Path(tmp) / "tried"
+            cmd = (f"if [ -f {flag} ]; then echo '{{}}' > $(dirname {{brief}})/chunk_02.json; "
+                   f"else touch {flag}; fi")
+            args = argparse.Namespace(module=tmp, only=None, parallel=2, retries=1, effort="high", dispatch=cmd)
+            out = io.StringIO()
+            with contextlib.redirect_stdout(out):
+                rc = dispatch.cmd_dispatch(args)
+            self.assertEqual(rc, 0, out.getvalue())
+            self.assertIn("round 2: 1 brief", out.getvalue())
+            self.assertTrue((d / "chunk_02.json").exists())
+
+
 class WorklistSplitTests(unittest.TestCase):
     def test_big_file_is_split_into_question_ranges(self):
         from mbset import worklist
