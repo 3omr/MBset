@@ -9,6 +9,7 @@ M="My University/Endocrinology"     # any module folder with Raw_PDF_Questions/
 
 | Command | What it does | Output |
 | :--- | :--- | :--- |
+| `init [--show\|--list\|--test F…]` / `init --university N [--taxonomy-file f.yaml] [--worker W] [--dispatch D] [--telegram yes\|no] [--language L]` | first-run setup per person: faculty + tag taxonomy, worker, Telegram, language (SKILL.md §0) | `~/.config/mbset/config.yaml`, `taxonomies/` |
 | `telegram setup` | once per person, **run by the user** in their own terminal: API id/hash from my.telegram.org + login; saved in `~/.config/mbset/` (mode 600) | — |
 | `telegram status` | Telethon installed? credentials saved? session logged in? (no secrets printed) | terminal |
 | `telegram download "$M" URL… [--links-file f] [--offset] [--limit] [--dry-run]` | post files → `$M/Raw_PDF_Questions/` (public posts, ranges `…/120-160`, private `t.me/c/…`); resumable, sha-deduplicated | `.mbset/telegram_downloads.json` |

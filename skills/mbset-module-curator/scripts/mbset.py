@@ -49,7 +49,8 @@ def bootstrap() -> None:
     """Make the packages this command needs importable, without touching the system Python."""
     if os.environ.get("MBSET_NO_BOOTSTRAP"):
         return
-    want_tg = (len(sys.argv) > 1 and sys.argv[1] == "telegram") or "--telegram" in sys.argv
+    cmd = sys.argv[1] if len(sys.argv) > 1 else ""
+    want_tg = cmd == "telegram" or (cmd == "doctor" and "--telegram" in sys.argv)
     need = _missing(REQUIRED) + (_missing(("telethon",)) if want_tg else [])
     in_venv = Path(sys.prefix).resolve() == VENV.resolve()
     if not need:
