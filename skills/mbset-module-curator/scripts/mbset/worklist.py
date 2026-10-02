@@ -80,6 +80,14 @@ def build(module: Module, state: dict[str, Any], selector: str | None) -> list[d
         if not md.exists() or not module.parsed_path(src).exists():
             continue
         it = items(md)
+        # differences a worker spot check found (spotcheck --worker) are text items to fix from the page
+        import json as _json
+        sc = module.meta / "spotcheck" / f"{src['nn']}.json"
+        if sc.exists():
+            for q, verdict in (_json.loads(sc.read_text(encoding="utf-8")).get("verdicts") or {}).items():
+                m = re.match(r"Q(\d+)", str(q))
+                if m and not str(verdict).strip().upper().startswith("OK"):
+                    it["text"].append((int(m.group(1)), f"spot check: {verdict}"))
         # derived answers the second opinion disputed (consensus) get a careful second look
         from .overrides import key as stem_key
         disputed = src.get("disputed") or {}

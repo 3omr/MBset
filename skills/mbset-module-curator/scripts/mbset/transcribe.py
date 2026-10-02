@@ -186,6 +186,33 @@ def detect_key_pages(module: Module, src: dict[str, Any], minimum: int = 10) -> 
     return sorted(p for p, t in _page_tokens(module, src).items() if key_pairs(t) >= minimum)
 
 
+def page_hashes(module: Module, src: dict[str, Any], pages: list[int]) -> dict[int, str]:
+    """A 256-bit difference hash of each page as rendered: identical pages (the same exam printed twice, a
+    file repeated inside a compilation) get the same or a very close hash; a different scan does not."""
+    from PIL import Image
+    import io
+    path = module.source_path(src)
+    out: dict[int, str] = {}
+    if path.suffix.lower() in IMAGE_SUFFIXES:
+        imgs = {1: Image.open(path)}
+    else:
+        import fitz
+        imgs = {}
+        with fitz.open(path) as doc:
+            for p in pages:
+                imgs[p] = Image.open(io.BytesIO(doc[p - 1].get_pixmap(dpi=40).tobytes("png")))
+    for p, img in imgs.items():
+        g = img.convert("L").resize((17, 16))
+        px = list(g.getdata())
+        bits = "".join("1" if px[r * 17 + c] > px[r * 17 + c + 1] else "0" for r in range(16) for c in range(16))
+        out[p] = f"{int(bits, 2):064x}"
+    return out
+
+
+def _near(a: str, b: str, limit: int = 8) -> bool:
+    return bin(int(a, 16) ^ int(b, 16)).count("1") <= limit
+
+
 def chunk_pdf(module: Module, src: dict[str, Any], pages: list[int], out: Path) -> None:
     """The chunk's pages (1-based, in order) cut from the `ocrmypdf --redo-ocr -O 3` copy."""
     import fitz
@@ -339,7 +366,8 @@ JSON format (UTF-8, valid JSON):
 
 Rules:
 1. VERBATIM. Every stem and option is copied exactly as printed — same words, same order, same spelling of
-   drug names and numbers. Never shorten, summarise, reword, complete, translate or "improve". Medical
+   drug names and numbers, printed typos included ("TO" stays "TO"). Never shorten, summarise, reword,
+   complete, correct, translate or "improve", and never add blanks, options or words the page does not print. Medical
    notation is written properly (Ca²⁺, Na⁺, β1, µm, →). Arabic: {keep_ar}.
 2. EVERY question that STARTS on your pages, in page order, none skipped. A question running past your last
    page is finished from the context page. Text at the top of your first page that continues a question from
@@ -433,12 +461,43 @@ def prepare(module: Module, src: dict[str, Any], per: int = PAGES_PER_CHUNK, dpi
     only = sorted(only_pages) if only_pages is not None else old.get("pages_only")
     # key pages stay in the chunks too: a key table often shares its page with questions
     wanted = list(only or range(1, total + 1))
+    # a page already sent for reading — here or in another source of the module — is not read twice
+    registry_path = module.meta / "page_hashes.json"
+    registry: dict[str, dict[str, Any]] = load_json(registry_path) or {}
+    hashes = page_hashes(module, src, wanted)
+    copies: dict[int, dict[str, Any]] = dict(old.get("copies") or {}) if old.get("copies") else {}
+    copies = {int(k): v for k, v in copies.items()}
+    mine = _page_tokens(module, src)
+    others: dict[str, dict[int, str]] = {src["nn"]: mine}
+    sources = {x["nn"]: x for x in module.load().get("sources", [])}
+
+    def same_text(ref: dict[str, Any], p: int) -> bool:
+        """The look-alike must also read alike: layouts of different text pages can hash close together."""
+        from rapidfuzz import fuzz
+        if ref["nn"] not in others and ref["nn"] in sources:
+            others[ref["nn"]] = _page_tokens(module, sources[ref["nn"]])
+        ra, rb = mine.get(p, ""), others.get(ref["nn"], {}).get(ref["page"], "")
+        if len(ra.split()) < 20 or len(rb.split()) < 20:
+            return False                      # too little text to be sure: read it again
+        return fuzz.ratio(norm_stem(ra)[:2000], norm_stem(rb)[:2000]) >= 90
+
+    for p in wanted:
+        h = hashes.get(p)
+        hit = next((v for k, v in registry.items() if h and _near(k, h)
+                    and (v["nn"], v["page"]) != (src["nn"], p) and same_text(v, p)), None)
+        if hit:
+            copies[p] = hit
+        elif h:
+            registry.setdefault(h, {"nn": src["nn"], "page": p})
+    dump_json(registry_path, registry)
+    wanted = [p for p in wanted if p not in copies]
     same = old.get("chunks") and old.get("pages") == total and old.get("pages_only") == only \
         and old.get("format", "png") == fmt
     chunks = [c["pages"] for c in old["chunks"]] if same else \
         chunks_by_work(wanted, page_weights(module, src, wanted), per)
     manifest = {"nn": src["nn"], "source": src["rel"], "pages": total, "created": old.get("created") or now(),
-                "format": fmt, "key_pages": key_pages, "keys_auto": auto, "pages_only": only, "chunks": []}
+                "format": fmt, "key_pages": key_pages, "keys_auto": auto, "pages_only": only,
+                "copies": {str(k): v for k, v in sorted(copies.items())}, "chunks": []}
     if fmt == "png":
         need = {p for c in chunks for p in c} | {c[-1] + 1 for c in chunks if c[-1] < total} | set(key_pages)
         render_pages(module, src, sorted(need), dpi=dpi)
@@ -578,6 +637,7 @@ def load(module: Module, src: dict[str, Any], profile: dict[str, Any],
             mismatch.append(f"chunk {c['k']} (pages {c['pages'][0]}-{c['pages'][-1]}): worker counted {pc} on the "
                             f"pages but wrote {len(qs)}")
         trecs += [_record(q, c, keep_ar, texts, fuzz) for q in qs]
+    trecs += _copied(module, src, manifest, keep_ar, texts, fuzz, missing)
     keys = list(manifest.get("keys") or []) + ([dict(manifest["key"], pages=manifest.get("key_pages") or [])]
                                                if manifest.get("key") else [])
     for kj in keys:
@@ -643,6 +703,30 @@ def load(module: Module, src: dict[str, Any], profile: dict[str, Any],
         gaps = [f"not transcribed yet: {m}" for m in missing] + gaps
     return {"records": records, "counters": counters, "gaps": gaps, "duplicates": dupes,
             "info": {"method": "transcribe" if not base else "transcribe+parse"}}
+
+
+def _copied(module: Module, src: dict[str, Any], manifest: dict[str, Any], keep_ar: bool, texts, fuzz,
+            missing: list[str]) -> list[dict[str, Any]]:
+    """Questions of pages identical to a page read for another source: taken from that source's transcript
+    (same-source repeats are skipped — their questions are already here)."""
+    out: list[dict[str, Any]] = []
+    for page, ref in sorted((int(k), v) for k, v in (manifest.get("copies") or {}).items()):
+        if ref["nn"] == src["nn"]:
+            continue
+        # the other source's finished questions (its keys and fixes applied) — not its raw transcript
+        parsed = load_json(module.meta / "parsed" / f"{ref['nn']}.json")
+        got = [r for r in (parsed or {}).get("questions", []) if r.get("page") == ref["page"] - 1
+               and "transcribed" in r.get("flags", [])]
+        if not got:
+            missing.append(f"page {page} is a copy of source {ref['nn']} p{ref['page']} — parse that source first")
+            continue
+        for r in got:
+            rec = json.loads(json.dumps(r))
+            rec.update(page=page - 1, pages=[page - 1], section=None,
+                       flags=[f for f in r["flags"] if f != "transcribed"] + ["transcribed",
+                                                                            f"copied_from_{ref['nn']}_p{ref['page']}"])
+            out.append(rec)
+    return out
 
 
 def _apply_keys(records: list[dict[str, Any]], keys: list[tuple[int, dict[str, Any]]]) -> None:

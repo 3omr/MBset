@@ -24,7 +24,8 @@ credits, ask again.
   `Read <brief path> and do exactly what it says. Your final message is the report the brief asks for.`
 - **A delegate CLI** (Codex, Antigravity/Gemini, Cursor, OpenCode… — `doctor` lists what is installed): save
   its command once (`init --dispatch '<cmd with {brief} {repo} {effort}>'`) and `transcribe` / `worklist`
-  print one ready line per brief. `mbset.py dispatch "$M" [--only NN] [--parallel 3] [--retries 2]` runs every
+  print one ready line per brief. Several pools at once: repeat `--dispatch '<cmd>' --parallel N` (e.g.
+  Gemini ×4 + Codex ×4) — they share one queue. `mbset.py dispatch "$M" [--only NN] [--parallel 3] [--retries 2]` runs every
   pending brief with it and retries the ones whose JSON is still missing — keep parallelism low: 9 parallel
   Antigravity runs lost their shared login (401) mid-run, 3 at a time did not. Use `transcribe --format png` (page
   image + its OCR text) unless the worker's file tool reads PDFs; Antigravity's reads images only.

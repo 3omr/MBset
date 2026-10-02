@@ -337,13 +337,33 @@ def cmd_spotcheck(args) -> int:
     for src in module.sources(state, args.only):
         if src.get("status") in ("excluded", "missing") or not module.parsed_path(src).exists():
             continue
+        if getattr(args, "worker", False):
+            b = spotcheck.worker_brief(module, src, args.n)
+            print(f"[+] {src['nn']}: worker brief {b}" if b else f"[-] {src['nn']}: nothing to check")
+            continue
         outs = spotcheck.render(module, src, args.flagged, args.n)
         print(f"[+] {src['nn']}: view " + " ".join(str(o) for o in outs))
+    if getattr(args, "worker", False):
+        print('[=] next: mbset.py dispatch "$M" (or Claude subagents), then review "$M" --auto')
     return 0
 
 
 def cmd_review(args) -> int:
     module, state = _mod(args)
+    if getattr(args, "auto", False):
+        from . import spotcheck
+        for src in module.sources(state, None if args.nn in (None, "all") else args.nn):
+            verdict, diffs = spotcheck.worker_verdict(module, src)
+            if verdict:
+                rev = src.setdefault("stages", {}).setdefault("review", {})
+                rev.update(spot_check=verdict, at=now())
+                src["status"] = "reviewed"
+                print(f"[+] {src['nn']}: {verdict}")
+            elif diffs:
+                print(f"[!] {src['nn']}: {len(diffs)} difference(s) — fix them (`fix --text-file` / `--answers`), "
+                      f"then spot-check again:\n    " + "\n    ".join(diffs[:12]))
+        module.save(state)
+        return 0
     src = module.sources(state, args.nn)[0]
     rev = src.setdefault("stages", {}).setdefault("review", {})
     if args.spot:
@@ -733,11 +753,15 @@ def build_parser() -> argparse.ArgumentParser:
     p = add("spotcheck", cmd_spotcheck, "source-vs-markdown sheets for max(5,10%%) sampled questions")
     p.add_argument("--flagged", action="store_true", help="include flagged questions in the sample")
     p.add_argument("--n", type=int)
+    p.add_argument("--worker", action="store_true",
+                   help="write a brief for a worker to compare the sample with the pages (instead of sheets)")
     p = add("answersheet", cmd_answersheet, "crops of unanswered MCQs (6 per sheet) for a batch visual answer pass")
     p.add_argument("--q", help="markdown question numbers (default: every MCQ without an answer)")
     p.add_argument("--per", type=int, default=6)
     p = sub.add_parser("review", help="record the spot-check verdict")
-    p.add_argument("module"); p.add_argument("nn"); p.add_argument("--spot"); p.add_argument("--note")
+    p.add_argument("module"); p.add_argument("nn", nargs="?", default="all"); p.add_argument("--spot")
+    p.add_argument("--note")
+    p.add_argument("--auto", action="store_true", help="record the worker spot checks (spotcheck --worker)")
     p.set_defaults(fn=cmd_review)
     p = sub.add_parser("set", help="confirm tags, exclude/include a source, annotate counts")
     p.add_argument("module"); p.add_argument("nn", help="NN or comma list")

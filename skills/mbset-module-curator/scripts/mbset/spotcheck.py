@@ -209,3 +209,77 @@ def answer_sheets(module: Module, src: dict[str, Any], wanted: list[int] | None 
     finally:
         doc.close()
     return outs, [n for n, _ in picks]
+
+
+# ------------------------------------------------------------------------------- spot check by a worker
+def sdir(module: Module) -> Path:
+    return module.meta / "spotcheck"
+
+
+def worker_brief(module: Module, src: dict[str, Any], n: int | None = None) -> Path | None:
+    """A self-contained brief: the sampled questions as the markdown has them, and their page images; the
+    worker compares and writes a verdict per question. Written by a different worker than the transcriber
+    when possible, it replaces looking at the sheets by eye."""
+    from .transcribe import render_pages, tdir
+    parsed = load_json(module.parsed_path(src))
+    md = module.md_path(src)
+    if not parsed or not md.exists():
+        return None
+    # sample PAGES, check every question on them: each page is one slow step for a worker, so a few whole
+    # pages (spread over the file, flagged ones first) beat many pages with one question each
+    recs = [r for r in parsed["questions"] if r.get("page") is not None]
+    by_page: dict[int, list[dict[str, Any]]] = {}
+    for r in recs:
+        by_page.setdefault(r["page"] + 1, []).append(r)
+    allp = sorted(by_page)
+    k = n or max(3, math.ceil(len(allp) * 0.10))
+    flagged = [p for p in allp if any(review_flags(r["flags"]) for r in by_page[p])][: max(1, k // 2)]
+    step = (len(allp) - 1) / max(k - len(flagged) - 1, 1)
+    spread = [allp[round(j * step)] for j in range(max(k - len(flagged), 0)) if round(j * step) < len(allp)]
+    pages = sorted(set(flagged) | set(spread))[:k]
+    picks = [r for p in pages for r in by_page[p]][:60]
+    # the last question of a page often runs onto the next one: give that page too
+    pages = sorted(set(pages) | {p + 1 for p in pages if p + 1 in by_page or p + 1 <= max(allp)})
+    blocks = _md_blocks(md)
+    render_pages(module, src, pages)
+    pdir = tdir(module, src) / "pages"
+    out = sdir(module) / f"{src['nn']}.json"
+    lines = [f"MBset spot check — {module.name} · source {src['nn']} ({Path(src['rel']).name})", "",
+             "Compare each question below with its page image. Open ONLY these images:"]
+    lines += [f"  - page {p}: {pdir / f'p{p:03d}.png'}" for p in pages]
+    lines += ["", f"Write ONE file, and nothing else: {out}",
+              'JSON: {"verdicts": {"Q<n>": "OK" | "DIFF: <what differs from the page>"}}',
+              "OK = stem and options say exactly what is printed and the answer letter matches a printed key or a",
+              "visible mark when there is one. NOT a difference: spacing, line breaks, capitalisation, option",
+              "letters (a. → A), mark allocations like '(0.5 mark)', notation written properly (Na+ → Na⁺, B1 → β1,",
+              "-> → →), a question that continues on the next listed page. A DIFF is a word, number, option or",
+              "answer that differs from the page, or a word added or 'corrected' that the page does not print —",
+              "name it exactly. Do not run programs.", ""]
+    for r in picks:
+        first = (r["stem"].splitlines() or [""])[0].strip()
+        block = blocks.get(r["stem"]) or blocks.get(first)
+        if block:
+            lines += [f"[page {r['page'] + 1}]", block.strip(), ""]
+    sdir(module).mkdir(parents=True, exist_ok=True)
+    b = sdir(module) / f"{src['nn']}.brief.txt"
+    b.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return b
+
+
+def worker_pending(module: Module) -> list[tuple[str, Path]]:
+    d = sdir(module)
+    return [(str(b), d / b.name.replace(".brief.txt", ".json")) for b in sorted(d.glob("*.brief.txt"))
+            if not (d / b.name.replace(".brief.txt", ".json")).exists()] if d.exists() else []
+
+
+def worker_verdict(module: Module, src: dict[str, Any]) -> tuple[str | None, list[str]]:
+    """('k/k OK (worker)', []) when every sampled question is OK; (None, diffs) otherwise."""
+    import json
+    f = sdir(module) / f"{src['nn']}.json"
+    if not f.exists():
+        return None, []
+    v = json.loads(f.read_text(encoding="utf-8")).get("verdicts") or {}
+    diffs = [f"{q}: {t}" for q, t in v.items() if not str(t).strip().upper().startswith("OK")]
+    if v and not diffs:
+        return f"{len(v)}/{len(v)} OK (worker spot check)", []
+    return None, diffs

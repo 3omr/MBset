@@ -55,7 +55,7 @@ def save_config(cfg: dict[str, Any]) -> None:
 # figure stems). They stay in the evidence but never put a question on the review list.
 INFO_FLAGS = {"added_from_page_image", "text_corrected_visual", "decision_matched_fuzzy", "number_inferred",
               "number_from_stem", "unnumbered", "no_answer", "figure_dependent", "transcribed"}
-INFO_PREFIXES = ("number_corrected_from_",)
+INFO_PREFIXES = ("number_corrected_from_", "copied_from_")
 
 
 def dispatch_lines(briefs: list[str], repo: Path | str, effort: str, template: str | None = None) -> list[str]:

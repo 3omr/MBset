@@ -16,6 +16,7 @@ mbset-module-curator/
 ├── SKILL.md                     # the SOP: §0 first run · §1 hard rules · §2 extraction procedure · tags · lectures
 ├── README.md
 ├── references/
+│   ├── first-run.md             # the onboarding the agent runs the first time
 │   ├── setup-guide.md           # install + connect your own Telegram (EN / AR)
 │   ├── commands.md              # every mbset.py command and flag
 │   ├── workers.md               # briefs, who runs them, re-verification

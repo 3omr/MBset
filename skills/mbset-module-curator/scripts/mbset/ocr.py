@@ -40,6 +40,19 @@ def _settings(profile: dict[str, Any] | None) -> dict[str, Any]:
     return cfg
 
 
+def _divide(img, bg):
+    """img / background × 255 — flattens uneven lighting (Pillow has no ImageChops.divide)."""
+    try:
+        import numpy as np
+        from PIL import Image
+        a = np.asarray(img, dtype=np.float32)
+        b = np.asarray(bg, dtype=np.float32) + 1.0
+        return Image.fromarray(np.clip(a * 255.0 / b, 0, 255).astype("uint8"), "L")
+    except ImportError:
+        from PIL import ImageMath
+        return ImageMath.lambda_eval(lambda e: e["a"] * 255 / (e["b"] + 1), a=img, b=bg).convert("L")
+
+
 def _prepare(png: bytes, cfg: dict[str, Any]) -> list[tuple[bytes, int]]:
     """Page image → [(image, x offset in pixels)], one per strip, after optional binarization."""
     split, thr = int(cfg.get("split") or 1), cfg.get("threshold")
@@ -50,7 +63,7 @@ def _prepare(png: bytes, cfg: dict[str, Any]) -> list[tuple[bytes, int]]:
     img = Image.open(io.BytesIO(png)).convert("L")
     if cfg.get("normalize"):
         bg = img.filter(ImageFilter.GaussianBlur(40))
-        img = ImageChops.divide(img, bg)
+        img = _divide(img, bg)
     if thr:
         img = img.point(lambda v, t=int(thr): 255 if v >= t else 0)
     cuts = [0]
@@ -208,6 +221,13 @@ def ocr_source(module: Module, src: dict[str, Any], profile: dict[str, Any] | No
     else:
         with ThreadPoolExecutor(max_workers=workers) as pool:
             texts = list(pool.map(lambda item: _tesseract_page(item[0], cfg), rendered))
+            if not cfg.get("normalize") and not cfg.get("threshold"):
+                # weak pages (phone photos, uneven light): also try with the lighting flattened, keep the better
+                weak = [i for i, lines in enumerate(texts) if _mean(lines) < 0.75 or len(_real(lines)) < 10]
+                tries = list(pool.map(lambda i: _tesseract_page(rendered[i][0], dict(cfg, normalize=True)), weak))
+                for i, alt in zip(weak, tries):
+                    if _better(alt, texts[i]):
+                        texts[i] = alt
     pages = []
     for (_, width, height), lines in zip(rendered, texts):
         confs = [ln["conf"] for ln in lines if ln["text"].strip()]
@@ -253,6 +273,25 @@ def searchable_pdf(module: Module, src: dict[str, Any], profile: dict[str, Any] 
         raise RuntimeError(f"ocrmypdf failed ({r.returncode}): {(r.stderr or r.stdout).strip()[-300:]}")
     stamp.write_text(_json.dumps(key))
     return out
+
+
+def _real(lines: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return [ln for ln in lines if ln["text"].strip()]
+
+
+def _mean(lines: list[dict[str, Any]]) -> float:
+    confs = [ln["conf"] for ln in _real(lines)]
+    return sum(confs) / len(confs) if confs else 0.0
+
+
+def _better(alt: list[dict[str, Any]], base: list[dict[str, Any]]) -> bool:
+    """Measured on phone photos: flattening the light rescues pages Tesseract read nothing from (0 → 60 lines
+    at 0.70-0.78) but can hurt clean ones — take it only when the base read almost nothing, or when it is
+    clearly more confident without losing lines."""
+    a, b = _real(alt), _real(base)
+    if len(b) < 10:
+        return len(a) > len(b)
+    return _mean(alt) >= _mean(base) + 0.02 and len(a) >= 0.8 * len(b)
 
 
 def needs_ocr(src: dict[str, Any]) -> bool:
