@@ -138,6 +138,54 @@ def render_pages(module: Module, src: dict[str, Any], pages: list[int], dpi: int
             tdoc.close()
 
 
+def _page_tokens(module: Module, src: dict[str, Any]) -> dict[int, str]:
+    """1-based page → raw machine text (ocrmypdf layer, text layer or OCR cache)."""
+    from .ocr import searchable_path
+    out: dict[int, str] = {}
+    path = module.source_path(src)
+    text_src = searchable_path(module, src)
+    text_src = text_src if text_src.exists() else (path if path.suffix.lower() == ".pdf"
+                                                    and src.get("triage", {}).get("has_text") else None)
+    if text_src:
+        import fitz
+        with fitz.open(text_src) as doc:
+            for i, page in enumerate(doc):
+                out[i + 1] = page.get_text()
+    else:
+        data = load_json(module.ocr_path(src)) or {"pages": []}
+        for i, pg in enumerate(data["pages"]):
+            out[i + 1] = "\n".join(ln["text"] for ln in pg["lines"])
+    return out
+
+
+def key_pairs(text: str) -> int:
+    """How many question→letter pairs a page's text holds: `12-B` / `12) b` pairs, or a table printed as a
+    row of consecutive numbers followed by a row of letters (how answer grids come out of PDFs and OCR)."""
+    direct = len(re.findall(r"(?<!\d)\d{1,3}\s*[-.:)=]\s*\(?[A-Ea-e]\)?(?![A-Za-z])", text))
+    toks = text.split()
+    rows, i = 0, 0
+    while i < len(toks):
+        j = i
+        while j + 1 < len(toks) and toks[j].isdigit() and toks[j + 1].isdigit() and int(toks[j + 1]) == int(toks[j]) + 1:
+            j += 1
+        n = j - i + 1 if toks[i].isdigit() else 0
+        if n >= 5:
+            letters = 0
+            while j + 1 + letters < len(toks) and re.fullmatch(r"[A-Ea-e]\.?", toks[j + 1 + letters]):
+                letters += 1
+            if letters >= 5:
+                rows += min(n, letters)
+                i = j + 1 + letters
+                continue
+        i += 1
+    return max(direct, rows)
+
+
+def detect_key_pages(module: Module, src: dict[str, Any], minimum: int = 10) -> list[int]:
+    """Pages that print an answer key (≥ `minimum` pairs) — found from the text, no model involved."""
+    return sorted(p for p, t in _page_tokens(module, src).items() if key_pairs(t) >= minimum)
+
+
 def chunk_pdf(module: Module, src: dict[str, Any], pages: list[int], out: Path) -> None:
     """The chunk's pages (1-based, in order) cut from the `ocrmypdf --redo-ocr -O 3` copy."""
     import fitz
@@ -151,6 +199,41 @@ def chunk_pdf(module: Module, src: dict[str, Any], pages: list[int], out: Path) 
             part.insert_pdf(doc, from_page=p - 1, to_page=p - 1)
         part.save(out, garbage=3, deflate=True)
         part.close()
+
+
+def page_weights(module: Module, src: dict[str, Any], pages: list[int]) -> dict[int, float]:
+    """Relative reading work per page (1.0 = an average page): the amount of machine text, so dense pages of
+    questions weigh more than a title page — chunks of equal work finish together."""
+    toks = _page_tokens(module, src)
+    sizes = {p: len((toks.get(p) or "").split()) for p in pages}
+    avg = (sum(sizes.values()) / len(sizes)) if sizes else 0
+    conf = {i + 1: pg.get("mean_conf") or 0 for i, pg in enumerate((load_json(module.ocr_path(src)) or {}).get("pages", []))}
+    out: dict[int, float] = {}
+    for p in pages:
+        w = min(2.5, sizes[p] / avg) if avg else 1.0
+        if p in conf and conf[p] < 0.80:
+            w = max(w, 2.0)          # a photo / weak scan: little machine text, but the slowest page to read (measured)
+        elif sizes[p] >= 15:
+            w = max(w, 0.8)          # a page with questions is never a light page
+        out[p] = max(0.3, w)
+    return out
+
+
+def chunks_by_work(pages: list[int], weights: dict[int, float], per: int) -> list[list[int]]:
+    """Consecutive pages grouped so each chunk carries about `per` average pages of work."""
+    out: list[list[int]] = []
+    load = 0.0
+    for p in sorted(set(pages)):
+        if out and p == out[-1][-1] + 1 and load + weights.get(p, 1.0) <= per * 1.15:
+            out[-1].append(p)
+            load += weights.get(p, 1.0)
+        else:
+            out.append([p])
+            load = weights.get(p, 1.0)
+    if len(out) > 1 and sum(weights.get(p, 1.0) for p in out[-1]) < per / 3 and out[-1][0] == out[-2][-1] + 1:
+        tail = out.pop()
+        out[-1] += tail
+    return out
 
 
 def chunks_for(pages: list[int] | int, per: int) -> list[list[int]]:
@@ -181,6 +264,7 @@ SCHEMA = """{
     {
       "page": 7,
       "number": 12,
+      "exam": "Final 2023",
       "case": "",
       "stem": "exactly as printed",
       "options": {"A": "as printed", "B": "...", "C": "...", "D": "..."},
@@ -193,6 +277,7 @@ SCHEMA = """{
     {
       "page": 9,
       "number": 13,
+      "exam": "Final 2023",
       "case": "",
       "stem": "Define: ketolysis",
       "options": {},
@@ -216,15 +301,19 @@ def _what_to_read(module: Module, src: dict[str, Any], fmt: str, pages: list[int
         return (f"Read this PDF (every page; it has a text layer, but the PAGE IMAGE is what counts):\n  {pdf}\n"
                 f"  ({mapping}{extra}). Always write SOURCE page numbers in the JSON.")
     pdir = tdir(module, src) / "pages"
-
-    def entry(p: int, label: str = "") -> str:
+    lines = "\n".join(f"  - page {p}: {pdir / f'p{p:03d}.png'}" for p in pages)
+    ctx = f"\n  - page {context} (context only): {pdir / f'p{context:03d}.png'}" if context else ""
+    # the OCR text goes inside the brief, not in extra files: every file a worker opens is one more slow step
+    drafts = []
+    for p in pages + ([context] if context else []):
         txt = pdir / f"p{p:03d}.txt"
-        hint = f"\n      OCR text of that page (a draft with errors — correct it against the image): {txt}" \
-            if txt.exists() else ""
-        return f"  - page {p}{label}: {pdir / f'p{p:03d}.png'}{hint}"
-    lines = "\n".join(entry(p) for p in pages)
-    ctx = "\n" + entry(context, " (context only)") if context else ""
-    return f"Read these page images (open every one; zoom into small or pen-marked areas):\n{lines}{ctx}"
+        if txt.exists():
+            body = re.sub(r"\n{3,}", "\n\n", txt.read_text(encoding="utf-8")).strip()[:5000]
+            drafts.append(f"----- page {p}: OCR draft (has errors; the image is the truth) -----\n{body}")
+    draft = ("\n\nOCR drafts of the same pages — start from them and correct every word against the image:\n"
+             + "\n".join(drafts)) if drafts else ""
+    return (f"Read these page images (open every one; zoom into small or pen-marked areas):\n{lines}{ctx}"
+            f"{draft}")
 
 
 def brief(module: Module, src: dict[str, Any], k: int, n_chunks: int, pages: list[int], context: int | None,
@@ -276,6 +365,8 @@ Rules:
    if none is printed, write a complete, exam-standard model answer from medical knowledge with
    model_answer_source "derived" (keep numbered points as "1. … 2. …").
 8. `figure`: true when the stem needs a picture, graph or table on the page to be answered.
+   `exam`: the title and year of the exam this question belongs to, as printed in that exam's header (e.g.
+   "Final 2023", "MED 2019", "Date: 22/5/2023") — a file can hold several exams; null when none is printed.
 9. BEFORE FINISHING, count on the pages (not in your JSON) how many questions start on your pages and write it
    as `printed_count`; if it differs from the number of entries in `questions`, find and fix the difference.
 10. Do not run any other command, do not edit markdown or state; the coordinator ingests your JSON.
@@ -291,7 +382,9 @@ def key_brief(module: Module, src: dict[str, Any], key_pages: list[int], out: Pa
 
 {_what_to_read(module, src, fmt, key_pages, None, pdf)}
 
-These pages hold the file's printed answer key. Write ONE file, and nothing else: {out}
+These pages hold a printed answer key (they may also hold questions — ignore those). Write ONE file, and
+nothing else: {out}
+Open ONLY the files listed above; do not run programs.
 JSON: {KEY_SCHEMA}
 - One object per numbering section, in the order the key prints them (a key that restarts at 1 starts a new
   section); keys are the printed question numbers, values the printed letter (A–F, uppercase).
@@ -331,37 +424,46 @@ def prepare(module: Module, src: dict[str, Any], per: int = PAGES_PER_CHUNK, dpi
     d = tdir(module, src)
     d.mkdir(parents=True, exist_ok=True)
     old = load_json(d / "manifest.json") or {}
-    key_pages = key_pages if key_pages is not None else old.get("key_pages") or []
+    if key_pages is None:
+        key_pages = old.get("key_pages") if "key_pages" in old and old.get("keys_auto") is False \
+            else detect_key_pages(module, src)
+        auto = True
+    else:
+        auto = False
     only = sorted(only_pages) if only_pages is not None else old.get("pages_only")
-    wanted = [p for p in (only or range(1, total + 1)) if p not in key_pages]
+    # key pages stay in the chunks too: a key table often shares its page with questions
+    wanted = list(only or range(1, total + 1))
     same = old.get("chunks") and old.get("pages") == total and old.get("pages_only") == only \
         and old.get("format", "png") == fmt
-    chunks = [c["pages"] for c in old["chunks"]] if same else chunks_for(wanted, per)
+    chunks = [c["pages"] for c in old["chunks"]] if same else \
+        chunks_by_work(wanted, page_weights(module, src, wanted), per)
     manifest = {"nn": src["nn"], "source": src["rel"], "pages": total, "created": old.get("created") or now(),
-                "format": fmt, "key_pages": key_pages, "pages_only": only, "chunks": []}
+                "format": fmt, "key_pages": key_pages, "keys_auto": auto, "pages_only": only, "chunks": []}
     if fmt == "png":
         need = {p for c in chunks for p in c} | {c[-1] + 1 for c in chunks if c[-1] < total} | set(key_pages)
         render_pages(module, src, sorted(need), dpi=dpi)
     for k, pages in enumerate(chunks, 1):
         out = d / f"chunk_{k:02d}.json"
-        context = pages[-1] + 1 if pages[-1] < total and (pages[-1] + 1) not in key_pages else None
+        context = pages[-1] + 1 if pages[-1] < total else None
         pdf = None
         if fmt == "pdf":
             pdf = d / f"chunk_{k:02d}.pdf"
             if not pdf.exists() or not same:
                 chunk_pdf(module, src, pages + ([context] if context else []), pdf)
         b = d / f"chunk_{k:02d}.brief.txt"
-        b.write_text(brief(module, src, k, len(chunks), pages, context, out, fmt, pdf, bool(key_pages)),
+        b.write_text(brief(module, src, k, len(chunks), pages, context, out, fmt, pdf, False),
                      encoding="utf-8")
         manifest["chunks"].append({"k": k, "pages": pages, "brief": str(b), "out": str(out)})
-    if key_pages:
+    # one small job per run of key pages; each key is applied to the exam printed before it
+    manifest["keys"] = []
+    for j, group in enumerate(chunks_for(key_pages, 3) if key_pages else [], 1):
         kpdf = None
         if fmt == "pdf":
-            kpdf = d / "key.pdf"
-            chunk_pdf(module, src, key_pages, kpdf)
-        kb = d / "key.brief.txt"
-        kb.write_text(key_brief(module, src, key_pages, d / "key.json", fmt, kpdf), encoding="utf-8")
-        manifest["key"] = {"brief": str(kb), "out": str(d / "key.json")}
+            kpdf = d / f"key_{j:02d}.pdf"
+            chunk_pdf(module, src, group, kpdf)
+        kb = d / f"key_{j:02d}.brief.txt"
+        kb.write_text(key_brief(module, src, group, d / f"key_{j:02d}.json", fmt, kpdf), encoding="utf-8")
+        manifest["keys"].append({"pages": group, "brief": str(kb), "out": str(d / f"key_{j:02d}.json")})
     dump_json(d / "manifest.json", manifest)
     enable(module, src)
     return manifest
@@ -426,11 +528,15 @@ def _record(q: dict[str, Any], c: dict[str, Any], keep_ar: bool, texts: dict[int
     if fuzz and texts.get(page - 1) and len(norm_stem(stem)) > 25:
         if fuzz.partial_ratio(norm_stem(stem)[:80], texts[page - 1]) < 70:
             flags.append("transcript_not_in_page_text")
-    if q.get("figure"):
+    from .check import AUDIT
+    if q.get("figure") or AUDIT.FIGURE.search(stem):     # the gate's own figure test: no stem slips past
         flags.append("figure_dependent")
     num = q.get("number")
     num = int(num) if isinstance(num, (int, str)) and str(num).strip().isdigit() else None
+    exam = str(q.get("exam") or "").strip()
+    yr = re.findall(r"(?<!\d)((?:19|20)\d{2})(?!\d)", exam)
     return {"i": 0, "number": num, "section": None, "type": qtype, "stem": stem, "case": case,
+            "exam": exam or None, "year": int(yr[-1]) if yr else None,
             "after": "", "exp": exp, "exp_source": exp_source if exp else None, "inline_answer": None,
             "options": options, "flags": flags, "cut_prefix": "", "page": page - 1, "bbox": None,
             "pages": [page - 1], "candidates": {}, "correct": correct, "answer_source": source}
@@ -472,9 +578,11 @@ def load(module: Module, src: dict[str, Any], profile: dict[str, Any],
             mismatch.append(f"chunk {c['k']} (pages {c['pages'][0]}-{c['pages'][-1]}): worker counted {pc} on the "
                             f"pages but wrote {len(qs)}")
         trecs += [_record(q, c, keep_ar, texts, fuzz) for q in qs]
-    key = manifest.get("key")
-    if key and not Path(key["out"]).exists():
-        missing.append("answer-key job (key.json)")
+    keys = list(manifest.get("keys") or []) + ([dict(manifest["key"], pages=manifest.get("key_pages") or [])]
+                                               if manifest.get("key") else [])
+    for kj in keys:
+        if not Path(kj["out"]).exists():
+            missing.append(f"answer-key job (pages {','.join(map(str, kj['pages']))})")
     # merge with the parsed pages (stable: parser order within a page, then transcript order)
     records = sorted([(r["page"], 0, i, r) for i, r in enumerate(base or [])]
                      + [(r["page"], 1, i, r) for i, r in enumerate(trecs)], key=lambda x: x[:3])
@@ -505,8 +613,8 @@ def load(module: Module, src: dict[str, Any], profile: dict[str, Any],
                 r["flags"].append(f"number_repeated_{n}")
             sections[-1][1] = max(last, n)
         r["section"] = len(sections) - 1
-    if key and Path(key["out"]).exists():
-        _apply_key(records, json.loads(Path(key["out"]).read_text(encoding="utf-8")), len(sections))
+    _apply_keys(records, [(min(kj["pages"] or [10 ** 6]), json.loads(Path(kj["out"]).read_text(encoding="utf-8")))
+                          for kj in keys if Path(kj["out"]).exists()])
     # the same question printed twice in one source (a compilation repeating an exam, a model-answer copy and
     # a student copy): keep the first, drop the rest with a reason — the counters account for them
     seen: dict[str, int] = {}
@@ -537,28 +645,60 @@ def load(module: Module, src: dict[str, Any], profile: dict[str, Any],
             "info": {"method": "transcribe" if not base else "transcribe+parse"}}
 
 
-def _apply_key(records: list[dict[str, Any]], key: dict[str, Any], n_sections: int) -> None:
-    """The separately read key wins over marks and knowledge (provenance order key > marked > derived);
-    a disagreement with a visible mark is flagged. A key with fewer sections than the questions is applied
-    only when both have one section."""
-    secs = key.get("sections") if isinstance(key.get("sections"), list) else [key.get("key") or {}]
-    if len(secs) != max(n_sections, 1):
-        for r in records:
-            if r["type"] == "QCS" and not r.get("correct"):
-                r["flags"].append("key_sections_do_not_match")
-        return
+def _apply_keys(records: list[dict[str, Any]], keys: list[tuple[int, dict[str, Any]]]) -> None:
+    """Apply printed keys (each read by its own job) to the exam each belongs to.
+
+    Keys are taken in page order. A key at page K answers the numbering sections that start after the
+    previous key page and before K (the exam printed before its key — a section starting on page K itself
+    belongs to the next exam). When those hold less than half of the key's numbers (pages scanned out of
+    order), the sections after K up to the next key are added. A key with several sections (a key restarting
+    at 1) maps them in page order. The key wins over marks and knowledge (key > marked > derived); a
+    disagreement with a visible mark is flagged."""
+    starts: dict[int, int] = {}
     for r in records:
-        if r["type"] != "QCS" or r["number"] is None:
+        if r.get("section") is not None:
+            starts[r["section"]] = min(starts.get(r["section"], 10 ** 6), r["page"] + 1)
+    keys = sorted(keys, key=lambda k: k[0])
+    used: set[int] = set()
+    prev = 0
+    for n, (page, key) in enumerate(keys):
+        nxt = keys[n + 1][0] if n + 1 < len(keys) else 10 ** 6
+        secs = key.get("sections") if isinstance(key.get("sections"), list) else [key.get("key") or {}]
+        secs = [{int(k): str(v).strip().upper().rstrip(".") for k, v in (sk or {}).items() if str(k).isdigit()}
+                for sk in secs]
+        secs = [sk for sk in secs if sk]
+        if not secs:
+            prev = page
             continue
-        letter = str((secs[r["section"] or 0] or {}).get(str(r["number"]), "")).strip().upper()
-        if not letter:
-            continue
-        if letter not in {o["letter"] for o in r["options"]}:
-            r["flags"].append("key_letter_not_among_options")
-            continue
-        if r.get("answer_source") == "marked" and r.get("correct") and r["correct"] != letter:
-            r["flags"].append("answer_sources_disagree")
-        r["correct"], r["answer_source"] = letter, "key"
+        nums = set().union(*secs)
+        before = sorted((st, idx) for idx, st in starts.items() if prev <= st < page and idx not in used)
+        have = {r["number"] for r in records if r.get("section") in {i for _, i in before}}
+        cand = before
+        if len(nums & have) < 0.5 * len(nums):
+            cand = before + sorted((st, idx) for idx, st in starts.items() if page < st < nxt and idx not in used)
+        # each key number answers ONE section: the closest to the key — the latest before it, else the earliest
+        # after it — so an older exam with the same numbers earlier in the file is left alone
+        order = [idx for _, idx in sorted(before, reverse=True)] + [idx for st, idx in cand if st > page]
+        secnums = {idx: {r["number"] for r in records if r.get("section") == idx} for idx in order}
+        flat = {k: v for sk in secs for k, v in sk.items()}       # several key sections → by number, nearest wins
+        target_of: dict[int, int] = {}
+        for num in flat:
+            hit = next((idx for idx in order if num in secnums[idx]), None)
+            if hit is not None:
+                target_of[num] = hit
+        targets = set(target_of.values())
+        for r in records:
+            if r["type"] != "QCS" or r["number"] is None or target_of.get(r["number"]) != r.get("section"):
+                continue
+            letter = flat[r["number"]]
+            if letter not in {o["letter"] for o in r["options"]}:
+                r["flags"].append("key_letter_not_among_options")
+                continue
+            if r.get("answer_source") == "marked" and r.get("correct") and r["correct"] != letter:
+                r["flags"].append("answer_sources_disagree")
+            r["correct"], r["answer_source"] = letter, "key"
+        used |= set(targets)
+        prev = page
 
 
 def status(module: Module, src: dict[str, Any]) -> str:
@@ -567,8 +707,7 @@ def status(module: Module, src: dict[str, Any]) -> str:
         return f"{src['nn']}: no transcript"
     done = [c for c in m["chunks"] if Path(c["out"]).exists()]
     left = [f"{c['k']}(p{c['pages'][0]}-{c['pages'][-1]})" for c in m["chunks"] if not Path(c["out"]).exists()]
-    if m.get("key") and not Path(m["key"]["out"]).exists():
-        left.append("key")
+    left += [f"key(p{','.join(map(str, k['pages']))})" for k in m.get("keys") or [] if not Path(k["out"]).exists()]
     scope = f"pages {','.join(map(str, m['pages_only']))} of {m['pages']}" if m.get("pages_only") else f"{m['pages']} pages"
     return (f"{src['nn']}: {len(done)}/{len(m['chunks'])} chunks transcribed, {scope}"
             + (f" — left: {' '.join(left)}" if left else " — ready: `parse --only " + src["nn"] + "`"))
@@ -626,10 +765,10 @@ def cmd_transcribe(args) -> int:
         m = prepare(module, src, per=args.pages_per, dpi=args.dpi, key_pages=keys, fmt=args.format,
                     only_pages=only)
         todo = [c["brief"] for c in m["chunks"] if not Path(c["out"]).exists()]
-        if m.get("key") and not Path(m["key"]["out"]).exists():
-            todo.append(m["key"]["brief"])
+        todo += [k["brief"] for k in m.get("keys") or [] if not Path(k["out"]).exists()]
         scope = f"pages {_spec(m['pages_only'])} of {m['pages']}" if m.get("pages_only") else f"{m['pages']} pages"
-        print(f"[+] {src['nn']}: {scope} → {len(m['chunks'])} chunk(s){' + key job' if m.get('key') else ''}, "
+        keys = f" + {len(m['keys'])} key job(s) (key pages {_spec(m['key_pages'])})" if m.get("keys") else ""
+        print(f"[+] {src['nn']}: {scope} → {len(m['chunks'])} chunk(s){keys}, "
               f"{len(todo)} brief(s) to run ({args.format})")
         briefs += todo
     print(f"[=] {len(briefs)} brief(s) — dispatch them all in parallel, one worker each:")

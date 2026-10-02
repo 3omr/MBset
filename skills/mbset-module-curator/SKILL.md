@@ -112,18 +112,21 @@ screenshots, OCR < 0.80, > 30 % of questions need review) or `transcribe pages �
 rest stays parsed). Run the printed commands. Never repair a transcribe-route file question by question.
 
 **Step 4 — transcription by workers.** `python3 $S transcribe "$M" --only NN [--pages …] [--key-pages P]
-[--format pdf]` cuts the pages into 6-page chunks with one self-contained brief each: `png` (default) gives
-page images plus each page's OCR text as a draft to correct; `pdf` gives chunks of the ocrmypdf copy, only
-for workers whose file tool reads PDFs (Antigravity reads images only — use png); `--key-pages` sends a
-key printed apart to one small key job instead of every chunk. Dispatch the briefs to the worker the user
+[--format pdf]` cuts the pages into chunks of about 6 pages of work (dense or weakly-OCRed pages count more)
+with one self-contained brief each: `png` (default) gives page images with each page's OCR draft inside the
+brief; `pdf` gives chunks of the ocrmypdf copy, only for workers whose file tool reads PDFs (Antigravity reads
+images only — use png). Answer-key pages are **found automatically** (or `--key-pages`) and each is read by a
+one-minute key job, applied to the exam printed before it. Dispatch the briefs to the worker the user
 chose (§0, [`references/workers.md`](./references/workers.md)), effort high: Claude subagents — one background
 `Agent` call per brief, all at once; a delegate CLI — `python3 $S dispatch "$M" --only NN` (3 at a time,
-retries briefs whose JSON is missing; shared logins drop at high parallelism). Workers write
-verbatim questions, `case` for shared scenarios, answers with provenance, model answers and a
-`printed_count`. Then `transcribe "$M" --status` → `parse "$M" --only NN`.
+retries briefs whose JSON is missing, starts staggered; shared logins drop at high parallelism). Workers
+write verbatim questions, `case` for shared scenarios, the `exam` (→ per-question Year), answers with
+provenance, model answers and a `printed_count`. Then `transcribe "$M" --status` → `parse "$M" --only NN`.
 
-**Step 5 — what is left.** `python3 $S worklist "$M"` lists only what still needs eyes (unclean text,
-unanswered MCQs, written questions without a model answer) with crops; big files are split into question
+**Step 5 — what is left.** `python3 $S consensus "$M"` → `dispatch` → `consensus --apply`: every `derived`
+answer gets an independent, text-only second answer (cheap: no images); disagreements become
+`derived_disputed`. `python3 $S worklist "$M"` lists only what still needs eyes (unclean text, unanswered or
+disputed MCQs, written questions without a model answer) with crops; big files are split into question
 ranges. Dispatch all worklists at once (effort high; max for parts with model answers), then
 `worklist "$M" --apply`. Figures: `figures "$M" --only NN`.
 

@@ -438,6 +438,67 @@ class ExtractionV3Tests(unittest.TestCase):
         self.assertEqual(taxonomy.suggest(tax, "Raw_PDF_Questions/Final 2022.pdf")["tag"], "Exams, Final 2022")
 
 
+class AccuracyV4Tests(unittest.TestCase):
+    def test_key_pairs_in_rows_and_direct_pairs(self):
+        from mbset.transcribe import key_pairs
+        grid = " ".join(str(i) for i in range(1, 16)) + "\n" + "B A C B A C D B D C C C D C B"
+        self.assertEqual(key_pairs(grid), 15)
+        self.assertGreaterEqual(key_pairs("1-B 2-C 3) a 4. D 5=e 6-B 7-C 8-A 9-B 10-C"), 10)
+        self.assertLess(key_pairs("1. Which of the following is true? a. One b. Two c. Three"), 5)
+
+    def _rec(self, page, num, sec, src="derived", correct="A"):
+        return {"page": page - 1, "number": num, "section": sec, "type": "QCS", "flags": [],
+                "options": [{"letter": L, "text": L} for L in "ABCD"], "correct": correct, "answer_source": src}
+
+    def test_each_key_answers_the_exam_printed_before_it(self):
+        from mbset.transcribe import _apply_keys
+        old = [self._rec(5, n, 0) for n in range(1, 6)]          # an older exam with the same numbers
+        exam1 = [self._rec(10, n, 1) for n in range(1, 6)]       # the exam the first key belongs to
+        exam2 = [self._rec(21, n, 2) for n in range(1, 6)]       # starts on the key page itself
+        recs = old + exam1 + exam2
+        k1 = (21, {"sections": [{str(n): "B" for n in range(1, 6)}]})
+        k2 = (30, {"sections": [{str(n): "C" for n in range(1, 6)}]})
+        _apply_keys(recs, [k2, k1])
+        self.assertEqual({r["correct"] for r in old}, {"A"})        # untouched
+        self.assertEqual({(r["correct"], r["answer_source"]) for r in exam1}, {("B", "key")})
+        self.assertEqual({(r["correct"], r["answer_source"]) for r in exam2}, {("C", "key")})
+
+    def test_key_after_shuffled_pages_and_marked_conflict(self):
+        from mbset.transcribe import _apply_keys
+        after = [self._rec(42, n, 0, "marked", "D") for n in range(1, 9)]
+        _apply_keys(after, [(41, {"sections": [{str(n): "B" for n in range(1, 9)}]})])
+        self.assertEqual({r["answer_source"] for r in after}, {"key"})
+        self.assertIn("answer_sources_disagree", after[0]["flags"])
+
+    def test_figure_word_flags_and_exam_year(self):
+        from mbset.transcribe import _record
+        c = {"k": 1, "pages": [3]}
+        r = _record({"page": 3, "number": 1, "stem": "In the figure below, which enzyme acts here?",
+                     "options": {"A": "x", "B": "y"}, "exam": "Date: 22/5/2023"}, c, False, {}, None)
+        self.assertIn("figure_dependent", r["flags"])
+        self.assertEqual(r["year"], 2023)
+
+    def test_consensus_marks_disagreements(self):
+        import argparse, io, contextlib, json
+        from mbset import consensus
+        recs = [{"type": "QCS", "stem": f"Question number {i} about enzymes", "pages": [0], "correct": "A",
+                 "answer_source": "derived", "options": [{"letter": L, "text": L} for L in "ABCD"]} for i in (1, 2)]
+        with tempfile.TemporaryDirectory() as tmp:
+            module = Module(tmp)
+            src = {"nn": "01", "rel": "Raw_PDF_Questions/s.pdf", "md": "01_S.md", "status": "parsed"}
+            module.markdown.mkdir(parents=True)
+            module.md_path(src).write_text(render(src, recs), encoding="utf-8")
+            module.save({"sources": [src]})
+            ns = lambda **k: argparse.Namespace(module=tmp, only=None, apply=False, **k)
+            with contextlib.redirect_stdout(io.StringIO()):
+                consensus.cmd_consensus(ns())
+                self.assertTrue((consensus.cdir(module) / "01.brief.txt").exists())
+                (consensus.cdir(module) / "01.json").write_text(json.dumps({"answers": {"1": "A", "2": "C"}}))
+                consensus.cmd_consensus(argparse.Namespace(module=tmp, only=None, apply=True))
+            disp = Module(tmp).load()["sources"][0]["disputed"]
+            self.assertEqual(list(disp.values()), ["A vs C"])
+
+
 class DispatchTests(unittest.TestCase):
     def test_runs_pending_briefs_and_retries_missing_ones(self):
         import argparse, io, contextlib, json
@@ -458,7 +519,7 @@ class DispatchTests(unittest.TestCase):
             flag = Path(tmp) / "tried"
             cmd = (f"if [ -f {flag} ]; then echo '{{}}' > $(dirname {{brief}})/chunk_02.json; "
                    f"else touch {flag}; fi")
-            args = argparse.Namespace(module=tmp, only=None, parallel=2, retries=1, effort="high", dispatch=cmd)
+            args = argparse.Namespace(module=tmp, only=None, parallel=2, retries=1, effort="high", dispatch=cmd, stagger=0)
             out = io.StringIO()
             with contextlib.redirect_stdout(out):
                 rc = dispatch.cmd_dispatch(args)
