@@ -80,6 +80,11 @@ def parse_source(module: Module, state: dict[str, Any], src: dict[str, Any], for
         counters = raw_counters(lines, profile)
         gaps, dropped_lines, skipped = parser.gaps, parser.dropped, parser.skipped
     applied = overrides.apply(src, records)
+    disputed = src.get("disputed") or {}
+    for r in records:            # a derived answer the independent second opinion disagreed with (consensus)
+        if disputed and r["type"] == "QCS" and r.get("answer_source") == "derived" \
+                and overrides.key(r["stem"]) in disputed:
+            r["flags"].append("derived_disputed")
     if profile.get("transcribe") and t.get("duplicates"):
         applied.setdefault("dropped", []).extend(t["duplicates"])
     report["answered"] = sum(1 for r in records if r["type"] == "QCS" and r.get("correct"))

@@ -80,6 +80,13 @@ def build(module: Module, state: dict[str, Any], selector: str | None) -> list[d
         if not md.exists() or not module.parsed_path(src).exists():
             continue
         it = items(md)
+        # derived answers the second opinion disputed (consensus) get a careful second look
+        from .overrides import key as stem_key
+        disputed = src.get("disputed") or {}
+        if disputed:
+            for n, stem in re.findall(r"^### Q(\d+):\s*(.*)$", md.read_text(encoding="utf-8"), re.M):
+                if stem_key(stem) in disputed and int(n) not in {x for x, _ in it["answer"]}:
+                    it["answer"].append((int(n), f"disputed {disputed[stem_key(stem)]}"))
         gaps = [g for g in (load_json(module.parsed_path(src)) or {}).get("gaps", []) if "missing" in g]
         entry = {"nn": src["nn"], "file": Path(src["rel"]).name, "md": str(md),
                  "text": it["text"], "answer": [n for n, _ in it["answer"]], "model": [n for n, _ in it["model"]],

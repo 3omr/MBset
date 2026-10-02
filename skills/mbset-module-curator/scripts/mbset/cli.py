@@ -762,8 +762,9 @@ def build_parser() -> argparse.ArgumentParser:
     add("status", cmd_status, "one line per source", only=False)
     p = add("run", cmd_run, "inventory → OCR → parse → check in one go", only=False)
     p.add_argument("--jobs", type=int, default=2); p.add_argument("--workers", type=int, default=4)
-    from . import crossdup, dispatch, doctor, init, lectures, report, telegram, tidy, transcribe, worklist
-    for extra in (init, tidy, report, doctor, crossdup, lectures, worklist, transcribe, dispatch, telegram):
+    from . import consensus, crossdup, dispatch, doctor, init, lectures, report, telegram, tidy, transcribe, worklist
+    for extra in (init, tidy, report, doctor, crossdup, lectures, worklist, transcribe, dispatch, consensus,
+                  telegram):
         extra.register(sub)
     return ap
 
