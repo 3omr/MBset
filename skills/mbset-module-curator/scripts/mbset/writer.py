@@ -80,6 +80,8 @@ def render(src: dict[str, Any], records: list[dict[str, Any]], title: str | None
         if r.get("case"):
             # a scenario shared by several questions (→ Cas column); each question repeats it verbatim
             out.append(f"**Case:** {' '.join(r['case'].split())}")
+        if r.get("year"):
+            out.append(f"**Year:** {r['year']}")      # per question: a file may hold exams of several years
         if r.get("image"):
             out.append(f"**Image:** {r['image']}")
         pages = ", ".join(str(p + 1) for p in r.get("pages", []))

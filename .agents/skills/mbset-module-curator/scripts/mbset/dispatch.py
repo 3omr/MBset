@@ -34,8 +34,9 @@ def pending(module: Module, state: dict[str, Any], selector: str | None) -> list
         for c in m["chunks"]:
             if not Path(c["out"]).exists():
                 out.append((c["brief"], Path(c["out"])))
-        if m.get("key") and not Path(m["key"]["out"]).exists():
-            out.append((m["key"]["brief"], Path(m["key"]["out"])))
+        for k in m.get("keys") or []:
+            if not Path(k["out"]).exists():
+                out.append((k["brief"], Path(k["out"])))
     return out
 
 
@@ -51,15 +52,25 @@ def cmd_dispatch(args) -> int:
     logs = module.meta / "work" / "dispatch"
     logs.mkdir(parents=True, exist_ok=True)
 
+    import threading
+    gate = threading.Lock()
+    last = [0.0]
+
     def run(item: tuple[str, Path]) -> tuple[str, bool, float]:
         brief, out = item
+        with gate:                           # stagger the starts: simultaneous logins refresh one token at once
+            wait = last[0] + getattr(args, "stagger", 0) - time.time()
+            if wait > 0:
+                time.sleep(wait)
+            last[0] = time.time()
         t0 = time.time()
         cmd = fill_template(template, brief=shlex.quote(brief), repo=shlex.quote(str(repo)), effort=args.effort)
         with open(logs / (Path(brief).stem + ".log"), "a", encoding="utf-8") as log:
             subprocess.run(cmd, shell=True, stdout=log, stderr=subprocess.STDOUT)
         return brief, out.exists(), time.time() - t0
 
-    todo = pending(module, state, args.only)
+    from .consensus import pending as consensus_pending
+    todo = pending(module, state, args.only) + consensus_pending(module)
     if not todo:
         print("[=] nothing pending")
         return 0
@@ -86,5 +97,6 @@ def register(sub) -> None:
     p.add_argument("--parallel", type=int, default=3, help="briefs at once (shared logins dislike many)")
     p.add_argument("--retries", type=int, default=2, help="extra rounds for briefs whose JSON is still missing")
     p.add_argument("--effort", default="high")
+    p.add_argument("--stagger", type=float, default=20, help="seconds between two starts (default 20)")
     p.add_argument("--dispatch", help="worker command with {brief} {repo} {effort} (default: saved at init)")
     p.set_defaults(fn=cmd_dispatch)

@@ -106,7 +106,9 @@ def render(module: Module, src: dict[str, Any], flagged_first: bool = False, n: 
                     if png.exists():
                         left = Image.open(png).convert("RGB")
                         left = left.resize((620, int(left.height * 620 / left.width)))
-                block = blocks.get(r["stem"]) or f"(not found in markdown) Q{r['i']}: {r['stem']}"
+                # multi-line stems (written questions) are keyed by their first line, as the heading shows them
+                first = (r["stem"].splitlines() or [""])[0].strip()
+                block = blocks.get(r["stem"]) or blocks.get(first) or f"(not found in markdown) Q{r['i']}: {r['stem']}"
                 text_lines = [f"[parsed #{r['i']} · source no. {r['number']} · page {r['page'] + 1}"
                               f"{' · ' + ','.join(r['flags']) if r['flags'] else ''}]"] + _panel_text(block)
                 h_text = 20 * len(text_lines) + 10
