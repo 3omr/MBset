@@ -1,7 +1,0 @@
-# Parser profile for 40 — أسئلة endocrine قديمه...pdf
-# class=scanned pages=7 has_text=False columns=None bold_ratio=0.0 mark_rects=18
-# signals={'moodle': 0, 'docreader_quiz': None, 'phone': 0, 'question_numbers': 0, 'option_lines': 0, 'grid_pairs_tail': 0, 'declared_total': None, 'figure_words': 0}
-# Only fields that differ from the template/DEFAULT are needed. Field reference:
-#   .agents/skills/mbset-module-curator/references/profiles.md
-source: Raw_PDF_Questions/أسئلة endocrine قديمه...pdf
-template: scanned

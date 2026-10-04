@@ -1,9 +1,0 @@
-# Parser profile for 23 — 1st Endo Formative  (22-23).PDF
-# class=digital_single pages=8 has_text=True columns=1 bold_ratio=0.09 mark_rects=8
-# signals={'moodle': 0, 'docreader_quiz': None, 'phone': 0, 'question_numbers': 0, 'option_lines': 44, 'grid_pairs_tail': 1, 'declared_total': None, 'figure_words': 0}
-# Only fields that differ from the template/DEFAULT are needed. Field reference:
-#   .agents/skills/mbset-module-curator/references/profiles.md
-source: Raw_PDF_Questions/1st Endo Formative  (22-23).PDF
-template: digital_single
-skip_patterns:
-  - 'Microsoft'

@@ -1,7 +1,0 @@
-# Parser profile for 14 — Lippincott_Illustrated Reviews_Pharmacology_7th(2019) export.pdf
-# class=digital_single pages=2 has_text=True columns=1 bold_ratio=0.01 mark_rects=0
-# signals={'moodle': 0, 'docreader_quiz': None, 'phone': 0, 'question_numbers': 1, 'option_lines': 20, 'grid_pairs_tail': 1, 'declared_total': None, 'figure_words': 1}
-# Only fields that differ from the template/DEFAULT are needed. Field reference:
-#   .agents/skills/mbset-module-curator/references/profiles.md
-source: Raw_PDF_Questions/Lippincott_Illustrated Reviews_Pharmacology_7th(2019) export.pdf
-template: digital_single

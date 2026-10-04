@@ -1,9 +1,0 @@
-# Parser profile for 06 — introduction questions منير.pdf
-# class=digital_two_column pages=3 has_text=True columns=2 bold_ratio=0.25 mark_rects=0
-# signals={'moodle': 0, 'docreader_quiz': None, 'phone': 0, 'question_numbers': 27, 'option_lines': 104, 'grid_pairs_tail': 30, 'declared_total': None, 'figure_words': 0}
-# Only fields that differ from the template/DEFAULT are needed. Field reference:
-#   .agents/skills/mbset-module-curator/references/profiles.md
-source: Raw_PDF_Questions/introduction questions منير.pdf
-template: digital_two_column
-columns: 2
-options_inline: true

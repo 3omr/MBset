@@ -1,8 +1,0 @@
-# Parser profile for 12 — Khalsa Surgery I Formatives.pdf
-# class=phone_screenshots pages=13 has_text=True columns=1 bold_ratio=0.23 mark_rects=9
-# signals={'moodle': 0, 'docreader_quiz': None, 'phone': 4, 'question_numbers': 19, 'option_lines': 0, 'grid_pairs_tail': 0, 'declared_total': None, 'figure_words': 0}
-# Only fields that differ from the template/DEFAULT are needed. Field reference:
-#   .agents/skills/mbset-module-curator/references/profiles.md
-source: Raw_PDF_Questions/Khalsa Surgery I Formatives.pdf
-template: moodle_review
-text: best

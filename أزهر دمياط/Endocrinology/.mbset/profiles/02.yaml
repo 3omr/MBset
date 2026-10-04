@@ -1,7 +1,0 @@
-# Parser profile for 02 — Endocrine WRITTEN Qs part.3.pdf
-# class=scanned pages=15 has_text=False columns=None bold_ratio=0.16 mark_rects=20
-# signals={'moodle': 0, 'docreader_quiz': None, 'phone': 0, 'question_numbers': 34, 'option_lines': 13, 'grid_pairs_tail': 0, 'declared_total': None, 'figure_words': 0}
-# Only fields that differ from the template/DEFAULT are needed. Field reference:
-#   .agents/skills/mbset-module-curator/references/profiles.md
-source: Raw_PDF_Questions/Endocrine WRITTEN Qs part.3.pdf
-template: scanned

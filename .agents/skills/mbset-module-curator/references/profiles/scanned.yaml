@@ -1,6 +1,0 @@
-# Image-only PDF: read the cached Tesseract OCR (run `mbset.py ocr` first).
-# Columns are re-detected from OCR coordinates. Highlights are read from pixel colour ("tint").
-text: ocr
-columns: auto
-answers:
-  marked_by: [highlight, fill, tint, ink, circle, box]

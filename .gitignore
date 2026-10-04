@@ -1,60 +1,21 @@
-# Whitelist: only curation logic and text deliverables are versioned.
+# This repository holds the mbset-module-curator skill only.
+# Module folders, raw sources, banks and personal files stay on the owner's machine, never here.
 /*
 !/.gitignore
-!/AGENTS.md
-!requirements*.txt
-!/skills-lock.json
-!/scripts/
-!/.agents/
+!/README.md
 !/skills/
+/skills/*
+!/skills/mbset-module-curator/
 !/tests/
-!/أزهر دمياط/
-!/اسيوط/
+/tests/*
+!/tests/test_mbset.py
+!/tests/test_mbset_maintenance.py
+!/tests/test_lectures.py
+!/tests/test_tidy_report.py
+!/scripts/
+/scripts/*
+!/scripts/sync_skill.sh
 
-# binaries and raw sources are never versioned
-*.pdf
-*.PDF
-*.png
-*.PNG
-*.jpg
-*.jpeg
-*.webp
-*.pptx
-*.ppt
-*.docx
-*.doc
-*.zip
-*.rar
-*.7z
-*.txt
-!requirements*.txt
 __pycache__/
 *.pyc
-.venv*/
-
-# heavy working folders inside modules
-Raw_PDF_Questions/
-OCR_PDF/
-OCR_Text/
-Telegram_Staging/
-Lectures*/
-Lecture_PowerPoint_PDF_Staging/
-**/.mbset/work/
-**/.mbset/ocr/
-**/.mbset/ocrpdf/
-**/.mbset/transcripts/*/pages/
-**/.mbset/transcripts/*/*.pdf
-**/.mbset/cache/
-**/.mbset/locks/
-**/.mbset/state.lock
-**/.mbset/*.tmp
-**/.mbset/reports/*.png
-*.ppsx
-*.ndjson
-*.mp4
-
-# tidy moves removed items here (restorable, never versioned)
-_trash/
-**/.mbset/archive/
-**/.mbset/packets/
-**/.mbset/state.pre-*.json
+.venv/
