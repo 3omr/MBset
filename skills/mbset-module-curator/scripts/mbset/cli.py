@@ -400,6 +400,8 @@ def cmd_set(args) -> int:
             src.pop("exclusion", None)
         if args.count_note:
             src["count_note"] = args.count_note
+        if args.question_year:
+            src["question_year"] = args.question_year          # applied by the next `parse`
         print(f"[+] {src['nn']}: status={src.get('status')} tags={tags}")
     module.save(state)
     return 0
@@ -769,6 +771,8 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--confirm", action="store_true", help="accept the suggested tag as is")
     p.add_argument("--exclude", metavar="REASON"); p.add_argument("--include", action="store_true")
     p.add_argument("--count-note", help="explain an accepted counter mismatch")
+    p.add_argument("--question-year", choices=["file", "printed"],
+                   help="the user's choice when the exam header's year differs from the file's year")
     p.set_defaults(fn=cmd_set)
     add("renumber", cmd_renumber, "give duplicate NN a fresh index and rename their markdown", only=False)
     p = add("check", cmd_check, "Stage 2+3 gate: problems only; exit 1 on hard failures")
