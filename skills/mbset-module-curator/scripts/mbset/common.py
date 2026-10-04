@@ -68,8 +68,8 @@ def dispatch_lines(briefs: list[str], repo: Path | str, effort: str, template: s
         return []
     if not template:
         return [f"    {b}" for b in briefs] + [
-            f"    (worker not set: ask the user which worker runs these {len(briefs)} brief(s) — see SKILL.md "
-            f"'Choosing the worker' — then pass --dispatch '<cmd with {{brief}}>' or set MBSET_DISPATCH; "
+            f"    (worker not set: ask the user which worker runs these {len(briefs)} brief(s) — see "
+            f"references/workers.md — then pass --dispatch '<cmd with {{brief}}>' or set MBSET_DISPATCH; "
             f"suggested effort: {effort})"]
     return [f"    {fill_template(template, brief=b, repo=repo, effort=effort)}" for b in briefs]
 

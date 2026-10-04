@@ -479,6 +479,23 @@ class AccuracyV4Tests(unittest.TestCase):
         self.assertIn("figure_dependent", r["flags"])
         self.assertEqual(r["year"], 2023)
 
+    def test_question_year_is_the_users_choice(self):
+        from mbset.transcribe import _question_years
+        from mbset.check import check_question_years
+        recs = [{"year": 2025}, {"year": 2025}]
+        _question_years(recs, None)
+        self.assertEqual([r["year"] for r in recs], [2025, 2025])        # printed year kept by default
+        _question_years(recs, "file")
+        self.assertEqual([r["year"] for r in recs], [None, None])          # the file's year applies
+        with tempfile.TemporaryDirectory() as tmp:
+            module = Module(tmp)
+            src = {"nn": "04", "md": "04_End.md", "tags": {"tag": "Exams, End 2026"}}
+            module.markdown.mkdir(parents=True)
+            module.md_path(src).write_text("### Q1: x\n\n**Year:** 2025\n", encoding="utf-8")
+            self.assertEqual(len(check_question_years(module, src)), 1)      # asks the user
+            src["question_year"] = "printed"
+            self.assertEqual(check_question_years(module, src), [])
+
     def test_consensus_marks_disagreements(self):
         import argparse, io, contextlib, json
         from mbset import consensus

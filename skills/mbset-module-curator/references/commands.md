@@ -38,7 +38,7 @@ M="My University/Endocrinology"     # any module folder with Raw_PDF_Questions/
 | `figures "$M" [--only] [--q]` | crop figures for figure-dependent stems (embedded image or drawing nearest to the stem, else the question region) | `Images/NN_Qi.png`, linked; contact sheet |
 | `spotcheck "$M" [--only] [--flagged] [--n]` | max(5, 10%) samples spread over the file: source crop beside markdown | `.mbset/reports/spotcheck_NN_k.png` |
 | `review "$M" NN --spot "6/6 OK" [--note]` | record the spot-check verdict | state |
-| `set "$M" NN --tag … --subject … --year … --confirm` | confirm / correct tags (`--exclude REASON`, `--include`, `--count-note`) | state |
+| `set "$M" NN --tag … --subject … --year … --confirm` | confirm / correct tags (`--exclude REASON`, `--include`, `--count-note`, `--question-year file|printed` — the user's choice when the exam header year differs from the file year) | state |
 | `renumber "$M"` | resolve duplicate NN prefixes: renames the markdown, moves its sha-matched parsed/OCR evidence, renames its `Images/<old>_*` crops to `<new>_*` and rewrites those paths in the markdown, parsed JSON and stored `fix --image` decisions (an image linked by both sources is left in place and reported) | files renamed |
 | `check "$M" [--only] [--all] [--quiet] [--json f]` | the Stage 2+3 gate; exit 1 on hard failures | `.mbset/reports/check_DATE.md` |
 | `catalog "$M"` | `00_CATALOG_OF_ALL_FILES.md` + `tag_map.json` generated from state (old catalog backed up) | markdown |

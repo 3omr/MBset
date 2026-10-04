@@ -59,7 +59,8 @@ files are always split; workers write JSON only; gates decide.
    `consensus --apply` / `review "$M" --auto`. `worklist "$M"` gathers what is left (unclean text, spot-check
    differences, unanswered or disputed MCQs, missing model answers), split for parallel reviewers →
    `worklist --apply`. Figures: `figures "$M"`.
-6. **Gates**: `check "$M"` until 0 hard failures; `set NN --confirm` (tags) / `--count-note`.
+6. **Gates**: `check "$M"` until 0 hard failures; `set NN --confirm` (tags) / `--count-note`; an exam
+   header year that differs from the file's year → ask the user → `set NN --question-year file|printed`.
 7. **Deliver**: `catalog` → `build` (Excel + validate + audit) → `report`; tell the user the derived counts.
 
 Single fixes: `fix "$M" NN --text-file | --answers "3=B" --source marked | --model-file | --drop N --reason |

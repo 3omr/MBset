@@ -689,6 +689,7 @@ def load(module: Module, src: dict[str, Any], profile: dict[str, Any],
         seen.setdefault(k, r["page"])
         kept.append(r)
     records = kept
+    _question_years(records, src.get("question_year"))
     for i, r in enumerate(records, 1):
         r["i"] = i
 
@@ -727,6 +728,15 @@ def _copied(module: Module, src: dict[str, Any], manifest: dict[str, Any], keep_
                                                                             f"copied_from_{ref['nn']}_p{ref['page']}"])
             out.append(rec)
     return out
+
+
+def _question_years(records: list[dict[str, Any]], choice: str | None) -> None:
+    """Each question keeps the year printed in its exam header, unless the user chose the file's year for this
+    source (`set NN --question-year file`): a header date can differ from the tag year (End 2026 is printed
+    "27/12/2025"), and only the user decides which one is right — `check` asks."""
+    if choice == "file":
+        for r in records:
+            r["year"] = None
 
 
 def _apply_keys(records: list[dict[str, Any]], keys: list[tuple[int, dict[str, Any]]]) -> None:
