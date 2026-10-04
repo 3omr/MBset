@@ -207,6 +207,23 @@ def check_tags(src: dict[str, Any], year_free: tuple[str, ...] | list[str] = YEA
     return hard, review
 
 
+def check_question_years(module: Module, src: dict[str, Any]) -> list[str]:
+    """One printed exam year that differs from the file's year (header "27/12/2025" on End 2026) is the user's
+    call, never the agent's: hard until `set NN --question-year file|printed`."""
+    md = module.md_path(src)
+    if src.get("question_year") or not md.exists():
+        return []
+    printed = set(re.findall(r"^\*\*Year:\*\*\s*(\d{4})\s*$", md.read_text(encoding="utf-8"), re.M))
+    tags = src.get("tags", {}) or {}
+    m = YEAR_IN_TAG.search(tags.get("tag") or "")
+    file_year = str(tags.get("year") or (m.group(0) if m else "") or "")
+    if len(printed) == 1 and file_year and printed != {file_year}:
+        y = printed.pop()
+        return [f"{src['nn']}: exam header says {y}, file/tag says {file_year} — ASK THE USER which year the "
+                f"questions carry, then `mbset.py set {src['nn']} --question-year file|printed` and `parse`"]
+    return []
+
+
 def check_module(module: Module, state: dict[str, Any], selector: str | None = None) -> dict[str, Any]:
     hard: list[str] = []
     review: list[str] = []
@@ -219,6 +236,7 @@ def check_module(module: Module, state: dict[str, Any], selector: str | None = N
         review += [f"{src['nn']} {src['md']}: {r}" for r in res["review"]]
         if src.get("status") != "excluded":
             t_hard, t_review = check_tags(src, module.taxonomy["year_free"] or ())
+            t_hard += check_question_years(module, src)
             hard += t_hard
             review += t_review
     if not selector:

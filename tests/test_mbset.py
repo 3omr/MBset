@@ -12,7 +12,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
-SCRIPTS = Path(__file__).resolve().parents[1] / ".agents/skills/mbset-module-curator/scripts"
+SCRIPTS = next(p for p in (Path(__file__).resolve().parents[1] / d / "mbset-module-curator/scripts"
+                for d in (".agents/skills", "skills")) if p.exists())
 sys.path.insert(0, str(SCRIPTS))
 
 from mbset import answers, overrides  # noqa: E402
@@ -478,6 +479,23 @@ class AccuracyV4Tests(unittest.TestCase):
         self.assertIn("figure_dependent", r["flags"])
         self.assertEqual(r["year"], 2023)
 
+    def test_question_year_is_the_users_choice(self):
+        from mbset.transcribe import _question_years
+        from mbset.check import check_question_years
+        recs = [{"year": 2025}, {"year": 2025}]
+        _question_years(recs, None)
+        self.assertEqual([r["year"] for r in recs], [2025, 2025])        # printed year kept by default
+        _question_years(recs, "file")
+        self.assertEqual([r["year"] for r in recs], [None, None])          # the file's year applies
+        with tempfile.TemporaryDirectory() as tmp:
+            module = Module(tmp)
+            src = {"nn": "04", "md": "04_End.md", "tags": {"tag": "Exams, End 2026"}}
+            module.markdown.mkdir(parents=True)
+            module.md_path(src).write_text("### Q1: x\n\n**Year:** 2025\n", encoding="utf-8")
+            self.assertEqual(len(check_question_years(module, src)), 1)      # asks the user
+            src["question_year"] = "printed"
+            self.assertEqual(check_question_years(module, src), [])
+
     def test_consensus_marks_disagreements(self):
         import argparse, io, contextlib, json
         from mbset import consensus
@@ -497,6 +515,51 @@ class AccuracyV4Tests(unittest.TestCase):
                 consensus.cmd_consensus(argparse.Namespace(module=tmp, only=None, apply=True))
             disp = Module(tmp).load()["sources"][0]["disputed"]
             self.assertEqual(list(disp.values()), ["A vs C"])
+
+
+class V5Tests(unittest.TestCase):
+    def test_copied_page_takes_the_finished_questions_of_the_other_source(self):
+        import json
+        from mbset import transcribe
+        with tempfile.TemporaryDirectory() as tmp:
+            module = Module(tmp)
+            (module.meta / "parsed").mkdir(parents=True, exist_ok=True)
+            done = {"questions": [{"i": 1, "number": 7, "page": 14, "type": "QCS", "stem": "Copied stem here",
+                                   "options": [{"letter": "A", "text": "x"}, {"letter": "B", "text": "y"}],
+                                   "correct": "B", "answer_source": "key", "flags": ["transcribed"]}]}
+            (module.meta / "parsed" / "01.json").write_text(json.dumps(done), encoding="utf-8")
+            missing = []
+            recs = transcribe._copied(module, {"nn": "02"}, {"copies": {"3": {"nn": "01", "page": 15}}},
+                                      False, {}, None, missing)
+            self.assertEqual(missing, [])
+            self.assertEqual((recs[0]["page"], recs[0]["correct"], recs[0]["answer_source"]), (2, "B", "key"))
+            self.assertIn("copied_from_01_p15", recs[0]["flags"])
+            from mbset.common import review_flags
+            self.assertEqual(review_flags(recs[0]["flags"]), [])
+
+    def test_worker_spot_check_verdicts(self):
+        import json
+        from mbset import spotcheck
+        with tempfile.TemporaryDirectory() as tmp:
+            module = Module(tmp)
+            spotcheck.sdir(module).mkdir(parents=True)
+            f = spotcheck.sdir(module) / "01.json"
+            f.write_text(json.dumps({"verdicts": {"Q1": "OK", "Q2": "OK"}}), encoding="utf-8")
+            self.assertEqual(spotcheck.worker_verdict(module, {"nn": "01"}), ("2/2 OK (worker spot check)", []))
+            f.write_text(json.dumps({"verdicts": {"Q1": "OK", "Q2": "DIFF: option C says X"}}), encoding="utf-8")
+            v, diffs = spotcheck.worker_verdict(module, {"nn": "01"})
+            self.assertIsNone(v)
+            self.assertEqual(diffs, ["Q2: DIFF: option C says X"])
+
+
+class OcrBestOfTests(unittest.TestCase):
+    def test_flattened_light_only_when_clearly_better(self):
+        from mbset.ocr import _better
+        line = lambda c: {"text": "word", "conf": c}
+        self.assertTrue(_better([line(0.7)] * 60, []))                    # base read nothing
+        self.assertFalse(_better([line(0.55)] * 70, [line(0.66)] * 46))   # more lines but less sure
+        self.assertTrue(_better([line(0.75)] * 40, [line(0.70)] * 42))
+        self.assertFalse(_better([line(0.80)] * 20, [line(0.70)] * 42))   # lost half the lines
 
 
 class DispatchTests(unittest.TestCase):
@@ -519,13 +582,36 @@ class DispatchTests(unittest.TestCase):
             flag = Path(tmp) / "tried"
             cmd = (f"if [ -f {flag} ]; then echo '{{}}' > $(dirname {{brief}})/chunk_02.json; "
                    f"else touch {flag}; fi")
-            args = argparse.Namespace(module=tmp, only=None, parallel=2, retries=1, effort="high", dispatch=cmd, stagger=0)
+            args = argparse.Namespace(module=tmp, only=None, parallel=[2], retries=1, effort="high", dispatch=[cmd], stagger=0)
             out = io.StringIO()
             with contextlib.redirect_stdout(out):
                 rc = dispatch.cmd_dispatch(args)
             self.assertEqual(rc, 0, out.getvalue())
             self.assertIn("round 2: 1 brief", out.getvalue())
             self.assertTrue((d / "chunk_02.json").exists())
+
+    def test_two_pools_share_one_queue(self):
+        import argparse, io, contextlib, json
+        from mbset import dispatch, transcribe
+        with tempfile.TemporaryDirectory() as tmp:
+            module = Module(tmp)
+            module.save({"sources": [{"nn": "01", "rel": "Raw_PDF_Questions/s.pdf", "md": "01_S.md"}]})
+            d = transcribe.tdir(module, {"nn": "01"})
+            d.mkdir(parents=True)
+            chunks = []
+            for k in range(1, 7):
+                b = d / f"chunk_0{k}.brief.txt"
+                b.write_text("brief", encoding="utf-8")
+                chunks.append({"k": k, "pages": [k], "brief": str(b), "out": str(d / f"chunk_0{k}.json")})
+            (d / "manifest.json").write_text(json.dumps({"pages": 6, "chunks": chunks}), encoding="utf-8")
+            mk = lambda tag: f"echo '{{\"pool\": \"{tag}\"}}' > $(echo {{brief}} | sed 's/.brief.txt/.json/')"
+            args = argparse.Namespace(module=tmp, only=None, parallel=[2, 1], retries=0, effort="high",
+                                      dispatch=[mk("a"), mk("b")], stagger=0)
+            out = io.StringIO()
+            with contextlib.redirect_stdout(out):
+                self.assertEqual(dispatch.cmd_dispatch(args), 0, out.getvalue())
+            pools = {json.loads((d / f"chunk_0{k}.json").read_text())["pool"] for k in range(1, 7)}
+            self.assertEqual(pools, {"a", "b"})
 
 
 class WorklistSplitTests(unittest.TestCase):

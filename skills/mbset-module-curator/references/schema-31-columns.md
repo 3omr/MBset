@@ -80,3 +80,35 @@ difficulty, importance, subcategoryId, subcategoryName, tagSuggere, Year, Tag, r
 | — | `explanationImage`, `A_EXP`-`F_EXP`, `Hint`, `Note`, `ImageMasks`, `ExplanationImageMasks` | Add as `None` |
 
 Column **order** matters as much as the names: the canonical order above is what the validator enforces.
+
+---
+
+## Markdown format (what `build_module_template.py` parses)
+
+```markdown
+### Q1: <clean stem>
+
+- **A)** <option>
+- **B)** <option>
+
+**Correct Answer:** B
+**Answer Source:** key            <!-- key | marked | online | derived -->
+**Case:** <shared scenario>       <!-- only when several questions share it → Cas column -->
+**Image:** Images/05_Q1.png       <!-- only when figure-dependent -->
+**Source Pages:** 3
+**EXP:** <explanation>            <!-- MCQ only -->
+
+---
+
+### Q2: <written question>
+
+**Correct Answer:** -
+**Answer Source:** key            <!-- key (printed) | derived (written from knowledge) -->
+**Source Pages:** 4
+**Model Answer:** <full model answer> <!-- → ModelAnswer column; Correct and EXP stay empty -->
+
+---
+```
+Written questions have no options, `**Correct Answer:** -` and the model answer in `**Model Answer:**`.
+Older markdown files carry it as `**EXP:**`; the builder reads both, so they are never rewritten for this —
+a re-parse or `fix --model-file` writes the new label.

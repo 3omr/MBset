@@ -55,7 +55,7 @@ def save_config(cfg: dict[str, Any]) -> None:
 # figure stems). They stay in the evidence but never put a question on the review list.
 INFO_FLAGS = {"added_from_page_image", "text_corrected_visual", "decision_matched_fuzzy", "number_inferred",
               "number_from_stem", "unnumbered", "no_answer", "figure_dependent", "transcribed"}
-INFO_PREFIXES = ("number_corrected_from_",)
+INFO_PREFIXES = ("number_corrected_from_", "copied_from_")
 
 
 def dispatch_lines(briefs: list[str], repo: Path | str, effort: str, template: str | None = None) -> list[str]:
@@ -68,8 +68,8 @@ def dispatch_lines(briefs: list[str], repo: Path | str, effort: str, template: s
         return []
     if not template:
         return [f"    {b}" for b in briefs] + [
-            f"    (worker not set: ask the user which worker runs these {len(briefs)} brief(s) — see SKILL.md "
-            f"'Choosing the worker' — then pass --dispatch '<cmd with {{brief}}>' or set MBSET_DISPATCH; "
+            f"    (worker not set: ask the user which worker runs these {len(briefs)} brief(s) — see "
+            f"references/workers.md — then pass --dispatch '<cmd with {{brief}}>' or set MBSET_DISPATCH; "
             f"suggested effort: {effort})"]
     return [f"    {fill_template(template, brief=b, repo=repo, effort=effort)}" for b in briefs]
 
