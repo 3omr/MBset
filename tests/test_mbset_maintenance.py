@@ -241,6 +241,89 @@ class TelegramLinkTests(unittest.TestCase):
         self.assertIn("interactive", str(ctx.exception))
 
 
+class TelegramScanTests(unittest.TestCase):
+    """`telegram scan` follows links without Telegram: a fake fetch stands for the client."""
+
+    POSTS = {
+        ("chan", 1): {"text": "Endocrine module: lectures https://t.me/chan/2 and exams https://t.me/c/77/5, "
+                            "drive https://drive.google.com/x, join https://t.me/+AbC, channel https://t.me/other",
+                    "files": [{"name": "Final 2024.pdf", "size": 1000, "media_id": "document:9"}]},
+        ("chan", 2): {"text": "back to https://t.me/chan/1 and deeper https://t.me/chan/3",
+                    "links_hidden": ["https://t.me/chan/4"],
+                    "files": [{"name": "Lec1.pdf", "size": 50, "media_id": "document:1"},
+                              {"name": "Lec2.pdf", "size": 60, "media_id": "document:2", "mid": 6, "via": "album"}]},
+        (-10077, 5): {"text": "", "files": [{"name": "final 2024.PDF", "size": 1000, "media_id": "document:9"},
+                                            {"name": "talk.mp4", "size": 9_000_000, "media_id": "document:5"}]},
+        ("chan", 3): {"text": "level 2 → https://t.me/chan/8", "files": [{"name": "Old.pdf", "size": 70}]},
+        ("chan", 4): {"text": "", "files": [{"name": "have.pdf", "size": 3}]},
+    }
+
+    def fetch(self, calls):
+        from mbset.telegram import links_in
+
+        async def fetch(chat, mid):
+            calls.append((chat, mid))
+            p = self.POSTS.get((chat, mid))
+            if p is None:
+                return {"chat": chat, "mid": mid, "error": "post not found"}
+            return {"chat": chat, "mid": mid, "text": p["text"], "links": links_in(p["text"], p.get("links_hidden")),
+                    "files": [{"chat": chat, "mid": mid, "via": "post", **f} for f in p["files"]]}
+        return fetch
+
+    def scan(self, depth=2, max_posts=300, raw=None):
+        import asyncio
+        from mbset.telegram import collect, crawl, summarize
+        calls = []
+        res = asyncio.run(crawl(collect(["https://t.me/chan/1"], None), self.fetch(calls), depth, max_posts))
+        return summarize(res, raw or Path("/nonexistent")), calls
+
+    def test_follows_links_once_lists_the_rest_and_downloads_nothing(self):
+        res, calls = self.scan()
+        self.assertEqual(len(calls), len(set(calls)))                       # every post fetched once
+        self.assertEqual(set(calls), {("chan", 1), ("chan", 2), (-10077, 5), ("chan", 3), ("chan", 4)})
+        reasons = " ".join(u["reason"] for u in res["unopened"])
+        for word in ("outside Telegram", "invite link", "without a post", "deeper than --depth 2"):
+            self.assertIn(word, reasons)
+        names = [f["name"] for f in res["files"]]
+        self.assertEqual(names, ["Final 2024.pdf", "Lec1.pdf", "Lec2.pdf", "final 2024.PDF", "talk.mp4",
+                                 "Old.pdf", "have.pdf"])
+        dup = next(f for f in res["files"] if f["name"] == "final 2024.PDF")
+        self.assertEqual(dup["dup_of"], 1)                                   # same Telegram media
+        self.assertEqual(next(f for f in res["files"] if f["name"] == "talk.mp4")["kind"], "video")
+        self.assertEqual(res["totals"]["duplicates"], 1)
+
+    def test_depth_and_max_posts_limit_the_walk(self):
+        res, calls = self.scan(depth=1)
+        self.assertNotIn(("chan", 3), calls)
+        res, calls = self.scan(max_posts=2)
+        self.assertEqual(len(calls), 2)
+        self.assertTrue(any("--max-posts" in u["reason"] for u in res["unopened"]))
+
+    def test_summary_marks_files_already_in_the_module_and_picks(self):
+        from mbset.telegram import from_scan, picks, render_scan
+        with tempfile.TemporaryDirectory() as tmp:
+            raw = Path(tmp)
+            (raw / "have.pdf").write_bytes(b"abc")
+            res, _ = self.scan(raw=raw)
+            self.assertTrue(next(f for f in res["files"] if f["name"] == "have.pdf")["have"])
+            md = render_scan(res)
+            self.assertIn("Nothing has been downloaded", md)
+            self.assertIn("duplicate of #1", md)
+            self.assertIn("already in Raw_PDF_Questions", md)
+            self.assertIn("probably not questions", md)
+            self.assertEqual(picks("1,3-4, 9", 5), {1, 3, 4})
+            got = from_scan(res, None, "video")                              # duplicate, have, video left out
+            self.assertEqual([(c, m) for _, c, m in got], [("chan", 1), ("chan", 2), ("chan", 6), ("chan", 3)])
+            self.assertEqual([(c, m) for _, c, m in from_scan(res, "2", None)], [("chan", 2)])
+
+    def test_links_in_reads_text_hidden_links_and_buttons_once(self):
+        from mbset.telegram import classify_link, links_in
+        self.assertEqual(links_in("see https://t.me/a/1, and https://t.me/a/1.", ["https://t.me/a/2", None]),
+                         ["https://t.me/a/1", "https://t.me/a/2"])
+        self.assertEqual(classify_link("https://t.me/a/1-200")[0], "skip")   # big ranges are not crawled
+        self.assertEqual(classify_link("https://t.me/c/5/9"), ("post", [(-1005, 9)]))
+
+
 class UniversityTests(unittest.TestCase):
     def test_saved_university_wins_over_the_path(self):
         with tempfile.TemporaryDirectory() as tmp:

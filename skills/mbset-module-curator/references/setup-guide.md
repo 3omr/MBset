@@ -77,6 +77,21 @@ python3 <skill>/scripts/mbset.py inventory "$M"
 - Files land in `$M/Raw_PDF_Questions/`; posts already downloaded are skipped, identical files are kept
   once. `--dry-run` lists the posts without logging in.
 
+**3.4 One message that links to many others — scan first, then choose**
+
+```bash
+python3 <skill>/scripts/mbset.py telegram scan "$M" https://t.me/somechannel/120   # downloads nothing
+python3 <skill>/scripts/mbset.py telegram download "$M" --from-scan --pick 1,3-9 --skip-types video
+```
+
+- `scan` reads the post, its album and every Telegram link in it (written, hidden behind words, or on
+  buttons), then the posts those link to, two levels deep (`--depth`), each post once. `--comments` also
+  reads the post's comments.
+- It writes `$M/.mbset/telegram_scan.md`: where each file came from, its type and size, and which files are
+  duplicates or already in the module. Invite links, channel links and outside links (Drive, YouTube…) are
+  only listed: nothing is joined or opened.
+- The agent shows you that summary and downloads only the files you choose.
+
 To disconnect: delete `~/.config/mbset/telegram*` and, optionally, end the session in Telegram →
 Settings → Devices.
 
@@ -149,6 +164,9 @@ python3 <skill>/scripts/mbset.py telegram download "<فولدر الموديول
 - الملفات بتنزل في `Raw_PDF_Questions` جوه الموديول.
 - اللي نزل قبل كده مش بينزل تاني.
 - لو القناة أو الجروب برايفت وإنت عضو فيه: انسخ لينك البوست من "Copy Post Link" (هيبقى شكله `t.me/c/...`) واستخدمه عادي.
+- **رسالة فيها لينكات لرسايل تانية:** `telegram scan "<فولدر الموديول>" <لينك الرسالة>`. بيقرا الرسالة والألبوم وكل
+  لينك تليجرام جواها والرسايل اللي بتشاور عليها (لحد مستويين)، ومش بينزّل أي حاجة. بيعملك ملخص بكل ملف: جه منين،
+  نوعه، حجمه، متكرر ولا لأ. الـ agent يعرضه عليك، وبعد ما تختار: `telegram download … --from-scan --pick 1,3-9`.
 
 **5. أول تشغيل:** قول للـ agent: «استخدم سكيل mbset-module-curator على فولدر الموديول ده». أول مرة هيعمل تهيئة
 ويسألك أسئلة قليلة، والإجابات بتتحفظ فما بيسألش تاني:

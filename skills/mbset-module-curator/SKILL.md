@@ -42,8 +42,12 @@ answer the source gives — proven by `check` / `report`, never asserted.
 Scripts read what they can for free; workers read only what scripts cannot, in one pass per question; big
 files are always split; workers write JSON only; gates decide.
 
-1. **Sources** in `$M/Raw_PDF_Questions/` (`telegram download "$M" <links>`), then `inventory "$M"`
-   (archives expanded, byte-identical files dropped, tags suggested from the faculty's taxonomy).
+1. **Sources** in `$M/Raw_PDF_Questions/`, then `inventory "$M"` (archives expanded, byte-identical files
+   dropped, tags suggested from the faculty's taxonomy). A Telegram link from the user: `telegram scan "$M"
+   <link>` first (follows its album and every Telegram link inside, to `--depth 2`; downloads nothing) → show
+   the user the summary (`.mbset/telegram_scan.md`: where each file came from, type, size, duplicates) → ask
+   which files → `telegram download "$M" --from-scan [--pick 1,3-7] [--skip-types video,audio]`. Never
+   download before the user answers.
 2. **Machine reading**: `ocr "$M" --searchable` (Tesseract per page — weak photo pages retried with the light
    flattened — plus an `ocrmypdf --redo-ocr -O 3` copy) → `parse "$M"`.
 3. **Route**: `route "$M"` → per source `parse` (done), `transcribe` (whole file) or `transcribe pages …`.
