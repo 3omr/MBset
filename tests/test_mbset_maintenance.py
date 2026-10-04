@@ -18,7 +18,7 @@ from pathlib import Path
 from types import SimpleNamespace
 
 REPO = Path(__file__).resolve().parents[1]
-SCRIPTS = REPO / ".agents/skills/mbset-module-curator/scripts"
+SCRIPTS = next(p for p in (REPO / d / "mbset-module-curator/scripts" for d in (".agents/skills", "skills")) if p.exists())
 sys.path.insert(0, str(SCRIPTS))
 
 from mbset import catalog, check, inventory  # noqa: E402
@@ -198,6 +198,7 @@ class PacketBriefTests(unittest.TestCase):
             self.assertEqual(sorted(",".join(sorted(s["nn"] for s in g)) for g in bins), ["01", "02,03,04"])
 
 
+@unittest.skipUnless((REPO / "أزهر دمياط/renal/scripts/build_docreader_files.py").exists(), "module script not present")
 class DocReaderAnswerTests(unittest.TestCase):
     def test_missing_index_is_never_answer_a(self):
         path = REPO / "أزهر دمياط/renal/scripts/build_docreader_files.py"

@@ -1,4 +1,4 @@
-"""`tidy` — standardize a module folder to the AGENTS.md §2.E deliverables layout.
+"""`tidy` — standardize a module folder to the SKILL.md §3 deliverables layout.
 
 Dry run by default: prints a plan (action, path, size, reason) and writes it to
 ``.mbset/reports/tidy_<date>.md``. ``--apply`` never deletes anything: items are moved into

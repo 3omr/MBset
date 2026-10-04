@@ -15,7 +15,8 @@ import unittest
 from contextlib import redirect_stdout
 from pathlib import Path
 
-SCRIPTS = Path(__file__).resolve().parents[1] / ".agents/skills/mbset-module-curator/scripts"
+SCRIPTS = next(p for p in (Path(__file__).resolve().parents[1] / d / "mbset-module-curator/scripts"
+                for d in (".agents/skills", "skills")) if p.exists())
 sys.path.insert(0, str(SCRIPTS))
 
 from mbset import crossdup, doctor, report, tidy  # noqa: E402

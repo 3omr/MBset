@@ -1,4 +1,4 @@
-"""`mbset.py lectures` — the two-phase lecture/subcategory workflow (AGENTS.md §2.D).
+"""`mbset.py lectures` — the two-phase lecture/subcategory workflow (SKILL.md §3).
 
     lectures <Module> plan  --schedule FILE | --from-dir DIR   Phase 1: subcategories_<Module>.xlsx, ids empty → STOP
     lectures <Module> match --sources DIR [KIND=DIR ...]       Phase 2 dry run: official row → lecture source

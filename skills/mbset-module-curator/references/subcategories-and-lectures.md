@@ -1,6 +1,6 @@
 # Subcategories & Lecture Processing Guide
 
-Lectures follow the two-phase workflow (AGENTS.md §2.D). Every step runs through `mbset.py lectures`;
+Lectures follow the two-phase workflow (SKILL.md §3). Every step runs through `mbset.py lectures`;
 module-specific hand scripts are no longer needed.
 
 ```
