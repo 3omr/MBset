@@ -7,6 +7,14 @@ preview, so files come through Telegram's client API (Telethon) with the user's 
     mbset.py telegram status                    # credentials saved? session logged in? (no secrets shown)
     mbset.py telegram download "$M" URL…        # posts → $M/Raw_PDF_Questions/, then `inventory`
     mbset.py telegram download "$M" --links-file links.md   # every t.me link in a text/markdown file
+    mbset.py telegram scan "$M" URL… [--depth 2] [--comments]  # explore, download NOTHING → summary
+    mbset.py telegram download "$M" --from-scan [--pick 1,3-7] [--skip-types video,audio]
+
+`scan` follows a post, its album, every Telegram link in its text / hidden behind words / on its buttons
+(and optionally its comments), and the posts those link to, down to --depth, never visiting a post twice.
+It writes `.mbset/telegram_scan.json` + `telegram_scan.md`: a tree of where each file came from and a
+numbered table (name, type, size, post, duplicates, already in Raw_PDF_Questions). The agent shows that
+summary to the user and downloads only after the user says which files (`download --from-scan`).
 
 Supported links: public posts `https://t.me/<channel>/<id>`, ranges `https://t.me/<channel>/100-140`,
 and posts of private channels/groups the account has joined `https://t.me/c/<internal id>/<id>`.
@@ -249,7 +257,13 @@ async def _download(posts, out_dir: Path, manifest: dict[str, Any], save) -> tup
 
 def cmd_download(args) -> int:
     module = Module(args.module)
-    posts = collect(args.urls or [], Path(args.links_file) if args.links_file else None)
+    if getattr(args, "from_scan", False):
+        sp = module.meta / "telegram_scan.json"
+        if not sp.exists():
+            raise SystemExit("[-] no scan yet: `mbset.py telegram scan \"$M\" <links>` first")
+        posts = from_scan(json.loads(sp.read_text(encoding="utf-8")), args.pick, args.skip_types)
+    else:
+        posts = collect(args.urls or [], Path(args.links_file) if args.links_file else None)
     posts = posts[args.offset:]
     if args.limit:
         posts = posts[:args.limit]
@@ -275,8 +289,306 @@ def cmd_download(args) -> int:
     return 0 if not failed else 2
 
 
+# ------------------------------------------------------------------------------------------- scan
+KINDS = {"pdf": "pdf", "doc": "word", "docx": "word", "ppt": "slides", "pptx": "slides", "xls": "excel",
+         "xlsx": "excel", "zip": "archive", "rar": "archive", "7z": "archive", "jpg": "image", "jpeg": "image",
+         "png": "image", "webp": "image", "heic": "image", "mp4": "video", "mkv": "video", "mov": "video",
+         "mp3": "audio", "m4a": "audio", "ogg": "audio", "oga": "audio", "txt": "text", "md": "text"}
+NOT_QUESTIONS = ("video", "audio")
+
+
+def kind_of(name: str, mime: str | None = None) -> str:
+    ext = Path(name or "").suffix.lower().lstrip(".")
+    if ext in KINDS:
+        return KINDS[ext]
+    mime = (mime or "").lower()
+    for k in ("pdf", "image", "video", "audio"):
+        if k in mime:
+            return k
+    return "other"
+
+
+def links_in(text: str, extra: list[str] | None = None) -> list[str]:
+    """Every link of a post, in order, once: the ones written in the text, plus `extra` (links hidden behind
+    words — text-url entities — and on inline buttons)."""
+    out: list[str] = []
+    for u in re.findall(r"https?://[^\s)\]>},'\"]+", text or "") + [x for x in (extra or []) if x]:
+        u = u.rstrip(".,;:!?")
+        if u not in out:
+            out.append(u)
+    return out
+
+
+def classify_link(url: str) -> tuple[str, Any]:
+    """('post', [(chat, mid)…]) for a post link, else ('skip', reason) — channel/invite/outside links are only
+    listed, never opened (a scan never joins anything)."""
+    p = urlparse(url)
+    if p.netloc.lower() not in HOSTS:
+        return "skip", "outside Telegram — listed, not opened"
+    parts = [x for x in p.path.split("/") if x]
+    if parts and (parts[0].startswith("+") or parts[0].lower() == "joinchat"):
+        return "skip", "invite link — the account would have to join; not opened"
+    if parts and parts[0].lower() == "addlist":
+        return "skip", "folder link — not opened"
+    try:
+        posts = parse_url(url)
+    except ValueError:
+        return "skip", "channel/profile link without a post — not opened"
+    if len(posts) > 50:
+        return "skip", f"range of {len(posts)} posts — download it explicitly if wanted"
+    return "post", posts
+
+
+async def crawl(roots: list[tuple[str, str | int, int]], fetch, depth: int = 2, max_posts: int = 300
+                ) -> dict[str, Any]:
+    """Breadth-first over posts. `fetch(chat, mid)` (async) returns {"chat", "mid", "text", "links", "files",
+    "error"?}; files are {"name", "size", "mime", "media_id", "chat", "mid", "via"} (the post itself, its album,
+    its comments). Each post is fetched once; links deeper than `depth` are listed, not opened."""
+    queue: list[tuple[str | int, int, int, str | None, str]] = [(c, m, 0, None, u) for u, c, m in roots]
+    seen: set[tuple[str, int]] = set()
+    posts: list[dict[str, Any]] = []
+    files: list[dict[str, Any]] = []
+    unopened: list[dict[str, Any]] = []
+    while queue:
+        chat, mid, d, parent, url = queue.pop(0)
+        key = (str(chat), int(mid))
+        if key in seen:
+            continue
+        if len(posts) >= max_posts:
+            unopened.append({"url": url, "from": parent, "reason": f"--max-posts {max_posts} reached"})
+            continue
+        seen.add(key)
+        node = await fetch(chat, mid)
+        pkey = f"{chat}/{mid}"
+        post = {"key": pkey, "url": url, "depth": d, "parent": parent,
+                "text": " ".join((node.get("text") or "").split())[:160], "files": 0}
+        if node.get("error"):
+            post["error"] = node["error"]
+        posts.append(post)
+        for f in node.get("files") or []:
+            fk = (str(f.get("chat", chat)), int(f.get("mid", mid)), f.get("media_id") or f.get("name"))
+            if any((str(x["chat"]), int(x["mid"]), x.get("media_id") or x.get("name")) == fk for x in files):
+                continue                                  # an album member already reached from its sibling
+            seen.add(fk[:2])
+            files.append({**f, "chat": f.get("chat", chat), "mid": f.get("mid", mid), "post": pkey})
+            post["files"] += 1
+        for link in node.get("links") or []:
+            what, val = classify_link(link)
+            if what == "skip":
+                unopened.append({"url": link, "from": pkey, "reason": val})
+            elif d + 1 > depth:
+                unopened.append({"url": link, "from": pkey, "reason": f"deeper than --depth {depth}"})
+            else:
+                queue += [(c, m, d + 1, pkey, link) for c, m in val]
+    return {"posts": posts, "files": files, "unopened": unopened}
+
+
+def summarize(result: dict[str, Any], raw_dir: Path) -> dict[str, Any]:
+    """Number the files, mark kinds, duplicates (same Telegram media, or same name + size) and files already in
+    Raw_PDF_Questions (same name + size)."""
+    have = {(p.name.lower(), p.stat().st_size) for p in raw_dir.rglob("*") if p.is_file()} \
+        if raw_dir.exists() else set()
+    first: dict[Any, int] = {}
+    for n, f in enumerate(result["files"], 1):
+        f["n"] = n
+        f["kind"] = kind_of(f.get("name") or "", f.get("mime"))
+        ids = [k for k in (("m", f.get("media_id")) if f.get("media_id") else None,
+                           ("ns", (f.get("name") or "").lower(), f.get("size")) if f.get("name") else None) if k]
+        dup = next((first[k] for k in ids if k in first), None)
+        if dup:
+            f["dup_of"] = dup
+        for k in ids:
+            first.setdefault(k, n)
+        if f.get("name") and ((f["name"].lower(), f.get("size")) in have):
+            f["have"] = True
+    files = result["files"]
+    new = [f for f in files if not f.get("dup_of") and not f.get("have")]
+    result["totals"] = {"posts": len(result["posts"]), "files": len(files),
+                        "duplicates": sum(1 for f in files if f.get("dup_of")),
+                        "already_have": sum(1 for f in files if f.get("have")),
+                        "to_download": len(new), "to_download_bytes": sum(f.get("size") or 0 for f in new),
+                        "unopened_links": len(result["unopened"])}
+    return result
+
+
+def _size(b: int | None) -> str:
+    if not b:
+        return "?"
+    for unit in ("B", "KB", "MB", "GB"):
+        if b < 1024 or unit == "GB":
+            return f"{b:.0f} {unit}" if unit == "B" else f"{b:.1f} {unit}"
+        b /= 1024
+    return "?"
+
+
+def render_scan(result: dict[str, Any]) -> str:
+    t = result["totals"]
+    out = [f"# Telegram scan — {result.get('module', '')}", "",
+           f"Scanned {t['posts']} post(s): **{t['files']} file(s)** — {t['duplicates']} duplicate(s), "
+           f"{t['already_have']} already in Raw_PDF_Questions → **{t['to_download']} to download "
+           f"({_size(t['to_download_bytes'])})**. Nothing has been downloaded.", "", "## Where the files are", ""]
+    kids: dict[Any, list[dict[str, Any]]] = {}
+    for p in result["posts"]:
+        kids.setdefault(p["parent"], []).append(p)
+    by_post: dict[str, list[dict[str, Any]]] = {}
+    for f in result["files"]:
+        by_post.setdefault(f["post"], []).append(f)
+
+    def walk(parent: Any, level: int) -> None:
+        for p in kids.get(parent, []):
+            nums = ", ".join(f"#{f['n']}" for f in by_post.get(p["key"], []))
+            note = f" — ERROR: {p['error']}" if p.get("error") else ""
+            out.append(f"{'  ' * level}- `{p['key']}` {p['text'][:80]!r}" + (f" → files {nums}" if nums else "")
+                       + note)
+            walk(p["key"], level + 1)
+    walk(None, 0)
+    out += ["", "## Files", "", "| # | file | type | size | post | note |", "|---|---|---|---|---|---|"]
+    for f in result["files"]:
+        notes = []
+        if f.get("dup_of"):
+            notes.append(f"duplicate of #{f['dup_of']}")
+        if f.get("have"):
+            notes.append("already in Raw_PDF_Questions")
+        if f["kind"] in NOT_QUESTIONS:
+            notes.append("probably not questions")
+        if f.get("via") and f["via"] != "post":
+            notes.append(f"from {f['via']}")
+        out.append(f"| {f['n']} | {(f.get('name') or '?').replace('|', '/')} | {f['kind']} | {_size(f.get('size'))} | "
+                   f"`{f['chat']}/{f['mid']}` | {'; '.join(notes)} |")
+    if result["unopened"]:
+        out += ["", "## Links not opened", ""]
+        out += [f"- {u['url']} (in `{u['from']}`): {u['reason']}" for u in result["unopened"]]
+    out += ["", "Next: ask the user which files to import, then "
+            "`mbset.py telegram download \"$M\" --from-scan [--pick 1,3-7] [--skip-types video,audio]`."]
+    return "\n".join(out) + "\n"
+
+
+def _media_id(msg) -> Any:
+    for attr in ("document", "photo"):
+        obj = getattr(msg, attr, None)
+        if obj is not None and getattr(obj, "id", None):
+            return f"{attr}:{obj.id}"
+    return None
+
+
+def _file_of(msg, chat, via: str) -> dict[str, Any] | None:
+    if not getattr(msg, "media", None) or not getattr(msg, "file", None):
+        return None
+    f = msg.file
+    return {"name": f.name or f"telegram_{str(chat).lstrip('-')}_{msg.id}{f.ext or ''}", "size": f.size,
+            "mime": f.mime_type, "media_id": _media_id(msg), "chat": chat, "mid": msg.id, "via": via}
+
+
+def _hidden_links(msg) -> list[str]:
+    urls = [getattr(e, "url", None) for e in (getattr(msg, "entities", None) or [])]
+    markup = getattr(msg, "reply_markup", None)
+    for row in getattr(markup, "rows", None) or []:
+        for b in getattr(row, "buttons", []):          # older layers: button.url; newer: button.type.url
+            urls.append(getattr(b, "url", None) or getattr(getattr(b, "type", None), "url", None))
+    return [u for u in urls if u]
+
+
+async def _scan(roots, depth: int, max_posts: int, comments: bool) -> dict[str, Any]:
+    from telethon.errors import FloodWaitError, RPCError
+
+    client = _client()
+    await client.connect()
+    if not await client.is_user_authorized():
+        await client.disconnect()
+        raise SystemExit("[-] Telegram session not logged in — the user runs `mbset.py telegram setup`")
+    entities: dict[Any, Any] = {}
+
+    async def call(fn, *a, **k):
+        for _ in range(3):
+            try:
+                return await fn(*a, **k)
+            except FloodWaitError as e:
+                print(f"   Telegram asks to wait {e.seconds}s…")
+                await asyncio.sleep(int(e.seconds) + 2)
+        raise RuntimeError("Telegram kept asking to wait")
+
+    async def fetch(chat, mid) -> dict[str, Any]:
+        node: dict[str, Any] = {"chat": chat, "mid": mid, "text": "", "links": [], "files": []}
+        try:
+            if chat not in entities:
+                entities[chat] = await call(client.get_entity, chat)
+            ent = entities[chat]
+            msg = await call(client.get_messages, ent, ids=mid)
+            if not msg:
+                node["error"] = "post not found (deleted, or not visible to this account)"
+                return node
+            node["text"] = msg.message or ""
+            node["links"] = links_in(msg.message or "", _hidden_links(msg))
+            group = [msg]
+            if getattr(msg, "grouped_id", None):          # an album: its siblings sit next to it
+                near = await call(client.get_messages, ent, ids=list(range(max(1, mid - 10), mid + 11)))
+                group = [m for m in near if m and getattr(m, "grouped_id", None) == msg.grouped_id]
+                for m in group:
+                    if m.id != mid:
+                        node["links"] += [u for u in links_in(m.message or "", _hidden_links(m))
+                                          if u not in node["links"]]
+            node["files"] = [f for f in (_file_of(m, chat, "post" if m.id == mid else "album") for m in group) if f]
+            if comments and getattr(getattr(msg, "replies", None), "comments", False):
+                async for c in client.iter_messages(ent, reply_to=mid, limit=200):
+                    f = _file_of(c, c.chat_id, "comments")
+                    if f:
+                        node["files"].append(f)
+                    node["links"] += [u for u in links_in(c.message or "", _hidden_links(c)) if u not in node["links"]]
+        except (RPCError, ValueError, RuntimeError, TypeError) as exc:
+            node["error"] = f"{type(exc).__name__}: {exc}"
+        return node
+
+    try:
+        return await crawl(roots, fetch, depth=depth, max_posts=max_posts)
+    finally:
+        await client.disconnect()
+
+
+def cmd_scan(args) -> int:
+    module = Module(args.module)
+    roots = collect(args.urls or [], Path(args.links_file) if args.links_file else None)
+    if not roots:
+        raise SystemExit("[-] no Telegram links given (URLs or --links-file)")
+    result = asyncio.run(_scan(roots, args.depth, args.max_posts, args.comments))
+    result = summarize(result, module.raw)
+    result.update(module=module.name, at=now(), roots=args.urls or [], depth=args.depth)
+    module.meta.mkdir(parents=True, exist_ok=True)
+    (module.meta / "telegram_scan.json").write_text(json.dumps(result, ensure_ascii=False, indent=1),
+                                                     encoding="utf-8")
+    md = render_scan(result)
+    (module.meta / "telegram_scan.md").write_text(md, encoding="utf-8")
+    print(md)
+    print(f"[=] summary: {module.meta / 'telegram_scan.md'} — nothing downloaded; show it to the user and ask "
+          f"which files to import")
+    return 0
+
+
+def picks(spec: str | None, total: int) -> set[int]:
+    if not spec:
+        return set(range(1, total + 1))
+    out: set[int] = set()
+    for part in spec.split(","):
+        part = part.strip()
+        if not part:
+            continue
+        m = re.fullmatch(r"(\d+)(?:-(\d+))?", part)
+        if not m:
+            raise SystemExit(f"[-] --pick: not a number or range: {part!r}")
+        a, b = int(m.group(1)), int(m.group(2) or m.group(1))
+        out |= set(range(min(a, b), max(a, b) + 1))
+    return {n for n in out if 1 <= n <= total}
+
+
+def from_scan(scan: dict[str, Any], pick: str | None, skip_types: str | None) -> list[tuple[str, str | int, int]]:
+    """(url, chat, mid) of the chosen files: duplicates and files already in Raw_PDF_Questions left out."""
+    skip = {s.strip().lower() for s in (skip_types or "").split(",") if s.strip()}
+    want = picks(pick, len(scan["files"]))
+    return [(f"scan #{f['n']}", f["chat"], int(f["mid"])) for f in scan["files"]
+            if f["n"] in want and not f.get("dup_of") and not f.get("have") and f["kind"] not in skip]
+
+
 def register(sub) -> None:
-    p = sub.add_parser("telegram", help="fetch sources from Telegram posts (setup / status / download)")
+    p = sub.add_parser("telegram", help="fetch sources from Telegram posts (setup / status / scan / download)")
     tsub = p.add_subparsers(dest="tcmd", required=True)
     s = tsub.add_parser("setup", help="once per person, run by the user: API credentials + login")
     s.set_defaults(fn=cmd_setup)
@@ -289,4 +601,16 @@ def register(sub) -> None:
     s.add_argument("--offset", type=int, default=0)
     s.add_argument("--limit", type=int)
     s.add_argument("--dry-run", action="store_true", help="list the posts without logging in")
+    s.add_argument("--from-scan", action="store_true", help="download the files listed by the last `scan`")
+    s.add_argument("--pick", help="with --from-scan: file numbers from the summary, e.g. 1,3,5-9 (default all)")
+    s.add_argument("--skip-types", help="with --from-scan: kinds to leave out, e.g. video,audio")
     s.set_defaults(fn=cmd_download)
+    s = tsub.add_parser("scan", help="follow a post, its album and every Telegram link in it (to --depth) and "
+                                     "summarize the files — downloads nothing")
+    s.add_argument("module")
+    s.add_argument("urls", nargs="*", help="t.me post links")
+    s.add_argument("--links-file", help="any text/markdown file: every t.me link in it")
+    s.add_argument("--depth", type=int, default=2, help="link levels to follow (default 2)")
+    s.add_argument("--max-posts", type=int, default=300, help="stop after this many posts (default 300)")
+    s.add_argument("--comments", action="store_true", help="also read the files/links in the post's comments")
+    s.set_defaults(fn=cmd_scan)
